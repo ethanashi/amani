@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "case": "c3",
+      "grade": "8/8",
+      "pages": 2,
+      "overfullWarnings": 0,
+      "originalTaskReportGrade": true,
+      "blindIdentityCheck": true,
+      "dataHashes": true
+    },
+    {
+      "case": "c4",
+      "grade": "18/18",
+      "pages": 2,
+      "overfullWarnings": 0,
+      "originalTaskReportGrade": true,
+      "blindIdentityCheck": true,
+      "dataHashes": true
+    },
+    {
+      "case": "c1",
+      "grade": "14/16",
+      "pages": 2,
+      "overfullWarnings": 0,
+      "originalTaskReportGrade": true,
+      "blindIdentityCheck": true,
+      "dataHashes": true
+    },
+    {
+      "case": "c2",
+      "grade": "12/15",
+      "pages": 2,
+      "overfullWarnings": 0,
+      "originalTaskReportGrade": true,
+      "blindIdentityCheck": true,
+      "dataHashes": true
+    },
+    {
+      "case": "c5",
+      "grade": "7/9",
+      "pages": 2,
+      "overfullWarnings": 0,
+      "originalTaskReportGrade": true,
+      "blindIdentityCheck": true,
+      "dataHashes": true
+    }
+  ],
+  "aggregate": "59/66",
+  "localReadmeLinks": "passed"
+}

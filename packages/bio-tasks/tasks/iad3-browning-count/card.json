@@ -1,0 +1,18 @@
+{
+  "id": "iad3-browning-count",
+  "family": "reproduction",
+  "datasetManifestHash": "91f25ed69dfe79d06f7c6685e9f8f2c75e963e48465081e0ee966fbc7539a30d",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/iad3-browning-count/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0,
+    "relative": 0
+  },
+  "plantedFlaws": [],
+  "negativeControl": false,
+  "positiveControl": true,
+  "heldOut": false,
+  "seed": 6619240,
+  "capMinutes": 15,
+  "contaminated": false
+}

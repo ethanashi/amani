@@ -1,0 +1,80 @@
+{
+  "id": "plos-one",
+  "name": "PLOS ONE research article",
+  "version": "2026-10-13",
+  "csl": "plos.csl",
+  "caps": {
+    "total": 6000,
+    "abstract": 300,
+    "plainSummary": 200,
+    "authorSummary": 200,
+    "displays": 6,
+    "references": 80,
+    "sections": {
+      "introduction": 1000,
+      "methods": 2000,
+      "results": 1500,
+      "discussion": 1500,
+      "limitations": 600
+    },
+    "caption": 250,
+    "captions": 1000
+  },
+  "capBasis": "Project editorial budgets (not publisher-wide limits). PLOS abstract cap of 300 is publisher policy. Short format total includes all main text except references and title page. Separate main-display budget counts titles, captions and table cells; individual caption limits apply to main and supplementary displays. These are project editorial budgets.",
+  "abstractHeadings": [
+    "Question",
+    "Data",
+    "Design",
+    "Pre-registration",
+    "Primary result",
+    "Conclusion",
+    "Registration"
+  ],
+  "summaryLayers": [
+    "structured abstract",
+    "plain summary",
+    "Summary of findings",
+    "Author Summary"
+  ],
+  "doubleSpacing": true,
+  "lineNumbers": true,
+  "checklists": [
+    "GAMER",
+    "TRIPOD+AI open-science 18a-f",
+    "TOP 2025",
+    "SAGER",
+    "Methods-completeness"
+  ],
+  "policies": [
+    {
+      "id": "plos-format",
+      "kind": "editorial",
+      "url": "https://journals.plos.org/plosone/s/submission-guidelines",
+      "checkedAt": "2026-10-13",
+      "quote": "Manuscript text should be double-spaced.",
+      "verified": true,
+      "rule": "Double spacing; continuous line numbers; abstract at most 300 words; Vancouver references."
+    },
+    {
+      "id": "plos-mr",
+      "kind": "editorial",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337199",
+      "checkedAt": "2026-10-13",
+      "quote": "the validation of findings in, at minimum, a second independent dataset",
+      "verified": true,
+      "rule": "MR requires replicated status, second independent dataset and software literature-search sentence."
+    },
+    {
+      "id": "plos-ai",
+      "kind": "generative-ai",
+      "url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
+      "checkedAt": "2026-10-13",
+      "quote": "AI tools cannot be listed as authors.",
+      "verified": true,
+      "rule": "Disclose all AI research/content uses and validation; interpretation represents owner ideas; AI review is internal, never peer review."
+    }
+  ],
+  "feeNote": "PLOS publication charge may apply; check current fee and assistance at https://plos.org/publish/fees/ before owner submission.",
+  "displayPlacement": "after-references",
+  "defaultOutputProfile": "journal-review"
+}

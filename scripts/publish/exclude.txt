@@ -1,0 +1,88 @@
+# Paths removed from the public snapshot. One glob per line (node:fs glob syntax, relative to the
+# tree root). A directory pattern removes the directory. Blank lines and "#" lines are ignored.
+
+# Internal-only notes and reports
+docs/internal
+_logs
+**/_logs
+
+# Local state, caches, environments and credentials
+**/node_modules
+**/.pixi
+**/.integration
+**/.live-runs
+**/.scratch
+**/.claude
+**/.codex
+**/.DS_Store
+**/.env
+**/.env.*
+**/*.local.json
+**/*.local.md
+
+# Unpublished research topics: Tier C topic-specific data packages and scripts
+packages/tierc-data
+packages/*tierc-data*
+scripts/tierc-data*
+scripts/*/tierc-data*
+
+# Historical dry-run output from the plain-model baseline: machine paths, session transcripts
+packages/bio-baseline/results
+
+# Raw run logs: they carry absolute machine paths
+validation/**/*.log
+packages/*/reports/*.log
+packages/*/integration/**/*.log
+
+# Run outputs written by internal replay and live-smoke scripts (no test reads them; they carry
+# machine paths and the names of internal sessions)
+packages/bio-host/LIVE-ATTEMPT-*.json
+packages/omb-investigate/integration/fix4-live-summary.json
+packages/omb-investigate/integration/round3-live-smoke.json
+packages/omb-investigate/integration/fix4-output-replay.json
+packages/omb-investigate/integration/fix4-output-unpatched.json
+packages/omb-investigate/integration/fix4-p1-replay.json
+packages/omb-amani/integration/stack-*replay*.json
+validation/tierc-procs/round2/environment-probe
+validation/tierc-procs/round2/environment-probe.json
+validation/diag-integrate/c1-certified-summary.json
+validation/diag-integrate/c1-replay-summary.json
+
+# Over the 5 MB audit limit (encrypted sealed contract layers of one pilot task)
+packages/bio-tasks/contracts/w0-venet/private.json.enc
+packages/bio-tasks/contracts/w0-venet/public.json.enc
+
+# Development evidence, generated runs, selections and host-specific provenance
+race
+factory
+.tools
+validation
+**/BUILD-NOTES.md
+**/INTEGRATION-NOTES.md
+**/PROVENANCE.md
+**/REVIEW*.md
+**/FIX-*.md
+**/integration
+**/reports
+**/test
+**/tests
+**/.runs
+**/runs
+**/heldout
+**/held-out
+**/tierb
+**/tierb2
+
+# Historical UI/performance evidence and local validation adapters
+apps/amani-studio/screenshots
+packages/omb-report/*VALIDATION.json
+packages/omb-report/*RESULTS.json
+packages/omb-report/*results.json
+packages/omb-sched/MUTATIONS.json
+scripts/*.test.ts
+scripts/ci/test_*.py
+packages/omb-launcher/OSL-WIRE-VALIDATION.json
+
+# Keep citation software checks runnable with fictional rows in the published source.
+packages/omb-citation-suite/suite/public.jsonl
+!packages/omb-citation-suite/test

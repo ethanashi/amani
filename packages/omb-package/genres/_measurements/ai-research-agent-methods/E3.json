@@ -1,0 +1,346 @@
+{
+ "pmcid": "PMC12138853",
+ "doi": "10.1002/adma.202413523",
+ "pmid": "39696898",
+ "journal": "Advanced Materials (Deerfield Beach, Fla.)",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 11,
+ "licence": "This is an open access article under the terms of the http://creativecommons.org",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 228
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 57
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 1088
+  },
+  {
+   "heading": "Results and Discussion",
+   "canonical": "results",
+   "words": 4283,
+   "sub": [
+    {
+     "heading": "Multi‐Agent System for Graph Reasoning and Scientific Discovery",
+     "canonical": "other",
+     "words": 2614,
+     "sub": [
+      {
+       "heading": "1‐ Path Generation",
+       "canonical": "other",
+       "words": 330
+      },
+      {
+       "heading": "2‐ Deep Insights with LLM‐Based Analysis",
+       "canonical": "other",
+       "words": 211
+      },
+      {
+       "heading": "3‐ Research Hypothesis Generation and Expansion",
+       "canonical": "other",
+       "words": 1498
+      }
+     ]
+    },
+    {
+     "heading": "Autonomous Agentic Modeling",
+     "canonical": "other",
+     "words": 1552
+    }
+   ]
+  },
+  {
+   "heading": "Conclusion",
+   "canonical": "conclusions",
+   "words": 1305
+  },
+  {
+   "heading": "Experimental Section",
+   "canonical": "other",
+   "words": 2079,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 2079,
+     "sub": [
+      {
+       "heading": "Ontological Knowledge Graph",
+       "canonical": "other",
+       "words": 51
+      },
+      {
+       "heading": "Heuristic Pathfinding Algorithm with Random Waypoints",
+       "canonical": "other",
+       "words": 234
+      },
+      {
+       "heading": "Graph Reasoning—Initial Ideation",
+       "canonical": "other",
+       "words": 549
+      },
+      {
+       "heading": "Expansion of the Initial Concepts",
+       "canonical": "other",
+       "words": 638
+      },
+      {
+       "heading": "Agentic Modeling",
+       "canonical": "other",
+       "words": 137
+      },
+      {
+       "heading": "Function and Tool Design",
+       "canonical": "other",
+       "words": 29
+      },
+      {
+       "heading": "Semantic Scholar Analysis",
+       "canonical": "other",
+       "words": 110
+      },
+      {
+       "heading": "Audio Representation",
+       "canonical": "other",
+       "words": 331
+      }
+     ]
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Conflict of Interest",
+   "canonical": "competing_interests",
+   "words": 7
+  },
+  {
+   "heading": "Supporting information",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 61
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 22,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data Availability Statement",
+   "canonical": "data_availability",
+   "words": 36
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 36,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 36
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 1088,
+  "results": 4283,
+  "conclusions": 1305,
+  "other_back": 2101,
+  "competing_interests": 7,
+  "acknowledgements": 61,
+  "data_availability": 36,
+  "references": 0,
+  "supplementary": 36
+ },
+ "main_text_words": 6676,
+ "main_text_words_excluding_methods": 6676,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 12,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 8",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 6",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 7",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Figure 9",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 10",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 11",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 12",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 5,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  },
+  {
+   "label": "Table 3"
+  },
+  {
+   "label": "Table 4"
+  },
+  {
+   "label": "Table 5"
+  }
+ ],
+ "boxes": 4,
+ "supplementary_files": 3,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 47,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

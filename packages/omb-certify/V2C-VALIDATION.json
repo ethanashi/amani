@@ -1,0 +1,166 @@
+{
+  "status": "two final root typechecks and test runs passed; documented timing and scope limitations remain",
+  "date": "2026-10-10",
+  "branch": "build/v2c-fixes",
+  "baseMain": "be36ad9",
+  "calibrationBranchHead": "4a87c40",
+  "mergeMain": "already up to date",
+  "node": "v24.19.0",
+  "sourceSha256": {
+    "packages/omb-certify/src/admission.ts": "ff30d3a4dc40a36b279cae9c92a950b8fc2e791667d98aa7e8c09e8f11e31465",
+    "packages/omb-certify/src/auth.ts": "2f3dcd2b76894839b4d60d90ce8fc01a20267911d9b249499af35da930e510b5",
+    "packages/omb-certify/src/certify.ts": "959d28cf454c58cb11604560f1ff1a0e706f1a25a6e68b649060b0e754b62ae1",
+    "packages/omb-certify/src/cli.ts": "4e6d8815c1b0159ffe28f9cc9f864de392dbcf907d1d7e36ca04deede285f545",
+    "packages/omb-certify/src/declared-stage.ts": "57701b42d4bff11523770d5e40207d95090202b62f110d6bb3ae2195528e1cca",
+    "packages/omb-certify/src/execution.ts": "5fbcf6990f0645c2742e8d8a8eaff747e9ca23c8e1b04fadfdc6b2fc1c087cf8",
+    "packages/omb-certify/src/facts.ts": "04ef5bc7ea5680ae406dcd5bcce33a7d3f32148335bbd8dec0fddf684a5f3a89",
+    "packages/omb-certify/src/index.ts": "5007132ca0aeac0c310b856732d4e313ff793548bd0e1437c882dccfc88322ec",
+    "packages/omb-certify/src/integrity.ts": "75de4e248244e3249fd3c503001800717dd87887929d8b28d49c7f0e00d32ec7",
+    "packages/omb-certify/src/linear.ts": "fe44d2c3b067fe2bf05ae155e8740a444ca5e4cd74086c0d04a5deeff1f7e389",
+    "packages/omb-certify/src/monte-carlo.ts": "794457756495bdbd01d26fb4507247ca3c09ad85efe8c71da8b9b1edfedb0700",
+    "packages/omb-certify/src/native/reap-sandbox.c": "54b5436aefc736bdc03bc2e20ab7e38cb056dd1a12af78db73b0921dcd6b4f09",
+    "packages/omb-certify/src/paired.ts": "096bbd0e569472d38da28a3c46ba49ee6602ca316e0ab508961295b2b54d0729",
+    "packages/omb-certify/src/performance.ts": "557bb6b2b0f1f54dd8d246bfbeb13a02f5fd073a6a22d00acc537305313a34f7",
+    "packages/omb-certify/src/permutation.ts": "8afaa2c6aa093e2e05bc0de83d4eb851d04065ef3f3485ab654ae732334be556",
+    "packages/omb-certify/src/producers.ts": "a8d96778570db1deecdaa2dab0f8e8b1f63409e0c5f434e44115eea3f853e26c",
+    "packages/omb-certify/src/reaper.ts": "cad8c6df213e15caf7296b5b7260e9f709317ce3464c1d5d399a4a725937ec4d",
+    "packages/omb-certify/src/robust.ts": "4167bf74cd6ef2cde407d643b35a124d97945aef6595645960fb55d99872f3fb",
+    "packages/omb-certify/src/run-inputs.ts": "95609822bb42995c4c31e7b84eef8162581fa49cc608f5240208fba21a0b8795",
+    "packages/omb-certify/src/source-policy.ts": "f7753f176cd48169506c58e2e4e7b5ee2ed48b845a7c960178a80fa96edf15bf",
+    "packages/omb-certify/src/stage-parser.ts": "e1911c7ea6164c7fe5ab72cfa0cc810d856c742077ef368174a40c74e7f96480",
+    "packages/omb-certify/src/stage.ts": "48538040cf8744c90f69574d8c8591d5f3b4cbbeeb2cf27ef466d94656676b74",
+    "packages/omb-gauntlet/src/adapters.ts": "26831f3f10ff54a0ef39f30c8bc1b3a9f461b17cdd44ffe46e3256bf745280f9",
+    "packages/omb-gauntlet/src/calibration.ts": "8f3994d150543625120bbba862fcd3790cd8075706a63026259a03b9626047cd",
+    "packages/omb-gauntlet/src/certify.ts": "a4141795213e11f885825effdbded75acb74d6fef6e0a530ec7742de8173b0be",
+    "packages/omb-gauntlet/src/decision.ts": "2513c25291b8466baf3dcb59870059021dea8c871adb50d8e15507561d42ae3c",
+    "packages/omb-gauntlet/src/gates-pure.ts": "4b068717e1364ed0066f2d405f6ee04c4879591ff093f8a5a93dd13da2f9ddcc",
+    "packages/omb-gauntlet/src/gates.ts": "0025d123feeff77d456566d0123215ec72387a52a647ad479f06a6c429b2820e",
+    "packages/omb-gauntlet/src/index.ts": "39955d8ef1961d3136c17d552635252f0b65307caac4424e9400502d75b84ebc",
+    "packages/omb-gauntlet/src/issues.ts": "f23d6b87d4c914677da3929775930c6b745ec50c4a11f837d4b93348c9bbd26c",
+    "packages/omb-gauntlet/src/json.ts": "6cb35e2dc89cfdcacf2eb45338565ca507bc02ade5844316013f42f23854d9d6",
+    "packages/omb-gauntlet/src/labels.ts": "be81af367236a19fc5269563911efd287870e159e73a95306afcf1a422fe918c",
+    "packages/omb-gauntlet/src/limitations.ts": "6af0095923f86be66b57c51c5abbe30a371dbc0d45c156fb92ec2f142af3209e",
+    "packages/omb-gauntlet/src/multiplicity.ts": "835ad8691591cac67563a46bb22a8eb9fe39dad08a3f8101cbd6514ec46f7c0d",
+    "packages/omb-gauntlet/src/plan.ts": "ced33f1d4367f499b062d6af86f8ceab447b8295c00f2e1204d8c4de4cd24649",
+    "packages/omb-gauntlet/src/policy.ts": "64bbfd42fcaf85b51103c368aa43e2eb5bced25fda148b057166e6462135dca4",
+    "packages/omb-gauntlet/src/primary.ts": "a9a2d16987866a3ea17d0cb4a1f92e7997ab3ba5815a659e75c368a438f66712",
+    "packages/omb-gauntlet/src/prose.ts": "eefb4396e1b96b4a4c6f7766a920cff04057edb6e30af3a10051d838ec277798",
+    "packages/omb-gauntlet/src/routing.ts": "171a5919aee13276a94dd0aec47801492cd573951c6e9f6dbc55bbe5e81e8023",
+    "packages/omb-gauntlet/src/units.ts": "f3d70aeaaa9b486a4a384edbcb7b68da603ff55ada7e644148e4db019bb6d4ea"
+  },
+  "newTests": 54,
+  "packages": [
+    {
+      "name": "omb-certify",
+      "command": "pnpm exec vitest run packages/omb-certify --maxWorkers=4",
+      "passed": 190,
+      "skipped": 1,
+      "failed": 0,
+      "seconds": 25.25,
+      "under10Seconds": false
+    },
+    {
+      "name": "omb-gauntlet",
+      "command": "pnpm exec vitest run packages/omb-gauntlet --maxWorkers=4",
+      "passed": 178,
+      "skipped": 0,
+      "failed": 0,
+      "seconds": 7.9,
+      "under10Seconds": true
+    }
+  ],
+  "statisticalExperiments": [
+    {
+      "experiment": "within-unit lognormal 2:1",
+      "n": 2000,
+      "rejected": 91,
+      "rate": 0.0455,
+      "ci95": [
+        0.037205271350201664,
+        0.05553732462845717
+      ]
+    },
+    {
+      "experiment": "Gaussian adjusted null n7",
+      "n": 2000,
+      "rejected": 97,
+      "rate": 0.0485,
+      "ci95": [
+        0.039920093442877294,
+        0.058811000252094014
+      ]
+    },
+    {
+      "experiment": "G5a Gaussian FL diagnostics",
+      "replicates": 20,
+      "draws": 4000,
+      "failed": 0,
+      "ci95": [
+        1.3877787807814457e-17,
+        0.1611251580528119
+      ]
+    },
+    {
+      "experiment": "OR Bernoulli null",
+      "n": 2000,
+      "rejected": 96,
+      "rate": 0.048,
+      "ci95": [
+        0.03946691899074124,
+        0.05826609175151132
+      ]
+    }
+  ],
+  "guardMutations": {
+    "count": 23,
+    "assertionKilled": 23,
+    "record": "V2C-GUARD-MUTATIONS.json"
+  },
+  "rootRuns": [
+    {
+      "command": "pnpm typecheck && pnpm test --maxWorkers=2",
+      "typecheckExitCode": 0,
+      "testExitCode": 0,
+      "passed": 2887,
+      "skipped": 6,
+      "total": 2893,
+      "seconds": 256.89,
+      "startLocal": "20:25:16",
+      "under60Seconds": false
+    },
+    {
+      "command": "pnpm typecheck && pnpm test --maxWorkers=2",
+      "typecheckExitCode": 0,
+      "testExitCode": 0,
+      "passed": 2887,
+      "skipped": 6,
+      "total": 2893,
+      "seconds": 234.1,
+      "startLocal": "20:29:40",
+      "under60Seconds": false
+    }
+  ],
+  "scope": [
+    "No full 19-task calibration rerun",
+    "No live arms, default grading lease or pilot records accessed",
+    "Root fixtures supply their own private BIO_GRADING_ROOT; global override removed",
+    "Existing opt-in skips are not passes"
+  ],
+  "preliminaryValidation": [
+    "Initial root run: missing pinned runtime and unrelated 7s CLI/60s simulation timeouts. Runtime later became available; no installation command was run by this task.",
+    "Second root run: global grading override intentionally rejected by locked dry-run fixtures; CLI timeout; orphan column-name inference regression. Override removed; orphan inference corrected.",
+    "Two-worker diagnostic run: all other packages passed including CLI; one mixed code/test snapshot failure from adding recovery oracle during the run. This run is not counted as final validation.",
+    "Another diagnostic root run passed all other packages but included the new alias test with an earlier cached certifier module. Discarded as mixed snapshot; fresh integrity file passed all 41 tests, then full settled certifier passed 190 tests."
+  ],
+  "gaps": [
+    "Certifier suite exceeds 10 seconds; whole repository exceeds 60 seconds on this machine.",
+    "Non-Python dynamic capability refusals are lexical rather than a complete AST/dataflow proof.",
+    "RAW performance predictions have unverified provenance; G8/B22 software prediction lineage is not implemented.",
+    "Repeated logistic and locked performance strata/adjustment remain unsupported; adjusted binary additive nonzero-null calibration is unavailable."
+  ],
+  "cleanup": {
+    "temporaryLogsRemoved": true,
+    "earlierExploratoryFixtureDirectoriesRemoved": 65,
+    "remainingCertifierFixtures": 0
+  }
+}

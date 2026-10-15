@@ -1,0 +1,120 @@
+{
+  "schema": "bio-pilot/arm-registry@1",
+  "notes": "Pilot arm registry. pilot.py and pilot-score.ts contain no per-arm branches: an arm is defined only by its entry here. To add a reserved v2 arm: fill runner, dispatch, family, efforts, parityWith, toolpack and unsupportedTasks, set reserved to null, then register it with `pilot.py amend` (add-arm). Locked studies hash every entry they use, so editing an entry of a locked arm stops that study; only removing an unsupportedTasks entry may be amended (enable-cell).",
+  "arms": {
+    "plain-claude": {
+      "label": "A: plain Claude Code",
+      "runner": "claude",
+      "dispatch": "packages/bio-tasks/run-task.sh",
+      "family": "claude",
+      "efforts": ["cli-default"],
+      "parityWith": null,
+      "toolpack": null,
+      "unsupportedTasks": {},
+      "retired": null,
+      "reserved": null
+    },
+    "plain-codex": {
+      "label": "A-prime: plain Codex",
+      "runner": "codex",
+      "dispatch": "packages/bio-tasks/run-task.sh",
+      "family": "codex",
+      "efforts": ["low", "medium", "high", "xhigh", "max"],
+      "parityWith": null,
+      "toolpack": null,
+      "unsupportedTasks": {},
+      "retired": null,
+      "reserved": null
+    },
+    "omerta-bio": {
+      "label": "C: Omerta Bio v1",
+      "runner": "omerta",
+      "dispatch": "packages/bio-tasks/run-task.sh",
+      "family": "claude",
+      "efforts": ["cli-default"],
+      "parityWith": "plain-claude",
+      "toolpack": null,
+      "unsupportedTasks": {},
+      "retired": "v1 retired 2026-10-10; it must never run on the pilot tasks",
+      "reserved": null
+    },
+    "codex-tools": {
+      "label": "B: Codex with the checks tool pack",
+      "runner": "codex-tools",
+      "dispatch": "packages/bio-tasks/pilot/run-task.sh",
+      "family": "codex",
+      "efforts": ["low", "medium", "high", "xhigh", "max"],
+      "parityWith": "plain-codex",
+      "toolpack": "checks",
+      "unsupportedTasks": {
+        "p16-recovery": "codex-tools native recovery adapter not integrated (bio-toolpack REVIEW-10); dispatch refuses p16"
+      },
+      "retired": null,
+      "reserved": null
+    },
+    "codex-tools-gauntlet": {
+      "label": "B+G: Codex tool pack plus the v2 claim service",
+      "runner": null,
+      "dispatch": null,
+      "family": null,
+      "efforts": [],
+      "parityWith": null,
+      "toolpack": null,
+      "unsupportedTasks": {},
+      "retired": null,
+      "reserved": "v2 arm; complete this entry when its dispatch lands (V10), then add it by amendment"
+    },
+    "omerta-v2": {
+      "label": "C2: Amani v2 fleet, Codex lead",
+      "runner": null,
+      "dispatch": null,
+      "family": null,
+      "efforts": [],
+      "parityWith": null,
+      "toolpack": null,
+      "unsupportedTasks": {},
+      "retired": null,
+      "reserved": "v2 arm; complete this entry when its dispatch lands (V10), then add it by amendment"
+    },
+    "omerta-v2-nog7": {
+      "label": "C2-noG7: Amani v2 fleet without the G7 replicator",
+      "runner": null,
+      "dispatch": null,
+      "family": null,
+      "efforts": [],
+      "parityWith": null,
+      "toolpack": null,
+      "unsupportedTasks": {},
+      "retired": null,
+      "reserved": "v2 arm; complete this entry when its dispatch lands (V10), then add it by amendment"
+    },
+    "omerta-v2-claude-lead": {
+      "label": "C2-prime: Amani v2 fleet, Claude lead",
+      "runner": null,
+      "dispatch": null,
+      "family": null,
+      "efforts": [],
+      "parityWith": null,
+      "toolpack": null,
+      "unsupportedTasks": {},
+      "retired": null,
+      "reserved": "v2 arm; complete this entry when its dispatch lands (V10), then add it by amendment"
+    },
+    "amani": {
+      "label": "Amani: V7 investigation manager and deterministic kernel",
+      "runner": "amani",
+      "dispatch": "packages/bio-tasks/pilot/run-amani-task.sh",
+      "family": "codex",
+      "efforts": [
+        "high"
+      ],
+      "parityWith": "plain-codex",
+      "toolpack": null,
+      "unsupportedTasks": {
+        "p16-recovery": "Native recovery dispatch is not implemented; ordinary-task fallback is refused"
+      },
+      "retired": null,
+      "reserved": null
+    }
+  }
+}

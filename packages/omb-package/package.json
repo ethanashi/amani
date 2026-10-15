@@ -1,0 +1,20 @@
+{
+  "name": "@omerta-bio/package",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run --config vitest.config.ts",
+    "sample": "node --experimental-transform-types scripts/sample.ts",
+    "mutations": "node --experimental-transform-types scripts/gate-mutations.ts",
+    "genre:mutations": "node --experimental-transform-types scripts/genre-mutations.ts",
+    "genre:calibrate": "python3 scripts/fetch-genre-exemplars.py && python3 scripts/convert-genre-exemplars.py && node --experimental-transform-types scripts/calibrate-genres.ts",
+    "latex:mutations": "node --experimental-transform-types scripts/latex-mutations.ts",
+    "genre:calibration-mutations": "node --experimental-transform-types scripts/genre-calibration-mutations.ts"
+  },
+  "license": "AGPL-3.0-only",
+  "dependencies": {
+    "@omerta-bio/certificate": "workspace:*",
+    "@omerta-bio/verifier": "workspace:*"
+  }
+}

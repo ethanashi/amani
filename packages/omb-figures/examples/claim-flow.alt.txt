@@ -1,0 +1,11 @@
+template:
+Claim flow diagram. Flow of hypotheses from proposal to label: Hypotheses proposed: n = [m:claims.proposed] then Locked before any look: n = [m:claims.locked] then Looked at confirming data: n = [m:claims.looked] then All required checks passed: n = [m:claims.confirmed]; Supported, not every check passed: n = [m:claims.tentative]; Ruled out at the smallest effect: n = [m:claims.refuted]; Could not decide: n = [m:claims.insufficient].
+
+text:
+Claim flow diagram. Flow of hypotheses from proposal to label: Hypotheses proposed: n = 14 then Locked before any look: n = 9 then Looked at confirming data: n = 9 then All required checks passed: n = 2; Supported, not every check passed: n = 3; Ruled out at the smallest effect: n = 1; Could not decide: n = 3.
+
+caption template:
+Hypotheses from proposal to label. Boxes count hypotheses by stage and by the label they received. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Hypotheses from proposal to label. Boxes count hypotheses by stage and by the label they received. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

@@ -1,0 +1,337 @@
+{
+ "pmcid": "PMC11116106",
+ "doi": "10.1038/s42256-024-00832-8",
+ "pmid": "38799228",
+ "journal": "Nature Machine Intelligence",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 7,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 147
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 60
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Main",
+   "canonical": "other",
+   "words": 865,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Results and discussion",
+   "canonical": "results",
+   "words": 1126,
+   "sub": [
+    {
+     "heading": "Autonomous chemical synthesis",
+     "canonical": "other",
+     "words": 278
+    },
+    {
+     "heading": "Human–AI collaboration",
+     "canonical": "other",
+     "words": 134
+    },
+    {
+     "heading": "Evaluation across diverse chemical use cases",
+     "canonical": "other",
+     "words": 714
+    }
+   ]
+  },
+  {
+   "heading": "Risk-mitigation strategies",
+   "canonical": "other",
+   "words": 89,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Unintended risks",
+   "canonical": "other",
+   "words": 583,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Conclusion",
+   "canonical": "conclusions",
+   "words": 447
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 2162,
+   "sub": [
+    {
+     "heading": "LLMs",
+     "canonical": "other",
+     "words": 90
+    },
+    {
+     "heading": "LLMs application framework, LangChain",
+     "canonical": "other",
+     "words": 105
+    },
+    {
+     "heading": "Tools",
+     "canonical": "other",
+     "words": 1950,
+     "sub": [
+      {
+       "heading": "General tools",
+       "canonical": "other",
+       "words": 439
+      },
+      {
+       "heading": "Molecule tools",
+       "canonical": "other",
+       "words": 677
+      },
+      {
+       "heading": "Safety tools",
+       "canonical": "other",
+       "words": 410
+      },
+      {
+       "heading": "Chemical reaction tools",
+       "canonical": "other",
+       "words": 383
+      }
+     ]
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary information",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Source data",
+     "canonical": "other",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 109
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 48
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 22,
+   "sub": [
+    {
+     "heading": "Peer review information",
+     "canonical": "other",
+     "words": 22
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 7
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 22
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 42
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 21
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 11,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 64,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 64
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 1537,
+  "results": 1126,
+  "conclusions": 447,
+  "methods": 2162,
+  "other_back": 33,
+  "acknowledgements": 109,
+  "contributions": 48,
+  "funding": 7,
+  "data_availability": 64,
+  "competing_interests": 21,
+  "supplementary": 73,
+  "references": 0
+ },
+ "main_text_words": 5272,
+ "main_text_words_excluding_methods": 3110,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 5,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 3,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 103,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": true,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

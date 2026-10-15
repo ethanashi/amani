@@ -1,0 +1,21 @@
+{
+  "name": "@omerta-bio/citation-suite",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "PW4s: held-out citation test suite and false-pass scorer for the PW4 citation verifier.",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "bin": {
+    "omb-citation-suite": "./src/cli.ts"
+  },
+  "scripts": {
+    "test": "vitest run --root ../.. packages/omb-citation-suite",
+    "score": "node src/cli.ts score"
+  },
+  "license": "AGPL-3.0-only"
+}

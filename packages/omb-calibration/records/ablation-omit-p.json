@@ -1,0 +1,1816 @@
+{
+  "schema": "omb-calibration/records@1",
+  "gitHead": "46fa63ea997401ed135ab527f293619f5b807f21",
+  "partHeads": [
+    "46fa63ea997401ed135ab527f293619f5b807f21"
+  ],
+  "startedAt": "2026-10-11T09:15:26.469Z",
+  "finishedAt": "2026-10-11T10:50:53.791Z",
+  "machine": {
+    "cpus": 10,
+    "loadBefore": [
+      4.94,
+      4.65,
+      5.41
+    ],
+    "loadAfter": [
+      2.72,
+      3.68,
+      4.39
+    ],
+    "parallelParts": 2
+  },
+  "wallMs": 1447998,
+  "stages": [
+    {
+      "task": "p1-esr1",
+      "ok": true,
+      "ms": 135,
+      "reason": ""
+    },
+    {
+      "task": "p11-confounding",
+      "ok": true,
+      "ms": 147,
+      "reason": ""
+    },
+    {
+      "task": "p12-quality",
+      "ok": true,
+      "ms": 138,
+      "reason": ""
+    },
+    {
+      "task": "p16-recovery",
+      "ok": true,
+      "ms": 122,
+      "reason": ""
+    },
+    {
+      "task": "p2-erbb2",
+      "ok": true,
+      "ms": 168,
+      "reason": ""
+    },
+    {
+      "task": "p5-permuted",
+      "ok": true,
+      "ms": 142,
+      "reason": ""
+    }
+  ],
+  "records": [
+    {
+      "task": "p1-esr1",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 814.1983339999999,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "tentative",
+          "taskStatus": "tentative",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 254780,
+        "executionMs": [
+          1471,
+          1089,
+          1033,
+          933
+        ],
+        "workerMs": 814
+      }
+    },
+    {
+      "task": "p1-esr1",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 876.1963749999995,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "claimed.estimate",
+                "claimed.ci.0",
+                "claimed.ci.1",
+                "look.B7:CI/SE inconsistency",
+                "look.estimate",
+                "look.ci.0",
+                "look.ci.1",
+                "rerun.B7:CI/SE inconsistency",
+                "rerun.estimate",
+                "rerun.ci.0",
+                "rerun.ci.1"
+              ]
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "claimed.estimate",
+                "claimed.ci.0",
+                "claimed.ci.1",
+                "look.B7:CI/SE inconsistency",
+                "look.estimate",
+                "look.ci.0",
+                "look.ci.1",
+                "rerun.B7:CI/SE inconsistency",
+                "rerun.estimate",
+                "rerun.ci.0",
+                "rerun.ci.1"
+              ]
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 229646,
+        "executionMs": [
+          984,
+          943,
+          924,
+          1006
+        ],
+        "workerMs": 876
+      }
+    },
+    {
+      "task": "p11-confounding",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 811.9099160000001,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "aligned",
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "missing-recomputed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "incomplete-family",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": {
+            "aligned": [
+              "batch",
+              "joint design"
+            ],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: rank-deficient joint design",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 2848,
+        "executionMs": [
+          1353,
+          945
+        ],
+        "workerMs": 812
+      }
+    },
+    {
+      "task": "p11-confounding",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 821.7270829999998,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "non-identifiable",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "aligned",
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [
+              "batch",
+              "joint design"
+            ],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 113587,
+        "executionMs": [
+          959,
+          1003,
+          948,
+          946
+        ],
+        "workerMs": 822
+      }
+    },
+    {
+      "task": "p12-quality",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 837.6502080000064,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "inconclusive",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "retain",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 385763,
+        "executionMs": [
+          958,
+          936,
+          943,
+          956
+        ],
+        "workerMs": 838
+      }
+    },
+    {
+      "task": "p12-quality",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 898.349749999994,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "tentative",
+          "taskStatus": "tentative",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 121293,
+        "executionMs": [
+          1011,
+          1008,
+          1014,
+          1026
+        ],
+        "workerMs": 898
+      }
+    },
+    {
+      "task": "p16-recovery",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 721.1909590000287,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "tentative",
+          "taskStatus": "tentative",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 97094,
+        "executionMs": [
+          814,
+          810,
+          821,
+          809
+        ],
+        "workerMs": 721
+      }
+    },
+    {
+      "task": "p16-recovery",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 713.7223750000121,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "claimed.estimate",
+                "claimed.ci.0",
+                "claimed.ci.1",
+                "look.B7:CI/SE inconsistency",
+                "look.estimate",
+                "look.ci.0",
+                "look.ci.1",
+                "rerun.B7:CI/SE inconsistency",
+                "rerun.estimate",
+                "rerun.ci.0",
+                "rerun.ci.1"
+              ]
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "claimed.estimate",
+                "claimed.ci.0",
+                "claimed.ci.1",
+                "look.B7:CI/SE inconsistency",
+                "look.estimate",
+                "look.ci.0",
+                "look.ci.1",
+                "rerun.B7:CI/SE inconsistency",
+                "rerun.estimate",
+                "rerun.ci.0",
+                "rerun.ci.1"
+              ]
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 99366,
+        "executionMs": [
+          817,
+          816,
+          807,
+          816
+        ],
+        "workerMs": 714
+      }
+    },
+    {
+      "task": "p2-erbb2",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 933.0179999999818,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "tentative",
+          "taskStatus": "tentative",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 250401,
+        "executionMs": [
+          1024,
+          963,
+          928,
+          943
+        ],
+        "workerMs": 933
+      }
+    },
+    {
+      "task": "p2-erbb2",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 789.6317500000587,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "claimed.estimate",
+                "claimed.ci.0",
+                "claimed.ci.1",
+                "look.B7:CI/SE inconsistency",
+                "look.estimate",
+                "look.ci.0",
+                "look.ci.1",
+                "rerun.B7:CI/SE inconsistency",
+                "rerun.estimate",
+                "rerun.ci.0",
+                "rerun.ci.1"
+              ]
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "claimed.estimate",
+                "claimed.ci.0",
+                "claimed.ci.1",
+                "look.B7:CI/SE inconsistency",
+                "look.estimate",
+                "look.ci.0",
+                "look.ci.1",
+                "rerun.B7:CI/SE inconsistency",
+                "rerun.estimate",
+                "rerun.ci.0",
+                "rerun.ci.1"
+              ]
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 215001,
+        "executionMs": [
+          1001,
+          943,
+          1001,
+          1000
+        ],
+        "workerMs": 790
+      }
+    },
+    {
+      "task": "p5-permuted",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 818.4446250000037,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "inconclusive",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "retain",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 239140,
+        "executionMs": [
+          1020,
+          1009,
+          1123,
+          1167
+        ],
+        "workerMs": 818
+      }
+    },
+    {
+      "task": "p5-permuted",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 873.06341599999,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "variant": "omit-p",
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "inconclusive",
+          "gates": {
+            "G1": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "retain",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "B6 code/analysis.py:9: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "observations.tsv: identical content observed; distinct identities retained unless full-profile corroboration permits collapse",
+        "primary: model-based: assumptions A1-A4",
+        "primary: observations.tsv: unresolved content duplicate with observations.tsv",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 249236,
+        "executionMs": [
+          944,
+          950,
+          962,
+          969
+        ],
+        "workerMs": 873
+      }
+    }
+  ],
+  "mismatches": [],
+  "mergedFrom": [
+    "abl-a.json",
+    "abl-b.json"
+  ]
+}

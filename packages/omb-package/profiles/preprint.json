@@ -1,0 +1,70 @@
+{
+  "id": "preprint",
+  "name": "bioRxiv / medRxiv research article",
+  "version": "2026-10-13",
+  "csl": "plos.csl",
+  "caps": {
+    "total": 6000,
+    "abstract": 300,
+    "plainSummary": 200,
+    "authorSummary": 200,
+    "displays": 6,
+    "references": 80,
+    "sections": {
+      "introduction": 1000,
+      "methods": 2000,
+      "results": 1500,
+      "discussion": 1500,
+      "limitations": 600
+    },
+    "caption": 250,
+    "captions": 1000
+  },
+  "capBasis": "Project editorial budgets (not publisher-wide limits). PLOS abstract cap of 300 is publisher policy. Short format total includes all main text except references and title page. Separate main-display budget counts titles, captions and table cells; individual caption limits apply to main and supplementary displays. These are project editorial budgets.",
+  "abstractHeadings": [
+    "Question",
+    "Data",
+    "Design",
+    "Pre-registration",
+    "Primary result",
+    "Conclusion",
+    "Registration"
+  ],
+  "summaryLayers": [
+    "structured abstract",
+    "plain summary",
+    "Summary of findings"
+  ],
+  "doubleSpacing": false,
+  "lineNumbers": false,
+  "checklists": [
+    "GAMER",
+    "TRIPOD+AI open-science 18a-f",
+    "TOP 2025",
+    "SAGER",
+    "Methods-completeness"
+  ],
+  "policies": [
+    {
+      "id": "preprint-editorial",
+      "kind": "editorial",
+      "url": "https://www.medrxiv.org/about/FAQ",
+      "checkedAt": "2026-10-13",
+      "quote": "simple automated/computational analyses of public data",
+      "verified": false,
+      "rule": "Reject formulaic single-pair, single-dataset, unvalidated work; public data only; one server."
+    },
+    {
+      "id": "preprint-ai",
+      "kind": "generative-ai",
+      "url": "https://www.biorxiv.org/about/FAQ",
+      "checkedAt": "2026-10-13",
+      "quote": "",
+      "verified": false,
+      "rule": "Fresh owner/host policy receipt required: AI drafting and conclusions must be permitted with disclosure; AI never an author."
+    }
+  ],
+  "feeNote": "Local packaging has no fee. Preprint posting is generally free; a later journal may charge. Research-note target and its policies must be confirmed before submission.",
+  "displayPlacement": "after-first-citation",
+  "defaultOutputProfile": "preprint"
+}

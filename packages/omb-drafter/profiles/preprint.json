@@ -1,0 +1,81 @@
+{
+  "id": "preprint-draft@1",
+  "format": "research-article",
+  "sectionCaps": {
+    "abstract": 350,
+    "plain-summary": 200,
+    "introduction": 800,
+    "methods": 4000,
+    "results": 1800,
+    "discussion": 1200,
+    "limitations": 1200
+  },
+  "totalWords": 10000,
+  "maxDisplays": 6,
+  "maxReferences": 100,
+  "summaryLayers": [
+    "plain-summary"
+  ],
+  "aiDraftingAllowed": true,
+  "policyStatus": "draft-only-recheck-at-packaging",
+  "sectionMinimums": {
+    "introduction": 350,
+    "methods": 500,
+    "results": 300,
+    "discussion": 500,
+    "limitations": 150
+  },
+  "minDistinctNarrativeSentences": 8,
+  "requiredPieces": [],
+  "studyTypeMinimums": {
+    "effect-exists": {
+      "introduction": 350,
+      "methods": 500,
+      "results": 300,
+      "discussion": 500,
+      "limitations": 150
+    },
+    "out-of-sample": {
+      "introduction": 350,
+      "methods": 500,
+      "results": 300,
+      "discussion": 500,
+      "limitations": 150
+    },
+    "causal-genetic": {
+      "introduction": 350,
+      "methods": 500,
+      "results": 300,
+      "discussion": 500,
+      "limitations": 150
+    },
+    "data-integrity": {
+      "introduction": 350,
+      "methods": 500,
+      "results": 300,
+      "discussion": 500,
+      "limitations": 150
+    },
+    "reproduction": {
+      "introduction": 350,
+      "methods": 500,
+      "results": 300,
+      "discussion": 500,
+      "limitations": 150
+    },
+    "diagnostic-accuracy": {
+      "introduction": 350,
+      "methods": 500,
+      "results": 300,
+      "discussion": 500,
+      "limitations": 150
+    },
+    "literature-synthesis": {
+      "introduction": 350,
+      "methods": 500,
+      "results": 300,
+      "discussion": 500,
+      "limitations": 150
+    }
+  }
+}

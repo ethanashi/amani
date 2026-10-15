@@ -1,0 +1,561 @@
+{
+ "pmcid": "PMC11771364",
+ "doi": "10.1200/JCO.24.01192",
+ "pmid": "39213466",
+ "journal": "Journal of Clinical Oncology",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [
+  "ORIGINAL REPORTS",
+  "Hematologic Malignancy"
+ ],
+ "title_words": 8,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "PURPOSE",
+    "PATIENTS AND METHODS",
+    "RESULTS",
+    "CONCLUSION"
+   ],
+   "words": 288
+  }
+ ],
+ "sections": [
+  {
+   "heading": "INTRODUCTION",
+   "canonical": "introduction",
+   "words": 408
+  },
+  {
+   "heading": "PATIENTS AND METHODS",
+   "canonical": "methods",
+   "words": 869,
+   "sub": [
+    {
+     "heading": "Patients and Studies",
+     "canonical": "other",
+     "words": 235
+    },
+    {
+     "heading": "End Points and Criteria for Evaluation",
+     "canonical": "other",
+     "words": 160
+    },
+    {
+     "heading": "Statistical Analyses",
+     "canonical": "other",
+     "words": 125
+    },
+    {
+     "heading": "Patient-Level Surrogacy",
+     "canonical": "other",
+     "words": 171
+    },
+    {
+     "heading": "Trial-Level Surrogacy",
+     "canonical": "other",
+     "words": 178
+    }
+   ]
+  },
+  {
+   "heading": "RESULTS",
+   "canonical": "results",
+   "words": 1024,
+   "sub": [
+    {
+     "heading": "Patient Characteristics",
+     "canonical": "other",
+     "words": 363,
+     "sub": [
+      {
+       "heading": "GCLLSG Data Set",
+       "canonical": "other",
+       "words": 227
+      },
+      {
+       "heading": "Meta-Analysis Data Set",
+       "canonical": "other",
+       "words": 136
+      }
+     ]
+    },
+    {
+     "heading": "Patient-Level Surrogacy",
+     "canonical": "other",
+     "words": 451,
+     "sub": [
+      {
+       "heading": "Correlation Between PFS and OS",
+       "canonical": "other",
+       "words": 160
+      },
+      {
+       "heading": "Correlation Between MRD Status With PFS and OS",
+       "canonical": "other",
+       "words": 291
+      }
+     ]
+    },
+    {
+     "heading": "Trial-Level Surrogacy",
+     "canonical": "other",
+     "words": 210,
+     "sub": [
+      {
+       "heading": "Correlation Between PFS and OS",
+       "canonical": "other",
+       "words": 48
+      },
+      {
+       "heading": "Correlation Between MRD and PFS/OS",
+       "canonical": "other",
+       "words": 162
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "DISCUSSION",
+   "canonical": "discussion",
+   "words": 1025
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "DATA SHARING STATEMENT",
+   "canonical": "data_availability",
+   "words": 57
+  },
+  {
+   "heading": "AUTHOR CONTRIBUTIONS",
+   "canonical": "contributions",
+   "words": 205
+  },
+  {
+   "heading": "AUTHORS' DISCLOSURES OF POTENTIAL CONFLICTS OF INTEREST",
+   "canonical": "competing_interests",
+   "words": 76
+  },
+  {
+   "heading": "ACKNOWLEDGMENT",
+   "canonical": "acknowledgements",
+   "words": 20
+  },
+  {
+   "heading": "fn:other",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:presented-at",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:supported-by",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 408,
+  "methods": 869,
+  "results": 1024,
+  "discussion": 1025
+ },
+ "main_text_words": 3326,
+ "main_text_words_excluding_methods": 2457,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "FIG 1.",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "FIG 2.",
+   "kind_guess": [
+    "surrogacy_scatter"
+   ]
+  },
+  {
+   "label": "FIG 3.",
+   "kind_guess": [
+    "surrogacy_scatter",
+    "mr_scatter"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "TABLE 1."
+  },
+  {
+   "label": "TABLE 2."
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 0,
+ "supplementary": [],
+ "references": 58,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

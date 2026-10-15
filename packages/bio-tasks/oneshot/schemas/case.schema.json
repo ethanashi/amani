@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:omerta-bio:oneshot-case:v1",
+  "title": "KB0 one-shot case (case.json)",
+  "$comment": "Documentation schema. The authoritative, stricter validator is lib/biotasks/oneshot/case.py (cross-field rules: role-specific keys, matrix id column, report-pointer prefixes, verdict expectations, unique token prefixes). test_oneshot_answer.OneShotCaseSchema.test_schema_document_matches_validator keeps the key sets of this file and the validator in step.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "id", "prompt", "synthetic", "sources", "blinding", "criteria"],
+  "properties": {
+    "schema": {"const": "omb-oneshot-case/v1"},
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$", "description": "Host-only case identity; protected from the projection; keys the one-look registry."},
+    "prompt": {"type": "string", "minLength": 1, "maxLength": 20000, "description": "Neutral public wording. Placeholders {{<namespace>:<original>}}, {{dataset:<name>}} and {{level:<public column>/<original level>}} render as keyed tokens."},
+    "synthetic": {"type": "boolean"},
+    "sources": {
+      "type": "array", "minItems": 1, "maxItems": 64,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["name", "sha256", "format"],
+        "properties": {
+          "name": {"type": "string", "pattern": "^[a-z][a-z0-9_-]{0,31}$", "description": "answer_key.py reads this source at SOURCES_DIR/<name>."},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "size": {"type": "integer", "minimum": 0, "description": "Required with url. Downloads above 1,000,000,000 bytes are refused."},
+          "path": {"type": "string", "description": "Local or pre-downloaded file; relative paths stay inside the case directory; symlinks refused."},
+          "url": {"type": "string", "description": "https only (http only to loopback). Used only when path is absent or missing."},
+          "format": {"enum": ["tsv", "csv", "opaque"], "description": "opaque requires project=false; optional synthetic public_files preserve exact original bytes."},
+          "compression": {"enum": ["none", "gzip"], "default": "none"},
+          "quoting": {"enum": ["none", "minimal"], "description": "Default: none for tsv, minimal for csv."},
+          "dataset": {"type": "string", "minLength": 1, "maxLength": 128, "description": "Original dataset name (protected). Each projected dataset gets a keyed letter. Default: the case id."},
+          "project": {"type": "boolean", "default": true, "description": "false: answer_key.py input only unless explicitly listed in synthetic public_files."}
+        }
+      }
+    },
+    "public_files": {
+      "type": "object",
+      "description": "Synthetic development only: map nonprojected source names to byte-preserved filenames under data/. No identifier blinding is claimed for these attachments. Cross-field checks require synthetic=true, existing nonprojected sources, and unique filenames.",
+      "propertyNames": {"pattern": "^[a-z][a-z0-9_-]{0,31}$"},
+      "additionalProperties": {"type": "string", "pattern": "^[a-z][a-z0-9-]*\\.(xlsx|csv|csv\\.gz|zip|parquet)$"}
+    },
+    "blinding": {
+      "type": "object", "additionalProperties": false,
+      "required": ["namespaces", "tables"],
+      "properties": {
+        "namespaces": {
+          "type": "object",
+          "propertyNames": {"pattern": "^[a-z][a-z0-9]{0,23}$", "not": {"enum": ["dataset", "level", "chromosome", "position"]}},
+          "additionalProperties": {
+            "type": "object", "additionalProperties": false, "required": ["kind"],
+            "properties": {
+              "kind": {"enum": ["gene", "protein", "sample", "snp", "compound"]},
+              "prefix": {"type": "string", "pattern": "^[A-Z]{1,3}$", "description": "Token prefix; defaults G, P, S, V, D. Unique across namespaces."}
+            }
+          }
+        },
+        "tables": {
+          "type": "object",
+          "description": "Every projected source belongs to exactly one table. A table keyed by a source name projects that source; a table with `sources` concatenates several same-header sources of one dataset.",
+          "additionalProperties": {
+            "type": "object", "additionalProperties": false,
+            "required": ["public_name", "columns"],
+            "properties": {
+              "public_name": {"type": "string", "pattern": "^[a-z][a-z0-9-]{0,39}$", "description": "Projected as data/<dataset letter>-<public_name>.tsv."},
+              "layout": {"enum": ["records", "matrix"], "default": "records"},
+              "header_namespace": {"type": "string", "description": "matrix only: every undeclared header is an identifier in this namespace."},
+              "cells": {
+                "type": "object", "additionalProperties": false, "required": ["role"],
+                "properties": {"role": {"enum": ["decimal", "integer"]}, "precision": {"$ref": "#/$defs/precision"}, "perturb": {"$ref": "#/$defs/perturb"}}
+              },
+              "row_order": {"enum": ["keyed", "keep"]},
+              "column_order": {"enum": ["keyed", "keep"], "description": "matrix only (header identifiers)."},
+              "missing": {"type": "array", "items": {"type": "string", "maxLength": 32}, "default": ["", "NA"]},
+              "sources": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 64, "uniqueItems": true, "description": "Source names concatenated (in this order) into one projected table: per-chromosome or per-sample files with one header and one dataset."},
+              "comment_prefix": {"type": "string", "minLength": 1, "maxLength": 8, "description": "Lines starting with this prefix (and blank lines) are skipped, e.g. \"!\" for GEO series-matrix metadata."},
+              "begin": {"type": "string", "minLength": 1, "maxLength": 200, "description": "The table starts after this exact line, e.g. !series_matrix_table_begin."},
+              "end": {"type": "string", "minLength": 1, "maxLength": 200, "description": "The table ends before this exact line (it must occur), e.g. !series_matrix_table_end."},
+              "row_names": {"type": "string", "description": "R write.table: names the row-label column whose header cell is empty or missing; must be a declared column."},
+              "rows": {
+                "description": "Declarative slice applied while streaming the verified source: exactly one of region or in. Host-only and sealed; the contract only marks the table as a subset.",
+                "type": "object", "additionalProperties": false, "minProperties": 1, "maxProperties": 1,
+                "properties": {
+                  "region": {"type": "object", "additionalProperties": false,
+                             "required": ["chromosome_column", "position_column", "chromosome", "start", "end"],
+                             "properties": {"chromosome_column": {"type": "string"}, "position_column": {"type": "string"},
+                                            "chromosome": {"oneOf": [{"type": "string"}, {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 64}]},
+                                            "start": {"type": "integer", "minimum": 0}, "end": {"type": "integer", "minimum": 0}}},
+                  "in": {"type": "object", "additionalProperties": false, "required": ["column", "values"],
+                         "properties": {"column": {"type": "string"}, "values": {"type": "array", "items": {"type": "string"}, "minItems": 1, "maxItems": 100000}}}
+                }
+              },
+              "columns": {"type": "object", "additionalProperties": {"$ref": "#/$defs/column"}, "description": "Original header -> rule. records: every header; matrix: the id row column(s) plus any non-identifier columns."}
+            }
+          }
+        },
+        "redact": {"type": "array", "items": {"type": "string", "minLength": 1, "maxLength": 200}, "description": "Extra protected terms, matched case-insensitively."},
+        "row_order": {"enum": ["keyed", "keep"], "default": "keyed"}
+      }
+    },
+    "criteria": {
+      "type": "array", "minItems": 1, "maxItems": 64,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["name", "kind", "report"],
+        "properties": {
+          "name": {"type": "string", "pattern": "^[a-z][a-z0-9-]{0,39}$"},
+          "kind": {"enum": ["exact", "verdict", "band", "set", "sign"]},
+          "report": {"$ref": "#/$defs/pointer"},
+          "answer": {"$ref": "#/$defs/pointer", "description": "Pointer into answer_key.py output. Exactly one of answer or expect."},
+          "expect": {"description": "Author literal (number, {lo, hi}, string, list). Sealed; never written in plaintext."},
+          "namespace": {"type": "string", "description": "exact/set: map expected originals through an identifier namespace (tokens), \"dataset\" (letters), \"level/<public column>\" (category levels), \"chromosome\" (keyed chromosome labels) or, exact only, \"position\" (one original coordinate to its projected coordinate). A criterion without a map whose expected value names an original refuses the build."},
+          "allowed": {"type": "array", "minItems": 2, "maxItems": 16, "items": {"type": "string"}, "description": "verdict: public allowed values, e.g. holds-up / does-not-hold-up."},
+          "absolute": {"type": "number", "minimum": 0},
+          "relative": {"type": "number", "minimum": 0},
+          "min_jaccard": {"type": "number", "exclusiveMinimum": 0, "maximum": 1},
+          "in_data": {"type": "boolean", "default": false, "description": "The expected number is a raw data value (a lookup): do not refuse it as a data cell."},
+          "description": {"type": "string", "maxLength": 500}
+        }
+      }
+    },
+    "card": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "truthClass": {"enum": ["established-control", "frozen-backtest"]},
+        "recallExposure": {"enum": ["none", "low", "medium", "high"]},
+        "rungTarget": {"type": "string"}, "gateTargets": {"type": "array", "items": {"type": "string"}},
+        "stratum": {"type": "string"}, "capMinutes": {"type": "integer", "minimum": 1, "maximum": 600},
+        "contaminated": {"type": "boolean"}, "negativeControl": {"type": "boolean"}, "positiveControl": {"type": "boolean"},
+        "tolerance": {"type": "object", "properties": {"absolute": {"type": "number"}, "relative": {"type": "number"}}}
+      }
+    },
+    "answer_key": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "timeout_seconds": {"type": "number", "exclusiveMinimum": 0, "maximum": 3600, "default": 600},
+        "runs": {"enum": [1, 2], "default": 2}
+      }
+    }
+  },
+  "$defs": {
+    "pointer": {"type": "string", "pattern": "^(?:/[A-Za-z0-9_.-]{1,64}){1,8}$"},
+    "precision": {
+      "oneOf": [
+        {"const": "exact"},
+        {"type": "object", "additionalProperties": false, "required": ["decimals"], "properties": {"decimals": {"type": "integer", "minimum": 0, "maximum": 15}}},
+        {"type": "object", "additionalProperties": false, "required": ["significant"], "properties": {"significant": {"type": "integer", "minimum": 1, "maximum": 17}}}
+      ]
+    },
+    "perturb": {
+      "description": "Keyed noise per card variant and key: absolute adds u*a, relative multiplies by 1 + u*r, u uniform in [-1, 1). Breaks exact-value joins across variants, not approximate matching.",
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["absolute"], "properties": {"absolute": {"type": "number", "exclusiveMinimum": 0}}},
+        {"type": "object", "additionalProperties": false, "required": ["relative"], "properties": {"relative": {"type": "number", "exclusiveMinimum": 0, "maximum": 0.5}}}
+      ]
+    },
+    "column": {
+      "type": "object", "additionalProperties": false, "required": ["role"],
+      "properties": {
+        "role": {"enum": ["drop", "id", "decimal", "integer", "categorical", "text", "chromosome", "position"]},
+        "as": {"type": "string", "pattern": "^[A-Za-z][A-Za-z0-9_.-]{0,63}$", "description": "Public column name (default: the original header). Renamed originals are protected unless the public name shows them anyway (case-only change, or the original as a whole word inside it)."},
+        "protect_name": {"type": "boolean", "default": true, "description": "false: a renamed or dropped generic header (e.g. description) is not a protected term."},
+        "namespace": {"type": "string", "description": "id role."},
+        "separator": {"type": "string", "minLength": 1, "maxLength": 1, "description": "id role: multi-identifier cells."},
+        "list_order": {"enum": ["keyed", "keep"], "default": "keyed", "description": "id role with a separator: keyed (token) order inside each list cell, or keep the source order (only when order carries meaning; alphabetical source lists de-blind)."},
+        "precision": {"$ref": "#/$defs/precision", "description": "decimal role (required)."},
+        "perturb": {"$ref": "#/$defs/perturb", "description": "decimal role: optional keyed noise before rounding (needs a decimals or significant precision)."},
+        "levels": {"oneOf": [{"const": "keyed"}, {"type": "object", "additionalProperties": {"type": "string"}}], "description": "categorical role (required)."},
+        "protect_levels": {"type": "boolean", "default": true, "description": "categorical role: false = original levels are not protected terms (everyday words such as healthy or male that the prompt may use). Levels mapped to themselves up to case are never protected."},
+        "chromosome": {"type": "string", "description": "position role: original header of its chromosome-role column."},
+        "mode": {"enum": ["remap", "shift"], "default": "remap", "description": "position role: remap (order kept, spacing keyed) or shift (distances kept)."}
+      }
+    }
+  }
+}

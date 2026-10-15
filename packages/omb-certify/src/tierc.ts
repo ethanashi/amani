@@ -1,0 +1,47 @@
+import {SURROGACY_RELEASE} from '../../omb-procedures/src/surrogacy-release.ts';
+import {TIERC_CALIBRATION,metaLabelEnvelope,surrogateLabelEnvelope} from './tierc-calibration.ts';
+import { canonicalSha256 } from '../../bio-core/src/index.ts';
+import { META_ASSUMPTIONS,META_POLICY,metaAnalysisAdverseEvents,type MetaAnalysisInput } from '../../omb-procedures/src/meta-analysis.ts';
+import { SURROGACY_ASSUMPTIONS,SURROGACY_POLICY,trialLevelSurrogacy,type SurrogacyInput } from '../../omb-procedures/src/surrogacy.ts';
+import { certifyProcedureOutputs } from './procedure-diagnostics.ts';
+import { PROCEDURE_REGISTRY_VERSION } from './procedure-registry.ts';
+import type { ProcedureAssumption } from '../../omb-procedures/src/types.ts';
+import type { IntegrityFactDeclaration } from './procedure-integrity.ts';
+const labelAssumption=(prefix:string,blocks:string[]):ProcedureAssumption=>({id:`${prefix}.label-envelope`,assumption:'A Confirmed label is limited to the declared population assumptions and evaluated design cells',mandatory:true,diagnostic:`${prefix}.label-envelope`,blocks,valid_alternatives:[],default_rule:{on_fail:[],on_not_evaluable:'not-estimable'}});
+const metaAssumptions=[...META_ASSUMPTIONS,labelAssumption('ae',['ae.inference'])];
+const surAssumptions=[...SURROGACY_ASSUMPTIONS,labelAssumption('surrogacy',['surrogacy.inference','surrogacy.validated'])];
+export const META_REGISTRATION={procedureId:'meta.adverse-events@1',registryVersion:PROCEDURE_REGISTRY_VERSION,design:'adverse-events',calibration:TIERC_CALIBRATION,assumptions:metaAssumptions,diagnosticPolicy:META_POLICY,outputFields:['ae.inference','ae.labelEnvelope','ae.primary','ae.mh','ae.absolute','ae.heterogeneity','ae.smallStudy','ae.forest','ae.funnel','ae.counts','ae.settings'],integrityFacts:[{fact:'double-zero-trials',output:'ae.counts',pointer:'/doubleZero',scope:'outcome',unit:'trials',description:'trials with no events of the scoped outcome in either arm, over every input trial'}] as readonly IntegrityFactDeclaration[],guarantee:'Host-recomputed trial-count meta-analysis. Confirmed inference requires the separately calibrated envelope and all kernel gates; no causal or population transport guarantee.'} as const;
+export const SURROGACY_REGISTRATION={procedureId:'surrogacy.trial-level@1',registryVersion:PROCEDURE_REGISTRY_VERSION,design:'trial-surrogacy',calibration:SURROGACY_RELEASE,assumptions:surAssumptions,diagnosticPolicy:SURROGACY_POLICY,outputFields:['surrogacy.robustRegression','surrogacy.robustR2','surrogacy.inference','surrogacy.labelEnvelope','surrogacy.regression','surrogacy.r2','surrogacy.eiv','surrogacy.ste','surrogacy.loto','surrogacy.predictions','surrogacy.scatter','surrogacy.classification','surrogacy.validated','surrogacy.reporting'],integrityFacts:[] as readonly IntegrityFactDeclaration[],guarantee:'Host-recomputed weighted trial-level association and uncertainty. Trial-level validation is conditional on declared assumptions; it is not individual-level or regulatory surrogate validation. Confirmed inference requires calibration and the other kernel gates.'} as const;
+export const TIERC_REGISTRATIONS={'adverse-events':META_REGISTRATION,'trial-surrogacy':SURROGACY_REGISTRATION};
+export type TiercKind=keyof typeof TIERC_REGISTRATIONS;
+export const tiercRegistryHash=(kind:TiercKind)=>canonicalSha256(TIERC_REGISTRATIONS[kind]);
+const narrow=(assumptions:readonly ProcedureAssumption[],rules?:readonly {id:string;on_fail:readonly string[]}[])=>({assumptions:assumptions.map(a=>{const r=rules?.find(r=>r.id===a.id);return r?{...a,default_rule:{...a.default_rule,on_fail:a.default_rule.on_fail.filter(x=>r.on_fail.includes(x))}}:a;})});
+/** JSON represents infinite interval endpoints with explicit metadata, never an invented finite bound. */
+function serializable(value:unknown):unknown {if(typeof value==='number'&&!Number.isFinite(value))return null;if(Array.isArray(value))return value.map(serializable);if(value&&typeof value==='object'){const out:Record<string,unknown>={};for(const [k,v] of Object.entries(value))out[k]=serializable(v);if('ci' in value&&Array.isArray(value.ci))out.ciBoundaries=value.ci.map((v:unknown)=>v===Infinity?'positive-infinity':v===-Infinity?'negative-infinity':typeof v==='number'&&Number.isFinite(v)?'finite':'unavailable');return out;}return value;}
+export function certifyMetaAnalysis(input:MetaAnalysisInput,rules?:readonly {id:string;on_fail:readonly string[]}[]) {
+ const audit=metaAnalysisAdverseEvents(input),metadata=narrow(metaAssumptions,rules),raw:Record<string,unknown>={'ae.primary':audit.primary,'ae.mh':audit.mh,'ae.absolute':audit.absolute,'ae.heterogeneity':audit.heterogeneity,'ae.smallStudy':audit.smallStudy,'ae.forest':audit.forest,'ae.funnel':audit.forest.filter(t=>t.estimate!==null&&t.se!==null).map(t=>({id:t.id,effect:input.measure==='RD'?t.estimate:Math.log(t.estimate!),se:t.se})),'ae.counts':audit.counts,'ae.settings':audit.settings};
+ const envelope=metaLabelEnvelope(input);raw['ae.labelEnvelope']=envelope;raw['ae.inference']=envelope.withinDesignEnvelope?{eligibleConditionalOnPopulationAssumptions:true,calibrationHash:envelope.calibrationHash}:null;
+ {const a=metaAssumptions.at(-1)!;audit.diagnostics.push({id:a.id,assumption:a.assumption,mandatory:true,blocks:[...a.blocks],valid_alternatives:[],status:envelope.withinDesignEnvelope?'pass':'fail',detail:envelope.guarantee});}
+ const trusted={diagnostics:audit.diagnostics.map(d=>({...d,valid_alternatives:d.valid_alternatives.filter(f=>metadata.assumptions.find(a=>a.id===d.id)!.default_rule.on_fail.includes(f))}))};
+ const decision=certifyProcedureOutputs(metadata,trusted,raw,['ae.primary']);
+ if(decision.status!=='certified')raw['ae.inference']=null;
+ // The official plot and model metadata follow the valid default alternative, including weights.
+ if(decision.official['ae.mh']&&!decision.official['ae.primary']){const fallback=metaAnalysisAdverseEvents({trials:input.trials,measure:input.measure,model:'MH'});raw['ae.forest']=fallback.forest;raw['ae.heterogeneity']=fallback.heterogeneity;raw['ae.smallStudy']=fallback.smallStudy;const support=trusted.diagnostics.find(d=>d.id==='ae.small-study-support')!,fallbackSupport=fallback.diagnostics.find(d=>d.id==='ae.small-study-support')!;support.status=fallbackSupport.status;support.detail=fallbackSupport.detail;raw['ae.settings']={...fallback.settings,requestedModel:input.model??'MH',defaultAlternative:true};raw['ae.funnel']=fallback.forest.filter(t=>t.estimate!==null&&t.se!==null).map(t=>({id:t.id,effect:input.measure==='RD'?t.estimate:Math.log(t.estimate!),se:t.se}));}
+ const safe=certifyProcedureOutputs(metadata,trusted,raw,Object.keys(raw).filter(k=>raw[k]!==null));
+ const official=serializable({...safe.official,...decision.official}) as Record<string,unknown>;
+ return {...decision,official,selectedPrimary:decision.official['ae.primary']?'ae.primary':decision.official['ae.mh']?'ae.mh':null,procedure:META_REGISTRATION.procedureId,registryHash:tiercRegistryHash('adverse-events'),inputHash:canonicalSha256(input),guarantee:META_REGISTRATION.guarantee,audit};
+}
+export function certifySurrogacy(input:SurrogacyInput,rules?:readonly {id:string;on_fail:readonly string[]}[]) {
+ const audit=trialLevelSurrogacy(input),metadata=narrow(surAssumptions,rules),raw:Record<string,unknown>={};
+ for(const key of ['robustRegression','robustR2','regression','r2','eiv','ste','loto','predictions','scatter','classification','validated','reporting'] as const)raw[`surrogacy.${key}`]=audit[key];
+ // Preserve classical arithmetic in audit for reproducibility; official intervals always include the robust partner.
+ raw['surrogacy.regression']=audit.robustRegression;raw['surrogacy.r2']=audit.robustR2;
+ const envelope=surrogateLabelEnvelope(input);raw['surrogacy.labelEnvelope']=envelope;raw['surrogacy.inference']=null;
+ {const a=surAssumptions.at(-1)!;audit.diagnostics.push({id:a.id,assumption:a.assumption,mandatory:true,blocks:[...a.blocks],valid_alternatives:[],status:envelope.withinDesignEnvelope?'pass':'fail',detail:envelope.guarantee});}
+ const trusted={diagnostics:audit.diagnostics.map(d=>({...d,valid_alternatives:d.valid_alternatives.filter(f=>metadata.assumptions.find(a=>a.id===d.id)!.default_rule.on_fail.includes(f))}))};
+ const decision=certifyProcedureOutputs(metadata,trusted,raw,['surrogacy.regression','surrogacy.r2']);
+ if(decision.status!=='certified')raw['surrogacy.validated']=null;
+ if(decision.status==='certified'&&envelope.withinDesignEnvelope&&audit.status==='ok'&&audit.robust&&audit.diagnostics.find(d=>d.id==='surrogacy.robust-agreement')?.status==='pass')raw['surrogacy.inference']={eligibleConditionalOnPopulationAssumptions:true,calibrationHash:envelope.calibrationHash,rule:envelope.rule,slopeCI:audit.robust.slopeCI,r2CI:audit.robust.ci,slopeNullRejected:audit.robust.slopeNullRejected};
+ const safe=certifyProcedureOutputs(metadata,trusted,raw,Object.keys(raw).filter(k=>raw[k]!==null));
+ return {...decision,selectedFields:{regression:decision.official['surrogacy.regression']?'surrogacy.regression':decision.official['surrogacy.robustRegression']?'surrogacy.robustRegression':null,r2:decision.official['surrogacy.r2']?'surrogacy.r2':decision.official['surrogacy.robustR2']?'surrogacy.robustR2':null},official:serializable(safe.official) as Record<string,unknown>,procedure:SURROGACY_REGISTRATION.procedureId,registryHash:tiercRegistryHash('trial-surrogacy'),inputHash:canonicalSha256(input),guarantee:SURROGACY_REGISTRATION.guarantee,audit};
+}

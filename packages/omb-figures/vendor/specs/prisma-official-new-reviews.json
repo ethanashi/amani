@@ -1,0 +1,36 @@
+{
+  "source": "https://www.prisma-statement.org/prisma-2020-flow-diagram",
+  "template": "New systematic reviews which included searches of databases, registers and other sources",
+  "license": "CC-BY-4.0",
+  "credit": "Page MJ, et al. BMJ 2021;372:n71. doi: 10.1136/bmj.n71. CC BY 4.0.",
+  "originalDocxSha256": "caf2ea4e40c068e9eaa133ab7cdd6009e039437f7a433039a7485e53a2d2ac37",
+  "headers": [
+    "Identification of studies via databases and registers",
+    "Identification of studies via other methods"
+  ],
+  "phases": [
+    "Identification",
+    "Screening",
+    "Included"
+  ],
+  "identified": "Records identified from*:",
+  "otherIdentified": "Records identified from:",
+  "removed": "Records removed before screening:",
+  "duplicates": "Duplicate records removed",
+  "automatic": "Records marked as ineligible by automation tools",
+  "otherRemoved": "Records removed for other reasons",
+  "screened": "Records screened",
+  "screenExcluded": "Records excluded**",
+  "sought": "Reports sought for retrieval",
+  "notRetrieved": "Reports not retrieved",
+  "assessed": "Reports assessed for eligibility",
+  "excluded": "Reports excluded:",
+  "included": "Studies included in review",
+  "reports": "Reports of included studies",
+  "footnotes": [
+    "*Consider, if feasible to do so, reporting the number of records identified from each database or register searched (rather than the total number across all databases/registers).",
+    "**If automation tools were used, indicate how many records were excluded by a human and how many were excluded by automation tools."
+  ],
+  "headerColour": "#ffc000",
+  "phaseColour": "#9cc2e5"
+}

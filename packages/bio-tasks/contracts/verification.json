@@ -1,0 +1,97 @@
+[
+  {
+    "task": "iad1-brady-audit",
+    "verified": true,
+    "tables": 3
+  },
+  {
+    "task": "iad2-brady-twin",
+    "verified": true,
+    "tables": 2
+  },
+  {
+    "task": "iad3-browning-count",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p1-esr1",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p10-pseudorep",
+    "verified": true,
+    "tables": 2
+  },
+  {
+    "task": "p10b-pseudorep-hidden",
+    "verified": true,
+    "tables": 2
+  },
+  {
+    "task": "p11-confounding",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p12-quality",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p13-endpoint",
+    "verified": true,
+    "tables": 2
+  },
+  {
+    "task": "p14-citation",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p16-recovery",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p2-erbb2",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p4-bixbench",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p5-permuted",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p6-subgroups",
+    "verified": true,
+    "tables": 1
+  },
+  {
+    "task": "p7-nosignal",
+    "verified": true,
+    "tables": 2
+  },
+  {
+    "task": "p8-underpowered",
+    "verified": true,
+    "tables": 2
+  },
+  {
+    "task": "p9-leakage",
+    "verified": true,
+    "tables": 3
+  },
+  {
+    "task": "w0-venet",
+    "verified": true,
+    "tables": 3
+  }
+]

@@ -1,0 +1,355 @@
+{
+ "pmcid": "PMC11192935",
+ "doi": "10.1038/s41467-024-49109-z",
+ "pmid": "38906890",
+ "journal": "Nature Communications",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 15,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 155
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 36
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 528
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 786,
+   "sub": [
+    {
+     "heading": "Lack of LDL-C cross-ancestry colocalization at the",
+     "canonical": "other",
+     "words": 115
+    },
+    {
+     "heading": "On-target effects of low CETP levels on biomarkers",
+     "canonical": "other",
+     "words": 354
+    },
+    {
+     "heading": "On-target effects of low CETP levels on clinical outcomes",
+     "canonical": "other",
+     "words": 228
+    },
+    {
+     "heading": "On-target effects of lower CETP protein concentration in European participants",
+     "canonical": "other",
+     "words": 89
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1920
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 2200,
+   "sub": [
+    {
+     "heading": "Data sources",
+     "canonical": "other",
+     "words": 450
+    },
+    {
+     "heading": "Cross-ancestry colocalization of the LDL-C and HDL-C",
+     "canonical": "other",
+     "words": 175
+    },
+    {
+     "heading": "Mendelian randomisation analysis",
+     "canonical": "other",
+     "words": 574
+    },
+    {
+     "heading": "Interaction test",
+     "canonical": "other",
+     "words": 98
+    },
+    {
+     "heading": "Multiple testing",
+     "canonical": "other",
+     "words": 98
+    },
+    {
+     "heading": "Inference in a biomarker drug target Mendelian randomisation analysis",
+     "canonical": "other",
+     "words": 788
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary information",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Source data",
+     "canonical": "other",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 125
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 38
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 27,
+   "sub": [
+    {
+     "heading": "Peer review information",
+     "canonical": "other",
+     "words": 27
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 309
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 23
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 52
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 332,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 332
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 528,
+  "results": 786,
+  "discussion": 1920,
+  "methods": 2200,
+  "other_back": 27,
+  "acknowledgements": 125,
+  "contributions": 38,
+  "data_availability": 332,
+  "competing_interests": 52,
+  "supplementary": 341,
+  "references": 0
+ },
+ "main_text_words": 5434,
+ "main_text_words_excluding_methods": 3234,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 5,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 18,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 59,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": true,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

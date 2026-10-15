@@ -1,0 +1,296 @@
+{
+  "dataset": "metabric",
+  "download_wire_bytes": 332761262,
+  "endpoints": [
+    "https://www.cbioportal.org/api/genes?projection=SUMMARY&pageSize=10000000",
+    "https://www.cbioportal.org/api/info",
+    "https://www.cbioportal.org/api/molecular-profiles/brca_metabric_mrna/molecular-data/fetch?projection=SUMMARY",
+    "https://www.cbioportal.org/api/sample-lists/brca_metabric_mrna",
+    "https://www.cbioportal.org/api/studies/brca_metabric",
+    "https://www.cbioportal.org/api/studies/brca_metabric/clinical-attributes",
+    "https://www.cbioportal.org/api/studies/brca_metabric/clinical-data?clinicalDataType=PATIENT&projection=SUMMARY&pageSize=10000000",
+    "https://www.cbioportal.org/api/studies/brca_metabric/clinical-data?clinicalDataType=SAMPLE&projection=SUMMARY&pageSize=10000000",
+    "https://www.cbioportal.org/api/studies/brca_metabric/molecular-profiles",
+    "https://www.cbioportal.org/api/studies/brca_metabric/sample-lists",
+    "https://www.cbioportal.org/api/studies/brca_metabric/samples?projection=SUMMARY&pageSize=10000000"
+  ],
+  "expression": {
+    "genes": 19850,
+    "profile": "brca_metabric_mrna",
+    "requests": 180,
+    "sample_list": "brca_metabric_mrna",
+    "samples": 1980
+  },
+  "files": [
+    {
+      "accession": "brca_metabric",
+      "bytes": 2902,
+      "derivation": "data/build_task_data.py --seed 20111020 --fraction 0.05 (arm-facing copy; contents described only in task/SEALED-ANSWER.md)",
+      "derivedFrom": [
+        "clean/clinical_attributes.tsv"
+      ],
+      "path": "arm/clinical_attributes.tsv",
+      "retrievedAt": "2026-10-10T03:06:57Z",
+      "role": "arm",
+      "sha256": "385ea181150600bfd049425065791dee5e47356a73934fa6e578822cbd1964bf",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 446515,
+      "derivation": "data/build_task_data.py --seed 20111020 --fraction 0.05 (arm-facing copy; contents described only in task/SEALED-ANSWER.md)",
+      "derivedFrom": [
+        "clean/clinical_patient.tsv"
+      ],
+      "path": "arm/clinical_patient.tsv",
+      "retrievedAt": "2026-10-10T03:06:57Z",
+      "role": "arm",
+      "sha256": "5f2d74c137ca1443d28d9c8ae8c389ba5041f7d4250db61567c563c3d7220061",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 318108,
+      "derivation": "data/build_task_data.py --seed 20111020 --fraction 0.05 (arm-facing copy; contents described only in task/SEALED-ANSWER.md)",
+      "derivedFrom": [
+        "clean/clinical_sample.tsv"
+      ],
+      "path": "arm/clinical_sample.tsv",
+      "retrievedAt": "2026-10-10T03:06:57Z",
+      "role": "arm",
+      "sha256": "e07cfcfad8ca5d6c9404221bcfb4facc0865edfa2a450c199ee531d1fe429953",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 286576189,
+      "derivation": "data/build_task_data.py --seed 20111020 --fraction 0.05 (arm-facing copy; contents described only in task/SEALED-ANSWER.md)",
+      "derivedFrom": [
+        "clean/expression_mrna.tsv"
+      ],
+      "path": "arm/expression_mrna.tsv",
+      "retrievedAt": "2026-10-10T03:06:57Z",
+      "role": "arm",
+      "sha256": "f5e66fa4eb540ed7402d284d7c34ae8d899f087448591eabfba893cd5b34c6f7",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/molecular-profiles/brca_metabric_mrna/molecular-data/fetch?projection=SUMMARY"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 2902,
+      "derivation": "data/stage_metabric.py (deterministic conversion, values as served)",
+      "derivedFrom": [
+        "raw/clinical_attributes.json"
+      ],
+      "path": "clean/clinical_attributes.tsv",
+      "retrievedAt": "2026-10-10T02:53:32Z",
+      "role": "clean",
+      "sha256": "385ea181150600bfd049425065791dee5e47356a73934fa6e578822cbd1964bf",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric/clinical-attributes"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 427868,
+      "derivation": "data/stage_metabric.py (deterministic conversion, values as served)",
+      "derivedFrom": [
+        "raw/clinical_patient.json",
+        "raw/clinical_attributes.json"
+      ],
+      "path": "clean/clinical_patient.tsv",
+      "retrievedAt": "2026-10-10T02:53:32Z",
+      "role": "clean",
+      "sha256": "96c6234552ee59f8e16cdb8e91430dc045c3fe2f1c2d4851e87afe79799ed1c5",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric/clinical-data?clinicalDataType=PATIENT&projection=SUMMARY&pageSize=10000000"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 305874,
+      "derivation": "data/stage_metabric.py (deterministic conversion, values as served)",
+      "derivedFrom": [
+        "raw/clinical_sample.json",
+        "raw/clinical_attributes.json"
+      ],
+      "path": "clean/clinical_sample.tsv",
+      "retrievedAt": "2026-10-10T02:53:32Z",
+      "role": "clean",
+      "sha256": "6c6c1fab720523881a421b0258829d0b967e28a212f5aa40aa5071d16270bf6c",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric/clinical-data?clinicalDataType=SAMPLE&projection=SUMMARY&pageSize=10000000"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 272941014,
+      "derivation": "data/stage_metabric.py (deterministic conversion, values as served)",
+      "derivedFrom": [
+        "raw/expression_requests.jsonl",
+        "raw/sample_list_mrna.json",
+        "raw/genes.json"
+      ],
+      "path": "clean/expression_mrna.tsv",
+      "retrievedAt": "2026-10-10T03:06:56Z",
+      "role": "clean",
+      "sha256": "446865851f406ddc288fb895d6afc017ca6ad8a1bb8186e007ce0117f8556119",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/molecular-profiles/brca_metabric_mrna/molecular-data/fetch?projection=SUMMARY"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 734,
+      "path": "raw/api_info.json",
+      "retrievedAt": "2026-10-10T02:53:32Z",
+      "role": "raw",
+      "sha256": "6cdb9c921eea7458c65af9630311319ce1abc8746e44dbc79d2f0915dc7d313d",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/info"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 7483,
+      "path": "raw/clinical_attributes.json",
+      "retrievedAt": "2026-10-10T02:53:33Z",
+      "role": "raw",
+      "sha256": "c0cf45d4295c7aa2c20c6f8a35e2d98c7971a4471c0cda4c66bb69253a63751f",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric/clinical-attributes"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 7969135,
+      "path": "raw/clinical_patient.json",
+      "retrievedAt": "2026-10-10T02:53:34Z",
+      "role": "raw",
+      "sha256": "3bc1a326d46b1922a520bdf5cb8c4c41a3692ce3eae9decad93e7a9a3ca7fc45",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric/clinical-data?clinicalDataType=PATIENT&projection=SUMMARY&pageSize=10000000"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 6348450,
+      "path": "raw/clinical_sample.json",
+      "retrievedAt": "2026-10-10T02:53:34Z",
+      "role": "raw",
+      "sha256": "4347a8fa1e0cb8ca4b4a9960b0a4f1ca27b66b054a82c3e0065d331cdb25a92b",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric/clinical-data?clinicalDataType=SAMPLE&projection=SUMMARY&pageSize=10000000"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 90685,
+      "note": "log of every expression request: request body hash, decoded-response sha256 and bytes; responses converted to clean/expression_mrna.tsv, not kept",
+      "path": "raw/expression_requests.jsonl",
+      "retrievedAt": "2026-10-10T03:06:56Z",
+      "role": "raw",
+      "sha256": "88f7c825a8fe3a9e814da8f87c9016d5781a3097833460dddb6e81e5b7e62838",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/molecular-profiles/brca_metabric_mrna/molecular-data/fetch?projection=SUMMARY"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 3237447,
+      "path": "raw/genes.json",
+      "retrievedAt": "2026-10-10T02:53:35Z",
+      "role": "raw",
+      "sha256": "0d936d29a9d2e59f47db1d31209b40dca8640c724fb98e2ddd5ff620c64a6b6b",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/genes?projection=SUMMARY&pageSize=10000000"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 2191,
+      "path": "raw/molecular_profiles.json",
+      "retrievedAt": "2026-10-10T02:53:32Z",
+      "role": "raw",
+      "sha256": "a61c05659833d6265348f235da38f7545648ed5f78bc088e99ced54dc54717f6",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric/molecular-profiles"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 20068,
+      "path": "raw/sample_list_mrna.json",
+      "retrievedAt": "2026-10-10T02:53:33Z",
+      "role": "raw",
+      "sha256": "0ff0a20fe8fe519d9782c5335b90bc9b65b7d5fddaf26a6821f6948f1e6960ee",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/sample-lists/brca_metabric_mrna"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 1643,
+      "path": "raw/sample_lists.json",
+      "retrievedAt": "2026-10-10T02:53:33Z",
+      "role": "raw",
+      "sha256": "09d8eea05799b770d6c20ade3374631afc143a76247ea64c58ee448f9017012a",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric/sample-lists"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 519586,
+      "path": "raw/samples.json",
+      "retrievedAt": "2026-10-10T02:53:34Z",
+      "role": "raw",
+      "sha256": "9bfaa0e455e28acb37d1c8e265260885a4727e49c40049ed1de9dbe723480f24",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric/samples?projection=SUMMARY&pageSize=10000000"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 3679,
+      "note": "staging summary written by data/stage_metabric.py",
+      "path": "raw/staging_log.json",
+      "retrievedAt": "2026-10-10T03:06:57Z",
+      "role": "raw",
+      "sha256": "9c4eea4006b121bc9a6557608db301266c86f3dc12eeda9b5eeeef26567d9010",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api"
+    },
+    {
+      "accession": "brca_metabric",
+      "bytes": 945,
+      "path": "raw/study.json",
+      "retrievedAt": "2026-10-10T02:53:32Z",
+      "role": "raw",
+      "sha256": "c8b6de97e345f605c6d3db3cbcb035782bdc91ca2772a5012b914ad0d2afef78",
+      "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+      "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+      "url": "https://www.cbioportal.org/api/studies/brca_metabric"
+    }
+  ],
+  "portal_version": "v7.1.2",
+  "retrievedAt": {
+    "finished": "2026-10-10T03:06:57Z",
+    "started": "2026-10-10T02:53:32Z"
+  },
+  "schema": "omerta-bio dataset manifest v1",
+  "source": "cBioPortal public REST API (https://www.cbioportal.org/api)",
+  "storage_root": "~/.omerta-bio/datasets/metabric (outside git)",
+  "study_id": "brca_metabric",
+  "study_import_date": "2026-01-05 16:15:29",
+  "terms": "Public cBioPortal study (no login, no click-through or data access agreement). De-identified data publicly released by the METABRIC consortium (Curtis et al. 2012, Nature; Pereira et al. 2016, Nat Commun; Rueda et al. 2019, Nature). cBioPortal asks users to cite the study publications and cBioPortal itself. Matches the Block 2 terms-registry allowed example 'cBioPortal public studies'. Not controlled access. Stored outside git; not redistributed.",
+  "total_bytes_on_disk": 579223418
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "fixture": "pdf-asciihex-hidden-number",
+    "bytes": 355,
+    "sha256": "0621dda55c811d61ba074585c467860457d2d9fdd7cc2d5e0522866336bed392",
+    "pythonEqualsNode": true
+  },
+  {
+    "fixture": "pdf-honest-asciihex-whitespace",
+    "bytes": 301,
+    "sha256": "f17c4551ec72d7304628205b5232f5118486e08ddf0a78a809c026e963c8e1ea",
+    "pythonEqualsNode": true
+  }
+]

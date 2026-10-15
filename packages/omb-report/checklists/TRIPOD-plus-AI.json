@@ -1,0 +1,574 @@
+{
+  "name": "TRIPOD+AI",
+  "version": "2024",
+  "attribution": "Collins et al. BMJ 2024;385:e078378. Source CC BY 4.0; original prompts.",
+  "source": "https://www.tripod-statement.org/wp-content/uploads/2024/04/TRIPODAI-Supplement.pdf",
+  "wording": "original-prompts",
+  "items": [
+    {
+      "id": "1",
+      "prompt": "Prediction title",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "prediction",
+        "title"
+      ],
+      "evidenceGroup": "1"
+    },
+    {
+      "id": "2",
+      "prompt": "Abstract checklist",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "abstract",
+        "checklist"
+      ],
+      "evidenceGroup": "2"
+    },
+    {
+      "id": "3a",
+      "prompt": "Healthcare rationale",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "healthcare",
+        "rationale"
+      ],
+      "evidenceGroup": "3"
+    },
+    {
+      "id": "3b",
+      "prompt": "Intended use",
+      "clinical": true,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "intended",
+        "use"
+      ],
+      "evidenceGroup": "clinical"
+    },
+    {
+      "id": "3c",
+      "prompt": "Health inequalities",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "health",
+        "inequalities"
+      ],
+      "evidenceGroup": "3"
+    },
+    {
+      "id": "4",
+      "prompt": "Development/evaluation objectives",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "development",
+        "evaluation",
+        "objectives"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "5a",
+      "prompt": "Dataset suitability",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "dataset",
+        "suitability"
+      ],
+      "evidenceGroup": "5"
+    },
+    {
+      "id": "5b",
+      "prompt": "Collection dates",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "collection",
+        "dates"
+      ],
+      "evidenceGroup": "5"
+    },
+    {
+      "id": "6a",
+      "prompt": "Recruitment setting",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "recruitment",
+        "setting"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "6b",
+      "prompt": "Eligibility",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "eligibility"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "6c",
+      "prompt": "Treatments",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "treatments"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "7",
+      "prompt": "Data preparation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "data",
+        "preparation"
+      ],
+      "evidenceGroup": "7"
+    },
+    {
+      "id": "8a",
+      "prompt": "Outcome definition",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "outcome",
+        "definition"
+      ],
+      "evidenceGroup": "8"
+    },
+    {
+      "id": "8b",
+      "prompt": "Outcome assessors",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "outcome",
+        "assessors"
+      ],
+      "evidenceGroup": "8"
+    },
+    {
+      "id": "8c",
+      "prompt": "Outcome blinding",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "outcome",
+        "blinding"
+      ],
+      "evidenceGroup": "8"
+    },
+    {
+      "id": "9a",
+      "prompt": "Candidate predictors",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "candidate",
+        "predictors"
+      ],
+      "evidenceGroup": "9"
+    },
+    {
+      "id": "9b",
+      "prompt": "Predictor measurement",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "predictor",
+        "measurement"
+      ],
+      "evidenceGroup": "9"
+    },
+    {
+      "id": "9c",
+      "prompt": "Predictor assessors",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "predictor",
+        "assessors"
+      ],
+      "evidenceGroup": "9"
+    },
+    {
+      "id": "10",
+      "prompt": "Size justification",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "size",
+        "justification"
+      ],
+      "evidenceGroup": "10"
+    },
+    {
+      "id": "11",
+      "prompt": "Missingness",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "missingness"
+      ],
+      "evidenceGroup": "11"
+    },
+    {
+      "id": "12a",
+      "prompt": "Data partitioning",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "data",
+        "partitioning"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12b",
+      "prompt": "Predictor transformations",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "predictor",
+        "transformations"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12c",
+      "prompt": "Training and tuning",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "training",
+        "tuning"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12d",
+      "prompt": "Cluster heterogeneity",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "cluster",
+        "heterogeneity"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12e",
+      "prompt": "Performance measures",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "performance",
+        "measures"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12f",
+      "prompt": "Recalibration methods",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "recalibration",
+        "methods"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12g",
+      "prompt": "Prediction calculation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "prediction",
+        "calculation"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "13",
+      "prompt": "Class balancing",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "class",
+        "balancing"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "14",
+      "prompt": "Fairness safeguards",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "fairness",
+        "safeguards"
+      ],
+      "evidenceGroup": "14"
+    },
+    {
+      "id": "15",
+      "prompt": "Output thresholds",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "output",
+        "thresholds"
+      ],
+      "evidenceGroup": "15"
+    },
+    {
+      "id": "16",
+      "prompt": "Dataset differences",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "dataset",
+        "differences"
+      ],
+      "evidenceGroup": "16"
+    },
+    {
+      "id": "17",
+      "prompt": "Ethics approval",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "ethics",
+        "approval"
+      ],
+      "evidenceGroup": "17"
+    },
+    {
+      "id": "18a",
+      "prompt": "Funding",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "funding"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "18b",
+      "prompt": "Interests",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "interests"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "18c",
+      "prompt": "Protocol access",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "protocol",
+        "access"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "18d",
+      "prompt": "Registration",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "registration"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "18e",
+      "prompt": "Data access",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "data",
+        "access"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "18f",
+      "prompt": "Code access",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "code",
+        "access"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "19",
+      "prompt": "Public involvement",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "public",
+        "involvement"
+      ],
+      "evidenceGroup": "19"
+    },
+    {
+      "id": "20a",
+      "prompt": "Participant flow",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "participant",
+        "flow"
+      ],
+      "evidenceGroup": "20"
+    },
+    {
+      "id": "20b",
+      "prompt": "Dataset profiles",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "dataset",
+        "profiles"
+      ],
+      "evidenceGroup": "20"
+    },
+    {
+      "id": "20c",
+      "prompt": "Population comparison",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "population",
+        "comparison"
+      ],
+      "evidenceGroup": "20"
+    },
+    {
+      "id": "21",
+      "prompt": "Analysis counts",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "analysis",
+        "counts"
+      ],
+      "evidenceGroup": "21"
+    },
+    {
+      "id": "22",
+      "prompt": "Model specification",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "model",
+        "specification"
+      ],
+      "evidenceGroup": "22"
+    },
+    {
+      "id": "23a",
+      "prompt": "Performance uncertainty",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "performance",
+        "uncertainty"
+      ],
+      "evidenceGroup": "23"
+    },
+    {
+      "id": "23b",
+      "prompt": "Performance heterogeneity",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "performance",
+        "heterogeneity"
+      ],
+      "evidenceGroup": "23"
+    },
+    {
+      "id": "24",
+      "prompt": "Updated performance",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "updated",
+        "performance"
+      ],
+      "evidenceGroup": "24"
+    },
+    {
+      "id": "25",
+      "prompt": "Interpretation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "interpretation"
+      ],
+      "evidenceGroup": "25"
+    },
+    {
+      "id": "26",
+      "prompt": "Limitations",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "limitations"
+      ],
+      "evidenceGroup": "26"
+    },
+    {
+      "id": "27a",
+      "prompt": "Implementation missingness",
+      "clinical": true,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "implementation",
+        "missingness"
+      ],
+      "evidenceGroup": "clinical"
+    },
+    {
+      "id": "27b",
+      "prompt": "User expertise",
+      "clinical": true,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "user",
+        "expertise"
+      ],
+      "evidenceGroup": "clinical"
+    },
+    {
+      "id": "27c",
+      "prompt": "Next steps",
+      "clinical": true,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "next",
+        "steps"
+      ],
+      "evidenceGroup": "clinical"
+    }
+  ]
+}

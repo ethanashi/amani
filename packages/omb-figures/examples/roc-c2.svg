@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-roc" width="252pt" height="250pt" viewBox="0 0 252 250" role="img" aria-labelledby="ombbldndpakgkhm-title ombbldndpakgkhm-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombbldndpakgkhm-title">Receiver operating characteristic curve</title>
+ <desc id="ombbldndpakgkhm-desc">Receiver operating characteristic curve. Curves: Locked model with a shaded confidence band (AUC 0.80); Clinical baseline (AUC 0.67). A dashed diagonal marks chance performance.</desc>
+ <rect class="background" x="0" y="0" width="252" height="250" fill="#FFFFFF"/>
+ <line class="ref-chance" x1="46" y1="190" x2="226" y2="10" stroke="#8C8C8C" stroke-width="0.75" stroke-dasharray="3 2"/>
+ <polygon class="band sa" points="46,190 49.6,113.3 55,95.88 64,79.79 73,68.99 82,60.63 100,47.78 118,37.85 136,29.64 154,22.58 172,16.35 190,10.77 208,10 226,10 226,19 208,23.68 190,28.77 172,34.35 154,40.58 136,47.64 118,55.85 100,65.78 82,78.63 73,86.99 64,97.79 55,113.88 49.6,131.3 46,190" fill="#0072B2" fill-opacity="0.15" stroke="none"/>
+ <polyline class="mark series-line sa" points="46,190 49.6,122.3 55,104.88 64,88.79 73,77.99 82,69.63 100,56.78 118,46.85 136,38.64 154,31.58 172,25.35 190,19.77 208,14.68 226,10" fill="none" stroke="#0072B2" stroke-width="1.4" stroke-linejoin="round" data-fact="mark-0"/>
+ <polyline class="mark series-line sb" points="46,190 49.6,164.55 55,149.75 64,133.08 73,120.29 82,109.5 100,91.41 118,76.15 136,62.72 154,50.57 172,39.39 190,29.01 208,19.23 226,10" fill="none" stroke="#D55E00" stroke-width="1.4" stroke-dasharray="6 3" stroke-linejoin="round" data-fact="mark-1"/>
+ <g class="axis axis-x scale-linear">
+  <line class="domain" x1="46" y1="190" x2="226" y2="190" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="46" y1="190" x2="46" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="46" y="201" font-size="7" text-anchor="middle" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="82" y1="190" x2="82" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="82" y="201" font-size="7" text-anchor="middle" fill="#222222">0.2</text>
+  </g>
+  <g class="tick">
+   <line x1="118" y1="190" x2="118" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="118" y="201" font-size="7" text-anchor="middle" fill="#222222">0.4</text>
+  </g>
+  <g class="tick">
+   <line x1="154" y1="190" x2="154" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="154" y="201" font-size="7" text-anchor="middle" fill="#222222">0.6</text>
+  </g>
+  <g class="tick">
+   <line x1="190" y1="190" x2="190" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="190" y="201" font-size="7" text-anchor="middle" fill="#222222">0.8</text>
+  </g>
+  <g class="tick">
+   <line x1="226" y1="190" x2="226" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="226" y="201" font-size="7" text-anchor="middle" fill="#222222">1</text>
+  </g>
+  <text class="axis-title" x="136" y="213" font-size="8" text-anchor="middle" fill="#222222">False-positive rate</text>
+ </g>
+ <g class="axis axis-y scale-linear">
+  <line class="domain" x1="46" y1="190" x2="46" y2="10" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="43" y1="190" x2="46" y2="190" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="192.5" font-size="7" text-anchor="end" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="154" x2="46" y2="154" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="156.5" font-size="7" text-anchor="end" fill="#222222">0.2</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="118" x2="46" y2="118" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="120.5" font-size="7" text-anchor="end" fill="#222222">0.4</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="82" x2="46" y2="82" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="84.5" font-size="7" text-anchor="end" fill="#222222">0.6</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="46" x2="46" y2="46" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="48.5" font-size="7" text-anchor="end" fill="#222222">0.8</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="10" x2="46" y2="10" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="12.5" font-size="7" text-anchor="end" fill="#222222">1</text>
+  </g>
+  <text class="axis-title" x="16" y="100" font-size="8" text-anchor="middle" fill="#222222" transform="rotate(-90 16 100)">True-positive rate</text>
+ </g>
+ <g class="legend-entry">
+  <line class="legend-key" x1="46" y1="225.5" x2="60" y2="225.5" stroke="#0072B2" stroke-width="1.2"/>
+  <text class="legend-label" x="64" y="228" font-size="7" text-anchor="start" fill="#222222">Locked model (AUC 0.80)</text>
+ </g>
+ <g class="legend-entry">
+  <line class="legend-key" x1="46" y1="236.5" x2="60" y2="236.5" stroke="#D55E00" stroke-width="1.2" stroke-dasharray="6 3"/>
+  <text class="legend-label" x="64" y="239" font-size="7" text-anchor="start" fill="#222222">Clinical baseline (AUC 0.67)</text>
+ </g>
+ <metadata>{"certificateHashes":["727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30"],"csvSha256":"c7702cf641e5e81e55fad9a7f0e713f91d4ee8fc6dd2e800ea6ab2ecf170040b","factIds":["c2","c2.auc.baseline","c2.auc.model","c2.roc.baseline.fpr","c2.roc.baseline.tpr","c2.roc.model.band_lower","c2.roc.model.band_upper","c2.roc.model.fpr","c2.roc.model.tpr"],"figureId":"roc-c2","generatorVersion":"omb-figures@2","specSha256":"872438738577116471872c991ddc371c04aaa546fd3e4358938ff64a3667de54","templateId":"roc@omb-figures-templates@1"}</metadata>
+</svg>

@@ -1,0 +1,332 @@
+{
+  "schema": "omb-drafter/mutations@1",
+  "baselinePassed": true,
+  "total": 45,
+  "killed": 45,
+  "rate": 1,
+  "results": [
+    {
+      "id": "budget-calls",
+      "status": "killed",
+      "tests": [
+        "adapter bounds calls, tokens, elapsed time, provenance and usage"
+      ]
+    },
+    {
+      "id": "budget-tokens",
+      "status": "killed",
+      "tests": [
+        "adapter bounds calls, tokens, elapsed time, provenance and usage"
+      ]
+    },
+    {
+      "id": "budget-time",
+      "status": "killed",
+      "tests": [
+        "budget checks time before dispatch and output bytes before parsing"
+      ]
+    },
+    {
+      "id": "usage-required",
+      "status": "killed",
+      "tests": [
+        "adapter bounds calls, tokens, elapsed time, provenance and usage"
+      ]
+    },
+    {
+      "id": "model-provenance",
+      "status": "killed",
+      "tests": [
+        "adapter bounds calls, tokens, elapsed time, provenance and usage"
+      ]
+    },
+    {
+      "id": "containment",
+      "status": "killed",
+      "tests": [
+        "adapter bounds calls, tokens, elapsed time, provenance and usage"
+      ]
+    },
+    {
+      "id": "output-size",
+      "status": "killed",
+      "tests": [
+        "budget checks time before dispatch and output bytes before parsing"
+      ]
+    },
+    {
+      "id": "adapter-status",
+      "status": "killed",
+      "tests": [
+        "failed final review leaves owner edit unreviewed"
+      ]
+    },
+    {
+      "id": "blind-auth",
+      "status": "killed",
+      "tests": [
+        "host-signed stage-1 receipt rejects forgery, stale heads, races and non-strict timing"
+      ]
+    },
+    {
+      "id": "blind-prelook",
+      "status": "killed",
+      "tests": [
+        "host-signed stage-1 receipt rejects forgery, stale heads, races and non-strict timing"
+      ]
+    },
+    {
+      "id": "blind-exclusive",
+      "status": "killed",
+      "tests": [
+        "host-signed stage-1 receipt rejects forgery, stale heads, races and non-strict timing"
+      ]
+    },
+    {
+      "id": "blind-hash",
+      "status": "killed",
+      "tests": [
+        "host-signed stage-1 receipt rejects forgery, stale heads, races and non-strict timing"
+      ]
+    },
+    {
+      "id": "blind-timestamp",
+      "status": "killed",
+      "tests": [
+        "host-signed stage-1 receipt rejects forgery, stale heads, races and non-strict timing"
+      ]
+    },
+    {
+      "id": "blind-hypothesis",
+      "status": "killed",
+      "tests": [
+        "blind hypothesis guard is enforced before ordinary narrative checks"
+      ]
+    },
+    {
+      "id": "venue-section",
+      "status": "killed",
+      "tests": [
+        "venue limits and missing sections fail closed"
+      ]
+    },
+    {
+      "id": "venue-total",
+      "status": "killed",
+      "tests": [
+        "venue limits and missing sections fail closed"
+      ]
+    },
+    {
+      "id": "venue-displays",
+      "status": "killed",
+      "tests": [
+        "venue limits and missing sections fail closed"
+      ]
+    },
+    {
+      "id": "venue-references",
+      "status": "killed",
+      "tests": [
+        "venue limits and missing sections fail closed"
+      ]
+    },
+    {
+      "id": "venue-required",
+      "status": "killed",
+      "tests": [
+        "venue limits and missing sections fail closed"
+      ]
+    },
+    {
+      "id": "study-pieces",
+      "status": "killed",
+      "tests": [
+        "missing required variant pieces, checklist slots and altered frozen intro refuse"
+      ]
+    },
+    {
+      "id": "render-integrity",
+      "status": "killed",
+      "tests": [
+        "post-render edits cannot launder a changed number or label"
+      ]
+    },
+    {
+      "id": "family-separation",
+      "status": "killed",
+      "tests": [
+        "same-family or unrecorded reviewer is refused before dispatch"
+      ]
+    },
+    {
+      "id": "proposal-queue",
+      "status": "killed",
+      "tests": [
+        "analysis requests become normalized V7 proposals and never prose",
+        "structured requests route indirect language to V7 and missing field refuses"
+      ]
+    },
+    {
+      "id": "edit-invalidates-review",
+      "status": "killed",
+      "tests": [
+        "bad owner edits invalidate review and cannot move or invent facts"
+      ]
+    },
+    {
+      "id": "edit-facts",
+      "status": "killed",
+      "tests": [
+        "bad owner edits invalidate review and cannot move or invent facts"
+      ]
+    },
+    {
+      "id": "latest-review",
+      "status": "killed",
+      "tests": [
+        "bad owner edits invalidate review and cannot move or invent facts",
+        "failed final review leaves owner edit unreviewed"
+      ]
+    },
+    {
+      "id": "review-anchor",
+      "status": "killed",
+      "tests": [
+        "new analysis disguise, invalid proposals, clearing keys and bad review anchors refuse"
+      ]
+    },
+    {
+      "id": "limitation-major",
+      "status": "killed",
+      "tests": [
+        "new analysis disguise, invalid proposals, clearing keys and bad review anchors refuse",
+        "structured requests route indirect language to V7 and missing field refuses"
+      ]
+    },
+    {
+      "id": "proposal-normalize",
+      "status": "killed",
+      "tests": [
+        "new analysis disguise, invalid proposals, clearing keys and bad review anchors refuse"
+      ]
+    },
+    {
+      "id": "spin-taxonomy",
+      "status": "killed",
+      "tests": [
+        "full mode dispatches every referee role and keeps spin issues add-only"
+      ]
+    },
+    {
+      "id": "response-diff",
+      "status": "killed",
+      "tests": [
+        "revision mode preserves original facts and derives response changes from text"
+      ]
+    },
+    {
+      "id": "correction-facts",
+      "status": "killed",
+      "tests": [
+        "correction rebuilds from fresh facts, records erratum and reviews every changed fact"
+      ]
+    },
+    {
+      "id": "budget-final-render",
+      "status": "killed",
+      "tests": [
+        "rendering after the last model call still counts against the final budget"
+      ]
+    },
+    {
+      "id": "section-floor",
+      "status": "killed",
+      "tests": [
+        "production profiles reject the undersized fixture and repeated padding"
+      ]
+    },
+    {
+      "id": "narrative-diversity",
+      "status": "killed",
+      "tests": [
+        "production profiles reject the undersized fixture and repeated padding"
+      ]
+    },
+    {
+      "id": "genre-schema",
+      "status": "killed",
+      "tests": [
+        "genre projection checks schema and binds required elements to host evidence"
+      ]
+    },
+    {
+      "id": "temporal-strict",
+      "status": "killed",
+      "tests": [
+        "host-signed stage-1 receipt rejects forgery, stale heads, races and non-strict timing"
+      ]
+    },
+    {
+      "id": "temporal-ledger-head",
+      "status": "killed",
+      "tests": [
+        "host-signed stage-1 receipt rejects forgery, stale heads, races and non-strict timing"
+      ]
+    },
+    {
+      "id": "validator-wiring",
+      "status": "killed",
+      "tests": [
+        "real constructors receive JSON validator and missing wiring fails before dispatch"
+      ]
+    },
+    {
+      "id": "identity-family",
+      "status": "killed",
+      "tests": [
+        "version patterns accept dated versions while enforcing provider family"
+      ]
+    },
+    {
+      "id": "rate-backoff",
+      "status": "killed",
+      "tests": [
+        "rate limits park then resume with bounded exponential delays and retained spend"
+      ]
+    },
+    {
+      "id": "rate-retries",
+      "status": "killed",
+      "tests": [
+        "rate-limit retry exhaustion and excessive resets fail closed"
+      ]
+    },
+    {
+      "id": "partb-free-guard",
+      "status": "killed",
+      "tests": [
+        "Part B guards free narrative: A total of 99 participants was available.",
+        "Part B guards free narrative: Claude assessed this limitation.",
+        "Part B guards free narrative: MarkerA causes ALS.",
+        "Part B guards free narrative: <span>hidden</span>.",
+        "Part B guards free narrative: [claim:c2].",
+        "settling-data prose may describe a prospective resolution without claiming mitigation"
+      ]
+    },
+    {
+      "id": "partb-claim-binding",
+      "status": "killed",
+      "tests": [
+        "Part B guards free narrative: [claim:c2]."
+      ]
+    },
+    {
+      "id": "pre-freeze-floor",
+      "status": "killed",
+      "tests": [
+        "Introduction lower bound is checked before immutable storage"
+      ]
+    }
+  ]
+}

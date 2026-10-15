@@ -1,0 +1,79 @@
+{
+  "case": "c4",
+  "passed": 18,
+  "total": 18,
+  "criteria": [
+    {
+      "name": "q01",
+      "passed": true
+    },
+    {
+      "name": "q02",
+      "passed": true
+    },
+    {
+      "name": "q03",
+      "passed": true
+    },
+    {
+      "name": "q04",
+      "passed": true
+    },
+    {
+      "name": "q05",
+      "passed": true
+    },
+    {
+      "name": "q06",
+      "passed": true
+    },
+    {
+      "name": "q07",
+      "passed": true
+    },
+    {
+      "name": "q08",
+      "passed": true
+    },
+    {
+      "name": "q09",
+      "passed": true
+    },
+    {
+      "name": "q10",
+      "passed": true
+    },
+    {
+      "name": "q11",
+      "passed": true
+    },
+    {
+      "name": "q12",
+      "passed": true
+    },
+    {
+      "name": "q13",
+      "passed": true
+    },
+    {
+      "name": "q14",
+      "passed": true
+    },
+    {
+      "name": "q15",
+      "passed": true
+    },
+    {
+      "name": "q16",
+      "passed": true
+    },
+    {
+      "name": "q17",
+      "passed": true
+    },
+    {
+      "name": "q18",
+      "passed": true
+    }
+  ]
+}

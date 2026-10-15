@@ -1,0 +1,27 @@
+{
+  "path": "raw/Swarm_1.csv",
+  "size_bytes": 634,
+  "sha256": "e37edc1c24047d832aa8f93b183c2c035b5317b6b7620c850ad5f5dce4badd41",
+  "source_url": "https://huggingface.co/datasets/futurehouse/BixBench/resolve/f8cc3bdcc6357c88b8c3648306522b9c422dc95a/CapsuleFolder-d59734d2-a3e0-462a-a5fd-c8ddc11392b8.zip",
+  "retrieved_at_utc": "2026-10-10T14:20:40.090243+00:00",
+  "archive_member": "CapsuleData-d59734d2-a3e0-462a-a5fd-c8ddc11392b8/Swarm_1.csv",
+  "format": "CSV",
+  "terms": {
+    "license": "Apache-2.0",
+    "text": "Both official dataset cards declare Apache 2.0.",
+    "license_url": "https://www.apache.org/licenses/LICENSE-2.0",
+    "source_url": "https://huggingface.co/datasets/phylobio/BixBench-Verified-50"
+  },
+  "membership": {
+    "capsule_name": "CapsuleFolder-d59734d2-a3e0-462a-a5fd-c8ddc11392b8.zip",
+    "same_git_pointer_oid": "93161e1b6ec339db878d2c2a5c68998656fb272d",
+    "same_size_bytes": 22352,
+    "original_lfs_sha256_verified": true,
+    "public_question_text_matches_original": true
+  },
+  "limitation": [
+    "Curator JSONL could not be downloaded without sharing contact information. Exact curated ideal/eval-mode equality is not directly verified; sealed official FutureHouse ideal independently reproduces from capsule."
+  ],
+  "contaminated": true,
+  "development_anchor_only": true
+}

@@ -1,0 +1,118 @@
+{
+  "task": "V4 native G4 and load-boundary follow-up",
+  "node": "Node 24 via /opt/homebrew/opt/node@24/bin",
+  "mergeMain": "Already up to date",
+  "liveArmsRun": false,
+  "pilotDirectoryAccessed": false,
+  "package": {
+    "command": "pnpm exec vitest run packages/omb-adapters",
+    "log": "v4-package-final.log",
+    "sha256": "0d86050787c296c6cad567d8bee956c821e5e56eb351857b700a23acbb6ba2a2",
+    "summary": [
+      "Test Files  9 passed (9)",
+      "Tests  49 passed (49)",
+      "Duration  7.88s (transform 361ms, setup 0ms, collect 2.58s, tests 20.78s, environment 1ms, prepare 456ms)"
+    ]
+  },
+  "finalRepository": [
+    {
+      "command": "pnpm test --maxWorkers=4",
+      "log": "v4-repo-6.log",
+      "sha256": "4bcd85f69bdc643d99fd65de7c2d134e7a3f2702fbab362225e4aa53f96bd27b",
+      "summary": [
+        "Test Files  163 passed | 4 skipped (167)",
+        "Tests  2809 passed | 6 skipped (2815)",
+        "Duration  83.21s (transform 1.70s, setup 0ms, collect 11.75s, tests 295.97s, environment 17ms, prepare 6.44s)"
+      ],
+      "typecheck": {
+        "command": "pnpm typecheck",
+        "log": "v4-typecheck-6.log",
+        "sha256": "29c5ee0f6b0b20dbb259b99d01276198c3d28190090706394608d4deda6d2c0b",
+        "summary": []
+      }
+    },
+    {
+      "command": "pnpm test --maxWorkers=4",
+      "log": "v4-repo-7.log",
+      "sha256": "aa77801f5a426e969137f2b135651ca06badce3e49670d40d5ea694c6ce88556",
+      "summary": [
+        "Test Files  163 passed | 4 skipped (167)",
+        "Tests  2809 passed | 6 skipped (2815)",
+        "Duration  81.17s (transform 1.61s, setup 0ms, collect 12.65s, tests 285.01s, environment 18ms, prepare 6.80s)"
+      ],
+      "typecheck": {
+        "command": "pnpm typecheck",
+        "log": "v4-typecheck-7.log",
+        "sha256": "29c5ee0f6b0b20dbb259b99d01276198c3d28190090706394608d4deda6d2c0b",
+        "summary": []
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "command": "pnpm test (unchanged baseline)",
+      "log": "v4-baseline.log",
+      "sha256": "d225b458a339b844c65cbf977f7dad03a08c2745a79c416f590943a43ace24f0",
+      "summary": [
+        "Test Files  161 passed | 4 skipped (165)",
+        "Tests  2800 passed | 6 skipped (2806)",
+        "Duration  60.66s (transform 2.51s, setup 0ms, collect 21.64s, tests 484.62s, environment 30ms, prepare 11.44s)"
+      ]
+    },
+    {
+      "command": "pnpm test",
+      "log": "v4-repo-1.log",
+      "sha256": "c889ed037b45455e28ad5ce2c2a7c27336cfb4d7b6e569f919c4f6bbf15d915f",
+      "summary": [
+        "Test Files  2 failed | 161 passed | 4 skipped (167)",
+        "Tests  2 failed | 2807 passed | 6 skipped (2815)",
+        "Duration  60.55s (transform 2.72s, setup 0ms, collect 22.59s, tests 484.40s, environment 21ms, prepare 10.34s)"
+      ]
+    },
+    {
+      "command": "pnpm test",
+      "log": "v4-repo-2.log",
+      "sha256": "cd79fed1eb5b3d9f6b1f37f10c07ea1b85f12793de4bb7b9b2cd61e5a6d50db9",
+      "summary": [
+        "Test Files  1 failed | 162 passed | 4 skipped (167)",
+        "Tests  1 failed | 2808 passed | 6 skipped (2815)",
+        "Duration  62.48s (transform 2.09s, setup 0ms, collect 19.23s, tests 507.37s, environment 38ms, prepare 10.09s)"
+      ]
+    },
+    {
+      "command": "pnpm test",
+      "log": "v4-repo-3.log",
+      "sha256": "845fd589e1403b00d2a1da6f4ebc163500d11114ad27a54b35f3dfe39755bca3",
+      "summary": [
+        "Test Files  2 failed | 161 passed | 4 skipped (167)",
+        "Tests  2 failed | 2807 passed | 6 skipped (2815)",
+        "Duration  63.61s (transform 2.66s, setup 0ms, collect 22.62s, tests 509.55s, environment 30ms, prepare 11.51s)"
+      ]
+    },
+    {
+      "command": "pnpm test",
+      "log": "v4-repo-4.log",
+      "sha256": "fa71151886ce2200b2aa53cb3da98a18f9df77242ac219bc9bcf71abbe6c43bb",
+      "summary": [
+        "Test Files  1 failed | 162 passed | 4 skipped (167)",
+        "Tests  1 failed | 2808 passed | 6 skipped (2815)",
+        "Duration  64.70s (transform 2.46s, setup 0ms, collect 22.76s, tests 517.10s, environment 113ms, prepare 11.88s)"
+      ]
+    },
+    {
+      "command": "pnpm test --maxWorkers=4",
+      "log": "v4-repo-5.log",
+      "sha256": "c41f2781a8d8fe39bfc92f7c7c87d0f9fed01674f0c844ef3febef040720118e",
+      "summary": [
+        "Test Files  163 passed | 4 skipped (167)",
+        "Tests  2809 passed | 6 skipped (2815)",
+        "Duration  82.50s (transform 1.63s, setup 0ms, collect 12.45s, tests 291.68s, environment 18ms, prepare 6.69s)"
+      ]
+    }
+  ],
+  "limitations": [
+    "Default-parallel final-source run passed adapter/certifier tests but failed unrelated bio-replicator SIGKILL integration timeout. Final full validations use four parallel workers.",
+    "Repository runtime exceeds the 60-second target.",
+    "Original reported natural-load failures did not reproduce in the unchanged baseline; deterministic regressions cover identified deadline/output and rollout-stability mechanisms."
+  ]
+}

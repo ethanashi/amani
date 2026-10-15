@@ -1,0 +1,21 @@
+{
+  "studyId": "pilot16",
+  "settingsHash": "add2cb316f991ee60370243cfc8a0bceb58f4fd6086397a62185c66e88c55493",
+  "lockedAtCommit": "fc62160",
+  "lockedAtUtc": "2026-10-11T00:0x (see pilot19b.log)",
+  "toolpack": {
+    "profile": "checks",
+    "sha256": "f7724f7ae06698fae00af1c8a805e7b8517c57a1be708fedf5e49f63243d06bb"
+  },
+  "runFrom": "detached worktree pinned at fc62160 (~/projects/omerta-bio-wt/runs-pilot19b); pilot.py on main refuses this plan once bundled sources change",
+  "note": "plan.json is the locked study record; amendments must be run from the pinned worktree",
+  "abandoned": [
+    {
+      "settingsHash": "94d2f01ce499a77a9c25d1a770cd9b153c75b9a649fc1205674482c8409b67c9",
+      "lockedAtCommit": "8b3dcde",
+      "lockedAtUtc": "2026-10-10T23:15:11Z",
+      "reason": "first run silently switched Claude models mid-run (usage-limit fallback to claude-opus-5); provenance check refused it; study restarted with CLAUDE_CODE_NO_MODEL_FALLBACK=1 and the V2 tool pack",
+      "state": "archived at ~/.omerta-bio/pilots/pilot16-abandoned-20261010"
+    }
+  ]
+}

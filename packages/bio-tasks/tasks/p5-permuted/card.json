@@ -1,0 +1,18 @@
+{
+  "id": "p5-permuted",
+  "family": "negative",
+  "datasetManifestHash": "98ac52d3cd050677cb15f688e9a9190f4ee14838939e9b5be1e5330c74a3d5f0",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p5-permuted/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.02,
+    "relative": 0
+  },
+  "plantedFlaws": [],
+  "negativeControl": true,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 5505,
+  "capMinutes": 10,
+  "contaminated": false
+}

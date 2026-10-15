@@ -1,0 +1,18 @@
+{
+  "id": "p1-esr1",
+  "family": "reproduction",
+  "datasetManifestHash": "a1009ef8b467cb9af9bc588f6f3a679fa33dddc235ba4d2dd6dffe7846b3f7d7",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p1-esr1/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.02,
+    "relative": 0
+  },
+  "plantedFlaws": [],
+  "negativeControl": false,
+  "positiveControl": true,
+  "heldOut": false,
+  "seed": 5101,
+  "capMinutes": 10,
+  "contaminated": false
+}

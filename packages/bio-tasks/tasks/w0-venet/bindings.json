@@ -1,0 +1,7 @@
+[
+  "packages/bio-baseline/grading/grade.py",
+  "packages/bio-baseline/task/TASK.md",
+  "packages/bio-baseline/data/metabric.manifest.json",
+  "packages/bio-baseline/reference/output/clean/summary.json.enc",
+  "packages/bio-baseline/reference/output/arm/summary.json.enc"
+]

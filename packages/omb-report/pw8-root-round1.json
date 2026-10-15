@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-13T23:13:04.747892+00:00",
+  "uptime": "16:13  up 14:15, 2 users, load averages: 5.57 5.79 6.09",
+  "load1": 5.5712890625,
+  "freeBytes": 64147177472,
+  "freeGiB": 59.74171447753906,
+  "requiredLoadBelow": 12,
+  "requiredFreeGiB": 60,
+  "status": "skipped",
+  "reason": "Root suite requires load1 < 12 AND at least 60 GiB free disk space."
+}

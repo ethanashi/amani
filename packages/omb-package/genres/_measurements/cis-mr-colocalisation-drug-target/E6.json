@@ -1,0 +1,238 @@
+{
+ "pmcid": "PMC11904806",
+ "doi": "10.1001/jamapsychiatry.2025.0033",
+ "pmid": "40072421",
+ "journal": "JAMA psychiatry",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 11,
+ "licence": "This work is licensed under a BY 4.0 International license.",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Importance",
+    "Objective",
+    "Design, Setting, and Participants",
+    "Main Outcome(s) and Measure(s)",
+    "Results",
+    "Conclusions and Relevance"
+   ],
+   "words": 299
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 268
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 355,
+   "sub": [
+    {
+     "heading": "Overview",
+     "canonical": "other",
+     "words": 355
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1540,
+   "sub": [
+    {
+     "heading": "Cis association",
+     "canonical": "other",
+     "words": 593
+    },
+    {
+     "heading": "Trans association",
+     "canonical": "other",
+     "words": 351
+    },
+    {
+     "heading": "Overlap across phenotypes",
+     "canonical": "other",
+     "words": 99
+    },
+    {
+     "heading": "Pathway enrichment",
+     "canonical": "other",
+     "words": 97
+    },
+    {
+     "heading": "Protein-Protein Interaction",
+     "canonical": "other",
+     "words": 115
+    },
+    {
+     "heading": "Drug Target Enrichment",
+     "canonical": "other",
+     "words": 285
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 881
+  },
+  {
+   "heading": "Limitations",
+   "canonical": "limitations",
+   "words": 228
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 98
+  },
+  {
+   "heading": "Supplementary Material",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 155
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [],
+ "section_word_totals": {
+  "introduction": 268,
+  "methods": 355,
+  "results": 1540,
+  "discussion": 881,
+  "limitations": 228,
+  "conclusions": 98,
+  "supplementary": 0,
+  "other_back": 0,
+  "acknowledgements": 155,
+  "references": 0
+ },
+ "main_text_words": 3370,
+ "main_text_words_excluding_methods": 3015,
+ "limitations": {
+  "placement": "top-level section",
+  "words": 228
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": "Supplementary material"
+  }
+ ],
+ "references": 57,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": true,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "arthritis"
+ ]
+}

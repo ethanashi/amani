@@ -1,0 +1,1766 @@
+[
+  {
+    "id": "R19-crossed",
+    "file": "grammar.ts",
+    "from": "requireThat(markers[i]===markers[i+1]",
+    "to": "requireThat(true || markers[i]===markers[i+1]",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R19-emphasis-length",
+    "file": "grammar.ts",
+    "from": "m.length<=2",
+    "to": "true",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R19-size",
+    "file": "normalise.ts",
+    "from": "text.length<=200_000",
+    "to": "true",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R19-controls",
+    "file": "normalise.ts",
+    "from": "requireThat(!/\\p{Cf}",
+    "to": "requireThat(true || !/\\p{Cf}",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-empty",
+    "file": "grammar.ts",
+    "from": "requireThat(text,'empty draft')",
+    "to": "requireThat(true,'empty draft')",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-terminal",
+    "file": "grammar.ts",
+    "from": "requireThat(!text.slice(begin).trim()",
+    "to": "requireThat(true || !text.slice(begin).trim()",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-dash",
+    "file": "normalise.ts",
+    "from": ".replace(/[\u2010\u2011\u2012\u2013\u2014\u2212]/gu,'-')",
+    "to": "",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-nfkc",
+    "file": "normalise.ts",
+    "from": "text.normalize('NFKC')",
+    "to": "text",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-failed-checks",
+    "file": "context.ts",
+    "from": "requireThat(requirements.length>0&&requirements.every(r=>r.passed)",
+    "to": "requireThat(true || requirements.length>0&&requirements.every(r=>r.passed)",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-label",
+    "file": "context.ts",
+    "from": "requireThat(label.status===found.status",
+    "to": "requireThat(true || label.status===found.status",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-route-N",
+    "file": "context.ts",
+    "from": "requireThat(validation.route==='N'",
+    "to": "requireThat(true || validation.route==='N'",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-missing",
+    "file": "context.ts",
+    "from": "requireThat(input.plannedFound.missingClaimIds.length===0",
+    "to": "requireThat(true || input.plannedFound.missingClaimIds.length===0",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-duplicate",
+    "file": "context.ts",
+    "from": "requireThat(new Set(claims.map(c=>c.id)).size===claims.length",
+    "to": "requireThat(true || new Set(claims.map(c=>c.id)).size===claims.length",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-classification",
+    "file": "context.ts",
+    "from": "requireThat(d.classification==='input'&&d.derivation===null",
+    "to": "requireThat(true || d.classification==='input'&&d.derivation===null",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-derivation",
+    "file": "context.ts",
+    "from": "verifyDerivation(d.derivation,input.factExtensions.sources);",
+    "to": "",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-value",
+    "file": "context.ts",
+    "from": "requireThat(input.factExtensions.sources.some",
+    "to": "requireThat(true || input.factExtensions.sources.some",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-assumptions",
+    "file": "context.ts",
+    "from": "if(claim.rung>=2)requireThat",
+    "to": "if(false)requireThat",
+    "test": "review-round1"
+  },
+  {
+    "id": "R21-unbound-metric",
+    "file": "wording.ts",
+    "from": "requireThat(!refs.length||bound.length>0&&!quotes.length",
+    "to": "requireThat(true || !refs.length||bound.length>0&&!quotes.length",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R21-entity-slot",
+    "file": "wording.ts",
+    "from": "requireThat(entity&&entity.claimIds.includes(c.id)",
+    "to": "requireThat(true || entity&&entity.claimIds.includes(c.id)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-entity-unbound",
+    "file": "wording.ts",
+    "from": "requireThat(!s.placeholders.some(p=>p.kind==='e')||bound.length>0",
+    "to": "requireThat(true || !s.placeholders.some(p=>p.kind==='e')||bound.length>0",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R21-primary",
+    "file": "wording.ts",
+    "from": "requireThat(bound.every(c=>c.id===ctx.input.plannedFound.primaryClaimId&&validLock(ctx,c.id))",
+    "to": "requireThat(true || bound.every(c=>c.id===ctx.input.plannedFound.primaryClaimId&&validLock(ctx,c.id))",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-primary-registered",
+    "file": "wording.ts",
+    "from": "&&validLock(ctx,c.id)",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-region-abstract",
+    "file": "wording.ts",
+    "from": "if(['title','key-points','abstract','plain-summary'].includes(region)&&bound.length)",
+    "to": "if(['title', 'key-points', 'plain-summary'].includes(region)&&bound.length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-region-key-points",
+    "file": "wording.ts",
+    "from": "if(['title','key-points','abstract','plain-summary'].includes(region)&&bound.length)",
+    "to": "if(['title', 'abstract', 'plain-summary'].includes(region)&&bound.length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-region-plain-summary",
+    "file": "wording.ts",
+    "from": "if(['title','key-points','abstract','plain-summary'].includes(region)&&bound.length)",
+    "to": "if(['title', 'key-points', 'abstract'].includes(region)&&bound.length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-duplicate",
+    "file": "wording.ts",
+    "from": "requireThat(new Set(explicit).size===explicit.length",
+    "to": "requireThat(true || new Set(explicit).size===explicit.length",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-unknown",
+    "file": "wording.ts",
+    "from": "requireThat(ctx.claims.some(c=>c.id===id)",
+    "to": "requireThat(true || ctx.claims.some(c=>c.id===id)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-drug-scope",
+    "file": "wording.ts",
+    "from": "c.scope==='S1'||c.rung<3",
+    "to": "c.rung<3",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-drug-rung",
+    "file": "wording.ts",
+    "from": "c.scope==='S1'||c.rung<3",
+    "to": "c.scope==='S1'",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-companion-follow",
+    "file": "wording.ts",
+    "from": "&&p.key===`${f.claimId}.result`",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-number-citation",
+    "file": "render.ts",
+    "from": "requireThat(s.placeholders.some(p=>p.kind==='c'&&p.key===key)",
+    "to": "requireThat(true || s.placeholders.some(p=>p.kind==='c'&&p.key===key)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-quote-id",
+    "file": "render.ts",
+    "from": "match&&match[2]===entry.quoteId",
+    "to": "match",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-binding-hash",
+    "file": "wording.ts",
+    "from": "&&q.approvedSentenceHashes.includes(canonicalSha256(s.text))",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-render-hash",
+    "file": "render.ts",
+    "from": "&&quote.approvedSentenceHashes.includes(canonicalSha256(s.text))",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-binding-status",
+    "file": "wording.ts",
+    "from": "&&['fulltext-verified','abstract-supported'].includes(q.status)",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-render-status",
+    "file": "render.ts",
+    "from": "&&['fulltext-verified','abstract-supported'].includes(quote.status)",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-risk-scope",
+    "file": "render.ts",
+    "from": "requireThat(c.scope==='S1'",
+    "to": "requireThat(true || c.scope==='S1'",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-looks",
+    "file": "lock.ts",
+    "from": "||!ctx.input.looks.length",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-registered",
+    "file": "lock.ts",
+    "from": "if(!claim?.registered)return false;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-sequence",
+    "file": "lock.ts",
+    "from": "sequence<1",
+    "to": "sequence<0",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-post-unblinding",
+    "file": "report.ts",
+    "from": "||a.post_unblinding===true",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-digest-mode",
+    "file": "report.ts",
+    "from": "requireThat(['blind','results'].includes(options.mode)",
+    "to": "requireThat(true || ['blind','results'].includes(options.mode)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-title-digits",
+    "file": "report.ts",
+    "from": "requireThat(!/\\p{N}/u.test(exposure+outcome)",
+    "to": "requireThat(true || !/\\p{N}/u.test(exposure+outcome)",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R24-title-primary",
+    "file": "report.ts",
+    "from": "c&&validLock(ctx,c.id)",
+    "to": "c",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-reason-trim",
+    "file": "report.ts",
+    "from": "typeof a.reason==='string'&&a.reason.trim()",
+    "to": "typeof a.reason==='string'",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-one-sided-alpha",
+    "file": "format.ts",
+    "from": "requireThat(b.effectiveAlpha<=0.025",
+    "to": "requireThat(true || b.effectiveAlpha<=0.025",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-justification",
+    "file": "format.ts",
+    "from": "&&b.oneSidedJustification?.trim()",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-mei",
+    "file": "format.ts",
+    "from": "requireThat(b.mei===null||finite(b.mei)&&b.mei>0",
+    "to": "requireThat(true || b.mei===null||finite(b.mei)&&b.mei>0",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-family",
+    "file": "format.ts",
+    "from": "b.familySize>=1",
+    "to": "b.familySize>=0",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-percent",
+    "file": "format.ts",
+    "from": "requireThat(value>=0&&value<=100",
+    "to": "requireThat(true || value>=0&&value<=100",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-p",
+    "file": "format.ts",
+    "from": "value<=1&&finite(alpha)",
+    "to": "finite(alpha)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-mei-thresholds",
+    "file": "format.ts",
+    "from": "...b.mei===null?[]:[b.nullValue-b.mei,b.nullValue+b.mei]",
+    "to": "...[]",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-two-sided-display",
+    "file": "format.ts",
+    "from": "; two-sided interval ${formatNumber(b.twoSidedCI[0],'ci',thresholds)} to ${formatNumber(b.twoSidedCI[1],'ci',thresholds)}",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-looks-display",
+    "file": "format.ts",
+    "from": "b.familySize>1||b.looks>1",
+    "to": "b.familySize>1",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-ambiguous",
+    "file": "entities.ts",
+    "from": "requireThat(!seen.has(key)||seen.get(key)===entry.id",
+    "to": "requireThat(true || !seen.has(key)||seen.get(key)===entry.id",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-source",
+    "file": "entities.ts",
+    "from": "['HGNC','miRBase','UniProt','Cellosaurus','MONDO','EFO','panel','platform'].includes(pack.source)&&",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-protected-id",
+    "file": "limitations.ts",
+    "from": "requireThat(/^[A-Za-z0-9_.-]+$/u.test(r.id)",
+    "to": "requireThat(true || /^[A-Za-z0-9_.-]+$/u.test(r.id)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-empty",
+    "file": "limitations.ts",
+    "from": "requireThat(entries.length,'Limitations",
+    "to": "requireThat(true || entries.length,'Limitations",
+    "test": "review-guards"
+  },
+  {
+    "id": "R01-atomic",
+    "file": "render.ts",
+    "from": "requireThat((before===undefined",
+    "to": "requireThat(true || (before===undefined",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R01-final-audit",
+    "file": "render.ts",
+    "from": "requireThat(matchSpanlessNumbers(text,expected, true)",
+    "to": "requireThat(true || matchSpanlessNumbers(text,expected, true)",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R12-label-lock",
+    "file": "labels.ts",
+    "from": "const short=`(${validLock(ctx,c.id)?",
+    "to": "const short=`(${c.registered?",
+    "test": "review-round1"
+  },
+  {
+    "id": "R12-label-status",
+    "file": "labels.ts",
+    "from": "; ${c.evidenceType}; ${c.status})`",
+    "to": "; ${c.evidenceType})`",
+    "test": "review-round1"
+  },
+  {
+    "id": "R15-plain-twins",
+    "file": "report.ts",
+    "from": "${renderProtected(twins)}",
+    "to": "",
+    "test": "review-round1"
+  },
+  {
+    "id": "R01-spaced-decoration",
+    "file": "grammar.ts",
+    "from": "requireThat(!/[%\u2030\u2031\u00d7\u00f7]",
+    "to": "requireThat(true || !/[%\u2030\u2031\u00d7\u00f7]",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-numeric-raw-skeleton",
+    "file": "normalise.ts",
+    "from": ",confusableSkeleton(canonicalText(text))",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R2-numeric-folded-skeleton",
+    "file": "normalise.ts",
+    "from": "[folded,lexicalKey(text),",
+    "to": "[folded,",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R2-casefold",
+    "file": "normalise.ts",
+    "from": "canonicalText(text).toLowerCase().replace(/\u00df/gu,'ss').replace(/\u03c2/gu,'\u03c3')).toLowerCase()",
+    "to": "canonicalText(text)).toLowerCase()",
+    "test": "round2-normalise"
+  },
+  {
+    "id": "R2-white-space",
+    "file": "normalise.ts",
+    "from": "[\\p{White_Space}]+",
+    "to": "[\\s]+",
+    "test": "round2-normalise"
+  },
+  {
+    "id": "R2-Han-after-NFKC",
+    "file": "normalise.ts",
+    "from": "[text,clean]",
+    "to": "[text]",
+    "test": "round2-normalise"
+  },
+  {
+    "id": "R2-Han-refusal",
+    "file": "normalise.ts",
+    "from": "requireThat(!/[\\p{Script=Han}",
+    "to": "requireThat(true || !/[\\p{Script=Han}",
+    "test": "round2-normalise"
+  },
+  {
+    "id": "R2-ampersand",
+    "file": "normalise.ts",
+    "from": "requireThat(!/&/u.test(variant)",
+    "to": "requireThat(true || !/&/u.test(variant)",
+    "test": "round2-normalise"
+  },
+  {
+    "id": "R2-DEL",
+    "file": "normalise.ts",
+    "from": "\\u007f-\\u0084",
+    "to": "\\u0080-\\u0084",
+    "test": "round2-normalise"
+  },
+  {
+    "id": "R2-normalized-digit",
+    "file": "english.ts",
+    "from": "requireThat(!/[0-9]/u.test(form)",
+    "to": "requireThat(true || !/[0-9]/u.test(form)",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-Roman-position",
+    "file": "grammar.ts",
+    "from": "requireThat(!roman.test(variant)",
+    "to": "requireThat(true || !roman.test(variant)",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-empty-emphasis",
+    "file": "grammar.ts",
+    "from": "requireThat(!/(?<!\\*)",
+    "to": "requireThat(true || !/(?<!\\*)",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-connective",
+    "file": "wording.ts",
+    "from": "requireThat(CONNECTIVES.some(c=>",
+    "to": "requireThat(true || CONNECTIVES.some(c=>",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-one-claim",
+    "file": "wording.ts",
+    "from": "requireThat(claims.length===1",
+    "to": "requireThat(true || claims.length===1",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-one-placeholder",
+    "file": "wording.ts",
+    "from": "s.placeholders.length===1&&",
+    "to": "",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-claim-placeholder",
+    "file": "wording.ts",
+    "from": "&&s.placeholders[0]!.kind==='claim'",
+    "to": "",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-procedure-connective",
+    "file": "templates.ts",
+    "from": "requireThat(CONNECTIVES.includes(connective)",
+    "to": "requireThat(true || CONNECTIVES.includes(connective)",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-software-label",
+    "file": "templates.ts",
+    "from": " [m:${c.id}.label]",
+    "to": "",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-software-bundle",
+    "file": "templates.ts",
+    "from": "` [m:${c.id}.result]`",
+    "to": "''",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-voided-no-bundle",
+    "file": "templates.ts",
+    "from": "['voided','non-identifiable']",
+    "to": "['non-identifiable']",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-unidentified-no-bundle",
+    "file": "templates.ts",
+    "from": "['voided','non-identifiable']",
+    "to": "['voided']",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-template-confirmed",
+    "file": "templates.ts",
+    "from": "The pre-registered prediction held",
+    "to": "The prediction was confirmed",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-template-replicated",
+    "file": "templates.ts",
+    "from": "The prediction held again in independent data",
+    "to": "The prediction was confirmed",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-template-tentative",
+    "file": "templates.ts",
+    "from": "The finding is tentative; required checks remain incomplete",
+    "to": "The prediction was confirmed",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-template-refuted",
+    "file": "templates.ts",
+    "from": "The pre-registered prediction did not hold at the smallest effect of interest",
+    "to": "The prediction was confirmed",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-template-insufficient-evidence",
+    "file": "templates.ts",
+    "from": "The data could not decide the pre-registered prediction",
+    "to": "The prediction was confirmed",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-template-non-identifiable",
+    "file": "templates.ts",
+    "from": "The proposed effect is not identifiable from these data",
+    "to": "The prediction was confirmed",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-template-voided",
+    "file": "templates.ts",
+    "from": "The analysis was voided and is not counted as evidence",
+    "to": "The prediction was confirmed",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-template-exploratory",
+    "file": "templates.ts",
+    "from": "The observation is exploratory and was not tested on held-out data",
+    "to": "The prediction was confirmed",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "R2-literature-result",
+    "file": "wording.ts",
+    "from": "requireThat(!s.placeholders.some(p=>!['c','l','e'].includes(p.kind))",
+    "to": "requireThat(true || !s.placeholders.some(p=>!['c','l','e'].includes(p.kind))",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-literature-exact",
+    "file": "wording.ts",
+    "from": "requireThat(ctx.quotes.filter(q=>quoteKeys.includes(q.key)).some",
+    "to": "requireThat(true || ctx.quotes.filter(q=>quoteKeys.includes(q.key)).some",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-PartB-choice",
+    "file": "limitations.ts",
+    "from": "requireThat(choice,'Part B requires",
+    "to": "requireThat(true,'Part B requires",
+    "test": "round2-limitations"
+  },
+  {
+    "id": "R2-PartB-overturn",
+    "file": "limitations.ts",
+    "from": "e.couldOverturn&&['yes','no','unknown'].includes(e.couldOverturn)",
+    "to": "true",
+    "test": "round2-limitations"
+  },
+  {
+    "id": "R2-PartB-no",
+    "file": "limitations.ts",
+    "from": "requireThat(e.couldOverturn!=='no'",
+    "to": "requireThat(true || e.couldOverturn!=='no'",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-PartB-NA",
+    "file": "limitations.ts",
+    "from": "requireThat(e.notApplicable===undefined",
+    "to": "requireThat(true || e.notApplicable===undefined",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-plain-scope",
+    "file": "limitations.ts",
+    "from": "${claimName(ctx,c.id)}",
+    "to": "c1",
+    "test": "round2-limitations"
+  },
+  {
+    "id": "R2-not-run-twin",
+    "file": "limitations.ts",
+    "from": "requirement.outcome==='failed'",
+    "to": "true",
+    "test": "round2-limitations"
+  },
+  {
+    "id": "R2-measured-plain-name",
+    "file": "limitations.ts",
+    "from": "${claimName(ctx,region.id.slice(0,-suffix.length-1))}",
+    "to": "${region.id.slice(0,-suffix.length-1)}",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R2-repeat-skeleton",
+    "file": "limitations.ts",
+    "from": "return lexicalKey(stripParentheticals(decoded.replace",
+    "to": "return normalise(stripParentheticals(decoded.replace",
+    "test": "round2-limitations"
+  },
+  {
+    "id": "R2-repeat-label",
+    "file": "limitations.ts",
+    "from": ".replace(/\\[[a-z]+:[^\\]]+\\]/gu,' ')",
+    "to": "",
+    "test": "round2-limitations"
+  },
+  {
+    "id": "R2-repeat-punctuation",
+    "file": "limitations.ts",
+    "from": ".replace(/[^\\p{L}\\p{N}]+/gu,' ')",
+    "to": "",
+    "test": "round2-limitations"
+  },
+  {
+    "id": "R2-nested-label",
+    "file": "limitations.ts",
+    "from": "depth++;out+=' ';",
+    "to": "depth=1;out+=' ';",
+    "test": "round2-limitations"
+  },
+  {
+    "id": "R2-registry-visible",
+    "file": "entities.ts",
+    "from": "&&/^[\\p{L}\\p{N}][\\p{L}\\p{N} ._@+-]*$/u.test(pack.version)",
+    "to": "",
+    "test": "text"
+  },
+  {
+    "id": "R2-partial-requirements",
+    "file": "context.ts",
+    "from": "requirements.length>0&&",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-source-id",
+    "file": "context.ts",
+    "from": "source.id===d.sourceId&&",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-input-derivation",
+    "file": "context.ts",
+    "from": "&&d.derivation===null",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-title-outcome",
+    "file": "report.ts",
+    "from": "exposure+outcome",
+    "to": "exposure",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R2-partial-lock-integer",
+    "file": "lock.ts",
+    "from": "!Number.isSafeInteger(sequence)||",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-percent-negative",
+    "file": "format.ts",
+    "from": "value>=0&&value<=100",
+    "to": "value<=100",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-p-negative",
+    "file": "format.ts",
+    "from": "finite(value)&&value>=0&&value<=1&&finite(alpha)",
+    "to": "finite(value)&&value<=1&&finite(alpha)",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-alpha-zero",
+    "file": "format.ts",
+    "from": "alpha>0&&",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-alpha-one",
+    "file": "format.ts",
+    "from": "&&alpha<1",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-looks-zero",
+    "file": "format.ts",
+    "from": "&&b.looks>=1",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-family-integer",
+    "file": "format.ts",
+    "from": "Number.isSafeInteger(b.familySize)&&",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-MEI-lower",
+    "file": "format.ts",
+    "from": "b.nullValue-b.mei,",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-MEI-finite",
+    "file": "format.ts",
+    "from": "finite(b.mei)&&",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-two-sided-finite",
+    "file": "format.ts",
+    "from": "b.twoSidedCI.every(finite)&&",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-two-sided-order",
+    "file": "format.ts",
+    "from": "b.twoSidedCI[0]<=b.twoSidedCI[1]&&",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-justification-trim",
+    "file": "format.ts",
+    "from": "b.oneSidedJustification?.trim()",
+    "to": "b.oneSidedJustification",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-year-null",
+    "file": "render.ts",
+    "from": "requireThat(quote.year!==null",
+    "to": "requireThat(true || quote.year!==null",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-partial-literature-range",
+    "file": "render.ts",
+    "from": "requireThat(finite(value),'missing literature number'",
+    "to": "requireThat(true,'missing literature number'",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-two-sided-lower-threshold",
+    "file": "format.ts",
+    "from": "formatNumber(b.twoSidedCI[0],'ci',thresholds)",
+    "to": "formatNumber(b.twoSidedCI[0],'ci')",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-two-sided-upper-threshold",
+    "file": "format.ts",
+    "from": "formatNumber(b.twoSidedCI[1],'ci',thresholds)",
+    "to": "formatNumber(b.twoSidedCI[1],'ci')",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-estimate-finite",
+    "file": "format.ts",
+    "from": "finite(b.estimate)&&",
+    "to": "",
+    "test": "round2-partial"
+  },
+  {
+    "id": "R2-null-finite",
+    "file": "format.ts",
+    "from": "&&finite(b.nullValue),'non-finite",
+    "to": ",'non-finite",
+    "test": "round2-partial"
+  },
+  {
+    "id": "producer-required",
+    "file": "context.ts",
+    "from": "f.grade!=='unverified'&&f.producerGate!==null",
+    "to": "f.grade!=='unverified'",
+    "test": "report"
+  },
+  {
+    "id": "context-seal",
+    "file": "context.ts",
+    "from": "requireThat(contexts.get(ctx)===",
+    "to": "requireThat(true || contexts.get(ctx)===",
+    "test": "round2-isolation"
+  },
+  {
+    "id": "spanless-order",
+    "file": "numeric-matchers.ts",
+    "from": "return tokens.every((token,i)=>",
+    "to": "return true || tokens.every((token,i)=>",
+    "test": "text"
+  },
+  {
+    "id": "sentence-skeleton",
+    "file": "render.ts",
+    "from": "requireThat(before.sha256===after.sha256",
+    "to": "requireThat(true || before.sha256===after.sha256",
+    "test": "wording"
+  },
+  {
+    "id": "protected-content",
+    "file": "limitations.ts",
+    "from": "requireThat(a&&a.text===e.text",
+    "to": "requireThat(true || a&&a.text===e.text",
+    "test": "wording"
+  },
+  {
+    "id": "at-most-once",
+    "file": "limitations.ts",
+    "from": "requireThat(count<=1",
+    "to": "requireThat(true || count<=1",
+    "test": "round2-limitations"
+  },
+  {
+    "id": "registry-hash",
+    "file": "entities.ts",
+    "from": "canonicalSha256(pack.entries)===pack.sha256",
+    "to": "true",
+    "test": "text"
+  },
+  {
+    "id": "p-bound",
+    "file": "format.ts",
+    "from": "value<0.001&&alpha>=0.001",
+    "to": "value<0.001",
+    "test": "text"
+  },
+  {
+    "id": "rounding-side",
+    "file": "format.ts",
+    "from": "if(thresholds.every(t=>side(Number(s),t)===side(value,t)))return s;",
+    "to": "if(true)return s;",
+    "test": "text"
+  },
+  {
+    "id": "R3-Roman-type",
+    "file": "grammar.ts",
+    "from": "|type",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-Roman-phase",
+    "file": "grammar.ts",
+    "from": "|phase",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-Roman-class",
+    "file": "grammar.ts",
+    "from": "|class",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-Roman-forms",
+    "file": "grammar.ts",
+    "from": "lexicalForms(text)",
+    "to": "[text]",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-Roman-case",
+    "file": "grammar.ts",
+    "from": "patients)\\b/giu",
+    "to": "patients)\\b/gu",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-Roman-mg",
+    "file": "grammar.ts",
+    "from": "mg|kg",
+    "to": "kg",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-Roman-units",
+    "file": "grammar.ts",
+    "from": "|\\b([ivxlcdm]+)\\s+(?:mg|kg|ml|mm|cm|units|participants|patients)\\b",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-script-Greek",
+    "file": "normalise.ts",
+    "from": ",/\\p{Script=Greek}/u",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-script-Han",
+    "file": "normalise.ts",
+    "from": ",/\\p{Script=Han}/u",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-script-Arabic",
+    "file": "normalise.ts",
+    "from": ",/\\p{Script=Arabic}/u",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-script-Hiragana",
+    "file": "normalise.ts",
+    "from": ",/\\p{Script=Hiragana}/u",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-script-Katakana",
+    "file": "normalise.ts",
+    "from": ",/\\p{Script=Katakana}/u",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-script-Hebrew",
+    "file": "normalise.ts",
+    "from": ",/\\p{Script=Hebrew}/u",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-script-Devanagari",
+    "file": "normalise.ts",
+    "from": ",/\\p{Script=Devanagari}/u",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-C0-0000",
+    "file": "normalise.ts",
+    "from": "\\u0000",
+    "to": "\\u0001",
+    "test": "round3-plan"
+  },
+  {
+    "id": "R3-C0-000e",
+    "file": "normalise.ts",
+    "from": "\\u000e",
+    "to": "\\u0010",
+    "test": "round3-plan"
+  },
+  {
+    "id": "R3-filler",
+    "file": "normalise.ts",
+    "from": "requireThat(!/[\\u115f",
+    "to": "requireThat(true || !/[\\u115f",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R3-filler-115f",
+    "file": "normalise.ts",
+    "from": "\\u115f",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R3-filler-1160",
+    "file": "normalise.ts",
+    "from": "\\u1160",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R3-filler-2800",
+    "file": "normalise.ts",
+    "from": "\\u2800",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-canonical-lookalikes",
+    "file": "normalise.ts",
+    "from": "requireThat(![...clean].some",
+    "to": "requireThat(true || ![...clean].some",
+    "test": "round3-plan"
+  },
+  {
+    "id": "R3-low-controls",
+    "file": "normalise.ts",
+    "from": "\\u000b\\u000c",
+    "to": "",
+    "test": "round3-plan"
+  },
+  {
+    "id": "R3-URL-scheme",
+    "file": "grammar.ts",
+    "from": "[a-z]+:\\/\\/|",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-URL-domain",
+    "file": "grammar.ts",
+    "from": "|[a-z]+\\.[a-z]{2,}\\b",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-URL-protocol",
+    "file": "grammar.ts",
+    "from": "(?:mailto|doi|javascript|data)\\s*:|",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-markup-bullet",
+    "file": "grammar.ts",
+    "from": "&&!/^(?:\\s*[-+>]|\\s*:::)/mu.test(text)",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-brackets",
+    "file": "grammar.ts",
+    "from": "requireThat(!/[\\[\\]]/u.test",
+    "to": "requireThat(true || !/[\\[\\]]/u.test",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-unbalanced",
+    "file": "grammar.ts",
+    "from": "markers.length%2===0",
+    "to": "true",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-sentence-split",
+    "file": "grammar.ts",
+    "from": "(i===text.length-1||/\\s/u.test(text[i+1]!))",
+    "to": "true",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-unit-\u2030",
+    "file": "grammar.ts",
+    "from": "\u2030",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-unit-\u2031",
+    "file": "grammar.ts",
+    "from": "\u2031",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-look-safe",
+    "file": "lock.ts",
+    "from": "Number.isSafeInteger(seq)&&",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-digest-required",
+    "file": "report.ts",
+    "from": "requireThat(Buffer.byteLength(required)<=options.byteBudget",
+    "to": "requireThat(true || Buffer.byteLength(required)<=options.byteBudget",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-digest-optional",
+    "file": "report.ts",
+    "from": "Buffer.byteLength(markdown+line+'\\n')<=options.byteBudget",
+    "to": "true",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-format-call-bounds",
+    "file": "format.ts",
+    "from": " validateBundleBounds(b);",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-format-call-one-sided",
+    "file": "format.ts",
+    "from": "validateOneSidedBundle(b);",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-format-count-integral",
+    "file": "format.ts",
+    "from": "Number.isSafeInteger(value)&&",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-format-count-nonnegative",
+    "file": "format.ts",
+    "from": "Number.isSafeInteger(value)&&value>=0",
+    "to": "Number.isSafeInteger(value)",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-format-thresholds",
+    "file": "format.ts",
+    "from": "&&thresholds.every(finite)",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-format-looks-integral",
+    "file": "format.ts",
+    "from": "&&Number.isSafeInteger(b.looks)",
+    "to": "",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-plan-estimand",
+    "file": "prose.ts",
+    "from": "requireThat(['odds ratio'",
+    "to": "requireThat(true || ['odds ratio'",
+    "test": "round3-plan"
+  },
+  {
+    "id": "R3-plan-fragment",
+    "file": "prose.ts",
+    "from": "requireThat(/^[\\p{L}",
+    "to": "requireThat(true || /^[\\p{L}",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R3-narrative-status",
+    "file": "prose.ts",
+    "from": "requireThat(!/\\b(?:well-proven",
+    "to": "requireThat(true || !/\\b(?:well-proven",
+    "test": "round3-narrative"
+  },
+  {
+    "id": "R3-narrative-assertion",
+    "file": "prose.ts",
+    "from": "requireThat(!hasAssertion(key)",
+    "to": "requireThat(true || !hasAssertion(key)",
+    "test": "round3-narrative"
+  },
+  {
+    "id": "R3-procedure-complete",
+    "file": "render.ts",
+    "from": "requireThat(request.placeholders.length===1&&request.prose.trim()==='.'",
+    "to": "requireThat(true || request.placeholders.length===1&&request.prose.trim()==='.'",
+    "test": "round3-narrative"
+  },
+  {
+    "id": "R3-blind-procedure",
+    "file": "render.ts",
+    "from": "requireThat(!request.placeholders.some(p=>/\\.(?:validation|archiving)",
+    "to": "requireThat(true || !request.placeholders.some(p=>/\\.(?:validation|archiving)",
+    "test": "round3-narrative"
+  },
+  {
+    "id": "R3-PartB-direction",
+    "file": "limitations.ts",
+    "from": "requireThat(e.direction==='unknown'",
+    "to": "requireThat(true || e.direction==='unknown'",
+    "test": "round3-narrative"
+  },
+  {
+    "id": "R3-template-lock",
+    "file": "render.ts",
+    "from": "validLock(ctx,bound.claims[0]!.id)",
+    "to": "true",
+    "test": "round3-plan"
+  },
+  {
+    "id": "R3-output-canonical",
+    "file": "render.ts",
+    "from": "normalise(displayFact(f))",
+    "to": "displayFact(f)",
+    "test": "round3-plan"
+  },
+  {
+    "id": "R3-numeric-string-input",
+    "file": "../../omb-paper/src/derivations.ts",
+    "from": "&&inputString(s.value,field)",
+    "to": "",
+    "test": "round2-numbers"
+  },
+  {
+    "id": "R3-quantity",
+    "file": "english.ts",
+    "from": "requireThat(!quantity.test(form)",
+    "to": "requireThat(true || !quantity.test(form)",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-data-noun",
+    "file": "render.ts",
+    "from": "requireThat(f.classification==='input'&&typeof f.raw==='number'",
+    "to": "requireThat(true || f.classification==='input'&&typeof f.raw==='number'",
+    "test": "round3-narrative"
+  },
+  {
+    "id": "R3-entity-display",
+    "file": "entities.ts",
+    "from": "label:normalise(row.entry.label)",
+    "to": "label:row.entry.label",
+    "test": "round3-plan"
+  },
+  {
+    "id": "R3-plan-quantities",
+    "file": "prose.ts",
+    "from": "checkEnglish(text);",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R3-validation-availability",
+    "file": "context.ts",
+    "from": "'validation not established'",
+    "to": "'no validation data'",
+    "test": "round3-narrative"
+  },
+  {
+    "id": "R3-numeric-result-binding",
+    "file": "prose.ts",
+    "from": "requireThat(!statistic",
+    "to": "requireThat(true || !statistic",
+    "test": "round3-narrative"
+  },
+  {
+    "id": "R3-implicit-claim",
+    "file": "wording.ts",
+    "from": "return pair||hasAssertion(s.prose)||entityPredicate(s.prose,c);",
+    "to": "return false;",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R3-intro-exploratory",
+    "file": "wording.ts",
+    "from": "requireThat(c.registered,'Introduction names exploratory entity')",
+    "to": "requireThat(true,'Introduction names exploratory entity')",
+    "test": "round3-narrative"
+  },
+  {
+    "id": "R3-blind-data-background",
+    "file": "render.ts",
+    "from": "if(region==='introduction'||region==='background')requireThat(!(p.kind==='d'",
+    "to": "if(region==='introduction')requireThat(!(p.kind==='d'",
+    "test": "round2-guards"
+  },
+  {
+    "id": "R3-acronym-data",
+    "file": "english.ts",
+    "from": "MEDICAL_ACRONYMS.some(x=>lexicalKey(x)===lexicalKey(word))",
+    "to": "false",
+    "test": "round3-partials"
+  },
+  {
+    "id": "R3-source-own-study",
+    "file": "wording.ts",
+    "from": "requireThat(!/\\b(?:our|we|this study",
+    "to": "requireThat(true || !/\\b(?:our|we|this study",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R3-source-exact-canonical",
+    "file": "wording.ts",
+    "from": "const quoteKey=(value:string)=>canonicalText(value).toLowerCase().replace(/\u00df/gu,'ss').replace(/\u03c2/gu,'\u03c3');",
+    "to": "const quoteKey=lexicalKey;",
+    "test": "round3-quote"
+  },
+  {
+    "id": "R3-entity-predicate",
+    "file": "wording.ts",
+    "from": "||entityPredicate(s.prose,c)",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-runtime",
+    "file": "boundaries.ts",
+    "from": "requireThat([...RESULT_REGIONS,...NARRATIVE_REGIONS].includes(region)",
+    "to": "requireThat(true || [...RESULT_REGIONS,...NARRATIVE_REGIONS].includes(region)",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-default-ignorables",
+    "file": "normalise.ts",
+    "from": "requireThat(!/\\p{Default_Ignorable_Code_Point}",
+    "to": "requireThat(true || !/\\p{Default_Ignorable_Code_Point}",
+    "test": "round4-technical"
+  },
+  {
+    "id": "R4-structure-call",
+    "file": "wording.ts",
+    "from": "checkStructure(ctx,s,region);",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-generated-only",
+    "file": "boundaries.ts",
+    "from": "requireThat(claim,'result-bearing",
+    "to": "requireThat(true,'result-bearing",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-title",
+    "file": "boundaries.ts",
+    "from": "'title',",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-abstract",
+    "file": "boundaries.ts",
+    "from": "'abstract',",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-abstract-results",
+    "file": "boundaries.ts",
+    "from": "'abstract-results',",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-abstract-conclusions",
+    "file": "boundaries.ts",
+    "from": "'abstract-conclusions',",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-results",
+    "file": "boundaries.ts",
+    "from": "'results',",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-key-points",
+    "file": "boundaries.ts",
+    "from": "'key-points',",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-conclusion",
+    "file": "boundaries.ts",
+    "from": "'conclusion',",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-plain-summary",
+    "file": "boundaries.ts",
+    "from": "'plain-summary',",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-region-plain-summary-results",
+    "file": "boundaries.ts",
+    "from": ",'plain-summary-results'",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-own-result",
+    "file": "boundaries.ts",
+    "from": "requireThat(!own.test(key)",
+    "to": "requireThat(true || !own.test(key)",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-definite-result",
+    "file": "boundaries.ts",
+    "from": "requireThat(!resultFrame.test(key)",
+    "to": "requireThat(true || !resultFrame.test(key)",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-predicate",
+    "file": "boundaries.ts",
+    "from": "requireThat(neutral,'claim entity",
+    "to": "requireThat(true,'claim entity",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-literature-frame",
+    "file": "boundaries.ts",
+    "from": "requireThat(!/\\b(?:earlier",
+    "to": "requireThat(true || !/\\b(?:earlier",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-exposure",
+    "file": "boundaries.ts",
+    "from": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "to": "['outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-outcome",
+    "file": "boundaries.ts",
+    "from": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "to": "['exposure','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-adjustment",
+    "file": "boundaries.ts",
+    "from": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "to": "['exposure','outcome','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-covariates",
+    "file": "boundaries.ts",
+    "from": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "to": "['exposure','outcome','adjustment','entities','aliases','synonyms','abbreviations','symbols']",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-entities",
+    "file": "boundaries.ts",
+    "from": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "to": "['exposure','outcome','adjustment','covariates','aliases','synonyms','abbreviations','symbols']",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-aliases",
+    "file": "boundaries.ts",
+    "from": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "to": "['exposure','outcome','adjustment','covariates','entities','synonyms','abbreviations','symbols']",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-synonyms",
+    "file": "boundaries.ts",
+    "from": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "to": "['exposure','outcome','adjustment','covariates','entities','aliases','abbreviations','symbols']",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-abbreviations",
+    "file": "boundaries.ts",
+    "from": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "to": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','symbols']",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-symbols",
+    "file": "boundaries.ts",
+    "from": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations','symbols']",
+    "to": "['exposure','outcome','adjustment','covariates','entities','aliases','synonyms','abbreviations']",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-role-aliases",
+    "file": "boundaries.ts",
+    "from": "visit(plan[`${role}_${key}`]);",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-nested-aliases",
+    "file": "boundaries.ts",
+    "from": "Object.values(record(value)).forEach(visit);",
+    "to": "void value;",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-alias-case",
+    "file": "boundaries.ts",
+    "from": "const key=lexicalKey(text);",
+    "to": "const key=text;",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-noun-registry",
+    "file": "prose.ts",
+    "from": "requireThat(names.some(name=>",
+    "to": "requireThat(true || names.some(name=>",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-plan-validation",
+    "file": "context.ts",
+    "from": "validatePlan(plan,[...PLAN_NOUNS,...input.variables.filter(v=>v.claimId===found.claimId).map(v=>v.name),...input.entities.filter(e=>e.claimIds.includes(found.claimId)).map(e=>e.canonicalForm)]);",
+    "to": "",
+    "test": "round4-plan"
+  },
+  {
+    "id": "R4-field-exposure",
+    "file": "prose.ts",
+    "from": "['exposure','outcome','one_sided_justification','controls_source']",
+    "to": "['outcome','one_sided_justification','controls_source']",
+    "test": "round4-plan"
+  },
+  {
+    "id": "R4-field-outcome",
+    "file": "prose.ts",
+    "from": "['exposure','outcome','one_sided_justification','controls_source']",
+    "to": "['exposure','one_sided_justification','controls_source']",
+    "test": "round4-plan"
+  },
+  {
+    "id": "R4-field-one_sided_justification",
+    "file": "prose.ts",
+    "from": "['exposure','outcome','one_sided_justification','controls_source']",
+    "to": "['exposure','outcome','controls_source']",
+    "test": "round4-plan"
+  },
+  {
+    "id": "R4-field-controls_source",
+    "file": "prose.ts",
+    "from": "['exposure','outcome','one_sided_justification','controls_source']",
+    "to": "['exposure','outcome','one_sided_justification']",
+    "test": "round4-plan"
+  },
+  {
+    "id": "R4-field-adjustment",
+    "file": "prose.ts",
+    "from": "['adjustment','exclusions']",
+    "to": "['exclusions']",
+    "test": "round4-plan"
+  },
+  {
+    "id": "R4-field-exclusions",
+    "file": "prose.ts",
+    "from": "['adjustment','exclusions']",
+    "to": "['adjustment']",
+    "test": "round4-plan"
+  },
+  {
+    "id": "R4-procedure-call",
+    "file": "prose.ts",
+    "from": "requireThat(!procedureAssertion(key)",
+    "to": "requireThat(true || !procedureAssertion(key)",
+    "test": "round4-narrative"
+  },
+  {
+    "id": "R4-procedure-citation",
+    "file": "wording.ts",
+    "from": "requireThat(!procedureAssertion(s.prose)",
+    "to": "requireThat(true || !procedureAssertion(s.prose)",
+    "test": "round4-structure"
+  },
+  {
+    "id": "R4-controls-source",
+    "file": "prose.ts",
+    "from": "||/\\bcontrols?",
+    "to": "||false && /\\bcontrols?",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-archive-statement",
+    "file": "prose.ts",
+    "from": "||/\\b(?:code|files|data|protocol)",
+    "to": "||false && /\\b(?:code|files|data|protocol)",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-procedure-predicate",
+    "file": "prose.ts",
+    "from": "return /\\b(?:pre-?regist",
+    "to": "return false && /\\b(?:pre-?regist",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-version-atomic",
+    "file": "render.ts",
+    "from": "['v','r'].includes(p.kind)||",
+    "to": "",
+    "test": "round4-technical"
+  },
+  {
+    "id": "R4-neighbours-call",
+    "file": "render.ts",
+    "from": "if(!bound.claims.length)assertNumericNeighbours(s.text,p,p.kind==='c');",
+    "to": "",
+    "test": "round4-technical"
+  },
+  {
+    "id": "R4-unit-suffix",
+    "file": "render.ts",
+    "from": "requireThat(/^(?:$|[.),!?]",
+    "to": "requireThat(true || /^(?:$|[.),!?]",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-unit-prefix",
+    "file": "render.ts",
+    "from": "requireThat(citation||word===undefined||",
+    "to": "requireThat(true || citation||word===undefined||",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-ratio-prefix",
+    "file": "render.ts",
+    "from": "requireThat(!/[/:;]$/u.test(left)",
+    "to": "requireThat(true || !/[/:;]$/u.test(left)",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-division",
+    "file": "grammar.ts",
+    "from": "\u00f7",
+    "to": "",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-archive-hash",
+    "file": "procedures.ts",
+    "from": "/^[a-f0-9]{64}$/u.test(a.sha256)",
+    "to": "/^[a-zA-Z0-9]{63,65}$/u.test(a.sha256)",
+    "test": "round4-technical"
+  },
+  {
+    "id": "R4-generic-limitation",
+    "file": "boundaries.ts",
+    "from": "&&genericLimitation(key)",
+    "to": "&&false",
+    "test": "round4-narrative"
+  },
+  {
+    "id": "R4-generic-limitation-tail",
+    "file": "boundaries.ts",
+    "from": "[.!?]$/iu.test(text);",
+    "to": "[.!?]/iu.test(text);",
+    "test": "round4-partials"
+  },
+  {
+    "id": "R4-vague-quantity",
+    "file": "english.ts",
+    "from": "zero|one|two",
+    "to": "many|most|multiple|both|zero|one|two",
+    "test": "round4-partials"
+  }
+]

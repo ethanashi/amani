@@ -1,0 +1,196 @@
+{
+  "baselineCommit": "b53c5e4",
+  "method": "Temporarily restore tracked package source to baseline; retain new tests and new unused implementation files; always restore source in finally. No gate skips or timeout changes.",
+  "exitCode": 1,
+  "passed": 57,
+  "failed": 37,
+  "skipped": 1,
+  "assertionFailures": [
+    {
+      "file": "packages/omb-certify/test/auth.test.ts",
+      "test": "an authentic MAC cannot impersonate another gate producer",
+      "failure": "AssertionError: expected { gate: 'G7', outcome: 'failed', \u2026(2) } to be null"
+    },
+    {
+      "file": "packages/omb-certify/test/execution.test.ts",
+      "test": "source inventory refuses cache.json before execution",
+      "failure": "AssertionError: expected [Function] to throw an error"
+    },
+    {
+      "file": "packages/omb-certify/test/execution.test.ts",
+      "test": "source inventory refuses table.tsv before execution",
+      "failure": "AssertionError: expected [Function] to throw an error"
+    },
+    {
+      "file": "packages/omb-certify/test/execution.test.ts",
+      "test": "source inventory refuses fit.pkl before execution",
+      "failure": "AssertionError: expected [Function] to throw an error"
+    },
+    {
+      "file": "packages/omb-certify/test/execution.test.ts",
+      "test": "source inventory refuses helper.bin before execution",
+      "failure": "AssertionError: expected [Function] to throw an error"
+    },
+    {
+      "file": "packages/omb-certify/test/execution.test.ts",
+      "test": "source inventory refuses binary.mjs before execution",
+      "failure": "AssertionError: expected [Function] to throw an error"
+    },
+    {
+      "file": "packages/omb-certify/test/execution.test.ts",
+      "test": "source inventory refuses huge.py before execution",
+      "failure": "AssertionError: expected [Function] to throw an error"
+    },
+    {
+      "file": "packages/omb-certify/test/execution.test.ts",
+      "test": "POSIX semaphores and KMP shared memory are denied in every fresh run",
+      "failure": "AssertionError: expected { semDenied: false, shmDenied: false } to deeply equal { semDenied: true, shmDenied: true }"
+    },
+    {
+      "file": "packages/omb-certify/test/execution.test.ts",
+      "test": "detached child announces readiness and is killed before run returns, even after chdir",
+      "failure": "AssertionError: expected false to be true // Object.is equality"
+    },
+    {
+      "file": "packages/omb-certify/test/permutation.test.ts",
+      "test": "a reject established exactly at alpha does not cross alpha when serializing its upper bound",
+      "failure": "AssertionError: expected 0.0500000000000001 to be less than or equal to 0.05"
+    },
+    {
+      "file": "packages/omb-certify/test/producers.test.ts",
+      "test": "missing simulation never counts as a non-rejection",
+      "failure": "AssertionError: expected 'not-run' to be 'failed' // Object.is equality"
+    },
+    {
+      "file": "packages/omb-certify/test/producers.test.ts",
+      "test": "G5b power uses kernel rejections, not a constant tiny worker p",
+      "failure": "AssertionError: expected 1 to be +0 // Object.is equality"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "worker CI 3.99 cannot become certified or drive decisions",
+      "failure": "AssertionError: expected 3.99 to be close to 1.766, received difference is 2.224, but expected 0.0005"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "worker CI 100 cannot become certified or drive decisions",
+      "failure": "AssertionError: expected 100 to be close to 1.766, received difference is 98.234, but expected 0.0005"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "constant p and fabricated null CI cannot earn refuted, even with authentic external gates",
+      "failure": "AssertionError: expected 0.01 to be greater than 1.4"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "unsupported claim {\"seed\":7} fails without worker-value fallback",
+      "failure": "AssertionError: expected 0.000001 to be null"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "unsupported claim {\"test\":\"welch t-test\"} fails without worker-value fallback",
+      "failure": "AssertionError: expected 0.000001 to be null"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "unsupported claim {\"kind\":\"out-of-sample\",\"estimand\":\"held-out AUC\",\"nullValue\":0.5} fails without worker-value fallback",
+      "failure": "AssertionError: expected { status: 'reject', \u2026(12) } to be undefined"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "unsupported claim {\"estimand\":\"odds ratio\",\"nullValue\":1} fails without worker-value fallback",
+      "failure": "AssertionError: expected { status: 'reject', \u2026(12) } to be undefined"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "claims sharing a metric retain their own kernel values",
+      "failure": "AssertionError: expected 0.014285714285714285 to be 0.34285714285714286 // Object.is equality"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "unsupported sibling p cannot reduce a kernel claim Holm adjustment",
+      "failure": "AssertionError: expected 0.05 to be 0.1 // Object.is equality"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "reproduction ignores worker target and never trusts a data-invariant estimate",
+      "failure": "AssertionError: expected 'contradicted' to be 'unevaluable' // Object.is equality"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "MEI can tighten but cannot loosen the software additive-unit cap",
+      "failure": "AssertionError: expected 'metric key defaulted to the claim id \u2026' to contain 'MEI tightened by software policy to 1'"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "locked certification refuses missing-pin input identity",
+      "failure": "AssertionError: expected { status: 'reject', \u2026(12) } to be undefined"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "locked certification refuses overlap input identity",
+      "failure": "AssertionError: expected { status: 'reject', \u2026(12) } to be undefined"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "locked CLI requires explicit raw and expected hash",
+      "failure": "AssertionError: expected +0 to be 2 // Object.is equality"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "report headings and arbitrary metrics are unverified quoted data",
+      "failure": "AssertionError: expected '# Certified report\\n\\nExecution: regr\u2026' to contain '## Worker narrative (unverified)'"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "nonzero null calibration is centered on the locked null, in labels and FL schemes",
+      "failure": "AssertionError: expected -0.06425221823871678 to be close to 3, received difference is 3.0642522182387166, but expected 0.05"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "missing host pin also caps non-statistical integrity claims",
+      "failure": "AssertionError: expected 'confirmed' to be 'exploratory' // Object.is equality"
+    },
+    {
+      "file": "packages/omb-certify/test/regressions.test.ts",
+      "test": "Freedman-Lane G5a calibrates deciding kernel p, independently of worker p",
+      "failure": "AssertionError: expected { rejections: 200, trials: 200 } to deeply equal { rejections: +0, trials: 200 }"
+    },
+    {
+      "file": "packages/omb-certify/test/stage.test.ts",
+      "test": "a raw swap at the parse boundary cannot bind A while staging B",
+      "failure": "AssertionError: expected 'id\\tx\\ty\\tunit_id\\nu0\\t0\\t1\\tu0\\nu1\\t\u2026' not to contain '800'"
+    },
+    {
+      "file": "packages/omb-gauntlet/test/prose.test.ts",
+      "test": "decimal results in headings or slash units are still typed numbers",
+      "failure": "AssertionError: ## 0.003 two-sided p: expected [] to have a length of 1 but got +0"
+    },
+    {
+      "file": "packages/omb-gauntlet/test/units.test.ts",
+      "test": "silent unit drops fail even when worker n_units and units.tsv agree",
+      "failure": "AssertionError: expected [] to deeply equal [ 'effective-units-omitted' ]"
+    },
+    {
+      "file": "packages/omb-gauntlet/test/units.test.ts",
+      "test": "claim-level n cannot silently drop units from an otherwise complete units file",
+      "failure": "AssertionError: expected [] to deeply equal [ 'claim-n-omits-units' ]"
+    },
+    {
+      "file": "packages/omb-certify/test/simulation-regression.test.ts",
+      "test": "real frozen pooled-t analysis recovers planted effects with varying estimates and realistic power",
+      "failure": "AssertionError: expected 1 to be greater than 20"
+    },
+    {
+      "file": "packages/omb-certify/test/simulation-regression.test.ts",
+      "test": "look and identity twin share entrypoint, bytes and modes (exposure first: false)",
+      "failure": "AssertionError: expected 'id\\tx\\ty\\tunit_id\\nu0\\t0.00\\t1.00\\tu0\u2026' not to contain '.00'"
+    },
+    {
+      "file": "packages/omb-certify/test/simulation-regression.test.ts",
+      "test": "look and identity twin share entrypoint, bytes and modes (exposure first: true)",
+      "failure": "AssertionError: expected 'x\\tid\\ty\\tunit_id\\n0.00\\tu0\\t1.00\\tu0\u2026' not to contain '.00'"
+    }
+  ],
+  "simulationRetest": "Both entry points deliberately run the identical complete honest program, isolating the residual-shuffle defect from entry-point or output-schema defects."
+}

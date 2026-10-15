@@ -1,0 +1,2968 @@
+{
+  "schema_version": "genre-profile/1",
+  "genre": "single-cell-atlas-drug-sensitivity",
+  "genre_name": "Single-cell atlas analysis of cell states and drug sensitivity",
+  "scope": "Original research papers that build or reuse a single-cell (scRNA-seq, snRNA-seq, CITE-seq, multiome; often with spatial data) atlas, define cell types and states (clustering, markers, programmes, trajectories, CNV-inferred malignant cells, cell-cell communication), then link states to drug sensitivity, therapy response or druggable targets (drug2cell, DREEP-style GDSC/CTRP/PRISM projection, ex vivo drug data, immunotherapy-response cohorts), usually validated in bulk cohorts (survival, deconvolution), cell-line data, spatial data or wet-lab experiments. Covers both atlas-of-public-data papers and papers adding new samples. Excludes pure method or benchmark papers for single-cell tools, perturbation-screen technology papers, reviews and database or resource-only papers.",
+  "built_on": "2026-10-13",
+  "word_count_convention": "jats_structure.py prose words (12:48 version); captions, tables, boxed text, citations and headings excluded; main = I+M+R+D(+L,C); Cell Press STAR Methods counted whole (includes the short Resource availability block)",
+  "exemplars": [
+    {
+      "id": "E1",
+      "citation": "Salcher S, Sturm G, Horvath L, et al. High-resolution single-cell atlas reveals diversity and plasticity of tissue-resident neutrophils in non-small cell lung cancer. Cancer Cell. 2022;40(12):1503-1520.e8.",
+      "doi": "10.1016/j.ccell.2022.10.008",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9767679/",
+      "pmcid": "PMC9767679",
+      "licence": "CC BY 4.0",
+      "journal": "Cancer Cell",
+      "year": 2022,
+      "article_type": "Article",
+      "disease_area": "oncology (non-small cell lung cancer)",
+      "guideline_cited": [
+        "Cell Press STAR Methods with Key Resources Table (house format)"
+      ],
+      "measurement_file": "_measurements/single-cell-atlas-drug-sensitivity/E1.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (12:48 version)",
+      "measured": {
+        "main_text_words": 9837,
+        "main_text_words_excluding_methods": 5768,
+        "section_words": {
+          "introduction": 482,
+          "results": 4351,
+          "discussion": 935,
+          "methods": 4069
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 164,
+        "extra_summaries": [
+          "Highlights (39 words)",
+          "In brief / eTOC (52 words)",
+          "Graphical abstract"
+        ],
+        "figures_main": 6,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "embedding_umap",
+          "composition_bar",
+          "validation_panel",
+          "heatmap",
+          "cell_communication_plot",
+          "marker_dotplot",
+          "km_curve",
+          "bulk_cohort_projection",
+          "trajectory_plot",
+          "drug_sensitivity_plot"
+        ],
+        "references": 133,
+        "supplement_files": 6,
+        "supplement_types": [
+          "Document S1: supplementary figures S1-S7 plus small tables",
+          "study characteristics of the 29 integrated datasets",
+          "gene signatures per cell type",
+          "patient metadata",
+          "antibodies per assay",
+          "article plus supplemental information PDF"
+        ],
+        "results_subsections": 10,
+        "limitations_placement": "unheaded paragraph inside Discussion (~210 words)",
+        "statements": [
+          "Key resources table",
+          "lead contact",
+          "materials availability",
+          "data and code availability (Zenodo, CELLxGENE, GitHub; reused accessions in KRT)",
+          "ethics approval and informed consent for own cohort",
+          "funding (in Acknowledgments)",
+          "author contributions",
+          "declaration of interests"
+        ],
+        "new_data": "own scRNA-seq cohort (low-mRNA cells) + IHC, multiplex IF and flow cytometry validation; integrates 29 public datasets",
+        "drug_link": "TRN signature vs anti-PD-L1 (atezolizumab) treatment failure in bulk trial cohorts; SCISSOR on TCGA",
+        "corrections": "STAR Methods counted whole by the 12:48 tool (4069, incl. 32 words of Resource availability). Graphical abstract counted as a figure by the tool (7->6). Key resources table counted as a table (1->0)."
+      }
+    },
+    {
+      "id": "E2",
+      "citation": "Kanemaru K, Cranley J, Muraro D, et al. Spatially resolved multiomics of human cardiac niches. Nature. 2023;619(7971):801-810.",
+      "doi": "10.1038/s41586-023-06311-1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10371870/",
+      "pmcid": "PMC10371870",
+      "licence": "CC BY 4.0",
+      "journal": "Nature",
+      "year": 2023,
+      "article_type": "Article",
+      "disease_area": "cardiology (healthy human heart, conduction system; drug2cell target mapping)",
+      "guideline_cited": [
+        "Nature Portfolio Reporting Summary"
+      ],
+      "measurement_file": "_measurements/single-cell-atlas-drug-sensitivity/E2.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (12:48 version); unheaded lead and untitled Results reassigned by hand",
+      "measured": {
+        "main_text_words": 12338,
+        "main_text_words_excluding_methods": 6155,
+        "section_words": {
+          "introduction": 308,
+          "results": 5350,
+          "discussion": 497,
+          "methods": 6183
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 205,
+        "extra_summaries": [
+          "Web summary / standfirst (33 words, editor-written)"
+        ],
+        "figures_main": 5,
+        "tables_main": 0,
+        "extended_data_figures": 12,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "embedding_umap",
+          "marker_dotplot",
+          "spatial_map",
+          "cell_communication_plot",
+          "heatmap",
+          "drug_sensitivity_plot",
+          "validation_panel"
+        ],
+        "references": 93,
+        "supplement_files": 12,
+        "supplement_types": [
+          "supplementary figures PDF",
+          "Reporting Summary",
+          "donor clinical metadata",
+          "differential expression results",
+          "CellPhoneDB module input tables",
+          "TF-target tables",
+          "sample information",
+          "filtered drug-target list (ChEMBL) for drug2cell",
+          "antibody information"
+        ],
+        "results_subsections": 11,
+        "limitations_placement": "none stated",
+        "statements": [
+          "data availability (ArrayExpress, heartcellatlas.org portal)",
+          "code availability (GitHub)",
+          "research ethics for donor tissues (Methods)",
+          "funding (Acknowledgements)",
+          "author contributions",
+          "competing interests",
+          "Reporting Summary"
+        ],
+        "new_data": "all new (snRNA-seq, multiome, Visium) + smFISH/IF and in vitro GLP-1 validation",
+        "drug_link": "drug2cell: ChEMBL drug-target scores per cell state; in vitro chronotropy assay",
+        "corrections": "Nature layout: 308-word unheaded lead ('Main') reassigned to introduction and 11 Results subsections without a 'Results' heading reassigned to results (5350). Extended Data figures (12) are not counted as main figures."
+      }
+    },
+    {
+      "id": "E3",
+      "citation": "Gambardella G, Viscido G, Tumaini B, et al. A single-cell analysis of breast cancer cell lines to study tumour heterogeneity and drug response. Nat Commun. 2022;13(1):1714.",
+      "doi": "10.1038/s41467-022-29358-6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8971486/",
+      "pmcid": "PMC8971486",
+      "licence": "CC BY 4.0",
+      "journal": "Nature Communications",
+      "year": 2022,
+      "article_type": "Article",
+      "disease_area": "oncology (breast cancer cell lines)",
+      "guideline_cited": [],
+      "measurement_file": "_measurements/single-cell-atlas-drug-sensitivity/E3.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (12:48 version)",
+      "measured": {
+        "main_text_words": 9212,
+        "main_text_words_excluding_methods": 5281,
+        "section_words": {
+          "introduction": 317,
+          "results": 4684,
+          "discussion": 280,
+          "methods": 3931
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 148,
+        "extra_summaries": [
+          "Web summary / standfirst (44 words, editor-written)"
+        ],
+        "figures_main": 3,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "embedding_umap",
+          "marker_dotplot",
+          "composition_bar",
+          "heatmap",
+          "bulk_cohort_projection",
+          "spatial_map",
+          "benchmark_comparison",
+          "drug_sensitivity_plot",
+          "validation_panel",
+          "study_design_schematic"
+        ],
+        "references": 88,
+        "supplement_files": 8,
+        "supplement_types": [
+          "Supplementary Information PDF (supplementary figures and tables)",
+          "peer review file",
+          "supplementary datasets: DE results, drug-target correlations, drug-sensitivity predictions for 450 drugs",
+          "source data"
+        ],
+        "results_subsections": 5,
+        "limitations_placement": "none stated (one caveat sentence in a 3-paragraph Discussion)",
+        "statements": [
+          "data availability (GEO, figshare, DepMap)",
+          "code availability (GitHub)",
+          "funding",
+          "author contributions",
+          "competing interests"
+        ],
+        "new_data": "new scRNA-seq of 32 cell lines + flow cytometry and drug assays",
+        "drug_link": "DREEP: GDSC/CTRP/PRISM drug-potency signatures projected onto single cells; in vitro dose-response validation",
+        "corrections": "Supplement: 7 files in the XML, 8 on the publisher page (source data added). Schematic is a method-pipeline panel (Fig. 3H), not a Figure 1 study overview. Body-only 'knee' term is unrelated to the topic."
+      }
+    },
+    {
+      "id": "E4",
+      "citation": "Khaliq AM, Erdogan C, Kurt Z, et al. Refining colorectal cancer classification and clinical stratification through a single-cell atlas. Genome Biol. 2022;23(1):113.",
+      "doi": "10.1186/s13059-022-02677-z",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9092724/",
+      "pmcid": "PMC9092724",
+      "licence": "CC BY 4.0",
+      "journal": "Genome Biology",
+      "year": 2022,
+      "article_type": "Research",
+      "disease_area": "oncology (colorectal cancer)",
+      "guideline_cited": [],
+      "measurement_file": "_measurements/single-cell-atlas-drug-sensitivity/E4.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (12:48 version)",
+      "measured": {
+        "main_text_words": 7909,
+        "main_text_words_excluding_methods": 5021,
+        "section_words": {
+          "introduction": 539,
+          "results": 3463,
+          "discussion": 887,
+          "conclusions": 132,
+          "methods": 2888
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "conclusions",
+          "methods"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Results",
+          "Conclusions"
+        ],
+        "abstract_words": 254,
+        "extra_summaries": [],
+        "figures_main": 8,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "embedding_umap",
+          "composition_bar",
+          "trajectory_plot",
+          "marker_dotplot",
+          "heatmap",
+          "validation_panel",
+          "bulk_cohort_projection",
+          "km_curve",
+          "cell_communication_plot",
+          "characteristics_table"
+        ],
+        "references": 114,
+        "supplement_files": 15,
+        "supplement_types": [
+          "35 supplementary figures",
+          "patient information, CMS and mutation status",
+          "cell counts by type, subtype and patient",
+          "DEG lists per compartment",
+          "proportional-hazards and multivariable Cox tables",
+          "pathway analysis table",
+          "review history"
+        ],
+        "results_subsections": 7,
+        "limitations_placement": "unheaded paragraph inside Discussion (~115 words), then a separate Conclusions section",
+        "statements": [
+          "availability of data and materials (GEO, Zenodo, GitHub)",
+          "ethics approval and consent to participate (IRB)",
+          "consent for publication",
+          "funding",
+          "authors' contributions",
+          "competing interests"
+        ],
+        "new_data": "new scRNA-seq of CRC samples + IHC; integrated with external scRNA cohorts and bulk cohorts",
+        "drug_link": "weak: prognostic CAF/TAM states and immunotherapy-resistance implications; no drug-sensitivity display",
+        "corrections": "Abstract heading list from the tool included a spurious 'Supplementary Information' entry; removed. Flags 'consort' and 'ai_disclosure' are false positives."
+      }
+    },
+    {
+      "id": "E5",
+      "citation": "Xu L, Saunders K, Huang SP, et al. A comprehensive single-cell breast tumor atlas defines epithelial and immune heterogeneity and interactions predicting anti-PD-1 therapy response. Cell Rep Med. 2024;5(5):101511.",
+      "doi": "10.1016/j.xcrm.2024.101511",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11148512/",
+      "pmcid": "PMC11148512",
+      "licence": "CC BY-NC-ND 4.0",
+      "journal": "Cell Reports Medicine",
+      "year": 2024,
+      "article_type": "Article",
+      "disease_area": "oncology (primary breast cancer; immune checkpoint response)",
+      "guideline_cited": [
+        "Cell Press STAR Methods with Key Resources Table (house format)"
+      ],
+      "measurement_file": "_measurements/single-cell-atlas-drug-sensitivity/E5.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (12:48 version)",
+      "measured": {
+        "main_text_words": 10084,
+        "main_text_words_excluding_methods": 5513,
+        "section_words": {
+          "introduction": 445,
+          "results": 3864,
+          "discussion": 995,
+          "limitations": 209,
+          "methods": 4571
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "limitations",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 148,
+        "extra_summaries": [
+          "Highlights (41 words)",
+          "In brief / eTOC (51 words)",
+          "Graphical abstract"
+        ],
+        "figures_main": 4,
+        "tables_main": 3,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "embedding_umap",
+          "heatmap",
+          "composition_bar",
+          "cell_communication_plot",
+          "km_curve",
+          "bulk_cohort_projection",
+          "drug_sensitivity_plot",
+          "benchmark_comparison",
+          "spatial_map",
+          "top_hits_table",
+          "top_hits_table",
+          "top_hits_table"
+        ],
+        "references": 121,
+        "supplement_files": 10,
+        "supplement_types": [
+          "Document S1: figures S1-S9",
+          "dataset information for the 8 integrated datasets",
+          "marker genes for annotation",
+          "DEG lists per NK and epithelial subset",
+          "annotation concordance with source studies",
+          "PC loading genes (integration check)",
+          "article plus supplemental information PDF"
+        ],
+        "results_subsections": 8,
+        "limitations_placement": "'Limitations of the study' subsection closing the Discussion (209 words)",
+        "statements": [
+          "Key resources table",
+          "lead contact",
+          "materials availability",
+          "data and code availability (GEO accessions of all reused datasets, Zenodo atlas object, GitHub)",
+          "funding (in Acknowledgments)",
+          "author contributions",
+          "declaration of interests"
+        ],
+        "new_data": "no new single-cell data (8 public scRNA-seq datasets, public spatial and trial data); small wet-lab arm: NK-92 coculture cytotoxicity assays with breast cancer cell lines (Methods; not in main figures)",
+        "drug_link": "InteractPrint score predicts anti-PD-1 response in two neoadjuvant trials (ROC vs PD-L1)",
+        "corrections": "STAR Methods counted whole by the 12:48 tool (4571, incl. 108 words of Resource availability). Discussion 1204 includes the 209-word Limitations subsection (995 + 209). Graphical abstract counted as a figure by the tool (5->4); Key resources table counted as a table (4->3)."
+      }
+    },
+    {
+      "id": "E6",
+      "citation": "Huang X, Li Y, Zhang J, et al. Single-cell systems pharmacology identifies development-driven drug response and combination therapy in B cell acute lymphoblastic leukemia. Cancer Cell. 2024;42(4):552-567.e6.",
+      "doi": "10.1016/j.ccell.2024.03.003",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11008188/",
+      "pmcid": "PMC11008188",
+      "licence": "CC BY-NC-ND 4.0 (PMC author manuscript NIHMS1978911)",
+      "journal": "Cancer Cell",
+      "year": 2024,
+      "article_type": "Article",
+      "disease_area": "haematological oncology (B cell acute lymphoblastic leukaemia)",
+      "guideline_cited": [
+        "Cell Press STAR Methods with Key Resources Table (house format)"
+      ],
+      "measurement_file": "_measurements/single-cell-atlas-drug-sensitivity/E6.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML of the author manuscript (12:48 version)",
+      "measured": {
+        "main_text_words": 7478,
+        "main_text_words_excluding_methods": 4206,
+        "section_words": {
+          "introduction": 542,
+          "results": 2827,
+          "discussion": 837,
+          "methods": 3272
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 149,
+        "extra_summaries": [
+          "Highlights (36 words, boxed)",
+          "In brief / eTOC (53 words)",
+          "Graphical abstract"
+        ],
+        "figures_main": 6,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "embedding_umap",
+          "marker_dotplot",
+          "heatmap",
+          "composition_bar",
+          "bulk_cohort_projection",
+          "drug_sensitivity_plot",
+          "validation_panel",
+          "km_curve"
+        ],
+        "references": 92,
+        "supplement_files": 8,
+        "supplement_types": [
+          "Document S1: supplementary figures",
+          "marker genes per developmental state",
+          "patient cohort with ex vivo asparaginase sensitivity",
+          "network drivers (NetBID2) tables",
+          "drug-effect scores",
+          "in vivo treatment data",
+          "primers"
+        ],
+        "results_subsections": 7,
+        "limitations_placement": "none stated",
+        "statements": [
+          "Key resources table",
+          "lead contact",
+          "materials availability",
+          "data and code availability (GEO, EGA, GitHub, web portal)",
+          "patient ethics/IRB and PDX animal work (Experimental model section)",
+          "funding (in Acknowledgments)",
+          "author contributions",
+          "declaration of interests"
+        ],
+        "new_data": "new scMultiome of patient blasts and PDXs; in vitro and in vivo drug-combination validation; public HCA bone-marrow reference and bulk cohorts",
+        "drug_link": "developmental-state composition vs ex vivo asparaginase LC50 in 203 patients; NetBID2 drivers; venetoclax combination",
+        "corrections": "STAR Methods counted whole by the 12:48 tool (3272, incl. 149 words of Resource availability). Key resources table counted as a table (1->0). The single 'box' is the Cell Press Highlights block, not a display box. Flag 'consort' is a false positive. Body-only 'pancreatitis' term is an asparaginase adverse-event mention."
+      }
+    },
+    {
+      "id": "E7",
+      "citation": "Wang L, Jung J, Babikir H, et al. A single-cell atlas of glioblastoma evolution under therapy reveals cell-intrinsic and cell-extrinsic therapeutic targets. Nat Cancer. 2022;3(12):1534-1552.",
+      "doi": "10.1038/s43018-022-00475-x",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9767870/",
+      "pmcid": "PMC9767870",
+      "licence": "CC BY 4.0",
+      "journal": "Nature Cancer",
+      "year": 2022,
+      "article_type": "Article",
+      "disease_area": "neuro-oncology (glioblastoma)",
+      "guideline_cited": [
+        "Nature Portfolio Reporting Summary"
+      ],
+      "measurement_file": "_measurements/single-cell-atlas-drug-sensitivity/E7.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (12:48 version); unheaded lead reassigned by hand",
+      "measured": {
+        "main_text_words": 8785,
+        "main_text_words_excluding_methods": 5808,
+        "section_words": {
+          "introduction": 516,
+          "results": 3571,
+          "discussion": 1721,
+          "methods": 2977
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 148,
+        "extra_summaries": [
+          "Web summary / standfirst (34 words, editor-written)"
+        ],
+        "figures_main": 8,
+        "tables_main": 0,
+        "extended_data_figures": 8,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "embedding_umap",
+          "composition_bar",
+          "cnv_heatmap",
+          "heatmap",
+          "trajectory_plot",
+          "drug_sensitivity_plot",
+          "km_curve",
+          "spatial_map",
+          "cell_communication_plot",
+          "validation_panel"
+        ],
+        "references": 61,
+        "supplement_files": 5,
+        "supplement_types": [
+          "Reporting Summary",
+          "supplementary tables 1-12 (cohort, signatures, pathway results)",
+          "statistical source data for 3 figures"
+        ],
+        "results_subsections": 9,
+        "limitations_placement": "no heading; caveats in the final Discussion paragraph",
+        "statements": [
+          "data availability (GEO, EGA)",
+          "code availability (GitHub)",
+          "ethical approval (Methods)",
+          "animal work (murine irradiation assay)",
+          "funding",
+          "author contributions",
+          "competing interests",
+          "Reporting Summary"
+        ],
+        "new_data": "new longitudinal snRNA-seq, snATAC-seq, exome and spatial transcriptomics/proteomics of 86 paired specimens; meta-analysis with public scRNA-seq; in vitro and murine validation",
+        "drug_link": "AP1 regulome and paracrine targets tested in vitro (inhibitors, viability, clonogenic assays)",
+        "corrections": "Unheaded 'Main' lead (516 words) reassigned to introduction. Supplement: 2 files in the XML, 5 on the publisher page (Reporting Summary, supplementary tables, 3 source-data files)."
+      }
+    },
+    {
+      "id": "E8",
+      "citation": "Warfvinge R, Geironson Ulfsson L, Dhapola P, et al. Single-cell multiomics analysis of chronic myeloid leukemia links cellular heterogeneity to therapy response. eLife. 2024;12:RP92074.",
+      "doi": "10.7554/elife.92074",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11540304/",
+      "pmcid": "PMC11540304",
+      "licence": "CC BY 4.0",
+      "journal": "eLife",
+      "year": 2024,
+      "article_type": "Research Article (Reviewed Preprint, version of record)",
+      "disease_area": "haematological oncology (chronic myeloid leukaemia)",
+      "guideline_cited": [
+        "MDAR checklist"
+      ],
+      "measurement_file": "_measurements/single-cell-atlas-drug-sensitivity/E8.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (12:48 version)",
+      "measured": {
+        "main_text_words": 8043,
+        "main_text_words_excluding_methods": 6141,
+        "section_words": {
+          "introduction": 658,
+          "results": 4061,
+          "discussion": 1422,
+          "methods": 1902
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 259,
+        "extra_summaries": [
+          "eLife assessment (editor-written, appended with public reviews)"
+        ],
+        "figures_main": 6,
+        "tables_main": 0,
+        "figure_supplements": 10,
+        "display_item_kinds": [
+          "embedding_umap",
+          "marker_dotplot",
+          "composition_bar",
+          "heatmap",
+          "drug_sensitivity_plot",
+          "bulk_cohort_projection",
+          "validation_panel",
+          "study_design_schematic"
+        ],
+        "references": 80,
+        "supplement_files": 8,
+        "supplement_types": [
+          "patient sample cohort",
+          "CITE-seq and FACS antibody panels",
+          "marker genes per cluster",
+          "DEG lists (CML vs normal; BCR::ABL1+ vs - stem cells)",
+          "MDAR checklist"
+        ],
+        "results_subsections": 7,
+        "limitations_placement": "no heading; caveat paragraph inside Discussion",
+        "statements": [
+          "data availability (GEO; data and code on OSF)",
+          "ethics (regional ethics committees; trial registrations)",
+          "funding",
+          "author contributions",
+          "competing interests",
+          "MDAR checklist"
+        ],
+        "new_data": "new CITE-seq of diagnosis samples + FACS sorting, qPCR and in vitro assays; deconvolution of a public bulk cohort",
+        "drug_link": "progenitor composition at diagnosis vs tyrosine kinase inhibitor response; BCR::ABL1+ stem-cell markers",
+        "corrections": "Tool counted 10 figure supplements and one author-response image as main figures (16->6). 'osf_registration' flag is an OSF data/code repository, not a pre-registration."
+      }
+    },
+    {
+      "id": "E9",
+      "citation": "Coulton A, Murai J, Qian D, et al. Using a pan-cancer atlas to investigate tumour associated macrophages as regulators of immunotherapy response. Nat Commun. 2024;15(1):5665.",
+      "doi": "10.1038/s41467-024-49885-8",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11226649/",
+      "pmcid": "PMC11226649",
+      "licence": "CC BY 4.0",
+      "journal": "Nature Communications",
+      "year": 2024,
+      "article_type": "Article",
+      "disease_area": "oncology (pan-cancer tumour-associated macrophages; immune checkpoint response)",
+      "guideline_cited": [
+        "Nature Portfolio Reporting Summary"
+      ],
+      "measurement_file": "_measurements/single-cell-atlas-drug-sensitivity/E9.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (12:48 version)",
+      "measured": {
+        "main_text_words": 5879,
+        "main_text_words_excluding_methods": 4529,
+        "section_words": {
+          "introduction": 366,
+          "results": 3468,
+          "discussion": 695,
+          "methods": 1350
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 221,
+        "extra_summaries": [
+          "Web summary / standfirst (49 words, editor-written)"
+        ],
+        "figures_main": 5,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "embedding_umap",
+          "marker_dotplot",
+          "composition_bar",
+          "heatmap",
+          "drug_sensitivity_plot",
+          "bulk_cohort_projection",
+          "spatial_map"
+        ],
+        "references": 126,
+        "supplement_files": 7,
+        "supplement_types": [
+          "Supplementary Information PDF (figures)",
+          "peer review file",
+          "description of additional files",
+          "Supplementary Data 1-6: cells and samples per study and tissue, cluster markers and related tables",
+          "Supplementary Data 7 (archive)",
+          "Reporting Summary",
+          "source data"
+        ],
+        "results_subsections": 5,
+        "limitations_placement": "no heading; caveat sentences inside Discussion",
+        "statements": [
+          "data availability (Zenodo Seurat object)",
+          "code availability (GitHub + Zenodo DOI)",
+          "funding",
+          "author contributions",
+          "competing interests",
+          "Reporting Summary"
+        ],
+        "new_data": "none (public scRNA-seq, public spatial and bulk ICI cohorts)",
+        "drug_link": "TAM subset signatures vs immune checkpoint inhibitor response in a pooled bulk cohort (CPI1000+)",
+        "corrections": "Body-only 'pancreatic' is one of the source tumour types listed in Methods; title, abstract and keywords are clean."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "title",
+      "heading": "Title",
+      "aliases": [],
+      "order": 1,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [
+        {
+          "id": "tissue_or_disease_named",
+          "description": "names the tissue or disease studied",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "cancer|tumou?r|leuk(a)?emia|glioblastoma|glioma|carcinoma|melanoma|heart|cardiac|lung|liver|kidney|breast|colorectal|ovarian|skin|fibrosis"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "single_cell_named",
+          "description": "names the single-cell modality ('single-cell', 'multiomics', 'atlas')",
+          "level": "required",
+          "frequency": "9/9 (literal 'single-cell' 7/9; 'atlas' 5/9; 'multiomics' 2/9)",
+          "detect": [
+            "single[- ](cell|nucleus)",
+            "atlas",
+            "multi-?omic"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "therapy_term",
+          "description": "names a drug, therapy response or therapeutic target",
+          "level": "typical",
+          "frequency": "6/9",
+          "detect": [
+            "drug",
+            "therap(y|ies|eutic)",
+            "treatment",
+            "response",
+            "target",
+            "inhibitor",
+            "immunotherapy",
+            "anti-PD"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Title length 7-17 words (median 14). Titles state the finding (declarative) in 5/9, the resource in 4/9.",
+      "basis": "frequency"
+    },
+    {
+      "id": "abstract",
+      "heading": "Abstract",
+      "aliases": [
+        "Summary",
+        "SUMMARY"
+      ],
+      "order": 2,
+      "level": "required",
+      "words": {
+        "min": 150,
+        "typical": 164,
+        "max": 250
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "Single paragraph in 8/9 (Cell Press calls it 'Summary'); structured Background/Results/Conclusions only in Genome Biology (1/9). See abstract block.",
+      "basis": "frequency"
+    },
+    {
+      "id": "key_points",
+      "heading": "Highlights",
+      "aliases": [
+        "In brief",
+        "eTOC blurb",
+        "Graphical abstract"
+      ],
+      "order": 3,
+      "level": "optional",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "Cell Press only (3/9: E1, E5, E6): 3-4 Highlights bullets (36-41 words), an 'In brief' blurb (51-53 words) and a graphical abstract. Nature-family 'web summary' (4/9) and the eLife assessment (1/9) are editor-written, not author sections.",
+      "basis": "frequency",
+      "venue_governed": true
+    },
+    {
+      "id": "introduction",
+      "heading": "Introduction",
+      "aliases": [
+        "Background",
+        "Main (unheaded lead paragraphs, Nature/Nature Cancer)"
+      ],
+      "order": 4,
+      "level": "required",
+      "words": {
+        "min": 300,
+        "typical": 482,
+        "max": 650
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "gap_statement",
+          "description": "states what is unknown or unresolved about cell states and therapy response in the disease",
+          "level": "required",
+          "frequency": "8/9",
+          "detect": [
+            "however",
+            "remain(s)? (unclear|unknown|poorly)",
+            "lack(s|ing)?",
+            "not (yet )?been",
+            "limited",
+            "unclear"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "here_we_paragraph",
+          "description": "final paragraph says what this study did ('we compiled/integrated/profiled...')",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "\\bhere,? we\\b",
+            "\\bwe (compiled|integrat\\w*|profiled|generated|present|construct\\w*|created|used|utili[sz]ed|classified|extend)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "findings_preview",
+          "description": "final paragraph previews the main findings ('we show/identify/found')",
+          "level": "typical",
+          "frequency": "6/9",
+          "detect": [
+            "we (show|found|identif\\w+|demonstrat\\w+|reveal\\w*|uncover\\w*|discover\\w*)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "3-4 paragraphs, no subsections (9/9). Headed 'Introduction' 6/9, 'Background' 1/9 (BMC), unheaded lead 2/9 (Nature, Nature Cancer).",
+      "basis": "frequency"
+    },
+    {
+      "id": "results",
+      "heading": "Results",
+      "aliases": [
+        "(Nature: unheaded run of Results subsections)"
+      ],
+      "order": 5,
+      "level": "required",
+      "words": {
+        "min": 2850,
+        "typical": 3864,
+        "max": 5350
+      },
+      "subsections": [
+        {
+          "heading": "Atlas construction and overview",
+          "aliases": [
+            "Generation of a core single-cell atlas",
+            "An integrated scRNA-seq dataset ...",
+            "Construction of a large-scale ... atlas",
+            "Single-cell transcriptome profiling of ...",
+            "Multimodal profiling of ..."
+          ],
+          "aliases_regex": [
+            "atlas",
+            "integrat\\w*",
+            "(single-cell|single-nucleus|multiom\\w*|CITE-seq) (profil|transcriptom|analysis|landscape)",
+            "construction",
+            "generation of",
+            "profiling of"
+          ],
+          "level": "required",
+          "frequency": "8/9 (first Results subsection)",
+          "words": {
+            "min": 300,
+            "typical": 601,
+            "max": 850
+          },
+          "notes": "Gives n cells, n samples/patients, n datasets/platforms, major compartments; points to the UMAP and dataset table.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Cell-state characterisation (one subsection per compartment or state)",
+          "aliases": [
+            "Fibroblast clusters ...",
+            "T cell clusters ...",
+            "Tissue-resident neutrophils acquire ...",
+            "Cancer epithelial cell heterogeneity ..."
+          ],
+          "aliases_regex": [
+            "cluster",
+            "subsets?",
+            "states?",
+            "subpopulation",
+            "heterogeneity",
+            "phenotyp\\w*",
+            "programs?",
+            "niches?"
+          ],
+          "level": "required",
+          "frequency": "9/9",
+          "words": null,
+          "notes": "2-6 such subsections per paper; headings are declarative claims in most exemplars.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Linking states to drug sensitivity or therapy response",
+          "aliases": [
+            "Drug targeting at single-cell resolution",
+            "Heterogeneity in gene expression affects drug response",
+            "... predicts anti-PD-1 therapeutic response",
+            "... linked to TKI therapy outcome",
+            "TAM phenotypes and patient responses to immune checkpoint inhibitors"
+          ],
+          "aliases_regex": [
+            "drug",
+            "therap\\w*",
+            "respon\\w+",
+            "sensitiv\\w+",
+            "resistan\\w+",
+            "inhibitor",
+            "target(ing)?",
+            "checkpoint",
+            "treatment"
+          ],
+          "level": "required",
+          "frequency": "8/9",
+          "words": {
+            "min": 150,
+            "typical": 477,
+            "max": 1550
+          },
+          "notes": "E4 has no drug subsection (prognosis only). E6 spreads the drug link over 5 subsections.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Validation in bulk or clinical cohorts",
+          "aliases": [
+            "Integration of bulk RNA-seq data reveals ...",
+            "Large-scale deconvolution of an independent dataset ...",
+            "... outcomes were defined by ... enrichment",
+            "Bulk-level network-based systems pharmacology ..."
+          ],
+          "aliases_regex": [
+            "bulk",
+            "deconvol\\w*",
+            "TCGA",
+            "cohort",
+            "outcome",
+            "survival",
+            "prognos\\w*",
+            "independent"
+          ],
+          "level": "typical",
+          "frequency": "6/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Cell-cell communication",
+          "aliases": [
+            "Analysis of cell-cell communication reveals ...",
+            "CAFs and TAMs modulate immune suppression",
+            "Spatial analysis yields cell-extrinsic therapeutic targets"
+          ],
+          "aliases_regex": [
+            "cell-cell",
+            "crosstalk|cross-talk",
+            "communication",
+            "interaction",
+            "paracrine",
+            "signall?ing",
+            "ligand"
+          ],
+          "level": "typical",
+          "frequency": "5/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Atlas as a reference / resource (mapping new data)",
+          "aliases": [
+            "Extension of the core atlas by transfer learning",
+            "The atlas as a reference for automated diagnosis",
+            "Our atlas ... forms a comprehensive resource"
+          ],
+          "aliases_regex": [
+            "reference",
+            "resource",
+            "transfer learning",
+            "projection",
+            "mapping"
+          ],
+          "level": "optional",
+          "frequency": "3/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "declarative_subheadings",
+          "description": "Results split into 5-11 headed subsections (median 7)",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [],
+          "basis": "frequency"
+        },
+        {
+          "id": "atlas_numbers",
+          "description": "atlas size reported (cells, samples, patients, datasets)",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "\\d[\\d,.]*\\s+(\\S+\\s+){0,3}(cells|nuclei|samples|patients|donors|datasets|studies|cell lines|specimens)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "patient_level_testing",
+          "description": "comparisons across conditions tested per patient or as pseudobulk, not per cell",
+          "level": "typical",
+          "frequency": "7/9",
+          "detect": [
+            "pseudo-?bulk",
+            "per patient",
+            "paired (Wilcoxon|t)",
+            "DESeq2",
+            "edgeR",
+            "limma",
+            "mixed (effects )?model"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Results is headed in 8/9 (Nature omits the heading). Results words exclude captions.",
+      "basis": "frequency"
+    },
+    {
+      "id": "discussion",
+      "heading": "Discussion",
+      "aliases": [
+        "DISCUSSION"
+      ],
+      "order": 6,
+      "level": "required",
+      "words": {
+        "min": 300,
+        "typical": 887,
+        "max": 1700
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "further_validation_needed",
+          "description": "says functional, prospective or clinical validation is still needed",
+          "level": "required",
+          "frequency": "8/9 (regex screen)",
+          "detect": [
+            "(further|future|additional|prospective) (work|stud(y|ies)|experiments?|validation|investigation)",
+            "functional(ly)? (test|validat\\w*|stud\\w*)",
+            "remains? to be (determined|tested|validated|shown)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Range includes E5's 209-word 'Limitations of the study' subsection. No subsections except that one (1/9).",
+      "basis": "frequency"
+    },
+    {
+      "id": "limitations",
+      "heading": "Limitations of the study",
+      "aliases": [
+        "Our study has (several) limitations (unheaded paragraph)"
+      ],
+      "order": 7,
+      "level": "optional",
+      "words": {
+        "min": 100,
+        "typical": 200,
+        "max": 200
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "limitations_marker",
+          "description": "explicit limitations wording",
+          "level": "optional",
+          "frequency": "3/9",
+          "detect": [
+            "limitations? of (the|this|our) study",
+            "(our|this) study has (several|some|a few|noteworthy)? ?limitations",
+            "limitation"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Explicit limitations text in 3/9 (heading 1/9 Cell Reports Medicine; unheaded paragraph 2/9). Cell Press asks for 'Limitations of the study', but the two Cancer Cell exemplars lack it. Amani's writer always includes a Limitations section (design 3.1 #12); the lint should not penalise it.",
+      "basis": "frequency"
+    },
+    {
+      "id": "methods",
+      "heading": "Methods",
+      "aliases": [
+        "STAR★Methods",
+        "STAR Methods",
+        "Materials and methods",
+        "Online Methods"
+      ],
+      "order": 8,
+      "level": "required",
+      "words": {
+        "min": 1350,
+        "typical": 3272,
+        "max": 6200
+      },
+      "subsections": [
+        {
+          "heading": "Data sources and samples",
+          "aliases": [
+            "Generation of the core atlas",
+            "Selection of TAMs from individual datasets",
+            "Processing of single-cell RNA-seq datasets",
+            "Patient samples",
+            "Experimental model and subject details",
+            "Tissue acquisition"
+          ],
+          "aliases_regex": [
+            "data(set)?s?( collection| sources?| acquisition| curation)?$",
+            "public(ly)? available",
+            "selection of",
+            "patient(s)? (samples|and samples)",
+            "human subjects",
+            "experimental model",
+            "tissue acquisition",
+            "sample collection",
+            "core atlas"
+          ],
+          "level": "required",
+          "frequency": "9/9",
+          "words": null,
+          "notes": "Cell Press: 'Experimental model and study participant details'.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Preprocessing and quality control",
+          "aliases": [
+            "Quality control and processing of data",
+            "Read mapping",
+            "Doublet detection"
+          ],
+          "aliases_regex": [
+            "quality control|\\bQC\\b",
+            "pre-?processing",
+            "processing of",
+            "read (mapping|alignment)",
+            "alignment",
+            "doublet"
+          ],
+          "level": "required",
+          "frequency": "9/9 content; 7/9 headed",
+          "words": null,
+          "notes": "Doublet removal named 7/9; explicit QC thresholds 5/9; reference genome/aligner named 7/9.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Integration and batch correction",
+          "aliases": [
+            "Integration of scRNA-seq datasets",
+            "Data integration and cell-type annotation",
+            "Integration/batch correction of datasets and atlas construction",
+            "Batch-effect correction"
+          ],
+          "aliases_regex": [
+            "integrat\\w*",
+            "batch",
+            "atlas construction",
+            "harmon\\w*",
+            "label transfer",
+            "reference mapping"
+          ],
+          "level": "required",
+          "frequency": "8/9 content; 6/9 headed",
+          "words": null,
+          "notes": "Method named (scVI/scANVI, Harmony, Seurat anchors/CCA, ComBat, reference mapping) in 6/9. No exemplar reports integration metrics (LISI, kBET, scIB).",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Clustering and cell-type annotation",
+          "aliases": [
+            "Unsupervised clustering and cell-type annotation",
+            "Cell type annotation and clustering",
+            "Major cell type detection"
+          ],
+          "aliases_regex": [
+            "cluster\\w*",
+            "annotat\\w*",
+            "cell[- ]type (classification|identification|detection)"
+          ],
+          "level": "required",
+          "frequency": "9/9 content; 7/9 headed",
+          "words": null,
+          "notes": "Annotation by canonical markers 9/9.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Differential expression",
+          "aliases": [
+            "Differential gene expression testing",
+            "Pseudo-bulk differential expression",
+            "Analysis of differentially expressed genes"
+          ],
+          "aliases_regex": [
+            "differential",
+            "\\bDEG",
+            "pseudo-?bulk",
+            "marker genes"
+          ],
+          "level": "typical",
+          "frequency": "5/9 headed; pseudobulk or patient-level DE 7/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Signature, pathway and regulon scoring",
+          "aliases": [
+            "Pathway, TF and cytokine signaling signatures",
+            "Gene regulatory network",
+            "Pathway analysis",
+            "GSVA"
+          ],
+          "aliases_regex": [
+            "pathway",
+            "signature",
+            "gene set",
+            "GSVA|GSEA|ssGSEA",
+            "regulon|SCENIC",
+            "regulatory network",
+            "transcription factor"
+          ],
+          "level": "typical",
+          "frequency": "7/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Malignant-cell identification (CNV inference)",
+          "aliases": [
+            "Copy-number variation analysis",
+            "Detection of aneuploid cells"
+          ],
+          "aliases_regex": [
+            "copy[- ]number",
+            "\\bCNVs?\\b",
+            "inferCNV|CopyKAT|Numbat|SCEVAN",
+            "aneuploid",
+            "malignant"
+          ],
+          "level": "optional",
+          "frequency": "4/9 (headed 1/9)",
+          "words": null,
+          "notes": "Used whenever tumour and normal epithelium must be separated.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Cell-cell communication",
+          "aliases": [
+            "Cellphonedb analysis",
+            "Receptor-ligand pairing analysis",
+            "Dissecting the cell-cell communications using CellPhoneDB"
+          ],
+          "aliases_regex": [
+            "cell[- ]cell",
+            "CellPhoneDB|CellChat|NicheNet|LIANA",
+            "ligand",
+            "receptor",
+            "interaction"
+          ],
+          "level": "typical",
+          "frequency": "5/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Trajectory / RNA velocity",
+          "aliases": [
+            "RNA velocity analysis",
+            "Trajectory analysis"
+          ],
+          "aliases_regex": [
+            "trajector\\w*",
+            "pseudotime",
+            "velocity"
+          ],
+          "level": "optional",
+          "frequency": "3/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Bulk-cohort projection and deconvolution",
+          "aliases": [
+            "Signature scoring in bulk RNA-seq samples",
+            "SCISSOR analysis",
+            "CIBERSORTx analysis",
+            "Gene expression deconvolution",
+            "Bulk RNA-seq and microarray analysis"
+          ],
+          "aliases_regex": [
+            "bulk",
+            "deconvol\\w*",
+            "CIBERSORT\\w*|Bisque|BayesPrism|MuSiC",
+            "SCISSOR|Scissor",
+            "TCGA"
+          ],
+          "level": "typical",
+          "frequency": "7/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Survival analysis",
+          "aliases": [
+            "Survival analysis"
+          ],
+          "aliases_regex": [
+            "survival",
+            "Kaplan",
+            "Cox"
+          ],
+          "level": "optional",
+          "frequency": "4/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Drug-sensitivity or therapy-response analysis",
+          "aliases": [
+            "Drug2cell",
+            "Description and validation of the DREEP method",
+            "NetBID2 analysis to identify drivers of asparaginase sensitivity",
+            "Association of macrophage subsets with immune checkpoint inhibitor response",
+            "Validation of InteractPrint"
+          ],
+          "aliases_regex": [
+            "drug",
+            "sensitiv\\w+",
+            "respon\\w+",
+            "checkpoint",
+            "inhibitor",
+            "drug2cell|beyondcell|DREEP|scDrug|ASGARD|CaDRReS",
+            "asparaginase|venetoclax|TKI"
+          ],
+          "level": "required",
+          "frequency": "8/9",
+          "words": null,
+          "notes": "Named drug resource (ChEMBL, GDSC, CTRP, PRISM, DepMap/CCLE, ex vivo screen) in 5/9.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Spatial data analysis",
+          "aliases": [
+            "Spatial mapping of cell states with cell2location",
+            "Spatial transcriptomics analysis",
+            "Spatial analysis of the ECM macrophage subset"
+          ],
+          "aliases_regex": [
+            "spatial",
+            "Visium",
+            "cell2location",
+            "CosMx|GeoMx|Xenium|MERFISH"
+          ],
+          "level": "typical",
+          "frequency": "5/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Statistical analysis",
+          "aliases": [
+            "Quantification and statistical analysis",
+            "Statistics and reproducibility",
+            "Statistical analysis and data manipulation",
+            "Multiple testing correction"
+          ],
+          "aliases_regex": [
+            "statistic\\w*",
+            "quantification and statistical",
+            "reproducibility",
+            "multiple testing"
+          ],
+          "level": "typical",
+          "frequency": "6/9",
+          "words": null,
+          "notes": "Cell Press mandates 'Quantification and statistical analysis'; Nature uses 'Statistics and reproducibility'.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Wet-lab validation methods",
+          "aliases": [
+            "Flow cytometry",
+            "Immunohistochemistry",
+            "Multiplex immunofluorescence",
+            "In vitro validation",
+            "Drug sensitivity assay",
+            "Patient-derived xenograft model"
+          ],
+          "aliases_regex": [
+            "cytometr\\w*",
+            "immunohisto\\w*|\\bIHC\\b",
+            "immunofluoresc\\w*",
+            "RNAscope|smFISH",
+            "in vitro|in vivo",
+            "xenograft|PDX",
+            "assay",
+            "culture",
+            "western"
+          ],
+          "level": "typical",
+          "frequency": "7/9 headed (8/9 did some wet-lab work)",
+          "words": null,
+          "notes": "Amani has no wet lab: this block is absent by design and must be declared as a limitation.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Key resources table",
+          "aliases": [
+            "KEY RESOURCES TABLE"
+          ],
+          "aliases_regex": [
+            "key resources table"
+          ],
+          "level": "optional",
+          "frequency": "3/9 (all Cell Press)",
+          "words": null,
+          "notes": "Lists every dataset (with accession), software (with version) and reagent.",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "toolkit_named",
+          "description": "single-cell toolkit named (Seurat, Scanpy, scvi-tools)",
+          "level": "required",
+          "frequency": "8/9",
+          "detect": [
+            "\\bSeurat\\b",
+            "\\bScanpy\\b|scanpy",
+            "scvi-tools|\\bscVI\\b"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "software_versions",
+          "description": "software versions given",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "\\bv\\.?\\s?\\d+(\\.\\d+)+",
+            "version \\d"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "multiple_testing",
+          "description": "multiple-testing correction stated",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "FDR",
+            "false discovery",
+            "Benjamini",
+            "Bonferroni",
+            "adjusted p",
+            "q[- ]value"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "integration_method_named",
+          "description": "batch-integration method named",
+          "level": "typical",
+          "frequency": "6/9",
+          "detect": [
+            "Harmony",
+            "\\bscVI\\b|scANVI",
+            "BBKNN",
+            "FindIntegrationAnchors|IntegrateData|anchors",
+            "fastMNN|Scanorama|LIGER|scArches|ComBat",
+            "reciprocal PCA|\\bRPCA\\b|\\bCCA\\b"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "doublet_removal",
+          "description": "doublet detection named",
+          "level": "typical",
+          "frequency": "7/9",
+          "detect": [
+            "doublet",
+            "Scrublet|DoubletFinder|scDblFinder|SOLO"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "drug_resource_named",
+          "description": "drug or drug-target resource named",
+          "level": "typical",
+          "frequency": "5/9",
+          "detect": [
+            "ChEMBL",
+            "GDSC",
+            "CTRP",
+            "PRISM",
+            "DepMap|CCLE",
+            "CMap|Connectivity Map|LINCS|L1000",
+            "DrugBank|DGIdb|Open Targets"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Methods follow the Discussion in 9/9. Methods-length range is wide because Nature (E2) and Cell Press papers carry long wet-lab method blocks.",
+      "basis": "frequency"
+    },
+    {
+      "id": "data_availability",
+      "heading": "Data availability",
+      "aliases": [
+        "Data and code availability",
+        "Availability of data and materials",
+        "Resource availability",
+        "Data Availability Statement"
+      ],
+      "order": 9,
+      "level": "required",
+      "words": {
+        "min": 50,
+        "typical": 118,
+        "max": 150
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "accessions",
+          "description": "accession for every new and reused dataset",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "GSE\\d{4,}",
+            "E-MTAB-\\d+",
+            "EGA[SD]\\d+",
+            "PRJNA\\d+",
+            "syn\\d{5,}",
+            "phs\\d+"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "processed_object",
+          "description": "where the processed atlas object or portal is deposited",
+          "level": "required",
+          "frequency": "9/9 (integrated object or portal 7/9)",
+          "detect": [
+            "zenodo",
+            "cellxgene|CELLxGENE",
+            "figshare",
+            "portal",
+            "Seurat object|h5ad|AnnData",
+            "osf\\.io"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Cell Press: inside STAR Methods 'Resource availability' (with Lead contact and Materials availability). Nature family: own heading after Methods. BMC: under Declarations.",
+      "basis": "frequency"
+    },
+    {
+      "id": "code_availability",
+      "heading": "Code availability",
+      "aliases": [
+        "Data and code availability",
+        "Availability of data and materials"
+      ],
+      "order": 10,
+      "level": "required",
+      "words": {
+        "min": 10,
+        "typical": 22,
+        "max": 29
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "code_repo",
+          "description": "code repository link",
+          "level": "required",
+          "frequency": "9/9 (GitHub 8/9, OSF 1/9)",
+          "detect": [
+            "github\\.com",
+            "gitlab",
+            "osf\\.io",
+            "zenodo"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "code_archive_doi",
+          "description": "archived code release with DOI",
+          "level": "optional",
+          "frequency": "3/9",
+          "detect": [
+            "10\\.5281/zenodo\\.\\d+",
+            "zenodo"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Separate heading only in Nature-family papers (4/9); otherwise merged into the data statement. Word range is for the 4 separate statements (exact counts, not rounded).",
+      "basis": "frequency"
+    },
+    {
+      "id": "ethics",
+      "heading": "Ethics",
+      "aliases": [
+        "Ethics approval and consent to participate",
+        "Research ethics for donor tissues",
+        "Ethical approval",
+        "Human subjects",
+        "Patients and samples"
+      ],
+      "order": 11,
+      "level": "typical",
+      "words": null,
+      "subsections": [],
+      "elements": [
+        {
+          "id": "ethics_approval",
+          "description": "ethics committee/IRB approval and informed consent for new human material",
+          "level": "typical",
+          "frequency": "6/9 (6/6 papers with new human samples; 0/3 public-data or cell-line papers)",
+          "detect": [
+            "ethic(s|al) (committee|approval|board)",
+            "institutional review board|\\bIRB\\b",
+            "informed consent"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Conditional: required when new human samples are used. None of the 3 public-data/cell-line papers states that ethics approval was not needed.",
+      "basis": "frequency"
+    },
+    {
+      "id": "acknowledgements",
+      "heading": "Acknowledgements",
+      "aliases": [
+        "Acknowledgments",
+        "ACKNOWLEDGMENTS"
+      ],
+      "order": 12,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "9/9; carries funding in Cell Press and Nature papers.",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "heading": "Funding",
+      "aliases": [
+        "Funding Information"
+      ],
+      "order": 13,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [
+        {
+          "id": "funding_statement",
+          "description": "grant or funder statement",
+          "level": "required",
+          "frequency": "9/9 (own heading 2/9: BMC, eLife)",
+          "detect": [
+            "fund(ed|ing)",
+            "grant",
+            "supported by"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "contributions",
+      "heading": "Author contributions",
+      "aliases": [
+        "Authors' contributions",
+        "AUTHOR CONTRIBUTIONS"
+      ],
+      "order": 14,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "9/9 (CRediT roles in eLife).",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "heading": "Competing interests",
+      "aliases": [
+        "Declaration of interests",
+        "DECLARATION OF INTERESTS"
+      ],
+      "order": 15,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "9/9.",
+      "basis": "frequency"
+    },
+    {
+      "id": "references",
+      "heading": "References",
+      "aliases": [],
+      "order": 16,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "61-133 (median 93).",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplement",
+      "heading": "Supplementary information",
+      "aliases": [
+        "Supplemental information",
+        "Additional files",
+        "Extended Data",
+        "Figure supplements",
+        "Supplementary files"
+      ],
+      "order": 17,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "5-15 files (median 8). Nature-family papers add 8-12 Extended Data figures; eLife attaches figure supplements to main figures.",
+      "basis": "frequency"
+    }
+  ],
+  "section_order_variants": [
+    {
+      "name": "Cell Press (STAR Methods last; statements inside STAR Methods)",
+      "order": [
+        "abstract",
+        "key_points",
+        "introduction",
+        "results",
+        "discussion",
+        "methods",
+        "data_availability",
+        "acknowledgements",
+        "contributions",
+        "competing_interests",
+        "references",
+        "supplement"
+      ],
+      "seen_in": [
+        "E1",
+        "E6"
+      ]
+    },
+    {
+      "name": "Cell Press with Limitations of the study",
+      "order": [
+        "abstract",
+        "key_points",
+        "introduction",
+        "results",
+        "discussion",
+        "limitations",
+        "methods",
+        "data_availability",
+        "acknowledgements",
+        "contributions",
+        "competing_interests",
+        "references",
+        "supplement"
+      ],
+      "seen_in": [
+        "E5"
+      ]
+    },
+    {
+      "name": "Nature family (Methods last; separate data and code statements)",
+      "order": [
+        "abstract",
+        "introduction",
+        "results",
+        "discussion",
+        "methods",
+        "data_availability",
+        "code_availability",
+        "references",
+        "acknowledgements",
+        "contributions",
+        "competing_interests",
+        "supplement"
+      ],
+      "seen_in": [
+        "E2",
+        "E3",
+        "E7",
+        "E9"
+      ]
+    },
+    {
+      "name": "BMC Genome Biology (Conclusions, then Methods, then Declarations)",
+      "order": [
+        "abstract",
+        "introduction",
+        "results",
+        "discussion",
+        "conclusions",
+        "methods",
+        "supplement",
+        "acknowledgements",
+        "contributions",
+        "funding",
+        "data_availability",
+        "ethics",
+        "competing_interests",
+        "references"
+      ],
+      "seen_in": [
+        "E4"
+      ]
+    },
+    {
+      "name": "eLife (Materials and methods last)",
+      "order": [
+        "abstract",
+        "introduction",
+        "results",
+        "discussion",
+        "methods",
+        "references",
+        "funding",
+        "acknowledgements",
+        "ethics",
+        "contributions",
+        "competing_interests",
+        "supplement",
+        "data_availability"
+      ],
+      "seen_in": [
+        "E8"
+      ]
+    }
+  ],
+  "main_text_words": {
+    "min": 5900,
+    "typical": 8785,
+    "max": 12350,
+    "counted": [
+      "introduction",
+      "methods",
+      "results",
+      "discussion",
+      "limitations",
+      "conclusions"
+    ],
+    "methods_counted": true,
+    "notes": "Excluding Methods (the basis for Nature-family and Cell Press caps): min 4200, typical 5513, max 6150. With Methods the spread is driven by wet-lab method blocks (Nature E2: 6183 Methods words)."
+  },
+  "abstract": {
+    "format": "either",
+    "words": {
+      "min": 150,
+      "typical": 164,
+      "max": 250
+    },
+    "heading_sets": [
+      {
+        "family": "Unstructured single paragraph (Cell Press 'Summary', Nature family, eLife)",
+        "headings": [],
+        "seen_in": [
+          "E1",
+          "E2",
+          "E3",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "family": "BMC (Genome Biology)",
+        "headings": [
+          "Background",
+          "Results",
+          "Conclusions"
+        ],
+        "seen_in": [
+          "E4"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "id": "single_cell_modality",
+        "description": "names the single-cell modality",
+        "level": "required",
+        "frequency": "9/9",
+        "detect": [
+          "single[- ](cell|nucleus|nuclei)",
+          "scRNA-seq|snRNA-seq",
+          "CITE-seq",
+          "multiom\\w*"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "states_defined",
+        "description": "says which cell states, subsets or programmes were defined",
+        "level": "required",
+        "frequency": "8/9",
+        "detect": [
+          "subsets?",
+          "subpopulations?",
+          "states?",
+          "clusters?",
+          "subtypes?",
+          "programs?",
+          "niches?",
+          "heterogeneity"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "drug_or_therapy_link",
+        "description": "names the drug, therapy response or target the states are linked to",
+        "level": "required",
+        "frequency": "9/9",
+        "detect": [
+          "drugs?",
+          "sensitiv\\w+",
+          "respon(se|ses|ders?)",
+          "therap(y|ies|eutic)",
+          "inhibitors?",
+          "treatment",
+          "druggable",
+          "targets?"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "validation_named",
+        "description": "names the validation (bulk cohort, trial, survival, in vitro/in vivo)",
+        "level": "typical",
+        "frequency": "7/9",
+        "detect": [
+          "cohorts?",
+          "TCGA",
+          "bulk",
+          "clinical trials?",
+          "validat\\w*",
+          "outcomes?",
+          "survival",
+          "prognos\\w*",
+          "in vivo",
+          "in vitro",
+          "xenograft",
+          "organoids?"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "atlas_scale",
+        "description": "gives atlas size in numbers (cells, samples, patients, datasets)",
+        "level": "typical",
+        "frequency": "5/9",
+        "detect": [
+          "\\d[\\d,.]*(\\s+(million|thousand))?\\s+(\\S+\\s+){0,4}(cells|nuclei|transcriptomes|specimens|samples|patients|donors|datasets|studies|cell lines)\\b"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "resource_claim",
+        "description": "offers the atlas as a resource or reference",
+        "level": "typical",
+        "frequency": "5/9",
+        "detect": [
+          "resource",
+          "reference",
+          "atlas"
+        ],
+        "basis": "frequency"
+      }
+    ],
+    "extra_summaries": [
+      {
+        "name": "Highlights (Cell Press)",
+        "level": "optional",
+        "frequency": "3/9",
+        "words": {
+          "min": 36,
+          "typical": 39,
+          "max": 41
+        },
+        "notes": "3-4 bullets; exact counts (not rounded)."
+      },
+      {
+        "name": "In brief / eTOC blurb (Cell Press)",
+        "level": "optional",
+        "frequency": "3/9",
+        "words": {
+          "min": 51,
+          "typical": 52,
+          "max": 53
+        },
+        "notes": "exact counts"
+      },
+      {
+        "name": "Graphical abstract (Cell Press)",
+        "level": "optional",
+        "frequency": "3/9",
+        "words": null,
+        "notes": "image, no words"
+      },
+      {
+        "name": "Web summary / standfirst (Nature family, editor-written)",
+        "level": "optional",
+        "frequency": "4/9",
+        "words": {
+          "min": 33,
+          "typical": 39,
+          "max": 49
+        },
+        "notes": "Prepared by the journal; Amani does not need to write it."
+      }
+    ],
+    "checklist": null,
+    "notes": "Unstructured in 8/9. Exact range 148-259 words; min/max rounded to nearest 50, typical = exact median (164). Cell Press abstracts are 148-164 words; Nature Communications 148 and 221; Nature 205; Nature Cancer 148; eLife 259; Genome Biology (structured) 254."
+  },
+  "display_items": [
+    {
+      "id": "embedding_umap",
+      "priority": 1,
+      "type": "figure",
+      "kind": "UMAP/t-SNE of the integrated atlas coloured by cell type (and by dataset/batch, usually in the supplement)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 3,
+        "max": 5
+      },
+      "placement": "main",
+      "frequency": "9/9 (figures with embedding panels: 1-5, median 3)",
+      "detect": [
+        "\\bUMAP\\b",
+        "t-?SNE",
+        "uniform manifold",
+        "embedding",
+        "force[- ]directed"
+      ],
+      "omerta_kind": null,
+      "notes": "Dataset/batch-coloured embeddings appear in the main text in 1/9 (E1, composition per platform) and otherwise in the supplement.",
+      "basis": "frequency"
+    },
+    {
+      "id": "study_design_schematic",
+      "priority": 2,
+      "type": "figure",
+      "kind": "Study overview or analysis-workflow schematic (data sources, integration, analyses)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 5
+      },
+      "placement": "main",
+      "frequency": "9/9 any schematic panel; 6/9 as a Figure 1 study overview (E1, E2, E4, E5, E7, E9); 3/9 only a method-pipeline panel",
+      "detect": [
+        "schematic",
+        "overview of (the )?(study|data|analysis|workflow|approach|genomics)",
+        "workflow",
+        "study design",
+        "outline of",
+        "pipeline",
+        "illustration"
+      ],
+      "omerta_kind": "Study-design schematic",
+      "notes": "Count = figures containing a schematic panel.",
+      "basis": "frequency"
+    },
+    {
+      "id": "drug_sensitivity_plot",
+      "priority": 3,
+      "type": "figure",
+      "kind": "Drug-sensitivity or therapy-response per cell state (drug2cell/DREEP scores, ex vivo LC50 by state, response vs signature, dose-response)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 4
+      },
+      "placement": "main",
+      "frequency": "8/9 (E4 none)",
+      "detect": [
+        "drug",
+        "sensitivit\\w+",
+        "IC50|LC50|AUC of (the )?dose",
+        "dose[- ]response",
+        "drug2cell|beyondcell|DREEP|scDrug|ASGARD|CaDRReS",
+        "GDSC|PRISM|CTRP|CMap|ChEMBL",
+        "checkpoint|anti-PD-?L?1|immunotherapy|\\bICI\\b",
+        "respon(se|ders)",
+        "inhibitor"
+      ],
+      "omerta_kind": null,
+      "notes": "Types: drug-target or drug-signature scoring per state 3/9 (E2, E3, E6); immunotherapy-response association via bulk signatures 3/9 (E1, E5, E9); clinical TKI response by composition 1/9 (E8); experimental targeting only 1/9 (E7).",
+      "basis": "frequency"
+    },
+    {
+      "id": "marker_dotplot",
+      "priority": 4,
+      "type": "figure",
+      "kind": "Marker dot plot or marker heatmap per cluster/state",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 3
+      },
+      "placement": "main",
+      "frequency": "8/9 (dot plot 7/9; marker heatmap only 1/9)",
+      "detect": [
+        "dot ?plot",
+        "dot (size|colou?r)",
+        "marker genes?",
+        "canonical markers?",
+        "top \\d+ markers"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "composition_bar",
+      "priority": 5,
+      "type": "figure",
+      "kind": "Cell-type/state composition per sample, patient, subtype or condition (stacked bars, pies)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 2,
+        "max": 5
+      },
+      "placement": "main",
+      "frequency": "8/9",
+      "detect": [
+        "proportions?",
+        "composition",
+        "fraction of (cells|leu[ck]ocytes)",
+        "stacked bar",
+        "bar ?plot",
+        "abundance",
+        "pie chart"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "heatmap",
+      "priority": 6,
+      "type": "figure",
+      "kind": "Heatmap of programme, pathway, regulon or signature scores across states",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 2,
+        "max": 4
+      },
+      "placement": "main",
+      "frequency": "9/9",
+      "detect": [
+        "heat ?map"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "bulk_cohort_projection",
+      "priority": 7,
+      "type": "figure",
+      "kind": "Projection of single-cell states or signatures onto bulk cohorts (deconvolution, SCISSOR, signature scores in TCGA or trial cohorts)",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 3
+      },
+      "placement": "main",
+      "frequency": "7/9",
+      "detect": [
+        "TCGA",
+        "bulk RNA-?seq",
+        "deconvol\\w*",
+        "CIBERSORT\\w*|Bisque|BayesPrism|MuSiC|SCISSOR",
+        "signature score",
+        "independent (bulk )?(cohort|dataset)"
+      ],
+      "omerta_kind": null,
+      "notes": "New id (not in the shared vocabulary): the genre's standard bridge from atlas states to patients.",
+      "basis": "frequency"
+    },
+    {
+      "id": "validation_panel",
+      "priority": 8,
+      "type": "figure",
+      "kind": "Wet-lab validation (IHC, multiplex IF, flow cytometry, RNAscope, in vitro drug assays, PDX/in vivo)",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 2,
+        "max": 5
+      },
+      "placement": "main",
+      "frequency": "7/9 in main figures; 8/9 did wet-lab work",
+      "detect": [
+        "immunohisto\\w*|\\bIHC\\b",
+        "immunofluoresc\\w*",
+        "flow cytometr\\w*|\\bFACS\\b",
+        "RNAscope|smFISH",
+        "western|immunoblot",
+        "in vivo|xenograft|PDX",
+        "in vitro",
+        "organoid",
+        "viability"
+      ],
+      "omerta_kind": null,
+      "notes": "Amani cannot produce this; replace with orthogonal public-data validation and state the gap in Limitations.",
+      "basis": "frequency"
+    },
+    {
+      "id": "km_curve",
+      "priority": 9,
+      "type": "figure",
+      "kind": "Kaplan-Meier survival by state abundance or signature (patient cohorts 4/9; PDX mice 2/9)",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "5/9",
+      "detect": [
+        "Kaplan[- ]Mei?er",
+        "survival",
+        "log-rank",
+        "hazard ratio"
+      ],
+      "omerta_kind": null,
+      "notes": "Not in the paper writer's figure table; needs a KM renderer.",
+      "basis": "frequency"
+    },
+    {
+      "id": "cell_communication_plot",
+      "priority": 10,
+      "type": "figure",
+      "kind": "Cell-cell communication (ligand-receptor dot plots, circos, paracrine networks)",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "5/9",
+      "detect": [
+        "ligand",
+        "receptor",
+        "cell[- ]cell (communication|interaction)",
+        "CellPhoneDB|CellChat|NicheNet|LIANA",
+        "crosstalk|cross-talk",
+        "circos",
+        "paracrine"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "spatial_map",
+      "priority": 11,
+      "type": "figure",
+      "kind": "Spatial transcriptomics map of states (Visium/cell2location, CosMx)",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 3
+      },
+      "placement": "main",
+      "frequency": "5/9",
+      "detect": [
+        "spatial",
+        "Visium",
+        "cell2location",
+        "CosMx|Xenium|MERFISH|GeoMx|CODEX"
+      ],
+      "omerta_kind": null,
+      "notes": "New id (not in the shared vocabulary).",
+      "basis": "frequency"
+    },
+    {
+      "id": "trajectory_plot",
+      "priority": 12,
+      "type": "figure",
+      "kind": "Trajectory, pseudotime or RNA-velocity plot",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "3/9",
+      "detect": [
+        "trajector\\w*",
+        "pseudotime",
+        "RNA velocity|scVelo",
+        "diffusion map",
+        "Monocle|Slingshot|CellRank|Palantir|PAGA"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "cnv_heatmap",
+      "priority": 13,
+      "type": "figure",
+      "kind": "Inferred copy-number heatmap separating malignant from normal cells",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main-or-supplement",
+      "frequency": "CNV inference used in 4/9; shown in main figures 1/9 (E7)",
+      "detect": [
+        "copy[- ]number",
+        "inferCNV|CopyKAT|Numbat|SCEVAN",
+        "\\bCNVs?\\b",
+        "aneuploid"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "benchmark_comparison",
+      "priority": 14,
+      "type": "figure",
+      "kind": "Predictor performance vs a comparator (ROC/AUC vs PD-L1; precision-recall of drug-response prediction)",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "2/9 (E3, E5)",
+      "detect": [
+        "benchmark",
+        "compar(ed|ison) (with|to|against)",
+        "\\bAUC\\b|\\bROC\\b|AUROC",
+        "precision|recall|accuracy",
+        "state-of-the-art"
+      ],
+      "omerta_kind": "ROC with CI band",
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "top_hits_table",
+      "priority": 15,
+      "type": "table",
+      "kind": "Marker-gene or signature gene-list table",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 3
+      },
+      "placement": "main-or-supplement",
+      "frequency": "main 1/9 (E5, 3 tables); as supplementary lists 9/9",
+      "detect": [
+        "marker genes",
+        "differentially expressed genes",
+        "gene (list|signature)s?",
+        "top \\d+ genes"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "dataset_table",
+      "priority": 16,
+      "type": "table",
+      "kind": "Integrated datasets / samples / patients (source study, platform, accession, n cells, clinical variables)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 3
+      },
+      "placement": "supplement",
+      "frequency": "9/9 in supplement; main 0/9 (E4 has a main clinical table of the bulk validation cohorts)",
+      "detect": [
+        "datasets?",
+        "study characteristics",
+        "sample (information|metadata)",
+        "patient (characteristics|information|metadata)",
+        "donor (information|metadata)",
+        "cohort"
+      ],
+      "omerta_kind": "Data sources table (section 5 tables)",
+      "notes": "Amani's 'Data sources, used and excluded' table fills this slot.",
+      "basis": "frequency"
+    },
+    {
+      "id": "highlights_box",
+      "priority": 17,
+      "type": "box",
+      "kind": "Cell Press Highlights block",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "3/9 (Cell Press only)",
+      "detect": [
+        "highlights"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency",
+      "venue_governed": true
+    }
+  ],
+  "display_items_main_total": {
+    "min": 3,
+    "typical": 6,
+    "max": 9
+  },
+  "required_statements": [
+    {
+      "id": "data_availability",
+      "label": "Data availability with accessions for new data",
+      "level": "required",
+      "placement": [
+        "data_availability",
+        "methods",
+        "back_matter"
+      ],
+      "frequency": "9/9",
+      "detect": [
+        "data (and code )?availability",
+        "availability of data",
+        "resource availability",
+        "GSE\\d{4,}",
+        "E-MTAB-\\d+",
+        "EGA[SD]\\d+"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "reused_dataset_accessions",
+      "label": "Accession or source for every reused public dataset (KRT, data statement or dataset table)",
+      "level": "required",
+      "placement": [
+        "data_availability",
+        "methods",
+        "supplement"
+      ],
+      "frequency": "8/9 (E2 reused no external single-cell data)",
+      "detect": [
+        "GSE\\d{4,}",
+        "E-MTAB-\\d+",
+        "EGA[SD]\\d+",
+        "PRJNA\\d+",
+        "syn\\d{5,}",
+        "phs\\d+",
+        "TCGA",
+        "CELLxGENE|cellxgene"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "atlas_object_deposit",
+      "label": "Processed atlas object or interactive portal deposited (Zenodo, figshare, CELLxGENE, web portal, OSF)",
+      "level": "required",
+      "placement": [
+        "data_availability"
+      ],
+      "frequency": "9/9 (integrated object or portal 7/9)",
+      "detect": [
+        "zenodo",
+        "figshare",
+        "cellxgene|CELLxGENE",
+        "portal",
+        "osf\\.io",
+        "Seurat object|h5ad|AnnData"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "code_availability",
+      "label": "Code availability (GitHub or OSF, ideally with a Zenodo DOI)",
+      "level": "required",
+      "placement": [
+        "code_availability",
+        "data_availability",
+        "back_matter"
+      ],
+      "frequency": "9/9 (GitHub 8/9, OSF 1/9; Zenodo code DOI 3/9)",
+      "detect": [
+        "code availability",
+        "github\\.com",
+        "osf\\.io",
+        "10\\.5281/zenodo"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "ethics",
+      "label": "Ethics approval and informed consent for new human material",
+      "level": "typical",
+      "placement": [
+        "methods",
+        "ethics",
+        "back_matter"
+      ],
+      "frequency": "6/9 (6/6 with new human samples)",
+      "detect": [
+        "ethic(s|al) (committee|approval|board)",
+        "institutional review board|\\bIRB\\b",
+        "informed consent"
+      ],
+      "notes": "Conditional. Public-data-only exemplars state nothing; Amani's fixed line ('Only openly available, de-identified data were analysed...') goes beyond the genre norm and is fine.",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "label": "Funding statement",
+      "level": "required",
+      "placement": [
+        "funding",
+        "acknowledgements",
+        "back_matter"
+      ],
+      "frequency": "9/9",
+      "detect": [
+        "fund(ed|ing)",
+        "grant",
+        "supported by"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "label": "Competing interests / declaration of interests",
+      "level": "required",
+      "placement": [
+        "competing_interests",
+        "back_matter"
+      ],
+      "frequency": "9/9",
+      "detect": [
+        "competing interests?",
+        "declaration of interests",
+        "conflicts? of interest"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "author_contributions",
+      "label": "Author contributions",
+      "level": "required",
+      "placement": [
+        "contributions",
+        "back_matter"
+      ],
+      "frequency": "9/9",
+      "detect": [
+        "author(s'|s’)? contributions?",
+        "CRediT",
+        "conceptuali[sz]ation"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "lead_contact_materials",
+      "label": "Lead contact and materials availability (Cell Press Resource availability)",
+      "level": "optional",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "3/9 (Cell Press only)",
+      "detect": [
+        "lead contact",
+        "materials availability"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "reporting_summary",
+      "label": "Nature Portfolio Reporting Summary",
+      "level": "optional",
+      "placement": [
+        "supplement",
+        "back_matter"
+      ],
+      "frequency": "3/9 (Nature-family 3/4)",
+      "detect": [
+        "reporting summary"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "animal_ethics",
+      "label": "Animal-work approval (PDX, murine assays)",
+      "level": "optional",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "2/9",
+      "detect": [
+        "animal (care|experiments?|protocols?)",
+        "IACUC",
+        "mice",
+        "xenograft"
+      ],
+      "notes": "Not applicable to Amani.",
+      "basis": "frequency"
+    }
+  ],
+  "checklists": [
+    {
+      "name": "Journal data-deposition (FAIR) policy: raw reads in GEO/ArrayExpress/EGA, processed object in Zenodo/figshare/CELLxGENE/portal, code in GitHub/OSF",
+      "level": "required",
+      "citation": "publisher policies (Cell Press, Nature Portfolio, BMC, eLife)",
+      "doi": null,
+      "where": "data and code availability statements",
+      "frequency": "9/9",
+      "notes": "Not a checklist document; the de facto standard every exemplar meets.",
+      "basis": "both",
+      "kind": "venue_policy"
+    },
+    {
+      "name": "Cell Press STAR Methods (Key Resources Table, Resource availability, Experimental model, Method details, Quantification and statistical analysis)",
+      "level": "optional",
+      "citation": "Cell Press STAR Methods author guidelines",
+      "doi": null,
+      "where": "methods",
+      "frequency": "3/9 (all Cell Press exemplars)",
+      "notes": "House format, mandatory at Cell Press.",
+      "basis": "frequency",
+      "kind": "venue_form"
+    },
+    {
+      "name": "Nature Portfolio Reporting Summary",
+      "level": "optional",
+      "citation": "Nature Portfolio reporting standards",
+      "doi": null,
+      "where": "supplement (separate PDF)",
+      "frequency": "3/9 (E2, E7, E9; absent from E3, Nat Commun 2022)",
+      "notes": "Nature Portfolio's version of MDAR.",
+      "basis": "frequency",
+      "kind": "venue_form"
+    },
+    {
+      "name": "MDAR (Materials Design Analysis Reporting) checklist",
+      "level": "optional",
+      "citation": "Macleod M, Collings AM, Graf C, et al. The MDAR (Materials Design Analysis Reporting) Framework for transparent reporting in the life sciences. Proc Natl Acad Sci U S A. 2021;118(17):e2103238118.",
+      "doi": "10.1073/pnas.2103238118",
+      "where": "supplement",
+      "frequency": "1/9 (E8, eLife)",
+      "notes": "Below the 2-exemplar threshold; recorded because it is the cross-publisher framework the Reporting Summary and STAR Methods implement. Citation verified in Europe PMC (PMC8092464).",
+      "basis": "frequency",
+      "kind": "venue_form"
+    },
+    {
+      "name": "minSCe (minimum information about a single-cell experiment)",
+      "level": "optional",
+      "citation": "Füllgrabe A, George N, Green M, et al. Guidelines for reporting single-cell RNA-seq experiments. Nat Biotechnol. 2020;38(12):1384-1386.",
+      "doi": "10.1038/s41587-020-00744-z",
+      "where": "not used by exemplars",
+      "frequency": "0/9",
+      "notes": "Paper verified in Europe PMC (PMID 33188371); 'minSCe' name corroborated by 13 Europe PMC records citing it. No exemplar cites it; Amani may cite it voluntarily. No EQUATOR guideline exists for this design.",
+      "basis": "frequency",
+      "kind": "reporting_guideline"
+    }
+  ],
+  "supplement": [
+    {
+      "id": "supplementary_figures",
+      "item": "Supplementary or Extended Data figures: QC, per-dataset/batch embeddings, extra marker and state plots",
+      "level": "required",
+      "frequency": "9/9",
+      "detect": [
+        "supplementary fig\\w*",
+        "extended data",
+        "figure S\\d+",
+        "figure supplement",
+        "Document S1"
+      ],
+      "notes": "Nature family: 8-12 Extended Data figures; eLife: figure supplements; Genome Biology E4: 35 supplementary figures.",
+      "basis": "frequency"
+    },
+    {
+      "id": "dataset_sample_table",
+      "item": "Table of integrated datasets, samples, donors or patients (source, platform, accession, n cells, clinical variables)",
+      "level": "required",
+      "frequency": "9/9",
+      "detect": [
+        "datasets?",
+        "study characteristics",
+        "sample (information|metadata)",
+        "patient (characteristics|information|metadata)",
+        "donor",
+        "cohort",
+        "cell lines"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "marker_deg_tables",
+      "item": "Marker genes, DEG lists and gene signatures per cluster or state",
+      "level": "required",
+      "frequency": "8/9 (E9 content not verified)",
+      "detect": [
+        "marker genes?",
+        "differentially expressed",
+        "\\bDEGs?\\b",
+        "gene signatures?",
+        "gene lists?"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "reagent_tables",
+      "item": "Antibody, primer or reagent lists",
+      "level": "optional",
+      "frequency": "4/9",
+      "detect": [
+        "antibod\\w+",
+        "primers?",
+        "reagents?",
+        "\\bADTs?\\b"
+      ],
+      "notes": "Wet-lab papers only.",
+      "basis": "frequency"
+    },
+    {
+      "id": "drug_prediction_tables",
+      "item": "Drug-target lists, drug-sensitivity predictions or drug-screen data",
+      "level": "optional",
+      "frequency": "3/9 (E2, E3, E6)",
+      "detect": [
+        "drug",
+        "ChEMBL",
+        "GDSC|CTRP|PRISM",
+        "sensitivit\\w+",
+        "screen"
+      ],
+      "notes": "Amani should always ship this table when it makes a drug claim.",
+      "basis": "frequency"
+    },
+    {
+      "id": "source_data",
+      "item": "Source data for plotted values",
+      "level": "optional",
+      "frequency": "3/9 (Nature family)",
+      "detect": [
+        "source data"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "peer_review_file",
+      "item": "Peer review file / review history",
+      "level": "optional",
+      "frequency": "4/9 (Nat Commun 2/2, Genome Biology, eLife)",
+      "detect": [
+        "peer review",
+        "review history",
+        "eLife assessment",
+        "author response"
+      ],
+      "notes": "Produced by the journal.",
+      "basis": "frequency"
+    },
+    {
+      "id": "reporting_summary",
+      "item": "Nature Portfolio Reporting Summary",
+      "level": "optional",
+      "frequency": "3/9",
+      "detect": [
+        "reporting summary"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    }
+  ],
+  "references": {
+    "min": 61,
+    "typical": 93,
+    "max": 133
+  },
+  "limitations": {
+    "placement": "No fixed home. Explicit limitations text in 3/9: a 'Limitations of the study' subsection closing the Discussion (1/9, Cell Reports Medicine) or an unheaded Discussion paragraph opening 'Our study has (several) limitations' (2/9). 5/9 scatter caveat sentences through the Discussion, often in the last paragraph; 1/9 (Nature) states none.",
+    "words": {
+      "min": 100,
+      "typical": 200,
+      "max": 200
+    },
+    "conventions": [
+      "When present, one paragraph of 115-210 words inside or closing the Discussion, items introduced as 'First, ... Second, ...'.",
+      "Cell Press papers should carry a 'Limitations of the study' heading (1 of 3 Cell Press exemplars does).",
+      "Closes by pointing to the needed validation (prospective cohorts, functional experiments).",
+      "Nature-family papers rarely have a limitations paragraph (0/4 explicit)."
+    ],
+    "standard_items": [
+      {
+        "id": "needs_functional_or_prospective_validation",
+        "text": "State-response links are computational or associational; functional experiments or prospective cohorts are needed before any clinical use.",
+        "level": "required",
+        "frequency": "8/9 (regex screen)",
+        "basis": "frequency"
+      },
+      {
+        "id": "scrna_technical_limits",
+        "text": "Technical limits of the assay: dropout, under-capture of low-mRNA cells (e.g. neutrophils), nuclear vs whole-cell RNA, fusion transcripts not detectable.",
+        "level": "optional",
+        "frequency": "4/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "sampling_heterogeneity",
+        "text": "Single-region or single-time-point sampling and few samples per patient cannot capture intratumour heterogeneity.",
+        "level": "optional",
+        "frequency": "3/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "sparse_public_metadata",
+        "text": "Clinical, genotype or treatment metadata in public datasets are sparse or inconsistent, limiting subgroup analyses.",
+        "level": "optional",
+        "frequency": "2/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "association_not_causation",
+        "text": "Association of a state with response does not show that the state causes it; co-varying cell types (e.g. fibroblasts) may drive it.",
+        "level": "optional",
+        "frequency": "2/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "small_or_imperfect_response_cohorts",
+        "text": "Therapy-response or outcome cohorts are small, retrospective or use an imperfect comparator (e.g. PD-L1 by transcript).",
+        "level": "optional",
+        "frequency": "2/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "model_to_patient_transfer",
+        "text": "Drug-response knowledge from cell lines or pharmacogenomic screens may not transfer to patient tumours.",
+        "level": "optional",
+        "frequency": "2/9",
+        "basis": "frequency"
+      }
+    ]
+  },
+  "variation_notes": "House style drives most structural variation. Cell Press (E1, E5, E6): 'Summary' abstract of about 150 words plus Highlights, In brief and graphical abstract; STAR Methods with Key Resources Table and Resource availability (data and code statements live there); 'Limitations of the study' expected but present in 1/3. Nature family (E2, E3, E7, E9): unheaded lead paragraphs in Nature and Nature Cancer, Results without a heading in Nature, Methods after Discussion, separate Data availability and Code availability, Reporting Summary (3/4), Extended Data figures (8-12) and source data. Genome Biology (E4): structured abstract, 'Background', a separate Conclusions section, Methods last, Declarations block, review history. eLife (E8): Materials and methods last, figure supplements, MDAR checklist, eLife assessment and public reviews appended. Design variation: 7/9 add new single-cell data and 8/9 run some wet-lab work; only E5 and E9 rest on public single-cell data alone (E9 entirely computational). The drug link ranges from drug-target scoring per state (drug2cell, DREEP, ex vivo LC50; 3/9) to immunotherapy-response association through bulk signatures (3/9) to clinical TKI response (1/9) and experimental targeting (1/9); E4 links states only to prognosis.",
+  "lint_notes": [
+    "Canonical order is Methods-last (introduction, results, discussion, methods; 9/9). Do not fail a Methods-last draft for missing IMRaD order.",
+    "Results must be split into 5-11 headed subsections; the first should present the atlas with numbers (cells, samples or patients, datasets, platforms).",
+    "Every reused dataset needs an accession or source (GSE, E-MTAB, EGA, PRJNA, Synapse, TCGA, CELLxGENE) in the data statement, Key Resources Table or dataset table; the integrated object must have a named deposit (Zenodo, figshare, CELLxGENE or a portal).",
+    "Code availability needs a repository URL (GitHub or OSF); recommend a Zenodo DOI (3/9 do).",
+    "UMAP captions should state what colour encodes (cell type, state, dataset) and the number of cells; at least one embedding must be in the main text.",
+    "A drug-sensitivity figure must name the drug resource (ChEMBL, GDSC, CTRP, PRISM, CMap or an ex vivo screen) and the scoring method in its caption or in Methods; a drug claim without one fails.",
+    "Comparisons across conditions should be patient-level or pseudobulk (7/9); flag per-cell p-values used for between-patient claims.",
+    "Multiple-testing correction is stated in 9/9; require it whenever DE or association tests are reported.",
+    "When malignant and non-malignant cells are separated, require a CNV-inference method (inferCNV, CopyKAT, Numbat, SCEVAN; 4/9).",
+    "Integration-quality metrics (LISI, kBET, scIB) appear in 0/9 exemplars. Recommend them but do not fail drafts that lack them.",
+    "Ethics statement is conditional: required with new human material (6/6), absent in public-data papers (0/3). Amani's fixed public-data line is acceptable.",
+    "A KM plot must report n per group and a log-rank p or hazard ratio; the paper writer's figure table has no KM kind, so add one.",
+    "Venue add-ons: Cell Press needs Highlights, In brief, graphical abstract, STAR Methods with Key Resources Table and 'Limitations of the study'; Nature family needs separate Data and Code availability and a Reporting Summary.",
+    "No exemplar has a cell-filtering flow diagram; Amani's data-flow diagram (raw cells, then QC-filtered cells, then annotated cells per dataset) goes beyond the genre and fits the supplement or Figure 1."
+  ],
+  "notes": [
+    "Share with new wet-lab data or experimental validation: 7/9 generated new single-cell data (all but E5 and E9); 8/9 report some wet-lab work (E5 only NK-92 coculture assays in Methods); 7/9 show wet-lab panels in main figures; 1/9 (E9) is entirely computational on public data. Amani's public-data-only papers will sit at the computational end of the genre, so the missing experimental arm must be stated as a limitation.",
+    "New display-item ids not in the shared vocabulary: bulk_cohort_projection, spatial_map.",
+    "E6 was measured from the PMC author manuscript (NIHMS1978911); the published version may differ slightly in word counts.",
+    "Nature-family 'web summary' and the eLife assessment are journal-written and are not author sections.",
+    "E4 (Genome Biology) links states to prognosis and immunotherapy resistance only in the text; it was kept as the BMC/OA computational-venue exemplar with that caveat.",
+    "Body-text mentions of 'pancreatic' (E1, E6, E9) are dataset lists or an adverse-event term; title, abstract and keywords of all 9 exemplars are clean (contamination_title_abstract empty).",
+    "PMC pages were blocked by a reCAPTCHA after one request; supplement contents for E2, E3, E7, E9 come from the publisher pages, for E1, E5, E8 from PMC XML captions, for E4 from one PMC page, and for E6 from in-text references to Tables S1-S10 (descriptions inferred).",
+    "Figure-kind tallies come from keyword screens of full captions plus spot reading. Composite multi-panel figures were scored per panel kind, so one figure can count for several kinds.",
+    "Limitation-theme frequencies come from a regex screen of Discussion text plus reading the three explicit limitations paragraphs. They are approximate.",
+    "Amani-relevant limitations no exemplar names explicitly (fewer than 2): batch or over-correction artefacts from integrating many datasets (only hinted in E1), and bulk-deconvolution confounding by stromal content (1/9, E4). Amani's writer should still include them when they apply."
+  ]
+}

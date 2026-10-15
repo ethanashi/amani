@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-kaplan-meier" width="360pt" height="297pt" viewBox="0 0 360 297" role="img" aria-labelledby="ombffaliidfjbak-title ombffaliidfjbak-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombffaliidfjbak-title">Kaplan–Meier survival</title>
+ <desc id="ombffaliidfjbak-desc">Kaplan–Meier survival. Step curves show survival; bands show confidence intervals; ticks show censoring. Risk counts are shown below. 95% CI; log-log Greenwood</desc>
+ <rect class="background" x="0" y="0" width="360" height="297" fill="#FFFFFF"/>
+ <polygon class="band sa" points="95,15 217.5,15 217.5,23 340,23 340,31 340,63 340,47 217.5,47 217.5,15 95,15" fill="#0072B2" fill-opacity="0.15" stroke="none"/>
+ <polyline class="mark series-line sa" points="95,15 217.5,15 217.5,31 340,31 340,44.09" fill="none" stroke="#0072B2" stroke-width="1" stroke-linejoin="round" data-fact="mark-0"/>
+ <line class="censor" x1="217.5" y1="28" x2="217.5" y2="34" stroke="#0072B2" stroke-width="1"/>
+ <g class="legend-entry">
+  <line class="legend-key" x1="95" y1="271.5" x2="109" y2="271.5" stroke="#0072B2" stroke-width="1.2"/>
+  <text class="legend-label" x="113" y="274" font-size="7" text-anchor="start" fill="#222222">Cohort (n = 100)</text>
+ </g>
+ <g class="risk-table">
+  <text x="8" y="220" font-size="7" text-anchor="start" fill="#222222">Number at risk</text>
+  <text x="95" y="233" font-size="7" text-anchor="middle" fill="#222222">0</text>
+  <text x="217.5" y="233" font-size="7" text-anchor="middle" fill="#222222">1</text>
+  <text x="340" y="233" font-size="7" text-anchor="middle" fill="#222222">2</text>
+  <text x="95" y="247" font-size="7" text-anchor="middle" fill="#222222">100</text>
+  <text x="217.5" y="247" font-size="7" text-anchor="middle" fill="#222222">100</text>
+  <text x="340" y="247" font-size="7" text-anchor="middle" fill="#222222">88</text>
+  <text x="8" y="247" font-size="7" text-anchor="start" fill="#222222">Cohort</text>
+ </g>
+ <g class="axis axis-x scale-linear">
+  <line class="domain" x1="95" y1="175" x2="340" y2="175" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="95" y1="175" x2="95" y2="178" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="95" y="186" font-size="7" text-anchor="middle" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="156.25" y1="175" x2="156.25" y2="178" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="156.25" y="186" font-size="7" text-anchor="middle" fill="#222222">0.5</text>
+  </g>
+  <g class="tick">
+   <line x1="217.5" y1="175" x2="217.5" y2="178" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="217.5" y="186" font-size="7" text-anchor="middle" fill="#222222">1</text>
+  </g>
+  <g class="tick">
+   <line x1="278.75" y1="175" x2="278.75" y2="178" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="278.75" y="186" font-size="7" text-anchor="middle" fill="#222222">1.5</text>
+  </g>
+  <g class="tick">
+   <line x1="340" y1="175" x2="340" y2="178" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="340" y="186" font-size="7" text-anchor="middle" fill="#222222">2</text>
+  </g>
+  <text class="axis-title" x="217.5" y="198" font-size="8" text-anchor="middle" fill="#222222">Time (months)</text>
+ </g>
+ <g class="axis axis-y scale-linear">
+  <line class="domain" x1="95" y1="175" x2="95" y2="15" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="92" y1="175" x2="95" y2="175" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="90" y="177.5" font-size="7" text-anchor="end" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="92" y1="143" x2="95" y2="143" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="90" y="145.5" font-size="7" text-anchor="end" fill="#222222">0.2</text>
+  </g>
+  <g class="tick">
+   <line x1="92" y1="111" x2="95" y2="111" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="90" y="113.5" font-size="7" text-anchor="end" fill="#222222">0.4</text>
+  </g>
+  <g class="tick">
+   <line x1="92" y1="79" x2="95" y2="79" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="90" y="81.5" font-size="7" text-anchor="end" fill="#222222">0.6</text>
+  </g>
+  <g class="tick">
+   <line x1="92" y1="47" x2="95" y2="47" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="90" y="49.5" font-size="7" text-anchor="end" fill="#222222">0.8</text>
+  </g>
+  <g class="tick">
+   <line x1="92" y1="15" x2="95" y2="15" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="90" y="17.5" font-size="7" text-anchor="end" fill="#222222">1</text>
+  </g>
+  <text class="axis-title" x="65" y="95" font-size="8" text-anchor="middle" fill="#222222" transform="rotate(-90 65 95)">Survival probability</text>
+ </g>
+ <metadata>{"certificateHashes":["727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30"],"csvSha256":"d017435c81870745d3a5e76117f6355c081230f23be36341062286e1827c272d","factIds":["c2","km.censored","km.events","km.lower","km.n","km.risk","km.survival","km.time","km.upper"],"figureId":"survival","generatorVersion":"omb-figures@2","specSha256":"02a7990de011a89978cec7bf24e046c199eb515b3cb1d99c4ff2e5dcff9b5e10","templateId":"kaplan-meier@omb-figures-templates@1"}</metadata>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "TRIPOD-LLM": "checklists/TRIPOD-LLM.json",
+  "REFORMS": "checklists/REFORMS.json",
+  "DOME": "checklists/DOME.json",
+  "Agentic Benchmark Checklist (ABC)": "checklists/Agentic-Benchmark-Checklist--ABC-.json",
+  "STROBE-MR": "checklists/STROBE-MR.json",
+  "minSCe (minimum information about a single-cell experiment)": "checklists/minSCe--minimum-information-about-a-single-cell-experiment-.json",
+  "PRISMA 2020": "checklists/PRISMA-2020.json",
+  "PRISMA 2020 for Abstracts": "checklists/PRISMA-2020-for-Abstracts.json",
+  "PRISMA harms extension": "checklists/PRISMA-harms-extension.json",
+  "PRISMA-NMA": "checklists/PRISMA-NMA.json",
+  "ReSEEM (Reporting of Surrogate Endpoint Evaluation using Meta-analyses)": "checklists/ReSEEM--Reporting-of-Surrogate-Endpoint-Evaluation-using-Meta-analyses-.json",
+  "PRISMA-IPD": "checklists/PRISMA-IPD.json",
+  "CONSORT-Surrogate / SPIRIT-Surrogate": "checklists/CONSORT-Surrogate---SPIRIT-Surrogate.json"
+}

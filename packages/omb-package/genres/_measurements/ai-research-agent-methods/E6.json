@@ -1,0 +1,240 @@
+{
+ "pmcid": "PMC13017497",
+ "doi": "10.1038/s41586-026-10265-5",
+ "pmid": "41882133",
+ "journal": "Nature",
+ "year": 2026,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Article"
+ ],
+ "title_words": 6,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 251
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 29
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Main",
+   "canonical": "other",
+   "words": 456,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Generating manuscripts",
+   "canonical": "other",
+   "words": 400,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Automated evaluation of generated papers",
+   "canonical": "other",
+   "words": 462,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Human evaluation results",
+   "canonical": "other",
+   "words": 482,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Limitations",
+   "canonical": "limitations",
+   "words": 646
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 2712,
+   "sub": [
+    {
+     "heading": "The AI Scientist",
+     "canonical": "other",
+     "words": 2191,
+     "sub": [
+      {
+       "heading": "Foundational technologies",
+       "canonical": "other",
+       "words": 2112
+      }
+     ]
+    },
+    {
+     "heading": "The Automated Reviewer",
+     "canonical": "other",
+     "words": 392,
+     "sub": [
+      {
+       "heading": "Review process",
+       "canonical": "other",
+       "words": 120
+      },
+      {
+       "heading": "Validation",
+       "canonical": "other",
+       "words": 180
+      }
+     ]
+    },
+    {
+     "heading": "Ethics approval",
+     "canonical": "ethics",
+     "words": 89
+    }
+   ]
+  },
+  {
+   "heading": "Online content",
+   "canonical": "other",
+   "words": 36,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 58
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 0
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 0
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 1836,
+  "limitations": 646,
+  "methods": 2712,
+  "supplementary": 0
+ },
+ "main_text_words": 5194,
+ "main_text_words_excluding_methods": 2482,
+ "limitations": {
+  "placement": "top-level section",
+  "words": 646
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 2,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 64,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

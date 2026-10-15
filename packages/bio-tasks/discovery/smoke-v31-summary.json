@@ -1,0 +1,95 @@
+{
+  "certified": false,
+  "scope": "v3.1 adaptation: full KA0 Tier A smoke; twins are not independent",
+  "cohorts": [
+    {
+      "cohort": 1,
+      "report": "smoke-v31-cohort-1.json",
+      "runtimeSeconds": 640.045,
+      "groups": {
+        "PL1/ld-mid": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 9997,
+          "n": 10000,
+          "aucUpper": 0.5243252179287311,
+          "worstLeaveOneKeyOutUpper": 0.5295332067529616
+        },
+        "PL1/ld-high": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 7675,
+          "n": 10000,
+          "aucUpper": 0.5290550534032123,
+          "worstLeaveOneKeyOutUpper": 0.5385816298702332
+        },
+        "PL4/forward": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "aucUpper": 0.5134990291562695,
+          "worstLeaveOneKeyOutUpper": 0.5212784978053441
+        },
+        "PL4/reversed": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "aucUpper": 0.5145831299810377,
+          "worstLeaveOneKeyOutUpper": 0.5219531903973678
+        }
+      },
+      "sourceReceiptValidated": true,
+      "stagedCards": 20,
+      "validStagedPL4": 8,
+      "refusedStagedPL4": [
+        "4/PL4/forward",
+        "4/PL4/reversed"
+      ]
+    },
+    {
+      "cohort": 2,
+      "report": "smoke-v31-cohort-2.json",
+      "runtimeSeconds": 641.948,
+      "groups": {
+        "PL1/ld-mid": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 9998,
+          "n": 10000,
+          "aucUpper": 0.5235912448621212,
+          "worstLeaveOneKeyOutUpper": 0.5288190076417411
+        },
+        "PL1/ld-high": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 7615,
+          "n": 10000,
+          "aucUpper": 0.5167168457526318,
+          "worstLeaveOneKeyOutUpper": 0.5202656423864772
+        },
+        "PL4/forward": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "aucUpper": 0.5045083422492637,
+          "worstLeaveOneKeyOutUpper": 0.5076377681077583
+        },
+        "PL4/reversed": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "aucUpper": 0.5045083422492637,
+          "worstLeaveOneKeyOutUpper": 0.5076377681077583
+        }
+      },
+      "sourceReceiptValidated": true,
+      "stagedCards": 20,
+      "validStagedPL4": 10,
+      "refusedStagedPL4": []
+    }
+  ]
+}

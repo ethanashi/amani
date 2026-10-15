@@ -1,0 +1,167 @@
+{
+  "schema": "amani-showcase-drafting-accounting/1",
+  "liveCodexCalls": 8,
+  "claudeCalls": 0,
+  "calls": [
+    {
+      "case": "c1",
+      "phase": "archived-blind-manuscript",
+      "model": {
+        "family": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "promptHash": "7f4237346c195b5ce9fd8e1df0235f0062b88e66a7f886c9566fad6051fe8ec3",
+      "outputHash": "a485bcec1c0fac39d64c52f0f0deba24c9140a304182666130e2e5057438d867",
+      "observedModels": [
+        "gpt-6-astra"
+      ],
+      "usage": {
+        "inputTokens": 165624,
+        "cachedInputTokens": 115712,
+        "outputTokens": 4978,
+        "totalTokens": 170602
+      }
+    },
+    {
+      "case": "c1",
+      "phase": "archived-blind-manuscript",
+      "model": {
+        "family": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "promptHash": "7f4237346c195b5ce9fd8e1df0235f0062b88e66a7f886c9566fad6051fe8ec3",
+      "outputHash": "04d6add983833ecaf2aa00ba1ca0a7f5d008239381e411677480b535047ccac4",
+      "observedModels": [
+        "gpt-6-astra"
+      ],
+      "usage": {
+        "inputTokens": 164153,
+        "cachedInputTokens": 136576,
+        "outputTokens": 4638,
+        "totalTokens": 168791
+      }
+    },
+    {
+      "case": "c2",
+      "phase": "archived-blind-manuscript",
+      "model": {
+        "family": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "promptHash": "3f2de944e2e20fa0988175344d9240bd6239a7fc8544cf06a6697c91c6e07243",
+      "outputHash": "862d73fa75383dbf52bdd15e49a6089f0705fbd3d03b263924f3b61e954684df",
+      "observedModels": [
+        "gpt-6-astra"
+      ],
+      "usage": {
+        "inputTokens": 154038,
+        "cachedInputTokens": 128256,
+        "outputTokens": 4905,
+        "totalTokens": 158943
+      }
+    },
+    {
+      "case": "c3",
+      "phase": "archived-blind-manuscript",
+      "model": {
+        "family": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "promptHash": "f6e4651dd61f35d1d5554d377f9f7d05290e24e2236b35544a0fea28a299fb57",
+      "outputHash": "3e3efaf0f4dec3e5ad079aec1fc738ec8e3fc2834fc8a702253f56a1d77c1345",
+      "observedModels": [
+        "gpt-6-astra"
+      ],
+      "usage": {
+        "inputTokens": 103742,
+        "cachedInputTokens": 91776,
+        "outputTokens": 3036,
+        "totalTokens": 106778
+      }
+    },
+    {
+      "case": "c3",
+      "phase": "archived-blind-manuscript",
+      "model": {
+        "family": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "promptHash": "e0434ba80ba18395517de8ae4f04aaa53ad909f03d61e789b2749d57b48c0486",
+      "outputHash": "74687da5e4af3b0cd7954b5fb7b2133d2ddc92e006efa093ff010682110728f2",
+      "observedModels": [
+        "gpt-6-astra"
+      ],
+      "usage": {
+        "inputTokens": 154355,
+        "cachedInputTokens": 128768,
+        "outputTokens": 4654,
+        "totalTokens": 159009
+      }
+    },
+    {
+      "case": "c4",
+      "phase": "archived-blind-manuscript",
+      "model": {
+        "family": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "promptHash": "3c8b8931cfaeb6b1b1a460743039ddbd1b1d5c6572e5121eb452169f3756f0c5",
+      "outputHash": "54f348a23bccfadec6395e3ccb8a6bc0f81055313f7fd95263d9bd720b9df44f",
+      "observedModels": [
+        "gpt-6-astra"
+      ],
+      "usage": {
+        "inputTokens": 103609,
+        "cachedInputTokens": 84096,
+        "outputTokens": 2789,
+        "totalTokens": 106398
+      }
+    },
+    {
+      "case": "c4",
+      "phase": "archived-blind-manuscript",
+      "model": {
+        "family": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "promptHash": "2480cc8f521f7d83d2817100d029334b9a066fbb271f27cd4422b533b6cbb033",
+      "outputHash": "182248a638ed2aae16344a3733c973f2d3f36a485ac5b452e5be75333db3c897",
+      "observedModels": [
+        "gpt-6-astra"
+      ],
+      "usage": {
+        "inputTokens": 115100,
+        "cachedInputTokens": 97792,
+        "outputTokens": 2966,
+        "totalTokens": 118066
+      }
+    },
+    {
+      "case": "c5",
+      "phase": "archived-blind-manuscript",
+      "model": {
+        "family": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "promptHash": "67b9ca942654d3acc2d96e7d1c5e7d87290b8d5e52ba5e7f66bc812b379bbec3",
+      "outputHash": "20f635a35cbbf68dacc0de66119d27aa425587f66b70d201924e3c2bac0d40d7",
+      "observedModels": [
+        "gpt-6-astra"
+      ],
+      "usage": {
+        "inputTokens": 94885,
+        "cachedInputTokens": 77440,
+        "outputTokens": 2600,
+        "totalTokens": 97485
+      }
+    }
+  ]
+}

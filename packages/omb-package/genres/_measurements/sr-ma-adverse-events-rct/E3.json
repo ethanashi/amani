@@ -1,0 +1,354 @@
+{
+ "pmcid": "PMC12402974",
+ "doi": "10.1136/bmj-2024-082834",
+ "pmid": "40897431",
+ "journal": "The BMJ",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 23,
+ "licence": "CC BY-NC 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Objective",
+    "Design",
+    "Data sources",
+    "Study selection",
+    "Data extraction and synthesis",
+    "Results",
+    "Conclusions",
+    "Systematic review registration"
+   ],
+   "words": 355
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 464
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 1879,
+   "sub": [
+    {
+     "heading": "Protocol registration",
+     "canonical": "other",
+     "words": 65
+    },
+    {
+     "heading": "Search strategy",
+     "canonical": "other",
+     "words": 147
+    },
+    {
+     "heading": "Eligibility criteria",
+     "canonical": "other",
+     "words": 212
+    },
+    {
+     "heading": "Study selection",
+     "canonical": "other",
+     "words": 38
+    },
+    {
+     "heading": "Data extraction and risk of bias assessment",
+     "canonical": "other",
+     "words": 132
+    },
+    {
+     "heading": "Certainty of evidence assessment",
+     "canonical": "other",
+     "words": 48
+    },
+    {
+     "heading": "Intervention definition",
+     "canonical": "other",
+     "words": 115
+    },
+    {
+     "heading": "Measures of effect",
+     "canonical": "other",
+     "words": 195
+    },
+    {
+     "heading": "Data synthesis and statistical analysis",
+     "canonical": "other",
+     "words": 391
+    },
+    {
+     "heading": "Sensitivity analyses",
+     "canonical": "other",
+     "words": 230
+    },
+    {
+     "heading": "Meta-regression and subgroup analyses",
+     "canonical": "other",
+     "words": 279
+    },
+    {
+     "heading": "Patient and public involvement",
+     "canonical": "transparency",
+     "words": 27
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1758,
+   "sub": [
+    {
+     "heading": "Systematic review and study characteristics",
+     "canonical": "other",
+     "words": 310
+    },
+    {
+     "heading": "Risk of bias and certainty of evidence",
+     "canonical": "other",
+     "words": 156
+    },
+    {
+     "heading": "Network meta-analysis of cardiac and vascular adverse events",
+     "canonical": "other",
+     "words": 199
+    },
+    {
+     "heading": "Primary outcomes",
+     "canonical": "other",
+     "words": 341
+    },
+    {
+     "heading": "Secondary outcomes",
+     "canonical": "other",
+     "words": 245
+    },
+    {
+     "heading": "Pairwise meta-analysis results",
+     "canonical": "other",
+     "words": 219
+    },
+    {
+     "heading": "Sensitivity analysis and network meta-regression results",
+     "canonical": "other",
+     "words": 288
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1120,
+   "sub": [
+    {
+     "heading": "Comparison with other studies",
+     "canonical": "other",
+     "words": 259
+    },
+    {
+     "heading": "Clinical implications",
+     "canonical": "other",
+     "words": 402
+    },
+    {
+     "heading": "Strengths and limitations of this study",
+     "canonical": "limitations",
+     "words": 193
+    },
+    {
+     "heading": "Conclusions",
+     "canonical": "conclusions",
+     "words": 83
+    }
+   ]
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 68
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 5,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Ethics statements",
+   "canonical": "ethics",
+   "words": 2,
+   "sub": [
+    {
+     "heading": "Ethical approval",
+     "canonical": "ethics",
+     "words": 2
+    }
+   ]
+  },
+  {
+   "heading": "Data availability statement",
+   "canonical": "data_availability",
+   "words": 13
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 13,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 13
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 464,
+  "methods": 1879,
+  "results": 1758,
+  "discussion": 1120,
+  "acknowledgements": 68,
+  "other_back": 5,
+  "ethics": 2,
+  "data_availability": 13,
+  "references": 0,
+  "supplementary": 13
+ },
+ "main_text_words": 5221,
+ "main_text_words_excluding_methods": 3342,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 193
+ },
+ "figures_main": 7,
+ "figures": [
+  {
+   "label": "",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig 1",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Fig 2",
+   "kind_guess": [
+    "network_geometry"
+   ]
+  },
+  {
+   "label": "Fig 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig 5",
+   "kind_guess": [
+    "forest"
+   ]
+  },
+  {
+   "label": "Fig 6",
+   "kind_guess": [
+    "heatmap"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 1,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": ""
+  }
+ ],
+ "references": 81,
+ "flags": {
+  "prospero": true,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": true,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": true,
+  "i2": true,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": true,
+  "patient_public_involvement": true,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

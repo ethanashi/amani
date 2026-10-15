@@ -1,0 +1,62 @@
+[
+  {
+    "id": "R21-intro-exploratory",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R21-implicit",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R26-direction",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R11-unbound-summary",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-unknown-English",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-temporal-exception",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-English-acronym",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-URL-normalized",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-procedure-regions",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-literature-region",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-literature-form",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-numeric-string",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-background-derived",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-intro-procedures",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  },
+  {
+    "id": "R2-background-procedures",
+    "reason": "Source policy replaced in round 3; see narrative/procedure/normalization guards in the current catalog."
+  }
+]

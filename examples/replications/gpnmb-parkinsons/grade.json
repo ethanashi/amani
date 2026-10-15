@@ -1,0 +1,71 @@
+{
+  "case": "c1",
+  "passed": 14,
+  "total": 16,
+  "criteria": [
+    {
+      "name": "direction",
+      "passed": true
+    },
+    {
+      "name": "c1-wald",
+      "passed": true
+    },
+    {
+      "name": "c2-wald",
+      "passed": true
+    },
+    {
+      "name": "c1-ci-lower",
+      "passed": true
+    },
+    {
+      "name": "c1-ci-upper",
+      "passed": true
+    },
+    {
+      "name": "c2-ci-lower",
+      "passed": true
+    },
+    {
+      "name": "c2-ci-upper",
+      "passed": true
+    },
+    {
+      "name": "replication",
+      "passed": true
+    },
+    {
+      "name": "reference-outcome",
+      "passed": true
+    },
+    {
+      "name": "significant-count",
+      "passed": true
+    },
+    {
+      "name": "strongest-variant",
+      "passed": true
+    },
+    {
+      "name": "strongest-outcome",
+      "passed": true
+    },
+    {
+      "name": "architecture",
+      "passed": true
+    },
+    {
+      "name": "c1-coloc",
+      "passed": false
+    },
+    {
+      "name": "c1-pph4",
+      "passed": false
+    },
+    {
+      "name": "c2-pph4",
+      "passed": true
+    }
+  ]
+}

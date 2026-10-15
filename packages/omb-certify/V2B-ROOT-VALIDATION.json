@@ -1,0 +1,41 @@
+{
+  "isolation": "test-owned private BIO_GRADING_ROOT lease fixtures, no opt-in live arms",
+  "runs": [
+    {
+      "command": "pnpm typecheck",
+      "code": 0,
+      "elapsedSeconds": 2.281623833,
+      "sha256": "29c5ee0f6b0b20dbb259b99d01276198c3d28190090706394608d4deda6d2c0b",
+      "summary": []
+    },
+    {
+      "command": "pnpm test --maxWorkers=4",
+      "code": 0,
+      "elapsedSeconds": 123.930537333,
+      "sha256": "2fa4db890ceae13d80da1715112e42902b8c76bf88b42eba2451c2827aacb4ba",
+      "summary": [
+        " Test Files  168 passed | 4 skipped (172)",
+        "      Tests  2833 passed | 6 skipped (2839)",
+        "   Duration  123.47s (transform 1.70s, setup 0ms, collect 16.95s, tests 445.32s, environment 37ms, prepare 8.80s)"
+      ]
+    },
+    {
+      "command": "pnpm typecheck",
+      "code": 0,
+      "elapsedSeconds": 2.5383020419999958,
+      "sha256": "29c5ee0f6b0b20dbb259b99d01276198c3d28190090706394608d4deda6d2c0b",
+      "summary": []
+    },
+    {
+      "command": "pnpm test --maxWorkers=4",
+      "code": 0,
+      "elapsedSeconds": 84.965226417,
+      "sha256": "1197d9ef4351017112e8be2f5c8aee07f859e4cc52e404366bfde1ae069d13cb",
+      "summary": [
+        " Test Files  168 passed | 4 skipped (172)",
+        "      Tests  2833 passed | 6 skipped (2839)",
+        "   Duration  84.52s (transform 1.61s, setup 0ms, collect 12.13s, tests 300.13s, environment 17ms, prepare 6.60s)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Isolated reproduction environment; does not change bio-baseline's default environment.
+[workspace]
+name = "ka1-minikel"
+channels = ["conda-forge"]
+platforms = ["osx-64"]
+
+[dependencies]
+r-base = "4.2.*"
+r-tidyverse = "1.3.*"
+r-janitor = "2.1.*"
+r-binom = "1.1.*"
+r-glue = "1.6.*"
+r-epitools = "0.5.*"
+r-desctools = "0.99.*"
+r-openxlsx = "4.2.*"
+r-optparse = "1.7.*"
+r-mass = "7.3.*"
+
+r-weights = "*"
+r-kendall = "*"
+r-rdpack = "*"
+
+[activation.env]
+OPENBLAS_NUM_THREADS = "1"
+OMP_NUM_THREADS = "1"
+VECLIB_MAXIMUM_THREADS = "1"

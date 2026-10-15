@@ -1,0 +1,18 @@
+{
+  "id": "p4-bixbench",
+  "family": "reproduction",
+  "datasetManifestHash": "51d22603b608dcd870c02de4772aa1837018b253192a3ab26201334d9bceb048",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p4-bixbench/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.0005,
+    "relative": 0
+  },
+  "plantedFlaws": [],
+  "negativeControl": false,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 5404,
+  "capMinutes": 10,
+  "contaminated": true
+}

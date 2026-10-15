@@ -1,0 +1,566 @@
+{
+  "mutations": [
+    {
+      "name": "K0-1 adapter: supervisor exits outside {0,80,90,124} not treated as infrastructure",
+      "file": "packages/omb-adapters/src/codex.ts",
+      "tests": [
+        "packages/omb-adapters/test/k0-census.test.ts"
+      ],
+      "killed": true,
+      "ms": 2546,
+      "assertions": [
+        "K0-1 supervisor exits 18/3/7 are infrastructure failures and 90 is a survivor, never ok/reaped"
+      ]
+    },
+    {
+      "name": "K0-1 adapter: clean follow-up census upgrades containment to reaped",
+      "file": "packages/omb-adapters/src/codex.ts",
+      "tests": [
+        "packages/omb-adapters/test/k0-census.test.ts"
+      ],
+      "killed": true,
+      "ms": 2564,
+      "assertions": [
+        "K0-1 supervisor exits 18/3/7 are infrastructure failures and 90 is a survivor, never ok/reaped"
+      ]
+    },
+    {
+      "name": "K0-1 executor: only exit 18 is infrastructure",
+      "file": "packages/omb-certify/src/execution.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-census.test.ts"
+      ],
+      "killed": true,
+      "ms": 2464,
+      "assertions": [
+        "K0-1 executor: survivor -> failed, census exhaustion or listing failure -> not-run infrastructure retry"
+      ]
+    },
+    {
+      "name": "K0-2 supervisor: census failure drops an observed survivor",
+      "file": "packages/omb-certify/src/native/reap-sandbox.c",
+      "tests": [
+        "packages/omb-certify/test/k0-census.test.ts"
+      ],
+      "killed": true,
+      "ms": 2474,
+      "assertions": [
+        "K0-2 reap(): a stopped and killed survivor is reported even when the census budget is exhausted",
+        "K0-2 supervisor main(): exit codes and receipts keep survivors and census status apart",
+        "K0-1 executor: survivor -> failed, census exhaustion or listing failure -> not-run infrastructure retry"
+      ]
+    },
+    {
+      "name": "K0-2 supervisor: stopped match left unkilled when the budget expires",
+      "file": "packages/omb-certify/src/native/reap-sandbox.c",
+      "tests": [
+        "packages/omb-certify/test/k0-census.test.ts"
+      ],
+      "killed": true,
+      "ms": 2231,
+      "assertions": [
+        "K0-2 reap(): a stopped and killed survivor is reported even when the census budget is exhausted"
+      ]
+    },
+    {
+      "name": "K0-2 supervisor: unkillable match reported as killed (90)",
+      "file": "packages/omb-certify/src/native/reap-sandbox.c",
+      "tests": [
+        "packages/omb-certify/test/k0-census.test.ts"
+      ],
+      "killed": true,
+      "ms": 2215,
+      "assertions": [
+        "K0-2 supervisor main(): exit codes and receipts keep survivors and census status apart",
+        "K0-1 executor: survivor -> failed, census exhaustion or listing failure -> not-run infrastructure retry"
+      ]
+    },
+    {
+      "name": "K0-3 reaper: in-process build reused without source/flag binding",
+      "file": "packages/omb-certify/src/reaper.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-census.test.ts"
+      ],
+      "killed": true,
+      "ms": 2168,
+      "assertions": [
+        "K0-3 a long-lived host re-binds the cached supervisor to the current source and compiler flags"
+      ]
+    },
+    {
+      "name": "K0-4 certify: results.json read as strict JSON again",
+      "file": "packages/omb-certify/src/certify.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1476,
+      "assertions": [
+        "K0-4 fabricated results.json via trailing comma fails G3 (no vacuous pass)",
+        "K0-4 fabricated results.json via BOM fails G3 (no vacuous pass)",
+        "K0-4 fabricated results.json via bare NaN token fails G3 (no vacuous pass)",
+        "K0-4 fabricated results.json via unparseable fails G3 (no vacuous pass)",
+        "K0-4 double-space ids fold like plan ids; honest BOM/aliases are read, compared and pass"
+      ]
+    },
+    {
+      "name": "K0-4 gauntlet: zero-width characters not folded",
+      "file": "packages/omb-gauntlet/src/json.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0-g3.test.ts",
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1286,
+      "assertions": [
+        "K0-4 one parser, one alias table, one key folding foldKey removes zero-width/format characters and collapses spaces",
+        "K0-4 one parser, one alias table, one key folding results.json duplicate id after folding (case, zero width, spaces) is invalid and fails closed",
+        "K0-4 certifyWorkdir: G3 never passes vacuously honest numbers, also with BOM or trailing comma or aliases, pass with a true count",
+        "K0-4 fabricated results.json via zero-width id variant fails G3 (no vacuous pass)"
+      ]
+    },
+    {
+      "name": "K0-4 gauntlet: unbindable results.json claims skipped",
+      "file": "packages/omb-gauntlet/src/primary.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 728,
+      "assertions": [
+        "K0-4 one parser, one alias table, one key folding results.json claim without id is invalid and fails closed",
+        "K0-4 one parser, one alias table, one key folding results.json claim that is not an object is invalid and fails closed"
+      ]
+    },
+    {
+      "name": "K0-4 gauntlet: duplicate claim id tolerated",
+      "file": "packages/omb-gauntlet/src/primary.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0-g3.test.ts",
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1543,
+      "assertions": [
+        "K0-4 fabricated results.json via duplicate claim id, second fabricated fails G3 (no vacuous pass)",
+        "K0-4 one parser, one alias table, one key folding results.json duplicate id is invalid and fails closed",
+        "K0-4 one parser, one alias table, one key folding results.json duplicate id after folding (case, zero width, spaces) is invalid and fails closed"
+      ]
+    },
+    {
+      "name": "K0-4 gauntlet: zero compared numbers pass G3",
+      "file": "packages/omb-gauntlet/src/gates-pure.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0-g3.test.ts",
+        "packages/omb-gauntlet/test/gates.test.ts"
+      ],
+      "killed": true,
+      "ms": 1008,
+      "assertions": [
+        "G3 recompute: exact apart from display rounding, software-owned tolerance missing software numbers fail; no software execution is not-run; nothing compared never passes (K0-4)",
+        "K0-4 certifyWorkdir: G3 never passes vacuously a planned claim with no reported numbers does not pass G3 (zero compared)"
+      ]
+    },
+    {
+      "name": "K0-4 gauntlet: unkeyed block bound in a multi-claim plan",
+      "file": "packages/omb-gauntlet/src/certify.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 765,
+      "assertions": [
+        "K0-4 certifyWorkdir: G3 never passes vacuously an unkeyed block with honest numbers cannot be bound in a two-claim plan: G3 fails closed for every claim"
+      ]
+    },
+    {
+      "name": "K0-4 certify: unkeyed block bound without a single locked claim",
+      "file": "packages/omb-certify/src/producers.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1294,
+      "assertions": [
+        "K0-4 an unkeyed results.json block binds only to a single-claim plan; otherwise it fails closed"
+      ]
+    },
+    {
+      "name": "K0-4 certify: numbers for unplanned claims ignored",
+      "file": "packages/omb-certify/src/producers.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1280,
+      "assertions": [
+        "K0-4 numbers for a claim outside the locked plan fail their own G3 and never count for the planned claim"
+      ]
+    },
+    {
+      "name": "K0-5 certify: numbers without a software computation silently skipped (neither compared nor listed)",
+      "file": "packages/omb-certify/src/certify.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1219,
+      "assertions": [
+        "K0-5 deterministic fact: fabricated p/SE/CI are stripped and listed (never compared or verified); a wrong estimate or n still fails; the honest fact confirms"
+      ]
+    },
+    {
+      "name": "K0-5 certify: G3 compared count not counted",
+      "file": "packages/omb-certify/src/certify.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1168,
+      "assertions": [
+        "K0 honest controls still pass G3/G4 with a true compared count: full precision, 3 significant digits, exponent strings",
+        "K0-6 control: pMethod glm on an odds-ratio claim passes; welch on an odds-ratio or log-odds-ratio claim is refused",
+        "K0-4 double-space ids fold like plan ids; honest BOM/aliases are read, compared and pass",
+        "K0-4 numbers for a claim outside the locked plan fail their own G3 and never count for the planned claim",
+        "K0-5 deterministic fact: fabricated p/SE/CI are stripped and listed (never compared or verified); a wrong estimate or n still fails; the honest fact confirms"
+      ]
+    },
+    {
+      "name": "K0-6 integrity: p method accepted for a different estimand",
+      "file": "packages/omb-certify/src/integrity.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1239,
+      "assertions": [
+        "K0-6 control: pMethod glm on an odds-ratio claim passes; welch on an odds-ratio or log-odds-ratio claim is refused"
+      ]
+    },
+    {
+      "name": "K0-6 integrity: p method aliases looked up on a plain object (prototype keys)",
+      "file": "packages/omb-certify/src/integrity.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1262,
+      "assertions": [
+        "K0-6 prototype key pMethod \"constructor\" is refused, not treated as Student",
+        "K0-6 prototype key pMethod \"__proto__\" is refused, not treated as Student",
+        "K0-6 prototype key pMethod \"CONSTRUCTOR\" is refused, not treated as Student"
+      ]
+    },
+    {
+      "name": "K0-7 producers: absolute floor in plantedEffect restored",
+      "file": "packages/omb-certify/src/producers.ts",
+      "tests": [
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1289,
+      "assertions": [
+        "K0-7 plantedEffect uses the relative rule: a worker returning 0 on planted nM-scale runs cannot earn G5b-recovery"
+      ]
+    },
+    {
+      "name": "K0b-1 executor: exit 90 marks cleanup complete without a completed census",
+      "file": "packages/omb-certify/src/execution.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-census.test.ts"
+      ],
+      "killed": true,
+      "ms": 1441,
+      "assertions": [
+        "K0b-1 exit 90 with an incomplete census (18): the follow-up census runs during cleanup and kills live survivor B; the execution stays failed"
+      ]
+    },
+    {
+      "name": "K0b-2 parser: mixed claims container read as one unkeyed block",
+      "file": "packages/omb-gauntlet/src/primary.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0b-parser.test.ts",
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1440,
+      "assertions": [
+        "K0b-2 mixed claims containers are rejected, never read as one block results.json: the review repro: a count beside a nested fabricated claim is invalid",
+        "K0b-2 mixed claims containers are rejected, never read as one block results.json: an estimate beside a nested claim is invalid",
+        "K0b-2 mixed claims containers are rejected, never read as one block results.json: entry fields beside a nested claim under another container name is invalid",
+        "K0b-2 mixed claims containers are rejected, never read as one block results.json: a nested claim block with no recognised statistics (results.json: every block is a claim) is invalid",
+        "K0b-2 mixed claims containers are rejected, never read as one block results.json: a nested claim whose id collides with an estimate alias (\"effect\") is invalid",
+        "K0b-2 mixed claims containers are rejected, never read as one block primary.json: a mixed container is an error too (the nested block is never dropped silently)",
+        "K0b-2 mixed claims containers are rejected, never read as one block certifyWorkdir: the review repro fails G3 closed (was passed on n=10)",
+        "K0b-2 review repro with claim c1: a count beside a nested fabricated claim fails G3/G4 closed (base signed G3 passed on n=10)",
+        "K0b-2 a count beside a nested fabricated claim whose id collides with an alias (\"effect\") fails G3/G4 closed with honest look/rerun numbers"
+      ]
+    },
+    {
+      "name": "K0b-2 parser: results.json top-level entry fields beside claim blocks ignored",
+      "file": "packages/omb-gauntlet/src/primary.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0b-parser.test.ts"
+      ],
+      "killed": true,
+      "ms": 751,
+      "assertions": [
+        "K0b-2 mixed claims containers are rejected, never read as one block results.json without a container: top-level entry fields beside claim blocks are invalid"
+      ]
+    },
+    {
+      "name": "K0b-2 parser: a nested block under an alias-colliding id (\"effect\") read as an entry field",
+      "file": "packages/omb-gauntlet/src/primary.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0b-parser.test.ts",
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1109,
+      "assertions": [
+        "K0b-2 a count beside a nested fabricated claim whose id collides with an alias (\"effect\") fails G3/G4 closed with honest look/rerun numbers",
+        "K0b-2 mixed claims containers are rejected, never read as one block results.json: a nested claim whose id collides with an estimate alias (\"effect\") is invalid"
+      ]
+    },
+    {
+      "name": "K0b-3 parser: lower/upper beside a ci field ignored (conflicts hidden)",
+      "file": "packages/omb-gauntlet/src/primary.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0b-parser.test.ts",
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1112,
+      "assertions": [
+        "K0b-3 a ci array beside conflicting lower/upper (review repro) fails G3/G4 closed with honest look/rerun numbers",
+        "K0b-3 a lone bound beside the ci array fails G3/G4 closed with honest look/rerun numbers",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: the review repro: ci array beside conflicting lower/upper is invalid",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: ci string beside conflicting bounds is invalid",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: ci object beside conflicting bounds is invalid",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: a lone lower bound beside a ci array is invalid",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: a lone upper bound beside a ci array is invalid",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: a malformed bound beside a ci array is invalid",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: a malformed ci beside readable bounds is invalid",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: a three-element ci beside bounds is invalid",
+        "K0b-3 every CI representation is normalised; conflicts are rejected primary.json: conflicting CI representations are an error",
+        "K0b-3 every CI representation is normalised; conflicts are rejected certifyWorkdir: the review repro fails G3 closed (was passed on ci [0,2])"
+      ]
+    },
+    {
+      "name": "K0b-3 parser: a lone bound beside a ci field accepted",
+      "file": "packages/omb-gauntlet/src/primary.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0b-parser.test.ts",
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1117,
+      "assertions": [
+        "K0b-3 a lone bound beside the ci array fails G3/G4 closed with honest look/rerun numbers",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: a lone lower bound beside a ci array is invalid",
+        "K0b-3 every CI representation is normalised; conflicts are rejected results.json: a lone upper bound beside a ci array is invalid"
+      ]
+    },
+    {
+      "name": "K0b-4 certify: refused results.json read as absent",
+      "file": "packages/omb-certify/src/certify.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1061,
+      "assertions": [
+        "K0b-4 results.json that is oversized (5,000,001 bytes, fabricated estimate) is refused, not absent: G3/G4 fail closed on honest look/rerun numbers",
+        "K0b-4 results.json that is a directory is refused, not absent: G3/G4 fail closed on honest look/rerun numbers",
+        "K0b-4 results.json that is a symlink to an honest file is refused, not absent: G3/G4 fail closed on honest look/rerun numbers",
+        "K0b-4 results.json that is a FIFO is refused, not absent: G3/G4 fail closed on honest look/rerun numbers",
+        "K0b-4 results.json that is unreadable (mode 000) is refused, not absent: G3/G4 fail closed on honest look/rerun numbers"
+      ]
+    },
+    {
+      "name": "K0b-4 gauntlet: refused results.json read as absent (certifyWorkdir)",
+      "file": "packages/omb-gauntlet/src/certify.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0b-parser.test.ts"
+      ],
+      "killed": true,
+      "ms": 733,
+      "assertions": [
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is oversized fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is a directory fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is a symlink to an honest file fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is a FIFO (never blocks) fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is unreadable (mode 000) fails G3 as reported-unreadable (was nothing-compared)"
+      ]
+    },
+    {
+      "name": "K0b-4 gauntlet: parseReported treats a refusal as absent",
+      "file": "packages/omb-gauntlet/src/primary.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0b-parser.test.ts",
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1185,
+      "assertions": [
+        "K0b-4 a refused results.json is invalid, never absent parseReported: a refusal is invalid with the reason; null stays absent",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is oversized fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is a directory fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is a symlink to an honest file fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is a FIFO (never blocks) fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is unreadable (mode 000) fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 results.json that is oversized (5,000,001 bytes, fabricated estimate) is refused, not absent: G3/G4 fail closed on honest look/rerun numbers",
+        "K0b-4 results.json that is a directory is refused, not absent: G3/G4 fail closed on honest look/rerun numbers",
+        "K0b-4 results.json that is a symlink to an honest file is refused, not absent: G3/G4 fail closed on honest look/rerun numbers",
+        "K0b-4 results.json that is a FIFO is refused, not absent: G3/G4 fail closed on honest look/rerun numbers",
+        "K0b-4 results.json that is unreadable (mode 000) is refused, not absent: G3/G4 fail closed on honest look/rerun numbers"
+      ]
+    },
+    {
+      "name": "K0b-4 reader: a final symlink is followed",
+      "file": "packages/omb-gauntlet/src/certify.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0b-parser.test.ts",
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1135,
+      "assertions": [
+        "K0b-4 results.json that is a symlink to an honest file is refused, not absent: G3/G4 fail closed on honest look/rerun numbers",
+        "K0b-4 a refused results.json is invalid, never absent readCappedFile: a symlink to an honest file is refused with its kind",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is a symlink to an honest file fails G3 as reported-unreadable (was nothing-compared)"
+      ]
+    },
+    {
+      "name": "K0b-4 reader: size cap not enforced",
+      "file": "packages/omb-gauntlet/src/certify.ts",
+      "tests": [
+        "packages/omb-gauntlet/test/k0b-parser.test.ts",
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1112,
+      "assertions": [
+        "K0b-4 a refused results.json is invalid, never absent readCappedFile: oversized is refused with its kind",
+        "K0b-4 a refused results.json is invalid, never absent certifyWorkdir: results.json that is oversized fails G3 as reported-unreadable (was nothing-compared)",
+        "K0b-4 results.json that is oversized (5,000,001 bytes, fabricated estimate) is refused, not absent: G3/G4 fail closed on honest look/rerun numbers"
+      ]
+    },
+    {
+      "name": "K0b-5 certify: uncomputed numbers fail G3 again (pre-amendment 13)",
+      "file": "packages/omb-certify/src/certify.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1039,
+      "assertions": [
+        "K0b-5 amendment 13: an honest deterministic fact with uncomputed se=0 and ci=[1,1] passes G3/G4 and confirms; the companions are listed as unverified (review repro)",
+        "K0b-5 fabricated companions in every surface are stripped and never appear in a verified output or certificate field",
+        "K0b-5 G3 still fails on a real disagreement, a parse failure, or an ID collision",
+        "K0b-5 checkNumbers: uncomputed numbers are unverified (not compared, not disagreements); malformed numbers and zero compared still fail"
+      ]
+    },
+    {
+      "name": "K0b-5 certify: uncomputed numbers counted as compared",
+      "file": "packages/omb-certify/src/certify.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-g3.test.ts",
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1317,
+      "assertions": [
+        "K0-5 deterministic fact: fabricated p/SE/CI are stripped and listed (never compared or verified); a wrong estimate or n still fails; the honest fact confirms",
+        "K0b-5 amendment 13: an honest deterministic fact with uncomputed se=0 and ci=[1,1] passes G3/G4 and confirms; the companions are listed as unverified (review repro)",
+        "K0b-5 fabricated companions in every surface are stripped and never appear in a verified output or certificate field",
+        "K0b-5 checkNumbers: uncomputed numbers are unverified (not compared, not disagreements); malformed numbers and zero compared still fail"
+      ]
+    },
+    {
+      "name": "K0b-5 certify: a malformed number without a counterpart stripped instead of failing",
+      "file": "packages/omb-certify/src/certify.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1147,
+      "assertions": [
+        "K0b-5 G3 still fails on a real disagreement, a parse failure, or an ID collision",
+        "K0b-5 checkNumbers: uncomputed numbers are unverified (not compared, not disagreements); malformed numbers and zero compared still fail"
+      ]
+    },
+    {
+      "name": "K0b-5 certify: unverified numbers not reported (no warning, no report field)",
+      "file": "packages/omb-certify/src/certify.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1116,
+      "assertions": [
+        "K0b-5 amendment 13: an honest deterministic fact with uncomputed se=0 and ci=[1,1] passes G3/G4 and confirms; the companions are listed as unverified (review repro)"
+      ]
+    },
+    {
+      "name": "K0b-5 certify: fact metrics take the worker's companions (unverified numbers leak)",
+      "file": "packages/omb-certify/src/certify.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-g3.test.ts",
+        "packages/omb-certify/test/k0-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1259,
+      "assertions": [
+        "K0-5 deterministic fact: fabricated p/SE/CI are stripped and listed (never compared or verified); a wrong estimate or n still fails; the honest fact confirms",
+        "K0b-5 fabricated companions in every surface are stripped and never appear in a verified output or certificate field"
+      ]
+    },
+    {
+      "name": "K0b-5 integrity: B7 flags an SE without a trusted counterpart",
+      "file": "packages/omb-certify/src/integrity.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1208,
+      "assertions": [
+        "K0b-5 workerNumbers: a companion with no trusted counterpart is not a B7 disagreement; a computed one still is"
+      ]
+    },
+    {
+      "name": "K0b-5 integrity: B7 flags a CI without a trusted counterpart",
+      "file": "packages/omb-certify/src/integrity.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1159,
+      "assertions": [
+        "K0b-5 workerNumbers: a companion with no trusted counterpart is not a B7 disagreement; a computed one still is"
+      ]
+    },
+    {
+      "name": "K0b-5 integrity: B7 flags a p without a trusted counterpart",
+      "file": "packages/omb-certify/src/integrity.ts",
+      "tests": [
+        "packages/omb-certify/test/k0b-g3.test.ts"
+      ],
+      "killed": true,
+      "ms": 1262,
+      "assertions": [
+        "K0b-5 workerNumbers: a companion with no trusted counterpart is not a B7 disagreement; a computed one still is"
+      ]
+    }
+  ],
+  "killed": 39,
+  "total": 39,
+  "k0": {
+    "killed": 20,
+    "total": 20
+  },
+  "k0b": {
+    "killed": 19,
+    "total": 19
+  }
+}

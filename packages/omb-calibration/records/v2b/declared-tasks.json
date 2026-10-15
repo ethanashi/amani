@@ -1,0 +1,3165 @@
+{
+  "schema": "omb-calibration/records@1",
+  "gitHead": "a4bb721c7019df313ad2fd4f5a323eb6f1f2d240",
+  "startedAt": "2026-10-11T03:41:35.366Z",
+  "finishedAt": "2026-10-11T03:42:28.293Z",
+  "machine": {
+    "cpus": 10,
+    "loadBefore": [
+      9.71,
+      12.42,
+      13.01
+    ],
+    "loadAfter": [
+      9.07,
+      11.87,
+      12.77
+    ]
+  },
+  "wallMs": 52892,
+  "stages": [
+    {
+      "task": "p4-bixbench",
+      "ok": true,
+      "ms": 157,
+      "reason": ""
+    },
+    {
+      "task": "p6-subgroups",
+      "ok": true,
+      "ms": 186,
+      "reason": ""
+    },
+    {
+      "task": "p7-nosignal",
+      "ok": true,
+      "ms": 1099,
+      "reason": ""
+    },
+    {
+      "task": "p8-underpowered",
+      "ok": true,
+      "ms": 167,
+      "reason": ""
+    },
+    {
+      "task": "p9-leakage",
+      "ok": true,
+      "ms": 350,
+      "reason": ""
+    }
+  ],
+  "records": [
+    {
+      "task": "p4-bixbench",
+      "analysis": "reference",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1038.087625,
+        "dataSource": "raw"
+      },
+      "planStatus": "refused",
+      "planErrors": 1,
+      "locked": false,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "Swarm_1.csv": {
+            "mode": "analysis-table",
+            "idColumn": "DishNumber"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "Swarm_1.csv": true
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": null,
+          "planned": false,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "execution unavailable",
+        "metric key defaulted to the claim id",
+        "reproduction claims need the published target value",
+        "staging unavailable: ambiguous identity; staging declaration required"
+      ],
+      "timing": {
+        "certifyMs": 16,
+        "executionMs": [],
+        "workerMs": 1038
+      }
+    },
+    {
+      "task": "p4-bixbench",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1086.8349580000001,
+        "dataSource": "effective"
+      },
+      "planStatus": "refused",
+      "planErrors": 1,
+      "locked": false,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "Swarm_1.csv": {
+            "mode": "analysis-table",
+            "idColumn": "DishNumber"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "Swarm_1.csv": true
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": null,
+          "planned": false,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "execution unavailable",
+        "metric key defaulted to the claim id",
+        "reproduction claims need the published target value",
+        "staging unavailable: ambiguous identity; staging declaration required"
+      ],
+      "timing": {
+        "certifyMs": 9,
+        "executionMs": [],
+        "workerMs": 1087
+      }
+    },
+    {
+      "task": "p4-bixbench",
+      "analysis": "naive",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1092.4894999999997,
+        "dataSource": "raw"
+      },
+      "planStatus": "refused",
+      "planErrors": 1,
+      "locked": false,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "Swarm_1.csv": {
+            "mode": "analysis-table",
+            "idColumn": "DishNumber"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "Swarm_1.csv": true
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": null,
+          "planned": false,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "execution unavailable",
+        "metric key defaulted to the claim id",
+        "reproduction claims need the published target value",
+        "staging unavailable: ambiguous identity; staging declaration required"
+      ],
+      "timing": {
+        "certifyMs": 9,
+        "executionMs": [],
+        "workerMs": 1092
+      }
+    },
+    {
+      "task": "p4-bixbench",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1092.4671249999997,
+        "dataSource": "effective"
+      },
+      "planStatus": "refused",
+      "planErrors": 1,
+      "locked": false,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "Swarm_1.csv": {
+            "mode": "analysis-table",
+            "idColumn": "DishNumber"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "Swarm_1.csv": true
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": null,
+          "planned": false,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "execution unavailable",
+        "metric key defaulted to the claim id",
+        "reproduction claims need the published target value",
+        "staging unavailable: ambiguous identity; staging declaration required"
+      ],
+      "timing": {
+        "certifyMs": 9,
+        "executionMs": [],
+        "workerMs": 1092
+      }
+    },
+    {
+      "task": "p6-subgroups",
+      "analysis": "reference",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1120.25,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": false,
+      "stagingAvailable": true,
+      "declarations": {
+        "staging": {
+          "participants.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "participant_id"
+          },
+          "subgroups.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "factor"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "participants.tsv": true,
+          "subgroups.tsv": true
+        }
+      },
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary_efficacy",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "count-mismatch",
+              "reason": null,
+              "detail": [
+                "count-mismatch",
+                "claim-n-omits-units"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        },
+        {
+          "id": "subgroup_benefit",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "count-mismatch",
+              "reason": null,
+              "detail": [
+                "count-mismatch",
+                "claim-n-omits-units"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "no test named: the plan is under-specified for replication",
+        "null value defaulted to 0",
+        "primary_efficacy: MEI tightened by software policy to unavailable",
+        "primary_efficacy: locked row table required",
+        "subgroup_benefit: locked row table required"
+      ],
+      "timing": {
+        "certifyMs": 4007,
+        "executionMs": [
+          2024,
+          1906
+        ],
+        "workerMs": 1120
+      }
+    },
+    {
+      "task": "p6-subgroups",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1524.4765420000003,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "declarations": {
+        "staging": {
+          "participants.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "participant_id"
+          },
+          "subgroups.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "factor"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "participants.tsv": true,
+          "subgroups.tsv": true
+        }
+      },
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary_efficacy",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "count-mismatch",
+              "reason": null,
+              "detail": [
+                "count-mismatch",
+                "claim-n-omits-units"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "incomplete-family",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        },
+        {
+          "id": "subgroup_benefit",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "count-mismatch",
+              "reason": null,
+              "detail": [
+                "count-mismatch",
+                "claim-n-omits-units"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "alpha defaulted to the software value #",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "no test named: the plan is under-specified for replication",
+        "null value defaulted to 0",
+        "primary_efficacy: MEI tightened by software policy to unavailable",
+        "primary_efficacy: locked row table required",
+        "subgroup_benefit: locked row table required"
+      ],
+      "timing": {
+        "certifyMs": 3163,
+        "executionMs": [
+          1764,
+          1362
+        ],
+        "workerMs": 1524
+      }
+    },
+    {
+      "task": "p6-subgroups",
+      "analysis": "naive",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1149.237500000001,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": false,
+      "stagingAvailable": true,
+      "declarations": {
+        "staging": {
+          "participants.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "participant_id"
+          },
+          "subgroups.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "factor"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "participants.tsv": true,
+          "subgroups.tsv": true
+        }
+      },
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary_efficacy",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "count-mismatch",
+              "reason": null,
+              "detail": [
+                "count-mismatch",
+                "claim-n-omits-units"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        },
+        {
+          "id": "subgroup_benefit",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "count-mismatch",
+              "reason": null,
+              "detail": [
+                "count-mismatch",
+                "claim-n-omits-units"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "no test named: the plan is under-specified for replication",
+        "null value defaulted to 0",
+        "primary_efficacy: MEI tightened by software policy to unavailable",
+        "primary_efficacy: locked row table required",
+        "subgroup_benefit: locked row table required",
+        "typed-number"
+      ],
+      "timing": {
+        "certifyMs": 2759,
+        "executionMs": [
+          1492,
+          1236
+        ],
+        "workerMs": 1149
+      }
+    },
+    {
+      "task": "p6-subgroups",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1086.455833,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "declarations": {
+        "staging": {
+          "participants.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "participant_id"
+          },
+          "subgroups.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "factor"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "participants.tsv": true,
+          "subgroups.tsv": true
+        }
+      },
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary_efficacy",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "count-mismatch",
+              "reason": null,
+              "detail": [
+                "count-mismatch",
+                "claim-n-omits-units"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "incomplete-family",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        },
+        {
+          "id": "subgroup_benefit",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "count-mismatch",
+              "reason": null,
+              "detail": [
+                "count-mismatch",
+                "claim-n-omits-units"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "alpha defaulted to the software value #",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "no test named: the plan is under-specified for replication",
+        "null value defaulted to 0",
+        "primary_efficacy: MEI tightened by software policy to unavailable",
+        "primary_efficacy: locked row table required",
+        "subgroup_benefit: locked row table required",
+        "typed-number"
+      ],
+      "timing": {
+        "certifyMs": 2742,
+        "executionMs": [
+          1482,
+          1229
+        ],
+        "workerMs": 1086
+      }
+    },
+    {
+      "task": "p7-nosignal",
+      "analysis": "reference",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1133.109708,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": false,
+      "stagingAvailable": true,
+      "declarations": {
+        "staging": {
+          "genotypes.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "sample_id"
+          },
+          "samples.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "sample_id"
+          },
+          "variants.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "variant_id"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "genotypes.tsv": true,
+          "samples.tsv": true,
+          "variants.tsv": true
+        }
+      },
+      "executions": [
+        {
+          "status": "failed",
+          "reason": "analysis command failed (exit-code 80)"
+        },
+        {
+          "status": "failed",
+          "reason": "analysis command failed (exit-code 80)"
+        }
+      ],
+      "claims": [
+        {
+          "id": "gene_region",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "units-missing",
+              "reason": null,
+              "detail": [
+                "units-missing",
+                "n-units-missing",
+                "effective-inputs-unverified"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "missing-recomputed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        },
+        {
+          "id": "reported_variant",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "units-missing",
+              "reason": null,
+              "detail": [
+                "units-missing",
+                "n-units-missing",
+                "effective-inputs-unverified"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "missing-recomputed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "analysis command failed (exit-code 80)",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "gene_region: locked row table required",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "reported_variant: locked row table required"
+      ],
+      "timing": {
+        "certifyMs": 2754,
+        "executionMs": [
+          1474,
+          1224
+        ],
+        "workerMs": 1133
+      }
+    },
+    {
+      "task": "p7-nosignal",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "failed",
+        "exitCode": 1,
+        "ms": 1070.3205420000013,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "declarations": {
+        "staging": {
+          "genotypes.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "sample_id"
+          },
+          "samples.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "sample_id"
+          },
+          "variants.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "variant_id"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "genotypes.tsv": true,
+          "samples.tsv": true,
+          "variants.tsv": true
+        }
+      },
+      "executions": [
+        {
+          "status": "failed",
+          "reason": "analysis command failed (exit-code 80)"
+        },
+        {
+          "status": "failed",
+          "reason": "analysis command failed (exit-code 80)"
+        }
+      ],
+      "claims": [
+        {
+          "id": "gene_region",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "units-missing",
+              "reason": null,
+              "detail": [
+                "units-missing",
+                "n-units-missing",
+                "effective-inputs-unverified"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "missing-recomputed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        },
+        {
+          "id": "reported_variant",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "units-missing",
+              "reason": null,
+              "detail": [
+                "units-missing",
+                "n-units-missing",
+                "effective-inputs-unverified"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "missing-recomputed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "alpha defaulted to the software value #",
+        "analysis command failed (exit-code 80)",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "gene_region: locked row table required",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "reported_variant: locked row table required"
+      ],
+      "timing": {
+        "certifyMs": 2649,
+        "executionMs": [
+          1419,
+          1183
+        ],
+        "workerMs": 1070
+      }
+    },
+    {
+      "task": "p7-nosignal",
+      "analysis": "naive",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1077.983791999999,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": false,
+      "stagingAvailable": true,
+      "declarations": {
+        "staging": {
+          "genotypes.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "sample_id"
+          },
+          "samples.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "sample_id"
+          },
+          "variants.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "variant_id"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "genotypes.tsv": true,
+          "samples.tsv": true,
+          "variants.tsv": true
+        }
+      },
+      "executions": [
+        {
+          "status": "failed",
+          "reason": "analysis command failed (exit-code 80)"
+        },
+        {
+          "status": "failed",
+          "reason": "analysis command failed (exit-code 80)"
+        }
+      ],
+      "claims": [
+        {
+          "id": "gene_region",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "units-missing",
+              "reason": null,
+              "detail": [
+                "units-missing",
+                "n-units-missing",
+                "effective-inputs-unverified"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "missing-recomputed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        },
+        {
+          "id": "reported_variant",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "units-missing",
+              "reason": null,
+              "detail": [
+                "units-missing",
+                "n-units-missing",
+                "effective-inputs-unverified"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "missing-recomputed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "analysis command failed (exit-code 80)",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "gene_region: locked row table required",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "reported_variant: locked row table required",
+        "typed-number"
+      ],
+      "timing": {
+        "certifyMs": 2603,
+        "executionMs": [
+          1407,
+          1157
+        ],
+        "workerMs": 1078
+      }
+    },
+    {
+      "task": "p7-nosignal",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "failed",
+        "exitCode": 1,
+        "ms": 1087.2119579999999,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "declarations": {
+        "staging": {
+          "genotypes.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "sample_id"
+          },
+          "samples.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "sample_id"
+          },
+          "variants.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "variant_id"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "genotypes.tsv": true,
+          "samples.tsv": true,
+          "variants.tsv": true
+        }
+      },
+      "executions": [
+        {
+          "status": "failed",
+          "reason": "analysis command failed (exit-code 80)"
+        },
+        {
+          "status": "failed",
+          "reason": "analysis command failed (exit-code 80)"
+        }
+      ],
+      "claims": [
+        {
+          "id": "gene_region",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "units-missing",
+              "reason": null,
+              "detail": [
+                "units-missing",
+                "n-units-missing",
+                "effective-inputs-unverified"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "missing-recomputed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        },
+        {
+          "id": "reported_variant",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "units-missing",
+              "reason": null,
+              "detail": [
+                "units-missing",
+                "n-units-missing",
+                "effective-inputs-unverified"
+              ]
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "missing-recomputed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "alpha defaulted to the software value #",
+        "analysis command failed (exit-code 80)",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "gene_region: locked row table required",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "reported_variant: locked row table required",
+        "typed-number"
+      ],
+      "timing": {
+        "certifyMs": 2627,
+        "executionMs": [
+          1429,
+          1157
+        ],
+        "workerMs": 1087
+      }
+    },
+    {
+      "task": "p8-underpowered",
+      "analysis": "reference",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1081.2881249999991,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": false,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "donors.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "donor_id"
+          },
+          "wells.tsv": {
+            "mode": "repeated-measures",
+            "idColumn": "plate",
+            "unitColumn": "donor_id"
+          }
+        },
+        "notes": [
+          {
+            "file": "wells.tsv",
+            "reason": "declared idColumn plate does not identify rows uniquely (the dictionary names no single-column row key)"
+          }
+        ],
+        "idUnique": {
+          "donors.tsv": true,
+          "wells.tsv": false
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "maximal_respiration",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1a": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "execution unavailable",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "maximal_respiration: staged inputs or frozen code unavailable",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "null value defaulted to 0",
+        "staging unavailable: missing or repeated declared row identity"
+      ],
+      "timing": {
+        "certifyMs": 17,
+        "executionMs": [],
+        "workerMs": 1081
+      }
+    },
+    {
+      "task": "p8-underpowered",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1087.8337500000052,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "donors.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "donor_id"
+          },
+          "wells.tsv": {
+            "mode": "repeated-measures",
+            "idColumn": "plate",
+            "unitColumn": "donor_id"
+          }
+        },
+        "notes": [
+          {
+            "file": "wells.tsv",
+            "reason": "declared idColumn plate does not identify rows uniquely (the dictionary names no single-column row key)"
+          }
+        ],
+        "idUnique": {
+          "donors.tsv": true,
+          "wells.tsv": false
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "maximal_respiration",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1a": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "alpha defaulted to the software value #",
+        "execution unavailable",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "maximal_respiration: staged inputs or frozen code unavailable",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "null value defaulted to 0",
+        "staging unavailable: missing or repeated declared row identity"
+      ],
+      "timing": {
+        "certifyMs": 15,
+        "executionMs": [],
+        "workerMs": 1088
+      }
+    },
+    {
+      "task": "p8-underpowered",
+      "analysis": "naive",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1061.916959000002,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": false,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "donors.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "donor_id"
+          },
+          "wells.tsv": {
+            "mode": "repeated-measures",
+            "idColumn": "plate",
+            "unitColumn": "donor_id"
+          }
+        },
+        "notes": [
+          {
+            "file": "wells.tsv",
+            "reason": "declared idColumn plate does not identify rows uniquely (the dictionary names no single-column row key)"
+          }
+        ],
+        "idUnique": {
+          "donors.tsv": true,
+          "wells.tsv": false
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "maximal_respiration",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1a": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "execution unavailable",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "maximal_respiration: staged inputs or frozen code unavailable",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "null value defaulted to 0",
+        "staging unavailable: missing or repeated declared row identity"
+      ],
+      "timing": {
+        "certifyMs": 10,
+        "executionMs": [],
+        "workerMs": 1062
+      }
+    },
+    {
+      "task": "p8-underpowered",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1087.887208,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "donors.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "donor_id"
+          },
+          "wells.tsv": {
+            "mode": "repeated-measures",
+            "idColumn": "plate",
+            "unitColumn": "donor_id"
+          }
+        },
+        "notes": [
+          {
+            "file": "wells.tsv",
+            "reason": "declared idColumn plate does not identify rows uniquely (the dictionary names no single-column row key)"
+          }
+        ],
+        "idUnique": {
+          "donors.tsv": true,
+          "wells.tsv": false
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "maximal_respiration",
+          "kind": "effect-size",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1a": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "alpha defaulted to the software value #",
+        "execution unavailable",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "maximal_respiration: staged inputs or frozen code unavailable",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "null value defaulted to 0",
+        "staging unavailable: missing or repeated declared row identity"
+      ],
+      "timing": {
+        "certifyMs": 11,
+        "executionMs": [],
+        "workerMs": 1088
+      }
+    },
+    {
+      "task": "p9-leakage",
+      "analysis": "reference",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 2971.0181250000023,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": false,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "cells.tsv": {
+            "mode": "repeated-measures",
+            "idColumn": "cell_id",
+            "unitColumn": "donor_id"
+          },
+          "donors.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "donor_id"
+          },
+          "expression.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "cell_id"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "cells.tsv": true,
+          "donors.tsv": true,
+          "expression.tsv": true
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "cell_auc",
+          "kind": "out-of-sample",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1a": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1b": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/omb/reference/reference.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "cell_auc: staged inputs or frozen code unavailable",
+        "execution unavailable",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "staging unavailable: inconsistent declared identity across tables"
+      ],
+      "timing": {
+        "certifyMs": 77,
+        "executionMs": [],
+        "workerMs": 2971
+      }
+    },
+    {
+      "task": "p9-leakage",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 2936.466042,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "cells.tsv": {
+            "mode": "repeated-measures",
+            "idColumn": "cell_id",
+            "unitColumn": "donor_id"
+          },
+          "donors.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "donor_id"
+          },
+          "expression.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "cell_id"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "cells.tsv": true,
+          "donors.tsv": true,
+          "expression.tsv": true
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "cell_auc",
+          "kind": "out-of-sample",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1a": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1b": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/omb/reference/reference.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "cell_auc: staged inputs or frozen code unavailable",
+        "execution unavailable",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "staging unavailable: inconsistent declared identity across tables"
+      ],
+      "timing": {
+        "certifyMs": 67,
+        "executionMs": [],
+        "workerMs": 2936
+      }
+    },
+    {
+      "task": "p9-leakage",
+      "analysis": "naive",
+      "mode": "adopt",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1334.2016249999942,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": false,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "cells.tsv": {
+            "mode": "repeated-measures",
+            "idColumn": "cell_id",
+            "unitColumn": "donor_id"
+          },
+          "donors.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "donor_id"
+          },
+          "expression.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "cell_id"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "cells.tsv": true,
+          "donors.tsv": true,
+          "expression.tsv": true
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "cell_auc",
+          "kind": "out-of-sample",
+          "planned": true,
+          "status": "exploratory",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1a": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1b": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-locked",
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "adopted inputs and plan are exploratory; source provenance is not established",
+        "alpha defaulted to the software value #",
+        "cell_auc: staged inputs or frozen code unavailable",
+        "execution unavailable",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "staging unavailable: inconsistent declared identity across tables"
+      ],
+      "timing": {
+        "certifyMs": 61,
+        "executionMs": [],
+        "workerMs": 1334
+      }
+    },
+    {
+      "task": "p9-leakage",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 1357.7353749999966,
+        "dataSource": "raw"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": false,
+      "declarations": {
+        "staging": {
+          "cells.tsv": {
+            "mode": "repeated-measures",
+            "idColumn": "cell_id",
+            "unitColumn": "donor_id"
+          },
+          "donors.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "donor_id"
+          },
+          "expression.tsv": {
+            "mode": "analysis-table",
+            "idColumn": "cell_id"
+          }
+        },
+        "notes": [],
+        "idUnique": {
+          "cells.tsv": true,
+          "donors.tsv": true,
+          "expression.tsv": true
+        }
+      },
+      "executions": [],
+      "claims": [
+        {
+          "id": "cell_auc",
+          "kind": "out-of-sample",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "unevaluable",
+          "gates": {
+            "G1a": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1b": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "staging-unavailable",
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5a": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "not-run",
+              "passed": false,
+              "code": "not-executed",
+              "reason": null
+            }
+          },
+          "kernel": null,
+          "confounding": null
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "cell_auc: staged inputs or frozen code unavailable",
+        "execution unavailable",
+        "exposure or outcome not named: the plan is under-specified for replication",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: G5b cannot run, so this claim cannot be confirmed or refuted",
+        "staging unavailable: inconsistent declared identity across tables"
+      ],
+      "timing": {
+        "certifyMs": 64,
+        "executionMs": [],
+        "workerMs": 1358
+      }
+    }
+  ],
+  "mismatches": [
+    {
+      "rule": "E6",
+      "task": "p6-subgroups",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "primary_efficacy",
+      "expected": "G1a not failed",
+      "actual": "G1a failed (count-mismatch)"
+    },
+    {
+      "rule": "E6",
+      "task": "p6-subgroups",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "primary_efficacy",
+      "expected": "G3 not failed",
+      "actual": "G3 failed"
+    },
+    {
+      "rule": "E6",
+      "task": "p6-subgroups",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "primary_efficacy",
+      "expected": "G4 not failed",
+      "actual": "G4 failed"
+    },
+    {
+      "rule": "E6",
+      "task": "p6-subgroups",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "subgroup_benefit",
+      "expected": "G1a not failed",
+      "actual": "G1a failed (count-mismatch)"
+    },
+    {
+      "rule": "E6",
+      "task": "p6-subgroups",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "subgroup_benefit",
+      "expected": "G3 not failed",
+      "actual": "G3 failed"
+    },
+    {
+      "rule": "E6",
+      "task": "p6-subgroups",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "subgroup_benefit",
+      "expected": "G4 not failed",
+      "actual": "G4 failed"
+    },
+    {
+      "rule": "E6",
+      "task": "p7-nosignal",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "gene_region",
+      "expected": "G1a not failed",
+      "actual": "G1a failed (units-missing)"
+    },
+    {
+      "rule": "E6",
+      "task": "p7-nosignal",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "gene_region",
+      "expected": "G3 not failed",
+      "actual": "G3 failed (missing-recomputed)"
+    },
+    {
+      "rule": "E6",
+      "task": "p7-nosignal",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "gene_region",
+      "expected": "G4 not failed",
+      "actual": "G4 failed"
+    },
+    {
+      "rule": "E6",
+      "task": "p7-nosignal",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "reported_variant",
+      "expected": "G1a not failed",
+      "actual": "G1a failed (units-missing)"
+    },
+    {
+      "rule": "E6",
+      "task": "p7-nosignal",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "reported_variant",
+      "expected": "G3 not failed",
+      "actual": "G3 failed (missing-recomputed)"
+    },
+    {
+      "rule": "E6",
+      "task": "p7-nosignal",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "reported_variant",
+      "expected": "G4 not failed",
+      "actual": "G4 failed"
+    },
+    {
+      "rule": "E6",
+      "task": "p8-underpowered",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "maximal_respiration",
+      "expected": "G3 not failed",
+      "actual": "G3 failed (not-executed)"
+    },
+    {
+      "rule": "E6",
+      "task": "p8-underpowered",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "maximal_respiration",
+      "expected": "G4 not failed",
+      "actual": "G4 failed"
+    },
+    {
+      "rule": "E6",
+      "task": "p9-leakage",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "cell_auc",
+      "expected": "G3 not failed",
+      "actual": "G3 failed (not-executed)"
+    },
+    {
+      "rule": "E6",
+      "task": "p9-leakage",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "cell_auc",
+      "expected": "G4 not failed",
+      "actual": "G4 failed"
+    },
+    {
+      "rule": "E5",
+      "task": "p9-leakage",
+      "analysis": "naive",
+      "mode": "locked",
+      "claim": null,
+      "expected": "G1b failed",
+      "actual": "G1b not-run (staging-unavailable)"
+    }
+  ]
+}

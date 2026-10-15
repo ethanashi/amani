@@ -1,0 +1,479 @@
+{
+ "pmcid": "PMC8979493",
+ "doi": "10.1016/j.xgen.2022.100099",
+ "pmid": "35382456",
+ "journal": "Cell Genomics",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 13,
+ "licence": "CC BY",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 164
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 0
+  },
+  {
+   "type": "author-highlights",
+   "structured": false,
+   "headings": [],
+   "words": 40
+  },
+  {
+   "type": "teaser",
+   "structured": false,
+   "headings": [],
+   "words": 51
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 861
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 4392,
+   "sub": [
+    {
+     "heading": "SuperDendrix",
+     "canonical": "other",
+     "words": 902,
+     "sub": [
+      {
+       "heading": "Scoring differential dependencies and selecting genomic and cell-type features",
+       "canonical": "other",
+       "words": 488
+      },
+      {
+       "heading": "Finding feature sets associated with differential dependencies",
+       "canonical": "other",
+       "words": 72
+      },
+      {
+       "heading": "Evaluating statistical significance of associations",
+       "canonical": "key_points",
+       "words": 141
+      }
+     ]
+    },
+    {
+     "heading": "Identification of differential dependencies and genomic features in DepMap",
+     "canonical": "other",
+     "words": 501
+    },
+    {
+     "heading": "Associations between mutations and differential dependencies",
+     "canonical": "other",
+     "words": 1698
+    },
+    {
+     "heading": "Cancer-type-specific differential dependencies",
+     "canonical": "other",
+     "words": 1291
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1073,
+   "sub": [
+    {
+     "heading": "Limitations of study",
+     "canonical": "limitations",
+     "words": 274
+    },
+    {
+     "heading": "Future directions",
+     "canonical": "other",
+     "words": 178
+    }
+   ]
+  },
+  {
+   "heading": "STAR★Methods",
+   "canonical": "methods",
+   "words": 8189,
+   "sub": [
+    {
+     "heading": "Key resources table",
+     "canonical": "other",
+     "words": 0
+    },
+    {
+     "heading": "Resource availability",
+     "canonical": "data_availability",
+     "words": 32,
+     "sub": [
+      {
+       "heading": "Lead contact",
+       "canonical": "other",
+       "words": 25
+      },
+      {
+       "heading": "Materials availability",
+       "canonical": "data_availability",
+       "words": 7
+      }
+     ]
+    },
+    {
+     "heading": "Method details",
+     "canonical": "methods",
+     "words": 1805,
+     "sub": [
+      {
+       "heading": "SuperDendrix algorithm",
+       "canonical": "other",
+       "words": 194
+      },
+      {
+       "heading": "Identifying differential dependencies and selecting genomic features",
+       "canonical": "other",
+       "words": 666
+      },
+      {
+       "heading": "Finding feature sets associated with differential dependencies",
+       "canonical": "other",
+       "words": 647
+      },
+      {
+       "heading": "Evaluating statistical significance of associations",
+       "canonical": "key_points",
+       "words": 298
+      }
+     ]
+    },
+    {
+     "heading": "Quantification and statistical analysis",
+     "canonical": "other",
+     "words": 6169,
+     "sub": [
+      {
+       "heading": "Bioinformatics and Data processing",
+       "canonical": "other",
+       "words": 308
+      },
+      {
+       "heading": "Comparison with NormLRT",
+       "canonical": "other",
+       "words": 183
+      },
+      {
+       "heading": "Analysis of CERES dependency probabilities",
+       "canonical": "other",
+       "words": 325
+      },
+      {
+       "heading": "SuperDendrix analysis of all non-synonymous mutations",
+       "canonical": "other",
+       "words": 245
+      },
+      {
+       "heading": "Network analysis of pathway addiction",
+       "canonical": "other",
+       "words": 262
+      },
+      {
+       "heading": "Validation on the Sanger CRISPR-Cas9 screen data",
+       "canonical": "other",
+       "words": 239
+      },
+      {
+       "heading": "Comparison with other perturbation screen results",
+       "canonical": "other",
+       "words": 694
+      },
+      {
+       "heading": "Univariate analysis of the DepMap data",
+       "canonical": "other",
+       "words": 1310
+      },
+      {
+       "heading": "Univariate analysis of cancer-type-specific differential dependencies",
+       "canonical": "other",
+       "words": 806
+      },
+      {
+       "heading": "Comparison with UNCOVER",
+       "canonical": "other",
+       "words": 789
+      },
+      {
+       "heading": "Comparison with SELECT",
+       "canonical": "other",
+       "words": 438
+      },
+      {
+       "heading": "Expression of lineage-specific transcription factors",
+       "canonical": "other",
+       "words": 307
+      },
+      {
+       "heading": "Decreased dependency on transcription factors",
+       "canonical": "other",
+       "words": 263
+      }
+     ]
+    },
+    {
+     "heading": "Additional resources",
+     "canonical": "other",
+     "words": 183,
+     "sub": [
+      {
+       "heading": "Web browser for genetic dependency and mutation data",
+       "canonical": "other",
+       "words": 183
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 88,
+   "sub": [
+    {
+     "heading": "Author contributions",
+     "canonical": "contributions",
+     "words": 46
+    },
+    {
+     "heading": "Declaration of interests",
+     "canonical": "competing_interests",
+     "words": 10
+    }
+   ]
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 4,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplemental information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Data and code availability",
+   "canonical": "data_availability",
+   "words": 115
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 115,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 115
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 861,
+  "results": 4392,
+  "discussion": 1073,
+  "methods": 8189,
+  "acknowledgements": 88,
+  "other_back": 4,
+  "supplementary": 115,
+  "data_availability": 115,
+  "references": 0
+ },
+ "main_text_words": 14515,
+ "main_text_words_excluding_methods": 6326,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 274
+ },
+ "figures_main": 8,
+ "figures": [
+  {
+   "label": "",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "study_design_schematic",
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 5",
+   "kind_guess": [
+    "heatmap",
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure 6",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 7",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": ""
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 14,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 124,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "pancreas",
+  "pancreatic"
+ ]
+}

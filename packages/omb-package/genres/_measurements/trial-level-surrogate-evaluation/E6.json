@@ -1,0 +1,268 @@
+{
+ "pmcid": "PMC10483266",
+ "doi": "10.1093/jnci/djad125",
+ "pmid": "37389446",
+ "journal": "JNCI Journal of the National Cancer Institute",
+ "year": 2023,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 13,
+ "licence": "This is an Open Access article distributed under the terms of the Creative Commo",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods",
+    "Results",
+    "Conclusions"
+   ],
+   "words": 263
+  }
+ ],
+ "sections": [
+  {
+   "heading": "(untitled lead paragraphs)",
+   "canonical": "introduction",
+   "words": 256
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 784,
+   "sub": [
+    {
+     "heading": "Data sources and eligibility criteria",
+     "canonical": "other",
+     "words": 149
+    },
+    {
+     "heading": "Data extraction",
+     "canonical": "other",
+     "words": 79
+    },
+    {
+     "heading": "Risk of bias assessment",
+     "canonical": "other",
+     "words": 21
+    },
+    {
+     "heading": "Primary objective and endpoints",
+     "canonical": "other",
+     "words": 108
+    },
+    {
+     "heading": "Statistical analysis",
+     "canonical": "other",
+     "words": 381
+    },
+    {
+     "heading": "Patient and public involvement",
+     "canonical": "transparency",
+     "words": 18
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 656,
+   "sub": [
+    {
+     "heading": "Study characteristics and quality",
+     "canonical": "other",
+     "words": 238
+    },
+    {
+     "heading": "Main analysis",
+     "canonical": "other",
+     "words": 217
+    },
+    {
+     "heading": "Subgroup and sensitivity analyses",
+     "canonical": "other",
+     "words": 135
+    },
+    {
+     "heading": "Assessment of STE of RFS",
+     "canonical": "other",
+     "words": 66
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 991
+  },
+  {
+   "heading": "Supplementary Material",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 32
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 377,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 16
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 68
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 49
+  },
+  {
+   "heading": "Conflicts of interest",
+   "canonical": "competing_interests",
+   "words": 9
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 16,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 16
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 256,
+  "methods": 784,
+  "results": 656,
+  "discussion": 991,
+  "supplementary": 16,
+  "acknowledgements": 32,
+  "other_back": 377,
+  "data_availability": 16,
+  "contributions": 68,
+  "funding": 49,
+  "competing_interests": 9,
+  "references": 0
+ },
+ "main_text_words": 2687,
+ "main_text_words_excluding_methods": 1903,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Figure 1.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 2.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4.",
+   "kind_guess": [
+    "leave_one_out"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1."
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": "djad125_Supplementary_Data"
+  }
+ ],
+ "references": 39,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": true,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": true,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "pancreatic"
+ ]
+}

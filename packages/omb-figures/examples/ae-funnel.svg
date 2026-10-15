@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-funnel" width="360pt" height="260pt" viewBox="0 0 360 260" role="img" aria-labelledby="ombeonapgfpgeof-title ombeonapgfpgeof-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombeonapgfpgeof-title">Funnel plot</title>
+ <desc id="ombeonapgfpgeof-desc">Trial effects against their standard errors, with smaller standard errors at the top.</desc>
+ <rect class="background" x="0" y="0" width="360" height="260" fill="#FFFFFF"/>
+ <line class="null-line" x1="181.15" y1="15" x2="181.15" y2="205" stroke="#8C8C8C" stroke-width="1" stroke-dasharray="3 2"/>
+ <line class="ref-threshold" x1="181.15" y1="15" x2="84.49" y2="176.55" stroke="#8C8C8C" stroke-width="1" stroke-dasharray="3 2"/>
+ <line class="ref-threshold" x1="181.15" y1="15" x2="277.8" y2="176.55" stroke="#8C8C8C" stroke-width="1" stroke-dasharray="3 2"/>
+ <circle class="mark shape-circle sa" cx="165.6" cy="164.58" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-0"/>
+ <circle class="mark shape-circle sa" cx="170.61" cy="149.95" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-1"/>
+ <circle class="mark shape-circle sa" cx="174.14" cy="138.79" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-2"/>
+ <circle class="mark shape-circle sa" cx="176.78" cy="129.88" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-3"/>
+ <circle class="mark shape-circle sa" cx="178.82" cy="122.53" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-4"/>
+ <circle class="mark shape-circle sa" cx="180.45" cy="116.33" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-5"/>
+ <circle class="mark shape-circle sa" cx="181.78" cy="110.98" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-6"/>
+ <circle class="mark shape-circle sa" cx="182.89" cy="106.32" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-7"/>
+ <circle class="mark shape-circle sa" cx="183.82" cy="102.19" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-8"/>
+ <circle class="mark shape-circle sa" cx="184.63" cy="98.49" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-9"/>
+ <circle class="mark shape-circle sa" cx="185.32" cy="95.16" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-10"/>
+ <circle class="mark shape-circle sa" cx="185.93" cy="92.14" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-11"/>
+ <g class="axis axis-x scale-linear">
+  <line class="domain" x1="50" y1="205" x2="340" y2="205" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="50" y1="205" x2="50" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="50" y="216" font-size="7" text-anchor="middle" fill="#222222">−2</text>
+  </g>
+  <g class="tick">
+   <line x1="122.5" y1="205" x2="122.5" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="122.5" y="216" font-size="7" text-anchor="middle" fill="#222222">−1</text>
+  </g>
+  <g class="tick">
+   <line x1="195" y1="205" x2="195" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="195" y="216" font-size="7" text-anchor="middle" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="267.5" y1="205" x2="267.5" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="267.5" y="216" font-size="7" text-anchor="middle" fill="#222222">1</text>
+  </g>
+  <g class="tick">
+   <line x1="340" y1="205" x2="340" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="340" y="216" font-size="7" text-anchor="middle" fill="#222222">2</text>
+  </g>
+  <text class="axis-title" x="195" y="228" font-size="8" text-anchor="middle" fill="#222222">Effect on analysis scale</text>
+ </g>
+ <g class="axis axis-y scale-linear">
+  <line class="domain" x1="50" y1="15" x2="50" y2="205" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="47" y1="15" x2="50" y2="15" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="17.5" font-size="7" text-anchor="end" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="47" y1="62.5" x2="50" y2="62.5" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="65" font-size="7" text-anchor="end" fill="#222222">0.2</text>
+  </g>
+  <g class="tick">
+   <line x1="47" y1="110" x2="50" y2="110" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="112.5" font-size="7" text-anchor="end" fill="#222222">0.4</text>
+  </g>
+  <g class="tick">
+   <line x1="47" y1="157.5" x2="50" y2="157.5" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="160" font-size="7" text-anchor="end" fill="#222222">0.6</text>
+  </g>
+  <g class="tick">
+   <line x1="47" y1="205" x2="50" y2="205" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="207.5" font-size="7" text-anchor="end" fill="#222222">0.8</text>
+  </g>
+  <text class="axis-title" x="20" y="110" font-size="8" text-anchor="middle" fill="#222222" transform="rotate(-90 20 110)">Standard error</text>
+ </g>
+ <metadata>{"certificateHashes":["727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30","95f30e9e6ab15d59119751edb8e28782ce1648ef9efc29b09ee41c3d001d1174"],"csvSha256":"85588dc53e694df5a75503f64e08654f8d5f83c3ecdc3d1e5f6e8c929090eeaf","factIds":["ae.funnel.center","ae.funnel.effects","ae.funnel.se","tierc-ae"],"figureId":"ae-funnel","generatorVersion":"omb-figures@2","specSha256":"3dc131913ebeef98f9b97ace9f4f51390391b4b99891d96a2e7df7fca7dd1146","templateId":"funnel@omb-figures-templates@1"}</metadata>
+</svg>

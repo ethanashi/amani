@@ -1,0 +1,320 @@
+[
+  {
+    "mutation": "idField",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > legacy draft refuses pinned idField with its specific inference error"
+    ]
+  },
+  {
+    "mutation": "donorField",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > legacy draft refuses pinned donorField with its specific inference error"
+    ]
+  },
+  {
+    "mutation": "featureFields",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > legacy matrix draft pins featureFields"
+    ]
+  },
+  {
+    "mutation": "unitOfAnalysis",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > legacy draft refuses pinned unitOfAnalysis with its specific inference error"
+    ]
+  },
+  {
+    "mutation": "declaredN",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > legacy draft refuses pinned declaredN with its specific inference error"
+    ]
+  },
+  {
+    "mutation": "missingValues",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > legacy draft refuses pinned missingValues with its specific inference error",
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > a gate amendment cannot mark real clinical values missing to hide duplicate patients"
+    ]
+  },
+  {
+    "mutation": "cellLineField",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > legacy draft refuses pinned cellLineField with its specific inference error"
+    ]
+  },
+  {
+    "mutation": "gatePlan",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > an exploratory policy-approved code revision is checked again at gatePlan"
+    ]
+  },
+  {
+    "mutation": "bare-confirm",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/review-regressions.test.ts > confirmatory default or explicit stop never auto-collapses (exploratory=false, handling=undefined)"
+    ]
+  },
+  {
+    "mutation": "7i-merge-unverifiable",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/cross-table.test.ts > attempt-23 pairs retain sparse donors and collapse only planted copies (exploratory=true)",
+      "FAIL  packages/bio-pipeline/test/cross-table.test.ts > attempt-23 pairs retain sparse donors and collapse only planted copies (exploratory=false)"
+    ]
+  },
+  {
+    "mutation": "7i-allow-confirm-unverifiable",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/cross-table.test.ts > attempt-23 pairs retain sparse donors and collapse only planted copies (exploratory=false)"
+    ]
+  },
+  {
+    "mutation": "7i-allow-orphans",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/cross-table.test.ts > orphan references block in either plan mode (exploratory=true)"
+    ]
+  },
+  {
+    "mutation": "7i-drop-summary-counts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/cross-table.test.ts > summary preserves all four class counts and empirical refutation rate"
+    ]
+  },
+  {
+    "mutation": "7j-catalog-unknown-check",
+    "file": "packages/bio-pipeline/src/validation.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > a repaired catalog name completes; metric bounds add a software check that can pass",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > an invented requiredChecks name is fed back to plan repair and refused if never fixed",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > plan validation refuses check names outside the software catalog and inconsistent catalog declarations"
+    ]
+  },
+  {
+    "mutation": "7j-results-schema-mandatory",
+    "file": "packages/bio-pipeline/src/validation.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-host/test/deliverable.test.ts > --results-schema is validated, hash-pinned before any worker, offered to the worker and fixed on resume",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > plan validation refuses check names outside the software catalog and inconsistent catalog declarations"
+    ]
+  },
+  {
+    "mutation": "7j-metric-bounds-status",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > a failed bound fails acceptance"
+    ]
+  },
+  {
+    "mutation": "7j-results-schema-execution",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > a results.json that never satisfies the schema fails closed after the bounded repairs",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > a schema-violating results.json enters execution repair; the pinned schema is mandatory and validated"
+    ]
+  },
+  {
+    "mutation": "7j-results-schema-pin",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > the results schema cannot change or disappear on resume"
+    ]
+  },
+  {
+    "mutation": "7j-rerun-via-preparation",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/native.test.ts > a preparation output that differs from the analysed inputs fails the run closed",
+      "FAIL  packages/bio-pipeline/test/native.test.ts > a preparation script that differs from the analysed inputs fails the run closed",
+      "FAIL  packages/bio-pipeline/test/native.test.ts > executes and re-executes node in a read-only fake pixi prefix, using declared files",
+      "FAIL  packages/bio-pipeline/test/native.test.ts > executes and re-executes python in a read-only fake pixi prefix, using declared files",
+      "FAIL  packages/bio-pipeline/test/native.test.ts > executes and re-executes r in a read-only fake pixi prefix, using declared files"
+    ]
+  },
+  {
+    "mutation": "7j-prepared-hash-check",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/native.test.ts > a preparation output that differs from the analysed inputs fails the run closed"
+    ]
+  },
+  {
+    "mutation": "7j-frozen-prepare-script-hash",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/native.test.ts > a preparation script that differs from the analysed inputs fails the run closed"
+    ]
+  },
+  {
+    "mutation": "7j-prepare-raw-hash",
+    "file": "packages/bio-pipeline/src/prepare_data.py",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/deliverable.test.ts > a changed raw file or spec fails closed and publishes nothing for that input"
+    ]
+  },
+  {
+    "mutation": "7j-prepare-output-hash",
+    "file": "packages/bio-pipeline/src/prepare_data.py",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/deliverable.test.ts > a changed raw file or spec fails closed and publishes nothing for that input"
+    ]
+  },
+  {
+    "mutation": "7j-run-all-integrity",
+    "file": "packages/bio-pipeline/src/deliverable.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/deliverable.test.ts > run_all.sh recreates inputs from raw ./data and refuses a tampered preparation script"
+    ]
+  },
+  {
+    "mutation": "7j-materialize-preserve-text",
+    "file": "packages/bio-pipeline/src/effective-input.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/deliverable.test.ts > a changed raw file or spec fails closed and publishes nothing for that input",
+      "FAIL  packages/bio-pipeline/test/deliverable.test.ts > prepares byte-identical effective inputs from raw data for every layout, including collapsed duplicates",
+      "FAIL  packages/bio-pipeline/test/deliverable.test.ts > run_all.sh recreates inputs from raw ./data and refuses a tampered preparation script"
+    ]
+  },
+  {
+    "mutation": "7j-stderr-redaction",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/execution-repair.test.ts > worker-visible execution diagnostics withhold host paths outside the worker scope"
+    ]
+  },
+  {
+    "mutation": "7j-worker-failure-cause",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/policy.test.ts > a host that refuses to audit a timed-out turn keeps the timeout in the reason and stays fail-closed"
+    ]
+  },
+  {
+    "mutation": "7j-hook-command-path-free",
+    "file": "packages/bio-host/src/worker.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-host/test/deliverable.test.ts > --results-schema is validated, hash-pinned before any worker, offered to the worker and fixed on resume",
+      "FAIL  packages/bio-host/test/deliverable.test.ts > arm C exports the software deliverable; a grader-style re-run of run_all.sh reproduces outputs from raw data"
+    ]
+  },
+  {
+    "mutation": "7j-worker-visible-redaction",
+    "file": "packages/bio-host/src/tool-hook.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-host/test/denials.test.ts > every in-process denial path produces worker-visible text without host paths",
+      "FAIL  packages/bio-host/test/denials.test.ts > the actual hook process, launched like Claude launches it, blocks with path-free stderr"
+    ]
+  },
+  {
+    "mutation": "7j-code-deadline-prompt",
+    "file": "packages/bio-host/src/worker.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-host/test/timeouts.test.ts > injects a distinct millisecond timeout for every turn without changing analysis timeout"
+    ]
+  },
+  {
+    "mutation": "7j-collector-deliverable-export",
+    "file": "packages/bio-baseline/src/omerta-arm.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-host/test/deliverable.test.ts > arm C exports the software deliverable; a grader-style re-run of run_all.sh reproduces outputs from raw data"
+    ]
+  },
+  {
+    "mutation": "7j-prepared-copy-removed-on-refusal",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/native.test.ts > a preparation output that differs from the analysed inputs fails the run closed"
+    ]
+  },
+  {
+    "mutation": "review-7j-catalog",
+    "file": "packages/bio-pipeline/src/validation.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > refuses non-catalog or duplicate check Reexecution",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > refuses non-catalog or duplicate check reexecution",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > refuses non-catalog or duplicate check  reexecution",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > refuses non-catalog or duplicate check reexecut\u0456on",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > refuses non-catalog or duplicate check reexecution\u200b",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > refuses non-catalog or duplicate check constructor",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > refuses non-catalog or duplicate check __proto__"
+    ],
+    "wallSeconds": 0.724
+  },
+  {
+    "mutation": "review-7j-metric-bounds",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > a failed bound fails acceptance"
+    ],
+    "wallSeconds": 0.791
+  },
+  {
+    "mutation": "review-7j-schema-pin",
+    "file": "packages/bio-pipeline/src/index.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > the results schema cannot be changed on resume",
+      "FAIL  packages/bio-pipeline/test/catalog.test.ts > the results schema cannot be missing on resume"
+    ],
+    "wallSeconds": 0.886
+  },
+  {
+    "mutation": "review-7j-raw-hash",
+    "file": "packages/bio-pipeline/src/prepare_data.py",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/deliverable.test.ts > a changed raw file or spec fails closed and publishes nothing for that input"
+    ],
+    "wallSeconds": 0.82
+  },
+  {
+    "mutation": "review-7j-wrapper-integrity",
+    "file": "packages/bio-pipeline/src/deliverable.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/deliverable.test.ts > run_all.sh recreates inputs from raw ./data and refuses a tampered preparation script"
+    ],
+    "wallSeconds": 1.434
+  },
+  {
+    "mutation": "review-7j-prepared-write-denial",
+    "file": "packages/bio-pipeline/src/deliverable.ts",
+    "killed": true,
+    "failedTests": [
+      "FAIL  packages/bio-pipeline/test/deliverable.test.ts > run_all.sh recreates inputs from raw ./data and refuses a tampered preparation script"
+    ],
+    "wallSeconds": 1.128
+  }
+]

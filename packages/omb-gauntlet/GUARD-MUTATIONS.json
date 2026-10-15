@@ -1,0 +1,225 @@
+{
+  "mode": "targeted test file",
+  "sourceRestored": true,
+  "mutations": [
+    {
+      "mutation": "deep-lock-truncation-allowed",
+      "file": "src/plan.ts",
+      "test": "packages/omb-gauntlet/test/review.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/review.test.ts > deep settings cannot collide through canonicalization truncation"
+      ]
+    },
+    {
+      "mutation": "not-run-counts-as-passed",
+      "file": "src/gates.ts",
+      "test": "packages/omb-gauntlet/test/labels.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > one gate failed / not-run / not-applicable / absent",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > not-run never counts as passed: each required gate not-run blocks the top label",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > property: confirmed is impossible without every gate the kind requires > random mixtures of outcomes, bad evidence and conflicts (seeded)"
+      ]
+    },
+    {
+      "mutation": "effect-confirm-without-look",
+      "file": "src/labels.ts",
+      "test": "packages/omb-gauntlet/test/labels.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > requirement tables match the design > confirm and refute requirements per kind",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > one gate failed / not-run / not-applicable / absent",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > not-run never counts as passed: each required gate not-run blocks the top label",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > route N look gives the replicated tier; other routes confirmed",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > property: confirmed is impossible without every gate the kind requires > exhaustive over every subset of passed gates (others absent), every kind"
+      ]
+    },
+    {
+      "mutation": "refuted-without-power",
+      "file": "src/labels.ts",
+      "test": "packages/omb-gauntlet/test/labels.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > requirement tables match the design > confirm and refute requirements per kind",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > requirement tables match the design > every statistical refute path needs power evidence; positive controls need no look, no G5, no G6",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > one gate failed / not-run / not-applicable / absent",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > not-run never counts as passed: each required gate not-run blocks the top label",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > refuted requires power evidence; without it a null claim is insufficient-evidence",
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > property: confirmed is impossible without every gate the kind requires > random mixtures of outcomes, bad evidence and conflicts (seeded)"
+      ]
+    },
+    {
+      "mutation": "power-evidence-rule-dropped",
+      "file": "src/gates.ts",
+      "test": "packages/omb-gauntlet/test/labels.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > refuted requires power evidence; without it a null claim is insufficient-evidence"
+      ]
+    },
+    {
+      "mutation": "same-family-replication-counts",
+      "file": "src/gates.ts",
+      "test": "packages/omb-gauntlet/test/gates.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/gates.test.ts > gate board: only a passed result with valid evidence counts > evidence rules: power, replication family, look, null calibration, re-run"
+      ]
+    },
+    {
+      "mutation": "exploratory-claims-confirmable",
+      "file": "src/labels.ts",
+      "test": "packages/omb-gauntlet/test/labels.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > exploratory and unplanned claims are never confirmed"
+      ]
+    },
+    {
+      "mutation": "unverified-numbers-tentative",
+      "file": "src/labels.ts",
+      "test": "packages/omb-gauntlet/test/labels.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/labels.test.ts > truth table: every claim kind x decision outcome x single gate outcome > one gate failed / not-run / not-applicable / absent"
+      ]
+    },
+    {
+      "mutation": "alpha-loosening-accepted",
+      "file": "src/plan.ts",
+      "test": "packages/omb-gauntlet/test/plan.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/plan.test.ts > lenient parsing: variants are accepted with warnings > alpha is software-owned: tightened only, percentages and bounds read leniently"
+      ]
+    },
+    {
+      "mutation": "bh-without-screen",
+      "file": "src/plan.ts",
+      "test": "packages/omb-gauntlet/test/plan.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/plan.test.ts > lenient parsing: variants are accepted with warnings > families: BH only for declared screens of >= 20; unadjusted becomes Holm; size never below the claims"
+      ]
+    },
+    {
+      "mutation": "repeated-units-accepted",
+      "file": "src/units.ts",
+      "test": "packages/omb-gauntlet/test/units.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/units.test.ts > units contract (G1a) > refuses a repeated unit"
+      ]
+    },
+    {
+      "mutation": "non-effective-units-accepted",
+      "file": "src/units.ts",
+      "test": "packages/omb-gauntlet/test/units.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/units.test.ts > units contract (G1a) > refuses a unit that is not a software effective unit"
+      ]
+    },
+    {
+      "mutation": "n-units-count-mismatch-accepted",
+      "file": "src/units.ts",
+      "test": "packages/omb-gauntlet/test/units.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/units.test.ts > units contract (G1a) > refuses an n_units that differs from the row count, either way",
+        "FAIL packages/omb-gauntlet/test/units.test.ts > units contract (G1a) > missing or empty units.tsv fails; unavailable staging is not-run"
+      ]
+    },
+    {
+      "mutation": "one-sided-sign-ignored",
+      "file": "src/decision.ts",
+      "test": "packages/omb-gauntlet/test/decision.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/decision.test.ts > statistical decision rule > one-sided rules need the estimate on the declared side",
+        "FAIL packages/omb-gauntlet/test/decision.test.ts > statistical decision rule > out-of-sample performance against its chance level"
+      ]
+    },
+    {
+      "mutation": "multiplicity-bypassed",
+      "file": "src/decision.ts",
+      "test": "packages/omb-gauntlet/test/decision.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/decision.test.ts > statistical decision rule > Holm family across three claims (hand-computed adjusted p 0.03, 0.06, 0.06)",
+        "FAIL packages/omb-gauntlet/test/decision.test.ts > statistical decision rule > a missing family member counts as p = 1 and leaves the claim itself unevaluable",
+        "FAIL packages/omb-gauntlet/test/decision.test.ts > statistical decision rule > BH only for a declared screen of >= 20 (parser-enforced), else Holm",
+        "FAIL packages/omb-gauntlet/test/decision.test.ts > statistical decision rule > exploratory claims use their raw p and stay out of the family"
+      ]
+    },
+    {
+      "mutation": "g5a-pass-threshold-loosened",
+      "file": "src/policy.ts",
+      "test": "packages/omb-gauntlet/test/adapters.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/adapters.test.ts > G5a sequential null calibration > boundaries: <=14 pass, 15-19 extend, >=20 fail; >=42 of 600 fails",
+        "FAIL packages/omb-gauntlet/test/adapters.test.ts > G5a sequential null calibration > exact operating characteristics: false alarm <= 2% at a nominal 5% rate, power >= 0.9 at a doubled rate",
+        "FAIL packages/omb-gauntlet/test/adapters.test.ts > G5a sequential null calibration > translates documents, recounting with p <= alpha",
+        "FAIL packages/omb-gauntlet/test/adapters.test.ts > CIT, G6 cross-check and the runner seam > policy constants are the design's"
+      ]
+    },
+    {
+      "mutation": "g4-tolerance-cap-removed",
+      "file": "src/gates-pure.ts",
+      "test": "packages/omb-gauntlet/test/gates.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/gates.test.ts > G4 one re-run from raw data > text and file hashes compare exactly; a looser tolerance is clamped"
+      ]
+    },
+    {
+      "mutation": "g3-display-precision-cap-removed",
+      "file": "src/gates-pure.ts",
+      "test": "packages/omb-gauntlet/test/gates.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/gates.test.ts > G3 recompute: exact apart from display rounding, software-owned tolerance > display rounding to at least three significant digits"
+      ]
+    },
+    {
+      "mutation": "g2-hash-not-compared",
+      "file": "src/gates-pure.ts",
+      "test": "packages/omb-gauntlet/test/gates.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/gates.test.ts > G2 plan lock > fails on an edited rule, a missing lock or a lock after the look"
+      ]
+    },
+    {
+      "mutation": "denied-canary-is-hard-stop",
+      "file": "src/routing.ts",
+      "test": "packages/omb-gauntlet/test/routing.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/routing.test.ts > strictness charter: fail closed on claims, fail soft on runs > a hard stop fires only on positive evidence that was not denied",
+        "FAIL packages/omb-gauntlet/test/routing.test.ts > strictness charter: fail closed on claims, fail soft on runs > property: no event outside the four positively observed hard stops ends a job after preflight, and nothing discards an analysis"
+      ]
+    },
+    {
+      "mutation": "strong-confounder-unhandled-ignored",
+      "file": "src/adapters.ts",
+      "test": "packages/omb-gauntlet/test/adapters.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/adapters.test.ts > G1c confounding > aligned is non-identifiable; strong must be handled"
+      ]
+    },
+    {
+      "mutation": "typed-number-after-symbol-allowed",
+      "file": "src/prose.ts",
+      "test": "packages/omb-gauntlet/test/prose.test.ts",
+      "killed": true,
+      "failedTests": [
+        "FAIL packages/omb-gauntlet/test/prose.test.ts > typed-number detection > flags numbers typed into prose",
+        "FAIL packages/omb-gauntlet/test/prose.test.ts > typed-number detection > reports line and column"
+      ]
+    }
+  ]
+}

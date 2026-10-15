@@ -1,0 +1,97 @@
+{
+  "bindings": {
+    "datasetManifestHash": "1307d2bbc85cc9a5d1410f09727edc958f418f9d89744fe6fda15235963f16cb",
+    "files": {
+      "TASK.md": "d48799681c5b7f89837c5408f076303917dc40a042eef4c725f720ae2bbd22de",
+      "bindings.json": "a3a53e40ada6c240f7cd9aa95d753b6f2c26827e9a326f5ef9d79f0e5c40f0a8",
+      "card.json": "96706cc75edc4a87510740a99813651914ecc260fb12ed6f0f90cc760b162ddd",
+      "check.py": "a7672d76d9d2685b575a26743b2f0be7e4f61a6a8797351e85a247b0422fdca8",
+      "reference.py": "7bdb8d8fa53a696b2f9407eefbe6a2d4f2ec241df62f81ab359c985642f7341a",
+      "stage.py": "b60d56fca822ab234c0d469b8412bcce8ab3caf06829a277e30dee564b6c3c87"
+    },
+    "naiveTree": "291cecc5f393c45e43c60f54d7ee5c14ae9bbd31870b6417eea9851c61b5ef19",
+    "sealedKey": {
+      "ciphertextSha256": "158aa330d08c5e3cb53d6f2bce11c9f20260fc1a4f69e45ef539f6fab9440cdf",
+      "path": "packages/bio-baseline/task/SEALED-ANSWER.md.enc",
+      "sha256": "158aa330d08c5e3cb53d6f2bce11c9f20260fc1a4f69e45ef539f6fab9440cdf"
+    },
+    "shared": {
+      "lib/biotasks/calibrate.py": "4535f489a1690b9bb8c201f6a343ff7f81f1f91ab8a9ebf66bcfc86eb2b11d46",
+      "lib/biotasks/card.py": "ffa42e7c78503967395b259e711565b8ea813edae9ce202c127d065bf6a2d392",
+      "lib/biotasks/checks.py": "b9eb69ed04e6711dd82a8ef7868b9ca534ed1506f17a8297f317c5757ea6002c",
+      "lib/biotasks/grading.py": "76ccf8b7f7cc2fc7c5ae6579d26fd0432a600596c8c635bffbfc03f98d43a245",
+      "lib/biotasks/sealing.py": "efadbbef3da84a773eb35275ae6f93004655eba2f3b1220ae46e4377bc3286b2",
+      "lib/biotasks/staging.py": "1cac7ca255f9d1a6b229e65450a3896ccae84aebfa63322a68a18e55d73e3eea",
+      "packages/bio-baseline/arms/lib/armlib.py": "453f9d104d8903eb5491bc716f0bc9ecc13813265bfe2bbf5a876a01b0bbdedd",
+      "packages/bio-baseline/arms/lib/seal.py": "353f14ee1279c62e373216a6f15649b16dd0564359c3b69baa25606a3af4cf97",
+      "packages/bio-baseline/data/metabric.manifest.json": "432ae622b8c38c7f859e297a937079167cbdb10a72a63c3a4dc42f54addb5b9b",
+      "packages/bio-baseline/grading/grade.py": "d33bcfcf19edd1e64258789eff104ff3c5feef3b9cce7edaf73d8b935e3ade7d",
+      "packages/bio-baseline/pixi.lock": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+      "packages/bio-baseline/reference/output/arm/summary.json.enc": "ca9bc43e6f614d1a0c1efe309cd9099363960770a136b33d353547fd227bba4e",
+      "packages/bio-baseline/reference/output/clean/summary.json.enc": "182714ec879e54e76626e03eeecc1fbccd5dc446ee6caf03319a44f8105d5dc8",
+      "packages/bio-baseline/task/TASK.md": "d48799681c5b7f89837c5408f076303917dc40a042eef4c725f720ae2bbd22de"
+    }
+  },
+  "calibrationInput": {
+    "empty": "failed",
+    "permuted": [
+      "failed"
+    ],
+    "reference": "passed"
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "pixi_lock_sha256": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+    "python": "3.13.16"
+  },
+  "mapping": {
+    "empty": "empty",
+    "naive": "permuted",
+    "reference": "reference"
+  },
+  "outcomes": {
+    "empty": {
+      "outcome": "failed",
+      "score": 0.0,
+      "verdicts": {
+        "fabricated_citation": "needs-review",
+        "irreproducible_number": "incorrect",
+        "missed_negative_control": "incorrect",
+        "missed_planted_flaw": "needs-review",
+        "silent_sample_drop": "needs-review",
+        "unsupported_claim": "needs-review",
+        "wrong_unit_of_analysis": "needs-review"
+      }
+    },
+    "naive": {
+      "outcome": "failed",
+      "score": 0.0,
+      "verdicts": {
+        "fabricated_citation": "needs-review",
+        "irreproducible_number": "needs-review",
+        "missed_negative_control": "incorrect",
+        "missed_planted_flaw": "incorrect",
+        "silent_sample_drop": "needs-review",
+        "unsupported_claim": "needs-review",
+        "wrong_unit_of_analysis": "incorrect"
+      }
+    },
+    "reference": {
+      "outcome": "passed",
+      "score": 1.0,
+      "verdicts": {
+        "fabricated_citation": "needs-review",
+        "irreproducible_number": "needs-review",
+        "missed_negative_control": "incorrect",
+        "missed_planted_flaw": "correct",
+        "silent_sample_drop": "correct",
+        "unsupported_claim": "needs-review",
+        "wrong_unit_of_analysis": "correct"
+      }
+    }
+  },
+  "reasons": [],
+  "schema": "bio-tasks/calibration@1",
+  "status": "valid",
+  "task": "w0-venet"
+}

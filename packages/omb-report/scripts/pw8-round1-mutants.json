@@ -1,0 +1,326 @@
+[
+  {
+    "id": "R1-hex-space",
+    "file": "reverify/pdf.ts",
+    "from": "if (WS.has(byte)) continue;",
+    "to": "if (WS.has(byte)) break;"
+  },
+  {
+    "id": "R1-hex-pad",
+    "file": "reverify/pdf.ts",
+    "from": "if (hex.length % 2) hex += '0';",
+    "to": ""
+  },
+  {
+    "id": "R1-hex-invalid",
+    "file": "reverify/pdf.ts",
+    "from": "requireThat((byte >= 48 && byte <= 57) || (byte >= 65 && byte <= 70) || (byte >= 97 && byte <= 102),",
+    "to": "requireThat(true,"
+  },
+  {
+    "id": "R1-hex-end",
+    "file": "reverify/pdf.ts",
+    "from": "requireThat(ended, 'PDF: missing ASCIIHex end marker');",
+    "to": ""
+  },
+  {
+    "id": "R1-image-identity",
+    "file": "reverify/docx.ts",
+    "from": "if (expectedMedia.length !== figures.length || JSON.stringify(x.referencedMedia) !== JSON.stringify(expectedMedia))",
+    "to": "if (false)"
+  },
+  {
+    "id": "R1-image-resolution",
+    "file": "reverify/docx.ts",
+    "from": "requireThat(!canonical.startsWith('../') && zip.has(canonical), 'DOCX: missing image target');",
+    "to": ""
+  },
+  {
+    "id": "R1-drawing-ref",
+    "file": "reverify/docx.ts",
+    "from": "referencedMedia.push(createHash('sha256').update(zip.get(target)!).digest('hex'));",
+    "to": ""
+  },
+  {
+    "id": "R1-style-part",
+    "file": "reverify/docx.ts",
+    "from": "if (!expected[name] || expected[name] !== x.styleParts[name])",
+    "to": "if (false)"
+  },
+  {
+    "id": "R1-style-reference",
+    "file": "reverify/docx.ts",
+    "from": "if (!profile.styleReferences?.includes(ref))",
+    "to": "if (false)"
+  },
+  {
+    "id": "R1-grammar",
+    "file": "reverify/docx.ts",
+    "from": "findings.push(...checkDocumentGrammar(doc));",
+    "to": ""
+  },
+  {
+    "id": "R1-owner-channels",
+    "file": "reverify/docx.ts",
+    "from": "if (channels.length) return fail(channels);",
+    "to": ""
+  },
+  {
+    "id": "R1-font-hash",
+    "file": "reverify/outputs.ts",
+    "from": "if (!profile.fontSha256?.includes(hash))",
+    "to": "if (false)"
+  },
+  {
+    "id": "R1-glyph-consistency",
+    "file": "reverify/pdf.ts",
+    "from": "requireThat(!visual || visual.decode(b) === s, 'PDF: unsupported font mapping (glyph/Unicode disagreement)');",
+    "to": ""
+  },
+  {
+    "id": "R1-visual-inventory",
+    "file": "reverify/outputs.ts",
+    "from": "if (i < 0) issues.push",
+    "to": "if (false) issues.push"
+  },
+  {
+    "id": "R1-annotation",
+    "file": "reverify/pdf.ts",
+    "from": "annotations.push({key:'annotation', value:'undeclared annotation'});",
+    "to": ""
+  },
+  {
+    "id": "R1-white",
+    "file": "reverify/pdf.ts",
+    "from": "mode !== 0 || white || opacity < 1",
+    "to": "mode !== 0 || opacity < 1"
+  },
+  {
+    "id": "R1-opacity",
+    "file": "reverify/pdf.ts",
+    "from": "mode !== 0 || white || opacity < 1",
+    "to": "mode !== 0 || white"
+  },
+  {
+    "id": "R1-graphics-state",
+    "file": "reverify/pdf.ts",
+    "from": "requireThat([...state.keys()].every(k => ['Type','ca','CA','BM','SMask','SA','AIS','LW','LC','LJ','ML','D'].includes(k)),",
+    "to": "requireThat(true,"
+  },
+  {
+    "id": "R1-text-rise",
+    "file": "reverify/pdf.ts",
+    "from": "requireThat(stack[0] === 0, 'PDF: unsupported text spacing or rise');",
+    "to": ""
+  },
+  {
+    "id": "R1-text-scale",
+    "file": "reverify/pdf.ts",
+    "from": "requireThat(stack[0] === 100, 'PDF: unsupported text horizontal scale');",
+    "to": ""
+  },
+  {
+    "id": "R1-tj-position",
+    "file": "reverify/pdf.ts",
+    "from": "-item * size / 1000",
+    "to": "0"
+  },
+  {
+    "id": "R1-geometric-order",
+    "file": "reverify/outputs.ts",
+    "from": "ordered.sort((a,b) => a.page - b.page || (Math.abs(a.y-b.y) > Math.min(a.size,b.size)*0.25 ? b.y-a.y : a.x-b.x));",
+    "to": ""
+  },
+  {
+    "id": "R1-layout-position",
+    "file": "reverify/outputs.ts",
+    "from": "if (index === undefined) issues.push",
+    "to": "if (false) issues.push"
+  },
+  {
+    "id": "R1-numeric-gaps",
+    "file": "reverify/flow.ts",
+    "from": "compact += ' ';",
+    "to": "continue;"
+  },
+  {
+    "id": "R1-numeric-nfkc",
+    "file": "reverify/flow.ts",
+    "from": "text.normalize('NFC')",
+    "to": "text.normalize('NFKC')"
+  },
+  {
+    "id": "R1-namespace",
+    "file": "reverify/ooxml.ts",
+    "from": "if (!grammars[uri]?.split(' ').includes(name))",
+    "to": "if (false)"
+  },
+  {
+    "id": "R1-placement",
+    "file": "reverify/ooxml.ts",
+    "from": "if (parent && !children[parent.slice(parent.lastIndexOf(':') + 1)]?.split(' ').includes(name))",
+    "to": "if (false)"
+  },
+  {
+    "id": "R1-css-hash",
+    "file": "reverify/css.ts",
+    "from": "requireThat(bytes !== undefined && hashes[path] === createHash('sha256').update(bytes).digest('hex'),",
+    "to": "requireThat(bytes !== undefined,"
+  },
+  {
+    "id": "R1-css-generated",
+    "file": "reverify/css.ts",
+    "from": "requireThat(!/(?:^|[;{])\\s*(?:content|counter-increment|counter-reset|list-style(?:-type)?)\\s*:/iu.test(source),",
+    "to": "requireThat(true,"
+  },
+  {
+    "id": "R1-css-import",
+    "file": "reverify/css.ts",
+    "from": "visit(resolve(path,target),true);",
+    "to": ""
+  },
+  {
+    "id": "R1-css-url",
+    "file": "reverify/css.ts",
+    "from": "visit(resolve(path,a??b??c),false);",
+    "to": ""
+  },
+  {
+    "id": "R1-ligature",
+    "file": "reverify/pdf.ts",
+    "from": "174:'fi'",
+    "to": "174:'f'"
+  },
+  {
+    "id": "R1-quantity",
+    "file": "english.ts",
+    "from": "requireThat(!quantity.test(form),'quantity vocabulary requires a software slot');",
+    "to": ""
+  },
+  {
+    "id": "R1-idiom",
+    "file": "english.ts",
+    "from": "One possible explanation is selection bias",
+    "to": "An impossible explanation is selection bias"
+  },
+  {
+    "id": "R1-external-hash",
+    "file": "reverify/release.ts",
+    "from": "if (supplied) {",
+    "to": "if (false && supplied) {"
+  },
+  {
+    "id": "R1-record-integrity",
+    "file": "reverify/release.ts",
+    "from": "requireThat(canonicalJson(build.record) === canonicalJson(trusted.record) && build.signature === trusted.signature,",
+    "to": "requireThat(true,"
+  },
+  {
+    "id": "R1-rerender",
+    "file": "reverify/release.ts",
+    "from": "const regenerated = await produce(trusted.m,trusted.html);",
+    "to": "const regenerated = copy(trusted.files);"
+  },
+  {
+    "id": "R1-byte-identity",
+    "file": "reverify/release.ts",
+    "from": "if (entry.binding === 'byte-deterministic')",
+    "to": "if (false)"
+  },
+  {
+    "id": "R1-docx-determinism",
+    "file": "reverify/release.ts",
+    "from": "['html','svg','css','resource','docx',...profile.byteDeterministic",
+    "to": "['html','svg','css','resource',...profile.byteDeterministic"
+  },
+  {
+    "id": "R1-attestation",
+    "file": "reverify/release.ts",
+    "from": "requireThat(result.profileSha256 === profileSha256,",
+    "to": "requireThat(true,"
+  },
+  {
+    "id": "R1-readback",
+    "file": "reverify/release.ts",
+    "from": "requireThat(pdf.ok,",
+    "to": "requireThat(true,"
+  },
+  {
+    "id": "R1-source",
+    "file": "reverify/release.ts",
+    "from": "requireThat(checked.ok && checked.manuscript,",
+    "to": "requireThat(checked.manuscript,"
+  },
+  {
+    "id": "R1-resource-profile",
+    "file": "reverify/release.ts",
+    "from": "requireThat(Object.keys(profile.resources).length === resources.size && [...resources].every(([p,b]) => profile.resources[p] === hash(b)),",
+    "to": "requireThat(true,"
+  },
+  {
+    "id": "R1-mandatory-files",
+    "file": "reverify/release.ts",
+    "from": "requireThat(files.has('paper.pdf') && files.has('paper.docx'), 'release: PDF and DOCX are mandatory');",
+    "to": ""
+  },
+  {
+    "id": "R1-output-inventory",
+    "file": "reverify/release.ts",
+    "from": "requireThat(['paper.pdf','paper.docx','paper.html'].includes(path) || assets.has(path) || (format(path) === 'tex' && !!profile.tex && profile.byteDeterministic?.includes('tex')) || profile.additionalArtifacts?.includes(path),",
+    "to": "requireThat(true,"
+  },
+  {
+    "id": "R1-layout-separators",
+    "file": "reverify/outputs.ts",
+    "from": "ordered.map(run=>(separators.get(run)??'')+run.text).join('')",
+    "to": "ordered.map(run=>run.text).join('')"
+  },
+  {
+    "id": "R1-layout-source",
+    "file": "reverify/outputs.ts",
+    "from": "if(skip>1||!text.startsWith(value,cursor+skip))return null;",
+    "to": "if(false)return null;"
+  },
+  {
+    "id": "R1-layout-omission",
+    "file": "reverify/outputs.ts",
+    "from": "requireThat(cursor===source.length&&layout.length===runs.length,'PDF: trusted layout omits verified source');return layout;",
+    "to": "return layout;"
+  },
+  {
+    "id": "R1-direct-format",
+    "file": "reverify/docx.ts",
+    "from": "if (props.some(p => !['rStyle','vanish','specVanish','webHidden','sz','szCs','color','b','bCs','i','iCs','u'].includes(local(p.tag))))",
+    "to": "if (false)"
+  },
+  {
+    "id": "R1-local-font",
+    "file": "reverify/css.ts",
+    "from": "(?:image-set|src|local|paint)",
+    "to": "(?:image-set|src|paint)"
+  },
+  {
+    "id": "R1-unknown-operator",
+    "file": "reverify/pdf.ts",
+    "from": "requireThat(['w','J','j','M','d','ri','i','m','l','c','v','y','h','re','S','s','f','F','f*','B','B*','b','b*','n','W','W*','G','RG','K','BMC','EMC','MP'].includes(op),",
+    "to": "requireThat(true,"
+  },
+  {
+    "id": "R1-direct-font",
+    "file": "reverify/pdf.ts",
+    "from": "doc.usedFonts.add(doc.fingerprint(d));",
+    "to": ""
+  },
+  {
+    "id": "R1-xobject",
+    "file": "reverify/pdf.ts",
+    "from": "requireThat(isStream(xo) && ['Image','Form'].includes(doc.name(xo.dict.get('Subtype')) ?? ''), 'PDF: unsupported XObject');",
+    "to": ""
+  },
+  {
+    "id": "R1-text-orientation",
+    "file": "reverify/pdf.ts",
+    "from": "requireThat(upright||quarterTurn,'PDF: unsupported rotated or reflected text');",
+    "to": ""
+  }
+]

@@ -1,0 +1,28 @@
+"""Synthetic review-derived fixtures. Run only inside this package; no held-out data."""
+import json
+from pathlib import Path
+root=Path(__file__).resolve().parents[1]
+rows=[]
+def add(text,refs,region='results',status='tentative',kind='draft'):
+ rows.append(dict(id=f'A{len(rows)+1:03}',text=text,review=refs,region=region,status=status,kind=kind))
+assertions=['tracks ALS','indicates ALS','is a biomarker of ALS','is present in ALS','goes with ALS','co-occurs with ALS','distinguishes ALS','supports the hypothesis','works','held up','provably supports it','was demonstrably linked with ALS','is a real marker of ALS','is a genuine marker of ALS','is a true marker of ALS','is causative of ALS','is a causative factor for ALS','led to ALS','gives rise to ALS','results in ALS','resulted in ALS','promotes ALS','produces ALS','underlies ALS','accelerates ALS','worsens ALS','is the source of ALS','is the reason for ALS','leads\u0085to ALS','is responsible\u0085for ALS','conclusively\u0085supports ALS','is\u0085real','did not\u0085differ','poses no\u0085harm','will\u0085work in ALS','should be tested\u0085in patients','is a reliable test','is unassociated with ALS','was uncorrelated with ALS','bears no relation to ALS','had no bearing on ALS','has no connection to ALS','is unconnected to ALS','is without relation to ALS','does not differ by ALS status','is not different in ALS','was unaffected by ALS','is not a marker of ALS','is neither related nor predictive','was not found to be related to ALS','is uninformative for ALS','does not matter for ALS','is not involved in ALS','is well-tolerated','is tolerated well','is innocuous']
+for x in assertions:add(f'MarkerA {x} [m:c1.label] [claim:c1].',['open-4','open-5','open-6','open-8','open-9','open-13','new-5','new-6','new-8','new-9','new-13','new-19'],status='refuted')
+for x in ['The data support MarkerA as a marker of ALS','The prediction was borne out','The marker works','These results are conclusive','The findings are real','The result supports the use of the marker','The result is definitive','The result is genuine','There was little evidence of a link','No relationships were found','Nothing was found for MarkerA','The results were negative','The hypothesis was rejected','A hub genes','A hub-gene','It paves\u0085the way','To our\u0085knowledge']:
+ add(x+' [m:c1.label] [claim:c1].',['open-4','open-8','open-9','open-13','open-16','new-13','new-19','new-24'],region='abstract')
+for x in ['The association was confirmed.','We confirmed the association.','The result was established.','Confirmed.']:add(x,['open-4','new-5'],status='refuted')
+for x in ['The result was nonsignificant','The test was nonsignificant','The test was non significant','The test was not sig.','The test was signif.']:
+ add(x+' [m:c1.result] [m:c1.label] [claim:c1].',['open-7','new-7'])
+for x in ['Neither check failed','The checks agreed unanimously','The checks agreed without exception','The checks agreed fully','The checks always agreed']:
+ add(x+': [m:c1.n_agree] of [m:c1.n_total] [m:c1.label] [claim:c1].',['open-11'])
+for x in ['The estimate was consistent','Taken together the sensitivity analyses agreed','Collectively the sensitivity analyses agreed']:
+ add(x+': [m:c1.sens_agree] of [m:c1.sens_total] [m:c1.label] [claim:c1].',['open-11'])
+for x in ['twelfth','trillion','trillions','quadrillion','quadruple','quintuple','sextuple','naught','nought','nil','zilch','aught','score','couple','pair','duo','trio','decile','quartile','quintile','tertile','bimodal','triplicate','duplicate','fourty','ninty','半','倍','数','双','对','⼀','⼆','⼋','⼗','ЅІХ','ΝΙΝΕ','ІІІ','ΙΙΙ','ꓲꓲꓲ','ХІ','Stage ІІІ']:
+ add(f'We enrolled {x} participants.',['open-2','open-14','new-1','new-17'],region='methods')
+for x in ['negative [d:manifest.0.counts.raw]','minus [d:manifest.0.counts.raw]','[d:manifest.0.counts.raw] pct','[d:manifest.0.counts.raw] bp','[d:manifest.0.counts.raw] x [d:manifest.0.counts.raw]','[d:manifest.0.counts.raw]:[d:manifest.0.counts.raw]','[d:manifest.0.counts.raw];[d:manifest.0.counts.raw]']:
+ add(f'Staging kept {x} files.',['open-1','new-3'],region='methods')
+for x in ['AT＆T was recorded.','AT﹠T was recorded.','A ＆amp； B was recorded.','Staging used ＆lt;script＆gt; tools.','See ftp://x.org.','See example.org/paper for details.','Write to mailto:x.','See hxxp://x.org.','See doi : abc.','See ԝԝԝ.x.org.','Sure, here is the revised text.','Of course, the samples were stored.','** **.']:
+ add(x,['open-15','new-16','new-22'],region='methods')
+for x in ['This is unlikely to be important','This is of little concern','This is immaterial','This is inconsequential','The conclusion holds','The result remains valid','The conclusion is unaffected','This does not change the conclusion','This cannot overturn the finding','This poses no threat','This was handled','This has been resolved','This was accounted for','Sampling is representative','Sampling was sufficient','Sampling is appropriate','The finding stands','Despite this, the marker works','Not of concern','Nothing to worry about','This is not an issue','This is a non-issue','Minimal bias','The failed check is a formality','Further data are unnecessary','No additional data would help','Low enrolment explains this result','This failure was a chance event','It was bad luck','The refutation is spurious']:
+ add(x,['open-10','new-12'],region='limitations',kind='partB')
+# Trusted-boundary corruptions and positive repros are separately pinned by round2-partial/limitations/numbers.
+(root/'test/corpus/adversarial.json').write_text(json.dumps(rows,indent=2,ensure_ascii=False)+'\n')

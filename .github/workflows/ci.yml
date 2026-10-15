@@ -1,0 +1,42 @@
+name: Amani portable CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  portable:
+    if: github.repository == 'ethanashi/amani'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Install pinned package manager and dependencies
+        run: |
+          npm install --global "$(node -p 'require("./package.json").packageManager')"
+          pnpm install --frozen-lockfile
+      - name: Typecheck discovered workspaces
+        run: |
+          pnpm run typecheck
+          pnpm -r --if-present run typecheck
+      - name: Portable offline unit suites
+        run: node scripts/ci/github-units.mjs
+      - name: Audit snapshot without sealed material
+        shell: bash
+        run: |
+          stage=$(mktemp -d)
+          trap 'rm -rf "$stage"' EXIT
+          git archive HEAD | tar -x -C "$stage"
+          node scripts/publish/apply-exclusions.mjs "$stage" scripts/publish/exclude.txt
+          node scripts/publish/audit.mjs "$stage"

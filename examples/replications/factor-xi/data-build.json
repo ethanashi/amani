@@ -1,0 +1,15 @@
+{
+  "licence": "CC0-1.0",
+  "servedFiles": 9,
+  "hashes": {
+    "B-outcome.tsv": "741f2ad36720f9b92b3585f2f4611df85ae941aae701b359703ffd9aabab6a56",
+    "E-exposure.tsv": "cee6e50530e500175c1287c74426c73df979b8d1b6161c094574e1da4c0a984b",
+    "G-outcome.tsv": "a904a0cbbeb9acc950f952f170cae008f030b0eba291502b8077f3b83be327eb",
+    "D-outcome.tsv": "f676211d7807383aa9fcb686dc69ccb4a4c03f4ef664515273adc85b6352b6da",
+    "H-outcome.tsv": "168d6bd077173d0f291bcf669346d462c1a72baa1312b868e07310ec8b4f6940",
+    "A-outcome.tsv": "1c37f7a4aabdf69408c367b06192b50179ff989a692c8719bf7a6848363ca311",
+    "F-outcome.tsv": "0f2a64dece656f753da8f2ac2e4d5f024c6f7879e68047217655b638463a3caa",
+    "C-outcome.tsv": "b69ee63a2128481e5c904b84781202d8783dd147b822a0c834f2e1c79a6d5225",
+    "snp-aliases.tsv": "0e692ee9b31391b440ed6fec4d2be895e1cb67dd0e94bf5697d9cd5b6f673e31"
+  }
+}

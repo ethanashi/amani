@@ -1,0 +1,22 @@
+{
+  "matter.ts:1": {
+    "source": "pw5Text(value,label)",
+    "reason": "date() immediately requires the strict ASCII date regex, finite Date.parse and calendar round-trip. All values rejected by pw5Text here are independently rejected by those checks; no accepted date is added."
+  },
+  "checklists.ts:16": {
+    "source": "requireThat(document.paper,'missing receipted rendered paper')",
+    "reason": "The immediately following readPW5Receipt(ctx, document.paper, PAPER_RENDER_DOMAIN, verify) rejects absent envelopes with its domain/paper check. Removing this presence precheck cannot admit a document lacking an authenticated rendered paper; only the refusal message changes."
+  },
+  "matter.ts:76": {
+    "source": "assertContext(ctx)",
+    "reason": "deriveMatterInput unconditionally calls provenanceModels(ctx) before reading the owner projection; provenanceModels itself calls assertContext. Removing this repeated assertion cannot admit an unauthenticated context."
+  },
+  "matter.ts:64": {
+    "source": "evidenceInContext(ctx,input.ethics.evidenceHash)",
+    "reason": "deriveMatterInput already verifies the ethics evidence hash against this context. The immediately preceding exact canonical equality with derived.ethics prevents substituting another hash; this repeated evidenceInContext adds no accepted-input restriction."
+  },
+  "checklist-evidence.ts:17": {
+    "source": "requireThat(facts.every(Boolean),'missing checklist procedure slot')",
+    "reason": "The preceding assertMethods requires an intact software-built document for this context. This branch only resolves the registered estimand or procedure source; buildMethods unconditionally writes both slots for every context claim. Thus a valid sealed producer cannot have a missing fact here. Removing this defensive presence check admits no additional well-formed producer."
+  }
+}

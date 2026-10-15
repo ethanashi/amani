@@ -1,0 +1,1355 @@
+{
+  "schema": "omb-calibration/records@1",
+  "gitHead": "2ef447c8124a4ea9dae15f1641b867f0804f2071",
+  "startedAt": "2026-10-11T02:27:57.047Z",
+  "finishedAt": "2026-10-11T02:37:47.783Z",
+  "machine": {
+    "cpus": 10,
+    "loadBefore": [
+      1.52,
+      4.38,
+      10.42
+    ],
+    "loadAfter": [
+      2.59,
+      2.98,
+      6.58
+    ]
+  },
+  "wallMs": 590686,
+  "stages": [
+    {
+      "task": "p1-esr1",
+      "ok": true,
+      "ms": 118,
+      "reason": ""
+    }
+  ],
+  "records": [
+    {
+      "task": "p1-esr1",
+      "analysis": "reference",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 735.502,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "look.p",
+                "rerun.p"
+              ]
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "look.p",
+                "rerun.p"
+              ]
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 294710,
+        "executionMs": [
+          1346,
+          830,
+          827,
+          844,
+          812,
+          1722,
+          963,
+          961,
+          1027,
+          1133,
+          1052,
+          969,
+          966,
+          965,
+          960,
+          968,
+          972,
+          968,
+          969,
+          964,
+          958,
+          964,
+          959,
+          956,
+          965,
+          963,
+          961,
+          974,
+          1025,
+          1007,
+          1032,
+          961,
+          959,
+          965,
+          967,
+          961,
+          968,
+          961,
+          960,
+          967,
+          974,
+          961,
+          962,
+          962,
+          964,
+          972,
+          969,
+          966,
+          962,
+          960,
+          966,
+          960,
+          960,
+          966,
+          961,
+          964,
+          962,
+          958,
+          959,
+          982,
+          960,
+          963,
+          948,
+          948,
+          960,
+          995,
+          961,
+          958,
+          959,
+          958,
+          957,
+          963,
+          971,
+          991,
+          977,
+          993,
+          960,
+          1101,
+          989,
+          1061,
+          1175,
+          962,
+          975,
+          967,
+          966,
+          966,
+          968,
+          974,
+          963,
+          961,
+          994,
+          963,
+          966,
+          963,
+          977,
+          960,
+          959,
+          962,
+          961,
+          960,
+          964,
+          964,
+          961,
+          952
+        ],
+        "workerMs": 736
+      }
+    },
+    {
+      "task": "p1-esr1",
+      "analysis": "naive",
+      "mode": "locked",
+      "worker": {
+        "status": "ok",
+        "exitCode": 0,
+        "ms": 741.6864999999525,
+        "dataSource": "effective"
+      },
+      "planStatus": "accepted",
+      "planErrors": 0,
+      "locked": true,
+      "stagingAvailable": true,
+      "executions": [
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        },
+        {
+          "status": "ok",
+          "reason": ""
+        }
+      ],
+      "claims": [
+        {
+          "id": "primary",
+          "kind": "effect-exists",
+          "planned": true,
+          "status": "insufficient-evidence",
+          "taskStatus": "insufficient-evidence",
+          "outcome": "supported",
+          "gates": {
+            "G1": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G1c": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G2": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G3": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "claimed.estimate",
+                "claimed.ci.0",
+                "claimed.ci.1",
+                "look.estimate",
+                "look.p",
+                "rerun.estimate",
+                "rerun.p"
+              ]
+            },
+            "G4": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null,
+              "detail": [
+                "claimed.estimate",
+                "claimed.ci.0",
+                "claimed.ci.1",
+                "look.estimate",
+                "look.p",
+                "rerun.estimate",
+                "rerun.p"
+              ]
+            },
+            "G5a": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-power": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            },
+            "G5b-recovery": {
+              "outcome": "failed",
+              "passed": false,
+              "code": null,
+              "reason": null
+            },
+            "G6": {
+              "outcome": "passed",
+              "passed": true,
+              "code": null,
+              "reason": null
+            }
+          },
+          "kernel": {
+            "status": "reject",
+            "stopping": "monte-carlo-fixed",
+            "guarantee": "model-based: assumptions A1-A4"
+          },
+          "confounding": {
+            "aligned": [],
+            "strong": [],
+            "unhandled": []
+          }
+        }
+      ],
+      "hardStops": [],
+      "warnings": [
+        "B6 code/analysis.py:#: RNG use outside a declared software seed; runtime lineage requires review",
+        "alpha defaulted to the software value #",
+        "family defaulted to \"primary\" (shared Holm family; the conservative default)",
+        "metric key defaulted to the claim id",
+        "no minimum effect of interest: this claim cannot be refuted",
+        "null value defaulted to 0",
+        "unrecognised field kept as a locked knob"
+      ],
+      "timing": {
+        "certifyMs": 294333,
+        "executionMs": [
+          1105,
+          817,
+          821,
+          818,
+          878,
+          1810,
+          970,
+          1005,
+          1041,
+          1057,
+          1024,
+          1043,
+          1032,
+          1051,
+          1035,
+          1032,
+          1047,
+          1035,
+          1039,
+          1027,
+          1031,
+          1027,
+          1030,
+          1037,
+          1032,
+          1038,
+          1032,
+          1021,
+          1039,
+          1040,
+          1029,
+          1034,
+          1035,
+          1033,
+          1031,
+          1021,
+          1033,
+          1032,
+          1037,
+          1017,
+          1038,
+          1041,
+          1047,
+          1041,
+          1031,
+          1045,
+          1029,
+          961,
+          962,
+          961,
+          961,
+          963,
+          963,
+          967,
+          964,
+          955,
+          947,
+          948,
+          966,
+          966,
+          958,
+          962,
+          968,
+          967,
+          950,
+          967,
+          967,
+          963,
+          965,
+          960,
+          959,
+          972,
+          950,
+          961,
+          962,
+          962,
+          959,
+          959,
+          963,
+          965,
+          961,
+          959,
+          955,
+          960,
+          949,
+          958,
+          961,
+          960,
+          946,
+          957,
+          958,
+          961,
+          965,
+          965,
+          1001,
+          963,
+          958,
+          965,
+          960,
+          962,
+          974,
+          965,
+          963,
+          945
+        ],
+        "workerMs": 742
+      }
+    }
+  ],
+  "mismatches": [
+    {
+      "rule": "E3",
+      "task": "p1-esr1",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "primary",
+      "expected": "tentative",
+      "actual": "insufficient-evidence"
+    },
+    {
+      "rule": "E6",
+      "task": "p1-esr1",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "primary",
+      "expected": "G3 not failed",
+      "actual": "G3 failed"
+    },
+    {
+      "rule": "E6",
+      "task": "p1-esr1",
+      "analysis": "reference",
+      "mode": "locked",
+      "claim": "primary",
+      "expected": "G4 not failed",
+      "actual": "G4 failed"
+    }
+  ]
+}

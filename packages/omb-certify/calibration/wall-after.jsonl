@@ -1,0 +1,3 @@
+{"version":"V2d","design":"balanced","wallMs":555.1755420000001,"jobs":{"look":1,"rerun":1,"simulationRequests":102},"status":"tentative","warnings":[]}
+{"version":"V2d","design":"offset","wallMs":212.46925,"jobs":{"look":1,"rerun":1,"simulationRequests":102},"status":"tentative","warnings":[]}
+{"version":"V2d","design":"repeated","wallMs":2581.070792,"jobs":{"look":1,"rerun":1,"simulationRequests":102},"status":"tentative","warnings":[]}

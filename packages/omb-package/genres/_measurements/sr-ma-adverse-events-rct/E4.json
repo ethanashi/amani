@@ -1,0 +1,236 @@
+{
+ "pmcid": "PMC7613583",
+ "doi": "10.1016/S0140-6736(22)01545-8",
+ "pmid": "36049498",
+ "journal": "Lancet (London, England)",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 17,
+ "licence": "CC BY",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods",
+    "Findings",
+    "Interpretation",
+    "Funding"
+   ],
+   "words": 489
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 580
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 973,
+   "sub": [
+    {
+     "heading": "Search strategy and selection criteria",
+     "canonical": "other",
+     "words": 231
+    },
+    {
+     "heading": "Statistical analysis",
+     "canonical": "other",
+     "words": 720
+    },
+    {
+     "heading": "Role of the funding source",
+     "canonical": "other",
+     "words": 22
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1626
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1925
+  },
+  {
+   "heading": "Data sharing",
+   "canonical": "data_availability",
+   "words": 70
+  },
+  {
+   "heading": "Declaration of interests",
+   "canonical": "competing_interests",
+   "words": 104
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 124,
+   "sub": [
+    {
+     "heading": "Acknowledgments",
+     "canonical": "acknowledgements",
+     "words": 124
+    }
+   ]
+  },
+  {
+   "heading": "Cholesterol Treatment Trialists’ Collaborators",
+   "canonical": "other",
+   "words": 646,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Contributors",
+   "canonical": "contributions",
+   "words": 115
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 292,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary Material",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 70,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 70
+    }
+   ]
+  }
+ ],
+ "back_sections": [],
+ "section_word_totals": {
+  "introduction": 580,
+  "methods": 973,
+  "results": 1626,
+  "discussion": 1925,
+  "data_availability": 70,
+  "competing_interests": 104,
+  "acknowledgements": 124,
+  "other_back": 938,
+  "contributions": 115,
+  "supplementary": 70,
+  "references": 0
+ },
+ "main_text_words": 5104,
+ "main_text_words_excluding_methods": 4131,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  }
+ ],
+ "boxes": 5,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": ""
+  }
+ ],
+ "references": 53,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "arthritis"
+ ]
+}

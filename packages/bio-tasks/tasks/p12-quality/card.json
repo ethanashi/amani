@@ -1,0 +1,20 @@
+{
+  "id": "p12-quality",
+  "family": "planted-flaw",
+  "datasetManifestHash": "ed7f9dddf52160f6a4f6177996298a92fb2b5fb37c555ce2424c023509929855",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p12-quality/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.02,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": true,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 51212,
+  "capMinutes": 10,
+  "contaminated": false
+}

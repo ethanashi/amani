@@ -1,0 +1,117 @@
+[
+  {
+    "name": "adjustText",
+    "version": "1.4.0",
+    "license": "MIT"
+  },
+  {
+    "name": "contourpy",
+    "version": "1.4.0",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "fonttools",
+    "version": "4.66.1",
+    "license": "MIT"
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.5.1",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "legendkit",
+    "version": "0.5.2",
+    "license": "MIT"
+  },
+  {
+    "name": "marsilea",
+    "version": "0.8.1",
+    "license": "MIT"
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.11.2",
+    "license": "LicenseRef-Matplotlib"
+  },
+  {
+    "name": "numpy",
+    "version": "2.5.4",
+    "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0"
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license": "Apache-2.0 OR BSD-2-Clause"
+  },
+  {
+    "name": "pandas",
+    "version": "3.0.6",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "license": "MIT-CMU"
+  },
+  {
+    "name": "pip",
+    "version": "26.1.1",
+    "license": "MIT"
+  },
+  {
+    "name": "pip-licenses",
+    "version": "5.5.0",
+    "license": "MIT"
+  },
+  {
+    "name": "platformdirs",
+    "version": "4.13.0",
+    "license": "MIT"
+  },
+  {
+    "name": "prettytable",
+    "version": "3.18.0",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "pyarrow",
+    "version": "26.0.0",
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.3.3",
+    "license": "MIT"
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "license": "Apache-2.0 OR BSD-3-Clause"
+  },
+  {
+    "name": "scipy",
+    "version": "1.18.1",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "seaborn",
+    "version": "0.13.2",
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "license": "MIT"
+  },
+  {
+    "name": "wcwidth",
+    "version": "0.9.2",
+    "license": "MIT"
+  }
+]

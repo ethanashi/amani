@@ -1,0 +1,189 @@
+[
+  {
+    "guard": "R1 value normalization",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1 canonical identity: NFKC, whitespace, zero width, casefold and numeric zeroes",
+      "AssertionError: expected ' Ｐ-０００１​ A ' to be 'p-1a' // Object.is equality"
+    ]
+  },
+  {
+    "guard": "R1 content identity",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column individual cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column Patient ID cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column patient.id cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column animal cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column case_id cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column mouse_id cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column patient_id  cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column pati​ent cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column pаtient cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column mrn cannot split patients",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A8 arbitrary biological ID column weird cannot split patients",
+      "AssertionError: expected [Function] to throw an error",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1 content identity survives missing and mixed string/integer cells",
+      "AssertionError: expected [Function] to throw an error"
+    ]
+  },
+  {
+    "guard": "R1 cross-table links",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A13 cross-table values match despite header PatientID",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A13 cross-table values match despite header patient",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A13 cross-table values match despite header patientid",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A13 cross-table values match despite header participant_id",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A13 cross-table values match despite header donor",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A13 cross-table values match despite header mrn",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A13 cross-table values match despite header Patient ID",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A13 cross-table values match despite header patient-id",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1/A13 cross-table values match despite header patient_id ",
+      "AssertionError: expected [Function] to throw an error",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1 split manifest joins non-declared ID columns by value",
+      "AssertionError: expected [Function] to throw an error",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R1 TCGA barcode containment and local numbering ambiguity are refused",
+      "AssertionError: expected [Function] to throw an error"
+    ]
+  },
+  {
+    "guard": "R2 stable permutation",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R2/A1 constant 1000000 has p=1 and exactly zero estimate in both branches",
+      "AssertionError: expected 0.03125 to be 1 // Object.is equality"
+    ]
+  },
+  {
+    "guard": "R2 outcome magnitude",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R2 label and adjusted permutation decisions are invariant to outcome magnitude",
+      "AssertionError: expected 0.495 to be 0.08 // Object.is equality"
+    ]
+  },
+  {
+    "guard": "R2 numeric tolerance",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R2 display precision accepts 3+ significant digits without a scale floor",
+      "AssertionError: expected false to be true // Object.is equality"
+    ]
+  },
+  {
+    "guard": "R3 assumption cap",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R3 C repeated null 0 cannot reach Confirmed with authentic top gates",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R3 C repeated null 0.5 cannot reach Confirmed with authentic top gates",
+      "AssertionError: expected '12 software effective unit(s), none r…' to contain 'model-based'"
+    ]
+  },
+  {
+    "guard": "R3 null stress",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R3 G5a twins contain unequal shapes, condition variances and serial dependence",
+      "AssertionError: expected [ +0, +0, 1, 1, +0, +0, +0, +0, …(52) ] to deeply equal [ 1, +0, +0, 1, +0, +0, 1, +0, …(52) ]"
+    ]
+  },
+  {
+    "guard": "R4 skill and support",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R4 A12 rare-event no-skill net-benefit cannot pass G9",
+      "AssertionError: expected 'passed' to be 'failed' // Object.is equality",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R4 A12 rare-event no-skill brier cannot pass G9",
+      "AssertionError: expected 0.465 to be 1 // Object.is equality",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R4 shuffled predictions directly reject no skill despite adequate event support",
+      "TypeError: Cannot read properties of undefined (reading 'decisionP')"
+    ]
+  },
+  {
+    "guard": "R4 unavailable randomization",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R4 unavailable rare-event randomization never earns a passed G5a through certifyDirectory",
+      "AssertionError: expected 'passed' to be 'not-run' // Object.is equality"
+    ]
+  },
+  {
+    "guard": "R5 duplicate facts",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > real certifyDirectory R2/R5/R6 guard: duplicate",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > real certifyDirectory R2/R5/R6 guard: near",
+      "AssertionError: expected 'passed' to be 'failed' // Object.is equality"
+    ]
+  },
+  {
+    "guard": "R6 method verification",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest kernel p accepted when locked test is linear",
+      "AssertionError: expected [ 'p/estimate/SE inconsistency' ] to deeply equal []",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest  Kernel  p accepted when locked test is linear",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest permutation p accepted when locked test is linear",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest randomization p accepted when locked test is linear",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest exact p accepted when locked test is linear",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest sign-flip p accepted when locked test is linear",
+      "AssertionError: expected [ 'unsupported p method', …(2) ] to deeply equal []",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest Student p accepted when locked test is linear",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest student-t p accepted when locked test is linear",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest pooled p accepted when locked test is linear",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest t-test p accepted when locked test is linear",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest welch p accepted when locked test is linear",
+      " FAIL  packages/omb-certify/test/v2d-regressions.test.ts > R6 honest Welch t-test p accepted when locked test is linear",
+      "AssertionError: expected [ 'unsupported p method' ] to deeply equal []"
+    ]
+  },
+  {
+    "guard": "R7 fresh census",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-runtime.test.ts > R7 fresh census: fork handoff, transient churn, aggregate budget and exact clean-pass boundary",
+      "AssertionError: expected [ '0:0:1:0:0', '1:0:1:0:0', …(6) ] to deeply equal [ '0:0:2:0:0', '1:-18:512:0:0', …(6) ]"
+    ]
+  },
+  {
+    "guard": "R7 cooperative fresh pass",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/v2d-runtime.test.ts > R7 fresh census: fork handoff, transient churn, aggregate budget and exact clean-pass boundary",
+      "AssertionError: expected [ '0:0:2:0:0', '1:-18:512:0:0', …(6) ] to deeply equal [ '0:0:2:0:0', '1:-18:512:0:0', …(6) ]"
+    ]
+  },
+  {
+    "guard": "R8 executor deadline dependency",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-certify/test/execution.test.ts > R8 executor deadline is injected at the worker-ready boundary",
+      "AssertionError: expected false to be true // Object.is equality"
+    ]
+  },
+  {
+    "guard": "R8 deadline scheduler",
+    "caught": true,
+    "exit": 1,
+    "failures": [
+      " FAIL  packages/omb-adapters/test/process.test.ts > injected deadline expires exactly at a worker output boundary, not host startup time",
+      "AssertionError: expected '' to be 'ready' // Object.is equality"
+    ]
+  }
+]

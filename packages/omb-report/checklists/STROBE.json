@@ -1,0 +1,385 @@
+{
+  "name": "STROBE",
+  "version": "2007-combined",
+  "attribution": "von Elm et al. STROBE statement (2007). Prompts are original summaries.",
+  "source": "https://www.strobe-statement.org/checklists/",
+  "wording": "original-prompts",
+  "items": [
+    {
+      "id": "1a",
+      "prompt": "Design in title",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "design",
+        "title"
+      ],
+      "evidenceGroup": "1"
+    },
+    {
+      "id": "1b",
+      "prompt": "Balanced abstract",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "balanced",
+        "abstract"
+      ],
+      "evidenceGroup": "1"
+    },
+    {
+      "id": "2",
+      "prompt": "Scientific rationale",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "scientific",
+        "rationale"
+      ],
+      "evidenceGroup": "2"
+    },
+    {
+      "id": "3",
+      "prompt": "Planned objectives",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "planned",
+        "objectives"
+      ],
+      "evidenceGroup": "3"
+    },
+    {
+      "id": "4",
+      "prompt": "Study architecture",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "study",
+        "architecture"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "5",
+      "prompt": "Places and dates",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "places",
+        "dates"
+      ],
+      "evidenceGroup": "5"
+    },
+    {
+      "id": "6a",
+      "prompt": "Selection criteria",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "selection",
+        "criteria"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "6b",
+      "prompt": "Matching details",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "matching",
+        "details"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "7",
+      "prompt": "Variable definitions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "variable",
+        "definitions"
+      ],
+      "evidenceGroup": "7"
+    },
+    {
+      "id": "8",
+      "prompt": "Measurement sources",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "measurement",
+        "sources"
+      ],
+      "evidenceGroup": "8"
+    },
+    {
+      "id": "9",
+      "prompt": "Bias safeguards",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "bias",
+        "safeguards"
+      ],
+      "evidenceGroup": "9"
+    },
+    {
+      "id": "10",
+      "prompt": "Size rationale",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "size",
+        "rationale"
+      ],
+      "evidenceGroup": "10"
+    },
+    {
+      "id": "11",
+      "prompt": "Quantitative handling",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "quantitative",
+        "handling"
+      ],
+      "evidenceGroup": "11"
+    },
+    {
+      "id": "12a",
+      "prompt": "Statistical approach",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "statistical",
+        "approach"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12b",
+      "prompt": "Interactions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "interactions"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12c",
+      "prompt": "Missingness handling",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "missingness",
+        "handling"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12d",
+      "prompt": "Design-specific analysis",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "design",
+        "specific",
+        "analysis"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12e",
+      "prompt": "Sensitivity methods",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "sensitivity",
+        "methods"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "13a",
+      "prompt": "Participant counts",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "participant",
+        "counts"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "13b",
+      "prompt": "Exclusion reasons",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "exclusion",
+        "reasons"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "13c",
+      "prompt": "Flow chart",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "flow",
+        "chart"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "14a",
+      "prompt": "Participant profile",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "participant",
+        "profile"
+      ],
+      "evidenceGroup": "14"
+    },
+    {
+      "id": "14b",
+      "prompt": "Missingness counts",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "missingness",
+        "counts"
+      ],
+      "evidenceGroup": "14"
+    },
+    {
+      "id": "14c",
+      "prompt": "Follow-up duration",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "follow",
+        "up",
+        "duration"
+      ],
+      "evidenceGroup": "14"
+    },
+    {
+      "id": "15",
+      "prompt": "Outcome counts",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "outcome",
+        "counts"
+      ],
+      "evidenceGroup": "15"
+    },
+    {
+      "id": "16a",
+      "prompt": "Crude and adjusted effects",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "crude",
+        "adjusted",
+        "effects"
+      ],
+      "evidenceGroup": "16"
+    },
+    {
+      "id": "16b",
+      "prompt": "Category boundaries",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "category",
+        "boundaries"
+      ],
+      "evidenceGroup": "16"
+    },
+    {
+      "id": "16c",
+      "prompt": "Absolute risk translation",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "absolute",
+        "risk",
+        "translation"
+      ],
+      "evidenceGroup": "16"
+    },
+    {
+      "id": "17",
+      "prompt": "Additional analyses",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "additional",
+        "analyses"
+      ],
+      "evidenceGroup": "17"
+    },
+    {
+      "id": "18",
+      "prompt": "Objectives revisited",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "objectives",
+        "revisited"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "19",
+      "prompt": "Bias and uncertainty",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "bias",
+        "uncertainty"
+      ],
+      "evidenceGroup": "19"
+    },
+    {
+      "id": "20",
+      "prompt": "Cautious interpretation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "cautious",
+        "interpretation"
+      ],
+      "evidenceGroup": "20"
+    },
+    {
+      "id": "21",
+      "prompt": "Transferability",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "transferability"
+      ],
+      "evidenceGroup": "21"
+    },
+    {
+      "id": "22",
+      "prompt": "Funder involvement",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "funder",
+        "involvement"
+      ],
+      "evidenceGroup": "22"
+    }
+  ]
+}

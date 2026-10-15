@@ -1,0 +1,140 @@
+[
+  {
+    "name": "directory-gate",
+    "killed": true,
+    "failedAssertions": 2,
+    "exitCode": 1
+  },
+  {
+    "name": "failed-diagnostic",
+    "killed": true,
+    "failedAssertions": 6,
+    "exitCode": 1
+  },
+  {
+    "name": "mandatory-not-evaluable",
+    "killed": true,
+    "failedAssertions": 2,
+    "exitCode": 1
+  },
+  {
+    "name": "missing-diagnostic",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "blocked-alternative",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "ancestor-block",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "metadata-block",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "official-reroute",
+    "killed": true,
+    "failedAssertions": 6,
+    "exitCode": 1
+  },
+  {
+    "name": "per-variant-SE",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "distinct-H3",
+    "killed": true,
+    "failedAssertions": 4,
+    "exitCode": 1
+  },
+  {
+    "name": "prior-SD",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "marginal-filter",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "collinearity",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "conditioning-variance",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "conditioning-effect",
+    "killed": true,
+    "failedAssertions": 3,
+    "exitCode": 1
+  },
+  {
+    "name": "rare-rare-mask",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "mask-frequency-limit",
+    "killed": true,
+    "failedAssertions": 2,
+    "exitCode": 1
+  },
+  {
+    "name": "mask-other-signals",
+    "killed": true,
+    "failedAssertions": 2,
+    "exitCode": 1
+  },
+  {
+    "name": "method-sensitive",
+    "killed": true,
+    "failedAssertions": 3,
+    "exitCode": 1
+  },
+  {
+    "name": "ld-screen",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  },
+  {
+    "name": "multi-signal-diagnostic",
+    "killed": true,
+    "failedAssertions": 3,
+    "exitCode": 1
+  },
+  {
+    "name": "cap-refusal",
+    "killed": true,
+    "failedAssertions": 2,
+    "exitCode": 1
+  },
+  {
+    "name": "nested-invalid-mask",
+    "killed": true,
+    "failedAssertions": 1,
+    "exitCode": 1
+  }
+]

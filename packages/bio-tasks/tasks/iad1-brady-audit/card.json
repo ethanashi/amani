@@ -1,0 +1,18 @@
+{
+  "id": "iad1-brady-audit",
+  "family": "reproduction",
+  "datasetManifestHash": "273bbe6b0e347c3c52dfcd12bde98bd7174aa6f517e8d7963317f4638c5d9c8f",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/iad1-brady-audit/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.005,
+    "relative": 0
+  },
+  "plantedFlaws": [],
+  "negativeControl": true,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 4172093,
+  "capMinutes": 30,
+  "contaminated": true
+}

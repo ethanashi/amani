@@ -1,0 +1,355 @@
+{
+ "pmcid": "PMC12328209",
+ "doi": "10.1038/s41592-025-02748-6",
+ "pmid": "40721871",
+ "journal": "Nature Methods",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Article"
+ ],
+ "title_words": 10,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 131
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 16
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Main",
+   "canonical": "other",
+   "words": 585,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1943,
+   "sub": [
+    {
+     "heading": "GeneAgent workflow",
+     "canonical": "other",
+     "words": 273
+    },
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    },
+    {
+     "heading": "GeneAgent outperforms the standard GPT-4 in benchmarks",
+     "canonical": "other",
+     "words": 413
+    },
+    {
+     "heading": "GeneAgent generates process names closer to ground truth",
+     "canonical": "other",
+     "words": 276
+    },
+    {
+     "heading": "GeneAgent generates an informative gene function summary",
+     "canonical": "other",
+     "words": 232
+    },
+    {
+     "heading": "GeneAgent mitigates hallucinations by self-verification",
+     "canonical": "other",
+     "words": 322
+    },
+    {
+     "heading": "GeneAgent offers insightful explanations for novel gene sets",
+     "canonical": "other",
+     "words": 427
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 598,
+   "sub": [
+    {
+     "heading": "Self-verification in GeneAgent",
+     "canonical": "other",
+     "words": 129
+    },
+    {
+     "heading": "GeneAgent versus GSEA",
+     "canonical": "other",
+     "words": 138
+    },
+    {
+     "heading": "Importance of expert-curated domain databases",
+     "canonical": "other",
+     "words": 112
+    },
+    {
+     "heading": "Error analysis",
+     "canonical": "other",
+     "words": 101
+    },
+    {
+     "heading": "Limitations",
+     "canonical": "limitations",
+     "words": 118
+    }
+   ]
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 2921,
+   "sub": [
+    {
+     "heading": "Model setting and data collection",
+     "canonical": "other",
+     "words": 210
+    },
+    {
+     "heading": "Overview of GeneAgent",
+     "canonical": "other",
+     "words": 188
+    },
+    {
+     "heading": "Pipeline of generating prominent biological process names",
+     "canonical": "other",
+     "words": 804
+    },
+    {
+     "heading": "Domain-specific databases configured in the selfVeri-Agent",
+     "canonical": "other",
+     "words": 323
+    },
+    {
+     "heading": "Calculation of ROUGE score",
+     "canonical": "other",
+     "words": 70
+    },
+    {
+     "heading": "Calculation of semantic similarity",
+     "canonical": "other",
+     "words": 395
+    },
+    {
+     "heading": "Calculation of hierarchical semantic similarity",
+     "canonical": "other",
+     "words": 116
+    },
+    {
+     "heading": "Pipeline of enrichment term test using verification reports",
+     "canonical": "other",
+     "words": 160
+    },
+    {
+     "heading": "Human checking for the decisions of selfVeri-Agent",
+     "canonical": "other",
+     "words": 214
+    },
+    {
+     "heading": "Melanoma gene sets in the preclinical study",
+     "canonical": "other",
+     "words": 244
+    },
+    {
+     "heading": "Human annotation for outputs in the case study",
+     "canonical": "other",
+     "words": 180
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "Online content",
+   "canonical": "other",
+   "words": 36,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Source data",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 16
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 38
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 0
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 0
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 585,
+  "results": 1943,
+  "discussion": 598,
+  "methods": 2921,
+  "other_back": 36,
+  "supplementary": 0
+ },
+ "main_text_words": 6047,
+ "main_text_words_excluding_methods": 3126,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 118
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 5,
+ "tables_main": 3,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  },
+  {
+   "label": "Table 3"
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 10,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 59,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

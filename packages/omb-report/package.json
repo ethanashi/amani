@@ -1,0 +1,12 @@
+{
+  "name": "@omerta-bio/paper-report",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "test": "nice -n 10 vitest run --root ../.. packages/omb-report --maxWorkers=1 --no-file-parallelism --no-isolate",
+    "mutate": "nice -n 10 node scripts/mutate.ts"
+  },
+  "license": "AGPL-3.0-only"
+}

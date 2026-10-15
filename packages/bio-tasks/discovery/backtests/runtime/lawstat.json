@@ -1,0 +1,1 @@
+{"name":"lawstat","version":"3.4","url":"https://cran.r-project.org/src/contrib/Archive/lawstat/lawstat_3.4.tar.gz","sha256":"411d0bb84e42140eb944ced36261119528aae1c330fd884c96987687352d3dff","licence":"GPL-2-or-later","installation":"R CMD INSTALL after pixi install --frozen"}

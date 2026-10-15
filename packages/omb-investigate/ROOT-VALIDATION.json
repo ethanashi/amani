@@ -1,0 +1,36 @@
+{
+  "block": "V7-wire",
+  "date": "2026-10-12",
+  "command": "nice -n 15 npx vitest run --maxWorkers=2 (repo root, Node 24, private BIO_GRADING_ROOT; _logs/INTEGRATING absent, waited 0 s)",
+  "result": {
+    "testFiles": {
+      "passed": 324,
+      "failed": 3,
+      "skipped": 7,
+      "total": 334
+    },
+    "tests": {
+      "passed": 4999,
+      "failed": 3,
+      "skipped": 15,
+      "total": 5017
+    },
+    "durationSeconds": 192.86
+  },
+  "failedFiles": [
+    {
+      "file": "packages/bio-bench/test/pilot.test.ts",
+      "cause": "Python pilot suite: fake-arm fixtures call execution_env without a locked dry-run plan; refused by the existing guard in bio-tasks/pilot/pilot.py ('fake arms require a locked dry-run plan'); same failure as the V7-fix2 root run"
+    },
+    {
+      "file": "packages/bio-bench/test/pilot-refusal.test.ts",
+      "cause": "same pilot dry-run guard (31 errors, 1 follow-on failure)"
+    },
+    {
+      "file": "packages/bio-tasks/test/python.test.ts",
+      "cause": "test_realdata p16 early-exit receipt: KeyError 'first_exit' in the bio-tasks Python harness"
+    }
+  ],
+  "omb-investigate": "all package files passed in the root run (kernel opt-in test skipped); none of the failing files imports omb-investigate; no external file was modified",
+  "packageSuite": "npx vitest run packages/omb-investigate --maxWorkers=2: 154 passed, 1 skipped (opt-in real kernel), 31 files, 7.65 s at load 11-13"
+}

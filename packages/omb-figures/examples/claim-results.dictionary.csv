@@ -1,0 +1,12 @@
+column,type,unit,source
+claim_id,string,,CertifiedClaim.id; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+row_label,string,,table spec row label (template); formula-leading text is prefixed with an apostrophe for spreadsheet safety
+status,string,,CertifiedClaim.status; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+statistic,string,,template: statistic name; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+value,number,see unit column,CertifiedFact.value (full precision)
+unit,string,,CertifiedFact.unit; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+ci_level,number,proportion,CertifiedFact.ciLevel (interval level; empty when not an interval bound)
+display,string,,"decision-preserving formatter output, as printed; formula-leading text is prefixed with an apostrophe for spreadsheet safety"
+grade,string,,"CertifiedFact.grade (kernel, exec, unverified, published); formula-leading text is prefixed with an apostrophe for spreadsheet safety"
+fact_id,string,,CertifiedFact.id; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+source_record_id,string,,CertifiedFact.sourceRecordId; formula-leading text is prefixed with an apostrophe for spreadsheet safety

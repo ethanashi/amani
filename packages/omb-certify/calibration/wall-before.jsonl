@@ -1,0 +1,3 @@
+{"version":"V2c","design":"balanced","wallMs":1573.6464580000002,"jobs":{"look":1,"rerun":1,"simulationRequests":102},"status":"tentative","warnings":[]}
+{"version":"V2c","design":"offset","wallMs":894.3944999999999,"jobs":{"look":1,"rerun":1,"simulationRequests":102},"status":"tentative","warnings":[]}
+{"version":"V2c","design":"repeated","wallMs":13740.838249999999,"jobs":{"look":1,"rerun":1,"simulationRequests":102},"status":"tentative","warnings":[]}

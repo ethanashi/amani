@@ -1,0 +1,375 @@
+{
+ "pmcid": "PMC9751287",
+ "doi": "10.1038/s41467-022-35378-z",
+ "pmid": "36517508",
+ "journal": "Nature Communications",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Article"
+ ],
+ "title_words": 10,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 146
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 46
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 599
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3301,
+   "sub": [
+    {
+     "heading": "SLIdR workflow",
+     "canonical": "other",
+     "words": 301
+    },
+    {
+     "heading": "Enrichment of pan-cancer SL interactions by SLIdR",
+     "canonical": "other",
+     "words": 692
+    },
+    {
+     "heading": "Enrichment of cancer type-specific SL interactions by SLIdR",
+     "canonical": "other",
+     "words": 491
+    },
+    {
+     "heading": "SLIdR outperforms conventional tests for SL prediction",
+     "canonical": "other",
+     "words": 376
+    },
+    {
+     "heading": "SLIdR recovers experimentally identified SL interactions",
+     "canonical": "other",
+     "words": 231
+    },
+    {
+     "heading": "SLIdR identified two putative targets in hepatocellular carcinoma",
+     "canonical": "other",
+     "words": 723
+    },
+    {
+     "heading": "Integration with CRISPR data",
+     "canonical": "other",
+     "words": 487
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 931
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 4647,
+   "sub": [
+    {
+     "heading": "Primary screening data",
+     "canonical": "other",
+     "words": 34
+    },
+    {
+     "heading": "Viability data from Project DRIVE",
+     "canonical": "other",
+     "words": 238
+    },
+    {
+     "heading": "Mutation and copy number data",
+     "canonical": "other",
+     "words": 237
+    },
+    {
+     "heading": "SLIdR algorithm",
+     "canonical": "other",
+     "words": 583
+    },
+    {
+     "heading": "Multiple testing",
+     "canonical": "other",
+     "words": 128
+    },
+    {
+     "heading": "Causal inference",
+     "canonical": "other",
+     "words": 464
+    },
+    {
+     "heading": "Simulation Study",
+     "canonical": "other",
+     "words": 559
+    },
+    {
+     "heading": "Comparison of experimentally identified SL interactions",
+     "canonical": "other",
+     "words": 165
+    },
+    {
+     "heading": "Validation on PRISM dataset",
+     "canonical": "other",
+     "words": 185
+    },
+    {
+     "heading": "Control experiments on PRISM screen",
+     "canonical": "other",
+     "words": 253
+    },
+    {
+     "heading": "SLIdR on CRISPR dataset",
+     "canonical": "other",
+     "words": 321
+    },
+    {
+     "heading": "Cell lines maintenance",
+     "canonical": "other",
+     "words": 96
+    },
+    {
+     "heading": "Transient gene knockdown by siRNAs",
+     "canonical": "other",
+     "words": 146
+    },
+    {
+     "heading": "Transient",
+     "canonical": "other",
+     "words": 39
+    },
+    {
+     "heading": "RNA extraction and relative expression by qRT-PCR",
+     "canonical": "other",
+     "words": 152
+    },
+    {
+     "heading": "Proliferation assay",
+     "canonical": "other",
+     "words": 137
+    },
+    {
+     "heading": "Drug treatment",
+     "canonical": "other",
+     "words": 100
+    },
+    {
+     "heading": "Apoptosis analysis by flow cytometry",
+     "canonical": "other",
+     "words": 127
+    },
+    {
+     "heading": "Immunoblot",
+     "canonical": "other",
+     "words": 177
+    },
+    {
+     "heading": "Chorioallantoic membrane (CAM)",
+     "canonical": "other",
+     "words": 322
+    },
+    {
+     "heading": "Statistics and reproducibility",
+     "canonical": "other",
+     "words": 167
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 38
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 0
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 0
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 599,
+  "results": 3301,
+  "discussion": 931,
+  "methods": 4647,
+  "supplementary": 0
+ },
+ "main_text_words": 9478,
+ "main_text_words_excluding_methods": 4831,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 5,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "heatmap"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 10,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 73,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": true,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "pancreatic"
+ ]
+}

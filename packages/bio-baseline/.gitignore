@@ -1,0 +1,8 @@
+.pixi/
+__pycache__/
+*.pyc
+# grading re-runs write here; never commit
+grading/runs/
+# The repo-root .gitignore ignores *.log; keep the arm/grader run logs under results/ as
+# committed error evidence (this .gitignore is closest to the files, so its negation wins).
+!results/**/*.log

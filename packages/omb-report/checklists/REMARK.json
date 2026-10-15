@@ -1,0 +1,231 @@
+{
+  "name": "REMARK",
+  "version": "2005",
+  "attribution": "McShane et al. REMARK (2005); Altman et al. explanation (2012). Original prompts; no verbatim checklist text.",
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3362748/",
+  "wording": "original-prompts",
+  "items": [
+    {
+      "id": "1",
+      "prompt": "Marker hypotheses",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "marker",
+        "hypotheses"
+      ],
+      "evidenceGroup": "1"
+    },
+    {
+      "id": "2",
+      "prompt": "Patient selection",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "patient",
+        "selection"
+      ],
+      "evidenceGroup": "2"
+    },
+    {
+      "id": "3",
+      "prompt": "Treatment assignment",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "treatment",
+        "assignment"
+      ],
+      "evidenceGroup": "3"
+    },
+    {
+      "id": "4",
+      "prompt": "Specimen handling",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "specimen",
+        "handling"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "5",
+      "prompt": "Assay reproducibility",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "assay",
+        "reproducibility"
+      ],
+      "evidenceGroup": "5"
+    },
+    {
+      "id": "6",
+      "prompt": "Case sampling",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "case",
+        "sampling"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "7",
+      "prompt": "Follow-up dates",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "follow",
+        "up",
+        "dates"
+      ],
+      "evidenceGroup": "7"
+    },
+    {
+      "id": "8",
+      "prompt": "Endpoint definitions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "endpoint",
+        "definitions"
+      ],
+      "evidenceGroup": "8"
+    },
+    {
+      "id": "9",
+      "prompt": "Size rationale",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "size",
+        "rationale"
+      ],
+      "evidenceGroup": "9"
+    },
+    {
+      "id": "10",
+      "prompt": "Statistical methods",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "statistical",
+        "methods"
+      ],
+      "evidenceGroup": "10"
+    },
+    {
+      "id": "11",
+      "prompt": "Participant flow",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "participant",
+        "flow"
+      ],
+      "evidenceGroup": "11"
+    },
+    {
+      "id": "12",
+      "prompt": "Patient profiles",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "patient",
+        "profiles"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "13",
+      "prompt": "Marker relationships",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "marker",
+        "relationships"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "14",
+      "prompt": "Univariable findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "univariable",
+        "findings"
+      ],
+      "evidenceGroup": "14"
+    },
+    {
+      "id": "15",
+      "prompt": "Multivariable findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "multivariable",
+        "findings"
+      ],
+      "evidenceGroup": "15"
+    },
+    {
+      "id": "16",
+      "prompt": "Standard-variable model",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "standard",
+        "variable",
+        "model"
+      ],
+      "evidenceGroup": "16"
+    },
+    {
+      "id": "17",
+      "prompt": "Model assumptions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "model",
+        "assumptions"
+      ],
+      "evidenceGroup": "17"
+    },
+    {
+      "id": "18",
+      "prompt": "Sensitivity findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "sensitivity",
+        "findings"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "19",
+      "prompt": "Interpretation and limits",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "interpretation",
+        "limits"
+      ],
+      "evidenceGroup": "19"
+    },
+    {
+      "id": "20",
+      "prompt": "Research implications",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "research",
+        "implications"
+      ],
+      "evidenceGroup": "20"
+    }
+  ]
+}

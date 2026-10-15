@@ -1,0 +1,21 @@
+[
+  "packages/bio-tasks/tasks/p1-esr1/method.py",
+  "packages/bio-tasks/tasks/p1-esr1/stage_support.py",
+  "packages/bio-tasks/tasks/p1-esr1/reference_support.py",
+  "packages/bio-tasks/tasks/p1-esr1/check_support.py",
+  "packages/bio-tasks/tasks/p1-esr1/source-data.tsv",
+  "packages/bio-tasks/tasks/p1-esr1/provenance.json",
+  "packages/bio-tasks/tasks/p1-esr1/extract.py",
+  "packages/bio-tasks/tasks/p16-recovery/recovery.py",
+  "packages/bio-tasks/tasks/p16-recovery/recovery-common.sh",
+  "packages/bio-tasks/tasks/p16-recovery/run-codex.sh",
+  "packages/bio-tasks/tasks/p16-recovery/run-claude.sh",
+  "packages/bio-tasks/tasks/p16-recovery/run-omerta.sh",
+  "packages/bio-tasks/run-task.sh",
+  "packages/bio-baseline/arms/lib/common.sh",
+  "packages/bio-baseline/arms/lib/run_capped.py",
+  "packages/bio-baseline/arms/lib/operation.py",
+  "packages/bio-tasks/lib/biotasks/recovery_grade.py",
+  "packages/bio-tasks/lib/biotasks/cli.py",
+  "packages/bio-tasks/grade-task.sh"
+]

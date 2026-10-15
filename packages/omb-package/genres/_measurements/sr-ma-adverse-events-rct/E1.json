@@ -1,0 +1,260 @@
+{
+ "pmcid": "PMC9020216",
+ "doi": "10.1001/jamanetworkopen.2022.7722",
+ "pmid": "35438755",
+ "journal": "JAMA Network Open",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 9,
+ "licence": "CC-BY",
+ "abstracts": [
+  {
+   "type": "key-points",
+   "structured": true,
+   "headings": [
+    "Question",
+    "Findings",
+    "Meaning"
+   ],
+   "words": 85
+  },
+  {
+   "type": "teaser",
+   "structured": false,
+   "headings": [],
+   "words": 24
+  },
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Importance",
+    "Objective",
+    "Data Sources",
+    "Study Selection",
+    "Data Extraction and Synthesis",
+    "Main Outcomes and Measures",
+    "Results",
+    "Conclusions and Relevance"
+   ],
+   "words": 354
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 279
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 689,
+   "sub": [
+    {
+     "heading": "Data Sources and Study Selection",
+     "canonical": "other",
+     "words": 254
+    },
+    {
+     "heading": "Data Extraction and Quality Assessment",
+     "canonical": "other",
+     "words": 260
+    },
+    {
+     "heading": "Statistical Analysis",
+     "canonical": "other",
+     "words": 175
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1215,
+   "sub": [
+    {
+     "heading": "Eligible Studies and Study Characteristics",
+     "canonical": "other",
+     "words": 272
+    },
+    {
+     "heading": "Overview and Demographics",
+     "canonical": "other",
+     "words": 141
+    },
+    {
+     "heading": "Meta-analysis of the Outcomes",
+     "canonical": "other",
+     "words": 356,
+     "sub": [
+      {
+       "heading": "ICI vs Control Group",
+       "canonical": "other",
+       "words": 356
+      }
+     ]
+    },
+    {
+     "heading": "Subgroup Analysis",
+     "canonical": "other",
+     "words": 446,
+     "sub": [
+      {
+       "heading": "ICI vs Chemotherapy",
+       "canonical": "other",
+       "words": 316
+      },
+      {
+       "heading": "ICI vs Placebo",
+       "canonical": "other",
+       "words": 130
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1022,
+   "sub": [
+    {
+     "heading": "Limitations and Strength",
+     "canonical": "limitations",
+     "words": 204
+    }
+   ]
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 83
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 279,
+  "methods": 689,
+  "results": 1215,
+  "discussion": 1022,
+  "conclusions": 83,
+  "other_back": 0,
+  "references": 0,
+  "supplementary": 0
+ },
+ "main_text_words": 3288,
+ "main_text_words_excluding_methods": 2599,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 204
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "Figure 1.",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Figure 2.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "Table 1."
+  },
+  {
+   "label": "Table 2."
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": "Supplement."
+  }
+ ],
+ "references": 65,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": true,
+  "i2": true,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

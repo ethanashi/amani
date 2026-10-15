@@ -1,0 +1,46 @@
+{
+  "schema": "bio-toolpack/guard-mutations@1",
+  "mutants": [
+    {
+      "guard": "regression-total-n",
+      "test": "test_partial_regression_uses_total_n",
+      "killed": true,
+      "failures": 1,
+      "errors": 0,
+      "runtimeSeconds": 0.152
+    },
+    {
+      "guard": "observed-p-range",
+      "test": "test_observed_invalid_p_never_calibrates",
+      "killed": true,
+      "failures": 1,
+      "errors": 0,
+      "runtimeSeconds": 0.005
+    },
+    {
+      "guard": "family-required",
+      "test": "test_missing_family_is_refused",
+      "killed": true,
+      "failures": 1,
+      "errors": 0,
+      "runtimeSeconds": 0.019
+    },
+    {
+      "guard": "stratum-required",
+      "test": "test_missing_exchangeability_is_refused",
+      "killed": true,
+      "failures": 1,
+      "errors": 0,
+      "runtimeSeconds": 0.002
+    },
+    {
+      "guard": "identifiability-rank",
+      "test": "test_near_collinearity_is_not_nonidentifiability",
+      "killed": true,
+      "failures": 1,
+      "errors": 0,
+      "runtimeSeconds": 0.003
+    }
+  ],
+  "allKilled": true
+}

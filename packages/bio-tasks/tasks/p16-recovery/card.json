@@ -1,0 +1,18 @@
+{
+  "id": "p16-recovery",
+  "family": "recovery",
+  "datasetManifestHash": "89c84c76c81c64e8930ac7db402d148a008c692f86d8bfb201632a5bfd443641",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p16-recovery/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.02,
+    "relative": 0
+  },
+  "plantedFlaws": [],
+  "negativeControl": false,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 51616,
+  "capMinutes": 10,
+  "contaminated": false
+}

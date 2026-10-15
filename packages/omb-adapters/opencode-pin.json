@@ -1,0 +1,7 @@
+{
+  "package": "opencode-ai",
+  "version": "1.19.0",
+  "platform": "darwin-arm64",
+  "path": ".tools/opencode/node_modules/opencode-darwin-arm64/bin/opencode",
+  "sha256": "476151a6c8b56e084d223d71a9312479e3b95547f8d8649b3489577059f9c5b4"
+}

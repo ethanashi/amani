@@ -1,0 +1,1222 @@
+[
+  {
+    "project": "p1",
+    "sourceSha256": "3a5edde4fb89efc638eed3951a27792fe693c3c9140eb6642da7fae9f65d1102",
+    "plans": [
+      {
+        "index": 0,
+        "claims": [
+          {
+            "claimId": "p1_h2a_papers_disclosed_handled",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h2a_papers_evaluable",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h2a_papers_residual_overlap",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h2a_registry_citations",
+            "status": "refused",
+            "reasons": [
+              "citation resolution is provided by the external CIT authority"
+            ]
+          },
+          {
+            "claimId": "p1_h2a_residual_overlap_arrays_total",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "claims": [
+          {
+            "claimId": "p1_h2b_brier_rf",
+            "status": "admitted-shape",
+            "reasons": []
+          },
+          {
+            "claimId": "p1_h2b_brier_ridge",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "claims": [
+          {
+            "claimId": "p1_h2c_auc_pmid38018913",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid38406797",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid38641707",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid38813236",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid38965104",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid40234666",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid40235889",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid41168129",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid41674957",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid41826294",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid42032869",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid42344946",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid42353343",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid42415080",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h2c_auc_pmid42519312",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "claims": [
+          {
+            "claimId": "p1_h1_code_only_total",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_label_discordant_clusters",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_same_array_gse106817",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_same_array_gse112264",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_same_array_gse113486",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_same_array_gse164174",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_same_array_gse73002",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_same_array_universe_total",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_shared_control_clusters",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_undisclosed_series_pairs",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p1_h1_within_series_dup_gse211692",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "claims": [
+          {
+            "claimId": "p1_h4_fp_urabe2",
+            "status": "admitted-shape",
+            "reasons": []
+          },
+          {
+            "claimId": "p1_h4_fp_usuba7",
+            "status": "admitted-shape",
+            "reasons": []
+          },
+          {
+            "claimId": "p1_h4_fp_yokoi1",
+            "status": "admitted-shape",
+            "reasons": []
+          },
+          {
+            "claimId": "p1_h5_mir4429",
+            "status": "admitted-shape",
+            "reasons": []
+          },
+          {
+            "claimId": "p1_h5_mir6511b5p",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "claims": [
+          {
+            "claimId": "p1_h3a_external_sites_auc",
+            "status": "refused",
+            "reasons": [
+              "only frozen held-out paired prediction permutation is admitted; training/CV pipelines need a reviewed producer",
+              "locked performance pack and baselines required"
+            ]
+          },
+          {
+            "claimId": "p1_h3b_ncc_vs_external_auc",
+            "status": "refused",
+            "reasons": [
+              "only frozen held-out paired prediction permutation is admitted; training/CV pipelines need a reviewed producer",
+              "locked performance pack and baselines required"
+            ]
+          },
+          {
+            "claimId": "p1_h4b_auc_gap_urabe2",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h4b_auc_gap_usuba7",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_h4b_auc_gap_yokoi1",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "claims": [
+          {
+            "claimId": "p1_r_urabe2_sens",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_r_urabe2_spec",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_r_usuba7_auc",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p1_r_yokoi1_auc",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "project": "p2",
+    "sourceSha256": "ef146938ddd80f43beafd200ebf6a98cebf163145d52b8e62fc3068e5b99cd96",
+    "plans": [
+      {
+        "index": 0,
+        "claims": [
+          {
+            "claimId": "r1_published_accuracy_from_authors_calls",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: notApplicable, priorKnowledge, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "claims": [
+          {
+            "claimId": "r2_published_sensitivity_from_authors_calls",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: notApplicable, priorKnowledge, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "claims": [
+          {
+            "claimId": "r3_published_specificity_from_authors_calls",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: notApplicable, priorKnowledge, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "claims": [
+          {
+            "claimId": "r4_published_accuracy_from_always_responsive",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: notApplicable, priorKnowledge, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "claims": [
+          {
+            "claimId": "r5_published_mean_auc_from_training_folds",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: notApplicable, priorKnowledge, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "claims": [
+          {
+            "claimId": "r6_published_auc_sd_from_training_folds",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: notApplicable, priorKnowledge, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "claims": [
+          {
+            "claimId": "r7_published_mean_auc_from_heldout_pooled",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: notApplicable, priorKnowledge, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "claims": [
+          {
+            "claimId": "r8_published_mean_auc_from_heldout_cycle_mean",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: notApplicable, priorKnowledge, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "claims": [
+          {
+            "claimId": "r9_published_mean_auc_from_heldout_cycle_weighted",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: notApplicable, priorKnowledge, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "claims": [
+          {
+            "claimId": "i1_scored_rows",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "claims": [
+          {
+            "claimId": "i2_patients",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "claims": [
+          {
+            "claimId": "i3_unscored_rows",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "claims": [
+          {
+            "claimId": "i4_call_contradicts_stated_rule",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "claims": [
+          {
+            "claimId": "i5_psa_zero_placeholders",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "claims": [
+          {
+            "claimId": "i6_zero_blank_in_custodian_file",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "claims": [
+          {
+            "claimId": "i7_correct_calls_equal_responsive_rows",
+            "status": "refused",
+            "reasons": [
+              "integrity hypothesis has no asserted value",
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "claims": [
+          {
+            "claimId": "s1_auc_model_minus_prev_nadir",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, kernelSupport, meiRationale, permutationScheme, priorKnowledge, role, sensitivity, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "claims": [
+          {
+            "claimId": "s2_auc_model_minus_prev_end_psa",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, kernelSupport, permutationScheme, priorKnowledge, role, sensitivity, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "claims": [
+          {
+            "claimId": "s3_accuracy_gain_over_always_responsive",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, estimandDefinition, permutationScheme, priorKnowledge, role, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "claims": [
+          {
+            "claimId": "s4_heldout_auc_above_chance",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, meiRationale, permutationScheme, priorKnowledge, role, sharedKnobsSha256, splits; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "only frozen held-out paired prediction permutation is admitted; training/CV pipelines need a reviewed producer",
+              "locked performance pack and baselines required"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 20,
+        "claims": [
+          {
+            "claimId": "g9a_brier_skill_vs_prevalence",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: alsoReport, ci, permutationScheme, priorKnowledge, role, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "claims": [
+          {
+            "claimId": "g9b_calibration_slope",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: alsoReport, ci, clipRationale, priorKnowledge, role, se, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "claims": [
+          {
+            "claimId": "g9c_net_benefit_vs_treat_none_pt020",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: alsoReport, ci, meiRationale, permutationScheme, priorKnowledge, role, sharedKnobsSha256, thresholdRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "project": "p3",
+    "sourceSha256": "327ab5c5edad0e15976091eb7b17ed45045231f461d44a92e172bd5a425bcab9",
+    "plans": [
+      {
+        "index": 0,
+        "claims": [
+          {
+            "claimId": "p3_i01_v3_n_samples",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p3_i02_v3_n_als",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p3_i03_v3_n_con",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p3_i04_v4_n_samples",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p3_i05_v4_n_als",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p3_i06_v4_n_con",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p3_i07_v4_n_mim",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p3_i08_v3_v4_shared_sample_codes",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p3_i09_rnaseq_n_sals",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          },
+          {
+            "claimId": "p3_i10_rnaseq_n_con",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "claims": [
+          {
+            "claimId": "p3_h1_panel_increment_v4",
+            "status": "admitted-shape",
+            "reasons": []
+          },
+          {
+            "claimId": "p3_h2_panels_vs_random_v4",
+            "status": "refused",
+            "reasons": [
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p3_h3a_own_model_auc_v4",
+            "status": "refused",
+            "reasons": [
+              "only frozen held-out paired prediction permutation is admitted; training/CV pipelines need a reviewed producer",
+              "locked performance pack and baselines required"
+            ]
+          },
+          {
+            "claimId": "p3_h3b_own_model_increment_v4",
+            "status": "admitted-shape",
+            "reasons": []
+          },
+          {
+            "claimId": "p3_h4a_own_model_mimic_auc_v4",
+            "status": "refused",
+            "reasons": [
+              "only frozen held-out paired prediction permutation is admitted; training/CV pipelines need a reviewed producer",
+              "locked performance pack and baselines required"
+            ]
+          },
+          {
+            "claimId": "p3_h4b_panel_mimic_auc_v4",
+            "status": "refused",
+            "reasons": [
+              "only frozen held-out paired prediction permutation is admitted; training/CV pipelines need a reviewed producer",
+              "locked performance pack and baselines required"
+            ]
+          },
+          {
+            "claimId": "p3_r1_vr2018_approach2_auc",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          },
+          {
+            "claimId": "p3_r2_vr2018_mimic_auc",
+            "status": "refused",
+            "reasons": [
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "claims": [
+          {
+            "claimId": "p3_s1_own_model_auc_rnaseq",
+            "status": "refused",
+            "reasons": [
+              "only frozen held-out paired prediction permutation is admitted; training/CV pipelines need a reviewed producer",
+              "locked performance pack and baselines required"
+            ]
+          },
+          {
+            "claimId": "p3_s2_panel_increment_rnaseq",
+            "status": "admitted-shape",
+            "reasons": []
+          },
+          {
+            "claimId": "p3_s3_own_model_increment_rnaseq",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "project": "p4",
+    "sourceSha256": "a2690874ff50575588d01971986e9278befae2d743c9896b0edab55a1350173f",
+    "plans": [
+      {
+        "index": 0,
+        "claims": [
+          {
+            "claimId": "c0_coess_vs_matched_random_bp",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lookRoute, meiRationale, namespace, permutation, population, predictor, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "claims": [
+          {
+            "claimId": "c1_coess_vs_coexpr_bp",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lookRoute, meiRationale, namespace, permutation, population, predictor, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "claims": [
+          {
+            "claimId": "c2_coess_vs_seqdomain_bp",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lookRoute, meiRationale, namespace, permutation, population, predictor, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "claims": [
+          {
+            "claimId": "c3_coess_vs_coexpr_bp_lowpub",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lookRoute, meiRationale, namespace, permutation, population, powerNote, predictor, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "claims": [
+          {
+            "claimId": "c4_named_predictions_vs_shuffle",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: belowMinimum, descriptive, effectiveThreshold, estimandDefinition, hypothesis, lookRoute, meiRationale, minimumEvaluable, permutation, population, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "claims": [
+          {
+            "claimId": "s1_coess_vs_coexpr_mf",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lookRoute, meiRationale, namespace, permutation, population, predictor, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "claims": [
+          {
+            "claimId": "s2_coess_vs_seqdomain_mf",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lookRoute, meiRationale, namespace, permutation, population, predictor, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "claims": [
+          {
+            "claimId": "s3_coess_vs_coexpr_cc",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lookRoute, meiRationale, namespace, permutation, population, predictor, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "claims": [
+          {
+            "claimId": "s4_coess_vs_seqdomain_cc",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lookRoute, meiRationale, namespace, permutation, population, predictor, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "claims": [
+          {
+            "claimId": "r1_gls_sig_pairs_fdr10",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: alsoReported, definition, gateRule, hostCard, notApplicable, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "claims": [
+          {
+            "claimId": "r2_modules_unique",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: definition, hostCard, notApplicable, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "claims": [
+          {
+            "claimId": "r3_module_best_jaccard_median",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: hostCard, notApplicable, role, sharedKnobsSha256, toleranceRationale; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging",
+              "unsupported kernel kind or estimand"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "claims": [
+          {
+            "claimId": "d1_named_prediction_rows",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "claims": [
+          {
+            "claimId": "d2_named_genes_unique",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "claims": [
+          {
+            "claimId": "d3_t0_rows_dated_after_prediction_date",
+            "status": "refused",
+            "reasons": [
+              "fact has no registered producer; unknown facts are unevaluable"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "claims": [
+          {
+            "claimId": "f0_fwd_coess_vs_matched_random_bp",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lockTiming, lookRoute, meiRationale, namespace, permutation, population, predictor, registry, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "claims": [
+          {
+            "claimId": "f1_fwd_coess_vs_coexpr_bp",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lockTiming, lookRoute, meiRationale, namespace, permutation, population, predictor, registry, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "claims": [
+          {
+            "claimId": "f2_fwd_coess_vs_seqdomain_bp",
+            "status": "refused",
+            "reasons": [
+              "unsupported analysis knobs: ci, comparator, effectiveThreshold, estimandDefinition, hypothesis, k, kernelSupport, lockTiming, lookRoute, meiRationale, namespace, permutation, population, predictor, registry, role, seed, sharedKnobsSha256; move descriptive settings to sharedKnobs",
+              "declared staged analysis table required",
+              "unit must be stager-owned unit_id; declare identity in plan.staging"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "project": "p5",
+    "sourceSha256": "62d68dd1735eeaff36b16ef4e10c047934cd1d25ea4a10df5d24839d5f0bd21e",
+    "plans": [
+      {
+        "index": 0,
+        "claims": [
+          {
+            "claimId": "ka1_blood_dna_slope",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "claims": [
+          {
+            "claimId": "ka2_blood_age_slope",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "claims": [
+          {
+            "claimId": "ka3_kidney_pt_vs_distal",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "claims": [
+          {
+            "claimId": "ka4_atac_concordance",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "claims": [
+          {
+            "claimId": "ka5_brain_microglia_vs_neuron",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "claims": [
+          {
+            "claimId": "h1_immune_vs_nonimmune",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "claims": [
+          {
+            "claimId": "h2_nonimmune_age_slope",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "claims": [
+          {
+            "claimId": "s1_immune_age_slope",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "claims": [
+          {
+            "claimId": "s2_blood_tissue_immune_slope",
+            "status": "admitted-shape",
+            "reasons": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "id": "p6-subgroups",
+  "family": "negative",
+  "datasetManifestHash": "341d03ff90a23bbb9b86142922cce0289e80206fc1a12f0e35aba9cb5c867c92",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p6-subgroups/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.3,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": true,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 61906068,
+  "capMinutes": 60,
+  "contaminated": false
+}

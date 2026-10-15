@@ -1,0 +1,398 @@
+{
+ "pmcid": "PMC11511630",
+ "doi": "10.1016/j.celrep.2024.114775",
+ "pmid": "39305483",
+ "journal": "Cell reports",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 14,
+ "licence": "CC BY-NC-ND",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 149
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 0
+  },
+  {
+   "type": "summary",
+   "structured": false,
+   "headings": [],
+   "words": 54
+  }
+ ],
+ "sections": [
+  {
+   "heading": "INTRODUCTION",
+   "canonical": "introduction",
+   "words": 577
+  },
+  {
+   "heading": "RESULTS",
+   "canonical": "results",
+   "words": 4724,
+   "sub": [
+    {
+     "heading": "Transcriptomics analysis of cancer cell lines reveals cancer-type-associated heterogeneities in metabolic pathways",
+     "canonical": "other",
+     "words": 1182
+    },
+    {
+     "heading": "Oxphos state exhibits substantial cell-line-to-cell-line and cell-to-cell heterogeneity independent of cancer type and growth condition",
+     "canonical": "other",
+     "words": 872
+    },
+    {
+     "heading": "Multivariate modeling uncovers pan-cancer gene vulnerabilities associated with Oxphos state",
+     "canonical": "other",
+     "words": 1069
+    },
+    {
+     "heading": "Statistical analysis reveals synthetically lethal associations between Oxphos state, driver mutations, and tissue context",
+     "canonical": "other",
+     "words": 427
+    },
+    {
+     "heading": "Loss of PTEN predicts increased dependency on mitochondrial respiratory chain in Oxphos",
+     "canonical": "other",
+     "words": 1174
+    }
+   ]
+  },
+  {
+   "heading": "DISCUSSION",
+   "canonical": "discussion",
+   "words": 1099,
+   "sub": [
+    {
+     "heading": "Limitations of the study",
+     "canonical": "limitations",
+     "words": 168
+    }
+   ]
+  },
+  {
+   "heading": "RESOURCE AVAILABILITY",
+   "canonical": "data_availability",
+   "words": 107,
+   "sub": [
+    {
+     "heading": "Lead contact",
+     "canonical": "other",
+     "words": 22
+    },
+    {
+     "heading": "Materials availability",
+     "canonical": "data_availability",
+     "words": 8
+    },
+    {
+     "heading": "Data and code availability",
+     "canonical": "data_availability",
+     "words": 77
+    }
+   ]
+  },
+  {
+   "heading": "STAR★METHODS",
+   "canonical": "methods",
+   "words": 4880,
+   "sub": [
+    {
+     "heading": "EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS",
+     "canonical": "other",
+     "words": 240,
+     "sub": [
+      {
+       "heading": "Human cell lines",
+       "canonical": "other",
+       "words": 61
+      },
+      {
+       "heading": "Primary mouse glioma cell culture",
+       "canonical": "other",
+       "words": 179
+      }
+     ]
+    },
+    {
+     "heading": "METHOD DETAILS",
+     "canonical": "methods",
+     "words": 4435,
+     "sub": [
+      {
+       "heading": "Transcriptomic analysis and visualization of metabolic heterogeneity in cancer cell lines",
+       "canonical": "other",
+       "words": 151
+      },
+      {
+       "heading": "Calculation of pathway activity scores across different cancer types, growth media, cell culture condition",
+       "canonical": "other",
+       "words": 720
+      },
+      {
+       "heading": "Metabolomics data analysis and visualization across cancer cell lines",
+       "canonical": "other",
+       "words": 177
+      },
+      {
+       "heading": "Analysis of cell line-to-cell line heterogeneity in metabolic pathways",
+       "canonical": "other",
+       "words": 390
+      },
+      {
+       "heading": "Analysis of cell-to-cell heterogeneity in Oxphos state across cell lines",
+       "canonical": "other",
+       "words": 81
+      },
+      {
+       "heading": "Feature selection via elastic net regularization to reveal pathway dependencies associated with Oxphos state",
+       "canonical": "other",
+       "words": 605
+      },
+      {
+       "heading": "Partial least-squares regression modeling to uncover most predictive gene vulnerabilities associated with Oxphos state",
+       "canonical": "other",
+       "words": 469
+      },
+      {
+       "heading": "Analysis of statistical associations between Oxphos state, driver mutations and tissue context",
+       "canonical": "other",
+       "words": 164
+      },
+      {
+       "heading": "Analysis of Oxphos state correlation with cell line growth rate (doubling time)",
+       "canonical": "other",
+       "words": 53
+      },
+      {
+       "heading": "Celligner analysis to integrate and align metabolic gene expression data across cell lines and patient-derived tumors",
+       "canonical": "other",
+       "words": 187
+      },
+      {
+       "heading": "Bioinformatics analysis on patient-derived glioma tumors",
+       "canonical": "other",
+       "words": 171
+      },
+      {
+       "heading": "Single-cell RNA sequencing analysis of glioma tumors",
+       "canonical": "other",
+       "words": 175
+      },
+      {
+       "heading": "Drug sensitivity analysis using the Cancer Therapeutics Response Portal (CTRP)",
+       "canonical": "other",
+       "words": 133
+      },
+      {
+       "heading": "Hierarchical clustering",
+       "canonical": "other",
+       "words": 37
+      },
+      {
+       "heading": "Overexpression of PTEN in intrinsically PTEN",
+       "canonical": "other",
+       "words": 172
+      },
+      {
+       "heading": "Drug sensitivity analysis via dose-response measurements of normalized growth rate",
+       "canonical": "other",
+       "words": 487
+      },
+      {
+       "heading": "Western blots",
+       "canonical": "other",
+       "words": 263
+      }
+     ]
+    },
+    {
+     "heading": "QUANTIFICATION AND STATISTICAL ANALYSIS",
+     "canonical": "other",
+     "words": 205
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary Material",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "ACKNOWLEDGMENTS",
+   "canonical": "acknowledgements",
+   "words": 63
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "REFERENCES",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 77,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 77
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 577,
+  "results": 4724,
+  "discussion": 1099,
+  "data_availability": 107,
+  "methods": 4880,
+  "supplementary": 77,
+  "other_back": 0,
+  "acknowledgements": 63,
+  "references": 0
+ },
+ "main_text_words": 11280,
+ "main_text_words_excluding_methods": 6400,
+ "limitations": {
+  "placement": "subsection of DISCUSSION",
+  "words": 168
+ },
+ "figures_main": 7,
+ "figures": [
+  {
+   "label": "Figure 1.",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Figure 2.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 5.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 6.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 7.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": "1"
+  }
+ ],
+ "references": 75,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": true,
+  "geo": true,
+  "cellxgene": true,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "pancreas",
+  "pancreatic"
+ ]
+}

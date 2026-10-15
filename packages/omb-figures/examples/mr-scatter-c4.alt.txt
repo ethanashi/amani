@@ -1,0 +1,11 @@
+template:
+Mendelian randomization scatter plot. Each point is a variant, oriented so its effect on the exposure is positive, with error bars of a standard error either side. Fitted lines: Inverse-variance weighted: slope [m:c4.ivw.slope]; MR-Egger: slope [m:c4.egger.slope]; intercept [m:c4.egger.intercept]; Weighted median: slope [m:c4.wm.slope].
+
+text:
+Mendelian randomization scatter plot. Each point is a variant, oriented so its effect on the exposure is positive, with error bars of a standard error either side. Fitted lines: Inverse-variance weighted: slope 0.289; MR-Egger: slope 0.312; intercept 0.00120; Weighted median: slope 0.277.
+
+caption template:
+Variant associations with exposure and outcome. Points are variants with error bars of a standard error either side; lines are the fitted method slopes. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Variant associations with exposure and outcome. Points are variants with error bars of a standard error either side; lines are the fitted method slopes. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

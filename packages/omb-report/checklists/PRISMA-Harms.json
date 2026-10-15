@@ -1,0 +1,49 @@
+{
+  "name": "PRISMA-Harms",
+  "version": "2016",
+  "attribution": "Zorzela et al., BMJ 2016;352:i157, doi:10.1136/bmj.i157; original short prompts, not an official checklist reproduction.",
+  "source": "https://www.prisma-statement.org/s/PRISMA-Harms-checklist-items.pdf",
+  "wording": "original-prompts",
+  "publishedDate": "2016-02-01",
+  "verifiedDate": "2026-10-13",
+  "officialItemCount": 4,
+  "scope": "Four essential extension items, using original PRISMA 2009 numbering; apply alongside PRISMA 2020, not as replacement rows. Desirable recommendations remain in the linked official checklist.",
+  "items": [
+    {
+      "id": "1",
+      "prompt": "Harms identification",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "1",
+      "section": "title"
+    },
+    {
+      "id": "14",
+      "prompt": "Zero-event handling",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "14",
+      "section": "methods"
+    },
+    {
+      "id": "18",
+      "prompt": "Harm ascertainment and timing",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "18",
+      "section": "results"
+    },
+    {
+      "id": "21",
+      "prompt": "Causality assessment",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "21",
+      "section": "results"
+    }
+  ]
+}

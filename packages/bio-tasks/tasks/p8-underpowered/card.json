@@ -1,0 +1,20 @@
+{
+  "id": "p8-underpowered",
+  "family": "negative",
+  "datasetManifestHash": "60956a2abcbb81d99a97a9ffb8cb2eaba94a74f5db6b82e089f5974a288002c4",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p8-underpowered/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 1.5,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": true,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 84150304,
+  "capMinutes": 60,
+  "contaminated": false
+}

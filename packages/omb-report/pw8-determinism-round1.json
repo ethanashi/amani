@@ -1,0 +1,9 @@
+{
+  "pandoc": "pandoc 3.9.0.2",
+  "sourceDateEpoch": "1760000000",
+  "docx": {
+    "1": "39001f87dcd64b08acee6eb28397f6ccd9d7aa8861edba6163d9e9bab8ed4110",
+    "2": "39001f87dcd64b08acee6eb28397f6ccd9d7aa8861edba6163d9e9bab8ed4110"
+  },
+  "identical": true
+}

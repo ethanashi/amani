@@ -1,0 +1,508 @@
+{
+  "name": "STROBE-MR",
+  "version": "2021",
+  "attribution": "Skrivankova et al. STROBE-MR (2021); source CC BY 3.0. Prompts are original summaries.",
+  "source": "https://www.strobe-mr.org/download/strobe-mr-checklist-fillable/",
+  "wording": "original-prompts",
+  "items": [
+    {
+      "id": "1",
+      "prompt": "MR identification",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "mr",
+        "identification"
+      ],
+      "evidenceGroup": "1",
+      "section": "title"
+    },
+    {
+      "id": "2",
+      "prompt": "Causal rationale",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "causal",
+        "rationale"
+      ],
+      "evidenceGroup": "2"
+    },
+    {
+      "id": "3",
+      "prompt": "Hypotheses and assumptions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "hypotheses",
+        "assumptions"
+      ],
+      "evidenceGroup": "3",
+      "section": "introduction"
+    },
+    {
+      "id": "4",
+      "prompt": "Design overview",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "design",
+        "overview"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "4a",
+      "prompt": "Setting and dates",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "setting",
+        "dates"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "4b",
+      "prompt": "Eligibility and size",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "eligibility",
+        "size"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "4c",
+      "prompt": "Variant selection",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "variant",
+        "selection"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "4d",
+      "prompt": "Variable measurement",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "variable",
+        "measurement"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "4e",
+      "prompt": "Consent and ethics",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "consent",
+        "ethics"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "5",
+      "prompt": "Instrument assumptions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "instrument",
+        "assumptions"
+      ],
+      "evidenceGroup": "5",
+      "section": "methods"
+    },
+    {
+      "id": "6",
+      "prompt": "Statistical overview",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "statistical",
+        "overview"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "6a",
+      "prompt": "Scales and units",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "scales",
+        "units"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "6b",
+      "prompt": "Variant weighting",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "variant",
+        "weighting"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "6c",
+      "prompt": "Estimator and covariates",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "estimator",
+        "covariates"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "6d",
+      "prompt": "Missingness",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "missingness"
+      ],
+      "evidenceGroup": "6",
+      "section": "methods"
+    },
+    {
+      "id": "6e",
+      "prompt": "Multiplicity",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "multiplicity"
+      ],
+      "evidenceGroup": "6",
+      "section": "methods"
+    },
+    {
+      "id": "7",
+      "prompt": "Assumption checks",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "assumption",
+        "checks"
+      ],
+      "evidenceGroup": "7"
+    },
+    {
+      "id": "8",
+      "prompt": "Sensitivity methods",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "sensitivity",
+        "methods"
+      ],
+      "evidenceGroup": "8"
+    },
+    {
+      "id": "9a",
+      "prompt": "Software configuration",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "software",
+        "configuration"
+      ],
+      "evidenceGroup": "9",
+      "section": "methods"
+    },
+    {
+      "id": "9b",
+      "prompt": "Registration",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "registration"
+      ],
+      "evidenceGroup": "9"
+    },
+    {
+      "id": "10a",
+      "prompt": "Participant flow",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "participant",
+        "flow"
+      ],
+      "evidenceGroup": "10"
+    },
+    {
+      "id": "10b",
+      "prompt": "Descriptive summaries",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "descriptive",
+        "summaries"
+      ],
+      "evidenceGroup": "10"
+    },
+    {
+      "id": "10c",
+      "prompt": "Study heterogeneity",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "study",
+        "heterogeneity"
+      ],
+      "evidenceGroup": "10"
+    },
+    {
+      "id": "10d.i",
+      "prompt": "Sample comparability",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "sample",
+        "comparability"
+      ],
+      "evidenceGroup": "10"
+    },
+    {
+      "id": "10d.ii",
+      "prompt": "Sample overlap",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "sample",
+        "overlap"
+      ],
+      "evidenceGroup": "10"
+    },
+    {
+      "id": "11a",
+      "prompt": "Variant associations",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "variant",
+        "associations"
+      ],
+      "evidenceGroup": "11"
+    },
+    {
+      "id": "11b",
+      "prompt": "Effect uncertainty",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "effect",
+        "uncertainty"
+      ],
+      "evidenceGroup": "11"
+    },
+    {
+      "id": "11c",
+      "prompt": "Absolute risk",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "absolute",
+        "risk"
+      ],
+      "evidenceGroup": "11"
+    },
+    {
+      "id": "11d",
+      "prompt": "Effect plots",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "effect",
+        "plots"
+      ],
+      "evidenceGroup": "11"
+    },
+    {
+      "id": "12a",
+      "prompt": "Assumption findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "assumption",
+        "findings"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12b",
+      "prompt": "Additional diagnostics",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "additional",
+        "diagnostics"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "13a",
+      "prompt": "Assumption sensitivity",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "assumption",
+        "sensitivity"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "13b",
+      "prompt": "Other sensitivity",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "other",
+        "sensitivity"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "13c",
+      "prompt": "Causal direction",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "causal",
+        "direction"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "13d",
+      "prompt": "Non-MR comparison",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "non",
+        "mr",
+        "comparison"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "13e",
+      "prompt": "Sensitivity plots",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "sensitivity",
+        "plots"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "14",
+      "prompt": "Main findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "main",
+        "findings"
+      ],
+      "evidenceGroup": "14",
+      "section": "results"
+    },
+    {
+      "id": "15",
+      "prompt": "Bias limitations",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "bias",
+        "limitations"
+      ],
+      "evidenceGroup": "15"
+    },
+    {
+      "id": "16a",
+      "prompt": "Interpretation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "interpretation"
+      ],
+      "evidenceGroup": "16"
+    },
+    {
+      "id": "16b",
+      "prompt": "Biological mechanism",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "biological",
+        "mechanism"
+      ],
+      "evidenceGroup": "16"
+    },
+    {
+      "id": "16c",
+      "prompt": "Clinical relevance",
+      "clinical": true,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "clinical",
+        "relevance"
+      ],
+      "evidenceGroup": "clinical"
+    },
+    {
+      "id": "17",
+      "prompt": "Transferability",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "transferability"
+      ],
+      "evidenceGroup": "17"
+    },
+    {
+      "id": "18",
+      "prompt": "Funding",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "funding"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "19",
+      "prompt": "Data and code",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "data",
+        "code"
+      ],
+      "evidenceGroup": "19"
+    },
+    {
+      "id": "20",
+      "prompt": "Interests",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "interests"
+      ],
+      "evidenceGroup": "20"
+    }
+  ],
+  "publishedDate": "2021-10-26",
+  "verifiedDate": "2026-10-13",
+  "officialItemCount": 20
+}

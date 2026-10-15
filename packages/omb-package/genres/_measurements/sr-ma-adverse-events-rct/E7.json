@@ -1,0 +1,207 @@
+{
+ "pmcid": "PMC12342982",
+ "doi": "10.1093/ehjcvp/pvaf040",
+ "pmid": "40464647",
+ "journal": "European Heart Journal. Cardiovascular Pharmacotherapy",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Original Article",
+  "Atrial Fibrillation",
+  "AcademicSubjects/MED00200"
+ ],
+ "title_words": 19,
+ "licence": "https://creativecommons.org/licenses/by/4.0/This is an Open Access article distr",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Aims",
+    "Methods and results",
+    "Conclusion"
+   ],
+   "words": 259
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 212
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 520,
+   "sub": [
+    {
+     "heading": "Search strategy and selection of the studies",
+     "canonical": "other",
+     "words": 116
+    },
+    {
+     "heading": "Data extraction",
+     "canonical": "other",
+     "words": 195
+    },
+    {
+     "heading": "Statistical analysis",
+     "canonical": "other",
+     "words": 171
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 518
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1288,
+   "sub": [
+    {
+     "heading": "The interaction of sodium–glucose co-transporter 2 inhibitors with the heterogeneous pathogenesis of atrial fibrillation",
+     "canonical": "other",
+     "words": 600
+    },
+    {
+     "heading": "Clinical relevance and future perspectives",
+     "canonical": "other",
+     "words": 386
+    },
+    {
+     "heading": "Limitations of the study",
+     "canonical": "limitations",
+     "words": 190
+    }
+   ]
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 109
+  },
+  {
+   "heading": "Supplementary Material",
+   "canonical": "supplementary",
+   "words": 0
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Supplementary material",
+   "canonical": "supplementary",
+   "words": 11
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 1
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 15
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 212,
+  "methods": 520,
+  "results": 518,
+  "discussion": 1288,
+  "conclusions": 109,
+  "supplementary": 0
+ },
+ "main_text_words": 2647,
+ "main_text_words_excluding_methods": 2127,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 190
+ },
+ "figures_main": 5,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "forest"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "forest"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "dotplot"
+   ]
+  },
+  {
+   "label": "Figure 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": "pvaf040_Supplementary_Data"
+  }
+ ],
+ "references": 35,
+ "flags": {
+  "prospero": true,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": true,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": true,
+  "i2": true,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

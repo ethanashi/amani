@@ -1,0 +1,39 @@
+{
+  "case": "c3",
+  "passed": 8,
+  "total": 8,
+  "criteria": [
+    {
+      "name": "direction",
+      "passed": true
+    },
+    {
+      "name": "duplicated-or-overlapping",
+      "passed": true
+    },
+    {
+      "name": "duplicated-or-overlapping-pairs",
+      "passed": true
+    },
+    {
+      "name": "held-out-folds",
+      "passed": true
+    },
+    {
+      "name": "pooled-effect",
+      "passed": true
+    },
+    {
+      "name": "three-cohort-comparison",
+      "passed": true
+    },
+    {
+      "name": "adjusted-outcome-effect",
+      "passed": true
+    },
+    {
+      "name": "overall",
+      "passed": true
+    }
+  ]
+}

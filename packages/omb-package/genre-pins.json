@@ -1,0 +1,35 @@
+{
+  "schema": "omb/genre-pins@1",
+  "profiles": {
+    "ai-research-agent-methods": "2c97673ac55c34e290937ed75831e1e410b929d4f9daa061df7e4602ff9447f3",
+    "cis-mr-colocalisation-drug-target": "ed4006c8656986fccae608363bbd9eb9108639570ffbf7cc3e64a630892f0561",
+    "crispr-dependency-target-selectivity": "57e9e71733d328c0496a18e4eaa69ef26abfff6fb77d9a6d4ce64de7cd093fa2",
+    "single-cell-atlas-drug-sensitivity": "667d49927a52f3ddefe14c53038472818e28f53e2d34ae5c69b97742d35fd54f",
+    "sr-ma-adverse-events-rct": "49100c5ccab0c3f8102ffa9fbfe0bc5a2dc418fe5f8582fa82aa5f1504c68c54",
+    "trial-level-surrogate-evaluation": "528d186e4c4c4a895bed44aaca2c8b8cec0a50052fc0edc866f0d5f0b5a9238a"
+  },
+  "source_profiles": {
+    "ai-research-agent-methods": "0327eec65a9e09abd0347171ef20b25d1870a9785ac1d7cfd6251dfa72047571",
+    "trial-level-surrogate-evaluation": "14ab66a4f14336604e9771645bad5efb3ddffaa54fda8073916bc59d7f0ec047"
+  },
+  "source_edits": {
+    "ai-research-agent-methods": "One product attribution in display_items notes is renamed to Amani; all source bytes are verified after reversing this single edit.",
+    "trial-level-surrogate-evaluation": {
+      "reason": "Publication omits three uncertain personal names; DOI and method details remain.",
+      "word_replacements": [
+        {
+          "term_sha256": "05765bfc5007261cf09a24481dd61af685f6aa2ad7c0adbafe3057a8ff74133d",
+          "replacement": "[author omitted]"
+        },
+        {
+          "term_sha256": "52f51c688f96bd59673f1db6371f7c55e1c7cc49526da458e2a96dfa30c62749",
+          "replacement": "[author omitted]"
+        },
+        {
+          "term_sha256": "ec563ba8575d7ca0c220642289f32badbad08fb63ab9f4aa29131c81ddfeddc4",
+          "replacement": "[author omitted]"
+        }
+      ]
+    }
+  }
+}

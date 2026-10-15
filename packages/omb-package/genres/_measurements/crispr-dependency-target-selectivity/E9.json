@@ -1,0 +1,507 @@
+{
+ "pmcid": "PMC12283369",
+ "doi": "10.1038/s41588-025-02221-2",
+ "pmid": "40615674",
+ "journal": "Nature Genetics",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 13,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 166
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 25
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Main",
+   "canonical": "other",
+   "words": 329,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3099,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 695
+    },
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 296
+    },
+    {
+     "heading": "Δ",
+     "canonical": "other",
+     "words": 127
+    },
+    {
+     "heading": "Δ",
+     "canonical": "other",
+     "words": 123
+    },
+    {
+     "heading": "No common escape mechanism for Δ",
+     "canonical": "other",
+     "words": 401
+    },
+    {
+     "heading": "Mesenchymal-like cancers depend on",
+     "canonical": "other",
+     "words": 557
+    },
+    {
+     "heading": "Cholesterol production is induced on",
+     "canonical": "other",
+     "words": 297
+    },
+    {
+     "heading": "Lipid homeostasis requires either",
+     "canonical": "other",
+     "words": 266
+    },
+    {
+     "heading": "CDS2 dosage and catalytic activity govern synthetic lethality",
+     "canonical": "other",
+     "words": 337
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 612
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 3611,
+   "sub": [
+    {
+     "heading": "Software",
+     "canonical": "other",
+     "words": 170
+    },
+    {
+     "heading": "Nomenclature",
+     "canonical": "other",
+     "words": 13
+    },
+    {
+     "heading": "Cell line culture",
+     "canonical": "other",
+     "words": 133
+    },
+    {
+     "heading": "Cancer-specific synthetic lethality prediction",
+     "canonical": "other",
+     "words": 315
+    },
+    {
+     "heading": "Cut-offs used in analyses",
+     "canonical": "other",
+     "words": 96
+    },
+    {
+     "heading": "Patient mortality and survival analysis",
+     "canonical": "other",
+     "words": 32
+    },
+    {
+     "heading": "Comparing CDS1 expression between healthy tissue and cancer cell lines",
+     "canonical": "other",
+     "words": 153
+    },
+    {
+     "heading": "Healthy and tumor proteome data",
+     "canonical": "other",
+     "words": 112
+    },
+    {
+     "heading": "Quantitative PCR to quantify RNA",
+     "canonical": "other",
+     "words": 137
+    },
+    {
+     "heading": "Lentiviral transduction",
+     "canonical": "other",
+     "words": 204
+    },
+    {
+     "heading": "Cloning",
+     "canonical": "other",
+     "words": 113
+    },
+    {
+     "heading": "Determining (synthetic) lethality by tracking fluorescent cells",
+     "canonical": "other",
+     "words": 198
+    },
+    {
+     "heading": "Flow cytometry",
+     "canonical": "other",
+     "words": 117
+    },
+    {
+     "heading": "Western blotting",
+     "canonical": "other",
+     "words": 127
+    },
+    {
+     "heading": "TIDE analysis",
+     "canonical": "other",
+     "words": 163
+    },
+    {
+     "heading": "Animal studies",
+     "canonical": "other",
+     "words": 269
+    },
+    {
+     "heading": "Genome-wide CRISPR perturbation",
+     "canonical": "other",
+     "words": 341
+    },
+    {
+     "heading": "Lethality and synthetic lethality rescue experiments",
+     "canonical": "other",
+     "words": 228
+    },
+    {
+     "heading": "GSEAs",
+     "canonical": "other",
+     "words": 60
+    },
+    {
+     "heading": "Lipidomics",
+     "canonical": "other",
+     "words": 127
+    },
+    {
+     "heading": "Proteomics",
+     "canonical": "other",
+     "words": 162
+    },
+    {
+     "heading": "Light microscopy",
+     "canonical": "other",
+     "words": 132
+    },
+    {
+     "heading": "Electron microscopy",
+     "canonical": "other",
+     "words": 84
+    },
+    {
+     "heading": "Statistics and replication",
+     "canonical": "other",
+     "words": 108
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "Online content",
+   "canonical": "other",
+   "words": 36,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Source data",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 171
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Extended data",
+     "canonical": "other",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 76
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 16,
+   "sub": [
+    {
+     "heading": "Peer review information",
+     "canonical": "other",
+     "words": 16
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 233
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 45
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 39
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 16,
+   "sub": [
+    {
+     "heading": "Extended data",
+     "canonical": "other",
+     "words": 7
+    },
+    {
+     "heading": "Supplementary information",
+     "canonical": "supplementary",
+     "words": 9
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 278,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 278
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 329,
+  "results": 3099,
+  "discussion": 612,
+  "methods": 3611,
+  "other_back": 68,
+  "supplementary": 278,
+  "acknowledgements": 171,
+  "contributions": 76,
+  "data_availability": 278,
+  "competing_interests": 39,
+  "references": 0
+ },
+ "main_text_words": 7651,
+ "main_text_words_excluding_methods": 4040,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 7,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Fig. 6",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 7",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 8,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 17,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 98,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": false,
+  "figshare": true,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "pancreatic"
+ ]
+}

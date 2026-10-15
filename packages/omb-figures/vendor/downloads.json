@@ -1,0 +1,74 @@
+[
+  {
+    "path": "vendor/publisher_profiles.json",
+    "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/skills/scientific-visualization/assets/publisher_profiles.json",
+    "bytes": 10870,
+    "sha256": "1e1b1b5a4e0e3dfc57877f2abf1e96888fe6b65617234b078f193b8f76e0ebe9"
+  },
+  {
+    "path": "LICENSES/K-Dense-MIT.txt",
+    "url": "https://raw.githubusercontent.com/K-Dense-AI/scientific-agent-skills/a1043ef544e3a100c28e70a736b6cf32554d0677/LICENSE.md",
+    "bytes": 1068,
+    "sha256": "09b02a3c9df3053c55531d503357a9c7cde275970e6c3ceaa1ddf5f0e90b40c1"
+  },
+  {
+    "path": "LICENSES/nature-skills.txt",
+    "url": "https://raw.githubusercontent.com/Yuan1z0825/nature-skills/473e8d7b1b918fe37208d3a5e143a3ac9af4c91b/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "vendor/specs/audit_figure_collisions.py",
+    "url": "https://raw.githubusercontent.com/Yuan1z0825/nature-skills/473e8d7b1b918fe37208d3a5e143a3ac9af4c91b/skills/nature-figure/scripts/audit_figure_collisions.py",
+    "bytes": 27709,
+    "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36"
+  },
+  {
+    "path": "vendor/specs/audit_panel_alignment.py",
+    "url": "https://raw.githubusercontent.com/Yuan1z0825/nature-skills/473e8d7b1b918fe37208d3a5e143a3ac9af4c91b/skills/nature-figure/scripts/audit_panel_alignment.py",
+    "bytes": 39469,
+    "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56"
+  },
+  {
+    "path": "vendor/specs/audit_pdf_text.py",
+    "url": "https://raw.githubusercontent.com/Yuan1z0825/nature-skills/473e8d7b1b918fe37208d3a5e143a3ac9af4c91b/skills/nature-figure/scripts/audit_pdf_text.py",
+    "bytes": 8586,
+    "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281"
+  },
+  {
+    "path": "vendor/specs/prisma-fields.json",
+    "url": "https://raw.githubusercontent.com/prisma-flowdiagram/PRISMA2020/e909c085451d941ce456cad2f217cb7e59cb2a73/inst/extdata/PRISMA.csv",
+    "sha256": "074cecaa8638ffc5b2634e2a8d3f1ee942c0427a09e0e4ed99259db5e1ca9023",
+    "modification": "Field names only; omitted wording"
+  },
+  {
+    "path": "LICENSES/PRISMA2020.txt",
+    "url": "https://raw.githubusercontent.com/prisma-flowdiagram/PRISMA2020/e909c085451d941ce456cad2f217cb7e59cb2a73/LICENSE",
+    "bytes": 44,
+    "sha256": "de82932b63de6c6a8ec7476fbe32c7987f9eacc7836bb953b43540142e16f5e5"
+  },
+  {
+    "path": "vendor/icons/health.svg",
+    "url": "https://raw.githubusercontent.com/resolvetosavelives/healthicons/36887b268d2cb61f8d91622ad459bdf07910c2b0/public/icons/svg/outline/symbols/database.svg",
+    "bytes": 2964,
+    "sha256": "e19b08350a4ce9cdc443bbb9d3647b1ccb9f14d6fcd20882a074e32143d45e83"
+  },
+  {
+    "path": "LICENSES/Health-Icons-MIT.txt",
+    "url": "https://raw.githubusercontent.com/resolvetosavelives/healthicons/36887b268d2cb61f8d91622ad459bdf07910c2b0/LICENSE",
+    "bytes": 1078,
+    "sha256": "3fafba3a6e853470419a88af7ccf944dd46c5c66439f073dc4576bd3dafb6cf8"
+  },
+  {
+    "path": "vendor/icons/bio.svg",
+    "url": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/static/icons/cc-0/Genetics/David-Eccles--gringer-/DNA_symbolic_extending.svg",
+    "bytes": 500328,
+    "sha256": "be1ab4ac811b0fc22fb6c90b58c6c89cd6aa1a901e984f86d5c4d1f7fe172682"
+  },
+  {
+    "path": "LICENSES/bioicons-MIT.txt",
+    "url": "https://raw.githubusercontent.com/duerrsimon/bioicons/d29e766ea7580b8063c4f47b29e872db40a4d979/LICENSE",
+    "bytes": 1132,
+    "sha256": "692ca4eca02ec5d62ca03be84627f9fa107c405e2972ae94d13c46becb2372fc"
+  }
+]

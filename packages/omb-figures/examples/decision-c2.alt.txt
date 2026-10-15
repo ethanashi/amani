@@ -1,0 +1,11 @@
+template:
+Decision curve. Net benefit of the model across threshold probabilities, compared with treating all and treating none. Treat all reference is clipped at the lower axis boundary; downward arrows mark continuation. Dotted vertical lines mark the locked thresholds: [m:c2.dca.locked].
+
+text:
+Decision curve. Net benefit of the model across threshold probabilities, compared with treating all and treating none. Treat all reference is clipped at the lower axis boundary; downward arrows mark continuation. Dotted vertical lines mark the locked thresholds: 0.2.
+
+caption template:
+Net benefit of the locked model. The solid line is the model; the dashed line is treat all; the solid horizontal line, at no net benefit, is treat none. Treat all reference is clipped at the lower axis boundary; downward arrows mark continuation.  Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Net benefit of the locked model. The solid line is the model; the dashed line is treat all; the solid horizontal line, at no net benefit, is treat none. Treat all reference is clipped at the lower axis boundary; downward arrows mark continuation.  Source: drawn by deterministic plotting code from certified data; no generative image model was used.

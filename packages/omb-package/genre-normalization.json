@@ -1,0 +1,32 @@
+{
+  "version": "2026-10-13-round3",
+  "provenance": "Owner-authorized convention normalization; original six profiles remain pinned. Rules use actual headings/captions and formats observed in the profile, never exemplar ids or expected pass/fail counts.",
+  "abstractFormats": "All structured/unstructured formats explicitly measured in a profile are permitted conventions; venue abstract rules remain authoritative.",
+  "canonicalConclusions": "The literal heading Conclusions means conclusions even when a broad Discussion alias also lists it.",
+  "agentResultsHeadingPatterns": [
+    "^generating manuscripts$",
+    "^automated evaluation",
+    "^human evaluation results$",
+    "^experimental results$",
+    "^experiments$",
+    "^evaluation$",
+    "^benchmark(?:ing)? results$"
+  ],
+  "limitationsInsteadOfDiscussion": "Only when the profile declares a variant containing limitations but no discussion/results_discussion.",
+  "compoundFigures": "All matching caption panel kinds are retained; totals count physical displays once. Explicit kind attributes may contain a space-separated list.",
+  "statementMetadata": "Use semantic JATS funding-group/fn-type/sec-type and role-bearing contribution groups, retaining source locators and exact text. Initials under a contribution heading count as a statement.",
+  "captionAliases": {
+    "crispr-dependency-target-selectivity": {
+      "top_hits_table": [
+        "(?:full|per[- ]gene|per[- ]drug|modifier[- ]screen|multi[- ]omic|druggable).*(?:result|score|predict|spreadsheets|tables)",
+        "tables? S\\d+(?:-|\u2013)S?\\d+"
+      ]
+    },
+    "cis-mr-colocalisation-drug-target": {
+      "sensitivity_table": [
+        "LD correlation matrices"
+      ]
+    }
+  },
+  "captionAliasRationale": "CRISPR full ranked-result spreadsheets and S-table ranges are the stated top_hits_table kind; MR LD-correlation matrices document correlated-instrument sensitivity. Supplemental descriptors retain every matching kind."
+}

@@ -1,0 +1,35 @@
+(version 1)
+(deny default)
+(allow process-fork)
+(allow process-exec
+  (subpath (param "RUNTIME"))
+  (literal "/bin/sh") (literal "/bin/bash")
+  (literal "/usr/bin/which") (literal "/usr/bin/uname"))
+; SysV IPC creation is not blocked by ipc-sysv on macOS. Deny the creation
+; syscalls themselves; the runner also removes any uid-owned objects at exit.
+(deny syscall-unix (syscall-number SYS_semget SYS_shmget SYS_msgget SYS_semsys SYS_shmsys SYS_msgsys))
+(allow signal (target self))
+; Parents may signal their own sandboxed children (R parallel::mclapply reaps workers this way).
+(allow signal (target same-sandbox))
+(allow sysctl-read)
+(allow file-read*
+  (literal "/") ; dyld opens the filesystem root; this grants no descendants
+  (subpath (param "RUNTIME"))
+  (subpath (param "STAGE"))
+  (subpath (param "TMP"))
+  (subpath "/usr/lib")
+  (subpath "/System/Library")
+  (subpath "/System/Volumes/Preboot/Cryptexes/OS/usr/lib")
+  (literal "/bin/sh") (literal "/bin/bash")
+  (literal "/usr/bin/which") (literal "/usr/bin/uname")
+  (literal "/private/var/select/sh")
+  (literal "/dev/null") (literal "/dev/urandom") (literal "/dev/random")
+  (literal "/private/etc/localtime") (literal "/private/var/db/timezone/localtime"))
+(allow file-read-metadata (literal (param "RUNTIME")) (subpath (param "RUNTIME")))
+; Directory metadata is needed to traverse the root-owned pinned runtime prefix.
+(allow file-read-metadata (literal "/usr") (literal "/usr/local")
+  (literal "/usr/local/libexec") (literal "/usr/local/libexec/omb")
+  (literal "/usr/local/libexec/omb/runtime"))
+(allow file-write* (subpath (param "TMP")) (literal "/dev/null"))
+; No mach-lookup allowance: Python/R numerical workloads require none.
+(deny network*)

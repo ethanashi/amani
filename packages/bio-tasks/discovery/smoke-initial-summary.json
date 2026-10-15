@@ -1,0 +1,972 @@
+{
+  "developmentRuns": [
+    {
+      "note": "Initial fix2 development smoke before moving every PL4 label/sign decision onto serialized observations. No key selection; final smoke is separate.",
+      "receipt": {
+        "criteriaHash": "b9d3212e41af5714f147320ce9a84db1a9086d359d4c1ad23ac9e8738e4a8638",
+        "criteriaVersion": "ka0-proof-v2",
+        "plan": {
+          "families": {
+            "PL1": [
+              "ld-mid",
+              "ld-high"
+            ],
+            "PL4": [
+              "forward",
+              "reversed"
+            ]
+          },
+          "replicates": 600,
+          "keyCount": 5,
+          "seed": 1,
+          "arms": [
+            "recall-only",
+            "id-order",
+            "variance",
+            "variance-min",
+            "ld-score",
+            "composition",
+            "mr-only",
+            "always-abstain",
+            "always-conflict"
+          ],
+          "baselines": [
+            "direction-blind",
+            "direction-blind-conflict"
+          ],
+          "engine": "toy-pl1-pl4-fix2",
+          "sourceHashes": {
+            "__init__.py": "9dcff2fd1ad02fc9693b50a9d288715c1151fe9fdde75512c42f730df9e8fb11",
+            "blinding.py": "64b318ecdee955d8d057f966ce8cb23336c6512d4cc1bdb71116978b76436e54",
+            "card.py": "d2b9eac1ad2edc3fb74301e92924e31da479560cc02756c327bf9874ab6fc7df",
+            "cli.py": "2911d5f7f76a084006c5f13b19bd28f4d3763519eb0299d1d290cca07af9b9a3",
+            "contracts.py": "5d6da9834581aaf18796442c39af03eb39112241b19aaabcf431bcfb976e8953",
+            "criteria.py": "630d92bef182bddf95f8ab3238e618bc102478764798557dfd9f216cbbfd45d8",
+            "families.py": "d408468906a3992f4562c5038f52c60d280f3a64608eaa5325aaf81e6f9f8522",
+            "leakage.py": "ab042cd8a680872b211c3e355d2f89588f1e6f785f3880d3b3495974e1392811",
+            "policy.py": "7ccd048cbd5ae164a0e41f11d7a1e4418d9cbb0d561a44ea5417e3cdd7c71ca4",
+            "staging.py": "7e901d0cc316d5e97dcce92f2e59291083cd03d9a739361015cea454c6c42882",
+            "tier_a.py": "e16bd373dafb54f3b6b7e7fb208c3d64d127a99c90a84becaa44e658d54037b2",
+            "analyst-writer.ts": "27ffba7e182c6b2b24aaf8c50e38a861706fc98afea73af6d1c227fe2b47c955",
+            "contract-bridge.ts": "9218c258b28b174177d0f3d5b265e94060261a2f5cc3c2b20e70ef6520578d73",
+            "criteria-v2.json": "b9d3212e41af5714f147320ce9a84db1a9086d359d4c1ad23ac9e8738e4a8638",
+            "criteria-v2.json.sha256": "8a2b465699c020d9f6a0c814f2409e5a8e44f7a04254e968d79fa05c668e8ecb"
+          }
+        },
+        "planHash": "d950c10446e66f85f9dd7600f6cd53607d2adf75b52a865b4e083777716afeac",
+        "startedAt": 1791738434361
+      },
+      "runtimeSeconds": 46.64,
+      "groups": {
+        "PL1/ld-mid": {
+          "reference": {
+            "count": 3000,
+            "n": 3000,
+            "rate": 1.0,
+            "bounds": [
+              0.9990019209880034,
+              1.0
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5114188888888889,
+            "bounds": [
+              0.49344477462043024,
+              0.5293930031573475
+            ],
+            "se": 0.008431241111576102,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 3000,
+              "n": 3000,
+              "rate": 1.0,
+              "bounds": [
+                0.9990019209880034,
+                1.0
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 3000,
+              "n": 3000,
+              "rate": 1.0,
+              "bounds": [
+                0.9990019209880034,
+                1.0
+              ]
+            }
+          },
+          "validKeys": 0,
+          "calibration": "invalid"
+        },
+        "PL1/ld-high": {
+          "reference": {
+            "count": 2331,
+            "n": 3000,
+            "rate": 0.777,
+            "bounds": [
+              0.764135222878652,
+              0.7894636530386865
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5081377777777778,
+            "bounds": [
+              0.48533289759644016,
+              0.5309426579591154
+            ],
+            "se": 0.010697241625244719,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 2331,
+              "n": 3000,
+              "rate": 0.777,
+              "bounds": [
+                0.764135222878652,
+                0.7894636530386865
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 2331,
+              "n": 3000,
+              "rate": 0.777,
+              "bounds": [
+                0.764135222878652,
+                0.7894636530386865
+              ]
+            }
+          },
+          "validKeys": 0,
+          "calibration": "invalid"
+        },
+        "PL4/forward": {
+          "reference": {
+            "count": 3000,
+            "n": 3000,
+            "rate": 1.0,
+            "bounds": [
+              0.9990019209880034,
+              1.0
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5202281585148318,
+            "bounds": [
+              0.5038642910627557,
+              0.536592025966908
+            ],
+            "se": 0.007675911588502322,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 843,
+              "n": 3000,
+              "rate": 0.281,
+              "bounds": [
+                0.2674969753617988,
+                0.29481977241980023
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 846,
+              "n": 3000,
+              "rate": 0.282,
+              "bounds": [
+                0.26848166942257157,
+                0.29583362681785325
+              ]
+            }
+          },
+          "validKeys": 5,
+          "calibration": "valid"
+        },
+        "PL4/reversed": {
+          "reference": {
+            "count": 3000,
+            "n": 3000,
+            "rate": 1.0,
+            "bounds": [
+              0.9990019209880034,
+              1.0
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5254915183765038,
+            "bounds": [
+              0.5091252497326336,
+              0.5418577870203739
+            ],
+            "se": 0.007677037932013231,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 843,
+              "n": 3000,
+              "rate": 0.281,
+              "bounds": [
+                0.2674969753617988,
+                0.29481977241980023
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 846,
+              "n": 3000,
+              "rate": 0.282,
+              "bounds": [
+                0.26848166942257157,
+                0.29583362681785325
+              ]
+            }
+          },
+          "validKeys": 5,
+          "calibration": "valid"
+        }
+      }
+    },
+    {
+      "note": "Second development run; subsequent change only extends defensive scanner sign-text and unlabelled positive-ID controls. No failed key selection.",
+      "receipt": {
+        "criteriaHash": "b9d3212e41af5714f147320ce9a84db1a9086d359d4c1ad23ac9e8738e4a8638",
+        "criteriaVersion": "ka0-proof-v2",
+        "plan": {
+          "families": {
+            "PL1": [
+              "ld-mid",
+              "ld-high"
+            ],
+            "PL4": [
+              "forward",
+              "reversed"
+            ]
+          },
+          "replicates": 600,
+          "keyCount": 5,
+          "seed": 1,
+          "arms": [
+            "recall-only",
+            "id-order",
+            "variance",
+            "variance-min",
+            "ld-score",
+            "composition",
+            "mr-only",
+            "always-abstain",
+            "always-conflict"
+          ],
+          "baselines": [
+            "direction-blind",
+            "direction-blind-conflict"
+          ],
+          "engine": "toy-pl1-pl4-fix2",
+          "sourceHashes": {
+            "__init__.py": "9dcff2fd1ad02fc9693b50a9d288715c1151fe9fdde75512c42f730df9e8fb11",
+            "blinding.py": "64b318ecdee955d8d057f966ce8cb23336c6512d4cc1bdb71116978b76436e54",
+            "card.py": "d2b9eac1ad2edc3fb74301e92924e31da479560cc02756c327bf9874ab6fc7df",
+            "cli.py": "2911d5f7f76a084006c5f13b19bd28f4d3763519eb0299d1d290cca07af9b9a3",
+            "contracts.py": "5d6da9834581aaf18796442c39af03eb39112241b19aaabcf431bcfb976e8953",
+            "criteria.py": "630d92bef182bddf95f8ab3238e618bc102478764798557dfd9f216cbbfd45d8",
+            "families.py": "4599aaae97e094f60cc1a53a2345de72402fb508cd214feb4317d9deaa0a0dd3",
+            "leakage.py": "c3121e46a11692093479d31a0c70633441305a805bad643a301f4cfb4934135e",
+            "policy.py": "7ccd048cbd5ae164a0e41f11d7a1e4418d9cbb0d561a44ea5417e3cdd7c71ca4",
+            "staging.py": "7e901d0cc316d5e97dcce92f2e59291083cd03d9a739361015cea454c6c42882",
+            "tier_a.py": "e16bd373dafb54f3b6b7e7fb208c3d64d127a99c90a84becaa44e658d54037b2",
+            "analyst-writer.ts": "27ffba7e182c6b2b24aaf8c50e38a861706fc98afea73af6d1c227fe2b47c955",
+            "contract-bridge.ts": "9218c258b28b174177d0f3d5b265e94060261a2f5cc3c2b20e70ef6520578d73",
+            "criteria-v2.json": "b9d3212e41af5714f147320ce9a84db1a9086d359d4c1ad23ac9e8738e4a8638",
+            "criteria-v2.json.sha256": "8a2b465699c020d9f6a0c814f2409e5a8e44f7a04254e968d79fa05c668e8ecb"
+          }
+        },
+        "planHash": "34fb5d683fab8676ecc193d02e349ed04cae2384185382f51d46a6750eae2159",
+        "startedAt": 1791738645433
+      },
+      "runtimeSeconds": 48.663,
+      "groups": {
+        "PL1/ld-mid": {
+          "reference": {
+            "count": 3000,
+            "n": 3000,
+            "rate": 1.0,
+            "bounds": [
+              0.9990019209880034,
+              1.0
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.4877111111111111,
+            "bounds": [
+              0.46011965744606736,
+              0.5153025647761548
+            ],
+            "se": 0.012942512492929246,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 3000,
+              "n": 3000,
+              "rate": 1.0,
+              "bounds": [
+                0.9990019209880034,
+                1.0
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 3000,
+              "n": 3000,
+              "rate": 1.0,
+              "bounds": [
+                0.9990019209880034,
+                1.0
+              ]
+            }
+          },
+          "validKeys": 0,
+          "calibration": "invalid"
+        },
+        "PL1/ld-high": {
+          "reference": {
+            "count": 2272,
+            "n": 3000,
+            "rate": 0.7573333333333333,
+            "bounds": [
+              0.7441096682191564,
+              0.7701845318453043
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5033288888888889,
+            "bounds": [
+              0.46567480960742397,
+              0.540982968170354
+            ],
+            "se": 0.017662657336808947,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 2272,
+              "n": 3000,
+              "rate": 0.7573333333333333,
+              "bounds": [
+                0.7441096682191564,
+                0.7701845318453043
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 2272,
+              "n": 3000,
+              "rate": 0.7573333333333333,
+              "bounds": [
+                0.7441096682191564,
+                0.7701845318453043
+              ]
+            }
+          },
+          "validKeys": 0,
+          "calibration": "invalid"
+        },
+        "PL4/forward": {
+          "reference": {
+            "count": 3000,
+            "n": 3000,
+            "rate": 1.0,
+            "bounds": [
+              0.9990019209880034,
+              1.0
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5084362099420178,
+            "bounds": [
+              0.4821519233786403,
+              0.5347204965053952
+            ],
+            "se": 0.012329350651257395,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 871,
+              "n": 3000,
+              "rate": 0.29033333333333333,
+              "bounds": [
+                0.27669063227303603,
+                0.30427923780009686
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 910,
+              "n": 3000,
+              "rate": 0.30333333333333334,
+              "bounds": [
+                0.28950769352198147,
+                0.3174433228127295
+              ]
+            }
+          },
+          "validKeys": 5,
+          "calibration": "valid"
+        },
+        "PL4/reversed": {
+          "reference": {
+            "count": 3000,
+            "n": 3000,
+            "rate": 1.0,
+            "bounds": [
+              0.9990019209880034,
+              1.0
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5084612529040362,
+            "bounds": [
+              0.4821936007135243,
+              0.5347289050945482
+            ],
+            "se": 0.012321547851838493,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 871,
+              "n": 3000,
+              "rate": 0.29033333333333333,
+              "bounds": [
+                0.27669063227303603,
+                0.30427923780009686
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 910,
+              "n": 3000,
+              "rate": 0.30333333333333334,
+              "bounds": [
+                0.28950769352198147,
+                0.3174433228127295
+              ]
+            }
+          },
+          "validKeys": 5,
+          "calibration": "valid"
+        }
+      }
+    },
+    {
+      "note": "Third run failed robust AUC admission and is retained. A mandatory positive-list regression subsequently caught a prose-prefixed bare-ID scanner gap. The next run includes that parser fix and a fully independent direction-blind baseline; no key/run selection.",
+      "receipt": {
+        "criteriaHash": "b9d3212e41af5714f147320ce9a84db1a9086d359d4c1ad23ac9e8738e4a8638",
+        "criteriaVersion": "ka0-proof-v2",
+        "plan": {
+          "families": {
+            "PL1": [
+              "ld-mid",
+              "ld-high"
+            ],
+            "PL4": [
+              "forward",
+              "reversed"
+            ]
+          },
+          "replicates": 600,
+          "keyCount": 5,
+          "seed": 1,
+          "arms": [
+            "recall-only",
+            "id-order",
+            "variance",
+            "variance-min",
+            "ld-score",
+            "composition",
+            "mr-only",
+            "always-abstain",
+            "always-conflict"
+          ],
+          "baselines": [
+            "direction-blind",
+            "direction-blind-conflict"
+          ],
+          "engine": "toy-pl1-pl4-fix2",
+          "sourceHashes": {
+            "__init__.py": "9dcff2fd1ad02fc9693b50a9d288715c1151fe9fdde75512c42f730df9e8fb11",
+            "blinding.py": "64b318ecdee955d8d057f966ce8cb23336c6512d4cc1bdb71116978b76436e54",
+            "card.py": "d2b9eac1ad2edc3fb74301e92924e31da479560cc02756c327bf9874ab6fc7df",
+            "cli.py": "2911d5f7f76a084006c5f13b19bd28f4d3763519eb0299d1d290cca07af9b9a3",
+            "contracts.py": "5d6da9834581aaf18796442c39af03eb39112241b19aaabcf431bcfb976e8953",
+            "criteria.py": "630d92bef182bddf95f8ab3238e618bc102478764798557dfd9f216cbbfd45d8",
+            "families.py": "4599aaae97e094f60cc1a53a2345de72402fb508cd214feb4317d9deaa0a0dd3",
+            "leakage.py": "75b02a03239ba197de2ad35018c26a842f9b4e0e1d8e9290b1e529f32e9469d8",
+            "policy.py": "7ccd048cbd5ae164a0e41f11d7a1e4418d9cbb0d561a44ea5417e3cdd7c71ca4",
+            "staging.py": "fdb4b24ba4b63ef1fab51edbdf1aa4e2335b1f14f5e3d284931d666f367ad517",
+            "tier_a.py": "e16bd373dafb54f3b6b7e7fb208c3d64d127a99c90a84becaa44e658d54037b2",
+            "analyst-writer.ts": "27ffba7e182c6b2b24aaf8c50e38a861706fc98afea73af6d1c227fe2b47c955",
+            "contract-bridge.ts": "9218c258b28b174177d0f3d5b265e94060261a2f5cc3c2b20e70ef6520578d73",
+            "criteria-v2.json": "b9d3212e41af5714f147320ce9a84db1a9086d359d4c1ad23ac9e8738e4a8638",
+            "criteria-v2.json.sha256": "8a2b465699c020d9f6a0c814f2409e5a8e44f7a04254e968d79fa05c668e8ecb"
+          }
+        },
+        "planHash": "0019dddd451cbf998e405fe2113969a3766fa65b26fb75db6583526c35a05d90",
+        "startedAt": 1791738808214
+      },
+      "runtimeSeconds": 72.095,
+      "groups": {
+        "PL1/ld-mid": {
+          "reference": {
+            "count": 3000,
+            "n": 3000,
+            "rate": 1.0,
+            "bounds": [
+              0.9990019209880034,
+              1.0
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.508618888888889,
+            "bounds": [
+              0.4871056650140321,
+              0.5301321127637458
+            ],
+            "se": 0.010091355538699841,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 3000,
+              "n": 3000,
+              "rate": 1.0,
+              "bounds": [
+                0.9990019209880034,
+                1.0
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 3000,
+              "n": 3000,
+              "rate": 1.0,
+              "bounds": [
+                0.9990019209880034,
+                1.0
+              ]
+            }
+          },
+          "validKeys": 0,
+          "calibration": "invalid",
+          "leaveOneKeyOutAuc": [
+            {
+              "auc": 0.5106124999999999,
+              "bounds": [
+                0.48250603180704693,
+                0.5387189681929528
+              ],
+              "se": 0.01194310567475942,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5141069444444444,
+              "bounds": [
+                0.48977522219259956,
+                0.5384386666962893
+              ],
+              "se": 0.010339126499555654,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5107736111111112,
+              "bounds": [
+                0.48384774129563707,
+                0.5376994809265854
+              ],
+              "se": 0.011441441392897975,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5007333333333333,
+              "bounds": [
+                0.47271623967133847,
+                0.528750426995328
+              ],
+              "se": 0.011905128314511303,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5068680555555556,
+              "bounds": [
+                0.4791878754867067,
+                0.5345482356244045
+              ],
+              "se": 0.01176196572935189,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            }
+          ]
+        },
+        "PL1/ld-high": {
+          "reference": {
+            "count": 2306,
+            "n": 3000,
+            "rate": 0.7686666666666667,
+            "bounds": [
+              0.7556451172092709,
+              0.7812992420550097
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5100855555555556,
+            "bounds": [
+              0.48762707018190177,
+              0.5325440409292094
+            ],
+            "se": 0.010534755835972465,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 2306,
+              "n": 3000,
+              "rate": 0.7686666666666667,
+              "bounds": [
+                0.7556451172092709,
+                0.7812992420550097
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 2306,
+              "n": 3000,
+              "rate": 0.7686666666666667,
+              "bounds": [
+                0.7556451172092709,
+                0.7812992420550097
+              ]
+            }
+          },
+          "validKeys": 0,
+          "calibration": "invalid",
+          "leaveOneKeyOutAuc": [
+            {
+              "auc": 0.5092736111111111,
+              "bounds": [
+                0.48336655609277174,
+                0.5351806661294506
+              ],
+              "se": 0.011008522795596607,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5103624999999999,
+              "bounds": [
+                0.4799163458059458,
+                0.5408086541940541
+              ],
+              "se": 0.012937293808432962,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5105777777777778,
+              "bounds": [
+                0.48055884027799767,
+                0.5405967152775579
+              ],
+              "se": 0.012755759291512925,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5117736111111111,
+              "bounds": [
+                0.4858702801706446,
+                0.5376769420515776
+              ],
+              "se": 0.011006940346486594,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5084402777777778,
+              "bounds": [
+                0.4825309885696496,
+                0.534349566985906
+              ],
+              "se": 0.01100947215588484,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            }
+          ]
+        },
+        "PL4/forward": {
+          "reference": {
+            "count": 3000,
+            "n": 3000,
+            "rate": 1.0,
+            "bounds": [
+              0.9990019209880034,
+              1.0
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5206804816814602,
+            "bounds": [
+              0.4941426704046956,
+              0.5472182929582248
+            ],
+            "se": 0.012448273228157955,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 844,
+              "n": 3000,
+              "rate": 0.2813333333333333,
+              "bounds": [
+                0.267825197545188,
+                0.29515773304618287
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 899,
+              "n": 3000,
+              "rate": 0.2996666666666667,
+              "bounds": [
+                0.2858912817058219,
+                0.3137317177265854
+              ]
+            }
+          },
+          "validKeys": 0,
+          "calibration": "invalid",
+          "leaveOneKeyOutAuc": [
+            {
+              "auc": 0.5230188543097598,
+              "bounds": [
+                0.4858720331641893,
+                0.5601656754553304
+              ],
+              "se": 0.01578456629190325,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5179248482411121,
+              "bounds": [
+                0.4810430565837424,
+                0.5548066398984818
+              ],
+              "se": 0.01567194896969897,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5292162508060215,
+              "bounds": [
+                0.5016875727847463,
+                0.5567449288272968
+              ],
+              "se": 0.011697588912183228,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5227377395046435,
+              "bounds": [
+                0.4854377089956495,
+                0.5600377700136376
+              ],
+              "se": 0.015849668588113805,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5105047155457639,
+              "bounds": [
+                0.4887200411222202,
+                0.5322893899693076
+              ],
+              "se": 0.009256825402056197,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            }
+          ]
+        },
+        "PL4/reversed": {
+          "reference": {
+            "count": 3000,
+            "n": 3000,
+            "rate": 1.0,
+            "bounds": [
+              0.9990019209880034,
+              1.0
+            ]
+          },
+          "artefactClassifier": {
+            "auc": 0.5208024751935246,
+            "bounds": [
+              0.49486265435778976,
+              0.5467422960292595
+            ],
+            "se": 0.012167769748796702,
+            "keys": 5,
+            "unit": "key/pack",
+            "method": "pooled-max-within-between-t",
+            "status": "measured"
+          },
+          "directionBlind": {
+            "direction-blind": {
+              "count": 844,
+              "n": 3000,
+              "rate": 0.2813333333333333,
+              "bounds": [
+                0.267825197545188,
+                0.29515773304618287
+              ]
+            },
+            "direction-blind-conflict": {
+              "count": 899,
+              "n": 3000,
+              "rate": 0.2996666666666667,
+              "bounds": [
+                0.2858912817058219,
+                0.3137317177265854
+              ]
+            }
+          },
+          "validKeys": 0,
+          "calibration": "invalid",
+          "leaveOneKeyOutAuc": [
+            {
+              "auc": 0.5231713461998404,
+              "bounds": [
+                0.4869108251862691,
+                0.5594318672134118
+              ],
+              "se": 0.015407956322149963,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5215986278242283,
+              "bounds": [
+                0.48470998294774253,
+                0.5584872727007141
+              ],
+              "se": 0.015674861065219255,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5293687426961021,
+              "bounds": [
+                0.5031146412889492,
+                0.555622844103255
+              ],
+              "se": 0.011155991046220948,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5192164518116079,
+              "bounds": [
+                0.4825639778428949,
+                0.555868925780321
+              ],
+              "se": 0.015574506439036065,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            },
+            {
+              "auc": 0.5106572074358445,
+              "bounds": [
+                0.4895788484900917,
+                0.5317355663815974
+              ],
+              "se": 0.008956695185300961,
+              "keys": 4,
+              "unit": "key/pack",
+              "method": "pooled-max-within-between-t",
+              "status": "measured"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

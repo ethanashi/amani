@@ -1,0 +1,13 @@
+# Original biomedical style; conventional outward axes, no TeX dependency.
+font.family: Liberation Sans
+font.size: 8
+axes.spines.top: False
+axes.spines.right: False
+axes.labelsize: 8
+xtick.labelsize: 7
+ytick.labelsize: 7
+axes.linewidth: 0.7
+savefig.dpi: 300
+svg.hashsalt: amani-pw3b-v1
+svg.fonttype: none
+text.usetex: False

@@ -1,0 +1,210 @@
+{
+ "pmcid": "PMC12865619",
+ "doi": "10.1016/j.ijcha.2026.101881",
+ "pmid": "41641158",
+ "journal": "International Journal of Cardiology. Heart & Vasculature",
+ "year": 2026,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Original Paper"
+ ],
+ "title_words": 21,
+ "licence": "CC BY",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods",
+    "Results",
+    "Conclusion"
+   ],
+   "words": 250
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 243
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 804,
+   "sub": [
+    {
+     "heading": "Study selection",
+     "canonical": "other",
+     "words": 94
+    },
+    {
+     "heading": "Search strategy",
+     "canonical": "other",
+     "words": 95
+    },
+    {
+     "heading": "Data extraction",
+     "canonical": "other",
+     "words": 139
+    },
+    {
+     "heading": "Risk of bias assessment",
+     "canonical": "other",
+     "words": 89
+    },
+    {
+     "heading": "Statistical analysis",
+     "canonical": "other",
+     "words": 203
+    },
+    {
+     "heading": "Sensitivity analysis",
+     "canonical": "other",
+     "words": 113
+    },
+    {
+     "heading": "Ethical considerations",
+     "canonical": "ethics",
+     "words": 25
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 358
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 750
+  },
+  {
+   "heading": "Conclusion",
+   "canonical": "conclusions",
+   "words": 85
+  },
+  {
+   "heading": "CRediT authorship contribution statement",
+   "canonical": "contributions",
+   "words": 24
+  },
+  {
+   "heading": "Declaration of competing interest",
+   "canonical": "other",
+   "words": 26,
+   "counted_as": "backmatter:other"
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Supplementary material",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "Acknowledgement",
+   "canonical": "acknowledgements",
+   "words": 11
+  },
+  {
+   "heading": "fn:supplementary-material",
+   "canonical": "supplementary",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 243,
+  "methods": 804,
+  "results": 358,
+  "discussion": 750,
+  "conclusions": 85,
+  "contributions": 24,
+  "other_back": 26
+ },
+ "main_text_words": 2240,
+ "main_text_words_excluding_methods": 1436,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 2,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 6,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 27,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": true,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": true,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": true,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

@@ -1,0 +1,301 @@
+{
+  "name": "ReSEEM",
+  "version": "2019",
+  "attribution": "Xie et al., JNCI Cancer Spectrum 2019;3(1):pkz002, doi:10.1093/jncics/pkz002 (Table 3), CC BY; original short prompts, not an official checklist reproduction.",
+  "source": "https://academic.oup.com/jncics/article/3/1/pkz002/5307777",
+  "wording": "original-prompts",
+  "publishedDate": "2019-02-06",
+  "verifiedDate": "2026-10-13",
+  "officialItemCount": 28,
+  "scope": "28 numbered items; item 16 expanded to its five published A-E analysis subparts (32 required rows).",
+  "items": [
+    {
+      "id": "1",
+      "prompt": "Data level and endpoints",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "1",
+      "section": "title"
+    },
+    {
+      "id": "2",
+      "prompt": "Structured synopsis",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "2",
+      "section": "abstract"
+    },
+    {
+      "id": "3",
+      "prompt": "Endpoint justification",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "3",
+      "section": "introduction"
+    },
+    {
+      "id": "4",
+      "prompt": "Evaluation objectives",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "4",
+      "section": "introduction"
+    },
+    {
+      "id": "5",
+      "prompt": "Protocol provenance",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "5",
+      "section": "methods"
+    },
+    {
+      "id": "6",
+      "prompt": "Eligibility rules",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "6",
+      "section": "methods"
+    },
+    {
+      "id": "7",
+      "prompt": "Search sources",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "7",
+      "section": "methods"
+    },
+    {
+      "id": "8",
+      "prompt": "Search specifications",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "8",
+      "section": "methods"
+    },
+    {
+      "id": "9",
+      "prompt": "Selection workflow",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "9",
+      "section": "methods"
+    },
+    {
+      "id": "10",
+      "prompt": "Extraction workflow",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "10",
+      "section": "methods"
+    },
+    {
+      "id": "11",
+      "prompt": "Collected variables",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "11",
+      "section": "methods"
+    },
+    {
+      "id": "12",
+      "prompt": "Within-study bias",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "12",
+      "section": "methods"
+    },
+    {
+      "id": "13",
+      "prompt": "Across-study bias",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "13",
+      "section": "methods"
+    },
+    {
+      "id": "14",
+      "prompt": "Endpoint variation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "14",
+      "section": "methods"
+    },
+    {
+      "id": "15",
+      "prompt": "Surrogacy thresholds",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "15",
+      "section": "methods"
+    },
+    {
+      "id": "16A",
+      "prompt": "Individual association methods",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "16A",
+      "section": "methods"
+    },
+    {
+      "id": "16B",
+      "prompt": "Aggregate outcome methods",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "16B",
+      "section": "methods"
+    },
+    {
+      "id": "16C",
+      "prompt": "Trial association methods",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "16C",
+      "section": "methods"
+    },
+    {
+      "id": "16D",
+      "prompt": "Validation approach",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "16D",
+      "section": "methods"
+    },
+    {
+      "id": "16E",
+      "prompt": "Robustness approach",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "16E",
+      "section": "methods"
+    },
+    {
+      "id": "17",
+      "prompt": "Selection accounting",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "17",
+      "section": "results"
+    },
+    {
+      "id": "18",
+      "prompt": "Study bias findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "18",
+      "section": "results"
+    },
+    {
+      "id": "19",
+      "prompt": "Reporting bias findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "19",
+      "section": "results"
+    },
+    {
+      "id": "20",
+      "prompt": "Trial characteristics and comparison",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "20",
+      "section": "results"
+    },
+    {
+      "id": "21",
+      "prompt": "Arm-level endpoint summaries",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "21",
+      "section": "results"
+    },
+    {
+      "id": "22",
+      "prompt": "Surrogacy findings and displays",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "22",
+      "section": "results"
+    },
+    {
+      "id": "23",
+      "prompt": "Validation findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "23",
+      "section": "results"
+    },
+    {
+      "id": "24",
+      "prompt": "Additional findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "24",
+      "section": "results"
+    },
+    {
+      "id": "25",
+      "prompt": "Evidence interpretation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "25",
+      "section": "discussion"
+    },
+    {
+      "id": "26",
+      "prompt": "Evaluation limitations",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "26",
+      "section": "discussion"
+    },
+    {
+      "id": "27",
+      "prompt": "Research implications",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "27",
+      "section": "discussion"
+    },
+    {
+      "id": "28",
+      "prompt": "Funding provenance",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "28",
+      "section": "other-information"
+    }
+  ]
+}

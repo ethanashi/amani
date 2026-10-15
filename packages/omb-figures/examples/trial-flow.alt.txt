@@ -1,0 +1,11 @@
+template:
+Participant flow. Boxes show certified participant counts; exclusions and losses reconcile with the analysed population.
+
+text:
+Participant flow. Boxes show certified participant counts; exclusions and losses reconcile with the analysed population.
+
+caption template:
+Participant allocation and follow-up. Boxes show certified participant counts; exclusions and losses reconcile with the analysed population. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Participant allocation and follow-up. Boxes show certified participant counts; exclusions and losses reconcile with the analysed population. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

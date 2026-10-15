@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-surrogacy-scatter" width="360pt" height="260pt" viewBox="0 0 360 260" role="img" aria-labelledby="ombbmgblbgejdcb-title ombbmgblbgejdcb-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombbmgblbgejdcb-title">Trial-level surrogacy</title>
+ <desc id="ombbmgblbgejdcb-desc">Final outcome effects against surrogate effects, with fitted regression and prediction limits.</desc>
+ <rect class="background" x="0" y="0" width="360" height="260" fill="#FFFFFF"/>
+ <line class="null-line" x1="50" y1="110" x2="340" y2="110" stroke="#8C8C8C" stroke-width="1" stroke-dasharray="3 2"/>
+ <polyline class="ci" points="93.5,182.68 98.58,179.27 103.65,175.87 108.72,172.47 113.8,169.07 118.88,165.69 123.95,162.3 129.03,158.92 134.1,155.55 139.18,152.19 144.25,148.83 149.32,145.48 154.4,142.13 159.47,138.79 164.55,135.45 169.63,132.12 174.7,128.8 179.78,125.49 184.85,122.18 189.92,118.88 195,115.58 200.08,112.29 205.15,109.01 210.22,105.73 215.3,102.46 220.38,99.2 225.45,95.94 230.53,92.69 235.6,89.45 240.67,86.21 245.75,82.98 250.82,79.75 255.9,76.53 260.97,73.32 266.05,70.11 271.13,66.91 276.2,63.71 281.27,60.52 286.35,57.34 291.42,54.16 296.5,50.99" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="3 2" stroke-linejoin="round" data-fact="mark-0"/>
+ <polyline class="ci" points="93.5,148.39 98.58,145.21 103.65,142.03 108.72,138.85 113.8,135.66 118.88,132.46 123.95,129.26 129.03,126.05 134.1,122.84 139.18,119.62 144.25,116.39 149.32,113.16 154.4,109.92 159.47,106.68 164.55,103.43 169.63,100.17 174.7,96.91 179.78,93.64 184.85,90.36 189.92,87.08 195,83.79 200.08,80.5 205.15,77.19 210.22,73.88 215.3,70.57 220.38,67.25 225.45,63.92 230.53,60.58 235.6,57.24 240.67,53.9 245.75,50.54 250.82,47.18 255.9,43.82 260.97,40.45 266.05,37.07 271.13,33.69 276.2,30.3 281.27,26.9 286.35,23.5 291.42,20.1 296.5,16.69" fill="none" stroke="#0072B2" stroke-width="1" stroke-dasharray="3 2" stroke-linejoin="round" data-fact="mark-1"/>
+ <polyline class="ci" points="93.5,165.54 98.58,162.24 103.65,158.95 108.72,155.66 113.8,152.37 118.88,149.07 123.95,145.78 129.03,142.49 134.1,139.2 139.18,135.9 144.25,132.61 149.32,129.32 154.4,126.03 159.47,122.73 164.55,119.44 169.63,116.15 174.7,112.86 179.78,109.56 184.85,106.27 189.92,102.98 195,99.69 200.08,96.39 205.15,93.1 210.22,89.81 215.3,86.52 220.38,83.22 225.45,79.93 230.53,76.64 235.6,73.35 240.67,70.05 245.75,66.76 250.82,63.47 255.9,60.18 260.97,56.88 266.05,53.59 271.13,50.3 276.2,47.01 281.27,43.71 286.35,40.42 291.42,37.13 296.5,33.84" fill="none" stroke="#0072B2" stroke-width="1" stroke-linejoin="round" data-fact="mark-2"/>
+ <line class="ci" x1="89.15" y1="167" x2="97.85" y2="167" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="93.5" y1="169.85" x2="93.5" y2="164.15" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="93.5" cy="167" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-3"/>
+ <line class="ci" x1="103.65" y1="149.51" x2="112.35" y2="149.51" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="108" y1="152.36" x2="108" y2="146.66" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="108" cy="149.51" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-4"/>
+ <line class="ci" x1="118.15" y1="139.36" x2="126.85" y2="139.36" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="122.5" y1="142.21" x2="122.5" y2="136.51" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="122.5" cy="139.36" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-5"/>
+ <line class="ci" x1="132.65" y1="137.16" x2="141.35" y2="137.16" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="137" y1="140.01" x2="137" y2="134.31" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="137" cy="137.16" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-6"/>
+ <line class="ci" x1="147.15" y1="136.19" x2="155.85" y2="136.19" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="151.5" y1="139.04" x2="151.5" y2="133.34" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="151.5" cy="136.19" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-7"/>
+ <line class="ci" x1="161.65" y1="128.61" x2="170.35" y2="128.61" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="166" y1="131.46" x2="166" y2="125.76" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="166" cy="128.61" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-8"/>
+ <line class="ci" x1="176.15" y1="112.65" x2="184.85" y2="112.65" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="180.5" y1="115.5" x2="180.5" y2="109.8" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="180.5" cy="112.65" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-9"/>
+ <line class="ci" x1="190.65" y1="94.26" x2="199.35" y2="94.26" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="195" y1="97.11" x2="195" y2="91.41" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="195" cy="94.26" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-10"/>
+ <line class="ci" x1="205.15" y1="81.6" x2="213.85" y2="81.6" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="209.5" y1="84.45" x2="209.5" y2="78.75" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="209.5" cy="81.6" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-11"/>
+ <line class="ci" x1="219.65" y1="77.58" x2="228.35" y2="77.58" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="224" y1="80.43" x2="224" y2="74.73" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="224" cy="77.58" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-12"/>
+ <line class="ci" x1="234.15" y1="77.17" x2="242.85" y2="77.17" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="238.5" y1="80.02" x2="238.5" y2="74.32" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="238.5" cy="77.17" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-13"/>
+ <line class="ci" x1="248.65" y1="72" x2="257.35" y2="72" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="253" y1="74.85" x2="253" y2="69.15" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="253" cy="72" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-14"/>
+ <line class="ci" x1="263.15" y1="58.1" x2="271.85" y2="58.1" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="267.5" y1="60.95" x2="267.5" y2="55.25" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="267.5" cy="58.1" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-15"/>
+ <line class="ci" x1="277.65" y1="39.51" x2="286.35" y2="39.51" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="282" y1="42.36" x2="282" y2="36.66" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="282" cy="39.51" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-16"/>
+ <line class="ci" x1="292.15" y1="24.59" x2="300.85" y2="24.59" stroke="#8C8C8C" stroke-width="1"/>
+ <line class="ci" x1="296.5" y1="27.44" x2="296.5" y2="21.74" stroke="#8C8C8C" stroke-width="1"/>
+ <circle class="mark shape-circle sa" cx="296.5" cy="24.59" r="2.5" fill="#0072B2" stroke="none" data-fact="mark-17"/>
+ <g class="axis axis-x scale-linear">
+  <line class="domain" x1="50" y1="205" x2="340" y2="205" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="50" y1="205" x2="50" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="50" y="216" font-size="7" text-anchor="middle" fill="#222222">−1</text>
+  </g>
+  <g class="tick">
+   <line x1="122.5" y1="205" x2="122.5" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="122.5" y="216" font-size="7" text-anchor="middle" fill="#222222">−0.5</text>
+  </g>
+  <g class="tick">
+   <line x1="195" y1="205" x2="195" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="195" y="216" font-size="7" text-anchor="middle" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="267.5" y1="205" x2="267.5" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="267.5" y="216" font-size="7" text-anchor="middle" fill="#222222">0.5</text>
+  </g>
+  <g class="tick">
+   <line x1="340" y1="205" x2="340" y2="208" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="340" y="216" font-size="7" text-anchor="middle" fill="#222222">1</text>
+  </g>
+  <text class="axis-title" x="195" y="228" font-size="8" text-anchor="middle" fill="#222222">Surrogate effect</text>
+ </g>
+ <g class="axis axis-y scale-linear">
+  <line class="domain" x1="50" y1="205" x2="50" y2="15" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="47" y1="205" x2="50" y2="205" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="207.5" font-size="7" text-anchor="end" fill="#222222">−1</text>
+  </g>
+  <g class="tick">
+   <line x1="47" y1="157.5" x2="50" y2="157.5" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="160" font-size="7" text-anchor="end" fill="#222222">−0.5</text>
+  </g>
+  <g class="tick">
+   <line x1="47" y1="110" x2="50" y2="110" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="112.5" font-size="7" text-anchor="end" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="47" y1="62.5" x2="50" y2="62.5" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="65" font-size="7" text-anchor="end" fill="#222222">0.5</text>
+  </g>
+  <g class="tick">
+   <line x1="47" y1="15" x2="50" y2="15" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="45" y="17.5" font-size="7" text-anchor="end" fill="#222222">1</text>
+  </g>
+  <text class="axis-title" x="20" y="110" font-size="8" text-anchor="middle" fill="#222222" transform="rotate(-90 20 110)">Final outcome effect</text>
+ </g>
+ <metadata>{"certificateHashes":["4d9c1cc254360c23aa81cb763c56862390853f1251851de1a436345c0fdf221a","727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30"],"csvSha256":"9dece2f9aee96182206d5b848183263b5b846cacb8aa89ce92d645ed122b444c","factIds":["surrogacy.fit","surrogacy.grid","surrogacy.lower","surrogacy.sx","surrogacy.sy","surrogacy.upper","surrogacy.x","surrogacy.y","tierc-sur"],"figureId":"surrogacy-scatter","generatorVersion":"omb-figures@2","specSha256":"9383473bb9e70c1dae13e1dc94d41e7f900a4d760e9f842de58a8ac3cef1f82f","templateId":"surrogacy-scatter@omb-figures-templates@1"}</metadata>
+</svg>

@@ -1,0 +1,20 @@
+{
+  "id": "p10b-pseudorep-hidden",
+  "family": "planted-flaw",
+  "datasetManifestHash": "f7bfe7a26b080cb0316b26e26c83870b1eb40f6b8ab29deca8d082e18de13e32",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p10b-pseudorep-hidden/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.25,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": true,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 52708800,
+  "capMinutes": 60,
+  "contaminated": false
+}

@@ -1,0 +1,3 @@
+# test runtime roots (lease/results/secret) live briefly under the home root
+.test-runtime-*/
+__pycache__/

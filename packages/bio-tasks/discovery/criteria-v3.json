@@ -1,0 +1,53 @@
+{
+  "version": "ka0-proof-v3",
+  "confidence": 0.95,
+  "minimumReplicates": 200,
+  "P1": {
+    "minimumRate": 0.825,
+    "minimumLowerRounded": 0.775,
+    "minimumPower": 0.8
+  },
+  "P2": {
+    "maximumRate": 0.02,
+    "maximumUpper": 0.05
+  },
+  "P3": {
+    "maximumErrors": 0,
+    "maximumUpperRounded": 0.015
+  },
+  "P4": {
+    "minimumRate": 0.95
+  },
+  "P5": {
+    "coverage": [
+      0.92,
+      0.98
+    ],
+    "maximumBiasMCSE": 2
+  },
+  "P6": {
+    "minimumPositiveRate": 0.5,
+    "maximumDecoyRate": 0.05
+  },
+  "P7": {
+    "naiveRateTolerance": 0.1,
+    "maximumRealismAuc": 0.6,
+    "maximumArtefactAuc": 0.55
+  },
+  "scope": "kernel-gates-only",
+  "externalTimestamp": "required-for-certification",
+  "artefactArms": {
+    "alpha": 0.01,
+    "minimumPower": 0.8,
+    "detectableExcess": 0.2,
+    "tails": "two-sided",
+    "multiplicity": "arms x keys-plus-pooled x strata"
+  },
+  "calibration": {
+    "minimumReferenceLower": 0.98,
+    "minimumKeys": 5,
+    "replicatesPerKey": 2000,
+    "aucInterval": "pack-cluster-influence-t; pooled-keys-max-within-between; leave-one-key-out",
+    "requireEveryKey": true
+  }
+}

@@ -1,0 +1,11 @@
+--- a/packages/bio-tasks/pilot/test_pilot.py
++++ b/packages/bio-tasks/pilot/test_pilot.py
+@@ -25 +25 @@
+-        parent = Path.home() / ".omerta-bio/grading"
++        parent = Path(os.environ.get("BIO_GRADING_ROOT") or Path.home() / ".omerta-bio/grading")
+@@ -68,0 +69 @@
++    @patch.dict(os.environ, {"BIO_GRADING_ROOT": ""})
+@@ -226,0 +228 @@
++    @patch.dict(os.environ, {"BIO_GRADING_ROOT": ""})
+@@ -677,0 +680 @@
++    @patch.dict(os.environ, {"BIO_GRADING_ROOT": ""})

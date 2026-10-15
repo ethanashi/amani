@@ -1,0 +1,12 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {assessAIProse} from '../src/ai-prose.ts';
+import {createReportContext} from '../src/context.ts';
+import {fixture} from '../test/fixtures.ts';
+const rows=JSON.parse(readFileSync(new URL('../test/pw5-round5-corpus.json',import.meta.url),'utf8')) as {source:string;text:string;honest:boolean}[];
+const ctx=createReportContext(fixture());
+const results=rows.map(row=>{try{const flags=assessAIProse(ctx,row.text).flags;return {...row,outcome:flags.length?'flagged':'allowed',reasons:flags.map(f=>f.reason)};}catch(error){return {...row,outcome:'blocked',reasons:[String(error)]};}});
+const count=(honest:boolean)=>Object.fromEntries(['allowed','flagged','blocked'].map(outcome=>[outcome,results.filter(r=>r.honest===honest&&r.outcome===outcome).length]));
+const report={scope:'AI prose boundary; independent record-only Methods/results gates still apply',honest:count(true),evasion:count(false),results};
+writeFileSync(new URL('../PW5-FIX5-CORPUS-RESULTS.json',import.meta.url),JSON.stringify(report,null,2)+'\n');
+console.log(JSON.stringify({honest:report.honest,evasion:report.evasion}));
+if(results.some(r=>r.honest?r.outcome==='blocked':r.outcome==='allowed'))process.exitCode=1;

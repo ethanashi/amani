@@ -1,0 +1,38 @@
+{
+  "schema": "omb/archive-drafter-provenance@1",
+  "inputHash": "19e9fad013467031565c6c09cd591b47813a009b847428676223399da4af7d32",
+  "restoredAcceptedOutput": true,
+  "usage": {
+    "calls": 1,
+    "tokens": 20045,
+    "cachedInputTokens": 77440,
+    "inputTokens": 94885,
+    "outputTokens": 2600,
+    "reportedTokens": 97485,
+    "accounting": "uncached-input-plus-output",
+    "elapsedMs": 111314.048042
+  },
+  "calls": [
+    {
+      "phase": "archived-blind-manuscript",
+      "model": {
+        "family": "codex",
+        "model": "gpt-6-astra",
+        "effort": "high"
+      },
+      "promptHash": "67b9ca942654d3acc2d96e7d1c5e7d87290b8d5e52ba5e7f66bc812b379bbec3",
+      "outputHash": "20f635a35cbbf68dacc0de66119d27aa425587f66b70d201924e3c2bac0d40d7",
+      "observedModels": [
+        "gpt-6-astra"
+      ],
+      "usage": {
+        "inputTokens": 94885,
+        "cachedInputTokens": 77440,
+        "outputTokens": 2600,
+        "totalTokens": 97485
+      }
+    }
+  ],
+  "crossFamilyReview": "pending",
+  "ownerEndorsement": "pending"
+}

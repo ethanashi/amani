@@ -1,0 +1,11 @@
+template:
+Colocalization posterior probabilities. Posterior probability of each colocalization hypothesis: Neither trait associated: [m:c5.pp_h0]; Exposure trait only: [m:c5.pp_h1]; Outcome trait only: [m:c5.pp_h2]; Both traits, distinct variants: [m:c5.pp_h3]; Both traits, shared variant: [m:c5.pp_h4]. A dashed vertical line marks the decision threshold of [m:c5.threshold].
+
+text:
+Colocalization posterior probabilities. Posterior probability of each colocalization hypothesis: Neither trait associated: 0.01; Exposure trait only: 0.03; Outcome trait only: 0.06; Both traits, distinct variants: 0.08; Both traits, shared variant: 0.82. A dashed vertical line marks the decision threshold of 0.8.
+
+caption template:
+Posterior support for a shared causal variant. Bars are posterior probabilities; the dashed line marks the decision threshold. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Posterior support for a shared causal variant. Bars are posterior probabilities; the dashed line marks the decision threshold. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

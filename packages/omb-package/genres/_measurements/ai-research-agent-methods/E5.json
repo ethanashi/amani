@@ -1,0 +1,452 @@
+{
+ "pmcid": "PMC12920143",
+ "doi": "10.1038/s41551-025-01463-z",
+ "pmid": "40738974",
+ "journal": "Nature Biomedical Engineering",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 7,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 185
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 15
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Main",
+   "canonical": "other",
+   "words": 438,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 2974,
+   "sub": [
+    {
+     "heading": "Building AI co-pilot harnessing LLM’s reasoning ability",
+     "canonical": "other",
+     "words": 935
+    },
+    {
+     "heading": "CRISPR-GPT agents automate gene-editing research tasks",
+     "canonical": "other",
+     "words": 883,
+     "sub": [
+      {
+       "heading": "Experiment planning",
+       "canonical": "other",
+       "words": 212
+      },
+      {
+       "heading": "Delivery method selection",
+       "canonical": "other",
+       "words": 257
+      },
+      {
+       "heading": "gRNA design",
+       "canonical": "other",
+       "words": 302
+      },
+      {
+       "heading": "Other functions and tools",
+       "canonical": "other",
+       "words": 90
+      }
+     ]
+    },
+    {
+     "heading": "Problem solving via fine-tuning LLM on scientific discussion",
+     "canonical": "other",
+     "words": 490
+    },
+    {
+     "heading": "CRISPR-GPT excels in human–AI collaboration",
+     "canonical": "other",
+     "words": 171
+    },
+    {
+     "heading": "Real-world demonstration for fully AI-guided gene editing",
+     "canonical": "other",
+     "words": 495
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 583
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 2936,
+   "sub": [
+    {
+     "heading": "Large language model-powered autonomous agent",
+     "canonical": "other",
+     "words": 119
+    },
+    {
+     "heading": "The Task executor operates as state machines, providing robust decomposition and progress contro",
+     "canonical": "other",
+     "words": 191
+    },
+    {
+     "heading": "The Tool provider connects the Task executor with external application programming interfaces (APIs)",
+     "canonical": "other",
+     "words": 116
+    },
+    {
+     "heading": "The LLM Planner automatically plans gene-editing experiments on the basis of the user’s request",
+     "canonical": "other",
+     "words": 197
+    },
+    {
+     "heading": "LLM User-proxy agent automatically interacts with the Task executor on the basis of the meta-request",
+     "canonical": "other",
+     "words": 279
+    },
+    {
+     "heading": "Delivery method selection agent",
+     "canonical": "other",
+     "words": 298
+    },
+    {
+     "heading": "Guide RNA design agent",
+     "canonical": "other",
+     "words": 341
+    },
+    {
+     "heading": "Q&A mode",
+     "canonical": "other",
+     "words": 170
+    },
+    {
+     "heading": "Extendibility of CRISPR-GPT",
+     "canonical": "other",
+     "words": 145
+    },
+    {
+     "heading": "Performance assessment of CRISPR-GPT",
+     "canonical": "other",
+     "words": 119,
+     "sub": [
+      {
+       "heading": "Benchmark dataset",
+       "canonical": "other",
+       "words": 119
+      }
+     ]
+    },
+    {
+     "heading": "Validation of individual gene-editing agents",
+     "canonical": "other",
+     "words": 220
+    },
+    {
+     "heading": "Human experience evaluation",
+     "canonical": "other",
+     "words": 83
+    },
+    {
+     "heading": "Real-world applicability of CRISPR-GPT via wet lab demonstrations",
+     "canonical": "other",
+     "words": 161
+    },
+    {
+     "heading": "Cell line and cell culture",
+     "canonical": "other",
+     "words": 50
+    },
+    {
+     "heading": "CRISPR RNA cloning",
+     "canonical": "other",
+     "words": 36
+    },
+    {
+     "heading": "Lentivirus packaging and transduction",
+     "canonical": "other",
+     "words": 80
+    },
+    {
+     "heading": "Genomic DNA extraction, PCR and sequencing",
+     "canonical": "other",
+     "words": 77
+    },
+    {
+     "heading": "TGFβ treatment",
+     "canonical": "other",
+     "words": 76
+    },
+    {
+     "heading": "Quantitative PCR",
+     "canonical": "other",
+     "words": 93
+    },
+    {
+     "heading": "Flow cytometry (FACS) analysis",
+     "canonical": "other",
+     "words": 68
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 89
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Extended data",
+     "canonical": "other",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 64
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 17,
+   "sub": [
+    {
+     "heading": "Peer review information",
+     "canonical": "other",
+     "words": 17
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 28
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 58
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 66
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 10,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 16,
+   "sub": [
+    {
+     "heading": "Extended data",
+     "canonical": "other",
+     "words": 7
+    },
+    {
+     "heading": "Supplementary information",
+     "canonical": "supplementary",
+     "words": 9
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 86,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 86
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 438,
+  "results": 2974,
+  "discussion": 583,
+  "methods": 2936,
+  "supplementary": 86,
+  "acknowledgements": 89,
+  "other_back": 43,
+  "contributions": 64,
+  "data_availability": 86,
+  "competing_interests": 66,
+  "references": 0
+ },
+ "main_text_words": 6931,
+ "main_text_words_excluding_methods": 3995,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 6,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 6",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 5,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 7,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 78,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

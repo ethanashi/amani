@@ -1,0 +1,404 @@
+{
+  "schema": "omb/archive-paper-input@1",
+  "question": "You have eight tables of genetic association summary statistics. All eight cover the same one-megabase window of one chromosome, in cohorts of the same continental ancestry. Every identifier has been replaced by an opaque code: variant labels, the chromosome label, the allele labels, and the base-pair positions (positions keep their original ordering but not their original spacing). The recoding is consistent across all eight tables, so one variant code, one allele code and one position mean the same thing in every table.\n\nOne table, whose file name ends in `-exposure.tsv`, is an association study of a single continuous molecular trait measured in blood. Its `beta` is the change in that trait, in standard-deviation units, per copy of `effect_allele`.\n\nThe seven other tables, whose file names end in `-outcome.tsv`, are case/control association studies of seven different binary clinical outcomes in large cohorts. Their `beta` is the log odds ratio per copy of `effect_allele`. Nothing further is disclosed about what the seven outcomes are, and nothing further is needed. Refer to each outcome table by the single letter that prefixes its file name, written exactly as the file name prints it (an upper-case letter).\n\nEvery table has the columns `variant`, `chromosome`, `position`, `effect_allele`, `other_allele`, `beta`, `standard_error`, `eaf`. The tables do not all hold the same variants. P-values are deliberately withheld; derive everything you need from `beta` and `standard_error`.\n\nYour question: does genetically predicted LOWERING of the exposure trait change the risk of these seven outcomes, and if it does, is the effect of similar size on all of them or concentrated on a few?\n\nFollow this procedure exactly, so that your numbers are comparable with the reference analysis.\n\n1. Keep only variants that appear in all eight tables.\n2. Instrument: the one variant with the largest absolute value of `beta` divided by `standard_error` in the exposure table. Break ties by the lexicographically smallest variant code. Use this single variant for every estimate in steps 3 to 7; do not combine several variants into one instrument, and do not substitute another estimator.\n3. Let b_e and s_e be that variant's exposure estimate and standard error. For each outcome table, let b_o and s_o be the same variant's outcome estimate and standard error, expressed against the same `effect_allele`; if an outcome table reports the allele pair the other way round, negate its estimate first.\n4. The log odds ratio per one standard deviation LOWER exposure is L = -b_o / b_e, with standard error s = s_o / |b_e|. The odds ratio is exp(L), and its interval runs from exp(L - 1.96*s) to exp(L + 1.96*s).\n5. Classify every outcome: `harmful` when the whole interval lies above one, `inconclusive` when it is neither of the other two cases, `protective` when the whole interval lies below one.\n6. Rank the seven outcomes by |L|, largest first. Break ties by the alphabetically smallest table letter.\n7. Let S be the outcomes you classified harmful or protective. When S holds at least two outcomes, let h be the member of S with the largest |L| and m the member with the smallest |L|, and let the gap ratio be R = |L_h| / |L_m|. Treating the two outcome estimates as independent, the interval for R runs from R*exp(-1.96*w) to R*exp(1.96*w), with w = sqrt((s_o_h/b_o_h)^2 + (s_o_m/b_o_m)^2).\n8. Your conclusion is `gap` when S holds at least two outcomes, R is at least two, and the lower end of the interval for R is above one; `inconclusive` when S holds fewer than two outcomes; `no-gap` when S holds at least two outcomes but that does not hold.\n\nWrite `report.json`: a single JSON object of exactly this shape.\n\n```\n{\n  \"instrument\": {\"n_shared\": <number>, \"top_variants\": [\"<variant code>\", \"<variant code>\", \"<variant code>\", \"<variant code>\", \"<variant code>\"]},\n  \"ranked\": [\n    {\"dataset\": \"<letter>\", \"or\": <number>, \"ci_low\": <number>, \"ci_high\": <number>, \"classification\": \"<harmful|inconclusive|protective>\"}\n  ],\n  \"ratio\": {\"estimate\": <number>, \"ci_low\": <number>, \"ci_high\": <number>},\n  \"conclusion\": \"<gap|inconclusive|no-gap>\",\n  \"data_integrity\": {\n    \"duplicate_units\": [\"<short description>\"],\n    \"other_problems\": [\"<short description>\"],\n    \"units_of_analysis\": \"<short description>\"\n  }\n}\n```\n\nEverything inside angle brackets is a placeholder for a value you compute; never copy a placeholder into your report. Each `<number>` must be a JSON number, not a string.\n\n`instrument.n_shared` is how many variants you kept at step 1, as a JSON number. `instrument.top_variants` holds the five variants with the largest absolute `beta` divided by `standard_error` in the exposure table, among the variants kept at step 1, as the codes printed in the data. `ranked` holds exactly seven entries, in the rank order of step 6, each naming its outcome table by the letter that prefixes its file name, copied exactly as the file name prints it. Report the odds ratio and interval of step 4 and the classification of step 5 for every outcome. If your S holds fewer than two outcomes, set every field of `ratio` to zero.\n\n`data_integrity.duplicate_units` lists any duplicated or overlapping units or samples you found (an array of strings; an empty array if you found none). `data_integrity.other_problems` lists any other data-quality problems you found (an array of strings; an empty array if you found none). `data_integrity.units_of_analysis` states in one short string the units of analysis your numbers are computed over.\n\nShow the files you read and the code you ran.\n",
+  "plan": {
+    "plain_statement": "Estimate how a genetically predicted one-standard-deviation decrease in the blood trait changes the odds of seven outcomes, and whether the strongest clearly estimated effect is at least twice the weakest.",
+    "paper_set": [
+      "effect_magnitude_gap",
+      "lower_exposure_a",
+      "lower_exposure_b",
+      "lower_exposure_c",
+      "lower_exposure_d",
+      "lower_exposure_f",
+      "lower_exposure_g",
+      "lower_exposure_h"
+    ],
+    "claims": [
+      {
+        "id": "lower_exposure_A",
+        "kind": "effect-size",
+        "estimand": "Log odds ratio for outcome A per one standard deviation genetically predicted lower exposure E, using the single exposure-selected shared variant.",
+        "exposure": "beta",
+        "outcome": "beta",
+        "unit": "One variant-specific summary association in E joined to the same variant in A.",
+        "adjustment": [],
+        "strata": [],
+        "test": "Exploratory summary-statistic Wald inference: L=-b_o_aligned/b_e; s=s_o/abs(b_e); two-sided p=2*normal.sf(abs(L/s)); interval L +/- 1.96*s.",
+        "direction": "two-sided",
+        "alpha": 0.05,
+        "mei": 0.09531017980432493,
+        "family": "seven_outcome_single_variant_estimates",
+        "table": "data/A-outcome.tsv",
+        "design": "single-variant-summary-wald"
+      },
+      {
+        "id": "lower_exposure_B",
+        "kind": "effect-size",
+        "estimand": "Log odds ratio for outcome B per one standard deviation genetically predicted lower exposure E, using the single exposure-selected shared variant.",
+        "exposure": "beta",
+        "outcome": "beta",
+        "unit": "One variant-specific summary association in E joined to the same variant in B.",
+        "adjustment": [],
+        "strata": [],
+        "test": "Exploratory summary-statistic Wald inference: L=-b_o_aligned/b_e; s=s_o/abs(b_e); two-sided p=2*normal.sf(abs(L/s)); interval L +/- 1.96*s.",
+        "direction": "two-sided",
+        "alpha": 0.05,
+        "mei": 0.09531017980432493,
+        "family": "seven_outcome_single_variant_estimates",
+        "table": "data/B-outcome.tsv",
+        "design": "single-variant-summary-wald"
+      },
+      {
+        "id": "lower_exposure_C",
+        "kind": "effect-size",
+        "estimand": "Log odds ratio for outcome C per one standard deviation genetically predicted lower exposure E, using the single exposure-selected shared variant.",
+        "exposure": "beta",
+        "outcome": "beta",
+        "unit": "One variant-specific summary association in E joined to the same variant in C.",
+        "adjustment": [],
+        "strata": [],
+        "test": "Exploratory summary-statistic Wald inference: L=-b_o_aligned/b_e; s=s_o/abs(b_e); two-sided p=2*normal.sf(abs(L/s)); interval L +/- 1.96*s.",
+        "direction": "two-sided",
+        "alpha": 0.05,
+        "mei": 0.09531017980432493,
+        "family": "seven_outcome_single_variant_estimates",
+        "table": "data/C-outcome.tsv",
+        "design": "single-variant-summary-wald"
+      },
+      {
+        "id": "lower_exposure_D",
+        "kind": "effect-size",
+        "estimand": "Log odds ratio for outcome D per one standard deviation genetically predicted lower exposure E, using the single exposure-selected shared variant.",
+        "exposure": "beta",
+        "outcome": "beta",
+        "unit": "One variant-specific summary association in E joined to the same variant in D.",
+        "adjustment": [],
+        "strata": [],
+        "test": "Exploratory summary-statistic Wald inference: L=-b_o_aligned/b_e; s=s_o/abs(b_e); two-sided p=2*normal.sf(abs(L/s)); interval L +/- 1.96*s.",
+        "direction": "two-sided",
+        "alpha": 0.05,
+        "mei": 0.09531017980432493,
+        "family": "seven_outcome_single_variant_estimates",
+        "table": "data/D-outcome.tsv",
+        "design": "single-variant-summary-wald"
+      },
+      {
+        "id": "lower_exposure_F",
+        "kind": "effect-size",
+        "estimand": "Log odds ratio for outcome F per one standard deviation genetically predicted lower exposure E, using the single exposure-selected shared variant.",
+        "exposure": "beta",
+        "outcome": "beta",
+        "unit": "One variant-specific summary association in E joined to the same variant in F.",
+        "adjustment": [],
+        "strata": [],
+        "test": "Exploratory summary-statistic Wald inference: L=-b_o_aligned/b_e; s=s_o/abs(b_e); two-sided p=2*normal.sf(abs(L/s)); interval L +/- 1.96*s.",
+        "direction": "two-sided",
+        "alpha": 0.05,
+        "mei": 0.09531017980432493,
+        "family": "seven_outcome_single_variant_estimates",
+        "table": "data/F-outcome.tsv",
+        "design": "single-variant-summary-wald"
+      },
+      {
+        "id": "lower_exposure_G",
+        "kind": "effect-size",
+        "estimand": "Log odds ratio for outcome G per one standard deviation genetically predicted lower exposure E, using the single exposure-selected shared variant.",
+        "exposure": "beta",
+        "outcome": "beta",
+        "unit": "One variant-specific summary association in E joined to the same variant in G.",
+        "adjustment": [],
+        "strata": [],
+        "test": "Exploratory summary-statistic Wald inference: L=-b_o_aligned/b_e; s=s_o/abs(b_e); two-sided p=2*normal.sf(abs(L/s)); interval L +/- 1.96*s.",
+        "direction": "two-sided",
+        "alpha": 0.05,
+        "mei": 0.09531017980432493,
+        "family": "seven_outcome_single_variant_estimates",
+        "table": "data/G-outcome.tsv",
+        "design": "single-variant-summary-wald"
+      },
+      {
+        "id": "lower_exposure_H",
+        "kind": "effect-size",
+        "estimand": "Log odds ratio for outcome H per one standard deviation genetically predicted lower exposure E, using the single exposure-selected shared variant.",
+        "exposure": "beta",
+        "outcome": "beta",
+        "unit": "One variant-specific summary association in E joined to the same variant in H.",
+        "adjustment": [],
+        "strata": [],
+        "test": "Exploratory summary-statistic Wald inference: L=-b_o_aligned/b_e; s=s_o/abs(b_e); two-sided p=2*normal.sf(abs(L/s)); interval L +/- 1.96*s.",
+        "direction": "two-sided",
+        "alpha": 0.05,
+        "mei": 0.09531017980432493,
+        "family": "seven_outcome_single_variant_estimates",
+        "table": "data/H-outcome.tsv",
+        "design": "single-variant-summary-wald"
+      },
+      {
+        "id": "effect_magnitude_gap",
+        "kind": "effect-size",
+        "estimand": "Log of the ratio R between the largest and smallest absolute L among outcomes whose intervals exclude zero, across all seven outcomes joined to E.",
+        "exposure": "beta",
+        "outcome": "beta",
+        "unit": "Two selected outcome summary associations at the same exposure-selected variant.",
+        "adjustment": [],
+        "strata": [],
+        "test": "Exploratory independent-estimates delta interval: w=sqrt((s_o_h/b_o_h)^2+(s_o_m/b_o_m)^2); R interval R*exp(+/-1.96*w). Optional directional p=normal.sf(log(R)/w). Task verdict requires R>=2 and lower interval>1.",
+        "direction": "greater",
+        "alpha": 0.05,
+        "mei": 0.6931471805599453,
+        "family": "selected_outcome_magnitude_comparison",
+        "table": "data/E-exposure.tsv",
+        "design": "selected-summary-effect-magnitude-ratio"
+      }
+    ],
+    "sharedKnobs": {
+      "phase": "Plan only. No association rows have been read and no task results are asserted.",
+      "claim_status": "All scientific claims are exploratory/Tentative. Registered kernels do not represent the cross-table single-instrument summary-statistic Wald estimator or post-selection gap comparison. Do not route these claims through regression, binary or geometric-mean ratio designs, relabel them data-integrity, or fabricate a kernel primary estimate.",
+      "source_columns": {
+        "association_tables": [
+          "variant",
+          "chromosome",
+          "position",
+          "effect_allele",
+          "other_allele",
+          "beta",
+          "standard_error",
+          "eaf"
+        ],
+        "registry": [
+          "namespace",
+          "encoding",
+          "original",
+          "canonical",
+          "target"
+        ]
+      },
+      "table_binding": "For each outcome claim, exposure beta is from data/E-exposure.tsv and outcome beta is from the claim table. Source-qualified names disambiguate the two beta columns. The gap claim uses beta and standard_error in all seven outcome tables joined to E. These are record-table joins, not matrices.",
+      "inputs": [
+        "data/A-outcome.tsv",
+        "data/B-outcome.tsv",
+        "data/C-outcome.tsv",
+        "data/D-outcome.tsv",
+        "data/E-exposure.tsv",
+        "data/F-outcome.tsv",
+        "data/G-outcome.tsv",
+        "data/H-outcome.tsv",
+        "data/snp-aliases.tsv",
+        "code/public-metadata.json"
+      ],
+      "runtime": "Run Python directly using local readers and installed libraries; no subprocess, eval, dynamic imports or network. Read the locked plan without modification. Read served rows only from ./data. Final files go only to ./outputs; temporary files to ./tmp or supplied TMPDIR. DATA-CONTRACT.json is embedded metadata, not a runtime file.",
+      "identifiers_and_join": [
+        "Read variant and allele codes as literal strings. Decode registry original/canonical/target cells with json.loads before comparisons. Preserve printed variant codes in the report.",
+        "Intersect exact variant codes across all eight association tables; perform one-to-one joins on variant. Do not join on row number, position or allele labels. Use the registry to validate the namespace, not to merge distinct printed variants.",
+        "Count distinct intersected codes before quality audits. Do not remove shared variants because of allele/EAF flags. Do not replace the instrument after an audit. Remapped positions do not support distance or LD calculations."
+      ],
+      "instrument": {
+        "selection": "Order shared E variants by decreasing abs(beta)/standard_error, then lexicographically ascending variant code. Use exact decimal cross-product comparisons to preserve mathematical ties.",
+        "top_variants": "First five distinct printed variant codes in the same ordering. n_shared and this list are frozen computed outputs, not scientific claims.",
+        "single_instrument": "Use only the first variant for every effect estimate and the gap. Record b_e and s_e; s_e does not enter the requested SE. No multiple-instrument estimator, p-value filtering or LD pruning."
+      },
+      "allele_handling": {
+        "verified_alignment": "At the selected variant compare ordered (effect_allele, other_allele) pairs with E. Equal pairs with distinct labels use reported b_o; exactly reversed pairs with distinct labels use -b_o. SE stays unchanged.",
+        "nonfatal_audit": "Audit identical allele labels, missing labels and incompatible pairs. Record counts and affected selected estimates. An anomaly in a nonselected row must not abort unrelated computations.",
+        "unresolved_orientation": "For a selected pair that is neither a verifiable match nor reversal, compute explicitly conditional nominal results using the reported outcome beta. This assumes the reported effect orientation agrees with E and is not verified harmonization. Record orientation_unresolved, actual offending labels and this assumption in outputs/primary.json and the report data_integrity.other_problems. Never infer sign from EAF, effect magnitude, another variant, row order, majority labels or synthetic status. Apply the same rule to all inputs.",
+        "scientific_gate": "An unresolved selected orientation prevents a verified directional inference for that outcome. Mark its primary claim not evaluable/Tentative; its numeric task-report classification is conditional on the stated assumption. Mark the gap conclusion conditional if S or its extrema can change. Do not present conditional numbers as software-verified answers to an unresolvable alignment."
+      },
+      "effect_computation": {
+        "L": "-b_o_aligned/b_e",
+        "s": "s_o/abs(b_e)",
+        "or": "exp(L)",
+        "ci_low": "exp(L-1.96*s)",
+        "ci_high": "exp(L+1.96*s)",
+        "classification": "harmful if L-1.96*s>0; protective if L+1.96*s<0; otherwise inconclusive. Boundary equality is inconclusive. Use unrounded values.",
+        "ranking": "Decreasing abs(L), then alphabetically increasing uppercase outcome letter; exactly seven entries A, B, C, D, F, G, H.",
+        "multiplicity": "Use task-prescribed pointwise intervals without multiplicity adjustment; report exploratory status. Inconclusive does not establish equivalence."
+      },
+      "gap_computation": {
+        "selection": "S contains harmful/protective outcomes. h maximizes abs(L) and m minimizes abs(L); resolve either tie by ascending letter.",
+        "ratio": "For len(S)>=2: R=abs(L_h)/abs(L_m); w=sqrt((s_o_h/b_o_h)^2+(s_o_m/b_o_m)^2); bounds R*exp(-1.96*w), R*exp(1.96*w). Use aligned beta; squared relative errors are sign invariant.",
+        "verdict": "If len(S)<2 set all three ratio fields to numeric zero and conclusion to inconclusive. Otherwise gap iff R>=2 and ci_low>1, else no-gap.",
+        "assumptions": "Treat the two outcomes as independent, as requested. Exposure denominator cancels; do not add exposure uncertainty. This interval does not correct for data-dependent selection of S/h/m. No-gap is failure of the specified criterion, not evidence all effects are equal."
+      },
+      "mei_justification": "For outcome log odds, mei=log(1.10) prespecifies a material ten-percent relative odds change per SD as a common comparison benchmark; undisclosed clinical outcomes preclude a validated outcome-specific clinical threshold. For log(R), mei=log(2) is the task's explicit twofold concentration threshold. These nonzero effect-size benchmarks do not change the prescribed zero-null classifications; all claims remain exploratory.",
+      "data_integrity": {
+        "audit": "Check columns, parsing, finite beta and SE, positive SE, EAF within [0,1], missing values, duplicate rows/variant keys, duplicate coordinate-and-allele units, registry membership and uniqueness, and chromosome/position/allele consistency across shared variants. EAF endpoints are permitted. Record observed problems only: previous synthetic refusals and schema marginals are not row-level findings.",
+        "duplicates": "Collapse fully identical within-table duplicate records only to recover the same estimate; record their count. Never arbitrarily choose or average conflicting duplicate estimates. Repeated variant IDs across different studies are expected linked units, not evidence of duplicate participants.",
+        "numeric_failure": "If selected numeric inputs are missing/nonfinite, selected SE is nonpositive, b_e is zero, selected duplicates conflict, fewer than five shared variants exist, or a required output is nonfinite, preserve computable outputs and explicit failure evidence. Never invent a numeric answer or substitute a different estimator/instrument. Such failures cannot truthfully yield the full requested numeric report. The schema supports complete unique numeric rows and positive SE, but execution must check.",
+        "samples": "No participant identifiers or overlap metadata are available; participant duplication and outcome independence cannot be verified. Empty duplicate_units means none found, not proven absence of overlap.",
+        "units_of_analysis": "Variant-by-study summary associations joined across eight tables; seven outcome estimates use one common selected variant."
+      },
+      "outputs": {
+        "outputs/task-results.json": "Complete requested report object with exactly instrument {n_shared, top_variants}, ranked (seven entries each with dataset, or, ci_low, ci_high, classification), ratio {estimate, ci_low, ci_high}, conclusion, and data_integrity {duplicate_units, other_problems, units_of_analysis}. Use JSON numbers for all numeric fields. Include all computable task answers regardless of kernel eligibility. Do not create hypotheses for counts, identifiers or rankings.",
+        "outputs/report.json": "Identical to outputs/task-results.json; requested report.json under the permitted final-output directory.",
+        "outputs/primary.json": "V7 primary artifact following the runtime V7 schema, with stable claim IDs, exploratory status, estimates and uncertainty, and verified validity/eligibility evidence. State conditional alignment assumptions. Never create an unrelated dummy primary estimate.",
+        "outputs/audit.json": "Input paths/hashes, row and duplicate counts, registry checks, shared count, top five exposure scores, selected original/aligned coefficients, SE and alleles, alignment status, L and s, S/h/m and ratio inputs, and limitations.",
+        "outputs/provenance.json": "Files read, exact launch commands, source paths/hashes, library versions and plan hash. Make frozen source code reviewable."
+      },
+      "validation": "At implementation use small hand-constructed fixtures for direct/reversed alleles, ties, negative b_e, intervals touching zero, fewer than two classified outcomes, R exactly two, malformed nonselected pairs and unresolved selected pairs. Check nonfatal audit and explicit conditional status. Validate exact report shape, seven unique letters, five distinct codes, finite numbers, ordering and verdict formulas. No synthetic-only branches or relaxed formulas.",
+      "planning_provenance": {
+        "files_read": [
+          "TASK.md",
+          "schema.json"
+        ],
+        "commands": "pwd and rg --files for workspace inventory; ls/cat for mounted task/schema; apply_patch to write this plan; Python standard-library json/pathlib to freeze schema/public metadata and structurally validate the plan. A shell heredoc writer failed before execution because temporary-file creation was denied. No association rows read."
+      }
+    }
+  },
+  "execution": {
+    "completedLook": true,
+    "outputSnapshotHash": "e21fbe2c9ff1802a89ebb4621405c5a05391f09ace529cd189d202962e12d75a",
+    "code": [
+      {
+        "name": "code/analyze.py",
+        "source": "\"\"\"Frozen, deterministic single-instrument analysis of local summary tables.\"\"\"\nimport argparse\nimport csv\nimport hashlib\nimport json\nimport math\nimport sys\nfrom collections import Counter, defaultdict\nfrom fractions import Fraction\nfrom pathlib import Path\n\n\nLETTERS = tuple(\"ABCDFGH\")\nCOLS = (\"variant\", \"chromosome\", \"position\", \"effect_allele\", \"other_allele\",\n        \"beta\", \"standard_error\", \"eaf\")\nMISSING = (\"\", \"NA\", None)\n\n\nclass AnalysisError(ValueError):\n    pass\n\n\ndef digest(path):\n    return hashlib.sha256(Path(path).read_bytes()).hexdigest()\n\n\ndef write_json(name, value):\n    destination = Path(\"outputs\") / name\n    destination.write_text(json.dumps(value, indent=2, allow_nan=False) + \"\\n\")\n\n\ndef number(value):\n    try:\n        x = float(value)\n        return x if math.isfinite(x) else None\n    except (ValueError, TypeError):\n        return None\n\n\ndef positive_se(row):\n    x = number(row[\"standard_error\"])\n    if x is None or x <= 0:\n        raise AnalysisError(\"Missing, nonfinite or nonpositive selected standard_error\")\n    return x\n\n\ndef coefficient(row):\n    x = number(row[\"beta\"])\n    if x is None:\n        raise AnalysisError(\"Missing or nonfinite selected beta\")\n    return x\n\n\ndef alignment(exposure, outcome):\n    ep = (exposure[\"effect_allele\"], exposure[\"other_allele\"])\n    op = (outcome[\"effect_allele\"], outcome[\"other_allele\"])\n    if any(x in MISSING for x in ep + op) or ep[0] == ep[1] or op[0] == op[1]:\n        return 1, \"orientation_unresolved\"\n    if ep == op:\n        return 1, \"matched\"\n    if ep == op[::-1]:\n        return -1, \"reversed\"\n    return 1, \"orientation_unresolved\"\n\n\ndef classify(L, s):\n    if L - 1.96 * s > 0:\n        return \"harmful\"\n    if L + 1.96 * s < 0:\n        return \"protective\"\n    return \"inconclusive\"\n\n\ndef effect(letter, exposure, outcome):\n    be, se = coefficient(exposure), positive_se(exposure)\n    if be == 0:\n        raise AnalysisError(\"Selected exposure beta is zero\")\n    bo, so = coefficient(outcome), positive_se(outcome)\n    sign, orientation = alignment(exposure, outcome)\n    aligned = sign * bo\n    L, s = -aligned / be, so / abs(be)\n    lo, hi = L - 1.96 * s, L + 1.96 * s\n    result = {\"dataset\": letter, \"or\": math.exp(L), \"ci_low\": math.exp(lo),\n              \"ci_high\": math.exp(hi), \"classification\": classify(L, s)}\n    detail = {\"dataset\": letter, \"b_e\": be, \"s_e\": se, \"b_o_reported\": bo,\n              \"b_o_aligned\": aligned, \"s_o\": so, \"sign\": sign,\n              \"alignment\": orientation, \"exposure_alleles\": [exposure[k] for k in COLS[3:5]],\n              \"outcome_alleles\": [outcome[k] for k in COLS[3:5]],\n              \"L\": L, \"s\": s, \"log_odds_ci\": [lo, hi],\n              \"p\": math.erfc(abs(L / s) / math.sqrt(2)),\n              \"classification\": result[\"classification\"]}\n    return result, detail\n\n\ndef magnitude_gap(details):\n    selected = [d for d in details if d[\"classification\"] != \"inconclusive\"]\n    audit = {\"S\": sorted(d[\"dataset\"] for d in selected),\n             \"independence\": \"Assumed as requested; participant overlap not observable\"}\n    if len(selected) < 2:\n        audit[\"status\"] = \"not_evaluable: fewer than two classified effects\"\n        return {\"estimate\": 0, \"ci_low\": 0, \"ci_high\": 0}, \"inconclusive\", audit\n    h = min(selected, key=lambda d: (-abs(d[\"L\"]), d[\"dataset\"]))\n    m = min(selected, key=lambda d: (abs(d[\"L\"]), d[\"dataset\"]))\n    R = abs(h[\"L\"]) / abs(m[\"L\"])\n    w = math.hypot(h[\"s_o\"] / h[\"b_o_aligned\"], m[\"s_o\"] / m[\"b_o_aligned\"])\n    log_r = math.log(R)\n    low, high = R * math.exp(-1.96 * w), R * math.exp(1.96 * w)\n    ratio = {\"estimate\": R, \"ci_low\": low, \"ci_high\": high}\n    conclusion = \"gap\" if R >= 2 and low > 1 else \"no-gap\"\n    audit.update({\"h\": h[\"dataset\"], \"m\": m[\"dataset\"], \"R\": R, \"w\": w,\n                  \"log_R\": log_r, \"log_R_ci\": [log_r - 1.96 * w, log_r + 1.96 * w],\n                  \"directional_p\": 0.5 * math.erfc(log_r / w / math.sqrt(2)),\n                  \"h_beta\": h[\"b_o_aligned\"], \"m_beta\": m[\"b_o_aligned\"],\n                  \"h_se\": h[\"s_o\"], \"m_se\": m[\"s_o\"],\n                  \"status\": \"exploratory; selected extrema; no selection correction\"})\n    return ratio, conclusion, audit\n\n\ndef read_table(path, required, files):\n    files[str(path)] = digest(path)\n    with Path(path).open(newline=\"\") as handle:\n        reader = csv.DictReader(handle, delimiter=\"\\t\")\n        if reader.fieldnames is None or not set(required) <= set(reader.fieldnames):\n            raise AnalysisError(\"Missing required columns: \" + str(path))\n        rows = list(reader)\n    if any(None in row for row in rows):\n        raise AnalysisError(\"Malformed extra fields: \" + str(path))\n    return rows\n\n\ndef audit_table(letter, rows, duplicates, problems):\n    groups = defaultdict(list)\n    exact_seen = set()\n    exact_duplicates = 0\n    flags = Counter()\n    coordinate_groups = defaultdict(set)\n    for row in rows:\n        key = tuple(row.get(c) for c in COLS)\n        if key in exact_seen:\n            exact_duplicates += 1\n            continue\n        exact_seen.add(key)\n        if row[\"variant\"] in MISSING:\n            flags[\"missing variant code\"] += 1\n            continue\n        groups[row[\"variant\"]].append(row)\n        if any(row[c] in MISSING for c in COLS):\n            flags[\"rows with missing required fields\"] += 1\n        if row[\"effect_allele\"] == row[\"other_allele\"]:\n            flags[\"identical effect_allele and other_allele\"] += 1\n        for col in (\"beta\", \"standard_error\", \"eaf\"):\n            x = number(row[col])\n            if x is None:\n                flags[\"missing/nonfinite/unparseable \" + col] += 1\n            elif col == \"standard_error\" and x <= 0:\n                flags[\"nonpositive standard_error\"] += 1\n            elif col == \"eaf\" and not 0 <= x <= 1:\n                flags[\"eaf outside [0,1]\"] += 1\n        try:\n            int(row[\"position\"])\n        except (ValueError, TypeError):\n            flags[\"noninteger position\"] += 1\n        pair = tuple(sorted(str(row[c]) for c in COLS[3:5]))\n        coordinate_groups[(row[\"chromosome\"], row[\"position\"], pair)].add(row[\"variant\"])\n    conflicts = sorted(k for k, values in groups.items() if len(values) > 1)\n    coordinate_duplicates = sum(len(v) > 1 for v in coordinate_groups.values())\n    if exact_duplicates:\n        duplicates.append(f\"{letter}: {exact_duplicates} identical duplicate rows collapsed\")\n    if conflicts:\n        duplicates.append(f\"{letter}: {len(conflicts)} variant codes with conflicting rows\")\n    if coordinate_duplicates:\n        duplicates.append(f\"{letter}: {coordinate_duplicates} coordinate/allele units have multiple variant codes\")\n    for name, count in sorted(flags.items()):\n        problems.append(f\"{letter}: {count} {name}\")\n    audit = {\"rows\": len(rows), \"distinct_variants\": len(groups),\n             \"identical_duplicate_rows\": exact_duplicates, \"conflicting_variants\": conflicts,\n             \"duplicate_coordinate_allele_units\": coordinate_duplicates, \"flags\": dict(flags)}\n    return groups, audit\n\n\ndef audit_registry(rows, all_variants, duplicates, problems):\n    decoded = []\n    literal_cells = 0\n    bad_cells = 0\n    for row in rows:\n        if row[\"namespace\"] != \"snp\":\n            continue\n        item = dict(row)\n        for column in (\"original\", \"canonical\", \"target\"):\n            raw = row[column]\n            try:\n                value = json.loads(raw)\n            except (json.JSONDecodeError, TypeError):\n                # Some served development registries contain literal tokens.\n                # Preserve their exact spelling, flag the encoding problem,\n                # and never use the registry to merge association variants.\n                value = raw\n                literal_cells += 1\n            if not isinstance(value, str) or value in MISSING:\n                bad_cells += 1\n            item[column] = value\n        decoded.append(item)\n    known = {r[c] for r in decoded for c in (\"original\", \"canonical\", \"target\")\n             if isinstance(r[c], str)}\n    absent = sorted(all_variants - known)\n    mappings = defaultdict(set)\n    for row in decoded:\n        if isinstance(row[\"original\"], str) and isinstance(row[\"target\"], str):\n            mappings[row[\"original\"]].add(row[\"target\"])\n    ambiguous = sum(len(v) > 1 for v in mappings.values())\n    repeated = len(decoded) - len({json.dumps(r, sort_keys=True) for r in decoded})\n    if repeated:\n        duplicates.append(f\"Registry: {repeated} repeated alias records\")\n    if literal_cells:\n        problems.append(f\"Registry: {literal_cells} cells were literal tokens rather than JSON-encoded identifiers; preserved verbatim for namespace audit only\")\n    if bad_cells:\n        problems.append(f\"Registry: {bad_cells} missing/nonstring identifier cells\")\n    if ambiguous:\n        problems.append(f\"Registry: {ambiguous} original identifiers have multiple targets\")\n    if absent:\n        problems.append(f\"Registry: {len(absent)} association variant codes absent from decoded identifiers\")\n    return {\"rows\": len(rows), \"snp_rows\": len(decoded), \"literal_cells\": literal_cells,\n            \"invalid_cells\": bad_cells, \"ambiguous_mappings\": ambiguous,\n            \"absent_variants\": absent, \"duplicate_rows\": repeated}\n\n\ndef one(groups, variant, label):\n    records = groups[variant]\n    if len(records) != 1:\n        raise AnalysisError(f\"{label}/{variant}: conflicting duplicate estimates\")\n    return records[0]\n\n\ndef ordered_instruments(shared, exposure):\n    scores = {}\n    for variant in shared:\n        row = one(exposure, variant, \"E\")\n        coefficient(row)\n        positive_se(row)\n        scores[variant] = abs(Fraction(row[\"beta\"])) / Fraction(row[\"standard_error\"])\n    return sorted(shared, key=lambda v: (-scores[v], v)), scores\n\n\ndef validate_report(report):\n    assert set(report) == {\"instrument\", \"ranked\", \"ratio\", \"conclusion\", \"data_integrity\"}\n    assert isinstance(report[\"instrument\"][\"n_shared\"], int)\n    assert len(set(report[\"instrument\"][\"top_variants\"])) == 5\n    assert len(report[\"ranked\"]) == 7\n    assert {r[\"dataset\"] for r in report[\"ranked\"]} == set(LETTERS)\n    for row in report[\"ranked\"]:\n        assert set(row) == {\"dataset\", \"or\", \"ci_low\", \"ci_high\", \"classification\"}\n        assert row[\"classification\"] in {\"harmful\", \"protective\", \"inconclusive\"}\n        assert 0 < row[\"ci_low\"] <= row[\"or\"] <= row[\"ci_high\"]\n        assert all(math.isfinite(row[k]) for k in (\"or\", \"ci_low\", \"ci_high\"))\n    assert set(report[\"ratio\"]) == {\"estimate\", \"ci_low\", \"ci_high\"}\n    assert all(math.isfinite(v) for v in report[\"ratio\"].values())\n    assert report[\"conclusion\"] in {\"gap\", \"inconclusive\", \"no-gap\"}\n    json.dumps(report, allow_nan=False)\n\n\ndef run(launcher):\n    Path(\"outputs\").mkdir(exist_ok=True)\n    files = {}\n    state = {\"files_read\": files, \"tables\": {}, \"selected\": {}}\n    duplicates, problems = [], []\n    try:\n        files[\"plan.json\"] = digest(\"plan.json\")\n        plan = json.loads(Path(\"plan.json\").read_text())\n        files[\"code/public-metadata.json\"] = digest(\"code/public-metadata.json\")\n        json.loads(Path(\"code/public-metadata.json\").read_text())\n        groups = {}\n        for letter in \"ABCDEFGH\":\n            role = \"exposure\" if letter == \"E\" else \"outcome\"\n            path = f\"data/{letter}-{role}.tsv\"\n            rows = read_table(path, COLS, files)\n            groups[letter], state[\"tables\"][letter] = audit_table(letter, rows, duplicates, problems)\n        registry = read_table(\"data/snp-aliases.tsv\", (\"namespace\", \"encoding\", \"original\", \"canonical\", \"target\"), files)\n        all_variants = set.union(*(set(g) for g in groups.values()))\n        state[\"registry\"] = audit_registry(registry, all_variants, duplicates, problems)\n        shared = set.intersection(*(set(g) for g in groups.values()))\n        state[\"n_shared\"] = len(shared)\n        if len(shared) < 5:\n            raise AnalysisError(\"Fewer than five shared variants\")\n        ordered, scores = ordered_instruments(shared, groups[\"E\"])\n        top = ordered[:5]\n        variant = top[0]\n        exposure = one(groups[\"E\"], variant, \"E\")\n        state[\"instrument\"] = {\"variant\": variant, \"top_variants\": top,\n                               \"top_scores\": {v: float(scores[v]) for v in top}}\n        # Audit cross-table pairs on shared variants; flags do not change intersection.\n        for letter in LETTERS:\n            flags = Counter()\n            for v in sorted(shared):\n                if len(groups[\"E\"][v]) != 1 or len(groups[letter][v]) != 1:\n                    continue\n                er, rr = groups[\"E\"][v][0], groups[letter][v][0]\n                for column in (\"chromosome\", \"position\"):\n                    if er[column] != rr[column]:\n                        flags[column + \" differs from E\"] += 1\n                if alignment(er, rr)[1] == \"orientation_unresolved\":\n                    flags[\"allele orientation unresolved against E\"] += 1\n            state[\"tables\"][letter][\"cross_table_flags\"] = dict(flags)\n            problems.extend(f\"{letter}: {n} shared variants with {name}\" for name, n in sorted(flags.items()))\n        results, details = [], []\n        for letter in LETTERS:\n            outcome = one(groups[letter], variant, letter)\n            result, detail = effect(letter, exposure, outcome)\n            results.append(result)\n            details.append(detail)\n            state[\"selected\"][letter] = detail\n            if detail[\"alignment\"] == \"orientation_unresolved\":\n                problems.append(f\"{letter}/{variant}: orientation_unresolved; E alleles {detail['exposure_alleles']}, outcome alleles {detail['outcome_alleles']}. Numeric odds ratio, interval and classification assume the reported effect orientation agrees with E; directional inference is not verified.\")\n        detail_map = {d[\"dataset\"]: d for d in details}\n        results.sort(key=lambda r: (-abs(detail_map[r[\"dataset\"]][\"L\"]), r[\"dataset\"]))\n        ratio, conclusion, gap = magnitude_gap(details)\n        state[\"gap\"] = gap\n        state[\"limitations\"] = [\n            \"No participant identifiers: sample overlap is not observable.\",\n            \"Independent outcomes assumed for the gap interval.\",\n            \"One common exposure-selected variant; no LD-based independent variant count.\",\n            \"Pointwise normal intervals; exposure uncertainty omitted as requested.\",\n            \"Exploratory cross-table estimators; no registered kernel decision interval.\",\n            \"S and magnitude extrema selected from the same estimates; no selection correction.\",\n            \"Unresolved orientation yields conditional signed estimates only; sign reversal leaves abs(L), S membership and gap invariant.\"\n        ]\n        report = {\"instrument\": {\"n_shared\": len(shared), \"top_variants\": top},\n                  \"ranked\": results, \"ratio\": ratio, \"conclusion\": conclusion,\n                  \"data_integrity\": {\"duplicate_units\": duplicates, \"other_problems\": problems,\n                    \"units_of_analysis\": plan[\"sharedKnobs\"][\"data_integrity\"][\"units_of_analysis\"]}}\n        validate_report(report)\n        primary, diagnostics = {}, {}\n        for claim in plan[\"claims\"]:\n            cid = claim[\"id\"]\n            if cid == \"effect_magnitude_gap\":\n                if \"log_R\" not in gap:\n                    primary[cid] = {\"status\": \"not_evaluable\", \"n_units\": len(gap[\"S\"]),\n                                    \"reason\": \"Fewer than two classified effects; log gap ratio has no estimate. Task ratio zeros are sentinels, not primary estimates.\"}\n                else:\n                    primary[cid] = {\"estimate\": gap[\"log_R\"], \"se\": gap[\"w\"],\n                                    \"p\": gap[\"directional_p\"], \"n_units\": 2,\n                                    \"status\": \"Tentative\", \"method\": \"independent-summary delta method; selected extrema\"}\n                    diagnostics[cid] = {\"method\": \"Task-prescribed normal delta interval on log R; not a registered decision interval\",\n                                        \"log_R_ci\": gap[\"log_R_ci\"], \"ratio\": ratio}\n            else:\n                letter = Path(claim[\"table\"]).name.split(\"-\", 1)[0]\n                d = detail_map[letter]\n                primary[cid] = {\"estimate\": d[\"L\"], \"se\": d[\"s\"], \"p\": d[\"p\"],\n                                \"n_units\": 1, \"status\": \"Tentative\", \"alignment\": d[\"alignment\"],\n                                \"directional_inference_verified\": d[\"alignment\"] != \"orientation_unresolved\",\n                                \"method\": \"summary-statistic normal Wald ratio; exposure uncertainty omitted\"}\n                if d[\"alignment\"] == \"orientation_unresolved\":\n                    primary[cid][\"assumption\"] = \"Reported outcome effect orientation agrees with E; not verified\"\n                    primary[cid][\"exposure_alleles\"] = d[\"exposure_alleles\"]\n                    primary[cid][\"outcome_alleles\"] = d[\"outcome_alleles\"]\n                diagnostics[cid] = {\"method\": \"Task-prescribed normal Wald interval; not a registered decision interval\",\n                                    \"log_odds_ci\": d[\"log_odds_ci\"]}\n        assert set(primary) == {c[\"id\"] for c in plan[\"claims\"]}\n        write_json(\"task-results.json\", report)\n        write_json(\"report.json\", report)\n        write_json(\"primary.json\", {\"claims\": primary})\n        write_json(\"diagnostics.json\", {\"claims\": diagnostics})\n        write_json(\"audit.json\", state)\n        sources = [\"code/analyze.py\", \"code/public-metadata.json\", \"run_all.sh\", \"run_primary.sh\"]\n        write_json(\"provenance.json\", {\"files_read\": files, \"sources\": {p: digest(p) for p in sources},\n                     \"plan_sha256\": files[\"plan.json\"], \"python\": sys.version,\n                     \"libraries\": \"Python standard library only\", \"launcher\": launcher,\n                     \"code_command\": [\"python\", \"-B\", \"code/analyze.py\", \"--launcher\", launcher],\n                     \"claim_ids\": [c[\"id\"] for c in plan[\"claims\"]],\n                     \"paper_set_as_locked\": plan[\"paper_set\"],\n                     \"note\": \"Primary keys preserve claims[].id exactly; intervals are diagnostics, not registered kernel intervals.\"})\n        print(\"Wrote outputs/task-results.json, report.json, primary.json, diagnostics.json, audit.json and provenance.json\")\n        print(f\"Computed seven outcome estimates with one instrument; {len(primary)} scientific claim blocks.\")\n    except (AnalysisError, ValueError, OverflowError, AssertionError) as exc:\n        state[\"failure\"] = str(exc)\n        state[\"duplicate_units\"] = duplicates\n        state[\"other_problems\"] = problems\n        write_json(\"audit.json\", state)\n        write_json(\"failure.json\", {\"status\": \"not_evaluable\", \"reason\": str(exc),\n                                   \"no_substitution\": \"No alternative instrument, estimator, or invented estimate was used\"})\n        raise\n\n\nif __name__ == \"__main__\":\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--launcher\", default=\"direct\")\n    args = parser.parse_args()\n    run(args.launcher)\n"
+      },
+      {
+        "name": "run_all.sh",
+        "source": "#!/bin/sh\nsh ./prepare.sh || exit $?\nset -eu\npython -B code/analyze.py --launcher run_all.sh\n"
+      },
+      {
+        "name": "run_primary.sh",
+        "source": "#!/bin/sh\nset -eu\npython -B code/analyze.py --launcher run_primary.sh\n"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "pointer": "/instrument/top_variants",
+      "value": [
+        "V18669175",
+        "V18669593",
+        "V18670073",
+        "V18670577",
+        "V18668774"
+      ],
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/0/dataset",
+      "value": "B",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/1/dataset",
+      "value": "H",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/2/dataset",
+      "value": "D",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/0/or",
+      "value": 0.5973500497765706,
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/1/or",
+      "value": 0.743229303729299,
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/2/or",
+      "value": 0.8691391939466654,
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ratio/estimate",
+      "value": 3.673758865248227,
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ratio/ci_low",
+      "value": 2.611360594412524,
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/0/classification",
+      "value": "protective",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/1/classification",
+      "value": "protective",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/2/classification",
+      "value": "protective",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/3/classification",
+      "value": "inconclusive",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/4/classification",
+      "value": "inconclusive",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/5/classification",
+      "value": "inconclusive",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/ranked/6/classification",
+      "value": "inconclusive",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/conclusion",
+      "value": "gap",
+      "source": "evaluated-run-report"
+    },
+    {
+      "pointer": "/instrument/n_shared",
+      "value": 1252,
+      "source": "evaluated-run-report"
+    }
+  ],
+  "claims": [
+    {
+      "claimId": "effect_magnitude_gap",
+      "status": "insufficient-evidence"
+    },
+    {
+      "claimId": "lower_exposure_a",
+      "status": "insufficient-evidence"
+    },
+    {
+      "claimId": "lower_exposure_b",
+      "status": "insufficient-evidence"
+    },
+    {
+      "claimId": "lower_exposure_c",
+      "status": "insufficient-evidence"
+    },
+    {
+      "claimId": "lower_exposure_d",
+      "status": "insufficient-evidence"
+    },
+    {
+      "claimId": "lower_exposure_f",
+      "status": "insufficient-evidence"
+    },
+    {
+      "claimId": "lower_exposure_g",
+      "status": "insufficient-evidence"
+    },
+    {
+      "claimId": "lower_exposure_h",
+      "status": "insufficient-evidence"
+    }
+  ],
+  "provenance": {
+    "journalSha256": "c9e432e1375052b5a6390f0cffc61704986a932661e71f70000343dfd876861c",
+    "reportSha256": "162fa77bf646f399bf4822c35482ecfdaaf9a18706b4cff188d397742f81b2f1",
+    "planSha256": "44402e35b3baf92c4ff710c34f6d44a4484623d8975d594f685afe421e930797",
+    "certificationSha256": "18d29463bbe268612ee8e25254ae855925be13ebf89f8d5641d78ff83224adc1"
+  },
+  "sha256": "b692f6bfe5c5457f2361fe4ffd0e66f36571d8a709fae069aa6b8a72d3263c26"
+}

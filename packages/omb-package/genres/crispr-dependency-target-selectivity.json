@@ -1,0 +1,2864 @@
+{
+  "schema_version": "genre-profile/1",
+  "genre": "crispr-dependency-target-selectivity",
+  "genre_name": "Cancer dependency or drug-target selectivity analysis from CRISPR screens (DepMap-style)",
+  "scope": "Analyses of genome-wide or focused CRISPR knockout (and RNAi) screens across many cancer cell lines (DepMap/Achilles, Project Score, DRIVE, integrated sets) using gene-effect scores to find selective dependencies, synthetic-lethal or paralog dependencies, biomarkers that predict dependency, target-priority scores, or concordance between genetic dependency and drug response (PRISM, GDSC, CTRP) to judge on-target selectivity. Covers computational-only papers and papers where a DepMap analysis leads into wet-lab validation. Does not cover single-cell-line screen papers without cross-cell-line analysis, in vivo screens, CRISPR library or tool-design papers, or reviews.",
+  "built_on": "2026-10-13",
+  "word_count_convention": "jats_structure.py prose words; captions/tables/citations/headings excluded; main = I+M+R+D(+L,C); STAR Methods counted as Methods (minus Resource availability)",
+  "exemplars": [
+    {
+      "id": "E1",
+      "citation": "Krill-Burger JM, Dempster JM, Borah AA, et al. Partial gene suppression improves identification of cancer vulnerabilities when CRISPR-Cas9 knockout is pan-lethal. Genome Biol. 2023;24(1):192.",
+      "doi": "10.1186/s13059-023-03020-w",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10464129/",
+      "pmcid": "PMC10464129",
+      "licence": "CC BY 4.0",
+      "journal": "Genome Biology",
+      "year": 2023,
+      "article_type": "Research",
+      "disease_area": "oncology (pan-cancer cell lines; DepMap CRISPR vs RNAi)",
+      "guideline_cited": [],
+      "experimental_validation": false,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E1.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor)",
+      "measured": {
+        "main_text_words": 8681,
+        "main_text_words_excluding_methods": 4649,
+        "section_words": {
+          "introduction": 510,
+          "results": 3370,
+          "discussion": 597,
+          "conclusions": 172,
+          "methods": 4032
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "conclusions",
+          "methods"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Results",
+          "Conclusions"
+        ],
+        "abstract_words": 251,
+        "extra_summaries": [],
+        "figures_main": 4,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "dependency_distribution",
+          "benchmark_comparison",
+          "biomarker_association_plot",
+          "dependency_drug_scatter",
+          "network_plot",
+          "methods_definition_table"
+        ],
+        "references": 64,
+        "supplement_files": 5,
+        "supplement_types": [
+          "supplementary figures and tables PDF (Figs S1-S19)",
+          "full per-gene dependency-class and biomarker result spreadsheets (3 xlsx)",
+          "peer review history"
+        ],
+        "limitations_placement": "no limitations heading or explicit limitations paragraph; caveats discussed inside Discussion",
+        "statements": [
+          "availability of data and materials (DepMap 19Q1/20Q2 + figshare DOIs, GitHub, Zenodo)",
+          "funding (own section)",
+          "authors' contributions",
+          "declarations: ethics not applicable, consent not applicable, competing interests"
+        ],
+        "corrections": "abstract 275 -> 251: removed the PMC 'Supplementary Information' note and Keywords line that the extractor counted as abstract text"
+      }
+    },
+    {
+      "id": "E2",
+      "citation": "Park TY, Leiserson MDM, Klau GW, et al. SuperDendrix algorithm integrates genetic dependencies and genomic alterations across pathways and cancer types. Cell Genom. 2022;2(2):100099.",
+      "doi": "10.1016/j.xgen.2022.100099",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8979493/",
+      "pmcid": "PMC8979493",
+      "licence": "CC BY 4.0",
+      "journal": "Cell Genomics",
+      "year": 2022,
+      "article_type": "Article",
+      "disease_area": "oncology (pan-cancer; differential dependencies vs mutations and lineage)",
+      "guideline_cited": [
+        "Cell Press STAR Methods (Key Resources Table)"
+      ],
+      "experimental_validation": false,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E2.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor); STAR Methods words added by hand (extractor files 'STAR★Methods' as back matter)",
+      "measured": {
+        "main_text_words": 14483,
+        "main_text_words_excluding_methods": 6326,
+        "section_words": {
+          "introduction": 861,
+          "results": 4392,
+          "discussion": 1073,
+          "methods": 8157
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 149,
+        "extra_summaries": [
+          "Highlights (4 bullets, 40 words)",
+          "eTOC blurb (51 words)",
+          "graphical abstract"
+        ],
+        "figures_main": 7,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "biomarker_association_plot",
+          "dependency_distribution",
+          "case_study_figure",
+          "case_study_figure",
+          "heatmap",
+          "case_study_figure",
+          "case_study_figure",
+          "dataset_table"
+        ],
+        "references": 124,
+        "supplement_files": 14,
+        "supplement_types": [
+          "supplementary figures PDF (S1-S16)",
+          "full association result tables (11 xlsx)",
+          "cell-line list with DepMap release and cell counts per cancer type",
+          "GO enrichment tables",
+          "transparent peer review record",
+          "article plus supplemental PDF"
+        ],
+        "limitations_placement": "subsection 'Limitations of study' at end of Discussion (274 words), followed by 'Future directions'",
+        "statements": [
+          "data and code availability (GitHub, Zenodo; DepMap 20Q2 in methods)",
+          "lead contact / materials availability",
+          "acknowledgments with funding",
+          "author contributions",
+          "declaration of interests",
+          "Key Resources Table"
+        ],
+        "corrections": "methods 8157 = STAR★Methods 8189 minus Resource availability 32 (counted as statement); main text recomputed 14483; figures 8 -> 7 (graphical abstract excluded); tables 1 -> 0 (Key Resources Table recorded as dataset_table, not a results table); abstract 164 -> 149 (Keywords line removed); supplementary files 28 -> 14 (PMC lists each file twice)"
+      }
+    },
+    {
+      "id": "E3",
+      "citation": "Srivatsa S, Montazeri H, Bianco G, et al. Discovery of synthetic lethal interactions from large-scale pan-cancer perturbation screens. Nat Commun. 2022;13(1):7748.",
+      "doi": "10.1038/s41467-022-35378-z",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9751287/",
+      "pmcid": "PMC9751287",
+      "licence": "CC BY 4.0",
+      "journal": "Nature Communications",
+      "year": 2022,
+      "article_type": "Article",
+      "disease_area": "oncology (pan-cancer synthetic lethality; hepatocellular carcinoma follow-up)",
+      "guideline_cited": [
+        "Nature Portfolio Reporting Summary"
+      ],
+      "experimental_validation": true,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E3.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor)",
+      "measured": {
+        "main_text_words": 9478,
+        "main_text_words_excluding_methods": 4831,
+        "section_words": {
+          "introduction": 599,
+          "results": 3301,
+          "discussion": 931,
+          "methods": 4647
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 146,
+        "extra_summaries": [
+          "editor's summary (46 words, journal-written)"
+        ],
+        "figures_main": 5,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "biomarker_association_plot",
+          "heatmap",
+          "network_plot",
+          "dependency_drug_scatter",
+          "dependency_distribution",
+          "case_study_figure",
+          "validation_panel"
+        ],
+        "references": 73,
+        "supplement_files": 10,
+        "supplement_types": [
+          "Supplementary Information PDF (Supp Figs 1-6, Supp Note)",
+          "Supplementary Data 1-6 (full SL predictions per cancer type, xlsx)",
+          "Reporting Summary",
+          "peer review file",
+          "source data"
+        ],
+        "limitations_placement": "numbered limitations paragraph inside Discussion (no heading)",
+        "statements": [
+          "data availability (Achilles 20Q2, DRIVE, figshare DOI)",
+          "code availability (GitHub, Zenodo)",
+          "competing interests",
+          "author contributions",
+          "acknowledgements with funding",
+          "Reporting Summary",
+          "cell line authentication and mycoplasma testing",
+          "animal-alternative (CAM) assay ethics"
+        ],
+        "corrections": ""
+      }
+    },
+    {
+      "id": "E4",
+      "citation": "Abecunas C, Kidd AD, Jiang Y, et al. Multivariate analysis of metabolic state vulnerabilities across diverse cancer contexts reveals synthetically lethal associations. Cell Rep. 2024;43(10):114775.",
+      "doi": "10.1016/j.celrep.2024.114775",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11511630/",
+      "pmcid": "PMC11511630",
+      "licence": "CC BY-NC-ND 4.0",
+      "journal": "Cell Reports",
+      "year": 2024,
+      "article_type": "Article",
+      "disease_area": "oncology (pan-cancer metabolic state dependencies; glioma follow-up)",
+      "guideline_cited": [
+        "Cell Press STAR Methods (Key Resources Table)"
+      ],
+      "experimental_validation": true,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E4.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor); STAR Methods words added by hand",
+      "measured": {
+        "main_text_words": 11280,
+        "main_text_words_excluding_methods": 6400,
+        "section_words": {
+          "introduction": 577,
+          "results": 4724,
+          "discussion": 1099,
+          "methods": 4880
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 149,
+        "extra_summaries": [
+          "Highlights (4 bullets, ~52 words)",
+          "In brief (54 words)",
+          "graphical abstract"
+        ],
+        "figures_main": 7,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "embedding_umap",
+          "heatmap",
+          "heatmap",
+          "heatmap",
+          "biomarker_association_plot",
+          "biomarker_association_plot",
+          "drug_sensitivity_plot",
+          "validation_panel",
+          "dataset_table",
+          "highlights_box"
+        ],
+        "references": 75,
+        "supplement_files": 1,
+        "supplement_types": [
+          "supplementary figures PDF (Figs S1-S7) as one file in the PMC author-manuscript deposit"
+        ],
+        "limitations_placement": "subsection 'Limitations of the study' at end of Discussion (168 words)",
+        "statements": [
+          "resource availability: lead contact, materials availability, data and code availability (GitHub, Zenodo, GEO)",
+          "DepMap 23Q2 cited in methods",
+          "acknowledgments with funding",
+          "author contributions",
+          "declaration of interests",
+          "cell line authentication and mycoplasma testing",
+          "Key Resources Table"
+        ],
+        "corrections": "methods 4880 = STAR★Methods (extractor files it as back matter); Resource availability (107) treated as statement; main text recomputed 11280; tables 2 -> 0 (Key Resources Table printed twice by PMC)"
+      }
+    },
+    {
+      "id": "E5",
+      "citation": "Tudose C, Bond J, Ryan CJ. Gene essentiality in cancer is better predicted by mRNA abundance than by gene regulatory network-inferred activity. NAR Cancer. 2023;5(4):zcad056.",
+      "doi": "10.1093/narcan/zcad056",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10683780/",
+      "pmcid": "PMC10683780",
+      "licence": "CC BY 4.0",
+      "journal": "NAR Cancer",
+      "year": 2023,
+      "article_type": "Article (Cancer Computational Biology)",
+      "disease_area": "oncology (pan-cancer; expression biomarkers of CRISPR dependency)",
+      "guideline_cited": [],
+      "experimental_validation": false,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E5.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor)",
+      "measured": {
+        "main_text_words": 6307,
+        "main_text_words_excluding_methods": 4981,
+        "section_words": {
+          "introduction": 687,
+          "methods": 1326,
+          "results": 3399,
+          "discussion": 895
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 245,
+        "extra_summaries": [
+          "graphical abstract"
+        ],
+        "figures_main": 5,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "benchmark_comparison",
+          "benchmark_comparison",
+          "biomarker_association_plot",
+          "benchmark_comparison"
+        ],
+        "references": 53,
+        "supplement_files": 1,
+        "supplement_types": [
+          "single zip: supplementary figures S1-S9 and tables S1-S4"
+        ],
+        "limitations_placement": "several limitation paragraphs inside Discussion (no heading)",
+        "statements": [
+          "data availability (figshare DOI, GitHub, Zenodo; DepMap 21Q4 in methods)",
+          "funding section with conflict-of-interest line",
+          "acknowledgements"
+        ],
+        "corrections": "figures 6 -> 5 (graphical abstract excluded)"
+      }
+    },
+    {
+      "id": "E6",
+      "citation": "Hassan AZ, Ward HN, Rahman M, et al. Dimensionality reduction methods for extracting functional networks from large-scale CRISPR screens. Mol Syst Biol. 2023;19(11):e11657.",
+      "doi": "10.15252/msb.202311657",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10632734/",
+      "pmcid": "PMC10632734",
+      "licence": "CC BY 4.0",
+      "journal": "Molecular Systems Biology",
+      "year": 2023,
+      "article_type": "Article",
+      "disease_area": "cancer functional genomics (DepMap co-essentiality networks)",
+      "guideline_cited": [
+        "EMBO Press Reagents and Tools table"
+      ],
+      "experimental_validation": false,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E6.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor)",
+      "measured": {
+        "main_text_words": 7327,
+        "main_text_words_excluding_methods": 4798,
+        "section_words": {
+          "introduction": 863,
+          "results": 3414,
+          "discussion": 521,
+          "methods": 2529
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 162,
+        "extra_summaries": [
+          "Synopsis with image (29 words)"
+        ],
+        "figures_main": 5,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "benchmark_comparison",
+          "benchmark_comparison",
+          "benchmark_comparison",
+          "network_plot",
+          "dataset_table"
+        ],
+        "references": 65,
+        "supplement_files": 3,
+        "supplement_types": [
+          "Expanded View figures EV1-EV5 (complex-level heatmaps, classifier results)",
+          "Appendix PDF",
+          "PDF+ (article with EV)"
+        ],
+        "limitations_placement": "limitations and future work in final Discussion paragraphs (no heading)",
+        "statements": [
+          "data availability (GitHub, Zenodo; DepMap releases cited as data references with figshare links)",
+          "author contributions",
+          "disclosure and competing interests statement",
+          "acknowledgements with funding",
+          "Reagents and Tools table"
+        ],
+        "corrections": "figures 11 -> 5 main (5 Expanded View figures and 1 synopsis image excluded); tables 1 -> 0 (Reagents and Tools table); abstract 186 -> 162 (Keywords and Subject Categories removed); extractor ai_disclosure flag is a false positive (substring match)"
+      }
+    },
+    {
+      "id": "E7",
+      "citation": "Sinha S, Sinha N, Perales M, et al. DeepTarget predicts anti-cancer mechanisms of action of small molecules by integrating drug and genetic screens. NPJ Precis Oncol. 2025;9(1):340.",
+      "doi": "10.1038/s41698-025-01111-4",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12589559/",
+      "pmcid": "PMC12589559",
+      "licence": "CC BY-NC-ND 4.0",
+      "journal": "npj Precision Oncology",
+      "year": 2025,
+      "article_type": "Article",
+      "disease_area": "oncology (pan-cancer drug mechanism of action; drug vs CRISPR concordance)",
+      "guideline_cited": [],
+      "experimental_validation": true,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E7.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor)",
+      "measured": {
+        "main_text_words": 8061,
+        "main_text_words_excluding_methods": 4552,
+        "section_words": {
+          "introduction": 511,
+          "results": 3365,
+          "discussion": 676,
+          "methods": 3509
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 239,
+        "extra_summaries": [],
+        "figures_main": 6,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "benchmark_comparison",
+          "embedding_umap",
+          "dependency_drug_scatter",
+          "dependency_drug_scatter",
+          "case_study_figure",
+          "validation_panel",
+          "biomarker_association_plot",
+          "dataset_table",
+          "results_table"
+        ],
+        "references": 19,
+        "supplement_files": 7,
+        "supplement_types": [
+          "Supplementary Information (Figs S1-S8, docx)",
+          "per-drug target prediction spreadsheets (5 xlsx)",
+          "gold-standard drug-target pairs (csv)"
+        ],
+        "limitations_placement": "one limitations paragraph inside Discussion (no heading)",
+        "statements": [
+          "data availability (DepMap portal, PRISM)",
+          "code availability (GitHub)",
+          "competing interests",
+          "author contributions",
+          "acknowledgements with funding",
+          "mycoplasma testing"
+        ],
+        "corrections": "references 19 is genuine (Crossref reference-count 19)"
+      }
+    },
+    {
+      "id": "E8",
+      "citation": "Lee AR, Tangiyan A, Singh I, et al. Incomplete paralog compensation generates selective dependency on TRA2A in cancer. PLoS Genet. 2025;21(5):e1011685.",
+      "doi": "10.1371/journal.pgen.1011685",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12077678/",
+      "pmcid": "PMC12077678",
+      "licence": "CC BY 4.0",
+      "journal": "PLOS Genetics",
+      "year": 2025,
+      "article_type": "Research Article",
+      "disease_area": "oncology (selective paralog dependency; lung and glioma cell lines)",
+      "guideline_cited": [],
+      "experimental_validation": true,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E8.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor)",
+      "measured": {
+        "main_text_words": 6484,
+        "main_text_words_excluding_methods": 4737,
+        "section_words": {
+          "introduction": 439,
+          "results": 3571,
+          "discussion": 727,
+          "methods": 1747
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 161,
+        "extra_summaries": [
+          "Author summary (169 words)"
+        ],
+        "figures_main": 6,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "dependency_distribution",
+          "validation_panel",
+          "study_design_schematic",
+          "validation_panel",
+          "validation_panel",
+          "validation_panel",
+          "validation_panel"
+        ],
+        "references": 79,
+        "supplement_files": 13,
+        "supplement_types": [
+          "supplementary figures S1-S6 (one per main figure)",
+          "sgRNA and primer sequences table",
+          "modifier-screen MAGeCK results table",
+          "differential splicing result tables",
+          "live-imaging movie"
+        ],
+        "limitations_placement": "brief caveats inside Discussion (no heading)",
+        "statements": [
+          "data availability in front matter (GEO accession; DepMap 24Q2 cited in figure legend)",
+          "funding statement (front matter)",
+          "competing interests (front matter)",
+          "CRediT author roles"
+        ],
+        "corrections": "Results subsection headings with italic gene names come out as empty or truncated headings; word counts unaffected"
+      }
+    },
+    {
+      "id": "E9",
+      "citation": "Arnoldus T, van Vliet A, Bleijerveld OB, et al. Cytidine diphosphate diacylglycerol synthase 2 is a synthetic lethal target in mesenchymal-like cancers. Nat Genet. 2025;57(7):1659-1671.",
+      "doi": "10.1038/s41588-025-02221-2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12283369/",
+      "pmcid": "PMC12283369",
+      "licence": "CC BY 4.0",
+      "journal": "Nature Genetics",
+      "year": 2025,
+      "article_type": "Article",
+      "disease_area": "oncology (expression-based synthetic lethality; mesenchymal-like cancers)",
+      "guideline_cited": [
+        "Nature Portfolio Reporting Summary"
+      ],
+      "experimental_validation": true,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E9.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor)",
+      "measured": {
+        "main_text_words": 7651,
+        "main_text_words_excluding_methods": 4040,
+        "section_words": {
+          "introduction": 329,
+          "results": 3099,
+          "discussion": 612,
+          "methods": 3611
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 154,
+        "extra_summaries": [
+          "editor's summary (25 words, journal-written)"
+        ],
+        "figures_main": 7,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "biomarker_association_plot",
+          "dependency_distribution",
+          "case_study_figure",
+          "validation_panel",
+          "validation_panel",
+          "validation_panel",
+          "validation_panel"
+        ],
+        "references": 98,
+        "supplement_files": 17,
+        "supplement_types": [
+          "Extended Data Figs 1-8 (incl. proteomics volcano plots, gating strategies)",
+          "Supplementary Tables 1-7 (xlsx)",
+          "Reporting Summary",
+          "peer review file",
+          "source data per figure"
+        ],
+        "limitations_placement": "caveat sentences inside the short Discussion (no heading)",
+        "statements": [
+          "data availability (DepMap 21Q2 and 23Q4 with figshare DOIs, GEO, proteomics repository)",
+          "code availability (Zenodo)",
+          "competing interests",
+          "author contributions",
+          "acknowledgements with funding",
+          "Reporting Summary",
+          "cell line authentication and mycoplasma testing",
+          "animal ethics"
+        ],
+        "corrections": "introduction = unheaded 'Main' text (329 words) as is Nature Genetics style; figures_main 7 excludes 8 Extended Data figures; abstract 166 -> 154 (Subject terms removed)"
+      }
+    },
+    {
+      "id": "E10",
+      "citation": "Jiang J, Yuan J, Hu Z, et al. Systematic illumination of druggable genes in cancer genomes. Cell Rep. 2022;38(8):110400.",
+      "doi": "10.1016/j.celrep.2022.110400",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8919705/",
+      "pmcid": "PMC8919705",
+      "licence": "CC BY-NC-ND 4.0",
+      "journal": "Cell Reports",
+      "year": 2022,
+      "article_type": "Article",
+      "disease_area": "oncology (pan-cancer druggable genome; DepMap dependency in a target-prioritisation score)",
+      "guideline_cited": [
+        "Cell Press STAR Methods (Key Resources Table)"
+      ],
+      "experimental_validation": true,
+      "measurement_file": "_measurements/crispr-dependency-target-selectivity/E10.json",
+      "measurement_method": "jats_structure.py on Europe PMC fullTextXML (post-12:31 fixed extractor); STAR Methods words added by hand",
+      "measured": {
+        "main_text_words": 10377,
+        "main_text_words_excluding_methods": 5027,
+        "section_words": {
+          "introduction": 324,
+          "results": 3459,
+          "discussion": 1244,
+          "methods": 5350
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 151,
+        "extra_summaries": [
+          "Highlights (4 bullets, ~44 words)",
+          "In brief (50 words)",
+          "graphical abstract"
+        ],
+        "figures_main": 7,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "heatmap",
+          "heatmap",
+          "biomarker_association_plot (volcano)",
+          "validation_panel",
+          "target_prioritisation_plot",
+          "target_prioritisation_plot",
+          "dataset_table",
+          "highlights_box"
+        ],
+        "references": 79,
+        "supplement_files": 10,
+        "supplement_types": [
+          "supplementary figures PDF",
+          "druggable-gene lists and per-gene multi-omic and target-score tables (9 xlsx)"
+        ],
+        "limitations_placement": "subsection 'Limitations of the study' at end of Discussion (250 words)",
+        "statements": [
+          "resource availability: lead contact, materials availability, data and code availability",
+          "acknowledgments with funding",
+          "author contributions",
+          "declaration of interests",
+          "Key Resources Table"
+        ],
+        "corrections": "methods 5350 = STAR★Methods 5590 minus Resource availability 240; main text recomputed 10377; tables 1 -> 0 (Key Resources Table)"
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "title",
+      "heading": "Title",
+      "aliases": [],
+      "order": 1,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [
+        {
+          "id": "title_names_dependency_or_target",
+          "description": "title states the dependency, synthetic-lethal pair, target or method as a declarative finding or tool name",
+          "level": "required",
+          "frequency": "10/10",
+          "detect": [
+            "dependen",
+            "synthetic(ally)? lethal",
+            "vulnerabilit",
+            "target",
+            "essential",
+            "paralog",
+            "screens?"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Title 8-16 words (median 13). 6/10 are declarative findings ('X is a synthetic lethal target in Y'), 4/10 name a method or resource. None names the data release.",
+      "basis": "frequency"
+    },
+    {
+      "id": "abstract",
+      "heading": "Abstract",
+      "aliases": [
+        "Summary"
+      ],
+      "order": 2,
+      "level": "required",
+      "words": {
+        "min": 150,
+        "typical": 150,
+        "max": 250
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "Exact: 146-251 words, median 158. Cell Press 'Summary' (149-151 words, cap 150); Nature family 146-154; NAR Cancer 245; npj Precision Oncology 239; Genome Biology structured 251. See abstract block.",
+      "basis": "frequency"
+    },
+    {
+      "id": "key_points",
+      "heading": "Highlights",
+      "aliases": [
+        "Highlights"
+      ],
+      "order": 3,
+      "level": "optional",
+      "words": {
+        "min": 40,
+        "typical": 44,
+        "max": 52
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "highlight_bullets",
+          "description": "3-4 bullet points, each <= 85 characters (Cell Press)",
+          "level": "optional",
+          "frequency": "3/10",
+          "detect": [
+            "Highlights"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "3/10, all Cell Press (mandatory there). Exact word counts 40, 44, 52 (too short to round to 50).",
+      "basis": "frequency",
+      "venue_governed": true
+    },
+    {
+      "id": "plain_summary",
+      "heading": "In brief",
+      "aliases": [
+        "eTOC blurb",
+        "In brief",
+        "Author summary",
+        "Synopsis",
+        "Editor's summary"
+      ],
+      "order": 4,
+      "level": "optional",
+      "words": {
+        "min": 50,
+        "typical": 51,
+        "max": 54
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "Author-written 'In brief' eTOC blurb in 3/10 (Cell Press; 50-54 words). PLOS Author summary in 1/10 (169 words), MSB Synopsis in 1/10 (29 words + image); Nature 'editor's summary' in 2/10 is journal-written, not an author section. Graphical abstract: 4/10 (3 Cell Press + NAR Cancer) plus MSB synopsis image.",
+      "basis": "frequency",
+      "venue_governed": true
+    },
+    {
+      "id": "introduction",
+      "heading": "Introduction",
+      "aliases": [
+        "Background",
+        "Main"
+      ],
+      "order": 5,
+      "level": "required",
+      "words": {
+        "min": 300,
+        "typical": 550,
+        "max": 850
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "screen_resource_context",
+          "description": "introduces the large-scale screen resource (DepMap/Achilles/Project Score/DRIVE) and why cross-cell-line dependency data enable the question",
+          "level": "required",
+          "frequency": "8/10",
+          "detect": [
+            "DepMap",
+            "Dependency Map",
+            "Achilles",
+            "Project Score",
+            "DRIVE",
+            "CRISPR(-Cas9)? (knockout )?screens?"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "gap_statement",
+          "description": "states what remains unknown or what current methods miss",
+          "level": "required",
+          "frequency": "9/10",
+          "detect": [
+            "remain(s)? (unclear|unknown|poorly|largely)",
+            "however",
+            "limited",
+            "lack",
+            "challeng"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "aim_final_paragraph",
+          "description": "final paragraph says what this study does ('Here, we ...')",
+          "level": "required",
+          "frequency": "8/10",
+          "detect": [
+            "\\bhere,? we\\b",
+            "in this (study|work|paper)",
+            "we (present|develop(ed)?|introduce|describe|propose|report)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Unheaded 'Main' text in Nature Genetics (E9, 329 words); 'Background' in BMC (E1). Range 324-863 words.",
+      "basis": "frequency"
+    },
+    {
+      "id": "results",
+      "heading": "Results",
+      "aliases": [
+        "Results and discussion"
+      ],
+      "order": 6,
+      "level": "required",
+      "words": {
+        "min": 3100,
+        "typical": 3400,
+        "max": 4700
+      },
+      "subsections": [
+        {
+          "heading": "Approach / data overview",
+          "aliases": [
+            "Overview of <method>",
+            "<method> workflow",
+            "Selecting data to represent each perturbation type"
+          ],
+          "aliases_regex": [
+            "overview",
+            "workflow",
+            "selecting data",
+            "framework",
+            "approach",
+            "algorithm"
+          ],
+          "level": "typical",
+          "frequency": "7/10",
+          "words": {
+            "min": 300,
+            "typical": 550,
+            "max": 900
+          },
+          "notes": "first Results subsection describes the data and analysis approach, often with the Figure 1 schematic",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Landscape of (selective) dependencies",
+          "aliases": [
+            "Identification of differential dependencies",
+            "Dependencies identified using each perturbation type",
+            "Pan-cancer predictions"
+          ],
+          "aliases_regex": [
+            "(differential|selective|pan-?cancer|strongly selective) dependenc",
+            "dependencies identified",
+            "pan-?cancer",
+            "landscape"
+          ],
+          "level": "typical",
+          "frequency": "6/10",
+          "words": {
+            "min": 300,
+            "typical": 700,
+            "max": 1250
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Biomarkers / features associated with dependency",
+          "aliases": [
+            "Associations between mutations and differential dependencies",
+            "Biomarker identification for therapeutic target discovery",
+            "Multivariate modeling uncovers ..."
+          ],
+          "aliases_regex": [
+            "biomarker",
+            "associat",
+            "predict",
+            "mutations?",
+            "expression"
+          ],
+          "level": "required",
+          "frequency": "8/10",
+          "words": {
+            "min": 300,
+            "typical": 900,
+            "max": 1700
+          },
+          "notes": "core claim block: feature (mutation, expression, copy number, lineage) vs gene-effect association",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Lineage / cancer-type-specific analysis",
+          "aliases": [
+            "Cancer-type-specific differential dependencies",
+            "Enrichment of cancer type-specific SL interactions"
+          ],
+          "aliases_regex": [
+            "cancer[- ]type",
+            "lineage",
+            "tissue",
+            "tumou?r[- ]type"
+          ],
+          "level": "typical",
+          "frequency": "6/10",
+          "words": {
+            "min": 300,
+            "typical": 500,
+            "max": 1300
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Benchmark against known dependencies or other methods",
+          "aliases": [
+            "<method> outperforms conventional tests",
+            "<method> recovers experimentally identified SL interactions",
+            "Benchmarking against recent tools"
+          ],
+          "aliases_regex": [
+            "outperform",
+            "benchmark",
+            "recover",
+            "compar",
+            "gold[- ]standard",
+            "known"
+          ],
+          "level": "typical",
+          "frequency": "6/10",
+          "words": {
+            "min": 200,
+            "typical": 400,
+            "max": 1100
+          },
+          "notes": "recovery of known positives is mentioned in Results of 10/10",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Drug-response concordance",
+          "aliases": [
+            "Associations between genetic and chemical screens",
+            "Integration with drug screens"
+          ],
+          "aliases_regex": [
+            "drug",
+            "chemical",
+            "compound",
+            "PRISM",
+            "GDSC",
+            "CTRP",
+            "pharmacolog"
+          ],
+          "level": "optional",
+          "frequency": "4/10",
+          "words": {
+            "min": 250,
+            "typical": 500,
+            "max": 650
+          },
+          "notes": "the selectivity argument: does knocking out the target mimic the drug across cell lines?",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Network / co-dependency analysis",
+          "aliases": [
+            "Functional relationships identified by co-dependency network",
+            "Network analysis of normalized DepMap data"
+          ],
+          "aliases_regex": [
+            "co-?dependenc",
+            "co-?essential",
+            "network",
+            "module"
+          ],
+          "level": "optional",
+          "frequency": "3/10",
+          "words": {
+            "min": 400,
+            "typical": 550,
+            "max": 1100
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Deep dive on a top hit",
+          "aliases": [
+            "<gene> is a selective dependency in ...",
+            "Loss of <gene> predicts increased dependency on ..."
+          ],
+          "aliases_regex": [
+            "\\b[A-Z0-9]{3,}\\b (is|are) (a |an )?(selective|synthetic|essential|required)",
+            "loss of",
+            "depend(s|ency) on"
+          ],
+          "level": "typical",
+          "frequency": "6/10",
+          "words": {
+            "min": 300,
+            "typical": 700,
+            "max": 2300
+          },
+          "notes": "gene-level follow-up of one or two hits; in wet-lab papers this becomes the validation series",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Experimental validation",
+          "aliases": [
+            "<gene> is required for growth of ...",
+            "<drug> inhibition sensitizes ..."
+          ],
+          "aliases_regex": [
+            "validat",
+            "knock(down|out)",
+            "in vivo",
+            "xenograft",
+            "sensiti[sz]es",
+            "rescue"
+          ],
+          "level": "typical",
+          "frequency": "6/10",
+          "words": {
+            "min": 250,
+            "typical": 1100,
+            "max": 3000
+          },
+          "notes": "absent from the 4 computational-only exemplars (E1, E2, E5, E6); Amani papers omit it and must say so in Limitations",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "declarative_subheadings",
+          "description": "Results split into 4-7 subsections with declarative finding headings",
+          "level": "required",
+          "frequency": "10/10",
+          "detect": [
+            ".+"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "n_cell_lines",
+          "description": "number of screened cell lines analysed",
+          "level": "typical",
+          "frequency": "7/10",
+          "detect": [
+            "\\d[\\d,]* (human |cancer |DepMap )?(cell lines|cancer cell lines|cell models)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "known_positive_recovery",
+          "description": "shows that known dependencies, known SL pairs or gold-standard drug-target pairs are recovered",
+          "level": "required",
+          "frequency": "10/10",
+          "detect": [
+            "known",
+            "previously (reported|identified|validated)",
+            "gold[- ]standard",
+            "positive control"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "lineage_context",
+          "description": "reports results by lineage/cancer type or adjusts for it",
+          "level": "required",
+          "frequency": "8/10",
+          "detect": [
+            "lineage",
+            "cancer[- ]type",
+            "tissue[- ]of[- ]origin",
+            "tumou?r type"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "drug_screen_named",
+          "description": "names a drug-response resource (PRISM, GDSC, CTRP/CTD2) when making selectivity claims",
+          "level": "typical",
+          "frequency": "5/10",
+          "detect": [
+            "PRISM",
+            "GDSC",
+            "CTRP",
+            "CTD\\^?2"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Exact 3099-4724 words. Results is the largest prose block in every exemplar.",
+      "basis": "frequency"
+    },
+    {
+      "id": "discussion",
+      "heading": "Discussion",
+      "aliases": [],
+      "order": 7,
+      "level": "required",
+      "words": {
+        "min": 500,
+        "typical": 800,
+        "max": 1250
+      },
+      "subsections": [
+        {
+          "heading": "Limitations of the study",
+          "aliases": [
+            "Limitations of study",
+            "Limitations"
+          ],
+          "aliases_regex": [
+            "limitations?( of (the )?study)?"
+          ],
+          "level": "optional",
+          "frequency": "3/10",
+          "words": {
+            "min": 150,
+            "typical": 250,
+            "max": 300
+          },
+          "notes": "mandatory heading in Cell Press (3/3 Cell Press exemplars); elsewhere limitations are a paragraph inside Discussion (6/10) or absent (E1)",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Future directions",
+          "aliases": [],
+          "aliases_regex": [
+            "future (directions|work)"
+          ],
+          "level": "optional",
+          "frequency": "1/10 as heading; future-work sentences in 6/10",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "limitations_paragraph",
+          "description": "explicit limitations text (heading or paragraph)",
+          "level": "required",
+          "frequency": "9/10",
+          "detect": [
+            "limitation",
+            "caveat",
+            "limited by",
+            "cannot (exclude|rule out)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Exact 521-1244 words (Cell Press counts include the Limitations subsection). E1 adds a separate 'Conclusions' section (172 words; BMC style, 1/10).",
+      "basis": "frequency"
+    },
+    {
+      "id": "methods",
+      "heading": "Methods",
+      "aliases": [
+        "Materials and methods",
+        "STAR★Methods",
+        "STAR Methods",
+        "Methods and Protocols"
+      ],
+      "order": 8,
+      "level": "required",
+      "words": {
+        "min": 1300,
+        "typical": 3800,
+        "max": 8150
+      },
+      "subsections": [
+        {
+          "heading": "Data sources and preprocessing",
+          "aliases": [
+            "Primary screening data",
+            "Data collection",
+            "Bioinformatics and data processing",
+            "Normalization of DepMap 2022 Q4 Chronos scores",
+            "Mutation and copy number data"
+          ],
+          "aliases_regex": [
+            "data (sources?|collection|processing|wrangling)",
+            "screening data",
+            "viability data",
+            "dataset",
+            "DepMap",
+            "preprocess",
+            "normali[sz]ation of"
+          ],
+          "level": "required",
+          "frequency": "9/10",
+          "words": {
+            "min": 100,
+            "typical": 350,
+            "max": 1350
+          },
+          "notes": "names the release (e.g. DepMap 23Q4), the gene-effect model (Chronos/CERES/DEMETER2) and the omics/drug datasets",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Dependency definitions and thresholds",
+          "aliases": [
+            "Pan-dependency analysis",
+            "Identifying strongly selective dependencies by likelihood ratio test",
+            "Identifying differential dependencies",
+            "Cut-offs used in analyses",
+            "Filtering 'sometimes' essential genes"
+          ],
+          "aliases_regex": [
+            "dependenc",
+            "essential",
+            "selective",
+            "cut-?offs?",
+            "thresholds?",
+            "gene effect"
+          ],
+          "level": "typical",
+          "frequency": "6/10",
+          "words": {
+            "min": 100,
+            "typical": 300,
+            "max": 1000
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Association / prediction model",
+          "aliases": [
+            "<method> algorithm",
+            "Predicting each gene effect profile using molecular and cellular features",
+            "Cancer-specific synthetic lethality prediction",
+            "Generation of cancer drug target score"
+          ],
+          "aliases_regex": [
+            "algorithm",
+            "model",
+            "regression",
+            "predict",
+            "associat",
+            "correlation",
+            "score",
+            "pipeline"
+          ],
+          "level": "required",
+          "frequency": "9/10",
+          "words": {
+            "min": 300,
+            "typical": 900,
+            "max": 1700
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Multiple testing",
+          "aliases": [
+            "Evaluating statistical significance of associations"
+          ],
+          "aliases_regex": [
+            "multiple testing",
+            "statistical significance",
+            "false discovery"
+          ],
+          "level": "optional",
+          "frequency": "2/10 as heading; FDR/Bonferroni stated in 10/10",
+          "words": {
+            "min": 100,
+            "typical": 150,
+            "max": 300
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Benchmarking / comparison with other methods or gold standards",
+          "aliases": [
+            "Comparison with UNCOVER",
+            "Simulation study",
+            "Curating gold-standard database",
+            "Comparing activity methods",
+            "Classification accuracy (ROC AUC) of positive/negative controls"
+          ],
+          "aliases_regex": [
+            "comparison",
+            "compar(ing|ed) ",
+            "benchmark",
+            "gold[- ]standard",
+            "simulation",
+            "positive/negative controls"
+          ],
+          "level": "typical",
+          "frequency": "6/10",
+          "words": {
+            "min": 150,
+            "typical": 450,
+            "max": 2000
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Replication in an independent screen dataset",
+          "aliases": [
+            "Validation on the Sanger CRISPR-Cas9 screen data",
+            "SLIdR on CRISPR dataset",
+            "Mapping dependency classes between RNAi and CRISPR"
+          ],
+          "aliases_regex": [
+            "validation on",
+            "independent",
+            "Sanger",
+            "Project Score",
+            "RNAi",
+            "replicat"
+          ],
+          "level": "typical",
+          "frequency": "5/10",
+          "words": {
+            "min": 150,
+            "typical": 250,
+            "max": 700
+          },
+          "notes": "second screen platform or release (Project Score, DRIVE RNAi, a later DepMap release, or a new screen)",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Drug-response integration",
+          "aliases": [
+            "Chemical and genetic screen correlation",
+            "Validation on PRISM dataset",
+            "Drug sensitivity analysis using the Cancer Therapeutics Response Portal (CTRP)"
+          ],
+          "aliases_regex": [
+            "drug",
+            "chemical",
+            "PRISM",
+            "GDSC",
+            "CTRP",
+            "compound"
+          ],
+          "level": "optional",
+          "frequency": "4/10",
+          "words": {
+            "min": 150,
+            "typical": 300,
+            "max": 1300
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Statistical analysis",
+          "aliases": [
+            "Statistics and reproducibility",
+            "Quantification and statistical analysis",
+            "Statistics and replication"
+          ],
+          "aliases_regex": [
+            "statistic",
+            "quantification"
+          ],
+          "level": "typical",
+          "frequency": "6/10",
+          "words": {
+            "min": 100,
+            "typical": 150,
+            "max": 6150
+          },
+          "notes": "Cell Press 'Quantification and statistical analysis' can hold most of the computational methods (E2: 6169 words)",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Experimental procedures (validation)",
+          "aliases": [
+            "Cell culture",
+            "Western blot",
+            "Lentiviral transduction",
+            "In vivo mouse experiments"
+          ],
+          "aliases_regex": [
+            "cell (culture|lines)",
+            "western|immunoblot",
+            "lentivir",
+            "transfection|transduction",
+            "mouse|mice|xenograft",
+            "qRT-PCR|qPCR"
+          ],
+          "level": "typical",
+          "frequency": "6/10",
+          "words": {
+            "min": 250,
+            "typical": 1550,
+            "max": 3100
+          },
+          "notes": "not applicable to Amani (computational only)",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Network / co-dependency analysis",
+          "aliases": [
+            "Co-dependency networks",
+            "Network analysis of pathway addiction"
+          ],
+          "aliases_regex": [
+            "network",
+            "co-?dependenc",
+            "co-?essential"
+          ],
+          "level": "optional",
+          "frequency": "3/10",
+          "words": {
+            "min": 100,
+            "typical": 250,
+            "max": 400
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Key resources table",
+          "aliases": [
+            "Reagents and Tools table",
+            "KEY RESOURCES TABLE"
+          ],
+          "aliases_regex": [
+            "key resources table",
+            "reagents and tools table"
+          ],
+          "level": "optional",
+          "frequency": "4/10",
+          "words": null,
+          "notes": "venue-mandated (Cell Press, EMBO Press); lists deposited data (DepMap release), software and cell lines",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Reporting summary",
+          "aliases": [],
+          "aliases_regex": [
+            "reporting summary"
+          ],
+          "level": "optional",
+          "frequency": "2/10",
+          "words": null,
+          "notes": "Nature-branded journals only (E3, E9)",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "data_release_version",
+          "description": "screen data release named with version (e.g. DepMap 23Q4, Achilles 20Q2)",
+          "level": "required",
+          "frequency": "8/10",
+          "detect": [
+            "\\b(19|2\\d)Q[1-4]\\b",
+            "DepMap (Public )?\\d{2}Q\\d",
+            "release"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "gene_effect_model",
+          "description": "gene-effect or scoring model named (Chronos, CERES, DEMETER2, BAGEL, MAGeCK)",
+          "level": "required",
+          "frequency": "9/10",
+          "detect": [
+            "Chronos",
+            "CERES",
+            "DEMETER2?",
+            "BAGEL2?",
+            "MAGeCK",
+            "gene effect"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "multiple_testing",
+          "description": "multiple-testing correction named (BH FDR, q-value, Bonferroni)",
+          "level": "required",
+          "frequency": "10/10",
+          "detect": [
+            "\\bFDR\\b",
+            "false discovery",
+            "Benjamini",
+            "q[- ]values?",
+            "Bonferroni"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "lineage_handling",
+          "description": "lineage/cancer type handled (stratified analysis or covariate)",
+          "level": "typical",
+          "frequency": "7/10",
+          "detect": [
+            "lineage",
+            "cancer[- ]type",
+            "tissue",
+            "covariate",
+            "stratif"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "null_or_permutation",
+          "description": "permutation or simulation-based null for the association statistic",
+          "level": "optional",
+          "frequency": "3/10",
+          "detect": [
+            "permut",
+            "simulat",
+            "null distribution"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "cell_line_authentication",
+          "description": "cell-line authentication (STR) and mycoplasma testing, when wet-lab work is included",
+          "level": "optional",
+          "frequency": "3/10 authentication, 4/10 mycoplasma (of 6 wet-lab exemplars: 3/6 and 4/6)",
+          "detect": [
+            "authenticat",
+            "STR profil",
+            "short tandem repeat",
+            "mycoplasma"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Methods last in 9/10. Exact 1326-8157 words; the big ones are Cell Press STAR Methods (E2 8157, E10 5350). Methods are excluded from Nature-family word caps.",
+      "basis": "frequency"
+    },
+    {
+      "id": "data_availability",
+      "heading": "Data availability",
+      "aliases": [
+        "Availability of data and materials",
+        "Data and code availability",
+        "Resource availability",
+        "Data Availability Statement"
+      ],
+      "order": 9,
+      "level": "required",
+      "words": {
+        "min": 0,
+        "typical": 100,
+        "max": 400
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "release_doi",
+          "description": "screen release cited with persistent identifier (figshare/figshare+ DOI or URL)",
+          "level": "typical",
+          "frequency": "5/10",
+          "detect": [
+            "10\\.6084/m9\\.figshare\\.\\d+",
+            "10\\.25452/figshare\\.plus\\.\\d+",
+            "figshare\\.com/articles"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "portal_url",
+          "description": "DepMap portal or Project Score URL",
+          "level": "optional",
+          "frequency": "4/10",
+          "detect": [
+            "depmap\\.org",
+            "score\\.depmap\\.sanger\\.ac\\.uk"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "new_data_accession",
+          "description": "accession for newly generated data (GEO/SRA/PRIDE) when new screens or RNA-seq were run",
+          "level": "optional",
+          "frequency": "4/10",
+          "detect": [
+            "GSE\\d+",
+            "PRJNA\\d+",
+            "SRP\\d+",
+            "PXD\\d+",
+            "E-MTAB-\\d+"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Present in 10/10 (PLOS puts it in front matter; Cell Press inside 'Resource availability'). Exact 15-403 words.",
+      "basis": "frequency"
+    },
+    {
+      "id": "code_availability",
+      "heading": "Code availability",
+      "aliases": [
+        "Data and code availability",
+        "Availability of data and materials"
+      ],
+      "order": 10,
+      "level": "required",
+      "words": {
+        "min": 50,
+        "typical": 50,
+        "max": 50
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "github",
+          "description": "GitHub repository",
+          "level": "required",
+          "frequency": "8/10",
+          "detect": [
+            "github\\.com/[\\w.-]+"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "zenodo_doi",
+          "description": "archived code with Zenodo DOI",
+          "level": "typical",
+          "frequency": "7/10",
+          "detect": [
+            "zenodo",
+            "10\\.5281/zenodo\\.\\d+"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Code statement present in 9/10 (missing only in the wet-lab PLOS paper). Separate 'Code availability' heading in 3/10 (Nature family); combined with data in 6/10. Separate statements are 46-72 words.",
+      "basis": "frequency"
+    },
+    {
+      "id": "acknowledgements",
+      "heading": "Acknowledgements",
+      "aliases": [
+        "Acknowledgments"
+      ],
+      "order": 11,
+      "level": "required",
+      "words": {
+        "min": 50,
+        "typical": 50,
+        "max": 150
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "depmap_acknowledged",
+          "description": "acknowledges DepMap/Broad or Sanger data generators",
+          "level": "optional",
+          "frequency": "not systematically measured",
+          "detect": [
+            "DepMap",
+            "Broad Institute",
+            "Sanger"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "10/10 (exact 27-171 words, median 61). Funding sits here in 7/10.",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "heading": "Funding",
+      "aliases": [
+        "Financial support"
+      ],
+      "order": 12,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "Funding information in 10/10; own heading in 3/10 (BMC, OUP, PLOS front matter), otherwise inside Acknowledgements.",
+      "basis": "frequency"
+    },
+    {
+      "id": "contributions",
+      "heading": "Author contributions",
+      "aliases": [
+        "Authors' contributions",
+        "CRediT"
+      ],
+      "order": 13,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "9/10 (absent in NAR Cancer exemplar).",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "heading": "Competing interests",
+      "aliases": [
+        "Declaration of interests",
+        "Disclosure and competing interests statement",
+        "Conflict of interest statement"
+      ],
+      "order": 14,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "10/10.",
+      "basis": "frequency"
+    },
+    {
+      "id": "ethics",
+      "heading": "Ethics approval and consent to participate",
+      "aliases": [
+        "Animal ethics statement",
+        "Ethics"
+      ],
+      "order": 15,
+      "level": "optional",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "3/10: BMC mandatory 'not applicable' line (E1) or animal work (E3, E9). Computational papers on public cell-line data normally carry none.",
+      "basis": "frequency"
+    },
+    {
+      "id": "references",
+      "heading": "References",
+      "aliases": [],
+      "order": 16,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "19-124, median 74.",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplement",
+      "heading": "Supplementary information",
+      "aliases": [
+        "Supplemental information",
+        "Additional files",
+        "Supporting information",
+        "Expanded View"
+      ],
+      "order": 17,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "10/10.",
+      "basis": "frequency"
+    },
+    {
+      "id": "other",
+      "heading": "Resource availability (Lead contact; Materials availability)",
+      "aliases": [
+        "Lead contact",
+        "Materials availability"
+      ],
+      "order": 18,
+      "level": "optional",
+      "words": null,
+      "subsections": [],
+      "elements": [
+        {
+          "id": "lead_contact",
+          "description": "Cell Press lead contact and materials availability lines",
+          "level": "optional",
+          "frequency": "3/10",
+          "detect": [
+            "lead contact",
+            "materials availability"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Cell Press only (3/10); sits at the start of STAR Methods or just before it.",
+      "basis": "frequency"
+    }
+  ],
+  "section_order_variants": [
+    {
+      "name": "Methods last (Nature, Cell Press, EMBO, PLOS, npj)",
+      "order": [
+        "introduction",
+        "results",
+        "discussion",
+        "methods"
+      ],
+      "seen_in": [
+        "E2",
+        "E3",
+        "E4",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    {
+      "name": "Methods last with separate Conclusions (BMC Genome Biology)",
+      "order": [
+        "introduction",
+        "results",
+        "discussion",
+        "conclusions",
+        "methods"
+      ],
+      "seen_in": [
+        "E1"
+      ]
+    },
+    {
+      "name": "IMRaD, methods second (OUP NAR Cancer)",
+      "order": [
+        "introduction",
+        "methods",
+        "results",
+        "discussion"
+      ],
+      "seen_in": [
+        "E5"
+      ]
+    }
+  ],
+  "main_text_words": {
+    "min": 6300,
+    "typical": 8350,
+    "max": 14500,
+    "counted": [
+      "introduction",
+      "methods",
+      "results",
+      "discussion",
+      "limitations",
+      "conclusions"
+    ],
+    "methods_counted": true,
+    "notes": "Exact 6307-14483 (median 8371). Excluding Methods: min 4050, typical 4800, max 6400 (exact 4040-6400, median 4815); Nature-family caps exclude Methods. Totals above 10,000 are Cell Press papers with long STAR Methods (E2 14483, E4 11280, E10 10377). Typical venue caps: Nature Communications ~5000 words excluding Methods; Cell Press Article ~7000 words main text, Methods unlimited."
+  },
+  "abstract": {
+    "format": "unstructured",
+    "words": {
+      "min": 150,
+      "typical": 150,
+      "max": 250
+    },
+    "heading_sets": [
+      {
+        "family": "BMC (Genome Biology)",
+        "headings": [
+          "Background",
+          "Results",
+          "Conclusions"
+        ],
+        "seen_in": [
+          "E1"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "id": "resource_named",
+        "description": "names the screen resource or data type (DepMap, Achilles, Project Score, DRIVE, CRISPR/RNAi screens)",
+        "level": "typical",
+        "frequency": "7/10",
+        "detect": [
+          "DepMap",
+          "Dependency Map",
+          "Achilles",
+          "Project Score",
+          "DRIVE",
+          "CRISPR(-Cas9)? (knockout )?screens?",
+          "RNAi",
+          "perturbation screens?"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "association_or_prediction",
+        "description": "states the dependency-biomarker association, synthetic-lethal relation or prediction made",
+        "level": "required",
+        "frequency": "9/10",
+        "detect": [
+          "associat",
+          "predict",
+          "biomarker",
+          "synthetic(ally)? lethal",
+          "paralog",
+          "depend(s|ent|ency) on"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "validation_mentioned",
+        "description": "mentions validation (independent dataset or experiment)",
+        "level": "typical",
+        "frequency": "6/10",
+        "detect": [
+          "validat",
+          "experiment(al|ally)",
+          "in vivo",
+          "xenograft",
+          "independent (data|screen|cohort)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "drug_link",
+        "description": "links dependency to drug response or druggability",
+        "level": "optional",
+        "frequency": "4/10",
+        "detect": [
+          "drug",
+          "compound",
+          "small[- ]molecule",
+          "inhibitor",
+          "PRISM",
+          "GDSC",
+          "CTRP"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "quantitative_result",
+        "description": "reports a number for the main result (%, AUC, P, FDR)",
+        "level": "optional",
+        "frequency": "2/10",
+        "detect": [
+          "\\d+(\\.\\d+)?%",
+          "\\bAUC\\b",
+          "\\bP ?[<=]",
+          "\\bFDR\\b"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "tool_availability",
+        "description": "says a tool, package or web resource is available",
+        "level": "optional",
+        "frequency": "3/10",
+        "detect": [
+          "available",
+          "web (portal|tool|browser|resource)",
+          "R package",
+          "software"
+        ],
+        "basis": "frequency"
+      }
+    ],
+    "extra_summaries": [
+      {
+        "name": "Highlights",
+        "level": "optional",
+        "frequency": "3/10",
+        "words": {
+          "min": 40,
+          "typical": 44,
+          "max": 52
+        },
+        "notes": "Cell Press only; 4 bullets"
+      },
+      {
+        "name": "In brief / eTOC blurb",
+        "level": "optional",
+        "frequency": "3/10",
+        "words": {
+          "min": 50,
+          "typical": 51,
+          "max": 54
+        },
+        "notes": "Cell Press only; third person"
+      },
+      {
+        "name": "Graphical abstract",
+        "level": "optional",
+        "frequency": "4/10 (+ MSB synopsis image 1/10)",
+        "words": {
+          "min": 0,
+          "typical": 0,
+          "max": 0
+        },
+        "notes": "Cell Press 3/3 and NAR Cancer; an image, no prose"
+      },
+      {
+        "name": "Editor's summary (journal-written)",
+        "level": "optional",
+        "frequency": "2/10",
+        "words": {
+          "min": 25,
+          "typical": 36,
+          "max": 46
+        },
+        "notes": "Nature Communications / Nature Genetics; written by editors, not authors"
+      }
+    ],
+    "checklist": null,
+    "notes": "Exact 146-251 words (median 158). 9/10 single-paragraph unstructured; only BMC requires Background/Results/Conclusions. PLOS Author summary (169 words) in 1/10 and MSB Synopsis (29 words) in 1/10 are venue add-ons. Abstracts are mostly qualitative: only 2/10 give a number."
+  },
+  "display_items": [
+    {
+      "id": "study_design_schematic",
+      "type": "figure",
+      "kind": "overview schematic of data, method and analysis flow (Figure 1 or a Figure 1 panel)",
+      "level": "required",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 3
+      },
+      "placement": "main",
+      "frequency": "8/10 (as Figure 1 overview 6/10; workflow panels in later figures 2/10)",
+      "detect": [
+        "overview",
+        "schematic",
+        "workflow",
+        "pipeline",
+        "framework",
+        "diagram depicting",
+        "illustration of"
+      ],
+      "omerta_kind": "Study-design schematic",
+      "priority": 1,
+      "notes": "Amani: always Figure 1.",
+      "basis": "frequency"
+    },
+    {
+      "id": "biomarker_association_plot",
+      "type": "figure",
+      "kind": "feature-vs-dependency association plot: volcano (effect vs -log10 q), bubble/rank plot of association significance, or correlation of feature with gene effect",
+      "level": "required",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 3
+      },
+      "placement": "main",
+      "frequency": "8/10",
+      "detect": [
+        "volcano",
+        "-log10|−log10",
+        "associat",
+        "correlat\\w* (between|with)",
+        "predictive (model|features?)",
+        "biomarker"
+      ],
+      "omerta_kind": "Volcano",
+      "priority": 2,
+      "notes": "Volcano rendering explicitly in 1/10 main (E10) plus volcano-like score-vs-P panels in 2/10; FDR line and labelled top hits expected.",
+      "basis": "frequency"
+    },
+    {
+      "id": "dependency_distribution",
+      "type": "figure",
+      "kind": "gene-effect distribution: histogram/density, waterfall or ranked profile across cell lines, or box/violin of gene effect by biomarker group",
+      "level": "typical",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 4
+      },
+      "placement": "main",
+      "frequency": "6/10",
+      "detect": [
+        "gene effect",
+        "dependency (score|profile)s?",
+        "distribution",
+        "waterfall",
+        "ranked",
+        "CERES|Chronos",
+        "viability scores?"
+      ],
+      "omerta_kind": null,
+      "priority": 3,
+      "notes": "Usually shows threshold lines (e.g. gene effect -0.5 / -1) and colours cell lines by biomarker or lineage.",
+      "basis": "frequency"
+    },
+    {
+      "id": "dependency_drug_scatter",
+      "type": "figure",
+      "kind": "genetic dependency vs drug response (scatter or correlation summary; PRISM, GDSC, CTRP/CTD2)",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "4/10 (scatter/correlation of gene effect vs drug response 2/10; drug-response panels by biomarker 2/10)",
+      "detect": [
+        "drug (sensitivity|response)",
+        "PRISM",
+        "GDSC",
+        "CTRP",
+        "CTD2",
+        "IC50|AUC",
+        "vs\\.? .*response"
+      ],
+      "omerta_kind": null,
+      "priority": 4,
+      "notes": "The selectivity figure: on-target drugs track the target's gene effect. Required in practice when the paper claims drug-target selectivity.",
+      "basis": "frequency",
+      "applies_when": "drug_selectivity_claim"
+    },
+    {
+      "id": "heatmap",
+      "type": "figure",
+      "kind": "heatmap across lineages/cancer types/features",
+      "level": "typical",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 3
+      },
+      "placement": "main",
+      "frequency": "5/10 main (+1/10 supplement only)",
+      "detect": [
+        "heat ?map",
+        "hierarchical clustering",
+        "clustered"
+      ],
+      "omerta_kind": null,
+      "priority": 5,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "case_study_figure",
+      "type": "figure",
+      "kind": "deep-dive figure on one top hit (gene effect by biomarker, co-dependency scatter, pathway context)",
+      "level": "typical",
+      "count": {
+        "min": 0,
+        "typical": 2,
+        "max": 6
+      },
+      "placement": "main",
+      "frequency": "6/10",
+      "detect": [
+        "dependency on",
+        "is a (selective|synthetic lethal)",
+        "same format as",
+        "identif(y|ies) .* (dependenc|target)"
+      ],
+      "omerta_kind": null,
+      "priority": 6,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "network_plot",
+      "type": "figure",
+      "kind": "co-dependency / synthetic-lethal / paralog network or circos plot",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "3/10",
+      "detect": [
+        "network",
+        "circos",
+        "co-?dependenc",
+        "co-?essential",
+        "edges"
+      ],
+      "omerta_kind": null,
+      "priority": 7,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "benchmark_comparison",
+      "type": "figure",
+      "kind": "benchmark vs known positives or other methods (ROC/PR, AUC bars)",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 4
+      },
+      "placement": "main",
+      "frequency": "4/10",
+      "detect": [
+        "\\bROC\\b|AUROC|AUPRC|precision[- ]recall",
+        "benchmark",
+        "outperform",
+        "gold[- ]standard",
+        "compar\\w+ (with|to|against) "
+      ],
+      "omerta_kind": "ROC with CI band",
+      "priority": 8,
+      "notes": "methods-type papers (E5, E6, E7) and E1 controls",
+      "basis": "frequency"
+    },
+    {
+      "id": "top_hits_table",
+      "type": "table",
+      "kind": "full table of selective dependencies / associations / SL pairs with effect, P and FDR",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 3,
+        "max": 11
+      },
+      "placement": "supplement",
+      "frequency": "0/10 in main text; 9/10 as supplementary spreadsheets",
+      "detect": [
+        "Supplementary (Data|Table)",
+        "Table S\\d+",
+        "Dataset EV\\d",
+        "Additional file"
+      ],
+      "omerta_kind": null,
+      "priority": 9,
+      "notes": "No exemplar puts a top-hits table in the main text; ranked lists go to xlsx.",
+      "basis": "frequency"
+    },
+    {
+      "id": "dataset_table",
+      "type": "table",
+      "kind": "Key Resources Table / Reagents and Tools table / data-resources table (release, source, identifier)",
+      "level": "typical",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "5/10 (KRT 3/10 Cell Press, Reagents and Tools 1/10 EMBO, data-resources table 1/10 npj)",
+      "detect": [
+        "key resources table",
+        "reagents and tools",
+        "data resources",
+        "resource"
+      ],
+      "omerta_kind": "Data-flow diagram",
+      "priority": 10,
+      "notes": "sits inside Methods; not counted toward the main display total",
+      "basis": "frequency"
+    },
+    {
+      "id": "embedding_umap",
+      "type": "figure",
+      "kind": "UMAP of cell lines or drugs",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "2/10",
+      "detect": [
+        "\\bUMAP\\b",
+        "t-?SNE"
+      ],
+      "omerta_kind": null,
+      "priority": 11,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "target_prioritisation_plot",
+      "type": "figure",
+      "kind": "target-priority score figure: score construction and distribution, or score vs clinical stage",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "2/10",
+      "detect": [
+        "(target|priority|prioriti[sz]ation) score",
+        "clinical (advancement|stage)",
+        "tractab"
+      ],
+      "omerta_kind": null,
+      "priority": 12,
+      "notes": "new id (not in shared vocabulary)",
+      "basis": "frequency"
+    },
+    {
+      "id": "validation_panel",
+      "type": "figure",
+      "kind": "wet-lab validation (knockdown/knockout growth, immunoblot, rescue, xenograft)",
+      "level": "typical",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 5
+      },
+      "placement": "main",
+      "frequency": "6/10",
+      "detect": [
+        "immunoblot|western",
+        "siRNA|sgRNA|shRNA",
+        "xenograft|tumou?r growth",
+        "rescue",
+        "colony formation",
+        "proliferation"
+      ],
+      "omerta_kind": null,
+      "priority": 13,
+      "notes": "Not applicable to Amani (computational only); the lint must not require it.",
+      "basis": "frequency"
+    },
+    {
+      "id": "highlights_box",
+      "type": "box",
+      "kind": "Highlights bullets (Cell Press)",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "3/10",
+      "detect": [
+        "Highlights"
+      ],
+      "omerta_kind": null,
+      "priority": 14,
+      "notes": "venue-mandated",
+      "basis": "frequency",
+      "venue_governed": true
+    }
+  ],
+  "display_items_main_total": {
+    "min": 5,
+    "typical": 6.5,
+    "max": 8
+  },
+  "required_statements": [
+    {
+      "id": "data_availability",
+      "label": "Data availability naming the screen release (e.g. DepMap 23Q4) and where to get it",
+      "level": "required",
+      "placement": [
+        "data_availability",
+        "methods"
+      ],
+      "frequency": "10/10 statement; 8/10 give a release version",
+      "detect": [
+        "data availab",
+        "availability of data",
+        "\\b(19|2\\d)Q[1-4]\\b",
+        "DepMap"
+      ],
+      "notes": "PLOS: front matter; Cell Press: Resource availability.",
+      "basis": "frequency"
+    },
+    {
+      "id": "release_identifier",
+      "label": "Persistent identifier for the release (figshare/figshare+ DOI)",
+      "level": "typical",
+      "placement": [
+        "data_availability",
+        "references"
+      ],
+      "frequency": "5/10",
+      "detect": [
+        "10\\.6084/m9\\.figshare\\.\\d+",
+        "10\\.25452/figshare\\.plus\\.\\d+",
+        "figshare"
+      ],
+      "notes": "MSB cites releases as data references ('Data ref: Broad DepMap, 2020').",
+      "basis": "frequency"
+    },
+    {
+      "id": "code_availability",
+      "label": "Code availability with repository (GitHub) and archive DOI (Zenodo)",
+      "level": "required",
+      "placement": [
+        "code_availability",
+        "data_availability"
+      ],
+      "frequency": "9/10 statement; GitHub 8/10; Zenodo 7/10",
+      "detect": [
+        "code availab",
+        "github\\.com",
+        "zenodo"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "new_data_accession",
+      "label": "Accession for newly generated screens or sequencing (GEO/SRA/PRIDE)",
+      "level": "optional",
+      "placement": [
+        "data_availability"
+      ],
+      "frequency": "4/10 (only where new data were generated)",
+      "detect": [
+        "GSE\\d+",
+        "SRP\\d+",
+        "PRJNA\\d+",
+        "PXD\\d+"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "label": "Funding sources",
+      "level": "required",
+      "placement": [
+        "funding",
+        "acknowledgements",
+        "title_page"
+      ],
+      "frequency": "10/10",
+      "detect": [
+        "fund",
+        "grant",
+        "supported by"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "label": "Competing interests / declaration of interests",
+      "level": "required",
+      "placement": [
+        "competing_interests",
+        "back_matter",
+        "title_page"
+      ],
+      "frequency": "10/10",
+      "detect": [
+        "competing interests?",
+        "declaration of interests?",
+        "conflicts? of interest",
+        "declare no"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "author_contributions",
+      "label": "Author contributions (CRediT or prose)",
+      "level": "required",
+      "placement": [
+        "contributions"
+      ],
+      "frequency": "9/10",
+      "detect": [
+        "author(s'|s’)? contributions",
+        "conceptuali[sz]ation",
+        "contributed"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "cell_line_authentication",
+      "label": "Cell-line authentication (STR) and mycoplasma testing (wet-lab only)",
+      "level": "optional",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "3/10 (3/6 wet-lab papers); mycoplasma 4/10",
+      "detect": [
+        "authenticat",
+        "STR profil",
+        "short tandem repeat",
+        "mycoplasma"
+      ],
+      "notes": "Not applicable to computational-only papers; state cell-line identity via DepMap ACH- IDs instead.",
+      "basis": "frequency"
+    },
+    {
+      "id": "reporting_summary",
+      "label": "Nature Portfolio Reporting Summary",
+      "level": "optional",
+      "placement": [
+        "methods",
+        "supplement"
+      ],
+      "frequency": "2/10",
+      "detect": [
+        "Reporting Summary"
+      ],
+      "notes": "Nature-branded journals only (not npj Precision Oncology in this sample).",
+      "basis": "frequency"
+    },
+    {
+      "id": "key_resources_table",
+      "label": "Key Resources Table (Cell Press) / Reagents and Tools table (EMBO)",
+      "level": "optional",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "4/10",
+      "detect": [
+        "key resources table",
+        "reagents and tools table"
+      ],
+      "notes": "venue-mandated",
+      "basis": "frequency"
+    },
+    {
+      "id": "ethics_statement",
+      "label": "Ethics statement or 'not applicable'",
+      "level": "optional",
+      "placement": [
+        "ethics",
+        "methods"
+      ],
+      "frequency": "3/10",
+      "detect": [
+        "ethic",
+        "not applicable",
+        "IACUC"
+      ],
+      "notes": "BMC requires 'not applicable'; animal work otherwise.",
+      "basis": "frequency"
+    },
+    {
+      "id": "ai_disclosure",
+      "label": "Generative-AI use disclosure",
+      "level": "optional",
+      "placement": [
+        "methods",
+        "acknowledgements"
+      ],
+      "frequency": "0/10",
+      "detect": [
+        "generative AI",
+        "large language model",
+        "ChatGPT"
+      ],
+      "notes": "None of the exemplars carries one; Amani must add one per its own design (paper_writer_design 3.1).",
+      "basis": "frequency"
+    }
+  ],
+  "checklists": [
+    {
+      "name": "MDAR framework (Materials Design Analysis Reporting)",
+      "level": "optional",
+      "citation": "Macleod M, Collings AM, Graf C, et al. The MDAR (Materials Design Analysis Reporting) Framework for transparent reporting in the life sciences. Proc Natl Acad Sci U S A. 2021;118(17):e2103238118.",
+      "doi": "10.1073/pnas.2103238118",
+      "where": "underlies the Nature Reporting Summary and Cell Press STAR Methods; not filed separately",
+      "frequency": "0/10 cite it by name",
+      "notes": "No EQUATOR guideline exists for this design.",
+      "basis": "frequency",
+      "kind": "venue_form"
+    },
+    {
+      "name": "Nature Portfolio Reporting Summary",
+      "level": "optional",
+      "citation": "Nature Portfolio. Reporting Summary (editorial policy form).",
+      "doi": null,
+      "where": "supplement (published with paper)",
+      "frequency": "2/10 (E3, E9)",
+      "notes": "Nature-branded journals only",
+      "basis": "frequency",
+      "kind": "venue_form"
+    },
+    {
+      "name": "Cell Press STAR Methods with Key Resources Table",
+      "level": "optional",
+      "citation": "Marcus E. A STAR Is Born. Cell. 2016;166(5):1059-1060.",
+      "doi": "10.1016/j.cell.2016.08.021",
+      "where": "Methods (STAR★Methods: Resource availability; Experimental model; Method details; Quantification and statistical analysis)",
+      "frequency": "3/10 (all Cell Press exemplars)",
+      "notes": "plus 'Limitations of the study' subsection in Discussion",
+      "basis": "frequency",
+      "kind": "venue_form"
+    },
+    {
+      "name": "CRISPR-screen minimum-information standard",
+      "level": "optional",
+      "citation": "none verified",
+      "doi": null,
+      "where": "n/a",
+      "frequency": "0/10",
+      "notes": "No CRISPR-screen minimum-information standard was found or cited. MIACARM is the regenerative-medicine cellular-assay standard (verified 2026-10-13), not a CRISPR-screen standard; MIARE covers RNAi experiments. Do not cite either as a CRISPR checklist.",
+      "basis": "frequency",
+      "kind": "none"
+    }
+  ],
+  "supplement": [
+    {
+      "id": "full_results_tables",
+      "item": "full ranked result tables (all dependencies, associations or SL pairs with effect size, P, FDR) as spreadsheets",
+      "level": "required",
+      "frequency": "9/10",
+      "detect": [
+        "Supplementary (Data|Table)s? \\d+",
+        "Table S\\d+",
+        "Dataset EV\\d",
+        "Additional file \\d+",
+        "\\.xlsx"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplementary_figures",
+      "item": "supplementary figures (often one per main figure: robustness, per-lineage views, extra examples)",
+      "level": "required",
+      "frequency": "10/10",
+      "detect": [
+        "Supplementary Fig",
+        "Figure S\\d+",
+        "Fig\\.? S\\d+",
+        "S\\d+ Fig",
+        "Extended Data Fig",
+        "Figure EV\\d"
+      ],
+      "notes": "Extended Data (Nature Genetics) and Expanded View (MSB) are the house versions",
+      "basis": "both"
+    },
+    {
+      "id": "peer_review_file",
+      "item": "peer review file / transparent review history",
+      "level": "typical",
+      "frequency": "5/10",
+      "detect": [
+        "peer review",
+        "review history",
+        "transparent peer review"
+      ],
+      "notes": "journal-produced",
+      "basis": "frequency"
+    },
+    {
+      "id": "cell_line_list",
+      "item": "list of cell lines used with DepMap IDs, lineage and counts per cancer type",
+      "level": "optional",
+      "frequency": "2/10",
+      "detect": [
+        "list of .*cell lines",
+        "cell lines? (used|annotation)",
+        "ACH-\\d+",
+        "number of cell lines"
+      ],
+      "notes": "useful for reproducibility; Amani should always include it",
+      "basis": "frequency"
+    },
+    {
+      "id": "source_data",
+      "item": "source data per figure",
+      "level": "optional",
+      "frequency": "2/10",
+      "detect": [
+        "Source data",
+        "source data"
+      ],
+      "notes": "Nature family",
+      "basis": "frequency"
+    },
+    {
+      "id": "reporting_summary",
+      "item": "Nature Reporting Summary",
+      "level": "optional",
+      "frequency": "2/10",
+      "detect": [
+        "Reporting Summary"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplementary_note",
+      "item": "supplementary methods/notes or appendix",
+      "level": "optional",
+      "frequency": "2/10",
+      "detect": [
+        "Supplementary Note",
+        "Appendix"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "reagent_sequences",
+      "item": "sgRNA / primer sequences (wet-lab only)",
+      "level": "optional",
+      "frequency": "2/10",
+      "detect": [
+        "sgRNA",
+        "primer",
+        "guide (RNA )?sequences"
+      ],
+      "notes": "not applicable to Amani",
+      "basis": "frequency"
+    },
+    {
+      "id": "gold_standard_sets",
+      "item": "gold-standard / positive-control gene or drug-target sets used for benchmarking",
+      "level": "optional",
+      "frequency": "2/10",
+      "detect": [
+        "gold[- ]standard",
+        "positive control",
+        "reference set"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    }
+  ],
+  "references": {
+    "min": 19,
+    "typical": 74,
+    "max": 124
+  },
+  "limitations": {
+    "placement": "Cell Press: 'Limitations of the study' subsection at the end of Discussion (3/3). Elsewhere: one or more paragraphs inside Discussion without a heading (6/10). One exemplar (E1) has no explicit limitations text.",
+    "words": {
+      "min": 150,
+      "typical": 250,
+      "max": 450
+    },
+    "conventions": [
+      "opens by conceding that limitations exist ('There are several limitations...') and lists them, sometimes numbered",
+      "each limitation is followed by a mitigation or a future-work sentence",
+      "Cell Press subsections run 168-274 words; in-Discussion paragraphs run about 150-450 words"
+    ],
+    "standard_items": [
+      {
+        "id": "cell_lines_not_tumours",
+        "text": "Dependencies are measured in cultured cell lines (mostly 2D, in vitro) that do not capture the tumour microenvironment or in vivo context.",
+        "level": "typical",
+        "frequency": "5/10",
+        "basis": "frequency"
+      },
+      {
+        "id": "screen_artifacts",
+        "text": "CRISPR screen noise and artefacts (copy-number cutting toxicity, guide efficiency, off-target effects) or CRISPR-RNAi discordance may distort gene-effect scores.",
+        "level": "optional",
+        "frequency": "4/10",
+        "basis": "frequency"
+      },
+      {
+        "id": "lineage_sample_size",
+        "text": "Few cell lines for some lineages or rare biomarkers limit power; under-represented cancer types give less reliable results.",
+        "level": "optional",
+        "frequency": "3/10",
+        "basis": "frequency"
+      },
+      {
+        "id": "limited_feature_classes",
+        "text": "Only some feature classes were tested (e.g. mutations but not copy number, methylation or protein), so many dependencies stay unexplained.",
+        "level": "optional",
+        "frequency": "3/10",
+        "basis": "frequency"
+      },
+      {
+        "id": "computational_predictions_unvalidated",
+        "text": "Associations are computational predictions that need experimental validation.",
+        "level": "optional",
+        "frequency": "3/10",
+        "basis": "frequency"
+      },
+      {
+        "id": "threshold_sensitivity",
+        "text": "Results depend on chosen thresholds or hyperparameters (e.g. wild-type P cut-off, number of components).",
+        "level": "optional",
+        "frequency": "2/10",
+        "basis": "frequency"
+      },
+      {
+        "id": "normal_tissue_toxicity_unknown",
+        "text": "Screens contain no healthy-tissue models, so a therapeutic window (toxicity of targeting a pan-essential or selective gene) cannot be judged.",
+        "level": "optional",
+        "frequency": "2/10",
+        "basis": "frequency"
+      }
+    ]
+  },
+  "variation_notes": "Venue house style drives most structural variation. Cell Press (E2, E4, E10): STAR Methods after Discussion with Key Resources Table, Resource availability, Highlights, In brief, graphical abstract and a mandatory 'Limitations of the study' subsection; STAR Methods can exceed 5,000-8,000 words. Nature family (E3, E7, E9): Methods last, separate Data and Code availability, Reporting Summary (E3, E9), editor's summary, Extended Data (E9). BMC (E1): structured abstract, separate Conclusions, Declarations block. EMBO (E6): Expanded View figures, Synopsis, Reagents and Tools table. OUP NAR Cancer (E5): classic IMRaD with Methods second. PLOS (E8): Author summary and front-matter statements. Design drives the rest: the 4 computational-only papers (E1, E2, E5, E6) replace validation figures with benchmarks against known positives and independent screens; the 6 papers with wet-lab work (E3, E4, E7, E8, E9, E10; heaviest in E8, E9) spend 2-6 main figures on validation.",
+  "lint_notes": [
+    "Require a named screen release with version (regex \\b(19|2\\d)Q[1-4]\\b or 'DepMap Public') in Methods or Data availability; 8/10 exemplars give one. Prefer the figshare/figshare+ DOI as a dataset reference.",
+    "Require the gene-effect model to be named (Chronos/CERES/DEMETER2/BAGEL/MAGeCK) and a multiple-testing method (FDR/BH/q-value/Bonferroni); both are near-universal.",
+    "Require at least one biomarker-association figure (volcano or score-vs-P/bubble) with an FDR threshold stated in the caption, and a gene-effect distribution figure for the headline dependency.",
+    "When the paper claims drug-target selectivity, require a dependency-vs-drug-response figure (PRISM/GDSC/CTRP) or explicitly say no drug-response data were used.",
+    "Require recovery of known positives (known dependencies, known SL pairs, gold-standard drug-target pairs) to be reported in Results (10/10).",
+    "Require lineage handling: results by cancer type or lineage as a covariate (8/10 report lineage-level results).",
+    "Do not require validation panels, cell-line authentication or a Reporting Summary for Amani (computational only); instead require the limitation 'computational predictions need experimental validation' even though only 3/10 exemplars state it, because none of Amani's papers have wet-lab work.",
+    "Top-hit lists belong in supplementary spreadsheets (9/10), not main-text tables (0/10); main text holds 0-2 tables.",
+    "Main display items 5-8 (median 6.5; figures 4-7, median 6). Count Key Resources/Reagents tables, Highlights and graphical abstracts separately.",
+    "Abstract: one unstructured paragraph of about 150 words (Cell Press cap 150; up to 250 for OUP/npj/BMC), naming the resource and the association; a quantitative result is optional (2/10).",
+    "Methods-last order is the norm (9/10); IMRaD with Methods second is a venue variant (OUP)."
+  ],
+  "notes": [
+    "Exemplar selection: 10 OA papers 2022-2025 from Cell Press (3), Nature family (3), BMC, EMBO, OUP and PLOS (1 each). Four are computational-only on public screen data (E1, E2, E5, E6); six include wet-lab work (validation share 6/10; E8 and E9 are wet-lab dominated after a DepMap starting point).",
+    "Cancer Cell exemplar (Pacini et al. 2024, Project Score target prioritisation) was wanted but has no PMC full text; two Cell Systems/Cell Reports candidates (PMC9035054, PMC9022184) had no Europe PMC XML (HTTP 500), so they were skipped.",
+    "Contamination check: contamination_title_abstract is empty for all 10. Some bodies mention pancreatic cell lines or tissues in passing (E2, E3, E4, E9); none names pancreatic cancer in the title, abstract or keywords. No KRAS-in-pancreas paper was used.",
+    "Corrections to extractor output are recorded per exemplar: STAR★Methods are not recognised as Methods by jats_structure.py, so Methods words for E2, E4 and E10 were added by hand from the section tree; graphical abstracts, Key Resources Tables, keyword lines and duplicated supplement listings were removed from counts.",
+    "Limitation frequencies come from reading the Discussion/Limitations text of each exemplar and are approximate (+/-1).",
+    "No exemplar cites MDAR, ARRIVE or any CRISPR-screen reporting standard; MIACARM was checked and is a regenerative-medicine cellular-assay standard, not a CRISPR one.",
+    "DepMap release DOIs verified: DepMap 23Q4 Public = 10.25452/figshare.plus.24667905.v2 (Figshare+). Chronos: Dempster JM et al. Genome Biol 2021, 10.1186/s13059-021-02540-7.",
+    "New display-item id not in the shared vocabulary: target_prioritisation_plot (target-priority score figure; E7, E10).",
+    "E7 (npj Precision Oncology) has only 19 references (confirmed with Crossref); excluding it the reference range is 53-124."
+  ]
+}

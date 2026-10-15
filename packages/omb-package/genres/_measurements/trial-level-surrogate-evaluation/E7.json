@@ -1,0 +1,222 @@
+{
+ "pmcid": "PMC12231127",
+ "doi": "10.1093/ehjcvp/pvaf016",
+ "pmid": "39999862",
+ "journal": "European Heart Journal. Cardiovascular Pharmacotherapy",
+ "year": 2025,
+ "article_type": "review-article",
+ "subject_heading": [],
+ "title_words": 15,
+ "licence": "This is an Open Access article distributed under the terms of the Creative Commo",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 310
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 500
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 735,
+   "sub": [
+    {
+     "heading": "Literature searches and study selection",
+     "canonical": "other",
+     "words": 206
+    },
+    {
+     "heading": "Outcomes",
+     "canonical": "other",
+     "words": 57
+    },
+    {
+     "heading": "Assessment of the risk of bias and robustness of the results",
+     "canonical": "other",
+     "words": 90
+    },
+    {
+     "heading": "Statistical analysis",
+     "canonical": "other",
+     "words": 342
+    },
+    {
+     "heading": "Patient and public involvement",
+     "canonical": "transparency",
+     "words": 13
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 479
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1171
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 77
+  },
+  {
+   "heading": "Supplementary Material",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 16
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 95,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 11
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 8
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 63
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 8,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 8
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 500,
+  "methods": 735,
+  "results": 479,
+  "discussion": 1171,
+  "conclusions": 77,
+  "supplementary": 8,
+  "acknowledgements": 16,
+  "other_back": 95,
+  "funding": 11,
+  "data_availability": 8,
+  "contributions": 63,
+  "references": 0
+ },
+ "main_text_words": 2962,
+ "main_text_words_excluding_methods": 2227,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 2,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": "pvaf016_Supplemental_File"
+  }
+ ],
+ "references": 27,
+ "flags": {
+  "prospero": false,
+  "osf_registration": true,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": true,
+  "rob2": true,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": true,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

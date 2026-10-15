@@ -1,0 +1,114 @@
+{
+  "version": 2,
+  "suite": "pw4s-citation",
+  "builtAt": "2026-10-11",
+  "seed": "pw4s-2026-10-11",
+  "privateFraction": 0.3,
+  "rows": {
+    "total": 268,
+    "public": 115,
+    "private": 153
+  },
+  "byClass": {
+    "correct-support": {
+      "public": 36,
+      "private": 39
+    },
+    "attributed-proposal": {
+      "public": 3,
+      "private": 6
+    },
+    "direction-flip": {
+      "public": 7,
+      "private": 9
+    },
+    "negation": {
+      "public": 6,
+      "private": 9
+    },
+    "wrong-species": {
+      "public": 6,
+      "private": 8
+    },
+    "fabricated-doi": {
+      "public": 6,
+      "private": 8
+    },
+    "wrong-metadata": {
+      "public": 6,
+      "private": 10
+    },
+    "retracted": {
+      "public": 6,
+      "private": 9
+    },
+    "misquote": {
+      "public": 6,
+      "private": 8
+    },
+    "quote-cut-qualifier": {
+      "public": 6,
+      "private": 8
+    },
+    "secondary-citation": {
+      "public": 6,
+      "private": 8
+    },
+    "abstract-only-direction": {
+      "public": 6,
+      "private": 7
+    },
+    "wrong-numeric": {
+      "public": 6,
+      "private": 9
+    },
+    "overgeneralised-population": {
+      "public": 6,
+      "private": 9
+    },
+    "proposal-as-finding": {
+      "public": 3,
+      "private": 6
+    }
+  },
+  "byDomain": {
+    "als": {
+      "public": 19,
+      "private": 30
+    },
+    "cancer": {
+      "public": 23,
+      "private": 24
+    },
+    "cardiometabolic": {
+      "public": 15,
+      "private": 26
+    },
+    "genetics-mr": {
+      "public": 18,
+      "private": 25
+    },
+    "ml-prediction": {
+      "public": 20,
+      "private": 23
+    },
+    "neurology": {
+      "public": 20,
+      "private": 25
+    }
+  },
+  "clusters": {
+    "public": {
+      "all": 64,
+      "invalid": 61
+    },
+    "private": {
+      "all": 110,
+      "invalid": 101
+    }
+  },
+  "publicSha256": "0350497f9edb535144106daa471a80c5fbc36f22a7889369133e467a753e39c4",
+  "privateEncSha256": "18ba98136e071c99b5eab74e74b63e4fe79ed6334bb2fdfeabdb2e54b79aab4a",
+  "privatePlainSha256": "b4c4e2a217a6cc9dd241d74e4237f0d7206776442d7af19b403c43cc2928e591",
+  "fingerprintsSha256": "f5c33a2747a7ae32efbc9249cc0ce3f56e90e6c2150314655ba41ab861fa9483"
+}

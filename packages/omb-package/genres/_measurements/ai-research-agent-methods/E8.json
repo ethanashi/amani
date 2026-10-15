@@ -1,0 +1,318 @@
+{
+ "pmcid": "PMC13494596",
+ "doi": "10.1016/j.patter.2026.101611",
+ "pmid": "42630761",
+ "journal": "Patterns",
+ "year": 2026,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Article"
+ ],
+ "title_words": 8,
+ "licence": "CC BY",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 128
+  },
+  {
+   "type": "author-highlights",
+   "structured": false,
+   "headings": [],
+   "words": 33
+  },
+  {
+   "type": "editor-highlights",
+   "structured": false,
+   "headings": [],
+   "words": 140
+  },
+  {
+   "type": "teaser",
+   "structured": false,
+   "headings": [],
+   "words": 37
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 603
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3828,
+   "sub": [
+    {
+     "heading": "BioMaster is a crew of agents for biological data analysis",
+     "canonical": "other",
+     "words": 664
+    },
+    {
+     "heading": "BioMaster is a versatile agent for analyzing a wide spectrum of bioinformatics tasks",
+     "canonical": "other",
+     "words": 1165
+    },
+    {
+     "heading": "BioMaster excels across established and emerging bioinformatics tools",
+     "canonical": "other",
+     "words": 479
+    },
+    {
+     "heading": "BioMaster outperforms alternative systems in multi-step biological data analysis tasks",
+     "canonical": "other",
+     "words": 240
+    },
+    {
+     "heading": "BioMaster enables autonomous error correction in complex bioinformatics workflows",
+     "canonical": "other",
+     "words": 558
+    },
+    {
+     "heading": "BioMaster adapts to open-source LLMs",
+     "canonical": "other",
+     "words": 722
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 566
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 2184,
+   "sub": [
+    {
+     "heading": "System environment",
+     "canonical": "other",
+     "words": 119
+    },
+    {
+     "heading": "Experiment setting",
+     "canonical": "other",
+     "words": 549
+    },
+    {
+     "heading": "RAG",
+     "canonical": "other",
+     "words": 438
+    },
+    {
+     "heading": "Memory management strategy",
+     "canonical": "other",
+     "words": 207
+    },
+    {
+     "heading": "Agents",
+     "canonical": "other",
+     "words": 503,
+     "sub": [
+      {
+       "heading": "Plan agent",
+       "canonical": "other",
+       "words": 134
+      },
+      {
+       "heading": "Task and debug agents",
+       "canonical": "other",
+       "words": 225
+      },
+      {
+       "heading": "Check agent",
+       "canonical": "other",
+       "words": 144
+      }
+     ]
+    },
+    {
+     "heading": "BioMaster implementation details",
+     "canonical": "other",
+     "words": 331
+    },
+    {
+     "heading": "Ethics statement",
+     "canonical": "ethics",
+     "words": 37
+    }
+   ]
+  },
+  {
+   "heading": "Resource availability",
+   "canonical": "data_availability",
+   "words": 76,
+   "sub": [
+    {
+     "heading": "Lead contact",
+     "canonical": "other",
+     "words": 22
+    },
+    {
+     "heading": "Materials availability",
+     "canonical": "data_availability",
+     "words": 8
+    },
+    {
+     "heading": "Data and code availability",
+     "canonical": "data_availability",
+     "words": 46
+    }
+   ]
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 28
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 44
+  },
+  {
+   "heading": "Declaration of interests",
+   "canonical": "competing_interests",
+   "words": 6
+  },
+  {
+   "heading": "Declaration of generative AI and AI-assisted technologies in the writing process",
+   "canonical": "other",
+   "words": 39,
+   "counted_as": "backmatter:other"
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Supplemental information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "fn:supplementary-material",
+   "canonical": "supplementary",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 603,
+  "results": 3828,
+  "discussion": 566,
+  "methods": 2184,
+  "data_availability": 76,
+  "acknowledgements": 28,
+  "contributions": 44,
+  "competing_interests": 6,
+  "other_back": 39
+ },
+ "main_text_words": 7181,
+ "main_text_words_excluding_methods": 4997,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 7,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "study_design_schematic",
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure 5",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 6",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 7",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 2,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 58,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

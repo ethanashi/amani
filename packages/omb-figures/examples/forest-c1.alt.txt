@@ -1,0 +1,11 @@
+template:
+Forest plot. Rows in plan order: Primary analysis: estimate [m:c1.primary.estimate], interval [m:c1.primary.ci_lower] to [m:c1.primary.ci_upper]; Adjusted for site: estimate [m:c1.adjusted.estimate], interval [m:c1.adjusted.ci_lower] to [m:c1.adjusted.ci_upper]; Women: estimate [m:c1.women.estimate], interval [m:c1.women.ci_lower] to [m:c1.women.ci_upper]; Men: estimate [m:c1.men.estimate], interval [m:c1.men.ci_lower] to [m:c1.men.ci_upper]†; Excluding early events: estimate [m:c1.early.estimate], interval [m:c1.early.ci_lower] to [m:c1.early.ci_upper] (interval continues beyond the axis); Replication in [e:cohort-ukb]: estimate [m:c1.replication.estimate], interval [m:c1.replication.ci_lower] to [m:c1.replication.ci_upper]. A dashed vertical line marks the null value. The axis is logarithmic. Intervals are [lvl:c1.primary.ci_lower] confidence intervals.
+
+text:
+Forest plot. Rows in plan order: Primary analysis: estimate 1.42, interval 1.08 to 1.87; Adjusted for site: estimate 1.380, interval 1.004 to 1.900; Women: estimate 1.55, interval 1.02 to 2.35; Men: estimate 1.21, interval 0.85 to 1.72†; Excluding early events: estimate 2.10, interval 0.30 to 400.00 (interval continues beyond the axis); Replication in UK Biobank 2024: estimate 1.330, interval 0.996 to 1.780. A dashed vertical line marks the null value. The axis is logarithmic. Intervals are 95% confidence intervals.
+
+caption template:
+Odds ratios for the primary outcome across the pre-specified analyses. (tentative label rendered by the label module) Squares are estimates; horizontal lines are [lvl:c1.primary.ci_lower] confidence intervals; the dashed vertical line marks the null value; arrows mark intervals that continue beyond the axis. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Odds ratios for the primary outcome across the pre-specified analyses. (tentative label rendered by the label module) Squares are estimates; horizontal lines are 95% confidence intervals; the dashed vertical line marks the null value; arrows mark intervals that continue beyond the axis. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

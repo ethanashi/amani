@@ -1,0 +1,240 @@
+{
+ "pmcid": "PMC13340167",
+ "doi": "10.1093/bioinformatics/btag250",
+ "pmid": "42412783",
+ "journal": "Bioinformatics",
+ "year": 2026,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Biomedical Informatics",
+  "AcademicSubjects/SCI01060"
+ ],
+ "title_words": 15,
+ "licence": "https://creativecommons.org/licenses/by/4.0/This is an Open Access article distr",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Motivation",
+    "Results",
+    "Availability and implementation"
+   ],
+   "words": 216
+  }
+ ],
+ "sections": [
+  {
+   "heading": "1 Introduction",
+   "canonical": "introduction",
+   "words": 766
+  },
+  {
+   "heading": "2 Materials and methods",
+   "canonical": "methods",
+   "words": 2190,
+   "sub": [
+    {
+     "heading": "2.1 Interface",
+     "canonical": "other",
+     "words": 340
+    },
+    {
+     "heading": "2.2 Security and privacy",
+     "canonical": "other",
+     "words": 41
+    },
+    {
+     "heading": "2.3 Tools",
+     "canonical": "other",
+     "words": 241
+    },
+    {
+     "heading": "2.4 Foundation models",
+     "canonical": "other",
+     "words": 107
+    },
+    {
+     "heading": "2.5 Predefined steps",
+     "canonical": "other",
+     "words": 532
+    },
+    {
+     "heading": "2.6 Iterative experimentation and model selection",
+     "canonical": "other",
+     "words": 389
+    },
+    {
+     "heading": "2.7 Evaluation",
+     "canonical": "other",
+     "words": 492
+    }
+   ]
+  },
+  {
+   "heading": "3 Results",
+   "canonical": "results",
+   "words": 1245,
+   "sub": [
+    {
+     "heading": "3.1 Agentomics outperforms other agents in all domains",
+     "canonical": "other",
+     "words": 89
+    },
+    {
+     "heading": "3.2 Agentomics produces new state-of-the-art for the majority of tested datasets",
+     "canonical": "other",
+     "words": 71
+    },
+    {
+     "heading": "3.3 Agentomics indirectly optimizes for generalization",
+     "canonical": "other",
+     "words": 145
+    },
+    {
+     "heading": "3.4 Agentomics discovers better-performing ML strategies over time",
+     "canonical": "other",
+     "words": 202
+    },
+    {
+     "heading": "3.5 Agentomics explores a wide variety of strategies",
+     "canonical": "other",
+     "words": 137
+    },
+    {
+     "heading": "3.6 Analysis of weak runs",
+     "canonical": "other",
+     "words": 178
+    },
+    {
+     "heading": "3.7 Case study: AGO2 CLASH Hejret",
+     "canonical": "other",
+     "words": 250
+    },
+    {
+     "heading": "3.8 Agentomics is reliable, fast, and cost effective",
+     "canonical": "other",
+     "words": 103
+    },
+    {
+     "heading": "3.9 Agentomics is publicly available and open-source",
+     "canonical": "other",
+     "words": 70
+    }
+   ]
+  },
+  {
+   "heading": "4 Discussion",
+   "canonical": "discussion",
+   "words": 632
+  },
+  {
+   "heading": "5 Conclusions",
+   "canonical": "conclusions",
+   "words": 118
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 118
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Conflict of interests",
+   "canonical": "competing_interests",
+   "words": 2
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 77
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 10
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 766,
+  "methods": 2190,
+  "results": 1245,
+  "discussion": 632,
+  "conclusions": 118,
+  "contributions": 118
+ },
+ "main_text_words": 4951,
+ "main_text_words_excluding_methods": 2761,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 0,
+ "supplementary": [],
+ "references": 33,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "omb/archive-paper-build@1",
+  "inputHash": "3d4187911c17325e84ebb6d2f1aa2a822a8b490da145bbe8e5dada2de4fde72e",
+  "manuscriptHash": "84b3769bbbe4d0f70b37b03284b835f8db8e64dea886ff52365dee7cee47345b",
+  "pdfSha256": "e0db6a4c7472ea5548fda165aa9b8f98cf471720bcd8ebefcbb19e85da58b7ab",
+  "sourceChecks": {
+    "journalChain": true,
+    "phaseChain": true,
+    "frozenCode": true,
+    "lookOutputs": true,
+    "deliverableHashes": true,
+    "servedManifest": true
+  },
+  "pages": 2,
+  "overfullWarnings": 0
+}

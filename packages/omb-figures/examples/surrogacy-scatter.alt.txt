@@ -1,0 +1,11 @@
+template:
+Final outcome effects against surrogate effects, with fitted regression and prediction limits.
+
+text:
+Final outcome effects against surrogate effects, with fitted regression and prediction limits.
+
+caption template:
+Trial-level association. Points are independent trials; error bars show a standard error. Dashed lines are prediction limits; the solid line is the weighted regression. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Trial-level association. Points are independent trials; error bars show a standard error. Dashed lines are prediction limits; the solid line is the weighted regression. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

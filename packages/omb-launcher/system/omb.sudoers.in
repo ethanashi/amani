@@ -1,0 +1,4 @@
+Defaults!/usr/local/libexec/omb/bin/cert-launch env_reset, !setenv, closefrom=3, !closefrom_override, !use_pty
+Defaults!/usr/local/libexec/omb/bin/run-launch env_reset, !setenv, closefrom=3, !closefrom_override, !use_pty
+@OWNER@ ALL = (_ombcert) NOPASSWD: /usr/local/libexec/omb/bin/cert-launch attest, /usr/local/libexec/omb/bin/cert-launch confirm, /usr/local/libexec/omb/bin/cert-launch selftest, /usr/local/libexec/omb/bin/cert-launch certify
+_ombcert ALL = (_ombrun) NOPASSWD: /usr/local/libexec/omb/bin/run-launch

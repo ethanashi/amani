@@ -1,0 +1,9 @@
+test/.tmp-*/
+.validation-*.log
+
+.grading-v2d/
+.v2d-*.log
+
+.v2d-baseline/
+
+.grading-k0/

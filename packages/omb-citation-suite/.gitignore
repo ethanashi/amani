@@ -1,0 +1,4 @@
+.private/
+.cache/
+test/.tmp-*/
+__pycache__/

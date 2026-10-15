@@ -1,0 +1,12 @@
+[
+  {
+    "name": "@dagrejs/dagre",
+    "version": "3.1.1",
+    "license": "MIT"
+  },
+  {
+    "name": "@dagrejs/graphlib",
+    "version": "4.0.5",
+    "license": "MIT"
+  }
+]

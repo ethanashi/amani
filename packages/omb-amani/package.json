@@ -1,0 +1,21 @@
+{
+  "name": "@omerta-bio/amani",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "bin": {
+    "amani": "./src/release-cli.ts",
+    "amani-dev": "./src/cli.ts"
+  },
+  "scripts": {
+    "test": "cd ../.. && nice -n 10 vitest run packages/omb-amani/test/*.test.ts",
+    "test:oneshot": "nice -n 10 ../bio-baseline/.pixi/envs/default/bin/python -B test/oneshot-e2e.py",
+    "build:release": "node scripts/build-release.mjs ../.."
+  },
+  "license": "AGPL-3.0-only"
+}

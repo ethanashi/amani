@@ -1,0 +1,27 @@
+{
+  "verdict": "does-not-hold-up",
+  "cause": "batch-adjustment-step",
+  "reproduced_count": 2011,
+  "reproduced_top_features": [
+    "F35518392",
+    "F35515941",
+    "F35541808",
+    "F35520817",
+    "F35507157",
+    "F35517491",
+    "F35500604",
+    "F35527937",
+    "F35502602",
+    "F35504296"
+  ],
+  "final_count": 11,
+  "final_batch_handling": "in-model",
+  "design": {
+    "first_condition_batches": null,
+    "second_condition_batches": null
+  },
+  "data_integrity": {
+    "duplicated_units": []
+  },
+  "incomplete": true
+}

@@ -1,0 +1,11 @@
+template:
+Data flow diagram. Flow of records from retrieval to analysis: Records retrieved: n = [m:flow.raw] then After removing duplicates: n = [m:flow.dedup] (Removed: n = [m:flow.dedup.removed]; Same content under a new ID: n = [m:flow.dedup.duplicate]) then Eligible records: n = [m:flow.eligible] (Excluded: n = [m:flow.eligible.removed]; Missing outcome: n = [m:flow.eligible.missing_outcome]; Below the age threshold: n = [m:flow.eligible.age]; Withdrew consent: n = [m:flow.eligible.consent]) then Analysis units (donors): n = [m:flow.units] then Analysed: n = [m:flow.analysed]; events = [m:flow.analysed.events]. Split into Training split: n = [m:flow.train]; events = [m:flow.train.events]; Held-out split: n = [m:flow.test]; events = [m:flow.test.events].
+
+text:
+Data flow diagram. Flow of records from retrieval to analysis: Records retrieved: n = 12,480 then After removing duplicates: n = 12,381 (Removed: n = 99; Same content under a new ID: n = 99) then Eligible records: n = 11,151 (Excluded: n = 1,230; Missing outcome: n = 700; Below the age threshold: n = 400; Withdrew consent: n = 130) then Analysis units (donors): n = 4,210 then Analysed: n = 4,210; events = 612. Split into Training split: n = 2,947; events = 428; Held-out split: n = 1,263; events = 184.
+
+caption template:
+Records from retrieval to analysis. Boxes give counts by stage; side boxes give exclusions with their recorded reasons. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Records from retrieval to analysis. Boxes give counts by stage; side boxes give exclusions with their recorded reasons. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

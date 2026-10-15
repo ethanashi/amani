@@ -1,0 +1,69 @@
+#!/bin/sh
+set -eu
+[ "$(/usr/bin/id -u)" = '@RUN_UID@' ] || exit 77
+[ "$#" = 1 ] || exit 64
+case "$1" in *[!a-f0-9]*|'') exit 64;; esac
+[ "${#1}" = 32 ] || exit 64
+stage=/private/var/db/omb-stage/$1
+[ ! -L "$stage" ] && [ -d "$stage" ] || exit 77
+[ "$(/usr/bin/stat -f '%u:%Lp' "$stage")" = '@CERT_UID@:755' ] || exit 77
+cd /
+umask 077
+ulimit -S -t 20; ulimit -H -t 20
+ulimit -S -f 32768; ulimit -H -f 32768
+# Modest parallel::mclapply and multiprocessing workloads need child slots.
+# The runner sweeps all _ombrun processes and SysV IPC objects after each run.
+ulimit -S -u 64; ulimit -H -u 64
+ulimit -S -c 0; ulimit -H -c 0
+release=${0%/run-launch}
+case "$release" in /usr/local/libexec/omb/releases/*) ;; *) exit 77;; esac
+# R utils forks for read-only system probes. A uid-wide lock makes cleanup safe
+# from concurrent runs, and the bounded post-run sweep removes detached children.
+lock=/private/var/db/omb-run-tmp/active-run
+/bin/mkdir "$lock" 2>/dev/null || exit 77
+trap '/bin/rm -f "$lock/ps"; /bin/rmdir "$lock" 2>/dev/null || :' 0 HUP INT TERM
+
+ipc_ids() {
+  kind=$1
+  /usr/bin/ipcs -"$kind" | while read -r type id key mode owner group creator cgroup rest; do
+    case "$type:$owner:$creator" in
+      m:_ombrun:*|m:*:_ombrun|q:_ombrun:*|q:*:_ombrun|s:_ombrun:*|s:*:_ombrun|m:@RUN_UID@:*|m:*:@RUN_UID@|q:@RUN_UID@:*|q:*:@RUN_UID@|s:@RUN_UID@:*|s:*:@RUN_UID@) echo "$id";;
+    esac
+  done
+}
+owned_ipc() { ipc_ids m; ipc_ids q; ipc_ids s; }
+owned_pids() {
+  survivors=
+  /bin/ps -axo pid=,uid= > "$lock/ps" &
+  census_pid=$!
+  wait "$census_pid"
+  while read -r pid owner; do
+    case "$pid:$owner" in *[!0-9:]*|:*) continue;; esac
+    if [ "$owner" = '@RUN_UID@' ] && [ "$pid" != "$$" ] && [ "$pid" != "$census_pid" ]; then survivors="$survivors $pid"; fi
+  done < "$lock/ps"
+}
+[ -z "$(owned_ipc)" ] || exit 77
+owned_pids
+[ -z "$survivors" ] || exit 77
+
+# The analysis may fork, but every survivor is killed by exact PID from the
+# dedicated uid census and the census must become empty before success reports.
+set +e
+/usr/bin/env -i PATH=/usr/bin:/bin HOME=/var/empty LANG=C TMPDIR=/private/var/db/omb-run-tmp \
+  "$release/bin/node" --disallow-code-generation-from-strings --no-addons "$release/omb-cert.mjs" internal-run "$1"
+status=$?
+set -e
+attempt=0
+while :; do
+  owned_pids
+  [ -z "$survivors" ] && break
+  for pid in $survivors; do /bin/kill -KILL "$pid" 2>/dev/null || :; done
+  attempt=$((attempt + 1))
+  [ "$attempt" -lt 100 ] || exit 77
+  /bin/sleep 0.01
+done
+for kind in m q s; do
+  for id in $(ipc_ids "$kind"); do /usr/bin/ipcrm -"$kind" "$id" || exit 77; done
+done
+[ -z "$(owned_ipc)" ] || exit 77
+exit "$status"

@@ -1,0 +1,313 @@
+{
+ "pmcid": "PMC10683780",
+ "doi": "10.1093/narcan/zcad056",
+ "pmid": "38035131",
+ "journal": "NAR Cancer",
+ "year": 2023,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 16,
+ "licence": "This is an Open Access article distributed under the terms of the Creative Commo",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 245
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 0
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 687
+  },
+  {
+   "heading": "Materials and methods",
+   "canonical": "methods",
+   "words": 1326,
+   "sub": [
+    {
+     "heading": "ARACNe regulons processing",
+     "canonical": "other",
+     "words": 104
+    },
+    {
+     "heading": "GRNdb regulons processing",
+     "canonical": "other",
+     "words": 185
+    },
+    {
+     "heading": "DoRothEA regulons processing",
+     "canonical": "other",
+     "words": 26
+    },
+    {
+     "heading": "Data wrangling",
+     "canonical": "other",
+     "words": 88
+    },
+    {
+     "heading": "Filtering 'sometimes’ essential genes",
+     "canonical": "other",
+     "words": 190
+    },
+    {
+     "heading": "Computing regulatory gene activity",
+     "canonical": "other",
+     "words": 70
+    },
+    {
+     "heading": "Correlation analysis",
+     "canonical": "other",
+     "words": 67
+    },
+    {
+     "heading": "Regulon size stratification",
+     "canonical": "other",
+     "words": 61
+    },
+    {
+     "heading": "Regulon stratification based on the number of unique targets",
+     "canonical": "other",
+     "words": 72
+    },
+    {
+     "heading": "Enrichment analysis",
+     "canonical": "other",
+     "words": 110
+    },
+    {
+     "heading": "Calculate per gene variance for each method",
+     "canonical": "other",
+     "words": 19
+    },
+    {
+     "heading": "Comparing activity methods",
+     "canonical": "other",
+     "words": 140
+    },
+    {
+     "heading": "Comparing regulons",
+     "canonical": "other",
+     "words": 84
+    },
+    {
+     "heading": "Common language effect size calculation",
+     "canonical": "other",
+     "words": 110
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3399,
+   "sub": [
+    {
+     "heading": "Variation in correlation between activity and gene inhibition sensitivity is driven more by cancer type than activity estimation method",
+     "canonical": "other",
+     "words": 1234
+    },
+    {
+     "heading": "Regulons convey cancer type-specific information in relation to gene sensitivity to inhibition",
+     "canonical": "other",
+     "words": 169
+    },
+    {
+     "heading": "Gene sensitivity to inhibition is better predicted by mRNA abundance than by GRN-inferred activity",
+     "canonical": "other",
+     "words": 1388
+    },
+    {
+     "heading": "Increased sensitivity to gene inhibition is more commonly correlated with increased expression, rather than decreased expression",
+     "canonical": "other",
+     "words": 277
+    },
+    {
+     "heading": "Expression better predicts binary essentiality",
+     "canonical": "other",
+     "words": 331
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 895
+  },
+  {
+   "heading": "Supplementary Material",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 59
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 81,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 30
+  },
+  {
+   "heading": "Supplementary data",
+   "canonical": "supplementary",
+   "words": 8
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 69
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 30,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 30
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 687,
+  "methods": 1326,
+  "results": 3399,
+  "discussion": 895,
+  "supplementary": 38,
+  "acknowledgements": 59,
+  "other_back": 81,
+  "data_availability": 30,
+  "funding": 69,
+  "references": 0
+ },
+ "main_text_words": 6307,
+ "main_text_words_excluding_methods": 4981,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 6,
+ "figures": [
+  {
+   "label": "Graphical Abstract",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 1.",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 2.",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure 3.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 5.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": "zcad056_Supplemental_Files"
+  }
+ ],
+ "references": 53,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": true,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

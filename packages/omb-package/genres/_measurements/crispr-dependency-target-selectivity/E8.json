@@ -1,0 +1,295 @@
+{
+ "pmcid": "PMC12077678",
+ "doi": "10.1371/journal.pgen.1011685",
+ "pmid": "40367120",
+ "journal": "PLOS Genetics",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Research Article",
+  "Medicine and Health Sciences",
+  "Oncology"
+ ],
+ "title_words": 10,
+ "licence": "https://creativecommons.org/licenses/by/4.0/This is an open access article distr",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 161
+  },
+  {
+   "type": "summary",
+   "structured": false,
+   "headings": [],
+   "words": 169
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 439
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3571,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 622
+    },
+    {
+     "heading": "Genetic modifier screening identifies paralog synthetic lethality between",
+     "canonical": "other",
+     "words": 501
+    },
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 922
+    },
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 705
+    },
+    {
+     "heading": "Loss of",
+     "canonical": "other",
+     "words": 289
+    },
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 532
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 727
+  },
+  {
+   "heading": "Materials and methods",
+   "canonical": "methods",
+   "words": 1747,
+   "sub": [
+    {
+     "heading": "Cell culture",
+     "canonical": "other",
+     "words": 68
+    },
+    {
+     "heading": "CRISPR-Cas9 gene knockout or knockdown",
+     "canonical": "other",
+     "words": 211
+    },
+    {
+     "heading": "Competition assay",
+     "canonical": "other",
+     "words": 75
+    },
+    {
+     "heading": "Cloning of TRA2A and TRA2B expression constructs",
+     "canonical": "other",
+     "words": 61
+    },
+    {
+     "heading": "CRISPR screening for genetic modifiers of TRA2A dependency",
+     "canonical": "other",
+     "words": 292
+    },
+    {
+     "heading": "Immunoblotting",
+     "canonical": "other",
+     "words": 154
+    },
+    {
+     "heading": "RNA-sequencing",
+     "canonical": "other",
+     "words": 169
+    },
+    {
+     "heading": "Differential splicing analysis",
+     "canonical": "other",
+     "words": 220
+    },
+    {
+     "heading": "Differential gene expression analysis",
+     "canonical": "other",
+     "words": 114
+    },
+    {
+     "heading": "Semiquantitative RT-PCR",
+     "canonical": "other",
+     "words": 108
+    },
+    {
+     "heading": "Cell cycle assay",
+     "canonical": "other",
+     "words": 87
+    },
+    {
+     "heading": "Apoptosis assay",
+     "canonical": "other",
+     "words": 40
+    },
+    {
+     "heading": "Live-cell imaging of mitosis",
+     "canonical": "other",
+     "words": 148
+    }
+   ]
+  },
+  {
+   "heading": "Supporting information",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 27
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 439,
+  "results": 3571,
+  "discussion": 727,
+  "methods": 1747,
+  "other_back": 0
+ },
+ "main_text_words": 6484,
+ "main_text_words_excluding_methods": 4737,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 6,
+ "figures": [
+  {
+   "label": "Fig 1",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig 2",
+   "kind_guess": [
+    "prisma_flow",
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig 6",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 13,
+ "supplementary": [
+  {
+   "label": "S1 Fig"
+  },
+  {
+   "label": "S2 Fig"
+  },
+  {
+   "label": "S3 Fig"
+  },
+  {
+   "label": "S4 Fig"
+  },
+  {
+   "label": "S5 Fig"
+  },
+  {
+   "label": "S6 Fig"
+  },
+  {
+   "label": "S1 Table"
+  },
+  {
+   "label": "S2 Table"
+  },
+  {
+   "label": "S3 Table"
+  },
+  {
+   "label": "S4 Table"
+  },
+  {
+   "label": "S5 Table"
+  },
+  {
+   "label": "S6 Table"
+  },
+  {
+   "label": "S1 Movie"
+  }
+ ],
+ "references": 79,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

@@ -1,0 +1,150 @@
+{
+  "bindings": {
+    "datasetManifestHash": "273bbe6b0e347c3c52dfcd12bde98bd7174aa6f517e8d7963317f4638c5d9c8f",
+    "files": {
+      "TASK.md": "3fcb3a58dd19419f460104541b619d1f7f84243be7648b4a4c33b890cf107ec2",
+      "bindings.json": "b7eef5333babaced66129d93e5a7507eb930b8bd28c291d70e8c861a570ee149",
+      "card.json": "f4c58f5da9e202bc0480f8927a264e7f126f8b84134638e768852c485c3fc25a",
+      "check.py": "c84035930f48538f50446e235b36d3de7e6b7c221d0b42dc18131b3921a056cb",
+      "reference.py": "c8c69203df5678d4db356864e7a15ca19c30f3021408605fc0c810fa45af9e16",
+      "stage.py": "7fcdca11d2aeb81dad655158613e9f535d8b0b578aac04e476837cdc04426ddf"
+    },
+    "naiveTree": "979121982705cde15ee74fafc135f1cb52b2b6b6a5dec6a69cb5d1389066bc72",
+    "sealedKey": {
+      "ciphertextSha256": "d835a56a420cb0cc9e826e11d0a497dd39ddd4a3a6c2ccd1bf33ecadf7be5a16",
+      "path": "packages/bio-tasks/tasks/iad1-brady-audit/SEALED-KEY.json.enc",
+      "sha256": "d835a56a420cb0cc9e826e11d0a497dd39ddd4a3a6c2ccd1bf33ecadf7be5a16"
+    },
+    "shared": {
+      "lib/biotasks/calibrate.py": "4535f489a1690b9bb8c201f6a343ff7f81f1f91ab8a9ebf66bcfc86eb2b11d46",
+      "lib/biotasks/card.py": "ffa42e7c78503967395b259e711565b8ea813edae9ce202c127d065bf6a2d392",
+      "lib/biotasks/checks.py": "b9eb69ed04e6711dd82a8ef7868b9ca534ed1506f17a8297f317c5757ea6002c",
+      "lib/biotasks/grading.py": "76ccf8b7f7cc2fc7c5ae6579d26fd0432a600596c8c635bffbfc03f98d43a245",
+      "lib/biotasks/sealing.py": "efadbbef3da84a773eb35275ae6f93004655eba2f3b1220ae46e4377bc3286b2",
+      "lib/biotasks/staging.py": "1cac7ca255f9d1a6b229e65450a3896ccae84aebfa63322a68a18e55d73e3eea",
+      "packages/bio-baseline/arms/lib/armlib.py": "453f9d104d8903eb5491bc716f0bc9ecc13813265bfe2bbf5a876a01b0bbdedd",
+      "packages/bio-baseline/arms/lib/seal.py": "353f14ee1279c62e373216a6f15649b16dd0564359c3b69baa25606a3af4cf97",
+      "packages/bio-baseline/grading/grade.py": "d33bcfcf19edd1e64258789eff104ff3c5feef3b9cce7edaf73d8b935e3ade7d",
+      "packages/bio-baseline/pixi.lock": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+      "packages/bio-tasks/tasks/iad1-brady-audit/calibrate_iad.py": "9e706337797352b43f1663e73690c8b58472548eee58ac1cb23e126bd837239d",
+      "packages/bio-tasks/tasks/iad1-brady-audit/iad_common.py": "670b66baba04d15ed3e58e49f6987e34a049ba8df564c4f725febbc9c8b335b2",
+      "packages/bio-tasks/tasks/iad1-brady-audit/result_format.py": "80d2ee85217ecce249a195f460f623466fe8970e271fa2a517f6e33363922092"
+    }
+  },
+  "calibrationInput": {
+    "empty": "failed",
+    "permuted": [
+      "failed",
+      "failed",
+      "failed"
+    ],
+    "reference": "passed"
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "pixi_lock_sha256": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+    "python": "3.13.16"
+  },
+  "mapping": {
+    "empty": "empty",
+    "naive": "permuted",
+    "reference": "reference"
+  },
+  "naiveControls": [
+    "naive",
+    "naive/variants/lazy_skeptic",
+    "naive/variants/zero_trap"
+  ],
+  "naiveExecution": "emulated arm run in grading-root scratch, reproduced exactly by grade.py's sandboxed re-run, then check.py; recall controls check a sibling task's reference answer",
+  "outcomes": {
+    "empty": {
+      "outcome": "failed",
+      "score": 0.0,
+      "verdicts": {
+        "auc_by_cycle": "incorrect",
+        "auc_source": "incorrect",
+        "comparators_recomputed": "incorrect",
+        "counts": "incorrect",
+        "difference_ci": "incorrect",
+        "fit_verdict": "incorrect",
+        "heldout_auc": "incorrect",
+        "inconsistency": "incorrect",
+        "majority_comparison": "incorrect",
+        "n_and_unit": "incorrect",
+        "strong_comparator": "incorrect"
+      }
+    },
+    "naive": {
+      "outcome": "failed",
+      "score": 0.5,
+      "verdicts": {
+        "auc_by_cycle": "incorrect",
+        "auc_source": "needs-review",
+        "comparators_recomputed": "correct",
+        "counts": "correct",
+        "difference_ci": "incorrect",
+        "fit_verdict": "incorrect",
+        "heldout_auc": "incorrect",
+        "inconsistency": "incorrect",
+        "majority_comparison": "incorrect",
+        "n_and_unit": "correct",
+        "strong_comparator": "incorrect"
+      }
+    },
+    "naive/variants/lazy_skeptic": {
+      "outcome": "failed",
+      "score": 0.833333,
+      "verdicts": {
+        "auc_by_cycle": "correct",
+        "auc_source": "incorrect",
+        "comparators_recomputed": "correct",
+        "counts": "correct",
+        "difference_ci": "incorrect",
+        "fit_verdict": "correct",
+        "heldout_auc": "correct",
+        "inconsistency": "incorrect",
+        "majority_comparison": "incorrect",
+        "n_and_unit": "correct",
+        "strong_comparator": "incorrect"
+      }
+    },
+    "naive/variants/zero_trap": {
+      "outcome": "failed",
+      "score": 0.666667,
+      "verdicts": {
+        "auc_by_cycle": "correct",
+        "auc_source": "incorrect",
+        "comparators_recomputed": "correct",
+        "counts": "correct",
+        "difference_ci": "incorrect",
+        "fit_verdict": "incorrect",
+        "heldout_auc": "correct",
+        "inconsistency": "incorrect",
+        "majority_comparison": "incorrect",
+        "n_and_unit": "correct",
+        "strong_comparator": "incorrect"
+      }
+    },
+    "reference": {
+      "outcome": "passed",
+      "score": 1.0,
+      "verdicts": {
+        "auc_by_cycle": "correct",
+        "auc_source": "correct",
+        "comparators_recomputed": "correct",
+        "counts": "correct",
+        "difference_ci": "correct",
+        "fit_verdict": "correct",
+        "heldout_auc": "correct",
+        "inconsistency": "correct",
+        "majority_comparison": "correct",
+        "n_and_unit": "correct",
+        "strong_comparator": "correct"
+      }
+    }
+  },
+  "reasons": [],
+  "schema": "bio-tasks/calibration@1",
+  "status": "valid",
+  "task": "iad1-brady-audit"
+}

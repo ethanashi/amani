@@ -1,0 +1,67 @@
+{
+  "case": "c2",
+  "passed": 12,
+  "total": 15,
+  "criteria": [
+    {
+      "name": "n-signature",
+      "passed": false
+    },
+    {
+      "name": "top50-increased",
+      "passed": false
+    },
+    {
+      "name": "top50-decreased",
+      "passed": false
+    },
+    {
+      "name": "replication-verdict",
+      "passed": true
+    },
+    {
+      "name": "replication-rho",
+      "passed": true
+    },
+    {
+      "name": "replication-ratio",
+      "passed": true
+    },
+    {
+      "name": "comparator-median-f",
+      "passed": true
+    },
+    {
+      "name": "comparator-core",
+      "passed": true
+    },
+    {
+      "name": "comparator-specificity",
+      "passed": true
+    },
+    {
+      "name": "related-median-f",
+      "passed": true
+    },
+    {
+      "name": "severity",
+      "passed": true
+    },
+    {
+      "name": "scope-discovery",
+      "passed": true
+    },
+    {
+      "name": "scope-replication",
+      "passed": true
+    },
+    {
+      "name": "scope-comparator",
+      "passed": true
+    },
+    {
+      "name": "scope-related",
+      "passed": true
+    }
+  ]
+}

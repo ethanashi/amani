@@ -1,0 +1,399 @@
+{
+ "pmcid": "PMC9092724",
+ "doi": "10.1186/s13059-022-02677-z",
+ "pmid": "35538548",
+ "journal": "Genome Biology",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Research"
+ ],
+ "title_words": 11,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Results",
+    "Conclusions",
+    "Supplementary Information"
+   ],
+   "words": 254
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Background",
+   "canonical": "introduction",
+   "words": 539
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3463,
+   "sub": [
+    {
+     "heading": "Tumor epithelial cells exhibit intratumoral CMS heterogeneity and drives immune-stromal cell infiltration",
+     "canonical": "other",
+     "words": 658
+    },
+    {
+     "heading": "CAFs in the tumor microenvironment exhibit diverse phenotypes",
+     "canonical": "other",
+     "words": 525
+    },
+    {
+     "heading": "Tumor-associated macrophages are tumor suppressive M2 polarized cells in colorectal tumors",
+     "canonical": "other",
+     "words": 251
+    },
+    {
+     "heading": "Distinct states of CD8+ and CD4+ T cells shape the CRC ecosystem",
+     "canonical": "other",
+     "words": 597
+    },
+    {
+     "heading": "CRC patient transcriptomics distributed in a continuum, not discrete subtypes",
+     "canonical": "other",
+     "words": 220
+    },
+    {
+     "heading": "CRC outcomes were defined by CAF and macrophage enrichment across CMS subgroups",
+     "canonical": "other",
+     "words": 241
+    },
+    {
+     "heading": "CAFs and TAMs modulate immune suppression in CRC",
+     "canonical": "other",
+     "words": 382
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 887
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 132
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 2888,
+   "sub": [
+    {
+     "heading": "Experimental model and subject details",
+     "canonical": "other",
+     "words": 90,
+     "sub": [
+      {
+       "heading": "Collection and processing of patient tumor samples",
+       "canonical": "other",
+       "words": 90
+      }
+     ]
+    },
+    {
+     "heading": "Method details",
+     "canonical": "methods",
+     "words": 2798,
+     "sub": [
+      {
+       "heading": "Droplet based scRNA-seq - 10× library preparation and sequencing",
+       "canonical": "other",
+       "words": 128
+      },
+      {
+       "heading": "scRNA-seq data quality control, gene-expression quantification, dimensionality reduction, and identification of cell clusters",
+       "canonical": "other",
+       "words": 303
+      },
+      {
+       "heading": "Major cell type detection and data visualization",
+       "canonical": "other",
+       "words": 162
+      },
+      {
+       "heading": "Major-cell type subclustering and data visualization",
+       "canonical": "other",
+       "words": 222
+      },
+      {
+       "heading": "Trajectory analysis",
+       "canonical": "other",
+       "words": 128
+      },
+      {
+       "heading": "Pathway-gene set variation analysis (GSVA)",
+       "canonical": "other",
+       "words": 50
+      },
+      {
+       "heading": "Comparative analysis",
+       "canonical": "other",
+       "words": 153
+      },
+      {
+       "heading": "DNA and bulk RNA library construction",
+       "canonical": "other",
+       "words": 175
+      },
+      {
+       "heading": "Detection of somatic variation on DNA sequencing data",
+       "canonical": "other",
+       "words": 139
+      },
+      {
+       "heading": "Microsatellite instability status",
+       "canonical": "other",
+       "words": 135
+      },
+      {
+       "heading": "Bulk RNA-seq and microarray analysis",
+       "canonical": "other",
+       "words": 325
+      },
+      {
+       "heading": "Pseudo-bulk differential expression",
+       "canonical": "other",
+       "words": 141
+      },
+      {
+       "heading": "Batch-effect correction for malignant cells",
+       "canonical": "other",
+       "words": 114
+      },
+      {
+       "heading": "Consensus molecular subtyping of colorectal cancer (CMS classification)",
+       "canonical": "other",
+       "words": 49
+      },
+      {
+       "heading": "Dissecting the cell-cell communications using CellPhoneDB",
+       "canonical": "other",
+       "words": 116
+      },
+      {
+       "heading": "Statistics and reproducibility",
+       "canonical": "other",
+       "words": 195
+      },
+      {
+       "heading": "Immunohistochemistry",
+       "canonical": "other",
+       "words": 79
+      },
+      {
+       "heading": "Survival analysis",
+       "canonical": "other",
+       "words": 184
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary Information",
+   "canonical": "supplementary",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 219
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "Authors’ contributions",
+   "canonical": "contributions",
+   "words": 0
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 0
+  },
+  {
+   "heading": "Availability of data and materials",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Declarations",
+   "canonical": "declarations",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 539,
+  "results": 3463,
+  "discussion": 887,
+  "conclusions": 132,
+  "methods": 2888,
+  "supplementary": 0
+ },
+ "main_text_words": 7909,
+ "main_text_words_excluding_methods": 5021,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 8,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Fig. 6",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 7",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 8",
+   "kind_guess": [
+    "dotplot"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 15,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 114,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": false,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

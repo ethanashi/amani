@@ -1,0 +1,393 @@
+{
+ "pmcid": "PMC10464129",
+ "doi": "10.1186/s13059-023-03020-w",
+ "pmid": "37612728",
+ "journal": "Genome Biology",
+ "year": 2023,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 13,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Results",
+    "Conclusions",
+    "Supplementary Information"
+   ],
+   "words": 275
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Background",
+   "canonical": "introduction",
+   "words": 510
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3370,
+   "sub": [
+    {
+     "heading": "Selecting data to represent each perturbation type",
+     "canonical": "other",
+     "words": 393
+    },
+    {
+     "heading": "Dependencies identified using each perturbation type",
+     "canonical": "other",
+     "words": 1134
+    },
+    {
+     "heading": "Biomarker identification for therapeutic target discovery",
+     "canonical": "other",
+     "words": 783
+    },
+    {
+     "heading": "Associations between genetic and chemical screens",
+     "canonical": "other",
+     "words": 506
+    },
+    {
+     "heading": "Functional relationships identified by co-dependency network",
+     "canonical": "other",
+     "words": 554
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 597
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 172
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 4032,
+   "sub": [
+    {
+     "heading": "Separation of positive/negative controls using CRISPR and RNAi reagent datasets",
+     "canonical": "other",
+     "words": 148
+    },
+    {
+     "heading": "Correlation of reagents targeting the same gene",
+     "canonical": "other",
+     "words": 106
+    },
+    {
+     "heading": "Constructing an unbiased essential gene set for a positive control",
+     "canonical": "other",
+     "words": 335
+    },
+    {
+     "heading": "Classification accuracy (ROC AUC) of positive/negative controls using processed data",
+     "canonical": "other",
+     "words": 146
+    },
+    {
+     "heading": "Correlation of matching genes across datasets of different perturbation types",
+     "canonical": "other",
+     "words": 177
+    },
+    {
+     "heading": "Pan-dependency analysis",
+     "canonical": "other",
+     "words": 166
+    },
+    {
+     "heading": "Dependency probabilities",
+     "canonical": "other",
+     "words": 178
+    },
+    {
+     "heading": "Non-dependency analysis",
+     "canonical": "other",
+     "words": 20
+    },
+    {
+     "heading": "Defining a high-confidence dependency gene set across perturbation types",
+     "canonical": "other",
+     "words": 282
+    },
+    {
+     "heading": "Identifying strongly selective dependencies by likelihood ratio test",
+     "canonical": "other",
+     "words": 170
+    },
+    {
+     "heading": "High-variance dependencies",
+     "canonical": "other",
+     "words": 175
+    },
+    {
+     "heading": "ISG signature",
+     "canonical": "other",
+     "words": 49
+    },
+    {
+     "heading": "Mapping dependency classes between RNAi and CRISPR",
+     "canonical": "other",
+     "words": 140
+    },
+    {
+     "heading": "CRISPR and RNAi pan-dependencies supported by alternative methodologies",
+     "canonical": "other",
+     "words": 169
+    },
+    {
+     "heading": "Gene set enrichment of distinct CRISPR and shared CRISPR-RNAi pan-dependencies",
+     "canonical": "other",
+     "words": 125
+    },
+    {
+     "heading": "Predicting CRISPR pan-dependency status using results from gene trap, RNAi, and ExAC",
+     "canonical": "other",
+     "words": 175
+    },
+    {
+     "heading": "Modeling pan-dependency status using mRNA and protein expression levels",
+     "canonical": "other",
+     "words": 306
+    },
+    {
+     "heading": "Predicting each gene effect profile using molecular and cellular features",
+     "canonical": "other",
+     "words": 330
+    },
+    {
+     "heading": "Predictive marker classes",
+     "canonical": "other",
+     "words": 54
+    },
+    {
+     "heading": "Chemical and genetic screen correlation",
+     "canonical": "other",
+     "words": 408
+    },
+    {
+     "heading": "Co-dependency networks",
+     "canonical": "other",
+     "words": 373
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary Information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 35,
+   "sub": [
+    {
+     "heading": "Peer review information",
+     "canonical": "other",
+     "words": 26
+    },
+    {
+     "heading": "Review history",
+     "canonical": "other",
+     "words": 9
+    }
+   ]
+  },
+  {
+   "heading": "Authors’ contributions",
+   "canonical": "contributions",
+   "words": 57
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 33
+  },
+  {
+   "heading": "Availability of data and materials",
+   "canonical": "data_availability",
+   "words": 403
+  },
+  {
+   "heading": "Declarations",
+   "canonical": "declarations",
+   "words": 157,
+   "sub": [
+    {
+     "heading": "Ethics approval and consent to participate",
+     "canonical": "ethics",
+     "words": 2
+    },
+    {
+     "heading": "Consent for publication",
+     "canonical": "ethics",
+     "words": 2
+    },
+    {
+     "heading": "Competing interests",
+     "canonical": "competing_interests",
+     "words": 153
+    }
+   ]
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 403,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 403
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 510,
+  "results": 3370,
+  "discussion": 597,
+  "conclusions": 172,
+  "methods": 4032,
+  "supplementary": 403,
+  "acknowledgements": 35,
+  "contributions": 57,
+  "funding": 33,
+  "data_availability": 403,
+  "declarations": 157,
+  "other_back": 0,
+  "references": 0
+ },
+ "main_text_words": 8681,
+ "main_text_words_excluding_methods": 4649,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": ""
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 5,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 64,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": true,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

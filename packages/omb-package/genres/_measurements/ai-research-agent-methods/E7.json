@@ -1,0 +1,467 @@
+{
+ "pmcid": "PMC13346116",
+ "doi": "10.1038/s41586-026-10652-y",
+ "pmid": "42156546",
+ "journal": "Nature",
+ "year": 2026,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 7,
+ "licence": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 249
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 19
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Main",
+   "canonical": "other",
+   "words": 3429,
+   "sub": [
+    {
+     "heading": "Robin: a multi-agent system for scientific discovery",
+     "canonical": "other",
+     "words": 660,
+     "sub": [
+      {
+       "heading": "Therapeutic hypothesis generation",
+       "canonical": "other",
+       "words": 238
+      },
+      {
+       "heading": "Experimental data analysis",
+       "canonical": "other",
+       "words": 249
+      }
+     ]
+    },
+    {
+     "heading": "Robin expedites hypothesis generation",
+     "canonical": "other",
+     "words": 1361,
+     "sub": [
+      {
+       "heading": "ROCK inhibitor enhances phagocytosis",
+       "canonical": "other",
+       "words": 246
+      },
+      {
+       "heading": "Automated RNA-seq analysis",
+       "canonical": "other",
+       "words": 345
+      },
+      {
+       "heading": "A repurposed drug for dAMD",
+       "canonical": "other",
+       "words": 121
+      },
+      {
+       "heading": "Validation in primary human RPE cells",
+       "canonical": "other",
+       "words": 372
+      }
+     ]
+    },
+    {
+     "heading": "Validation of the Robin architecture",
+     "canonical": "other",
+     "words": 650
+    }
+   ],
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 665
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 3698,
+   "sub": [
+    {
+     "heading": "Robin implementation",
+     "canonical": "other",
+     "words": 438
+    },
+    {
+     "heading": "Finch implementation",
+     "canonical": "other",
+     "words": 589,
+     "sub": [
+      {
+       "heading": "Tools and environment",
+       "canonical": "other",
+       "words": 65
+      },
+      {
+       "heading": "Finch evaluation",
+       "canonical": "other",
+       "words": 320
+      }
+     ]
+    },
+    {
+     "heading": "Robin validation",
+     "canonical": "other",
+     "words": 434,
+     "sub": [
+      {
+       "heading": "Crow and Falcon ablation experiments",
+       "canonical": "other",
+       "words": 254
+      },
+      {
+       "heading": "Comparison with OpenAI’s Deep Research",
+       "canonical": "other",
+       "words": 114
+      },
+      {
+       "heading": "Cost analysis",
+       "canonical": "other",
+       "words": 66
+      }
+     ]
+    },
+    {
+     "heading": "Cell culture",
+     "canonical": "other",
+     "words": 405
+    },
+    {
+     "heading": "Phagocytosis drug screen",
+     "canonical": "other",
+     "words": 1079,
+     "sub": [
+      {
+       "heading": "Drug library preparation",
+       "canonical": "other",
+       "words": 53
+      },
+      {
+       "heading": "pHrodo bead preparation",
+       "canonical": "other",
+       "words": 66
+      },
+      {
+       "heading": "Bovine ROS preparation",
+       "canonical": "other",
+       "words": 254
+      },
+      {
+       "heading": "Phagocytosis assay",
+       "canonical": "other",
+       "words": 203
+      },
+      {
+       "heading": "Flow cytometry",
+       "canonical": "other",
+       "words": 123
+      },
+      {
+       "heading": "RNA-seq",
+       "canonical": "other",
+       "words": 134
+      },
+      {
+       "heading": "Immunocytochemistry",
+       "canonical": "other",
+       "words": 112
+      },
+      {
+       "heading": "ELISA",
+       "canonical": "other",
+       "words": 76
+      },
+      {
+       "heading": "LDH assay",
+       "canonical": "other",
+       "words": 58
+      }
+     ]
+    },
+    {
+     "heading": "Data analysis",
+     "canonical": "other",
+     "words": 736,
+     "sub": [
+      {
+       "heading": "Flow cytometry",
+       "canonical": "other",
+       "words": 210
+      },
+      {
+       "heading": "RNA-seq",
+       "canonical": "other",
+       "words": 29
+      },
+      {
+       "heading": "Read alignment and processing",
+       "canonical": "other",
+       "words": 131
+      },
+      {
+       "heading": "Gene-level quantification",
+       "canonical": "other",
+       "words": 100
+      },
+      {
+       "heading": "Differential gene expression analysis",
+       "canonical": "other",
+       "words": 99
+      },
+      {
+       "heading": "RPE-SC RNA-seq validation",
+       "canonical": "other",
+       "words": 167
+      }
+     ]
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "Online content",
+   "canonical": "other",
+   "words": 36,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 44
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Extended data figures and tables",
+     "canonical": "other",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 140
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 25,
+   "sub": [
+    {
+     "heading": "Peer review information",
+     "canonical": "other",
+     "words": 25
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 9
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 22
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 19
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 27
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 18,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Extended data",
+   "canonical": "other",
+   "words": 7,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 41,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 41
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 3429,
+  "discussion": 665,
+  "methods": 3698,
+  "other_back": 86,
+  "supplementary": 50,
+  "acknowledgements": 44,
+  "contributions": 140,
+  "funding": 9,
+  "data_availability": 41,
+  "competing_interests": 27,
+  "references": 0
+ },
+ "main_text_words": 7792,
+ "main_text_words_excluding_methods": 4094,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 6,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 4,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 62,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

@@ -1,0 +1,33 @@
+variable,level,dataset,statistic,value,unit,ci_level,display,grade,fact_id,source_record_id
+,,Discovery cohort,n,2947,,,"2,947",kernel,t1.n.a,d4b9c2a1553a82ee5b039659ece54d1f9ce96065526c751773be54df3e1cb3a7
+,,Validation cohort,n,1263,,,"1,263",kernel,t1.n.b,9ee1d13043196fae35e3540803926966ecf21bcf1390e3a18749e095fc7e0533
+Age,,Discovery cohort,mean,54.2,years,,54.2,kernel,t1.age.mean.a,1abfb90dffb25ad91dad586ad34f4203c559ada69776a49e16fe56b6cecfca82
+Age,,Discovery cohort,sd,11.3,years,,11.3,kernel,t1.age.sd.a,58aad724b5c225098057ffd44a005ebc9163050a29e77d679bf12e5748540e33
+Age,,Validation cohort,mean,55.04,years,,55.0,kernel,t1.age.mean.b,149e053953872b78d189ded0c015c871fddd5e1c78b5ac086da07274538cdc14
+Age,,Validation cohort,sd,10.9,years,,10.9,kernel,t1.age.sd.b,787368f76191331f8c17adf30a0e734552e3655577f151e45569990bdb490c6b
+Age,Missing,Discovery cohort,count,0,,,0,kernel,t1.age.miss.a,51a73df61e257f15484ad12ed9589dea91431678bef10abad8e5739a46de60a5
+Age,Missing,Discovery cohort,percent,0,,,0%,kernel,t1.age.misspct.a,8a9acf2eda123b9db6feef451048d0dfc99c9b3d7d902c1e88e6e2be82ffe6b3
+Age,Missing,Validation cohort,count,12,,,12,kernel,t1.age.miss.b,57343d575c639eb237877a7b8e59d5527d47580b1355f21d6d80920047ef2284
+Age,Missing,Validation cohort,percent,0.95,,,1.0%,kernel,t1.age.misspct.b,3749d4799d0d128fd789be89033d74d3823cf76e372e4365a095f1c319fa6212
+Sex,Female,Discovery cohort,count,1450,,,"1,450",kernel,t1.sex.f.a,c611a9998154d2a7a5ed2a291863b184a87f3aeddf86fcb402e0fbbec0d75b07
+Sex,Female,Discovery cohort,percent,49.2,,,49%,kernel,t1.sex.fpct.a,bae4ad6652913beeb26e543a1a2c4c9120fbc53d11e34cc653d9873dbd6722b5
+Sex,Female,Validation cohort,count,640,,,640,kernel,t1.sex.f.b,9de0435fa461e7f196b0010113f29985403085e068525818927063720f32d5ca
+Sex,Female,Validation cohort,percent,50.67,,,51%,kernel,t1.sex.fpct.b,91dcbc32ada9dba3681755ab8f80ae024c5511ae0700e9119ca67ba74de0ec19
+Sex,Male,Discovery cohort,count,1497,,,"1,497",kernel,t1.sex.m.a,bc483ef31e154ce98e754f924094ee686dbe64839bdc09b106ca5908223a07ed
+Sex,Male,Discovery cohort,percent,50.8,,,51%,kernel,t1.sex.mpct.a,ad1d686c8f4160faedf451ea0ba4e93a5007f08d9e89eca2ea13531bc06b0df7
+Sex,Male,Validation cohort,count,623,,,623,kernel,t1.sex.m.b,55d4a593d56fd694f7fbf36a844e7a709d42559aee07910070b0826a00caa94c
+Sex,Male,Validation cohort,percent,49.33,,,49%,kernel,t1.sex.mpct.b,8ca06cc27f16781d14cea0abace62cc36cf6664ffa7cdfcd47cb49b5bf452614
+Sex,Missing,Discovery cohort,count,0,,,0,kernel,t1.sex.miss.a,6aff09b7be9e231e695ab0191cb2adaed075af3754500a5870b78171da39159e
+Sex,Missing,Discovery cohort,percent,0,,,0%,kernel,t1.sex.misspct.a,cee0f2cb51e70ef309722f32aa624ddcefd9479a094be4006a7aa932c79446f4
+Sex,Missing,Validation cohort,count,0,,,0,kernel,t1.sex.miss.b,a803af431aba81f9e22fc68eba135b4a60f436330ac9cee70dfa2057870f3fcc
+Sex,Missing,Validation cohort,percent,0,,,0%,kernel,t1.sex.misspct.b,1d9152a920d3bf073245063f323f6f8fdd8cf3fee06ca621831dca8e15da0264
+Body mass index,,Discovery cohort,median,27.1,kg/m2,,27.1,kernel,t1.bmi.med.a,cf0f9bf310c60a6d4c254000ee7da82b4aae32e2fdc675e09df164580bf953d4
+Body mass index,,Discovery cohort,q1,24,kg/m2,,24.0,kernel,t1.bmi.q1.a,bfa16de4b8ade6bb6ffdb6d5f032bb6654d52cc9981ae6bd34700c97e8aa5c75
+Body mass index,,Discovery cohort,q3,30.6,kg/m2,,30.6,kernel,t1.bmi.q3.a,9c4a6d9464d5767ec558b1aa6f30f880cb66e4a109df8ff75c33fbd710347ad3
+Body mass index,,Validation cohort,median,26.8,kg/m2,,26.8,kernel,t1.bmi.med.b,5dfab58d4841248b427646a56b8f0f480a5cb23f4e97a6cc479b75f6c56be9be
+Body mass index,,Validation cohort,q1,23.7,kg/m2,,23.7,kernel,t1.bmi.q1.b,52c20c0efd985ece19b2cc243cd8e369325a213aad69df95bc9ed853649b953c
+Body mass index,,Validation cohort,q3,30.1,kg/m2,,30.1,kernel,t1.bmi.q3.b,07d9ba995d6f052f0f287cd1cfdffd11544f79f533ab7ce3b5264a20c2295f07
+Body mass index,Missing,Discovery cohort,count,31,,,31,kernel,t1.bmi.miss.a,2ca59f9796873b4daa9a1e555dbecc470877797d48ad669e8c85814ff5fbcfc7
+Body mass index,Missing,Discovery cohort,percent,1.05,,,1.1%,kernel,t1.bmi.misspct.a,944cb74da2e4e76e4565ba9c560d88d9790c442c2a8780b0f613983b74ce50f2
+Body mass index,Missing,Validation cohort,count,20,,,20,kernel,t1.bmi.miss.b,20d81d54446f29a4433a35a280f9d8ac0605cba8a62a91bce01962ca681b0a95
+Body mass index,Missing,Validation cohort,percent,1.58,,,1.6%,kernel,t1.bmi.misspct.b,87dda5028187de70526aaabbfff74dc6488153cc16b324add24b311de7da5e26

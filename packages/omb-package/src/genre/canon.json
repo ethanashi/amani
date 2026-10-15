@@ -1,0 +1,74 @@
+[
+  [
+    "introduction",
+    "^(\\d+\\.?\\s*)?(introduction|background|introduction and background|rationale)\\b"
+  ],
+  [
+    "methods",
+    "^(\\d+\\.?\\s*)?((materials? and )?methods?|methodology|patients and methods|study design|online methods|star\\W*methods|experimental procedures|methods and materials)\\b"
+  ],
+  [
+    "results",
+    "^(\\d+\\.?\\s*)?(results?|findings)\\b"
+  ],
+  [
+    "results_discussion",
+    "^(\\d+\\.?\\s*)?results and discussion\\b"
+  ],
+  [
+    "discussion",
+    "^(\\d+\\.?\\s*)?(discussion|comment|interpretation)\\b"
+  ],
+  [
+    "limitations",
+    "^(\\d+\\.?\\s*)?(limitations?|strengths and limitations|study limitations)\\b"
+  ],
+  [
+    "conclusions",
+    "^(\\d+\\.?\\s*)?(conclusions?|concluding remarks|summary and conclusions?)\\b"
+  ],
+  [
+    "data_availability",
+    "(data|code|software|materials?)( and (code|data|materials?|software))? (availability|sharing|access)|availability of (data|code)|data statement|resource availability"
+  ],
+  [
+    "acknowledgements",
+    "^acknowledg"
+  ],
+  [
+    "funding",
+    "^(funding|financial support|role of the funder|grant)"
+  ],
+  [
+    "contributions",
+    "author(s'|s\u2019|\u2019s|'s)? contributions?|contributors|credit author"
+  ],
+  [
+    "competing_interests",
+    "(competing|conflicts?|declaration) of interests?|competing interests|disclosures?|conflict"
+  ],
+  [
+    "ethics",
+    "ethic|consent|institutional review"
+  ],
+  [
+    "declarations",
+    "^declarations?$"
+  ],
+  [
+    "references",
+    "^references?$|^bibliography"
+  ],
+  [
+    "supplementary",
+    "supplement|associated data|additional (files|information)|appendix"
+  ],
+  [
+    "transparency",
+    "transparency|patient and public|dissemination|provenance|what is already known|what this study adds|summary box"
+  ],
+  [
+    "key_points",
+    "key points|research in context|highlights|in brief|significance"
+  ]
+]

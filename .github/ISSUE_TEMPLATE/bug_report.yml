@@ -1,0 +1,47 @@
+name: Bug report
+description: Something does not work as documented.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Security problems do not belong here**: see SECURITY.md for private reporting.
+        Do not paste secrets, benchmark keys, held-out data or patient-level data.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Commands, in order. A failing test is ideal.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: package
+    attributes:
+      label: Package
+      description: For example omb-gauntlet or omb-certify.
+  - type: input
+    id: commit
+    attributes:
+      label: Commit or snapshot
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: macOS version, chip, `node --version`, `pnpm --version`, `pixi --version`.
+  - type: dropdown
+    id: checker
+    attributes:
+      label: Does this affect a label or a gate?
+      description: A way to raise a label without the required checks is a security matter; please use SECURITY.md instead.
+      options:
+        - "No"
+        - "Yes, a label or gate behaves wrongly in the safe direction (too strict)"
+        - "Not sure"

@@ -1,0 +1,11 @@
+template:
+Receiver operating characteristic curve. Curves: Locked model with a shaded confidence band (AUC [m:c2.auc.model]); Clinical baseline (AUC [m:c2.auc.baseline]). A dashed diagonal marks chance performance.
+
+text:
+Receiver operating characteristic curve. Curves: Locked model with a shaded confidence band (AUC 0.80); Clinical baseline (AUC 0.67). A dashed diagonal marks chance performance.
+
+caption template:
+Discrimination of the locked model on the held-out split. Lines are receiver operating characteristic curves; the dashed diagonal marks chance performance. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Discrimination of the locked model on the held-out split. Lines are receiver operating characteristic curves; the dashed diagonal marks chance performance. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

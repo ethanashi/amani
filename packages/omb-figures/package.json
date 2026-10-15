@@ -1,0 +1,22 @@
+{
+  "name": "@omerta-bio/figures",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Omerta Bio paper writer PW3: deterministic SVG figures and tables from certified records, figure lint, closed-world number check and placeholder-bound alt text.",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "dependencies": {
+    "@dagrejs/dagre": "3.1.1"
+  },
+  "scripts": {
+    "test:licenses": "node scripts/license-gate.ts",
+    "lint:figure": "node scripts/figure-lint.ts",
+    "test:goldens": "node scripts/raster-goldens.ts"
+  },
+  "license": "AGPL-3.0-only"
+}

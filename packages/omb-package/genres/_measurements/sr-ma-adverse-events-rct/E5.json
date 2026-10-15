@@ -1,0 +1,221 @@
+{
+ "pmcid": "PMC13453482",
+ "doi": "10.1016/j.eclinm.2026.104113",
+ "pmid": "42576934",
+ "journal": "eClinicalMedicine",
+ "year": 2026,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 22,
+ "licence": "CC BY-NC-ND",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods",
+    "Findings",
+    "Interpretation",
+    "Funding"
+   ],
+   "words": 320
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 379
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 1610,
+   "sub": [
+    {
+     "heading": "Search strategy and selection criteria",
+     "canonical": "other",
+     "words": 532
+    },
+    {
+     "heading": "Ethics",
+     "canonical": "ethics",
+     "words": 62
+    },
+    {
+     "heading": "Statistical analysis",
+     "canonical": "other",
+     "words": 1008
+    },
+    {
+     "heading": "Role of the funding source",
+     "canonical": "other",
+     "words": 8
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1846
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1304
+  },
+  {
+   "heading": "Contributors",
+   "canonical": "contributions",
+   "words": 184
+  },
+  {
+   "heading": "Data sharing statement",
+   "canonical": "data_availability",
+   "words": 84
+  },
+  {
+   "heading": "Declaration of interests",
+   "canonical": "competing_interests",
+   "words": 5
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 7
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary data",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 379,
+  "methods": 1610,
+  "results": 1846,
+  "discussion": 1304,
+  "contributions": 184,
+  "data_availability": 84,
+  "competing_interests": 5,
+  "acknowledgements": 7,
+  "other_back": 0,
+  "supplementary": 0,
+  "references": 0
+ },
+ "main_text_words": 5139,
+ "main_text_words_excluding_methods": 3529,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "forest"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": ""
+  }
+ ],
+ "references": 32,
+ "flags": {
+  "prospero": true,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": true,
+  "rob2": true,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": true,
+  "i2": true,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": true,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

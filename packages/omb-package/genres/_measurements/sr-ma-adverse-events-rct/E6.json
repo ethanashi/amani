@@ -1,0 +1,162 @@
+{
+ "pmcid": "PMC11179820",
+ "doi": "10.1161/JAHA.123.032390",
+ "pmid": "38742535",
+ "journal": "Journal of the American Heart Association: Cardiovascular and Cerebrovascular Disease",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Original Research",
+  "Original Research",
+  "Preventive Cardiology"
+ ],
+ "title_words": 20,
+ "licence": "https://creativecommons.org/licenses/by-nc/4.0/This is an open access article un",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods and Results",
+    "Conclusions"
+   ],
+   "words": 259
+  }
+ ],
+ "sections": [
+  {
+   "heading": "(untitled lead paragraphs)",
+   "canonical": "introduction",
+   "words": 246
+  },
+  {
+   "heading": "METHODS",
+   "canonical": "methods",
+   "words": 567,
+   "sub": [
+    {
+     "heading": "Statistical Analysis",
+     "canonical": "other",
+     "words": 185
+    }
+   ]
+  },
+  {
+   "heading": "RESULTS",
+   "canonical": "results",
+   "words": 506
+  },
+  {
+   "heading": "DISCUSSION",
+   "canonical": "discussion",
+   "words": 967
+  },
+  {
+   "heading": "Sources of Funding",
+   "canonical": "other",
+   "words": 10,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Disclosures",
+   "canonical": "competing_interests",
+   "words": 1
+  },
+  {
+   "heading": "Supporting information",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  }
+ ],
+ "back_sections": [],
+ "section_word_totals": {
+  "introduction": 246,
+  "methods": 567,
+  "results": 506,
+  "discussion": 967,
+  "other_back": 10,
+  "competing_interests": 1
+ },
+ "main_text_words": 2286,
+ "main_text_words_excluding_methods": 1719,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table ."
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": ""
+  }
+ ],
+ "references": 40,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": true,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

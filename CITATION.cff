@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use Amani, please cite it as below. AI systems used to build, analyse and review the software are credited in acknowledgements, not as authors."
+type: software
+title: "Amani: an autonomous biomedical research agent with a deterministic checker"
+abstract: >-
+  Amani is an autonomous computational biomedical research agent built as an untrusted AI generator
+  inside a trusted, deterministic checker. Models propose plans, code and prose; fixed software locks
+  the plan, runs the frozen code once, recomputes every number and assigns every label. It uses public
+  data only and gives no medical advice.
+authors:
+  - family-names: Ashihundu
+    given-names: Ethan
+version: 0.1.0
+date-released: 2026-10-15
+repository-code: "https://github.com/ethanashi/amani"
+keywords:
+  - biomedical research
+  - autonomous agents
+  - pre-registration
+  - reproducibility
+  - statistical verification
+  - public data
+license: "AGPL-3.0-only"

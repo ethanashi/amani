@@ -1,0 +1,443 @@
+{
+ "pmcid": "PMC11148512",
+ "doi": "10.1016/j.xcrm.2024.101511",
+ "pmid": "38614094",
+ "journal": "Cell Reports Medicine",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 17,
+ "licence": "CC BY-NC-ND",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 148
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 0
+  },
+  {
+   "type": "author-highlights",
+   "structured": false,
+   "headings": [],
+   "words": 41
+  },
+  {
+   "type": "teaser",
+   "structured": false,
+   "headings": [],
+   "words": 51
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 445
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3864,
+   "sub": [
+    {
+     "heading": "An integrated scRNA-seq dataset of breast cancer samples reveals distinct NK cell subsets that exhibit diverse functional characteristics",
+     "canonical": "other",
+     "words": 604
+    },
+    {
+     "heading": "Reprogrammed NK cells are most similar to the NK-1 subset and are observed in patient samples independent of subtype",
+     "canonical": "other",
+     "words": 565
+    },
+    {
+     "heading": "Individual breast tumors have varying degrees of cancer epithelial cell heterogeneity",
+     "canonical": "other",
+     "words": 1012
+    },
+    {
+     "heading": "Cancer epithelial cell heterogeneity can be defined by 10 unifying groups of gene signatures",
+     "canonical": "other",
+     "words": 423
+    },
+    {
+     "heading": "GEs predict individual patient predominant immune response",
+     "canonical": "other",
+     "words": 524
+    },
+    {
+     "heading": "Spatial mapping of GEs reflects predicted immune interactions",
+     "canonical": "other",
+     "words": 227
+    },
+    {
+     "heading": "InteractPrint: A weighted score to predict the predominant tumor-interacting immune cell for an individual patient tumor",
+     "canonical": "other",
+     "words": 82
+    },
+    {
+     "heading": "InteractPrint predicts anti-PD-1 therapeutic response",
+     "canonical": "other",
+     "words": 427
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1204,
+   "sub": [
+    {
+     "heading": "Limitations of the study",
+     "canonical": "limitations",
+     "words": 209
+    }
+   ]
+  },
+  {
+   "heading": "STAR★Methods",
+   "canonical": "methods",
+   "words": 4571,
+   "sub": [
+    {
+     "heading": "Key resources table",
+     "canonical": "other",
+     "words": 0
+    },
+    {
+     "heading": "Resources availability",
+     "canonical": "other",
+     "words": 108,
+     "sub": [
+      {
+       "heading": "Lead contact",
+       "canonical": "other",
+       "words": 24
+      },
+      {
+       "heading": "Materials availability",
+       "canonical": "data_availability",
+       "words": 8
+      },
+      {
+       "heading": "Data and code availability",
+       "canonical": "data_availability",
+       "words": 76
+      }
+     ]
+    },
+    {
+     "heading": "Experimental model and study participant details",
+     "canonical": "other",
+     "words": 183,
+     "sub": [
+      {
+       "heading": "NK-92",
+       "canonical": "other",
+       "words": 51
+      },
+      {
+       "heading": "BT-474",
+       "canonical": "other",
+       "words": 37
+      },
+      {
+       "heading": "MDA-MB-436",
+       "canonical": "other",
+       "words": 35
+      },
+      {
+       "heading": "K-562",
+       "canonical": "other",
+       "words": 60
+      }
+     ]
+    },
+    {
+     "heading": "Method details",
+     "canonical": "methods",
+     "words": 4195,
+     "sub": [
+      {
+       "heading": "Processing of single-cell RNA-seq datasets",
+       "canonical": "other",
+       "words": 128
+      },
+      {
+       "heading": "Integration of primary breast tumor datasets",
+       "canonical": "other",
+       "words": 66
+      },
+      {
+       "heading": "Cell type annotation and clustering",
+       "canonical": "other",
+       "words": 386
+      },
+      {
+       "heading": "Identification of natural killer cell subsets",
+       "canonical": "other",
+       "words": 382
+      },
+      {
+       "heading": "Survival analysis",
+       "canonical": "other",
+       "words": 217
+      },
+      {
+       "heading": "Identification of epithelial cell clusters",
+       "canonical": "other",
+       "words": 522
+      },
+      {
+       "heading": "Molecular subtype of samples using SCSubtype",
+       "canonical": "other",
+       "words": 84
+      },
+      {
+       "heading": "Cancer epithelial cell heterogeneity analysis",
+       "canonical": "other",
+       "words": 798
+      },
+      {
+       "heading": "Receptor-ligand pairing analysis",
+       "canonical": "other",
+       "words": 552
+      },
+      {
+       "heading": "Breast cancer cell line exploration",
+       "canonical": "other",
+       "words": 360
+      },
+      {
+       "heading": "Spatial transcriptomics analysis",
+       "canonical": "other",
+       "words": 235
+      },
+      {
+       "heading": "Development of InteractPrint",
+       "canonical": "other",
+       "words": 224
+      },
+      {
+       "heading": "Validation of InteractPrint",
+       "canonical": "other",
+       "words": 241
+      }
+     ]
+    },
+    {
+     "heading": "Quantification and statistical analysis",
+     "canonical": "other",
+     "words": 85
+    }
+   ]
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 147,
+   "sub": [
+    {
+     "heading": "Author contributions",
+     "canonical": "contributions",
+     "words": 62
+    },
+    {
+     "heading": "Declaration of interests",
+     "canonical": "competing_interests",
+     "words": 25
+    }
+   ]
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 4,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplemental information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 76,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 76
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 445,
+  "results": 3864,
+  "discussion": 1204,
+  "methods": 4571,
+  "acknowledgements": 147,
+  "other_back": 4,
+  "supplementary": 76,
+  "references": 0
+ },
+ "main_text_words": 10084,
+ "main_text_words_excluding_methods": 5513,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 209
+ },
+ "figures_main": 5,
+ "figures": [
+  {
+   "label": "",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "heatmap"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 4,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  },
+  {
+   "label": "Table 3"
+  },
+  {
+   "label": ""
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 10,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 121,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

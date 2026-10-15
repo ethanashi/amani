@@ -1,0 +1,284 @@
+{
+ "pmcid": "PMC12865639",
+ "doi": "10.1016/j.esmoop.2026.106062",
+ "pmid": "41604815",
+ "journal": "ESMO Open",
+ "year": 2026,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 19,
+ "licence": "CC BY",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Materials and methods",
+    "Results",
+    "Conclusion"
+   ],
+   "words": 244
+  },
+  {
+   "type": "author-highlights",
+   "structured": false,
+   "headings": [],
+   "words": 45
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 440
+  },
+  {
+   "heading": "Materials and methods",
+   "canonical": "methods",
+   "words": 858,
+   "sub": [
+    {
+     "heading": "Search strategy",
+     "canonical": "other",
+     "words": 88
+    },
+    {
+     "heading": "Study selection and data extraction",
+     "canonical": "other",
+     "words": 236
+    },
+    {
+     "heading": "Statistical analysis",
+     "canonical": "other",
+     "words": 488
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1961,
+   "sub": [
+    {
+     "heading": "Study characteristics",
+     "canonical": "other",
+     "words": 442
+    },
+    {
+     "heading": "Correlation of PFS2 and OS",
+     "canonical": "other",
+     "words": 128
+    },
+    {
+     "heading": "PFS2 maturity",
+     "canonical": "other",
+     "words": 160
+    },
+    {
+     "heading": "OS information fraction",
+     "canonical": "other",
+     "words": 194
+    },
+    {
+     "heading": "OS maturity",
+     "canonical": "other",
+     "words": 188
+    },
+    {
+     "heading": "Line of treatment",
+     "canonical": "other",
+     "words": 108
+    },
+    {
+     "heading": "Control group exposure to intervention treatment",
+     "canonical": "other",
+     "words": 114
+    },
+    {
+     "heading": "PFS2 and change of OS over time",
+     "canonical": "other",
+     "words": 86
+    },
+    {
+     "heading": "Correlation of median PFS2 and OS",
+     "canonical": "other",
+     "words": 63
+    },
+    {
+     "heading": "Sensitivity analysis",
+     "canonical": "other",
+     "words": 104
+    },
+    {
+     "heading": "Correlation of PFS2 and OS in breast cancer subtypes",
+     "canonical": "other",
+     "words": 127
+    },
+    {
+     "heading": "Correlation of PFS1 and OS",
+     "canonical": "other",
+     "words": 157
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1567
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 89,
+   "sub": [
+    {
+     "heading": "Funding",
+     "canonical": "funding",
+     "words": 2
+    },
+    {
+     "heading": "Disclosure",
+     "canonical": "competing_interests",
+     "words": 69
+    },
+    {
+     "heading": "Data sharing",
+     "canonical": "data_availability",
+     "words": 18
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary data",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 440,
+  "methods": 858,
+  "results": 1961,
+  "discussion": 1567,
+  "acknowledgements": 89,
+  "supplementary": 0,
+  "references": 0
+ },
+ "main_text_words": 4826,
+ "main_text_words_excluding_methods": 3968,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "surrogacy_scatter",
+    "mr_scatter"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "surrogacy_scatter",
+    "mr_scatter"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "surrogacy_scatter",
+    "mr_scatter"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 2,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 49,
+ "flags": {
+  "prospero": true,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

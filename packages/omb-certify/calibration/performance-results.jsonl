@@ -1,0 +1,4 @@
+{"experiment":"A12 net-benefit N=400 PI=0.025","nulls":2000,"passed":0,"rejected":0,"rate":0,"wilson95":[0,0.00192],"errors":0,"seconds":13.6627775}
+{"experiment":"A12 net-benefit N=137 PI=0.10948905109489052","nulls":2000,"passed":0,"rejected":0,"rate":0,"wilson95":[0,0.00192],"errors":0,"seconds":2.364049459}
+{"experiment":"A12 brier N=800 PI=0.05","nulls":2000,"passed":0,"rejected":0,"rate":0,"wilson95":[0,0.00192],"errors":0,"seconds":57.128378250000004}
+{"experiment":"A12 brier N=400 PI=0.075","nulls":2000,"passed":0,"rejected":0,"rate":0,"wilson95":[0,0.00192],"errors":0,"seconds":20.858780792000005}

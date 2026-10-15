@@ -1,0 +1,344 @@
+{
+ "pmcid": "PMC8971486",
+ "doi": "10.1038/s41467-022-29358-6",
+ "pmid": "35361816",
+ "journal": "Nature Communications",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Article"
+ ],
+ "title_words": 15,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 148
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 44
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 317
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 4684,
+   "sub": [
+    {
+     "heading": "Single-cell transcriptome profiling of breast cancer cell lines",
+     "canonical": "other",
+     "words": 598
+    },
+    {
+     "heading": "The BC single-cell atlas identifies clinically relevant transcriptional signatures",
+     "canonical": "other",
+     "words": 607
+    },
+    {
+     "heading": "The BC atlas as a reference for automated cancer diagnosis",
+     "canonical": "other",
+     "words": 1229
+    },
+    {
+     "heading": "Clinically relevant biomarkers exhibit heterogenous and dynamic expression in BC cell lines",
+     "canonical": "other",
+     "words": 679
+    },
+    {
+     "heading": "Heterogeneity in gene expression affects drug response",
+     "canonical": "other",
+     "words": 1571
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 280
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 3931,
+   "sub": [
+    {
+     "heading": "Cell culture",
+     "canonical": "other",
+     "words": 77
+    },
+    {
+     "heading": "DROP-seq platform set-up",
+     "canonical": "other",
+     "words": 184
+    },
+    {
+     "heading": "Single-cell RNA library preparation and sequencing",
+     "canonical": "other",
+     "words": 215
+    },
+    {
+     "heading": "Read alignment and gene expression quantification",
+     "canonical": "other",
+     "words": 283
+    },
+    {
+     "heading": "BC atlas construction",
+     "canonical": "other",
+     "words": 131
+    },
+    {
+     "heading": "Quantification of basal-like transcriptional profiles of triple-negative BC cell lines",
+     "canonical": "other",
+     "words": 118
+    },
+    {
+     "heading": "Cell clustering and identification of marker genes",
+     "canonical": "other",
+     "words": 139
+    },
+    {
+     "heading": "TGCA bulk expression dataset and cell-line deconvolution",
+     "canonical": "other",
+     "words": 145
+    },
+    {
+     "heading": "Spatial sequencing data",
+     "canonical": "other",
+     "words": 33
+    },
+    {
+     "heading": "Single-cell data of TNBC patients",
+     "canonical": "other",
+     "words": 52
+    },
+    {
+     "heading": "Mapping new cells into the BC atlas and estimation of the cancer subtype",
+     "canonical": "other",
+     "words": 259
+    },
+    {
+     "heading": "Estimation of heterogeneity in biomarker expression",
+     "canonical": "other",
+     "words": 615
+    },
+    {
+     "heading": "Correlation between drug targets expression and drug potency",
+     "canonical": "other",
+     "words": 73
+    },
+    {
+     "heading": "Description and validation of the DREEP method for single-cell drug sensitivity prediction",
+     "canonical": "other",
+     "words": 684
+    },
+    {
+     "heading": "Estimation of classification accuracy of PAM50, scCCL or scCCL + HER2 signatures on TCGA patients",
+     "canonical": "other",
+     "words": 138
+    },
+    {
+     "heading": "Cell2location analysis",
+     "canonical": "other",
+     "words": 16
+    },
+    {
+     "heading": "Drug sensitivity of the HER2+ and HER2− subpopulations in the MDA-MB-361 cell line",
+     "canonical": "other",
+     "words": 148
+    },
+    {
+     "heading": "Prediction of cell cycle phase from scRNA-seq",
+     "canonical": "other",
+     "words": 32
+    },
+    {
+     "heading": "HER2 antibody staining procedure for flow cytometry analysis",
+     "canonical": "other",
+     "words": 149
+    },
+    {
+     "heading": "HER2 expression dynamics experiment",
+     "canonical": "other",
+     "words": 84
+    },
+    {
+     "heading": "Drug sensitivity assay",
+     "canonical": "other",
+     "words": 191
+    },
+    {
+     "heading": "Drug combination assay",
+     "canonical": "other",
+     "words": 165
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 45
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 0
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 0
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 317,
+  "results": 4684,
+  "discussion": 280,
+  "methods": 3931,
+  "supplementary": 0
+ },
+ "main_text_words": 9212,
+ "main_text_words_excluding_methods": 5281,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 7,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 88,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": true,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "knee"
+ ]
+}

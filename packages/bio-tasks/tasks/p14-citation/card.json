@@ -1,0 +1,21 @@
+{
+  "id": "p14-citation",
+  "family": "planted-flaw",
+  "datasetManifestHash": "e148591c89e2eef6e2e00f1685adb3579972ae02282ba0a1117390f263621cb6",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p14-citation/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1",
+    "sealed:F2"
+  ],
+  "negativeControl": false,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 73114520,
+  "capMinutes": 45,
+  "contaminated": false
+}

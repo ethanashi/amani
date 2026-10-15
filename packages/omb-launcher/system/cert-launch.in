@@ -1,0 +1,23 @@
+#!/bin/sh
+# Installed under a root-owned release. No caller-controlled interpreter lookup.
+set -eu
+[ "$(/usr/bin/id -u)" = '@CERT_UID@' ] || exit 77
+[ "$#" = 1 ] || exit 64
+case "$1" in attest|confirm|selftest|certify) ;; *) exit 64;; esac
+cd /
+umask 077
+# Refuse inherited low limits; never silently run a partial checker.
+minimum() { case "$1" in unlimited) return 0;; *[!0-9]*|'') return 1;; esac; [ "$1" -ge "$2" ]; }
+minimum "$(ulimit -n)" 256 || exit 77
+minimum "$(ulimit -s)" 4096 || exit 77
+minimum "$(ulimit -t)" 30 || exit 77
+minimum "$(ulimit -f)" 32768 || exit 77
+minimum "$(ulimit -u)" 32 || exit 77
+minimum "$(ulimit -d)" 2097152 || exit 77
+minimum "$(ulimit -v)" 8388608 || exit 77
+# $0 is supplied only by the root-owned wrapper and resolves inside its pinned release.
+release=${0%/cert-launch}
+case "$release" in /usr/local/libexec/omb/releases/*) ;; *) exit 77;; esac
+# cert-main applies a command-specific byte cap and a fixed read deadline.
+exec /usr/bin/env -i PATH=/usr/bin:/bin HOME=/var/empty LANG=C TMPDIR=@AUTHORITY@/tmp \
+  "$release/bin/node" --disallow-code-generation-from-strings --no-addons "$release/omb-cert.mjs" "$1"

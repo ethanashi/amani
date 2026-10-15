@@ -1,0 +1,53 @@
+# Pretreatment expression programs and nonresponse under endpoint compatible cohort validation
+
+## Abstract
+
+Pretreatment expression programs may separate subsequent response groups while leaving their independent generalization and pathway specificity unresolved. This archived blind investigation evaluated an expression program in cohorts A, C and D using frozen preprocessing, moderated gene selection, held-out scoring and patient-level analysis. The completed primary analysis used 2 independent endpoint-compatible folds and yielded a pooled Hedges g of 1.05425, with higher scores in non-responders across the primary folds. The original cohort design produced a higher pooled effect under the frozen descriptive comparison. Integrity analysis identified 27 duplicated or overlapping record pairs involving cohorts A and D. The L24-adjusted outcome check met the requested positive-association criterion in no primary fold. The full claim therefore did not hold up under the frozen decision rule. These findings support observed cross-cohort score separation, but do not establish the complete claim of independent generalization and persistence after pathway adjustment.
+
+## Introduction
+
+The investigation concerned colonic biopsies obtained before biologic treatment in an inflammatory gut disease, with patients subsequently classified as responders or non-responders. The motivating published claim combined pretreatment expression-based prediction, replication across held-out cohorts and continued outcome separation after accounting for reference pathway L24. These propositions require distinct evidence: an unadjusted expression difference does not itself establish independent validation or an association conditional on a related pathway score.
+
+The archived task requested a common computational protocol and an integrity assessment. The frozen plan designated mucosal healing, defined endoscopically and histologically in A and C, as the primary endpoint. D used clinical response and was retained for integrity assessment and the original-design comparison. This endpoint choice preceded effect estimation. The present manuscript reports the completed computational investigation while distinguishing the requested analyses from the findings available in the supplied record. Its central question is whether the observed separation supports the full compound claim under the prespecified interpretation rules.
+
+## Methods
+
+The execution record verifies a completed real-data look with frozen offline analysis code. Expression matrices were linked to sample metadata by resolved sample identifiers rather than column position. Namespace-specific registries resolved probe, gene, sample and patient aliases. Known gene aliases were canonicalized; unregistered source gene tokens retained their literal identities within the declared shared namespace, without inferred equivalences. Structural assertions checked unique identifiers, metadata alignment, response categories and annotation consistency.
+
+Integrity analysis compared record pairs over aligned common probes. Shared sample identifiers, shared patient identifiers or identical rounded intensity profiles with matching missingness qualified as overlap; profile identity also required sufficient shared observations. Correlations and raw differences were calculated separately, and correlation alone did not establish identity. The pair ledger counted distinct unordered pairs before exclusions. Endpoint-compatible cohorts were connected through verified overlap to define independent validation units. Within these units, the code excluded identities with conflicting outcome labels and removed redundant exact profiles before primary preprocessing. Distinct biopsies were retained through scoring and then averaged within patient. These rules describe the executed procedure without implying that every potential exclusion condition occurred.
+
+Nonpositive and nonfinite intensities were treated as missing before binary logarithmic transformation. Eligible probes mapped unambiguously to an individual gene. Within each cohort, the probe with greatest mean transformed intensity represented that gene, with lexical probe tokens resolving ties. Gene expression was standardized using the cohort's observed mean and sample standard deviation. Unscorable genes remained unavailable; scores used available genes without imputation or replacement.
+
+For each held-out unit, training units underwent unweighted gene-wise response modeling with empirical-Bayes moderated inference. The supplied implementation used the classic limma log-moment variance framework without trend fitting or robustification. Selection intersected genes with positive non-responder-minus-responder coefficients meeting the frozen nominal significance criterion in every training unit. Held-out outcomes did not enter selection. Each biopsy's program score averaged its available selected-gene standardized expression, followed by patient averaging. Held-out cohort data supplied their own unlabeled preprocessing quantities.
+
+Fold separation was expressed as Hedges g, oriented toward non-responders, and pooled with DerSimonian-Laird random effects. The code implemented directional fold tests and a conjunction test governed by the least supportive fold. L24 membership was selected by exact gene-set token. Its score used the same collapse, standardization and patient averaging rules. Complete-case ordinary least squares regressed program score on non-response and L24 score, with conventional homoskedastic residual inference. Program genes overlapping L24 were retained.
+
+The original-design calculation separately retained the supplied biopsies, labels and cohort boundaries for A, C and D. The frozen verdict required compatible endpoints, independence, estimable folds, adequate unadjusted separation and uncertainty, and positive adjusted associations meeting the planned magnitude criterion throughout. Implemented interval calculations are methodological details; numerical intervals unavailable among the supplied result facts are not reported here.
+
+## Results
+
+The primary analysis comprised 2 independent endpoint-compatible folds. Under the frozen restriction to A and C, this retained their separate validation roles. The pooled Hedges g was 1.05425. The reported direction indicates positive non-responder-minus-responder separation in every primary fold. This summarizes standardized group separation under cohort-specific scoring; it does not provide individual classification performance.
+
+The original A, C and D design yielded a higher pooled effect according to the frozen descriptive comparison. The supplied facts do not include its numerical estimate or the difference between designs. Consequently, the comparison establishes the reported ordering without quantifying how much the original design increased apparent separation.
+
+Integrity analysis identified 27 duplicated or overlapping record pairs, with A and D forming the reported union of involved cohorts. This is a pair count, not a patient count. The supplied summary does not partition pairs into shared patients, shared samples or identical profiles, or distinguish their within-cohort and cross-cohort distribution.
+
+The adjusted outcome category was no-fold: no primary fold satisfied the requested combination of a positive outcome coefficient and the frozen significance criterion after L24 adjustment. This category alone does not determine coefficient signs, magnitudes or individual test results. The overall frozen verdict was does-not-hold-up.
+
+## Discussion
+
+The principal finding is substantial observed standardized separation toward non-response under the primary scoring protocol, accompanied by failure of the broader claim. Direction and pooled magnitude answer a narrower question than the full conjunction. They cannot establish that every fold meets the required inferential and magnitude criteria, or that outcome separation persists after accounting for L24. The adjusted result directly limits that latter interpretation without demonstrating absence of every biological association.
+
+The design comparison requires care. Its larger pooled effect arose from an analysis retaining original cohort boundaries, biopsies and labels, whereas primary estimation restricted the endpoint and applied identity-based handling. These changes prevent attribution of the difference to overlap alone. The overlap summary establishes dependence concerns among records involving A and D, but cannot by itself prove cross-cohort patient sharing. Independently, the frozen metadata distinguish clinical response from mucosal healing, so the original cohorts do not all measure the same stated response construct.
+
+The scoring procedure also defines the scope of generalization. Because held-out cohorts supplied their own expression means, standard deviations and probe choices, the estimand concerns cross-cohort separation under cohort-standardized scoring. It does not establish calibrated prediction for a newly encountered patient. Likewise, pathway adjustment estimates conditional association rather than a causal treatment effect or a mechanistic contribution unique to the program. The supplied categorical adjusted result cannot distinguish shared expression information from other reasons for failing the requested criterion.
+
+Software provenance notice. The matrix-joined scientific claims retain their native exploratory designation and insufficient-evidence statuses. No confirmatory registered certification is asserted for this procedure. The frozen code and completed execution record document the computational analysis; they do not constitute successful independent replication or endorsement. Manuscript review and endorsement remain pending.
+
+## Evidence and provenance
+
+This reading manuscript was drafted retrospectively from the archived blind investigation. Numerical values are reported outputs of that run; typesetting does not independently certify them. The study identity and published answer were unavailable to the manuscript drafter.
+
+Native claim status: held out program effect = insufficient evidence; independent generalization = insufficient evidence; l24 adjusted association = insufficient evidence.
+
+This manuscript is an unendorsed reading draft. Cross-family manuscript review and owner endorsement are pending.

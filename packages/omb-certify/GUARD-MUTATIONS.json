@@ -1,0 +1,95 @@
+{
+  "mutations": [
+    {
+      "name": "binding",
+      "file": "src/auth.ts",
+      "killed": true,
+      "assertions": [
+        "refuses another planHash",
+        "refuses another inputManifestHash",
+        "refuses another frozenCodeHash",
+        "refuses another executionId"
+      ]
+    },
+    {
+      "name": "hmac",
+      "file": "src/auth.ts",
+      "killed": true,
+      "assertions": [
+        "accepts authentic gates and refuses unsigned worker JSON",
+        "defensive snapshots prevent mutation after signing and board construction"
+      ]
+    },
+    {
+      "name": "adopt",
+      "file": "src/certify.ts",
+      "killed": true,
+      "assertions": [
+        "adopt never confirms any claim kind, including software integrity"
+      ]
+    },
+    {
+      "name": "work-limit",
+      "file": "src/permutation.ts",
+      "killed": true,
+      "assertions": [
+        "kernel permutation decision sequential decisions cannot flip under any seeded completion",
+        "kernel permutation decision abstains when the work budget cannot establish a decision"
+      ]
+    },
+    {
+      "name": "permutation-ties",
+      "file": "src/permutation.ts",
+      "killed": true,
+      "assertions": [
+        "kernel permutation decision matches the hand-enumerated 1/20 one-sided and 2/20 two-sided cases",
+        "kernel permutation decision type-I error is at most locked alpha by enumerating every null assignment",
+        "kernel permutation decision does not count ties as evidence against the null",
+        "kernel permutation decision honours strata and reduces the orbit",
+        "kernel permutation decision Freedman-Lane agrees with an independent residual-permutation fixture"
+      ]
+    },
+    {
+      "name": "alpha-calibration",
+      "file": "src/producers.ts",
+      "killed": true,
+      "assertions": [
+        "G5a measures the actual .01 alpha, catches .04 false rejection counterexample, and has controls"
+      ]
+    },
+    {
+      "name": "signed-mei",
+      "file": "src/producers.ts",
+      "killed": true,
+      "assertions": [
+        "G5b plants negative MEI for less, checks actual alpha and coverage, with a failed-power control"
+      ]
+    },
+    {
+      "name": "joint-rank",
+      "file": "src/producers.ts",
+      "killed": true,
+      "assertions": [
+        "G1c honours joint design rank loss even without any aligned pair"
+      ]
+    },
+    {
+      "name": "cache-hash",
+      "file": "src/stage.ts",
+      "killed": true,
+      "assertions": [
+        "persistent cache authenticates receipts and never reparses an unchanged input"
+      ]
+    },
+    {
+      "name": "unresolved-fallback",
+      "file": "src/certify.ts",
+      "killed": true,
+      "assertions": [
+        "unresolved kernel decision never falls back to the tiny worker p-value"
+      ]
+    }
+  ],
+  "killed": 10,
+  "total": 10
+}

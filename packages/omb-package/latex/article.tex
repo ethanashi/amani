@@ -1,0 +1,78 @@
+% !TeX program = xelatex
+% PW9 article template. Fonts are loaded by filename (arXiv TeX Live compatible).
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=$margin$in]{geometry}
+\usepackage{fontspec}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\renewcommand{\normalsize}{\fontsize{$fontsize$}{14}\selectfont}
+\AtBeginDocument{\normalsize}
+\DeclareMathSizes{11}{10}{7}{5}
+\renewcommand{\textsuperscript}[1]{\raisebox{.6ex}{\fontsize{8.5}{10}\selectfont #1}}
+\setmainfont{AmaniJournalSerif-Regular.ttf}[Path=fonts/,BoldFont=AmaniJournalSerif-Bold.ttf,ItalicFont=AmaniJournalSerif-Italic.ttf]
+\setsansfont{lmsans10-regular.otf}[Path=fonts/,BoldFont=lmsans10-bold.otf]
+\setmonofont{lmmono10-regular.otf}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,tabularx,calc,xcolor}
+\usepackage{caption}
+\usepackage{flafter}
+\usepackage{placeins}
+\usepackage[hidelinks,unicode]{hyperref}
+\urlstyle{same}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0pt}{-2.5ex plus -1ex minus -.2ex}{1ex plus .2ex}{\sffamily\bfseries\fontsize{13}{16}\selectfont}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0pt}{-1.8ex plus -.5ex minus -.2ex}{.7ex plus .2ex}{\sffamily\bfseries\fontsize{11.5}{14}\selectfont}}
+\providecommand{\ombtotalpages}{?}
+\def\@oddfoot{\hbox to\textwidth{\fontsize{8.5}{10}\selectfont\sffamily $shorttitle$ | Preprint, not peer reviewed | $edition$\hfill\thepage\ /\ \ombtotalpages}}
+\let\@evenfoot\@oddfoot
+\def\@oddhead{}\def\@evenhead{}
+\AtEndDocument{\clearpage\addtocounter{page}{-1}\immediate\write\@auxout{\string\gdef\string\ombtotalpages{\thepage}}}
+\makeatother
+\tolerance=1000
+\pretolerance=100
+\hyphenpenalty=50
+\setlength{\columnsep}{0.25in}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1.5em}
+\captionsetup{font=normalsize,labelfont=bf,labelsep=period}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.8}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+\newlength{\cslhangindent}\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}\setlength{\csllabelwidth}{2em}
+\newcommand{\citeproctext}{}
+\newcommand{\citeproc}[2]{\hyperlink{#1}{#2}}
+\newenvironment{CSLReferences}[2]{\renewcommand{\bibitem}[2][]{\par\hypertarget{##2}{}}\normalsize\hyphenpenalty=10000\exhyphenpenalty=10000\setlength{\parindent}{0pt}\setlength{\parskip}{0.4em}}{}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\par\noindent\makebox[\csllabelwidth][l]{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\dimexpr\linewidth-\csllabelwidth\relax}{#1}\par}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\newcommand{\PWnineTitle}{%
+\begin{center}
+{\LARGE\bfseries $title$\par}\vskip 1em
+{\large $authors$\par}\vskip 0.35em
+$affiliations$\par\vskip 0.3em
+{\normalsize $correspondence$\par}
+$if(orcid)$
+{\small $orcid$\par}
+$endif$
+\end{center}\vskip 0.5em
+\noindent\fbox{\begin{minipage}{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}\small\textbf{Article information}\par $edition$\par $articleinfo$\end{minipage}}\par\medskip
+$if(supplement)$
+$else$
+\begin{center}\textbf{Abstract}\end{center}
+$endif$
+\begin{quote}\noindent $abstract$\end{quote}\vskip 1em
+}
+\begin{document}
+$if(twocolumn)$
+\twocolumn[\begin{@twocolumnfalse}\PWnineTitle\end{@twocolumnfalse}]
+$else$
+\PWnineTitle
+$endif$
+$body$
+\end{document}

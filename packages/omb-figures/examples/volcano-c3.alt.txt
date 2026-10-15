@@ -1,0 +1,11 @@
+template:
+Volcano plot. Each point is a tested feature from a family of [m:c3.family_size] features; points passing the false-discovery threshold of [m:c3.fdr] are coloured by the sign of the estimate. Labelled features, by adjusted p: [e:c3.features#8], [e:c3.features#16], [e:c3.features#15], [e:c3.features#20], [e:c3.features#23], [e:c3.features#1], [e:c3.features#13], [e:c3.features#19].
+
+text:
+Volcano plot. Each point is a tested feature from a family of 300 features; points passing the false-discovery threshold of 0.05 are coloured by the sign of the estimate. Labelled features, by adjusted p: FUS, FEAT017, FEAT016, FEAT021, FEAT024, C9orf72, FEAT014, FEAT020.
+
+caption template:
+Differential expression across [m:c3.family_size] tested features. Points are features; the dashed horizontal line marks the false-discovery threshold; the vertical line marks no difference. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Differential expression across 300 tested features. Points are features; the dashed horizontal line marks the false-discovery threshold; the vertical line marks no difference. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

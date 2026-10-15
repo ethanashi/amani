@@ -1,0 +1,411 @@
+{
+ "pmcid": "PMC11008188",
+ "doi": "10.1016/j.ccell.2024.03.003",
+ "pmid": "38593781",
+ "journal": "Cancer cell",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 16,
+ "licence": "CC BY-NC-ND",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 149
+  },
+  {
+   "type": "summary",
+   "structured": false,
+   "headings": [],
+   "words": 52
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 0
+  }
+ ],
+ "sections": [
+  {
+   "heading": "INTRODUCTION",
+   "canonical": "introduction",
+   "words": 542
+  },
+  {
+   "heading": "RESULTS",
+   "canonical": "results",
+   "words": 2827,
+   "sub": [
+    {
+     "heading": "Single-cell regulatory network and gene activity landscape during human B cell development",
+     "canonical": "other",
+     "words": 504
+    },
+    {
+     "heading": "B cell developmental state landscape across 23 molecular subtypes of B-ALL",
+     "canonical": "other",
+     "words": 321
+    },
+    {
+     "heading": "Bulk-level network-based systems pharmacology identifies drivers of asparaginase response in B-ALLand their association with developmental state",
+     "canonical": "other",
+     "words": 527
+    },
+    {
+     "heading": "Single-cell multiomics profiling reveals intra-leukemia heterogeneity in developmental state driving asparaginase response in B-ALL",
+     "canonical": "other",
+     "words": 717
+    },
+    {
+     "heading": "BCL2 is a key driver of pre-pro-B-enriched asparaginase-resistant B-ALL",
+     "canonical": "other",
+     "words": 209
+    },
+    {
+     "heading": "Asparaginase and venetoclax exhibit synergistic cytotoxicity via modulating mTOR signaling",
+     "canonical": "other",
+     "words": 398
+    },
+    {
+     "heading": "Venetoclax potentiated anti-leukemic effects of asparaginase",
+     "canonical": "other",
+     "words": 151
+    }
+   ]
+  },
+  {
+   "heading": "DISCUSSION",
+   "canonical": "discussion",
+   "words": 837
+  },
+  {
+   "heading": "STAR★METHODS",
+   "canonical": "methods",
+   "words": 3272,
+   "sub": [
+    {
+     "heading": "RESOURCE AVAILABILITY",
+     "canonical": "data_availability",
+     "words": 149,
+     "sub": [
+      {
+       "heading": "Lead contact",
+       "canonical": "other",
+       "words": 24
+      },
+      {
+       "heading": "Materials availability",
+       "canonical": "data_availability",
+       "words": 18
+      },
+      {
+       "heading": "Data and code availability",
+       "canonical": "data_availability",
+       "words": 107
+      }
+     ]
+    },
+    {
+     "heading": "EXPERIMENTAL MODEL AND STUDY PARTICIPANT DETAILS",
+     "canonical": "other",
+     "words": 363,
+     "sub": [
+      {
+       "heading": "Cell lines",
+       "canonical": "other",
+       "words": 52
+      },
+      {
+       "heading": "Animal models",
+       "canonical": "other",
+       "words": 89
+      },
+      {
+       "heading": "Patients and samples",
+       "canonical": "other",
+       "words": 222
+      }
+     ]
+    },
+    {
+     "heading": "METHOD DETAILS",
+     "canonical": "methods",
+     "words": 2684,
+     "sub": [
+      {
+       "heading": "Chemicals",
+       "canonical": "other",
+       "words": 130
+      },
+      {
+       "heading": "scRNA-seq data analysis of B cell development states",
+       "canonical": "other",
+       "words": 138
+      },
+      {
+       "heading": "NetBID2 analysis to identify drivers of B cell development states from scRNA-seq data",
+       "canonical": "other",
+       "words": 194
+      },
+      {
+       "heading": "Visualization web portal of single-cell expression and network activity in human B cell development",
+       "canonical": "other",
+       "words": 113
+      },
+      {
+       "heading": "CIBERSORTx analysis to deconvolute B cell developmental states in bulk RNA-seq samples of B-ALL",
+       "canonical": "other",
+       "words": 103
+      },
+      {
+       "heading": "",
+       "canonical": "untitled",
+       "words": 195
+      },
+      {
+       "heading": "Bulk RNA-seq",
+       "canonical": "other",
+       "words": 111
+      },
+      {
+       "heading": "NetBID2 analysis to identify drivers of asparaginase sensitivity in patients with B-ALL",
+       "canonical": "other",
+       "words": 156
+      },
+      {
+       "heading": "Patient-derived xenograft (PDX) model generation",
+       "canonical": "other",
+       "words": 75
+      },
+      {
+       "heading": "scMultiome of B-ALL patient samples",
+       "canonical": "other",
+       "words": 368
+      },
+      {
+       "heading": "scMultiome of B-ALL PDXs with and without L-asparaginase treatment",
+       "canonical": "other",
+       "words": 131
+      },
+      {
+       "heading": "Single-cell RNA-seq profiling of B-ALL PDX with L-asparaginase, venetoclax, or combination treatment",
+       "canonical": "other",
+       "words": 201
+      },
+      {
+       "heading": "BH3 profiling by intracellular staining",
+       "canonical": "other",
+       "words": 114
+      },
+      {
+       "heading": "Drug treatment and western blot",
+       "canonical": "other",
+       "words": 54
+      },
+      {
+       "heading": "Pre-pro-B-specific sub-network visualization",
+       "canonical": "other",
+       "words": 115
+      },
+      {
+       "heading": "",
+       "canonical": "untitled",
+       "words": 348
+      },
+      {
+       "heading": "",
+       "canonical": "untitled",
+       "words": 138
+      }
+     ]
+    },
+    {
+     "heading": "QUANTIFICATION AND STATISTICAL ANALYSIS",
+     "canonical": "other",
+     "words": 76
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary Material",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "ACKNOWLEDGMENTS",
+   "canonical": "acknowledgements",
+   "words": 238
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "REFERENCES",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 107,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 107
+    }
+   ]
+  }
+ ],
+ "back_sections": [],
+ "section_word_totals": {
+  "introduction": 542,
+  "results": 2827,
+  "discussion": 837,
+  "methods": 3272,
+  "supplementary": 107,
+  "other_back": 0,
+  "acknowledgements": 238,
+  "references": 0
+ },
+ "main_text_words": 7478,
+ "main_text_words_excluding_methods": 4206,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 6,
+ "figures": [
+  {
+   "label": "Figure 1.",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Figure 2.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 5.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 6.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "KEY RESOURCES TABLE"
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 8,
+ "supplementary": [
+  {
+   "label": "MMC5"
+  },
+  {
+   "label": "MMC8"
+  },
+  {
+   "label": "MMC7"
+  },
+  {
+   "label": "MMC6"
+  },
+  {
+   "label": "MMC4"
+  },
+  {
+   "label": "MMC2"
+  },
+  {
+   "label": "MMC3"
+  },
+  {
+   "label": "MMC1"
+  }
+ ],
+ "references": 92,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "pancreatic",
+  "pancreatitis"
+ ]
+}

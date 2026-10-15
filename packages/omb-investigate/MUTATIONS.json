@@ -1,0 +1,518 @@
+{
+  "package": "omb-investigate",
+  "killed": 56,
+  "total": 56,
+  "results": [
+    {
+      "mutant": "M1 transitions not enforced",
+      "file": "machine.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/transitions.test.ts > the state machine refuses skipped steps > a fresh investigation can only start with the question"
+      ],
+      "seconds": 6.1
+    },
+    {
+      "mutant": "M2 plan turn may mount scrambled data",
+      "file": "mounts.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/plan-turn.test.ts > plan turn: schema view only > the mount policy refuses a plan turn that would see data, before anything launches"
+      ],
+      "seconds": 7.6
+    },
+    {
+      "mutant": "M3 overlap with real data not refused",
+      "file": "mounts.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/plan-turn.test.ts > plan turn: schema view only > the mount policy refuses a plan turn that would see data, before anything launches"
+      ],
+      "seconds": 2.8
+    },
+    {
+      "mutant": "M4 data canary scan disabled",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/plan-turn.test.ts > plan turn: schema view only > positive evidence that the plan turn saw real data (a data canary in its files) is a hard stop: claims void, no lock, no look"
+      ],
+      "seconds": 2.9
+    },
+    {
+      "mutant": "M5 scrambled-run outputs carried into the bundle",
+      "file": "bundle.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/code-and-look.test.ts > code turn on scrambled outcomes > a result tuned on scrambled data does not carry over: outputs, results.json and plan edits are discarded; the look's numbers are software's"
+      ],
+      "seconds": 3.1
+    },
+    {
+      "mutant": "M6 worker plan edits survive freeze",
+      "file": "bundle.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/code-and-look.test.ts > code turn on scrambled outcomes > a result tuned on scrambled data does not carry over: outputs, results.json and plan edits are discarded; the look's numbers are software's",
+        "FAIL  packages/omb-investigate/test/plan-context.test.ts > a lead that omits both fields still locks them: the question's plain statement and every confirmatory claim"
+      ],
+      "seconds": 3.5
+    },
+    {
+      "mutant": "M7 look repair sees stderr",
+      "file": "prompts.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/code-and-look.test.ts > the look > a look crash spends the look; the single repair turn sees only the error category; look 2 is never Confirmed"
+      ],
+      "seconds": 3.4
+    },
+    {
+      "mutant": "M8 interrupted look re-run as a first look",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/resume-phases-b.test.ts > crash-resume at every phase via memoization (dry run, freeze and the look) > every phase and step boundary: restart redoes nothing and double-counts nothing",
+        "FAIL  packages/omb-investigate/test/resume-sched.test.ts > crash-resume at scheduler boundaries (dispatch decided/committed, completion decided/committed) > a crash inside any scheduler commit of any job resumes without redoing completed work"
+      ],
+      "seconds": 3.7
+    },
+    {
+      "mutant": "M9 crash channel ignored (repair offered)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/code-and-look.test.ts > the look > a crash on real data that does not happen on the scrambled twin is an outcome-dependent channel: claims void, no repair turn"
+      ],
+      "seconds": 3.9
+    },
+    {
+      "mutant": "M10 G8 always reports look 1",
+      "file": "replication.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/code-and-look.test.ts > the look > a look crash spends the look; the single repair turn sees only the error category; look 2 is never Confirmed"
+      ],
+      "seconds": 3.7
+    },
+    {
+      "mutant": "M11 degraded cap removed",
+      "file": "labels.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/families-and-routes.test.ts > routes and degraded mode > degraded single-user mode caps every label at Tentative (Confirmed requires OS-user separation)"
+      ],
+      "seconds": 6.7
+    },
+    {
+      "mutant": "M12 replicator may run on the lead's family",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/concurrency.test.ts > one shared journal, many writers > parallel investigations on one SQLite journal with random interleaving all complete; streams, ledger and registry stay consistent",
+        "FAIL  packages/omb-investigate/test/contract-bridge.test.ts > stage phase: pin, contract input, verification before any model turn > the stage phase pins the host contract and builds the host-only contract input (real data + contract-assets), verified against the pinned bytes",
+        "FAIL  packages/omb-investigate/test/program-multiplicity.test.ts > program-wide G6 reaches the kernel as LORD++ state from the registry > every certification pass receives the registry state; the software decision is recorded back; no V7 cap"
+      ],
+      "seconds": 2.9
+    },
+    {
+      "mutant": "M13 same-family G7 counts",
+      "file": "replication.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/replication.test.ts > G7 and G8 gate results (software comparison) > same-family agreement counts as zero, at the comparator and at the board"
+      ],
+      "seconds": 6.0
+    },
+    {
+      "mutant": "M14 registry not idempotent (double counting)",
+      "file": "stores.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/concurrency.test.ts > one shared journal, many writers > parallel investigations on one SQLite journal with random interleaving all complete; streams, ledger and registry stay consistent",
+        "FAIL  packages/omb-investigate/test/program-multiplicity.test.ts > program-wide G6 reaches the kernel as LORD++ state from the registry > the first decision of a hypothesis is final: a re-test after a non-rejection gets no alpha, even once wealth has grown"
+      ],
+      "seconds": 3.1
+    },
+    {
+      "mutant": "M15 dry cycles never counted",
+      "file": "boss.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/boss.test.ts > boss program (DM11) > every valid proposal counts toward G6 across the program; duplicates and invalid proposals do not; investigations get their kth-hypothesis ordinal"
+      ],
+      "seconds": 3.0
+    },
+    {
+      "mutant": "M16 novelty labels kept",
+      "file": "boss.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/boss.test.ts > boss program (DM11) > the novelty worker annotates but never labels; the boss sees only the digest and schema views, never outcome data"
+      ],
+      "seconds": 3.0
+    },
+    {
+      "mutant": "M17 boss may see scrambled data",
+      "file": "mounts.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/plan-turn.test.ts > plan turn: schema view only > the mount policy refuses a plan turn that would see data, before anything launches"
+      ],
+      "seconds": 5.8
+    },
+    {
+      "mutant": "M18 stale scheduler jobs not retired",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/resume-sched.test.ts > crash-resume at scheduler boundaries (dispatch decided/committed, completion decided/committed) > a crash inside any scheduler commit of any job resumes without redoing completed work"
+      ],
+      "seconds": 3.6
+    },
+    {
+      "mutant": "M19 scramble leaves outcomes real",
+      "file": "tabular.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/code-and-look.test.ts > code turn on scrambled outcomes > a result tuned on scrambled data does not carry over: outputs, results.json and plan edits are discarded; the look's numbers are software's"
+      ],
+      "seconds": 3.9
+    },
+    {
+      "mutant": "M20 locked plan context not carried into the kernel plan",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/plan-context.test.ts > a lead that omits both fields still locks them: the question's plain statement and every confirmatory claim"
+      ],
+      "seconds": 7.4
+    },
+    {
+      "mutant": "M21 completed phase rerun with new inputs",
+      "file": "machine.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/transitions.test.ts > the state machine refuses skipped steps > a completed phase never reruns with different inputs"
+      ],
+      "seconds": 7.3
+    },
+    {
+      "mutant": "M23 SQLite journal pins the per-stream count (the live-smoke bug)",
+      "file": "journal.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/concurrency.test.ts > one shared journal, many writers > interleaved appends to several streams of one SQLite journal keep every per-stream chain"
+      ],
+      "seconds": 3.7
+    },
+    {
+      "mutant": "M24 machine appends without its view of the stream",
+      "file": "machine.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/concurrency.test.ts > one shared journal, many writers > a second writer on the same stream is detected (JournalConflict) and the machine re-validates instead of re-applying"
+      ],
+      "seconds": 6.2
+    },
+    {
+      "mutant": "M25 conflicting phase completion re-applied blindly",
+      "file": "machine.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/concurrency.test.ts > one shared journal, many writers > a second writer on the same stream is detected (JournalConflict) and the machine re-validates instead of re-applying"
+      ],
+      "seconds": 6.7
+    },
+    {
+      "mutant": "M26 ledger/registry append without the read view",
+      "file": "stores.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/concurrency.test.ts > one shared journal, many writers > registry and ledger decisions are re-made on the fresh head when another writer lands between read and append"
+      ],
+      "seconds": 7.4
+    },
+    {
+      "mutant": "M27 blinding strata/unit taken from the lead's plan (review 1)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 1 (P1): strata chosen by the lead can disable outcome blinding > the investigation never takes blinding strata or units from the lead's plan"
+      ],
+      "seconds": 3.6
+    },
+    {
+      "mutant": "M28 unsafe strata not refused (review 1)",
+      "file": "tabular.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 1 (P1): strata chosen by the lead can disable outcome blinding > identity strata (strata = the unit id) are refused: no unit keeps its own outcome"
+      ],
+      "seconds": 3.6
+    },
+    {
+      "mutant": "M29 permutation may keep a unit's own outcome (review 1)",
+      "file": "tabular.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 1 (P1): strata chosen by the lead can disable outcome blinding > identity strata (strata = the unit id) are refused: no unit keeps its own outcome"
+      ],
+      "seconds": 3.6
+    },
+    {
+      "mutant": "M30 no synthetic fallback for unpermutable units (review 1)",
+      "file": "tabular.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 1 (P1): strata chosen by the lead can disable outcome blinding > when safe scrambling is impossible (a single unit) the outcomes are synthetic, never real"
+      ],
+      "seconds": 3.8
+    },
+    {
+      "mutant": "M31 unknown files copied into dev data (review 2)",
+      "file": "tabular.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 2 (P1): the scrambled mount retained raw outcome sidecars > dev data is built from the parsed-table inventory only; unknown files are never copied"
+      ],
+      "seconds": 3.2
+    },
+    {
+      "mutant": "M32 synthetic values from real samples (review 3)",
+      "file": "tabular.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 3 (P1): synthetic dry runs reintroduced hidden real outcome values > large-table path: synthetic values come from the published schema only, never from real samples"
+      ],
+      "seconds": 3.0
+    },
+    {
+      "mutant": "M33 keys not pseudonymised across tables (review 7)",
+      "file": "tabular.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 7 (P2): synthetic tables destroyed valid cross-table joins > related tables are synthesised together: shared keys keep joining (under pseudonyms), no real key survives"
+      ],
+      "seconds": 3.0
+    },
+    {
+      "mutant": "M34 program-wide LORD++ state not supplied to the kernel (review 4, V7-wire item 3)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/boss.test.ts > boss program (DM11) > the novelty worker annotates but never labels; the boss sees only the digest and schema views, never outcome data",
+        "FAIL  packages/omb-investigate/test/concurrency.test.ts > one shared journal, many writers > parallel investigations on one SQLite journal with random interleaving all complete; streams, ledger and registry stay consistent",
+        "FAIL  packages/omb-investigate/test/contract-bridge.test.ts > stage phase: pin, contract input, verification before any model turn > the stage phase pins the host contract and builds the host-only contract input (real data + contract-assets), verified against the pinned bytes"
+      ],
+      "seconds": 3.2
+    },
+    {
+      "mutant": "M45 earlier rejections earn no wealth (V7-wire item 3)",
+      "file": "multiplicity.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/program-multiplicity.test.ts > program-wide G6 reaches the kernel as LORD++ state from the registry > an earlier software rejection earns alpha wealth: the same moderate effect Confirms only with it"
+      ],
+      "seconds": 5.5
+    },
+    {
+      "mutant": "M46 a re-test after a non-rejection gets fresh alpha (V7-wire item 3)",
+      "file": "multiplicity.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/program-multiplicity.test.ts > program-wide G6 reaches the kernel as LORD++ state from the registry > the first decision of a hypothesis is final: a re-test after a non-rejection gets no alpha, even once wealth has grown"
+      ],
+      "seconds": 3.0
+    },
+    {
+      "mutant": "M47 kernel decisions never recorded in the registry (V7-wire item 3)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/program-multiplicity.test.ts > program-wide G6 reaches the kernel as LORD++ state from the registry > every certification pass receives the registry state; the software decision is recorded back; no V7 cap"
+      ],
+      "seconds": 3.2
+    },
+    {
+      "mutant": "M35 selection not persisted before registration (review 5)",
+      "file": "boss.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 5 (P1): a crash after registration lost the selected work > selection is persisted before registration; the replayed cycle dispatches the proposal and counts it once"
+      ],
+      "seconds": 3.6
+    },
+    {
+      "mutant": "M36 route H certified against the full-data hash (review 6)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 6 (P1): route H certified the held-out subset against the full-data hash > certification is bound to the exact confirming input: the held-out manifest for route H"
+      ],
+      "seconds": 3.3
+    },
+    {
+      "mutant": "M37 reproduction targets dropped (review 8)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/review-v7.test.ts > review finding 8 (P2): reproduction claims could not receive trusted targets > host-owned reproduction targets are matched to the locked claim by content and forwarded to the kernel"
+      ],
+      "seconds": 3.3
+    },
+    {
+      "mutant": "M38 infrastructure failures reported as worker outcomes (live attempt 1)",
+      "file": "turns.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/infrastructure.test.ts > infrastructure failures are never reported as science > a plan turn whose dispatches all fail at the process level ends as infrastructure, not no-plan"
+      ],
+      "seconds": 6.3
+    },
+    {
+      "mutant": "M39 live preflight ignores missing Codex credentials (live attempt 1)",
+      "file": "live.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/live-guards.test.ts > live preflight catches missing Codex credentials, CLIs, analysis env and disk before any model turn"
+      ],
+      "seconds": 7.2
+    },
+    {
+      "mutant": "M40 provenance_unverified re-runs the turn (live attempt 2)",
+      "file": "turns.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/files-are-the-contract.test.ts > files are the contract > a resumed turn reported provenance_unverified is a warning: no re-dispatch, the investigation completes"
+      ],
+      "note": "needle refreshed to current turns.ts and run individually (V7-wire)"
+    },
+    {
+      "mutant": "M41 files on disk discarded after a failed job (live attempt 2)",
+      "file": "turns.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/files-are-the-contract.test.ts > files are the contract > a code turn whose job failed but whose run_all.sh is on disk proceeds to the dry run (warning, not no-code)"
+      ],
+      "note": "needle refreshed to current turns.ts and run individually (V7-wire)"
+    },
+    {
+      "mutant": "M42 infrastructure terminal not retried (network outages)",
+      "file": "live.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/live-guards.test.ts > an infrastructure terminal is retried as a fresh investigation; science outcomes are final"
+      ],
+      "seconds": 3.6
+    },
+    {
+      "mutant": "M43 plan lock records no registered procedure (V7-wire item 2)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/procedures.test.ts > plan-lock records the registered procedure the locked design and estimand select, without any injected port"
+      ],
+      "seconds": 7.6
+    },
+    {
+      "mutant": "M44 procedure selected without the locked design (V7-wire item 2)",
+      "file": "procedures.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/procedures.test.ts > the worker's test name never selects the procedure; the locked design does"
+      ],
+      "seconds": 3.8
+    },
+    {
+      "mutant": "M48 certification never receives the pinned contract (V7-wire item 1)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/contract-bridge.test.ts > certification receives the host contract and its input > certify gets the pinned contract (never worker files) on the contract input; G1a runs and passes on the approved, verified contract"
+      ],
+      "seconds": 6.4
+    },
+    {
+      "mutant": "M49 contract bytes not verified before any model turn (V7-wire item 1)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/contract-bridge.test.ts > stage phase: pin, contract input, verification before any model turn > a contract that does not verify against the staged bytes stops before any model turn (nothing lost)"
+      ],
+      "seconds": 3.7
+    },
+    {
+      "mutant": "M50 plan check ignores the contract hierarchy (V7-wire item 1)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/contract-bridge.test.ts > plan check against the contract's unit hierarchy > a free-text unit goes back to the lead as a blind repair (unit_id or a contract level); the locked claim uses the contract unit"
+      ],
+      "seconds": 3.9
+    },
+    {
+      "mutant": "M51 unapproved contracts get a host receipt (V7-wire item 1)",
+      "file": "kernel.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/contract-bridge.test.ts > KernelCertifier host contract input (hostContractInput) > no approval, changed bytes or an unreadable pin never get a receipt (fail closed); no contract passes nothing"
+      ],
+      "seconds": 6.2
+    },
+    {
+      "mutant": "M52 contract pin not checked against the host index (V7-wire item 1)",
+      "file": "contracts.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/contract-bridge.test.ts > TaskContractPort > refuses a public layer whose bytes differ from the host pin, and an envelope it cannot authenticate"
+      ],
+      "seconds": 3.6
+    },
+    {
+      "mutant": "M53 the host flag alone establishes separation (V7-wire item 5)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/os-attestation.test.ts > investigations derive separation from the attestation, never from the host flag alone > host flag set but no attestation port: degraded (every label capped at Tentative)"
+      ],
+      "seconds": 7.0
+    },
+    {
+      "mutant": "M54 attestation not checked against the OS (V7-wire item 5)",
+      "file": "os-attestation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/os-attestation.test.ts > LauncherAttestation over the launcher client > not installed, refused, malformed, or not matching the OS: never attested (fail closed)"
+      ],
+      "seconds": 3.8
+    },
+    {
+      "mutant": "M55 an attested launcher alone separates route P (V7-wire item 5)",
+      "file": "investigation.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/os-attestation.test.ts > investigations derive separation from the attestation, never from the host flag alone > launcher attested but the host execution path does not run under it (live route P): still degraded, and the report says why"
+      ],
+      "seconds": 3.8
+    },
+    {
+      "mutant": "M56 a concurrent re-test overturns a recorded non-rejection (V7-wire item 3)",
+      "file": "multiplicity.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/program-multiplicity.test.ts > decision finality: a concurrent re-test that rejects against an earlier recorded non-rejection is capped at Tentative"
+      ],
+      "seconds": 7.4
+    },
+    {
+      "mutant": "M22 journal chain not verified",
+      "file": "machine.ts",
+      "status": "killed",
+      "killedBy": [
+        "FAIL  packages/omb-investigate/test/transitions.test.ts > the state machine refuses skipped steps > a tampered step record or note (not covered by the phase-output chain) is caught by the event chain"
+      ],
+      "seconds": 7.0
+    }
+  ]
+}

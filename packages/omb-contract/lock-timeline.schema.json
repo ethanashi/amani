@@ -1,0 +1,757 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "record": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "previous_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "time_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "stage": {
+                "const": "L7-post-look-amendment"
+              },
+              "amendment": {
+                "type": "object",
+                "properties": {
+                  "version": {
+                    "const": "omb-post-look-amendment/v3.1"
+                  },
+                  "previous_contract_hash": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "amended_contract_hash": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "previous_partition_hash": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "amended_partition_hash": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "previous_private_contract_hash": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": "^[0-9a-f]{64}$"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "amended_private_contract_hash": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": "^[0-9a-f]{64}$"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "look_record_hash": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  "producer_id": {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                  },
+                  "outcome_blind": {
+                    "const": true
+                  },
+                  "post_look": {
+                    "const": true
+                  },
+                  "reason": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "changes": {
+                    "type": "array",
+                    "items": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "kind": {
+                              "const": "coarsen-units"
+                            },
+                            "merges": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "from_nodes": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                                    },
+                                    "minItems": 2,
+                                    "uniqueItems": true
+                                  },
+                                  "to_node": {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                                  },
+                                  "coarser_level": {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                                  },
+                                  "limitation": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  }
+                                },
+                                "required": [
+                                  "from_nodes",
+                                  "to_node",
+                                  "coarser_level",
+                                  "limitation"
+                                ],
+                                "additionalProperties": false
+                              },
+                              "minItems": 1,
+                              "uniqueItems": false
+                            }
+                          },
+                          "required": [
+                            "kind",
+                            "merges"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "kind": {
+                              "const": "add-replicate-groups"
+                            },
+                            "groups": {
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                                  },
+                                  "kind": {
+                                    "type": "string",
+                                    "enum": [
+                                      "technical",
+                                      "biological"
+                                    ]
+                                  },
+                                  "members": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "string",
+                                      "minLength": 1,
+                                      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                                    },
+                                    "minItems": 1,
+                                    "uniqueItems": true
+                                  },
+                                  "grouping_node": {
+                                    "type": "string",
+                                    "minLength": 1,
+                                    "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                                  },
+                                  "handling": {
+                                    "type": "string",
+                                    "enum": [
+                                      "collapse",
+                                      "model-dependence",
+                                      "retain-distinct"
+                                    ]
+                                  },
+                                  "rationale": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  }
+                                },
+                                "required": [
+                                  "id",
+                                  "kind",
+                                  "members",
+                                  "grouping_node",
+                                  "handling",
+                                  "rationale"
+                                ],
+                                "additionalProperties": false
+                              },
+                              "minItems": 1,
+                              "uniqueItems": false
+                            }
+                          },
+                          "required": [
+                            "kind",
+                            "groups"
+                          ],
+                          "additionalProperties": false
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "kind": {
+                              "const": "remove-held-out-units"
+                            },
+                            "partition_id": {
+                              "type": "string",
+                              "minLength": 1,
+                              "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                            },
+                            "nodes": {
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "minLength": 1,
+                                "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                              },
+                              "minItems": 1,
+                              "uniqueItems": true
+                            }
+                          },
+                          "required": [
+                            "kind",
+                            "partition_id",
+                            "nodes"
+                          ],
+                          "additionalProperties": false
+                        }
+                      ]
+                    },
+                    "minItems": 1,
+                    "uniqueItems": false
+                  },
+                  "acceptance": {
+                    "const": "must-pass-under-both-locked-and-amended-contracts"
+                  }
+                },
+                "required": [
+                  "version",
+                  "previous_contract_hash",
+                  "amended_contract_hash",
+                  "previous_partition_hash",
+                  "amended_partition_hash",
+                  "previous_private_contract_hash",
+                  "amended_private_contract_hash",
+                  "look_record_hash",
+                  "producer_id",
+                  "outcome_blind",
+                  "post_look",
+                  "reason",
+                  "changes",
+                  "acceptance"
+                ],
+                "additionalProperties": false
+              },
+              "amendment_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "previous_hash",
+              "time_ms",
+              "stage",
+              "amendment",
+              "amendment_hash"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "previous_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "time_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "stage": {
+                "const": "L0-source-lock"
+              },
+              "source_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "previous_hash",
+              "time_ms",
+              "stage",
+              "source_hash"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "previous_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "time_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "stage": {
+                "const": "L1-contract-lock"
+              },
+              "public_contract_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "private_contract_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "sequence",
+              "previous_hash",
+              "time_ms",
+              "stage",
+              "public_contract_hash",
+              "private_contract_hash"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "previous_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "time_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "stage": {
+                "const": "L2-partition-lock"
+              },
+              "partition_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "public_contract_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "previous_hash",
+              "time_ms",
+              "stage",
+              "partition_hash",
+              "public_contract_hash"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "previous_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "time_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "stage": {
+                "const": "L3-schema-view"
+              },
+              "schema_view_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "partition_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "dev_only": {
+                "const": true
+              }
+            },
+            "required": [
+              "sequence",
+              "previous_hash",
+              "time_ms",
+              "stage",
+              "schema_view_hash",
+              "partition_hash",
+              "dev_only"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "previous_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "time_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "stage": {
+                "const": "L4-plan-lock"
+              },
+              "plan_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "public_contract_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "partition_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "registry_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "calibration_result_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "previous_hash",
+              "time_ms",
+              "stage",
+              "plan_hash",
+              "public_contract_hash",
+              "partition_hash",
+              "registry_version",
+              "calibration_result_hash"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "previous_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "time_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "stage": {
+                "const": "L5-training"
+              },
+              "artifact_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "frozen_code_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "plan_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "dev_only": {
+                "const": true
+              }
+            },
+            "required": [
+              "sequence",
+              "previous_hash",
+              "time_ms",
+              "stage",
+              "artifact_hash",
+              "frozen_code_hash",
+              "plan_hash",
+              "dev_only"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "sequence": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "previous_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "time_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              "stage": {
+                "const": "L6-look-record"
+              },
+              "plan_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "public_contract_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "private_contract_hash": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1,
+                    "pattern": "^[0-9a-f]{64}$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "partition_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "artifact_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "frozen_code_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "registry_version": {
+                "type": "string",
+                "minLength": 1
+              },
+              "calibration_result_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "attempt": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 9007199254740991
+              },
+              "fsynced_before_execution": {
+                "const": true
+              },
+              "durability_receipt_hash": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "required": [
+              "sequence",
+              "previous_hash",
+              "time_ms",
+              "stage",
+              "plan_hash",
+              "public_contract_hash",
+              "private_contract_hash",
+              "partition_hash",
+              "artifact_hash",
+              "frozen_code_hash",
+              "registry_version",
+              "calibration_result_hash",
+              "attempt",
+              "fsynced_before_execution",
+              "durability_receipt_hash"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "hash": {
+        "type": "string",
+        "minLength": 1,
+        "pattern": "^[0-9a-f]{64}$"
+      }
+    },
+    "required": [
+      "record",
+      "hash"
+    ],
+    "additionalProperties": false
+  },
+  "minItems": 1,
+  "uniqueItems": false
+}

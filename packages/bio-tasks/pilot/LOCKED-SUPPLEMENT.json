@@ -1,0 +1,5 @@
+{
+  "schema": "bio-pilot/locked-supplements@1",
+  "note": "One supplement per locked study, keyed by the study's chain head. `pilot.py supplement` registers it and launches nothing; commit its hash here, then run `supplement` again. `score --supplement` refuses any other record. Replacing an entry is a visible, reviewable change.",
+  "supplements": []
+}

@@ -1,0 +1,243 @@
+{
+ "pmcid": "PMC10733136",
+ "doi": "10.1038/s41586-023-06792-0",
+ "pmid": "38123806",
+ "journal": "Nature",
+ "year": 2023,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Article"
+ ],
+ "title_words": 7,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 111
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 35
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Main",
+   "canonical": "other",
+   "words": 423,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Coscientist system architecture",
+   "canonical": "other",
+   "words": 381,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Web search module",
+   "canonical": "other",
+   "words": 430,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Documentation search module",
+   "canonical": "other",
+   "words": 708,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Controlling laboratory hardware",
+   "canonical": "other",
+   "words": 300,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Integrated chemical experiment design",
+   "canonical": "other",
+   "words": 663,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Chemical reasoning capabilities",
+   "canonical": "other",
+   "words": 932,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 204,
+   "sub": [
+    {
+     "heading": "Technology use disclosure",
+     "canonical": "competing_interests",
+     "words": 37
+    }
+   ]
+  },
+  {
+   "heading": "Online content",
+   "canonical": "other",
+   "words": 36,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary information",
+     "canonical": "supplementary",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Extended data",
+   "canonical": "other",
+   "words": 7
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 172
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 0
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 0
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 3837,
+  "discussion": 204,
+  "other_back": 36
+ },
+ "main_text_words": 4041,
+ "main_text_words_excluding_methods": 4041,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 6,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "study_design_schematic",
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 6",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 3,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": ""
+  }
+ ],
+ "references": 52,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

@@ -1,0 +1,14 @@
+import path from 'node:path';
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { fixture, authority, NOW } from '../test/fixture.ts';
+import { checkGates } from '../src/gates.ts';
+import { templates } from '../src/templates.ts';
+import { venueProfile } from '../src/profiles.ts';
+import { render, compareRenders } from '../src/render.ts';
+import { toolchain, ROOT } from '../src/toolchain.ts';
+const request=fixture();checkGates(request,authority,NOW);
+const profile=venueProfile(request.submission.venue),source=templates(request.submission,profile),tc=await toolchain();
+const first=await render(request.submission,profile,source,path.join(ROOT,'.tmp/render-a'),tc);
+const second=await render(request.submission,profile,source,path.join(ROOT,'.tmp/render-b'),tc);
+const result=compareRenders(first,second),report=process.env.PAPER_CI_REPORT??path.join(ROOT,'reports/regenerate-sample.json');mkdirSync(path.dirname(report),{recursive:true});writeFileSync(report,JSON.stringify({...result,layout:first.layout},null,2)+'\n');
+console.log(JSON.stringify({result,layout:first.layout},null,2));

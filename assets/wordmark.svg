@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 64" role="img" aria-labelledby="amani-wordmark-title">
+  <title id="amani-wordmark-title">Amani</title>
+  <g transform="translate(0,0)">
+    <rect width="64" height="64" rx="16" fill="#112b43"/>
+    <path d="M15 44 31 15h3l16 29H38l-6-12-6 12Z" fill="#a8f071"/>
+    <path d="m24 48 6 6 14-14" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="84" y="44" font-family="Manrope, 'Avenir Next', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-1" fill="#112b43">Amani</text>
+</svg>

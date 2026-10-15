@@ -1,0 +1,106 @@
+{
+  "mutations": [
+    {
+      "name": "mc-plus-one",
+      "file": "packages/omb-certify/src/monte-carlo.ts",
+      "killed": true,
+      "assertions": [
+        "X1/R11 resolves a realistic orbit with fixed software-seeded draws and a nonzero p",
+        "extension never buys a rejection absent from the initial valid fixed-B test",
+        "strata, Freedman-Lane and 200 paired units all resolve without worker fallback"
+      ]
+    },
+    {
+      "name": "mc-extension-validity",
+      "file": "packages/omb-certify/src/monte-carlo.ts",
+      "killed": true,
+      "assertions": [
+        "extension never buys a rejection absent from the initial valid fixed-B test"
+      ]
+    },
+    {
+      "name": "declared-identity",
+      "file": "packages/omb-certify/src/declared-stage.ts",
+      "killed": true,
+      "assertions": [
+        "X2 declared IDs preserve identical binary analysis rows and unit_id-only headers",
+        "X2 repeated rows remain intact; exchangeability and n are at the declared unit"
+      ]
+    },
+    {
+      "name": "unit-exchangeability",
+      "file": "packages/omb-certify/src/producers.ts",
+      "killed": true,
+      "assertions": [
+        "X2 repeated rows remain intact; exchangeability and n are at the declared unit"
+      ]
+    },
+    {
+      "name": "row-accounting-reasons",
+      "file": "packages/omb-certify/src/facts.ts",
+      "killed": true,
+      "assertions": [
+        "X5/B4 reviewed fact producers assert predicates and account for every input row with a reason"
+      ]
+    },
+    {
+      "name": "hc3-leverage",
+      "file": "packages/omb-certify/src/robust.ts",
+      "killed": true,
+      "assertions": [
+        "X8 HC3 matches independent binary group leverage arithmetic"
+      ]
+    },
+    {
+      "name": "bernoulli-plasmode",
+      "file": "packages/omb-certify/src/producers.ts",
+      "killed": true,
+      "assertions": [
+        "X8 Bernoulli plasmodes stay binary and recovery records software HC3 intervals"
+      ]
+    },
+    {
+      "name": "b7-table",
+      "file": "packages/omb-certify/src/integrity.ts",
+      "killed": true,
+      "assertions": [
+        "B7 distinguishes fabricated tables from non-dual permutation/CI methods"
+      ]
+    },
+    {
+      "name": "shared-lock",
+      "file": "packages/omb-gauntlet/src/plan.ts",
+      "killed": true,
+      "assertions": [
+        "X4 sharedKnobs and staging declarations are locked without becoming executable knobs",
+        "sharedKnobs aliases cannot disappear from the lock or hide conflicting values"
+      ]
+    },
+    {
+      "name": "material-boundary",
+      "file": "packages/omb-gauntlet/src/decision.ts",
+      "killed": true,
+      "assertions": [
+        "X9 supported and material are separate; strict kernel CI boundary determines materiality"
+      ]
+    },
+    {
+      "name": "deterministic-only-recovery",
+      "file": "packages/omb-gauntlet/src/labels.ts",
+      "killed": true,
+      "assertions": [
+        "X7 not-applicable recovery applies only to an executed deterministic reproduction"
+      ]
+    },
+    {
+      "name": "claim-isolation",
+      "file": "packages/omb-certify/src/certify.ts",
+      "killed": true,
+      "assertions": [
+        "X3 a refused sibling cannot poison G3/G4/G6 of an admitted claim"
+      ]
+    }
+  ],
+  "total": 12,
+  "killed": 12
+}

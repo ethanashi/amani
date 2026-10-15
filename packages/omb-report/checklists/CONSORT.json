@@ -1,0 +1,464 @@
+{
+  "name": "CONSORT",
+  "version": "2025",
+  "attribution": "Hopewell et al. CONSORT 2025; BMJ 388:e081123. Prompts are original summaries.",
+  "source": "https://www.consort-spirit.org/_files/ugd/b5740e_a6856e5e2cf94a1db5a8005853404160.pdf",
+  "wording": "original-prompts",
+  "items": [
+    {
+      "id": "1a",
+      "prompt": "Randomisation in title",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "randomisation",
+        "title"
+      ],
+      "evidenceGroup": "1"
+    },
+    {
+      "id": "1b",
+      "prompt": "Structured abstract",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "structured",
+        "abstract"
+      ],
+      "evidenceGroup": "1"
+    },
+    {
+      "id": "2",
+      "prompt": "Registry identity",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "registry",
+        "identity"
+      ],
+      "evidenceGroup": "2"
+    },
+    {
+      "id": "3",
+      "prompt": "Protocol access",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "protocol",
+        "access"
+      ],
+      "evidenceGroup": "3"
+    },
+    {
+      "id": "4",
+      "prompt": "Data sharing",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "data",
+        "sharing"
+      ],
+      "evidenceGroup": "4"
+    },
+    {
+      "id": "5a",
+      "prompt": "Funding",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "funding"
+      ],
+      "evidenceGroup": "5"
+    },
+    {
+      "id": "5b",
+      "prompt": "Interests",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "interests"
+      ],
+      "evidenceGroup": "5"
+    },
+    {
+      "id": "6",
+      "prompt": "Rationale",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "rationale"
+      ],
+      "evidenceGroup": "6"
+    },
+    {
+      "id": "7",
+      "prompt": "Benefit/harm objectives",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "benefit",
+        "harm",
+        "objectives"
+      ],
+      "evidenceGroup": "7"
+    },
+    {
+      "id": "8",
+      "prompt": "Public involvement",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "public",
+        "involvement"
+      ],
+      "evidenceGroup": "8"
+    },
+    {
+      "id": "9",
+      "prompt": "Trial architecture",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "trial",
+        "architecture"
+      ],
+      "evidenceGroup": "9"
+    },
+    {
+      "id": "10",
+      "prompt": "Protocol changes",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "protocol",
+        "changes"
+      ],
+      "evidenceGroup": "10"
+    },
+    {
+      "id": "11",
+      "prompt": "Setting",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "setting"
+      ],
+      "evidenceGroup": "11"
+    },
+    {
+      "id": "12a",
+      "prompt": "Participant eligibility",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "participant",
+        "eligibility"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "12b",
+      "prompt": "Site eligibility",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "site",
+        "eligibility"
+      ],
+      "evidenceGroup": "12"
+    },
+    {
+      "id": "13",
+      "prompt": "Intervention details",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "intervention",
+        "details"
+      ],
+      "evidenceGroup": "13"
+    },
+    {
+      "id": "14",
+      "prompt": "Planned outcomes",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "planned",
+        "outcomes"
+      ],
+      "evidenceGroup": "14"
+    },
+    {
+      "id": "15",
+      "prompt": "Harms assessment",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "harms",
+        "assessment"
+      ],
+      "evidenceGroup": "15"
+    },
+    {
+      "id": "16a",
+      "prompt": "Size calculation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "size",
+        "calculation"
+      ],
+      "evidenceGroup": "16"
+    },
+    {
+      "id": "16b",
+      "prompt": "Interim rules",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "interim",
+        "rules"
+      ],
+      "evidenceGroup": "16"
+    },
+    {
+      "id": "17a",
+      "prompt": "Sequence generation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "sequence",
+        "generation"
+      ],
+      "evidenceGroup": "17"
+    },
+    {
+      "id": "17b",
+      "prompt": "Randomisation restrictions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "randomisation",
+        "restrictions"
+      ],
+      "evidenceGroup": "17"
+    },
+    {
+      "id": "18",
+      "prompt": "Concealment",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "concealment"
+      ],
+      "evidenceGroup": "18"
+    },
+    {
+      "id": "19",
+      "prompt": "Allocation implementation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "allocation",
+        "implementation"
+      ],
+      "evidenceGroup": "19"
+    },
+    {
+      "id": "20a",
+      "prompt": "Blinded personnel",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "blinded",
+        "personnel"
+      ],
+      "evidenceGroup": "20"
+    },
+    {
+      "id": "20b",
+      "prompt": "Blinding mechanism",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "blinding",
+        "mechanism"
+      ],
+      "evidenceGroup": "20"
+    },
+    {
+      "id": "21a",
+      "prompt": "Statistical comparisons",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "statistical",
+        "comparisons"
+      ],
+      "evidenceGroup": "21"
+    },
+    {
+      "id": "21b",
+      "prompt": "Analysis membership",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "analysis",
+        "membership"
+      ],
+      "evidenceGroup": "21"
+    },
+    {
+      "id": "21c",
+      "prompt": "Missingness",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "missingness"
+      ],
+      "evidenceGroup": "21"
+    },
+    {
+      "id": "21d",
+      "prompt": "Additional methods",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "additional",
+        "methods"
+      ],
+      "evidenceGroup": "21"
+    },
+    {
+      "id": "22a",
+      "prompt": "Participant counts",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "participant",
+        "counts"
+      ],
+      "evidenceGroup": "22"
+    },
+    {
+      "id": "22b",
+      "prompt": "Losses",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "losses"
+      ],
+      "evidenceGroup": "22"
+    },
+    {
+      "id": "23a",
+      "prompt": "Recruitment dates",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "recruitment",
+        "dates"
+      ],
+      "evidenceGroup": "23"
+    },
+    {
+      "id": "23b",
+      "prompt": "Stopping reason",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "stopping",
+        "reason"
+      ],
+      "evidenceGroup": "23"
+    },
+    {
+      "id": "24a",
+      "prompt": "Delivered interventions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "delivered",
+        "interventions"
+      ],
+      "evidenceGroup": "24"
+    },
+    {
+      "id": "24b",
+      "prompt": "Concomitant care",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "concomitant",
+        "care"
+      ],
+      "evidenceGroup": "24"
+    },
+    {
+      "id": "25",
+      "prompt": "Baseline profile",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "baseline",
+        "profile"
+      ],
+      "evidenceGroup": "25"
+    },
+    {
+      "id": "26",
+      "prompt": "Effects and denominators",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "effects",
+        "denominators"
+      ],
+      "evidenceGroup": "26"
+    },
+    {
+      "id": "27",
+      "prompt": "Harms findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "harms",
+        "findings"
+      ],
+      "evidenceGroup": "27"
+    },
+    {
+      "id": "28",
+      "prompt": "Additional findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "additional",
+        "findings"
+      ],
+      "evidenceGroup": "28"
+    },
+    {
+      "id": "29",
+      "prompt": "Balanced interpretation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "balanced",
+        "interpretation"
+      ],
+      "evidenceGroup": "29"
+    },
+    {
+      "id": "30",
+      "prompt": "Limitations",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "limitations"
+      ],
+      "evidenceGroup": "30"
+    }
+  ]
+}

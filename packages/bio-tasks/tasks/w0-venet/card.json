@@ -1,0 +1,20 @@
+{
+  "id": "w0-venet",
+  "family": "planted-flaw",
+  "datasetManifestHash": "1307d2bbc85cc9a5d1410f09727edc958f418f9d89744fe6fda15235963f16cb",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-baseline/task/SEALED-ANSWER.md.enc",
+  "tolerance": {
+    "absolute": 10,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": false,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 20111020,
+  "capMinutes": 90,
+  "contaminated": true
+}

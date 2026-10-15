@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-calibration" width="252pt" height="222pt" viewBox="0 0 252 222" role="img" aria-labelledby="ombgdgmilfaniba-title ombgdgmilfaniba-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombgdgmilfaniba-title">Calibration plot</title>
+ <desc id="ombgdgmilfaniba-desc">Calibration plot. Binned predicted probabilities are plotted against observed proportions. Calibration slope 0.940; intercept 0.0200. A dashed diagonal marks perfect calibration.</desc>
+ <rect class="background" x="0" y="0" width="252" height="222" fill="#FFFFFF"/>
+ <line class="ref-identity" x1="46" y1="190" x2="226" y2="10" stroke="#8C8C8C" stroke-width="0.75" stroke-dasharray="3 2"/>
+ <g class="row">
+  <line class="ci" x1="55" y1="188.92" x2="55" y2="167.32" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="55" cy="178.12" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-0"/>
+ </g>
+ <g class="row">
+  <line class="ci" x1="73" y1="172.36" x2="73" y2="150.76" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="73" cy="161.56" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-1"/>
+ </g>
+ <g class="row">
+  <line class="ci" x1="91" y1="155.8" x2="91" y2="134.2" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="91" cy="145" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-2"/>
+ </g>
+ <g class="row">
+  <line class="ci" x1="109" y1="139.24" x2="109" y2="117.64" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="109" cy="128.44" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-3"/>
+ </g>
+ <g class="row">
+  <line class="ci" x1="127" y1="122.68" x2="127" y2="101.08" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="127" cy="111.88" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-4"/>
+ </g>
+ <g class="row">
+  <line class="ci" x1="145" y1="106.12" x2="145" y2="84.52" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="145" cy="95.32" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-5"/>
+ </g>
+ <g class="row">
+  <line class="ci" x1="163" y1="89.56" x2="163" y2="67.96" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="163" cy="78.76" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-6"/>
+ </g>
+ <g class="row">
+  <line class="ci" x1="181" y1="73" x2="181" y2="51.4" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="181" cy="62.2" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-7"/>
+ </g>
+ <g class="row">
+  <line class="ci" x1="199" y1="56.44" x2="199" y2="34.84" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="199" cy="45.64" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-8"/>
+ </g>
+ <g class="row">
+  <line class="ci" x1="217" y1="39.88" x2="217" y2="18.28" stroke="#222222" stroke-width="1"/>
+  <circle class="mark shape-circle sa" cx="217" cy="29.08" r="2.4" fill="#0072B2" stroke="none" data-fact="mark-9"/>
+ </g>
+ <text class="annotation" x="52" y="20" font-size="7" text-anchor="start" fill="#222222">Calibration slope 0.940; intercept 0.0200</text>
+ <g class="axis axis-x scale-linear">
+  <line class="domain" x1="46" y1="190" x2="226" y2="190" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="46" y1="190" x2="46" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="46" y="201" font-size="7" text-anchor="middle" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="82" y1="190" x2="82" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="82" y="201" font-size="7" text-anchor="middle" fill="#222222">0.2</text>
+  </g>
+  <g class="tick">
+   <line x1="118" y1="190" x2="118" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="118" y="201" font-size="7" text-anchor="middle" fill="#222222">0.4</text>
+  </g>
+  <g class="tick">
+   <line x1="154" y1="190" x2="154" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="154" y="201" font-size="7" text-anchor="middle" fill="#222222">0.6</text>
+  </g>
+  <g class="tick">
+   <line x1="190" y1="190" x2="190" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="190" y="201" font-size="7" text-anchor="middle" fill="#222222">0.8</text>
+  </g>
+  <g class="tick">
+   <line x1="226" y1="190" x2="226" y2="193" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="226" y="201" font-size="7" text-anchor="middle" fill="#222222">1</text>
+  </g>
+  <text class="axis-title" x="136" y="213" font-size="8" text-anchor="middle" fill="#222222">Predicted probability</text>
+ </g>
+ <g class="axis axis-y scale-linear">
+  <line class="domain" x1="46" y1="190" x2="46" y2="10" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="43" y1="190" x2="46" y2="190" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="192.5" font-size="7" text-anchor="end" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="154" x2="46" y2="154" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="156.5" font-size="7" text-anchor="end" fill="#222222">0.2</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="118" x2="46" y2="118" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="120.5" font-size="7" text-anchor="end" fill="#222222">0.4</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="82" x2="46" y2="82" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="84.5" font-size="7" text-anchor="end" fill="#222222">0.6</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="46" x2="46" y2="46" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="48.5" font-size="7" text-anchor="end" fill="#222222">0.8</text>
+  </g>
+  <g class="tick">
+   <line x1="43" y1="10" x2="46" y2="10" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="41" y="12.5" font-size="7" text-anchor="end" fill="#222222">1</text>
+  </g>
+  <text class="axis-title" x="16" y="100" font-size="8" text-anchor="middle" fill="#222222" transform="rotate(-90 16 100)">Observed proportion</text>
+ </g>
+ <metadata>{"certificateHashes":["727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30"],"csvSha256":"65972345b0678c4e44e691b5a58ac2f37ee2faa183ef64696cadf9e752ee26e7","factIds":["c2","c2.cal.intercept","c2.cal.lower","c2.cal.observed","c2.cal.predicted","c2.cal.slope","c2.cal.upper"],"figureId":"calibration-c2","generatorVersion":"omb-figures@2","specSha256":"7663dc7ab08a453f674dbaf6e82d676c7a76894f7d90c739e65ea447069c659c","templateId":"calibration@omb-figures-templates@1"}</metadata>
+</svg>

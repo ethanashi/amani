@@ -1,0 +1,11 @@
+template:
+Trial effects against their standard errors, with smaller standard errors at the top.
+
+text:
+Trial effects against their standard errors, with smaller standard errors at the top.
+
+caption template:
+Trial effects. Points are estimable trial effects; the dashed wedge is the normal reference around the pooled effect. Asymmetry alone does not establish publication bias. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Trial effects. Points are estimable trial effects; the dashed wedge is the normal reference around the pooled effect. Asymmetry alone does not establish publication bias. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

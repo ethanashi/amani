@@ -1,0 +1,11 @@
+{
+ "version":"owner-decision-2026-10-13-round3",
+ "convention":"Main narrative structure, section order, abstract form, display types and quantitative ranges. Frequency-derived narrative elements remain convention checks.",
+ "amaniStandard":"Reporting, transparency and reproducibility obligations, including headed Limitations, declarations, registries, checklist and supplement deliverables. These remain blocking for Amani papers even when published exemplars omit them.",
+ "standardRules":["L1","L2","L3","L4","T1","T2","T3","C1","C2","C3","C4","U1"],
+ "standardSectionIds":["limitations","data_availability","code_availability","ethics","funding","competing_interests","contributions","ai_disclosure","registration","supplement"],
+ "standardDisplayIds":["sof_table"],
+ "guidelineBasisIsStandard":true,
+ "typicalItemsMayFail":false,
+ "positiveControl":{"class":"CONVENTION","medianFail":0,"maximumFail":2,"warnAndWaivableRates":"reported as context, not a rejection threshold for typical items"}
+}

@@ -1,0 +1,20 @@
+{
+  "id": "p7-nosignal",
+  "family": "negative",
+  "datasetManifestHash": "a09237d79552bc382b2a9b30154b9df792df0e6d572fe62e286c31dad9766fb6",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p7-nosignal/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.06,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": true,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 39027712,
+  "capMinutes": 60,
+  "contaminated": false
+}

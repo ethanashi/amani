@@ -1,0 +1,232 @@
+{
+  "certified": false,
+  "scope": "synthetic Tier A smoke; twins are not independent",
+  "runtimeSeconds": 1223.704,
+  "cohorts": [
+    {
+      "cohort": 1,
+      "runtimeSeconds": 543.119,
+      "report": "smoke-fix3-cohort-1.json",
+      "criteriaHash": "cd3356c44aff7004ae185f6a9e6b27768b0f7954aea4f3e18aeeba784502f55d",
+      "planHash": "9d80a511e24ff297de86856b88a7d74ad4b627a473290058f1b2463973b8706c",
+      "groups": {
+        "PL1/ld-mid": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 9998,
+          "n": 10000,
+          "auc": 0.5099807999999999,
+          "aucUpper": 0.5297432248340442,
+          "worstLeaveOneKeyOutUpper": 0.536772726770131
+        },
+        "PL1/ld-high": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 7645,
+          "n": 10000,
+          "auc": 0.49596530000000005,
+          "aucUpper": 0.5104937158189335,
+          "worstLeaveOneKeyOutUpper": 0.5172381786022991
+        },
+        "PL4/forward": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.5066816741639131,
+          "aucUpper": 0.5199337107416734,
+          "worstLeaveOneKeyOutUpper": 0.5265609822299778
+        },
+        "PL4/reversed": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.5049953548756524,
+          "aucUpper": 0.5194469995865814,
+          "worstLeaveOneKeyOutUpper": 0.5266169413040774
+        }
+      }
+    },
+    {
+      "cohort": 2,
+      "runtimeSeconds": 546.757,
+      "report": "smoke-fix3-cohort-2.json",
+      "criteriaHash": "cd3356c44aff7004ae185f6a9e6b27768b0f7954aea4f3e18aeeba784502f55d",
+      "planHash": "9d80a511e24ff297de86856b88a7d74ad4b627a473290058f1b2463973b8706c",
+      "groups": {
+        "PL1/ld-mid": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.5176231,
+          "aucUpper": 0.5279062868472434,
+          "worstLeaveOneKeyOutUpper": 0.5323101665270181
+        },
+        "PL1/ld-high": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 7611,
+          "n": 10000,
+          "auc": 0.4983614,
+          "aucUpper": 0.5111677090208014,
+          "worstLeaveOneKeyOutUpper": 0.5174185286501338
+        },
+        "PL4/forward": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.4954373514091429,
+          "aucUpper": 0.5090956794159054,
+          "worstLeaveOneKeyOutUpper": 0.5159230889546007
+        },
+        "PL4/reversed": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.5009189936751198,
+          "aucUpper": 0.5154955325885782,
+          "worstLeaveOneKeyOutUpper": 0.5227764519446078
+        }
+      }
+    },
+    {
+      "cohort": 3,
+      "runtimeSeconds": 369.132,
+      "report": "smoke-fix3-cohort-3.json",
+      "criteriaHash": "cd3356c44aff7004ae185f6a9e6b27768b0f7954aea4f3e18aeeba784502f55d",
+      "planHash": "9d80a511e24ff297de86856b88a7d74ad4b627a473290058f1b2463973b8706c",
+      "groups": {
+        "PL1/ld-mid": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 9997,
+          "n": 10000,
+          "auc": 0.5178907,
+          "aucUpper": 0.5308736097508784,
+          "worstLeaveOneKeyOutUpper": 0.5372766277499937
+        },
+        "PL1/ld-high": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 7723,
+          "n": 10000,
+          "auc": 0.5072205000000001,
+          "aucUpper": 0.5158929384186384,
+          "worstLeaveOneKeyOutUpper": 0.5202043462085493
+        },
+        "PL4/forward": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.5002099746772247,
+          "aucUpper": 0.5102131853321572,
+          "worstLeaveOneKeyOutUpper": 0.5138548435326736
+        },
+        "PL4/reversed": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.4952733740109294,
+          "aucUpper": 0.5053206938942565,
+          "worstLeaveOneKeyOutUpper": 0.5093675217508726
+        }
+      }
+    },
+    {
+      "cohort": 4,
+      "runtimeSeconds": 367.449,
+      "report": "smoke-fix3-cohort-4.json",
+      "criteriaHash": "cd3356c44aff7004ae185f6a9e6b27768b0f7954aea4f3e18aeeba784502f55d",
+      "planHash": "9d80a511e24ff297de86856b88a7d74ad4b627a473290058f1b2463973b8706c",
+      "groups": {
+        "PL1/ld-mid": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 9998,
+          "n": 10000,
+          "auc": 0.5213812000000001,
+          "aucUpper": 0.5332740759205455,
+          "worstLeaveOneKeyOutUpper": 0.5392003753211512
+        },
+        "PL1/ld-high": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 7718,
+          "n": 10000,
+          "auc": 0.50595,
+          "aucUpper": 0.5232702706699982,
+          "worstLeaveOneKeyOutUpper": 0.5317314971595584
+        },
+        "PL4/forward": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.5020391725675942,
+          "aucUpper": 0.5118896223814609,
+          "worstLeaveOneKeyOutUpper": 0.5161549484534295
+        },
+        "PL4/reversed": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.49749215690459997,
+          "aucUpper": 0.5075490234647098,
+          "worstLeaveOneKeyOutUpper": 0.5125979262829736
+        }
+      }
+    },
+    {
+      "cohort": 5,
+      "runtimeSeconds": 307.735,
+      "report": "smoke-fix3-cohort-5.json",
+      "criteriaHash": "cd3356c44aff7004ae185f6a9e6b27768b0f7954aea4f3e18aeeba784502f55d",
+      "planHash": "9d80a511e24ff297de86856b88a7d74ad4b627a473290058f1b2463973b8706c",
+      "groups": {
+        "PL1/ld-mid": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 9999,
+          "n": 10000,
+          "auc": 0.5156477,
+          "aucUpper": 0.5259121787122983,
+          "worstLeaveOneKeyOutUpper": 0.5312653031785365
+        },
+        "PL1/ld-high": {
+          "calibration": "invalid",
+          "validKeys": 0,
+          "reference": 7644,
+          "n": 10000,
+          "auc": 0.494225,
+          "aucUpper": 0.5111990239647134,
+          "worstLeaveOneKeyOutUpper": 0.5195050271166748
+        },
+        "PL4/forward": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.5022629865120789,
+          "aucUpper": 0.5124596319427438,
+          "worstLeaveOneKeyOutUpper": 0.5169722664400693
+        },
+        "PL4/reversed": {
+          "calibration": "valid",
+          "validKeys": 5,
+          "reference": 10000,
+          "n": 10000,
+          "auc": 0.49564017939858623,
+          "aucUpper": 0.5057327539114512,
+          "worstLeaveOneKeyOutUpper": 0.5089645566978833
+        }
+      }
+    }
+  ]
+}

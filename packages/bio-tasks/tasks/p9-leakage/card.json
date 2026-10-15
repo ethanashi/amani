@@ -1,0 +1,20 @@
+{
+  "id": "p9-leakage",
+  "family": "planted-flaw",
+  "datasetManifestHash": "a78c731c42a5247d804b78ccf36696def2c115e6b52669105a7f940baf6e8bf1",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p9-leakage/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.08,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": false,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 918273,
+  "capMinutes": 60,
+  "contaminated": false
+}

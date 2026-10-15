@@ -1,0 +1,14 @@
+[
+  {
+    "fixture": "pdf-honest-standard-ligature",
+    "independentPopplerContains": "A fine result."
+  },
+  {
+    "fixture": "pdf-honest-asciihex-whitespace",
+    "independentPopplerContains": "1.42"
+  },
+  {
+    "fixture": "pdf-asciihex-hidden-number",
+    "independentPopplerContains": "Unsupported 78"
+  }
+]

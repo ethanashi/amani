@@ -1,0 +1,85 @@
+{
+  "version": "ka1-development-v5",
+  "certification": false,
+  "window_a": "development-outcomes-seen-2026-10-10",
+  "bt1": {
+    "tolerance": 0.05,
+    "runtime": "R-4.2",
+    "fresh_execution_required": true,
+    "execution": "HMAC receipt bound to input/script/environment freeze; validated submitted constrained R launch"
+  },
+  "bt2": {
+    "threshold": 0.7,
+    "sensitivity_threshold": 0.8,
+    "band": [
+      1.6,
+      3.2
+    ],
+    "lower_bound": 1.3,
+    "strata": [
+      "phase",
+      "area"
+    ],
+    "clusters": [
+      "target",
+      "indication"
+    ],
+    "bootstrap": 1000,
+    "permutations": 300,
+    "original_nelson_matrix_required_for_asof": true,
+    "later_ontology": "development-sensitivity-only"
+  },
+  "bt3": {
+    "fraction": 0.03,
+    "plant_estimand": "exact finite-stratum MH component expectation ratio; risk-confounded prevalence averages 3pct",
+    "relative_success": 2.0,
+    "power_replicates": 1000,
+    "bootstrap": 300,
+    "gain_curve": [
+      0.01,
+      0.02,
+      0.03,
+      0.04,
+      0.045,
+      0.05,
+      0.055,
+      0.06,
+      0.08
+    ],
+    "mei": 0.02,
+    "minimum_power": 0.8,
+    "seed_selection": "none"
+  },
+  "bt4": {
+    "snapshot": "2019-02-01",
+    "horizon": "2024-09-30",
+    "approval_requires_dated_event": true,
+    "allowed_regulators": [
+      "FDA",
+      "EMA"
+    ],
+    "atc_is_approval": false,
+    "phase4_is_approval": false
+  },
+  "scoring": {
+    "auc_weighting": "positive-negative-pairs-within-phase",
+    "ci": [
+      0.025,
+      0.975
+    ],
+    "bootstrap": "CGM target + indication - intersection; scalar Gaussian score multiplier with analytic normal quantiles",
+    "unmatched": "excluded-and-counted",
+    "censored": "report-all-snapshot-and-resolved-separately",
+    "undefined_bootstrap": "counted-in-invalid-fraction-no-certification-if-over-0.05",
+    "baseline_probabilities": "out-of-target-fold-phase-rates-laplace-1",
+    "independent_key_agreement_required": true,
+    "card_ci": "log endpoint tolerance 0.15; estimate 0.05; planted truth coverage; secret 80pct keyed subsample rerun",
+    "calibration": "3 keyed streams x 200 plants; Clopper-Pearson reference lower >= 0.8, crude upper <= 0.2"
+  },
+  "limitations": [
+    "Local hash freeze is not an external timestamp",
+    "No independent unseen outcome window provided",
+    "Window A lacks direction, effect and coloc inputs for R",
+    "3 percent relative-success plant is not the 0.02 gain power experiment"
+  ]
+}

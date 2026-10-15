@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-consort" width="400pt" height="141pt" viewBox="0 0 400 141" role="img" aria-labelledby="ombhdpkhkihhhka-title ombhdpkhkihhhka-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombhdpkhkihhhka-title">Participant flow</title>
+ <desc id="ombhdpkhkihhhka-desc">Participant flow. Boxes show certified participant counts; exclusions and losses reconcile with the analysed population.</desc>
+ <rect class="background" x="0" y="0" width="400" height="141" fill="#FFFFFF"/>
+ <g class="flow-box">
+  <rect class="box" x="20" y="10" width="360" height="38" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="200" y="21.5" font-size="7" text-anchor="middle" fill="#222222">Assessed: 120</text>
+  <text class="flow-text" x="200" y="31.5" font-size="7" text-anchor="middle" fill="#222222">Ineligible: 20</text>
+  <text class="flow-text" x="200" y="41.5" font-size="7" text-anchor="middle" fill="#222222">Enrolled: 100</text>
+ </g>
+ <g class="arrow">
+  <line x1="200" y1="48" x2="200" y2="65.5" stroke="#222222" stroke-width="0.6"/>
+  <line x1="105" y1="65.5" x2="295" y2="65.5" stroke="#222222" stroke-width="0.6"/>
+  <g class="arrow">
+   <line x1="105" y1="65.5" x2="105" y2="80" stroke="#222222" stroke-width="0.6"/>
+   <path d="M105 83L102.5 79L107.5 79Z" fill="#222222" stroke="none"/>
+  </g>
+  <g class="arrow">
+   <line x1="295" y1="65.5" x2="295" y2="80" stroke="#222222" stroke-width="0.6"/>
+   <path d="M295 83L292.5 79L297.5 79Z" fill="#222222" stroke="none"/>
+  </g>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="15" y="83" width="180" height="48" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="105" y="94.5" font-size="7" text-anchor="middle" fill="#222222">Intervention</text>
+  <text class="flow-text" x="105" y="104.5" font-size="7" text-anchor="middle" fill="#222222">Allocated: 50</text>
+  <text class="flow-text" x="105" y="114.5" font-size="7" text-anchor="middle" fill="#222222">Lost to follow-up: 5</text>
+  <text class="flow-text" x="105" y="124.5" font-size="7" text-anchor="middle" fill="#222222">Analysed: 45</text>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="205" y="83" width="180" height="48" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="295" y="94.5" font-size="7" text-anchor="middle" fill="#222222">Control</text>
+  <text class="flow-text" x="295" y="104.5" font-size="7" text-anchor="middle" fill="#222222">Allocated: 50</text>
+  <text class="flow-text" x="295" y="114.5" font-size="7" text-anchor="middle" fill="#222222">Lost to follow-up: 10</text>
+  <text class="flow-text" x="295" y="124.5" font-size="7" text-anchor="middle" fill="#222222">Analysed: 40</text>
+ </g>
+ <metadata>{"certificateHashes":["727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30"],"csvSha256":"d26aca9ab4539b512e10f479442418dd734571d652a7ad534fa82b0aa490faf7","factIds":["consort.allocated-a","consort.allocated-b","consort.analysed-a","consort.analysed-b","consort.assessed","consort.enrolled","consort.excluded","consort.lost-a","consort.lost-b"],"figureId":"trial-flow","generatorVersion":"omb-figures@2","specSha256":"df29c08a795d1ea087fd8b1c9935a5a57694a51b3caa261230121cef0e08d82d","templateId":"consort@omb-figures-templates@1"}</metadata>
+</svg>

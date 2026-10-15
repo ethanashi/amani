@@ -1,0 +1,85 @@
+{
+  "bindings": {
+    "datasetManifestHash": "a09237d79552bc382b2a9b30154b9df792df0e6d572fe62e286c31dad9766fb6",
+    "files": {
+      "TASK.md": "81c47e5c9c51b8553dcee95745cf681f0d2a0895910d716395a7e0698e7aade7",
+      "bindings.json": "d67431f56e50dab50313d9effba00622962c3c6a29b91377f3bb1122ce5f21ff",
+      "card.json": "0c8e3ca4f8b1f87f48d05b2c9392001553c5d16b4c605bf53e6a568fdd8f8824",
+      "check.py": "fb39c142644299ef75d9d6edea1fec1e7ee7ec6d1e04dfd2e02d244a82674bdf",
+      "reference.py": "dc46a104680c7b651ca639a46ec2851265ff5deef1227d5ea56e915e71b9d78b",
+      "stage.py": "893a538d7710bdd1e3fcdf47cb19bc5a9a4c7135024e72ce8b22afa7e1bae16a"
+    },
+    "naiveTree": "d9782e423d6c18ea6ab816d0fc0cba7afa9241f7e50b5cbb924e0cb208693266",
+    "sealedKey": {
+      "ciphertextSha256": "4d9cc985deccf42bd79b14693782532c75f09822bbc189b9d2e7471d5709833a",
+      "path": "packages/bio-tasks/tasks/p7-nosignal/SEALED-KEY.json.enc",
+      "sha256": "4d9cc985deccf42bd79b14693782532c75f09822bbc189b9d2e7471d5709833a"
+    },
+    "shared": {
+      "lib/biotasks/calibrate.py": "4535f489a1690b9bb8c201f6a343ff7f81f1f91ab8a9ebf66bcfc86eb2b11d46",
+      "lib/biotasks/card.py": "ffa42e7c78503967395b259e711565b8ea813edae9ce202c127d065bf6a2d392",
+      "lib/biotasks/checks.py": "b9eb69ed04e6711dd82a8ef7868b9ca534ed1506f17a8297f317c5757ea6002c",
+      "lib/biotasks/grading.py": "76ccf8b7f7cc2fc7c5ae6579d26fd0432a600596c8c635bffbfc03f98d43a245",
+      "lib/biotasks/sealing.py": "efadbbef3da84a773eb35275ae6f93004655eba2f3b1220ae46e4377bc3286b2",
+      "lib/biotasks/staging.py": "1cac7ca255f9d1a6b229e65450a3896ccae84aebfa63322a68a18e55d73e3eea",
+      "packages/bio-baseline/arms/lib/armlib.py": "453f9d104d8903eb5491bc716f0bc9ecc13813265bfe2bbf5a876a01b0bbdedd",
+      "packages/bio-baseline/arms/lib/seal.py": "353f14ee1279c62e373216a6f15649b16dd0564359c3b69baa25606a3af4cf97",
+      "packages/bio-baseline/grading/grade.py": "d33bcfcf19edd1e64258789eff104ff3c5feef3b9cce7edaf73d8b935e3ade7d",
+      "packages/bio-baseline/pixi.lock": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+      "packages/bio-tasks/lib/biotasks/behaviour.py": "b2558a25d66966baeb3ced22c9c55a31fbd30efd7d97b7bc9d8f24d9efad8d29"
+    }
+  },
+  "calibrationInput": {
+    "empty": "failed",
+    "permuted": [
+      "failed"
+    ],
+    "reference": "passed"
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "pixi_lock_sha256": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+    "python": "3.13.16"
+  },
+  "mapping": {
+    "empty": "empty",
+    "naive": "permuted",
+    "reference": "reference"
+  },
+  "outcomes": {
+    "empty": {
+      "outcome": "failed",
+      "score": 0.0,
+      "verdicts": {
+        "no_confirmed_signal": "incorrect",
+        "region_status": "incorrect",
+        "variant_interval": "incorrect",
+        "variant_status": "incorrect"
+      }
+    },
+    "naive": {
+      "outcome": "failed",
+      "score": 0.5,
+      "verdicts": {
+        "no_confirmed_signal": "correct",
+        "region_status": "incorrect",
+        "variant_interval": "correct",
+        "variant_status": "incorrect"
+      }
+    },
+    "reference": {
+      "outcome": "passed",
+      "score": 1.0,
+      "verdicts": {
+        "no_confirmed_signal": "correct",
+        "region_status": "correct",
+        "variant_interval": "correct",
+        "variant_status": "correct"
+      }
+    }
+  },
+  "reasons": [],
+  "schema": "bio-tasks/calibration@1",
+  "status": "valid",
+  "task": "p7-nosignal"
+}

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-mr-forest" width="360pt" height="279pt" viewBox="0 0 360 279" role="img" aria-labelledby="ombpacnfbbghmii-title ombpacnfbbghmii-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombpacnfbbghmii-title">Mendelian randomization forest plot</title>
+ <desc id="ombpacnfbbghmii-desc">Mendelian randomization forest plot. Per-variant estimates followed by summary estimates. Rows in plan order: rs13000: estimate 0.368, interval 0.072 to 0.664; rs16571: estimate 0.128, interval −0.165 to 0.421; rs20142: estimate 0.225, interval 0.025 to 0.425; rs23713: estimate 0.328, interval 0.012 to 0.644; rs27284: estimate 0.412, interval 0.255 to 0.569; rs30855: estimate 0.120, interval −0.195 to 0.434; rs34426: estimate 0.247, interval −0.166 to 0.660; rs37997: estimate 0.230, interval −0.005 to 0.464; rs41568: estimate 0.311, interval −0.078 to 0.700; rs45139: estimate 0.205, interval −0.043 to 0.454; rs48710: estimate 0.241, interval 0.033 to 0.449; rs52281: estimate 0.351, interval 0.195 to 0.507; Inverse-variance weighted: estimate 0.289, interval 0.229 to 0.349; MR-Egger: estimate 0.312, interval 0.162 to 0.462; Weighted median: estimate 0.277, interval 0.187 to 0.367. A dashed vertical line marks the null value. Intervals are 95% confidence intervals.</desc>
+ <rect class="background" x="0" y="0" width="360" height="279" fill="#FFFFFF"/>
+ <text class="header" x="352" y="16" font-size="7" text-anchor="end" fill="#222222" font-weight="bold">Effect estimate (95% CI)</text>
+ <line class="null-line" x1="139.03" y1="22" x2="139.03" y2="249" stroke="#8C8C8C" stroke-width="0.75" stroke-dasharray="3 2"/>
+ <text class="label" x="8" y="35" font-size="7" text-anchor="start" fill="#222222" font-weight="bold">Variants</text>
+ <g class="row">
+  <text class="label" x="8" y="48" font-size="7" text-anchor="start" fill="#222222">rs13000</text>
+  <line class="ci" x1="150.32" y1="45.5" x2="243.08" y2="45.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M194.2 43L199.2 43L199.2 48L194.2 48Z" fill="#0072B2" stroke="none" data-fact="mark-0"/>
+  <text class="value" x="352" y="48" font-size="7" text-anchor="end" fill="#222222">0.368 (0.072 to 0.664)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="61" font-size="7" text-anchor="start" fill="#222222">rs16571</text>
+  <line class="ci" x1="113.2" y1="58.5" x2="204.91" y2="58.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M156.55 56L161.55 56L161.55 61L156.55 61Z" fill="#0072B2" stroke="none" data-fact="mark-1"/>
+  <text class="value" x="352" y="61" font-size="7" text-anchor="end" fill="#222222">0.128 (−0.165 to 0.421)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="74" font-size="7" text-anchor="start" fill="#222222">rs20142</text>
+  <line class="ci" x1="142.88" y1="71.5" x2="205.58" y2="71.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M171.74 69L176.74 69L176.74 74L171.74 74Z" fill="#0072B2" stroke="none" data-fact="mark-2"/>
+  <text class="value" x="352" y="74" font-size="7" text-anchor="end" fill="#222222">0.225 (0.025 to 0.425)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="87" font-size="7" text-anchor="start" fill="#222222">rs23713</text>
+  <line class="ci" x1="140.89" y1="84.5" x2="239.9" y2="84.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M187.89 82L192.89 82L192.89 87L187.89 87Z" fill="#0072B2" stroke="none" data-fact="mark-3"/>
+  <text class="value" x="352" y="87" font-size="7" text-anchor="end" fill="#222222">0.328 (0.012 to 0.644)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="100" font-size="7" text-anchor="start" fill="#222222">rs27284</text>
+  <line class="ci" x1="178.92" y1="97.5" x2="228.11" y2="97.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M201.02 95L206.02 95L206.02 100L201.02 100Z" fill="#0072B2" stroke="none" data-fact="mark-4"/>
+  <text class="value" x="352" y="100" font-size="7" text-anchor="end" fill="#222222">0.412 (0.255 to 0.569)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="113" font-size="7" text-anchor="start" fill="#222222">rs30855</text>
+  <line class="ci" x1="108.44" y1="110.5" x2="207.07" y2="110.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M155.26 108L160.26 108L160.26 113L155.26 113Z" fill="#0072B2" stroke="none" data-fact="mark-5"/>
+  <text class="value" x="352" y="113" font-size="7" text-anchor="end" fill="#222222">0.120 (−0.195 to 0.434)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="126" font-size="7" text-anchor="start" fill="#222222">rs34426</text>
+  <line class="ci" x1="113.07" y1="123.5" x2="242.47" y2="123.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M175.28 121L180.28 121L180.28 126L175.28 126Z" fill="#0072B2" stroke="none" data-fact="mark-6"/>
+  <text class="value" x="352" y="126" font-size="7" text-anchor="end" fill="#222222">0.247 (−0.166 to 0.660)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="139" font-size="7" text-anchor="start" fill="#222222">rs37997</text>
+  <line class="ci" x1="138.31" y1="136.5" x2="211.71" y2="136.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M172.51 134L177.51 134L177.51 139L172.51 139Z" fill="#0072B2" stroke="none" data-fact="mark-7"/>
+  <text class="value" x="352" y="139" font-size="7" text-anchor="end" fill="#222222">0.230 (−0.005 to 0.464)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="152" font-size="7" text-anchor="start" fill="#222222">rs41568</text>
+  <line class="ci" x1="126.78" y1="149.5" x2="248.6" y2="149.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M185.2 147L190.2 147L190.2 152L185.2 152Z" fill="#0072B2" stroke="none" data-fact="mark-8"/>
+  <text class="value" x="352" y="152" font-size="7" text-anchor="end" fill="#222222">0.311 (−0.078 to 0.700)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="165" font-size="7" text-anchor="start" fill="#222222">rs45139</text>
+  <line class="ci" x1="132.26" y1="162.5" x2="210.08" y2="162.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M168.67 160L173.67 160L173.67 165L168.67 165Z" fill="#0072B2" stroke="none" data-fact="mark-9"/>
+  <text class="value" x="352" y="165" font-size="7" text-anchor="end" fill="#222222">0.205 (−0.043 to 0.454)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="178" font-size="7" text-anchor="start" fill="#222222">rs48710</text>
+  <line class="ci" x1="144.2" y1="175.5" x2="209.31" y2="175.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M174.26 173L179.26 173L179.26 178L174.26 178Z" fill="#0072B2" stroke="none" data-fact="mark-10"/>
+  <text class="value" x="352" y="178" font-size="7" text-anchor="end" fill="#222222">0.241 (0.033 to 0.449)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="191" font-size="7" text-anchor="start" fill="#222222">rs52281</text>
+  <line class="ci" x1="169.54" y1="188.5" x2="218.46" y2="188.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M191.51 186L196.51 186L196.51 191L191.51 191Z" fill="#0072B2" stroke="none" data-fact="mark-11"/>
+  <text class="value" x="352" y="191" font-size="7" text-anchor="end" fill="#222222">0.351 (0.195 to 0.507)</text>
+ </g>
+ <text class="label" x="8" y="204" font-size="7" text-anchor="start" fill="#222222" font-weight="bold">Summary estimates</text>
+ <g class="row">
+  <text class="label" x="8" y="217" font-size="7" text-anchor="start" fill="#222222">Inverse-variance weighted</text>
+  <line class="ci" x1="174.88" y1="214.5" x2="193.68" y2="214.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-diamond sb" d="M184.28 210.6L188.18 214.5L184.28 218.4L180.38 214.5Z" fill="#D55E00" stroke="none" data-fact="mark-12"/>
+  <text class="value" x="352" y="217" font-size="7" text-anchor="end" fill="#222222">0.289 (0.229 to 0.349)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="230" font-size="7" text-anchor="start" fill="#222222">MR-Egger</text>
+  <line class="ci" x1="164.4" y1="227.5" x2="211.4" y2="227.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-diamond sb" d="M187.9 223.6L191.8 227.5L187.9 231.4L184 227.5Z" fill="#D55E00" stroke="none" data-fact="mark-13"/>
+  <text class="value" x="352" y="230" font-size="7" text-anchor="end" fill="#222222">0.312 (0.162 to 0.462)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="243" font-size="7" text-anchor="start" fill="#222222">Weighted median</text>
+  <line class="ci" x1="168.37" y1="240.5" x2="196.56" y2="240.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-diamond sb" d="M182.46 236.6L186.36 240.5L182.46 244.4L178.56 240.5Z" fill="#D55E00" stroke="none" data-fact="mark-14"/>
+  <text class="value" x="352" y="243" font-size="7" text-anchor="end" fill="#222222">0.277 (0.187 to 0.367)</text>
+ </g>
+ <g class="axis axis-x scale-linear">
+  <line class="domain" x1="107.7" y1="249" x2="264.34" y2="249" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="107.7" y1="249" x2="107.7" y2="252" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="107.7" y="260" font-size="7" text-anchor="middle" fill="#222222">−0.2</text>
+  </g>
+  <g class="tick">
+   <line x1="139.03" y1="249" x2="139.03" y2="252" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="139.03" y="260" font-size="7" text-anchor="middle" fill="#222222">0</text>
+  </g>
+  <g class="tick">
+   <line x1="170.36" y1="249" x2="170.36" y2="252" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="170.36" y="260" font-size="7" text-anchor="middle" fill="#222222">0.2</text>
+  </g>
+  <g class="tick">
+   <line x1="201.68" y1="249" x2="201.68" y2="252" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="201.68" y="260" font-size="7" text-anchor="middle" fill="#222222">0.4</text>
+  </g>
+  <g class="tick">
+   <line x1="233.01" y1="249" x2="233.01" y2="252" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="233.01" y="260" font-size="7" text-anchor="middle" fill="#222222">0.6</text>
+  </g>
+  <g class="tick">
+   <line x1="264.34" y1="249" x2="264.34" y2="252" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="264.34" y="260" font-size="7" text-anchor="middle" fill="#222222">0.8</text>
+  </g>
+  <text class="axis-title" x="186.02" y="272" font-size="8" text-anchor="middle" fill="#222222">Effect estimate</text>
+ </g>
+ <metadata>{"certificateHashes":["727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30"],"csvSha256":"a4c342d04451b549aef27a1f75b0195d5c75171bbf9fe94d74627df5966f145e","factIds":["c4","c4.egger.ci_lower","c4.egger.ci_upper","c4.egger.estimate","c4.ivw.ci_lower","c4.ivw.ci_upper","c4.ivw.estimate","c4.variant0.ci_lower","c4.variant0.ci_upper","c4.variant0.estimate","c4.variant0.name","c4.variant1.ci_lower","c4.variant1.ci_upper","c4.variant1.estimate","c4.variant1.name","c4.variant10.ci_lower","c4.variant10.ci_upper","c4.variant10.estimate","c4.variant10.name","c4.variant11.ci_lower","c4.variant11.ci_upper","c4.variant11.estimate","c4.variant11.name","c4.variant2.ci_lower","c4.variant2.ci_upper","c4.variant2.estimate","c4.variant2.name","c4.variant3.ci_lower","c4.variant3.ci_upper","c4.variant3.estimate","c4.variant3.name","c4.variant4.ci_lower","c4.variant4.ci_upper","c4.variant4.estimate","c4.variant4.name","c4.variant5.ci_lower","c4.variant5.ci_upper","c4.variant5.estimate","c4.variant5.name","c4.variant6.ci_lower","c4.variant6.ci_upper","c4.variant6.estimate","c4.variant6.name","c4.variant7.ci_lower","c4.variant7.ci_upper","c4.variant7.estimate","c4.variant7.name","c4.variant8.ci_lower","c4.variant8.ci_upper","c4.variant8.estimate","c4.variant8.name","c4.variant9.ci_lower","c4.variant9.ci_upper","c4.variant9.estimate","c4.variant9.name","c4.wm.ci_lower","c4.wm.ci_upper","c4.wm.estimate"],"figureId":"mr-forest-c4","generatorVersion":"omb-figures@2","specSha256":"25567dc5e6eafa3badfe581419f873eb92ac88d2161046d9f0391b9014d6e766","templateId":"mr-forest@omb-figures-templates@1"}</metadata>
+</svg>

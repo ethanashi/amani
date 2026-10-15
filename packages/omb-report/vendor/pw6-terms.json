@@ -1,0 +1,498 @@
+{
+ "schema": "omb-paper/term-registry@1",
+ "version": "pw6-terms@1",
+ "terms": [
+  {
+   "id": "psa",
+   "term": "prostate-specific antigen",
+   "aliases": [],
+   "class": "field",
+   "acronym": "PSA",
+   "definition": "a protein made by the prostate gland and measured in blood to monitor prostate cancer",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "intermittent-androgen-deprivation",
+   "term": "intermittent androgen deprivation",
+   "aliases": [],
+   "class": "field",
+   "definition": "a treatment schedule in which hormone therapy is paused and restarted in cycles",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "nadir",
+   "term": "nadir",
+   "aliases": [],
+   "class": "field",
+   "definition": "the lowest value reached during a period of treatment",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "leave-one-out",
+   "term": "leave-one-out cross-validation",
+   "aliases": [],
+   "class": "field",
+   "definition": "fitting a model repeatedly, each time setting aside the records of a single patient and scoring the model on them",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "mendelian-randomization",
+   "term": "Mendelian randomization",
+   "aliases": [
+    "Mendelian randomisation"
+   ],
+   "class": "field",
+   "acronym": "MR",
+   "definition": "an analysis that uses inherited genetic variants as a natural experiment to study whether an exposure may affect an outcome",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "pqtl",
+   "term": "protein quantitative trait locus",
+   "aliases": [
+    "protein quantitative trait loci"
+   ],
+   "class": "field",
+   "acronym": "pQTL",
+   "definition": "a genetic variant linked to the level of a protein in blood or tissue",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "eqtl",
+   "term": "expression quantitative trait locus",
+   "aliases": [
+    "expression quantitative trait loci"
+   ],
+   "class": "field",
+   "acronym": "eQTL",
+   "definition": "a genetic variant linked to how strongly a gene is expressed",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "colocalization",
+   "term": "colocalization",
+   "aliases": [
+    "colocalisation"
+   ],
+   "class": "field",
+   "definition": "a test of whether two traits share the same genetic signal in a region of the genome",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "gwas",
+   "term": "genome-wide association study",
+   "aliases": [
+    "genome-wide association studies"
+   ],
+   "class": "field",
+   "acronym": "GWAS",
+   "definition": "a scan of many genetic variants across the genome for association with a trait",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "p-value",
+   "term": "p-value",
+   "aliases": [
+    "p value"
+   ],
+   "class": "statistics",
+   "definition": "how surprising these data would be if there were no effect and every assumption held; it is not the chance that the finding is wrong",
+   "source": "ASA statement on p-values; Greenland and colleagues on statistical tests"
+  },
+  {
+   "id": "confidence-interval",
+   "term": "confidence interval",
+   "aliases": [],
+   "class": "statistics",
+   "acronym": "CI",
+   "definition": "the range of effect sizes most compatible with the data under the analysis assumptions; it is not a range that contains the true value with a stated probability",
+   "source": "Greenland and colleagues on statistical tests"
+  },
+  {
+   "id": "auc",
+   "term": "area under the receiver operating characteristic curve",
+   "aliases": [
+    "area under the curve"
+   ],
+   "class": "statistics",
+   "acronym": "AUC",
+   "definition": "how well a score separates people who have the outcome from people who do not; a value at chance level means no separation",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "odds-ratio",
+   "term": "odds ratio",
+   "aliases": [],
+   "class": "statistics",
+   "definition": "how the odds of the outcome in one group compare with the odds in another; it approximates a ratio of risks only when the outcome is rare",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "hazard-ratio",
+   "term": "hazard ratio",
+   "aliases": [],
+   "class": "statistics",
+   "definition": "how the rate of the event in one group compares with the rate in another during follow-up",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "smallest-effect",
+   "term": "smallest effect of interest",
+   "aliases": [
+    "minimum effect of interest"
+   ],
+   "class": "statistics",
+   "definition": "the smallest effect size that the locked plan declared worth detecting; smaller effects are treated as unimportant for the question",
+   "source": "Lakens on equivalence testing"
+  },
+  {
+   "id": "effective-alpha",
+   "term": "effective alpha",
+   "aliases": [],
+   "class": "statistics",
+   "definition": "the significance threshold after accounting for repeated looks at the data and for multiple tests",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "power",
+   "term": "power",
+   "aliases": [
+    "statistical power"
+   ],
+   "class": "statistics",
+   "definition": "the chance that the analysis detects an effect of the smallest size of interest when such an effect is real",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "calibration",
+   "term": "calibration",
+   "aliases": [],
+   "class": "statistics",
+   "definition": "agreement between predicted probabilities and the outcome frequencies actually observed",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "multiple-testing",
+   "term": "multiple testing",
+   "aliases": [
+    "multiplicity"
+   ],
+   "class": "statistics",
+   "definition": "testing many hypotheses raises the chance that some pass by luck alone; the reported thresholds account for the number of tests",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "reproduced",
+   "term": "reproduced",
+   "aliases": [],
+   "class": "check",
+   "gates": [
+    "G4"
+   ],
+   "definition": "the same data and the same code gave the same results when re-run in a fresh computing environment; this is computational reproducibility in the NASEM sense",
+   "source": "NASEM, Reproducibility and Replicability in Science"
+  },
+  {
+   "id": "re-implemented",
+   "term": "independently re-implemented",
+   "aliases": [],
+   "class": "check",
+   "gates": [
+    "G7"
+   ],
+   "definition": "a second AI system, from a different developer, re-analysed the data from the locked plan without reusing the first analysis code; this checks the analysis, not the data",
+   "source": "NASEM, Reproducibility and Replicability in Science"
+  },
+  {
+   "id": "replicated",
+   "term": "replicated",
+   "aliases": [],
+   "class": "check",
+   "definition": "the result held again in new, independent data; this is replicability in the NASEM sense, and the word is never used for re-running the same data",
+   "source": "NASEM, Reproducibility and Replicability in Science"
+  },
+  {
+   "id": "pre-registered",
+   "term": "pre-registered",
+   "aliases": [
+    "pre-registration"
+   ],
+   "class": "label",
+   "definition": "the analysis plan was fixed and time-stamped before the confirming data were analysed, so the results could not shape the analysis",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "post-hoc",
+   "term": "post hoc",
+   "aliases": [],
+   "class": "label",
+   "definition": "chosen after the data were seen; such results are exploratory and need testing in new data",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "internal-validation",
+   "term": "internal validation",
+   "aliases": [],
+   "class": "label",
+   "definition": "the model was scored on a part of the same dataset that was kept apart from model building",
+   "source": "TRIPOD statement"
+  },
+  {
+   "id": "external-validation",
+   "term": "external validation",
+   "aliases": [],
+   "class": "label",
+   "definition": "the model was scored on a separate dataset from a different source",
+   "source": "TRIPOD statement"
+  },
+  {
+   "id": "required-checks",
+   "term": "required checks",
+   "aliases": [],
+   "class": "label",
+   "definition": "the software checks that the locked plan requires before a claim can carry its label; the verification section lists each one",
+   "source": "kernel plain-language table"
+  },
+  {
+   "id": "ruled-out",
+   "term": "ruled out at the smallest effect of interest",
+   "aliases": [],
+   "class": "label",
+   "definition": "the interval excludes effects as large as the smallest effect of interest; this is an equivalence result, and smaller effects are not excluded",
+   "source": "Lakens on equivalence testing"
+  },
+  {
+   "id": "neurofilament-light",
+   "term": "neurofilament light chain",
+   "aliases": [],
+   "class": "field",
+   "acronym": "NfL",
+   "definition": "a structural protein in nerve fibres that can be measured in blood",
+   "source": "Lu and colleagues, Neurology"
+  }
+ ],
+ "acronyms": [
+  {
+   "acronym": "AUC",
+   "expansion": "area under the receiver operating characteristic curve",
+   "plain": "area under the curve",
+   "forms": [
+    "AUC",
+    "auc"
+   ]
+  },
+  {
+   "acronym": "CI",
+   "expansion": "confidence interval",
+   "forms": [
+    "CI"
+   ]
+  },
+  {
+   "acronym": "ROC",
+   "expansion": "receiver operating characteristic",
+   "forms": [
+    "ROC"
+   ]
+  },
+  {
+   "acronym": "PSA",
+   "expansion": "prostate-specific antigen",
+   "forms": [
+    "PSA"
+   ]
+  },
+  {
+   "acronym": "ALS",
+   "expansion": "amyotrophic lateral sclerosis",
+   "forms": [
+    "ALS"
+   ]
+  },
+  {
+   "acronym": "MR",
+   "expansion": "Mendelian randomization",
+   "forms": [
+    "MR"
+   ]
+  },
+  {
+   "acronym": "pQTL",
+   "expansion": "protein quantitative trait locus",
+   "forms": [
+    "pQTL"
+   ]
+  },
+  {
+   "acronym": "eQTL",
+   "expansion": "expression quantitative trait locus",
+   "forms": [
+    "eQTL"
+   ]
+  },
+  {
+   "acronym": "GWAS",
+   "expansion": "genome-wide association study",
+   "forms": [
+    "GWAS"
+   ]
+  },
+  {
+   "acronym": "SNP",
+   "expansion": "single-nucleotide polymorphism",
+   "forms": [
+    "SNP"
+   ]
+  },
+  {
+   "acronym": "LDL",
+   "expansion": "low-density lipoprotein",
+   "forms": [
+    "LDL"
+   ]
+  },
+  {
+   "acronym": "HDL",
+   "expansion": "high-density lipoprotein",
+   "forms": [
+    "HDL"
+   ]
+  },
+  {
+   "acronym": "BMI",
+   "expansion": "body mass index",
+   "forms": [
+    "BMI"
+   ]
+  },
+  {
+   "acronym": "DNA",
+   "expansion": "deoxyribonucleic acid",
+   "forms": [
+    "DNA"
+   ]
+  },
+  {
+   "acronym": "RNA",
+   "expansion": "ribonucleic acid",
+   "forms": [
+    "RNA"
+   ]
+  },
+  {
+   "acronym": "FDR",
+   "expansion": "false discovery rate",
+   "forms": [
+    "FDR"
+   ]
+  },
+  {
+   "acronym": "OSF",
+   "expansion": "Open Science Framework",
+   "forms": [
+    "OSF"
+   ]
+  },
+  {
+   "acronym": "AI",
+   "expansion": "artificial intelligence",
+   "forms": [
+    "AI"
+   ]
+  },
+  {
+   "acronym": "NASEM",
+   "expansion": "National Academies of Sciences, Engineering, and Medicine",
+   "forms": [
+    "NASEM"
+   ]
+  },
+  {
+   "acronym": "ICH",
+   "expansion": "International Council for Harmonisation",
+   "forms": [
+    "ICH"
+   ]
+  },
+  {
+   "acronym": "TRIPOD",
+   "expansion": "Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis",
+   "forms": [
+    "TRIPOD"
+   ]
+  },
+  {
+   "acronym": "GRADE",
+   "expansion": "Grading of Recommendations Assessment, Development and Evaluation",
+   "forms": [
+    "GRADE"
+   ]
+  },
+  {
+   "acronym": "NfL",
+   "expansion": "neurofilament light chain",
+   "forms": [
+    "NfL"
+   ]
+  }
+ ],
+ "analogies": [
+  {
+   "id": "plan-lock",
+   "trigger": "plan-lock",
+   "text": "Plan lock is like a blind analysis in physics: the analysis is fixed before the answer can be seen.",
+   "source": "blind analysis practice in particle physics"
+  },
+  {
+   "id": "planted-effects",
+   "trigger": "planted-effects",
+   "text": "Planted effects are like injection-recovery tests in astronomy: fake signals of known size are added to the data to check that the method finds them.",
+   "source": "injection-recovery practice in astronomy"
+  },
+  {
+   "id": "multiplicity",
+   "trigger": "multiplicity",
+   "text": "Multiple testing is like the look-elsewhere effect in physics: the more places one searches, the more likely a chance bump appears somewhere.",
+   "source": "look-elsewhere effect in particle physics"
+  },
+  {
+   "id": "negative-controls",
+   "trigger": "negative-controls",
+   "text": "Negative controls are like null or calibration runs: analyses in which no real signal should appear, used to measure false alarms.",
+   "source": "calibration practice in measurement science"
+  },
+  {
+   "id": "bias-budget",
+   "trigger": "bias-budget",
+   "text": "The bias budget is like a systematic-error budget in physics: each known source of bias is listed with its likely size.",
+   "source": "systematic-error budgets in physics"
+  }
+ ],
+ "designs": [
+  {
+   "kind": "out-of-sample",
+   "text": "A prediction rule was fixed first and then scored on records that played no part in building it, so the score shows how the rule would do on new cases."
+  },
+  {
+   "kind": "causal-genetic",
+   "text": "Genetic variants are inherited at conception, before any disease begins, so people who carry variants that raise an exposure form a natural experiment: if the exposure matters, those people should also differ in the outcome."
+  },
+  {
+   "kind": "effect-exists",
+   "text": "Existing records were analysed to see whether two measurements tend to go together; this design cannot show that changing one would change the other."
+  },
+  {
+   "kind": "observational",
+   "text": "Existing records were analysed to see whether two measurements tend to go together; this design cannot show that changing one would change the other."
+  },
+  {
+   "kind": "data-integrity",
+   "text": "Software compared the raw data files directly, so the result describes the files themselves and needs no statistical inference."
+  },
+  {
+   "kind": "reproduction",
+   "text": "The published analysis was repeated from the original data, and each recomputed number was compared with the published one."
+  }
+ ],
+ "sha256": "d4386937282db5f1f16d175c40d3241330645f6494f94dd755c09c8c39b8ca59"
+}

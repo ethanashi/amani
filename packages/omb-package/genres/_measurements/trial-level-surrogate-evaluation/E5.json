@@ -1,0 +1,231 @@
+{
+ "pmcid": "PMC13548217",
+ "doi": "10.1136/jitc-2026-016440",
+ "pmid": "42697593",
+ "journal": "Journal for Immunotherapy of Cancer",
+ "year": 2026,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Original Research",
+  "Clinical Cancer Immunotherapy",
+  "1506"
+ ],
+ "title_words": 23,
+ "licence": "CC BY-NC 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods",
+    "Results",
+    "Conclusion"
+   ],
+   "words": 323
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 601
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 1300,
+   "sub": [
+    {
+     "heading": "Study objectives and candidate endpoints",
+     "canonical": "other",
+     "words": 267
+    },
+    {
+     "heading": "Description of randomized trials",
+     "canonical": "other",
+     "words": 144
+    },
+    {
+     "heading": "Statistical methods",
+     "canonical": "other",
+     "words": 889
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1235,
+   "sub": [
+    {
+     "heading": "Characteristics of the four trials",
+     "canonical": "other",
+     "words": 45
+    },
+    {
+     "heading": "ORR as surrogate for OS",
+     "canonical": "other",
+     "words": 297
+    },
+    {
+     "heading": "PFS as a surrogate for OS",
+     "canonical": "other",
+     "words": 263
+    },
+    {
+     "heading": "TNTD and TNT as surrogates for OS",
+     "canonical": "other",
+     "words": 307
+    },
+    {
+     "heading": "External trial-level validation for PFS and ORR",
+     "canonical": "other",
+     "words": 173
+    },
+    {
+     "heading": "Comparison of surrogacy relationships with RELATIVITY-047",
+     "canonical": "other",
+     "words": 150
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1804
+  },
+  {
+   "heading": "Supplementary material",
+   "canonical": "supplementary",
+   "words": 0
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Data availability statement",
+   "canonical": "data_availability",
+   "words": 6
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 124
+  },
+  {
+   "heading": "fn:financial-disclosure",
+   "canonical": "competing_interests",
+   "words": 0
+  },
+  {
+   "heading": "fn:other",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:other",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:other",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:other",
+   "canonical": "fn",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 601,
+  "methods": 1300,
+  "results": 1235,
+  "discussion": 1804,
+  "supplementary": 0
+ },
+ "main_text_words": 4940,
+ "main_text_words_excluding_methods": 3640,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "surrogacy_scatter"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "surrogacy_scatter"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "surrogacy_scatter"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "surrogacy_scatter"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": "online supplemental file 1"
+  }
+ ],
+ "references": 61,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

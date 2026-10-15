@@ -1,0 +1,135 @@
+[
+  {
+    "task": "iad1-brady-audit",
+    "publicHash": "aa4e57be905d52076b7ea5309703e9fbb9be29981da58a36ddf94108bbbee7f4",
+    "tables": 3,
+    "sourceFiles": 13,
+    "status": "author-draft"
+  },
+  {
+    "task": "iad2-brady-twin",
+    "publicHash": "eb7b3a0dc680f6b2ab2281df44b880fd063fe4a72a69a52cd69a1ae4b255e5bf",
+    "tables": 2,
+    "sourceFiles": 10,
+    "status": "author-draft"
+  },
+  {
+    "task": "iad3-browning-count",
+    "publicHash": "306c1e727a8a61cc247091b4e91a63e8d1e7b22370258a4e9b28e962d93b4f4f",
+    "tables": 1,
+    "sourceFiles": 8,
+    "status": "author-draft"
+  },
+  {
+    "task": "p1-esr1",
+    "publicHash": "0d6914f89068511b752eb48d297cef4b7eafc4df001c71a359adc59355e6a7a0",
+    "tables": 1,
+    "sourceFiles": 2,
+    "status": "author-draft"
+  },
+  {
+    "task": "p10-pseudorep",
+    "publicHash": "3da9cdacd382ef6e59168d3be3da7043c1cb7243fe254bf2e9f677ca5fdd3dda",
+    "tables": 2,
+    "sourceFiles": 4,
+    "status": "author-draft"
+  },
+  {
+    "task": "p10b-pseudorep-hidden",
+    "publicHash": "ab273906f193d2e3a173f11cbe2fa15289e21a8038269b4c593337f9d522e2e7",
+    "tables": 2,
+    "sourceFiles": 4,
+    "status": "author-draft"
+  },
+  {
+    "task": "p11-confounding",
+    "publicHash": "1589f943c246dcd3882a75009f596f7112ec6529f72a7c42be9dae8e68e44130",
+    "tables": 1,
+    "sourceFiles": 2,
+    "status": "author-draft"
+  },
+  {
+    "task": "p12-quality",
+    "publicHash": "7c140becb151bcb2aeb42475d005faa75c92692367c7ca6fea1107a50f746f2b",
+    "tables": 1,
+    "sourceFiles": 2,
+    "status": "author-draft"
+  },
+  {
+    "task": "p13-endpoint",
+    "publicHash": "f85f73b0722ad974c5fb72443bda577af89946bcfc468fcc5a6e2f07c6bdbd43",
+    "tables": 2,
+    "sourceFiles": 4,
+    "status": "author-draft"
+  },
+  {
+    "task": "p14-citation",
+    "publicHash": "d81047f63dc9b82ff604aae64d55627c4db92d0f0bd672f5d182c554438e989e",
+    "tables": 1,
+    "sourceFiles": 3,
+    "status": "author-draft"
+  },
+  {
+    "task": "p16-recovery",
+    "publicHash": "f7b017db3694bf4fd689bd3682171456efe8eb84c5fe297540d16c5745e7dd9b",
+    "tables": 1,
+    "sourceFiles": 2,
+    "status": "author-draft"
+  },
+  {
+    "task": "p2-erbb2",
+    "publicHash": "7bea1bea87756c905b9a29da88f649ee3fc6b3c887aefad6cd439b6214e746d8",
+    "tables": 1,
+    "sourceFiles": 2,
+    "status": "author-draft"
+  },
+  {
+    "task": "p4-bixbench",
+    "publicHash": "ee277efba6920809b5ebc55570ff2654b5c76846d45e0664125baa136afc0c58",
+    "tables": 1,
+    "sourceFiles": 1,
+    "status": "author-draft"
+  },
+  {
+    "task": "p5-permuted",
+    "publicHash": "15ef909257e0d2e28d8d33d9b55e8bdc682682a51d831239f1d09a88b3843709",
+    "tables": 1,
+    "sourceFiles": 2,
+    "status": "author-draft"
+  },
+  {
+    "task": "p6-subgroups",
+    "publicHash": "1fcbc9db4cbf97966a4c025707b52e89e4e434fbc87d7e8e11011a81fc53f23e",
+    "tables": 1,
+    "sourceFiles": 3,
+    "status": "author-draft"
+  },
+  {
+    "task": "p7-nosignal",
+    "publicHash": "c750f087cbdd57514766a528858a77c10e638f3b58759548dbd0d5d21e0b2761",
+    "tables": 2,
+    "sourceFiles": 4,
+    "status": "author-draft"
+  },
+  {
+    "task": "p8-underpowered",
+    "publicHash": "999c19d3b6f2c56cbad1a91ab8e9f364fd5f0149199f6fa1987b76bcc23403de",
+    "tables": 2,
+    "sourceFiles": 4,
+    "status": "author-draft"
+  },
+  {
+    "task": "p9-leakage",
+    "publicHash": "efdd545437218fea05d41e8ad6904f8e380d984b6cde16905b9138d00df16eac",
+    "tables": 3,
+    "sourceFiles": 4,
+    "status": "author-draft"
+  },
+  {
+    "task": "w0-venet",
+    "publicHash": "052e01d47d19d2a57b059c9085682beacbf2ebdbe4b25b219862c7b9c26831f8",
+    "tables": 3,
+    "sourceFiles": 8,
+    "status": "author-draft"
+  }
+]

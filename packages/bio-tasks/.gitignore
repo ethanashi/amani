@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+# Attempt results default to ~/.omerta-bio/task-results (outside the repo); never commit local ones.
+results/
+
+# Private KA1 host runs, keys, caches and scratch. Never staged.
+.ka1-private/

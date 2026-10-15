@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-data-flow" width="400pt" height="334pt" viewBox="0 0 400 334" role="img" aria-labelledby="ombmpbbgkoigcoi-title ombmpbbgkoigcoi-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombmpbbgkoigcoi-title">Data flow diagram</title>
+ <desc id="ombmpbbgkoigcoi-desc">Data flow diagram. Flow of records from retrieval to analysis: Records retrieved: n = 12,480 then After removing duplicates: n = 12,381 (Removed: n = 99; Same content under a new ID: n = 99) then Eligible records: n = 11,151 (Excluded: n = 1,230; Missing outcome: n = 700; Below the age threshold: n = 400; Withdrew consent: n = 130) then Analysis units (donors): n = 4,210 then Analysed: n = 4,210; events = 612. Split into Training split: n = 2,947; events = 428; Held-out split: n = 1,263; events = 184.</desc>
+ <rect class="background" x="0" y="0" width="400" height="334" fill="#FFFFFF"/>
+ <g class="flow-box">
+  <rect class="box" x="30" y="10" width="190" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="125" y="21.5" font-size="7" text-anchor="middle" fill="#222222">Records retrieved</text>
+  <text class="flow-text" x="125" y="31.5" font-size="7" text-anchor="middle" fill="#222222">n = 12,480</text>
+ </g>
+ <g class="arrow">
+  <line x1="125" y1="38" x2="125" y2="71" stroke="#222222" stroke-width="0.6"/>
+  <path d="M125 74L122.5 70L127.5 70Z" fill="#222222" stroke="none"/>
+ </g>
+ <g class="arrow">
+  <line x1="125" y1="56" x2="245" y2="56" stroke="#222222" stroke-width="0.6"/>
+  <path d="M248 56L244 53.5L244 58.5Z" fill="#222222" stroke="none"/>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="248" y="42" width="144" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="253" y="53.5" font-size="7" text-anchor="start" fill="#222222">Removed: n = 99</text>
+  <text class="flow-text" x="253" y="63.5" font-size="7" text-anchor="start" fill="#222222">Same content under a new ID: n = 99</text>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="30" y="74" width="190" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="125" y="85.5" font-size="7" text-anchor="middle" fill="#222222">After removing duplicates</text>
+  <text class="flow-text" x="125" y="95.5" font-size="7" text-anchor="middle" fill="#222222">n = 12,381</text>
+ </g>
+ <g class="arrow">
+  <line x1="125" y1="102" x2="125" y2="155" stroke="#222222" stroke-width="0.6"/>
+  <path d="M125 158L122.5 154L127.5 154Z" fill="#222222" stroke="none"/>
+ </g>
+ <g class="arrow">
+  <line x1="125" y1="130" x2="245" y2="130" stroke="#222222" stroke-width="0.6"/>
+  <path d="M248 130L244 127.5L244 132.5Z" fill="#222222" stroke="none"/>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="248" y="106" width="144" height="48" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="253" y="117.5" font-size="7" text-anchor="start" fill="#222222">Excluded: n = 1,230</text>
+  <text class="flow-text" x="253" y="127.5" font-size="7" text-anchor="start" fill="#222222">Missing outcome: n = 700</text>
+  <text class="flow-text" x="253" y="137.5" font-size="7" text-anchor="start" fill="#222222">Below the age threshold: n = 400</text>
+  <text class="flow-text" x="253" y="147.5" font-size="7" text-anchor="start" fill="#222222">Withdrew consent: n = 130</text>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="30" y="158" width="190" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="125" y="169.5" font-size="7" text-anchor="middle" fill="#222222">Eligible records</text>
+  <text class="flow-text" x="125" y="179.5" font-size="7" text-anchor="middle" fill="#222222">n = 11,151</text>
+ </g>
+ <g class="arrow">
+  <line x1="125" y1="186" x2="125" y2="199" stroke="#222222" stroke-width="0.6"/>
+  <path d="M125 202L122.5 198L127.5 198Z" fill="#222222" stroke="none"/>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="30" y="202" width="190" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="125" y="213.5" font-size="7" text-anchor="middle" fill="#222222">Analysis units (donors)</text>
+  <text class="flow-text" x="125" y="223.5" font-size="7" text-anchor="middle" fill="#222222">n = 4,210</text>
+ </g>
+ <g class="arrow">
+  <line x1="125" y1="230" x2="125" y2="243" stroke="#222222" stroke-width="0.6"/>
+  <path d="M125 246L122.5 242L127.5 242Z" fill="#222222" stroke="none"/>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="30" y="246" width="190" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="125" y="257.5" font-size="7" text-anchor="middle" fill="#222222">Analysed</text>
+  <text class="flow-text" x="125" y="267.5" font-size="7" text-anchor="middle" fill="#222222">n = 4,210; events = 612</text>
+ </g>
+ <g class="arrow">
+  <line x1="125" y1="274" x2="125" y2="285" stroke="#222222" stroke-width="0.6"/>
+  <line x1="102" y1="285" x2="298" y2="285" stroke="#222222" stroke-width="0.6"/>
+  <g class="arrow">
+   <line x1="102" y1="285" x2="102" y2="293" stroke="#222222" stroke-width="0.6"/>
+   <path d="M102 296L99.5 292L104.5 292Z" fill="#222222" stroke="none"/>
+  </g>
+  <g class="arrow">
+   <line x1="298" y1="285" x2="298" y2="293" stroke="#222222" stroke-width="0.6"/>
+   <path d="M298 296L295.5 292L300.5 292Z" fill="#222222" stroke="none"/>
+  </g>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="8" y="296" width="188" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="102" y="307.5" font-size="7" text-anchor="middle" fill="#222222">Training split</text>
+  <text class="flow-text" x="102" y="317.5" font-size="7" text-anchor="middle" fill="#222222">n = 2,947; events = 428</text>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="204" y="296" width="188" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="298" y="307.5" font-size="7" text-anchor="middle" fill="#222222">Held-out split</text>
+  <text class="flow-text" x="298" y="317.5" font-size="7" text-anchor="middle" fill="#222222">n = 1,263; events = 184</text>
+ </g>
+ <metadata>{"certificateHashes":["727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30"],"csvSha256":"dd8378221600f7bc1fa6a919fb1796ae9301206133b67c8c505f3dfa3bda4fbd","factIds":["flow.analysed","flow.analysed.events","flow.dedup","flow.dedup.duplicate","flow.dedup.removed","flow.eligible","flow.eligible.age","flow.eligible.consent","flow.eligible.missing_outcome","flow.eligible.removed","flow.raw","flow.test","flow.test.events","flow.train","flow.train.events","flow.units"],"figureId":"data-flow","generatorVersion":"omb-figures@2","specSha256":"5fd5e10328463ed2fee970b360b268555df048b124f9aecefaa465f1688caea5","templateId":"data-flow@omb-figures-templates@1"}</metadata>
+</svg>

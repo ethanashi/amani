@@ -1,0 +1,54 @@
+{
+  "baseMain": "212a334",
+  "typecheck": "passed",
+  "environment": {
+    "node": "24",
+    "gradingRoot": "packages/omb-certify/.grading-v2d",
+    "liveArms": false
+  },
+  "packages": {
+    "certify": {
+      "summary": "262 passed | 1 skipped (263)",
+      "wallSeconds": 13.83,
+      "failures": []
+    },
+    "gauntlet": {
+      "summary": "179 passed (179)",
+      "wallSeconds": 2.15,
+      "failures": []
+    },
+    "adapters": {
+      "summary": "50 passed (50)",
+      "wallSeconds": 7.65,
+      "failures": []
+    }
+  },
+  "repository": [
+    {
+      "summary": "3 failed | 2965 passed | 6 skipped (2974)",
+      "wallSeconds": 135.76,
+      "failures": [
+        "packages/bio-bench/test/pilot-refusal.test.ts > pilot refusal Python suite: CLI refusal fields, fresh-session re-queue, provenance, supplement",
+        "packages/bio-bench/test/pilot.test.ts > pilot Python suite: schedule, lock, resume, faults, dry execution transport",
+        "packages/bio-tasks/test/python.test.ts > bio-tasks Python suite > passes (staging, manifests, sealing, checks, calibration, harness, leakage scan)"
+      ]
+    },
+    {
+      "summary": "3 failed | 2965 passed | 6 skipped (2974)",
+      "wallSeconds": 140.69,
+      "failures": [
+        "packages/bio-bench/test/pilot-refusal.test.ts > pilot refusal Python suite: CLI refusal fields, fresh-session re-queue, provenance, supplement",
+        "packages/bio-bench/test/pilot.test.ts > pilot Python suite: schedule, lock, resume, faults, dry execution transport",
+        "packages/bio-tasks/test/python.test.ts > bio-tasks Python suite > passes (staging, manifests, sealing, checks, calibration, harness, leakage scan)"
+      ]
+    }
+  ],
+  "guardMutations": 16,
+  "mutationsCaught": 16,
+  "simulatedNullDatasets": 54000,
+  "unmetRequirements": [
+    "Repository test suite green twice: three out-of-scope failures in each final run.",
+    "Certifier suite under 10 seconds: measured 13.83 seconds.",
+    "Repository suite under 60 seconds: measured 135.76 and 140.69 seconds."
+  ]
+}

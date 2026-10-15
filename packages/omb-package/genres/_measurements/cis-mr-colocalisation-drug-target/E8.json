@@ -1,0 +1,283 @@
+{
+ "pmcid": "PMC8828995",
+ "doi": "10.1183/13993003.03979-2020",
+ "pmid": "34172473",
+ "journal": "The European Respiratory Journal",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 17,
+ "licence": "Creative Commons Attribution Non-Commercial Licence 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods",
+    "Results",
+    "Conclusions"
+   ],
+   "words": 303
+  },
+  {
+   "type": "short",
+   "structured": false,
+   "headings": [],
+   "words": 36
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 480
+  },
+  {
+   "heading": "Materials and methods",
+   "canonical": "methods",
+   "words": 699,
+   "sub": [
+    {
+     "heading": "Study design and data sources",
+     "canonical": "methods",
+     "words": 76
+    },
+    {
+     "heading": "Ethical approval",
+     "canonical": "ethics",
+     "words": 14
+    },
+    {
+     "heading": "Mendelian randomisation",
+     "canonical": "other",
+     "words": 188
+    },
+    {
+     "heading": "Statistical analysis",
+     "canonical": "other",
+     "words": 97
+    },
+    {
+     "heading": "Colocalisation analysis",
+     "canonical": "other",
+     "words": 94
+    },
+    {
+     "heading": "Sensitivity analysis",
+     "canonical": "other",
+     "words": 143
+    },
+    {
+     "heading": "Transcriptomic data in lung tissue",
+     "canonical": "other",
+     "words": 87
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1392,
+   "sub": [
+    {
+     "heading": "Cohort characteristics",
+     "canonical": "other",
+     "words": 133
+    },
+    {
+     "heading": "Mendelian randomisation",
+     "canonical": "other",
+     "words": 176
+    },
+    {
+     "heading": "Colocalisation analysis",
+     "canonical": "other",
+     "words": 109
+    },
+    {
+     "heading": "Sensitivity analyses",
+     "canonical": "other",
+     "words": 806,
+     "sub": [
+      {
+       "heading": "Other shared genetic associations",
+       "canonical": "other",
+       "words": 303
+      },
+      {
+       "heading": "Literature search",
+       "canonical": "other",
+       "words": 122
+      }
+     ]
+    },
+    {
+     "heading": "Transcriptomic data of lung tissue",
+     "canonical": "other",
+     "words": 168
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1155
+  },
+  {
+   "heading": "Supplementary material",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Shareable PDF",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Acknowledgement",
+   "canonical": "acknowledgements",
+   "words": 11
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 480,
+  "methods": 699,
+  "results": 1392,
+  "discussion": 1155,
+  "supplementary": 0,
+  "other_back": 0,
+  "acknowledgements": 11,
+  "references": 0
+ },
+ "main_text_words": 3726,
+ "main_text_words_excluding_methods": 3027,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "FIGURE 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "FIGURE 2",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "FIGURE 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "FIGURE 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 4,
+ "tables": [
+  {
+   "label": "TABLE 1"
+  },
+  {
+   "label": "TABLE 2"
+  },
+  {
+   "label": "TABLE 3"
+  },
+  {
+   "label": "TABLE 4"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 2,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 61,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": true,
+  "strobe": true,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

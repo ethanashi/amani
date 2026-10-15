@@ -1,0 +1,243 @@
+{
+ "pmcid": "PMC10514430",
+ "doi": "10.1016/j.ebiom.2023.104803",
+ "pmid": "37734206",
+ "journal": "eBioMedicine",
+ "year": 2023,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Articles"
+ ],
+ "title_words": 18,
+ "licence": "CC BY",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods",
+    "Findings",
+    "Interpretation",
+    "Funding"
+   ],
+   "words": 261
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 474
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 1599,
+   "sub": [
+    {
+     "heading": "Study design",
+     "canonical": "methods",
+     "words": 125
+    },
+    {
+     "heading": "Selection of genetic instruments for metformin targets and HbA",
+     "canonical": "other",
+     "words": 250
+    },
+    {
+     "heading": "Study outcomes",
+     "canonical": "other",
+     "words": 163
+    },
+    {
+     "heading": "Statistical analyses",
+     "canonical": "other",
+     "words": 299
+    },
+    {
+     "heading": "One-sample MR and triangulation analyses",
+     "canonical": "other",
+     "words": 302
+    },
+    {
+     "heading": "Validation of Mendelian randomization assumptions",
+     "canonical": "other",
+     "words": 384
+    },
+    {
+     "heading": "Ethics",
+     "canonical": "ethics",
+     "words": 52
+    },
+    {
+     "heading": "Role of funders",
+     "canonical": "other",
+     "words": 24
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1093,
+   "sub": [
+    {
+     "heading": "Strength of the genetic predictors of the perturbation of metformin targets",
+     "canonical": "other",
+     "words": 49
+    },
+    {
+     "heading": "Effects of perturbation of metformin targets on cardiometabolic outcomes",
+     "canonical": "other",
+     "words": 564
+    },
+    {
+     "heading": "Target-specific effects of perturbation of metformin targets on cardiometabolic outcomes",
+     "canonical": "other",
+     "words": 227
+    },
+    {
+     "heading": "One-sample MR and triangulation analyses of top findings",
+     "canonical": "other",
+     "words": 253
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1509,
+   "sub": [
+    {
+     "heading": "Caveats and limitations",
+     "canonical": "other",
+     "words": 678
+    },
+    {
+     "heading": "Conclusions",
+     "canonical": "conclusions",
+     "words": 58
+    }
+   ]
+  },
+  {
+   "heading": "Contributors",
+   "canonical": "contributions",
+   "words": 140
+  },
+  {
+   "heading": "Data sharing statement",
+   "canonical": "data_availability",
+   "words": 18
+  },
+  {
+   "heading": "Declaration of interests",
+   "canonical": "competing_interests",
+   "words": 60
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Supplementary data",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 301
+  },
+  {
+   "heading": "fn:supplementary-material",
+   "canonical": "supplementary",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 474,
+  "methods": 1599,
+  "results": 1093,
+  "discussion": 1509,
+  "contributions": 140,
+  "data_availability": 18,
+  "competing_interests": 60
+ },
+ "main_text_words": 4675,
+ "main_text_words_excluding_methods": 3076,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 678
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 2,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 57,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": true,
+  "strobe": true,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

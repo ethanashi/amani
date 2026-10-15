@@ -1,0 +1,392 @@
+{
+ "pmcid": "PMC8919705",
+ "doi": "10.1016/j.celrep.2022.110400",
+ "pmid": "35196490",
+ "journal": "Cell reports",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Article"
+ ],
+ "title_words": 8,
+ "licence": "CC BY-NC-ND",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 151
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 0
+  },
+  {
+   "type": "summary",
+   "structured": false,
+   "headings": [],
+   "words": 50
+  }
+ ],
+ "sections": [
+  {
+   "heading": "INTRODUCTION",
+   "canonical": "introduction",
+   "words": 324
+  },
+  {
+   "heading": "RESULTS",
+   "canonical": "results",
+   "words": 3459,
+   "sub": [
+    {
+     "heading": "Definition of potentially druggable genes in the human genome",
+     "canonical": "other",
+     "words": 543
+    },
+    {
+     "heading": "Expression of the PDGs across cancers",
+     "canonical": "other",
+     "words": 381
+    },
+    {
+     "heading": "Somatic copy number alterations of the PDGs across cancers",
+     "canonical": "other",
+     "words": 345
+    },
+    {
+     "heading": "Somatic mutations of the PDGs across cancers",
+     "canonical": "other",
+     "words": 326
+    },
+    {
+     "heading": "Transcript fusions of PDGs across cancers",
+     "canonical": "other",
+     "words": 305
+    },
+    {
+     "heading": "Cancer dependency of PDGs across cancer cell lines",
+     "canonical": "other",
+     "words": 902
+    },
+    {
+     "heading": "Systematic integration of multidimensional profiles of PDGs across cancers",
+     "canonical": "other",
+     "words": 657
+    }
+   ]
+  },
+  {
+   "heading": "DISCUSSION",
+   "canonical": "discussion",
+   "words": 1244,
+   "sub": [
+    {
+     "heading": "Limitations of the study",
+     "canonical": "limitations",
+     "words": 250
+    }
+   ]
+  },
+  {
+   "heading": "STAR★METHODS",
+   "canonical": "methods",
+   "words": 5590,
+   "sub": [
+    {
+     "heading": "RESOURCE AVAILABILITY",
+     "canonical": "data_availability",
+     "words": 240,
+     "sub": [
+      {
+       "heading": "Lead contact",
+       "canonical": "other",
+       "words": 24
+      },
+      {
+       "heading": "Materials availability",
+       "canonical": "data_availability",
+       "words": 8
+      },
+      {
+       "heading": "Data and code availability",
+       "canonical": "data_availability",
+       "words": 208
+      }
+     ]
+    },
+    {
+     "heading": "EXPERIMENTAL MODEL AND SUBJECT DETAILS",
+     "canonical": "other",
+     "words": 66,
+     "sub": [
+      {
+       "heading": "Cell lines",
+       "canonical": "other",
+       "words": 66
+      }
+     ]
+    },
+    {
+     "heading": "METHOD DETAILS",
+     "canonical": "methods",
+     "words": 5105,
+     "sub": [
+      {
+       "heading": "Definition of the potentially druggable genes",
+       "canonical": "other",
+       "words": 135
+      },
+      {
+       "heading": "RNA-seq data processing and gene expression analysis",
+       "canonical": "other",
+       "words": 241
+      },
+      {
+       "heading": "Classification of expressional distribution",
+       "canonical": "other",
+       "words": 205
+      },
+      {
+       "heading": "Identification of PDGs specifically expressed in cancers (caPDGs)",
+       "canonical": "other",
+       "words": 990
+      },
+      {
+       "heading": "SNP array data collection and processing",
+       "canonical": "other",
+       "words": 155
+      },
+      {
+       "heading": "Recurrent focal SCNA estimation",
+       "canonical": "other",
+       "words": 258
+      },
+      {
+       "heading": "Correlation analysis between copy number and RNA expression",
+       "canonical": "other",
+       "words": 92
+      },
+      {
+       "heading": "Identification of the putative cancer-associated PDGs driven by SCNAs",
+       "canonical": "other",
+       "words": 134
+      },
+      {
+       "heading": "Whole-exome sequencing data collection and processing",
+       "canonical": "other",
+       "words": 168
+      },
+      {
+       "heading": "Recurrent mutation gene estimation",
+       "canonical": "other",
+       "words": 341
+      },
+      {
+       "heading": "Transcript fusion data collection and analysis",
+       "canonical": "other",
+       "words": 117
+      },
+      {
+       "heading": "Definition of genes associated with significant genomic alterations at a pan-cancer level",
+       "canonical": "other",
+       "words": 208
+      },
+      {
+       "heading": "Characterization of dependencies of the PDGs in cancer cell growth",
+       "canonical": "other",
+       "words": 323
+      },
+      {
+       "heading": "Generation of cancer drug target score",
+       "canonical": "other",
+       "words": 1309
+      },
+      {
+       "heading": "Colony formation assay",
+       "canonical": "other",
+       "words": 79
+      },
+      {
+       "heading": "RNA isolation and qRT-PCR",
+       "canonical": "other",
+       "words": 90
+      },
+      {
+       "heading": "Protein isolation and Western blot",
+       "canonical": "other",
+       "words": 83
+      },
+      {
+       "heading": "CDK7 single allele knockout by CRISPR/Cas9",
+       "canonical": "other",
+       "words": 177
+      }
+     ]
+    },
+    {
+     "heading": "QUANTIFICATION AND STATISTICAL ANALYSIS",
+     "canonical": "other",
+     "words": 164
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary Material",
+   "canonical": "supplementary",
+   "words": 0
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "ACKNOWLEDGMENTS",
+   "canonical": "acknowledgements",
+   "words": 115
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 324,
+  "results": 3459,
+  "discussion": 1244,
+  "methods": 5590,
+  "supplementary": 0
+ },
+ "main_text_words": 10617,
+ "main_text_words_excluding_methods": 5027,
+ "limitations": {
+  "placement": "subsection of DISCUSSION",
+  "words": 250
+ },
+ "figures_main": 7,
+ "figures": [
+  {
+   "label": "Figure 1.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 2.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3.",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 4.",
+   "kind_guess": [
+    "mr_scatter",
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 5.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 6.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 7.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "KEY RESOURCES TABLE"
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 10,
+ "supplementary": [
+  {
+   "label": "1"
+  },
+  {
+   "label": "2"
+  },
+  {
+   "label": "4"
+  },
+  {
+   "label": "5"
+  },
+  {
+   "label": "6"
+  },
+  {
+   "label": "7"
+  },
+  {
+   "label": "8"
+  },
+  {
+   "label": "9"
+  },
+  {
+   "label": "10"
+  },
+  {
+   "label": "11"
+  }
+ ],
+ "references": 79,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

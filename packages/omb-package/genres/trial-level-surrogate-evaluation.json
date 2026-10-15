@@ -1,0 +1,2510 @@
+{
+  "schema_version": "genre-profile/1",
+  "genre": "trial-level-surrogate-evaluation",
+  "genre_name": "Trial-level surrogate endpoint evaluation (meta-analytic surrogacy: R2 trial, R2 individual, surrogate threshold effect)",
+  "scope": "Meta-analyses that test whether treatment effects on a candidate surrogate (PFS, PFS2, RFS/DFS, ORR, pCR, MRD, proteinuria, LDL-C, patient-reported scores...) predict treatment effects on the final endpoint (OS, kidney failure, cardiovascular events) across randomised trials. Covers aggregate-data systematic reviews with weighted trial-level regression (6/9 exemplars) and IPD two-level designs (copula or Bayesian individual- plus trial-level; 3/9). Outputs: R2 trial (with CI), individual- or arm-level association, STE, leave-one-out or external validation, subgroup/sensitivity analyses. Excludes single-trial mediation or proportion-explained analyses, prognostic-marker association studies without randomised contrasts, and reviews of surrogacy methods. Oncology dominates (6/9); non-oncology exemplars: cardiometabolic (E7), nephrology (E8), heart failure (E9).",
+  "built_on": "2026-10-13",
+  "word_count_convention": "jats_structure.py prose words; captions/tables/citations/headings excluded; main = I+M+R+D(+L,C)",
+  "exemplars": [
+    {
+      "id": "E1",
+      "citation": "Sugumar K, Lie JJ, Stucky CC, et al. Pathologic complete response and survival in rectal cancer: a systematic review and meta-analysis. JAMA Netw Open. 2025;8(7):e2521197.",
+      "doi": "10.1001/jamanetworkopen.2025.21197",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12268488/",
+      "pmcid": "PMC12268488",
+      "licence": "CC BY 4.0",
+      "journal": "JAMA Network Open",
+      "year": 2025,
+      "article_type": "Original Investigation (systematic review and meta-analysis)",
+      "disease_area": "oncology (rectal cancer, neoadjuvant therapy); surrogate pCR, final OS/DFS",
+      "guideline_cited": [
+        "PRISMA (cites PRISMA-P 2015 as its PRISMA reference)",
+        "PROSPERO",
+        "RoB 2",
+        "GRADE"
+      ],
+      "measurement_file": "_measurements/trial-level-surrogate-evaluation/E1.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:27 fixed extractor)",
+      "measured": {
+        "main_text_words": 2990,
+        "main_text_words_excluding_methods": 2404,
+        "section_words": {
+          "introduction": 448,
+          "methods": 586,
+          "results": 645,
+          "discussion": 1255,
+          "conclusions": 56
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Importance",
+          "Objective",
+          "Data Sources",
+          "Study Selection",
+          "Data Extraction and Synthesis",
+          "Main Outcomes and Measures",
+          "Results",
+          "Conclusions and Relevance"
+        ],
+        "abstract_words": 322,
+        "extra_summaries": [
+          "Key Points (69 words; Question/Findings/Meaning)",
+          "teaser (25 words)"
+        ],
+        "figures_main": 4,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "prisma_flow",
+          "surrogacy_scatter",
+          "surrogacy_scatter",
+          "rob_summary_figure",
+          "characteristics_table"
+        ],
+        "references": 73,
+        "supplement_files": 2,
+        "supplement_types": [
+          "full search strategy (eAppendix)",
+          "risk-of-bias table per study",
+          "GRADE certainty table",
+          "forest plots of pooled surrogate and final-outcome effects",
+          "influence (Baujat) plots",
+          "sensitivity/subgroup surrogacy scatters",
+          "funnel plot",
+          "data sharing statement"
+        ],
+        "limitations_placement": "headed subsection 'Limitations' at the end of Discussion (330 words)",
+        "statements": [
+          "PROSPERO",
+          "PRISMA",
+          "data sharing statement (supplement)",
+          "competing interests",
+          "author contributions"
+        ],
+        "corrections": "supplement_files 4 -> 2 (each supplementary-material node appears twice in the XML). Surrogacy reported as weighted-regression slope (beta) with CI, not R2. No Funding/Support statement found in the JATS front matter."
+      }
+    },
+    {
+      "id": "E2",
+      "citation": "Zhang Z, Pan Q, Lu M, et al. Intermediate endpoints as surrogates for outcomes in cancer immunotherapy: a systematic review and meta-analysis of phase 3 trials. EClinicalMedicine. 2023;63:102156.",
+      "doi": "10.1016/j.eclinm.2023.102156",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10432823/",
+      "pmcid": "PMC10432823",
+      "licence": "CC BY-NC-ND 4.0",
+      "journal": "eClinicalMedicine (Lancet family)",
+      "year": 2023,
+      "article_type": "Articles (research article)",
+      "disease_area": "oncology (pan-tumour immune checkpoint inhibitor trials); surrogates ORR/DCR/PFS/1-year OS, final OS",
+      "guideline_cited": [
+        "PRISMA 2009 (Liberati E&E)",
+        "PROSPERO",
+        "ReSEEM (R2 thresholds)",
+        "Cochrane risk-of-bias tool",
+        "Ciani 2014 (validation methods review)",
+        "[author omitted] 2000 meta-analytic framework"
+      ],
+      "measurement_file": "_measurements/trial-level-surrogate-evaluation/E2.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:27 fixed extractor)",
+      "measured": {
+        "main_text_words": 3723,
+        "main_text_words_excluding_methods": 2760,
+        "section_words": {
+          "introduction": 351,
+          "methods": 963,
+          "results": 712,
+          "discussion": 1697
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods",
+          "Findings",
+          "Interpretation",
+          "Funding"
+        ],
+        "abstract_words": 404,
+        "extra_summaries": [
+          "Research in context box (272 words; Evidence before this study / Added value / Implications)"
+        ],
+        "figures_main": 2,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "prisma_flow",
+          "surrogacy_scatter",
+          "characteristics_table",
+          "surrogacy_results_table",
+          "key_points_box"
+        ],
+        "references": 190,
+        "supplement_files": 1,
+        "supplement_types": [
+          "search terms",
+          "per-trial treatment effects on surrogate and OS",
+          "funnel plot (publication bias)",
+          "event counts / grading by trial"
+        ],
+        "limitations_placement": "unheaded paragraph near the end of Discussion, after a strengths paragraph (343 words; strengths 191)",
+        "statements": [
+          "PROSPERO",
+          "PRISMA",
+          "ethics (not required: public de-identified data)",
+          "role of the funding source",
+          "data sharing statement",
+          "declaration of interests",
+          "contributors"
+        ],
+        "corrections": "figures_main 3 -> 2: 'Figure S1' (funnel plot) carries a non-breaking space in its label and slipped past the supplementary-label filter. supplement_files 2 -> 1 (duplicate node). Methods total includes an 'Ethics' (17 w) and 'Role of the funding source' (4 w) subsection."
+      }
+    },
+    {
+      "id": "E3",
+      "citation": "Simon F, Ligtvoet R, Robrecht S, et al. End point surrogacy in first-line chronic lymphocytic leukemia. J Clin Oncol. 2025;43(4):381-391.",
+      "doi": "10.1200/jco.24.01192",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11771364/",
+      "pmcid": "PMC11771364",
+      "licence": "CC BY 4.0",
+      "journal": "Journal of Clinical Oncology",
+      "year": 2025,
+      "article_type": "Original Reports (Hematologic Malignancy)",
+      "disease_area": "haematological oncology (chronic lymphocytic leukaemia); surrogates PFS and MRD, final OS; IPD from 12 study-group trials plus published phase 3 trials",
+      "guideline_cited": [
+        "IQWiG Rapid Report A10-05 (2011) thresholds",
+        "Ciani 2017 Value Health framework",
+        "[author omitted] 2000 / [author omitted] 2001 meta-analytic framework"
+      ],
+      "measurement_file": "_measurements/trial-level-surrogate-evaluation/E3.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:27 fixed extractor)",
+      "measured": {
+        "main_text_words": 3326,
+        "main_text_words_excluding_methods": 2457,
+        "section_words": {
+          "introduction": 408,
+          "methods": 869,
+          "results": 1024,
+          "discussion": 1025
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Purpose",
+          "Patients and Methods",
+          "Results",
+          "Conclusion"
+        ],
+        "abstract_words": 288,
+        "extra_summaries": [
+          "CONTEXT box (174 words; JCO Key Objective / Knowledge Generated / Relevance)"
+        ],
+        "figures_main": 3,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "prisma_flow",
+          "arm_level_scatter",
+          "km_curve",
+          "surrogacy_scatter",
+          "characteristics_table",
+          "characteristics_table",
+          "key_points_box"
+        ],
+        "references": 58,
+        "supplement_files": 1,
+        "supplement_types": [
+          "supplementary methods",
+          "sensitivity analyses (tables S1-S7)",
+          "trial lists and patient characteristics by data set (S8-S12)",
+          "individual-level correlation at multiple landmark time points (figs S5-S19)"
+        ],
+        "limitations_placement": "unheaded paragraphs before the concluding paragraph of Discussion (~225 words)",
+        "statements": [
+          "ethics (original trial approvals and consent)",
+          "data sharing statement",
+          "support/funding",
+          "conflict-of-interest disclosures",
+          "author contributions"
+        ],
+        "corrections": "supplement_files 0 -> 1: the online Data Supplement is cited in text but not encoded in the JATS. Fig 1 is a combined patient- and trial-selection flow chart (classified prisma_flow). Fig 2 combines an outcome-rate correlation scatter and Kaplan-Meier curves by MRD status."
+      }
+    },
+    {
+      "id": "E4",
+      "citation": "Filis P, Filis N, Foukakis T, et al. Progression-free survival 2 (PFS2) as a surrogate endpoint for overall survival (OS) in breast cancer randomized controlled clinical trials. ESMO Open. 2026;11(2):106062.",
+      "doi": "10.1016/j.esmoop.2026.106062",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12865639/",
+      "pmcid": "PMC12865639",
+      "licence": "CC BY 4.0",
+      "journal": "ESMO Open",
+      "year": 2026,
+      "article_type": "Original Research",
+      "disease_area": "oncology (advanced breast cancer); surrogate PFS2 (and PFS1), final OS",
+      "guideline_cited": [
+        "ReSEEM (states adherence)",
+        "PRISMA 2020",
+        "PROSPERO",
+        "IQWiG A10-05 thresholds",
+        "[author omitted] 2008"
+      ],
+      "measurement_file": "_measurements/trial-level-surrogate-evaluation/E4.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:27 fixed extractor)",
+      "measured": {
+        "main_text_words": 4826,
+        "main_text_words_excluding_methods": 3968,
+        "section_words": {
+          "introduction": 440,
+          "methods": 858,
+          "results": 1961,
+          "discussion": 1567
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Materials and methods",
+          "Results",
+          "Conclusion"
+        ],
+        "abstract_words": 244,
+        "extra_summaries": [
+          "Highlights (45 words)"
+        ],
+        "figures_main": 4,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "prisma_flow",
+          "surrogacy_scatter",
+          "surrogacy_scatter",
+          "surrogacy_scatter",
+          "characteristics_table"
+        ],
+        "references": 49,
+        "supplement_files": 2,
+        "supplement_types": [
+          "excluded studies with reasons",
+          "per-trial HRs for PFS1, PFS2 and OS",
+          "crossover / control-arm exposure table",
+          "arm-level medians table",
+          "leave-one-out sensitivity table",
+          "validation and subgroup surrogacy scatters (S1-S13)"
+        ],
+        "limitations_placement": "combined strengths-then-limitations paragraph at the end of Discussion (~170 of 242 words on limitations)",
+        "statements": [
+          "ReSEEM",
+          "PRISMA",
+          "PROSPERO",
+          "funding (none declared)",
+          "disclosure",
+          "data sharing"
+        ],
+        "corrections": "supplement_files 4 -> 2 (duplicate nodes). Funding, Disclosure and Data sharing sit as subsections of Acknowledgments (back matter). No ethics statement."
+      }
+    },
+    {
+      "id": "E5",
+      "citation": "Squifflet P, Saad ED, Kurt M, et al. Evaluating the potential of candidate surrogate endpoints for overall survival in treatment-naive metastatic melanoma treated with anti-PD-1-based regimens with or without anti-CTLA-4 therapy. J Immunother Cancer. 2026;14(9):e016440.",
+      "doi": "10.1136/jitc-2026-016440",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13548217/",
+      "pmcid": "PMC13548217",
+      "licence": "CC BY-NC 4.0",
+      "journal": "Journal for ImmunoTherapy of Cancer (BMJ family)",
+      "year": 2026,
+      "article_type": "Original research",
+      "disease_area": "oncology (metastatic melanoma, first-line immunotherapy); surrogates ORR, PFS, time to next treatment, final OS; IPD from four sponsor trials",
+      "guideline_cited": [
+        "[author omitted]/[author omitted] two-level meta-analytic framework (2005 book; [author omitted] 2022)"
+      ],
+      "measurement_file": "_measurements/trial-level-surrogate-evaluation/E5.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:27 fixed extractor)",
+      "measured": {
+        "main_text_words": 4940,
+        "main_text_words_excluding_methods": 3640,
+        "section_words": {
+          "introduction": 601,
+          "methods": 1300,
+          "results": 1235,
+          "discussion": 1804
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods",
+          "Results",
+          "Conclusion"
+        ],
+        "abstract_words": 323,
+        "extra_summaries": [
+          "What is already known / What this study adds / How this study might affect research box (120 words)"
+        ],
+        "figures_main": 4,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "surrogacy_scatter",
+          "surrogacy_scatter",
+          "surrogacy_scatter",
+          "surrogacy_scatter",
+          "characteristics_table",
+          "surrogacy_results_table",
+          "key_points_box"
+        ],
+        "references": 61,
+        "supplement_files": 1,
+        "supplement_types": [
+          "OS by response category (Kaplan-Meier)",
+          "additional exploratory analyses"
+        ],
+        "limitations_placement": "unheaded paragraph inside Discussion opening with the key limitation (~610 words, the longest in the set)",
+        "statements": [
+          "ethics approval: not applicable",
+          "patient consent: not applicable",
+          "funding (sponsor)",
+          "data availability on reasonable request"
+        ],
+        "corrections": "No literature search (IPD from four trials), so no flow diagram. No competing-interests statement found in the JATS (BMJ journals print one; absent from the XML)."
+      }
+    },
+    {
+      "id": "E6",
+      "citation": "Li Y, Yuan S, Chen Y, et al. Evaluating relapse-free survival as an endpoint for overall survival in adjuvant immunotherapy trials. J Natl Cancer Inst. 2023;115(9):1085-1091.",
+      "doi": "10.1093/jnci/djad125",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10483266/",
+      "pmcid": "PMC10483266",
+      "licence": "CC BY-NC 4.0",
+      "journal": "JNCI: Journal of the National Cancer Institute",
+      "year": 2023,
+      "article_type": "Article",
+      "disease_area": "oncology (resectable solid tumours, adjuvant immune checkpoint inhibitors); surrogate RFS, final OS",
+      "guideline_cited": [
+        "ReSEEM (R2 thresholds)",
+        "PRISMA 2009 (Liberati E&E)",
+        "Cochrane risk-of-bias tool",
+        "[author omitted] 2000",
+        "[author omitted] & [author omitted] 2006 (STE)"
+      ],
+      "measurement_file": "_measurements/trial-level-surrogate-evaluation/E6.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:27 fixed extractor)",
+      "measured": {
+        "main_text_words": 2687,
+        "main_text_words_excluding_methods": 1903,
+        "section_words": {
+          "introduction": 256,
+          "methods": 784,
+          "results": 656,
+          "discussion": 991
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods",
+          "Results",
+          "Conclusions"
+        ],
+        "abstract_words": 263,
+        "extra_summaries": [],
+        "figures_main": 4,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "arm_level_scatter",
+          "surrogacy_scatter",
+          "surrogacy_scatter",
+          "loo_cross_validation_plot",
+          "surrogacy_results_table"
+        ],
+        "references": 39,
+        "supplement_files": 1,
+        "supplement_types": [
+          "search strategy (Supplementary Box 1)",
+          "PRISMA flow diagram",
+          "trial characteristics table",
+          "risk-of-bias table"
+        ],
+        "limitations_placement": "unheaded paragraph just before the one-paragraph conclusion of Discussion (183 words)",
+        "statements": [
+          "patient and public involvement",
+          "data availability",
+          "funding",
+          "conflicts of interest",
+          "author contributions"
+        ],
+        "corrections": "Introduction is untitled lead paragraphs (256 w, counted). Methods includes a PPI subsection (18 w). supplement_files 2 -> 1. Body (Discussion) cites one prior surrogacy MA in pancreatic cancer; title/abstract/keywords are clean (contamination_title_abstract empty)."
+      }
+    },
+    {
+      "id": "E7",
+      "citation": "Liaigre L, Guigui A, Manceau M, et al. Trial-level surrogacy of non-high-density and low-density lipoprotein cholesterol reduction on the clinical efficacy of statins. Eur Heart J Cardiovasc Pharmacother. 2025;11(4):387-392.",
+      "doi": "10.1093/ehjcvp/pvaf016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12231127/",
+      "pmcid": "PMC12231127",
+      "licence": "CC BY-NC 4.0",
+      "journal": "European Heart Journal - Cardiovascular Pharmacotherapy",
+      "year": 2025,
+      "article_type": "Review (journal label; umbrella review feeding a trial-level surrogacy meta-regression)",
+      "disease_area": "cardiometabolic (statin trials); surrogates LDL-C and non-HDL-C reduction, final MACE/mortality/MI/stroke",
+      "guideline_cited": [
+        "PRISMA 2020",
+        "OSF-registered protocol",
+        "RoB 2",
+        "GRADE",
+        "IQWiG A10-05 thresholds",
+        "Ciani 2016 validation framework",
+        "[author omitted] 2000",
+        "[author omitted] & [author omitted] 2006 (STE)"
+      ],
+      "measurement_file": "_measurements/trial-level-surrogate-evaluation/E7.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:27 fixed extractor)",
+      "measured": {
+        "main_text_words": 2962,
+        "main_text_words_excluding_methods": 2227,
+        "section_words": {
+          "introduction": 500,
+          "methods": 735,
+          "results": 479,
+          "discussion": 1171,
+          "conclusions": 77
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 310,
+        "extra_summaries": [],
+        "figures_main": 2,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "prisma_flow",
+          "surrogacy_scatter",
+          "surrogacy_results_table"
+        ],
+        "references": 27,
+        "supplement_files": 1,
+        "supplement_types": [
+          "trial characteristics table",
+          "per-trial outcome and lipid data",
+          "risk-of-bias figure",
+          "pooled-effect plots",
+          "absolute-risk and non-weighted sensitivity regressions",
+          "cumulative R2 over time"
+        ],
+        "limitations_placement": "unheaded final paragraph of Discussion before a separate Conclusions section (177 words)",
+        "statements": [
+          "OSF protocol",
+          "PRISMA",
+          "patient and public involvement",
+          "funding",
+          "conflict of interest: none declared",
+          "data availability (dataset and code on OSF)",
+          "author contributions"
+        ],
+        "corrections": "Abstract encoded as one unstructured paragraph in the JATS. supplement_files 2 -> 1. Only exemplar sharing analysis code (OSF)."
+      }
+    },
+    {
+      "id": "E8",
+      "citation": "Maillard N, El Karoui K, Mercer A, et al. Early change in proteinuria as a surrogate endpoint in studies of IgA nephropathy: an updated patient-level meta-analysis and discussion of appropriate methodology. Adv Ther. 2026;43(1):200-213.",
+      "doi": "10.1007/s12325-025-03402-5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12858593/",
+      "pmcid": "PMC12858593",
+      "licence": "CC BY-NC 4.0",
+      "journal": "Advances in Therapy (Springer)",
+      "year": 2026,
+      "article_type": "Original Research",
+      "disease_area": "nephrology (IgA nephropathy); surrogate early change in proteinuria, final composite of creatinine doubling/kidney failure/death",
+      "guideline_cited": [
+        "prior CKD-EPI/Inker and Thompson Bayesian meta-regression methods (no reporting guideline cited)"
+      ],
+      "measurement_file": "_measurements/trial-level-surrogate-evaluation/E8.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:27 fixed extractor)",
+      "measured": {
+        "main_text_words": 3373,
+        "main_text_words_excluding_methods": 2596,
+        "section_words": {
+          "introduction": 780,
+          "methods": 777,
+          "results": 556,
+          "discussion": 1153,
+          "conclusions": 107
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Introduction",
+          "Methods",
+          "Results",
+          "Conclusions"
+        ],
+        "abstract_words": 300,
+        "extra_summaries": [
+          "Key Summary Points (130 words; Why carry out this study? / What was learned?)"
+        ],
+        "figures_main": 3,
+        "tables_main": 3,
+        "display_item_kinds": [
+          "surrogacy_scatter",
+          "surrogacy_scatter",
+          "surrogacy_scatter",
+          "surrogacy_results_table",
+          "surrogacy_results_table",
+          "results_table",
+          "key_points_box"
+        ],
+        "references": 40,
+        "supplement_files": 1,
+        "supplement_types": [
+          "search strategies",
+          "added-trial details"
+        ],
+        "limitations_placement": "no limitations paragraph; limitations dispersed through Discussion (data-access paragraph ~130 words)",
+        "statements": [
+          "ethical approval (secondary analysis)",
+          "funding",
+          "conflict of interest",
+          "data availability (IPD cannot be shared)",
+          "author contributions"
+        ],
+        "corrections": "abstract_words 318 -> 300 (dropped Springer's 'Supplementary Information' stub and keyword line). tables_main 4 -> 3: the unlabeled table is the Key Summary Points box. Print year 2026 (online 2025, which the extractor reports)."
+      }
+    },
+    {
+      "id": "E9",
+      "citation": "Fukuta H, Goto T. Association between treatment-induced changes in the Kansas City Cardiomyopathy Questionnaire and clinical outcomes in chronic heart failure: a trial-level meta-regression analysis. Int J Cardiol Heart Vasc. 2026;63:101881.",
+      "doi": "10.1016/j.ijcha.2026.101881",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12865619/",
+      "pmcid": "PMC12865619",
+      "licence": "CC BY 4.0",
+      "journal": "International Journal of Cardiology: Heart & Vasculature",
+      "year": 2026,
+      "article_type": "Original Paper",
+      "disease_area": "cardiology (chronic heart failure); surrogate change in KCCQ (patient-reported), final CV death/HF hospitalisation",
+      "guideline_cited": [
+        "PRISMA 2009 (Moher)",
+        "risk-of-bias assessment"
+      ],
+      "measurement_file": "_measurements/trial-level-surrogate-evaluation/E9.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:27 fixed extractor)",
+      "measured": {
+        "main_text_words": 2240,
+        "main_text_words_excluding_methods": 1436,
+        "section_words": {
+          "introduction": 243,
+          "methods": 804,
+          "results": 358,
+          "discussion": 750,
+          "conclusions": 85
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods",
+          "Results",
+          "Conclusion"
+        ],
+        "abstract_words": 250,
+        "extra_summaries": [],
+        "figures_main": 2,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "prisma_flow",
+          "surrogacy_scatter",
+          "characteristics_table"
+        ],
+        "references": 27,
+        "supplement_files": 6,
+        "supplement_types": [
+          "excluded studies with reasons",
+          "risk-of-bias table",
+          "alternative-model results",
+          "leave-one-out tables"
+        ],
+        "limitations_placement": "unheaded final paragraph of Discussion before a separate Conclusion section (204 words)",
+        "statements": [
+          "PRISMA",
+          "ethics (not required: published literature)",
+          "funding (grant in Acknowledgement)",
+          "competing interests",
+          "CRediT contributions"
+        ],
+        "corrections": "No data availability statement and no registration found. 'Declaration of competing interest' was classed back-matter 'other' by the extractor (not main text)."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "title",
+      "heading": "Title",
+      "aliases": [],
+      "order": 1,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [
+        {
+          "id": "names_surrogate_and_final",
+          "description": "names the candidate surrogate and the final (true) endpoint",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "(PFS|DFS|RFS|EFS|ORR|pCR|MRD|response|proteinuria|albuminuria|cholesterol|LDL|KCCQ|eGFR|GFR|HbA1c|viral load|end ?points?).{0,120}(overall survival|OS\\b|survival|outcomes?|mortality|kidney failure|events)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "surrogacy_word",
+          "description": "uses 'surrogate'/'surrogacy'/'end point for' wording",
+          "level": "typical",
+          "frequency": "7/9",
+          "detect": [
+            "surrogat",
+            "end ?point for"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "design_word",
+          "description": "names the design (meta-analysis / meta-regression / trial-level / patient-level)",
+          "level": "typical",
+          "frequency": "5/9",
+          "detect": [
+            "meta-?analys",
+            "meta-?regression",
+            "trial-level",
+            "patient-level",
+            "systematic review"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "ReSEEM item 1 asks the title to state IPD vs aggregate-data meta-analysis and the surrogates examined; only E8 names the data type (patient-level).",
+      "basis": "both"
+    },
+    {
+      "id": "abstract",
+      "heading": "Abstract",
+      "aliases": [
+        "Summary"
+      ],
+      "order": 2,
+      "level": "required",
+      "words": {
+        "min": 250,
+        "typical": 300,
+        "max": 400
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "See the abstract block for headings and required elements.",
+      "basis": "frequency"
+    },
+    {
+      "id": "key_points",
+      "heading": "Key Points",
+      "aliases": [
+        "Research in context",
+        "Context",
+        "What is already known on this topic / What this study adds",
+        "Key Summary Points",
+        "Highlights"
+      ],
+      "order": 3,
+      "level": "typical",
+      "words": {
+        "min": 50,
+        "typical": 125,
+        "max": 250
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "6/9; the form is set by the venue: JAMA Key Points, Lancet-family Research in context, JCO Context, BMJ-family 'What this study adds', Springer Key Summary Points, Elsevier Highlights.",
+      "basis": "frequency",
+      "venue_governed": true
+    },
+    {
+      "id": "introduction",
+      "heading": "Introduction",
+      "aliases": [
+        "Background"
+      ],
+      "order": 4,
+      "level": "required",
+      "words": {
+        "min": 250,
+        "typical": 450,
+        "max": 800
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "why_surrogate_needed",
+          "description": "why a surrogate is needed (final endpoint slow, diluted by later therapy, or rare); regulatory use of the surrogate",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "surrogat",
+            "accelerated approval|FDA|EMA|regulator",
+            "follow-up|crossover|subsequent (therapy|treatment)|post-?progression"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "prior_surrogacy_evidence",
+          "description": "prior individual- vs trial-level evidence for this surrogate and the gap",
+          "level": "typical",
+          "frequency": "7/9",
+          "detect": [
+            "trial[- ]level",
+            "patient[- ]level|individual[- ]level",
+            "meta-?analys"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "ReSEEM items 3-4: rationale for the surrogate in this disease context and prespecified surrogacy hypotheses.",
+      "basis": "both"
+    },
+    {
+      "id": "methods",
+      "heading": "Methods",
+      "aliases": [
+        "Materials and methods",
+        "Patients and methods"
+      ],
+      "order": 5,
+      "level": "required",
+      "words": {
+        "min": 600,
+        "typical": 800,
+        "max": 1300
+      },
+      "subsections": [
+        {
+          "heading": "Search strategy and study selection",
+          "aliases": [
+            "Search strategy",
+            "Data sources and eligibility criteria",
+            "Literature searches and study selection",
+            "Search strategy and selection criteria",
+            "Study selection",
+            "Systematic literature review",
+            "Patients and studies"
+          ],
+          "aliases_regex": [
+            "search",
+            "data sources",
+            "literature",
+            "eligib",
+            "study selection",
+            "selection criteria",
+            "patients and studies"
+          ],
+          "level": "required",
+          "frequency": "8/9 (E5 used IPD from four sponsor trials, no search)",
+          "words": {
+            "min": 100,
+            "typical": 150,
+            "max": 450
+          },
+          "notes": "Databases, dates, terms, eligibility (randomised comparisons reporting effects on both endpoints), two independent reviewers. E2 folds eligibility and risk of bias into this subsection (469 w).",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Data extraction",
+          "aliases": [
+            "Data extraction and outcome measures",
+            "Study selection and data extraction",
+            "Data extraction, quality assessment, and outcome measures"
+          ],
+          "aliases_regex": [
+            "data extraction",
+            "data collection"
+          ],
+          "level": "typical",
+          "frequency": "5/9",
+          "words": {
+            "min": 50,
+            "typical": 100,
+            "max": 250
+          },
+          "notes": "Which effect measures were extracted (HR, OR, mean difference) and from which analysis/data cut.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Endpoints and definitions",
+          "aliases": [
+            "End points and criteria for evaluation",
+            "Study objectives and candidate endpoints",
+            "Primary objective and endpoints",
+            "Outcomes"
+          ],
+          "aliases_regex": [
+            "end ?points?",
+            "outcomes?",
+            "objectives?"
+          ],
+          "level": "optional",
+          "frequency": "4/9 as a heading; endpoint definitions present 9/9",
+          "words": {
+            "min": 50,
+            "typical": 150,
+            "max": 250
+          },
+          "notes": "ReSEEM item 14: define each surrogate and the final endpoint and describe variation in definitions across trials. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Risk of bias assessment",
+          "aliases": [
+            "Assessment of the risk of bias and robustness of the results",
+            "Quality assessment"
+          ],
+          "aliases_regex": [
+            "risk of bias",
+            "quality assessment",
+            "risk-of-bias"
+          ],
+          "level": "typical",
+          "frequency": "3/9 as a heading; RoB assessed 5/9 (5/6 aggregate-data reviews)",
+          "words": null,
+          "notes": "21-119 words. Cochrane RoB / RoB 2; GRADE in 2/9.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Statistical analysis",
+          "aliases": [
+            "Statistical analyses",
+            "Statistical methods",
+            "Patient-level surrogacy",
+            "Trial-level surrogacy"
+          ],
+          "aliases_regex": [
+            "statistic",
+            "surrogacy",
+            "analys"
+          ],
+          "level": "required",
+          "frequency": "8/9 as a heading (E8 places its model under the meta-analysis subsection)",
+          "words": {
+            "min": 250,
+            "typical": 350,
+            "max": 900
+          },
+          "notes": "IPD papers (E3) split it into patient-level and trial-level subsections; E5 runs to 889 words (copula models).",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Ethics",
+          "aliases": [
+            "Ethical approval",
+            "Ethical considerations"
+          ],
+          "aliases_regex": [
+            "ethic"
+          ],
+          "level": "optional",
+          "frequency": "3/9 as a Methods subsection",
+          "words": null,
+          "notes": "Aggregate published data: approval not required. IPD: original trial approvals and consent.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Patient and public involvement",
+          "aliases": [],
+          "aliases_regex": [
+            "patient and public"
+          ],
+          "level": "optional",
+          "frequency": "2/9 (Oxford journals)",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "registration_id",
+          "description": "protocol registration (PROSPERO CRD42..., or OSF) or a statement that it was not registered",
+          "level": "required",
+          "frequency": "4/9 (4/6 aggregate-data systematic reviews)",
+          "detect": [
+            "PROSPERO",
+            "CRD42\\d+",
+            "osf\\.io",
+            "registered",
+            "protocol"
+          ],
+          "basis": "guideline",
+          "applies_when": "systematic_search"
+        },
+        {
+          "id": "reporting_guideline_statement",
+          "description": "states adherence to PRISMA and/or ReSEEM",
+          "level": "typical",
+          "frequency": "6/9 name PRISMA; 1/9 states adherence to ReSEEM",
+          "detect": [
+            "PRISMA",
+            "ReSEEM",
+            "Preferred Reporting Items",
+            "Reporting of Surrogate Endpoint Evaluation"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "unit_of_analysis",
+          "description": "unit of analysis (trial, randomised comparison/contrast, arm) and handling of multi-arm trials",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "each (trial|comparison|contrast)",
+            "unit of analysis",
+            "multi-?arm|multiple (arms|comparisons)",
+            "comparison|contrast"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "effect_metrics_log_scale",
+          "description": "treatment-effect metrics for surrogate and final endpoint (log HR, log OR, mean difference)",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "log",
+            "hazard ratio|odds ratio|risk ratio|\\bHR\\b|\\bOR\\b|\\bRR\\b",
+            "mean (difference|change)|geometric mean ratio"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "weighted_regression",
+          "description": "trial-level model: weighted linear regression or meta-regression (weights stated: sample size, deaths, inverse variance) or a bivariate / Bayesian / error-in-variables model",
+          "level": "required",
+          "frequency": "9/9 (weights: sample size 6/9, deaths 1/9, inverse variance 1/9, Bayesian 1/9)",
+          "detect": [
+            "weight",
+            "meta-?regression",
+            "linear regression",
+            "bivariate|Bayesian|error[s]?-in-variables|copula"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "r2_trial_with_ci",
+          "description": "trial-level R2 (or weighted correlation) with its CI method (Fisher z, bootstrap, R package Surrogate/TrialLevelMA, credible interval)",
+          "level": "required",
+          "frequency": "8/9 (E1 reports a regression slope only)",
+          "detect": [
+            "R ?2|R²|coefficient of determination",
+            "95% (CI|confidence|credible)",
+            "bootstrap|Fisher|TrialLevelMA|Surrogate package"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "surrogacy_criteria",
+          "description": "prespecified surrogacy criteria and thresholds (ReSEEM R2 >=0.7 strong / 0.5-0.69 moderate / <0.5 weak; IQWiG CI-bound rule on r: >=0.85 high, <=0.7 low)",
+          "level": "required",
+          "frequency": "5/9 in Methods (E2, E3, E4, E5, E6); E7 applies IQWiG in Discussion",
+          "detect": [
+            "(≥|>=|>|<|≤|<=) ?0\\.(5|7|8|85|9)",
+            "IQWiG|Institute for Quality",
+            "ReSEEM",
+            "strong|moderate|weak"
+          ],
+          "basis": "guideline"
+        },
+        {
+          "id": "individual_level_method",
+          "description": "individual-level (patient-level) association: copula Kendall tau / Spearman rho, or an arm-level outcome correlation as a proxy when only aggregate data exist",
+          "level": "typical",
+          "frequency": "5/9 (IPD 2/9; arm-level 3/9)",
+          "detect": [
+            "individual[- ]level|patient[- ]level|arm[- ]level",
+            "copula|Kendall|Spearman|landmark"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "ste_method",
+          "description": "surrogate threshold effect from the 95% prediction interval of the trial-level regression",
+          "level": "optional",
+          "frequency": "2/9 (E6, E7)",
+          "detect": [
+            "surrogate threshold effect",
+            "\\bSTE\\b",
+            "prediction (interval|band|limit)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "validation_method",
+          "description": "validation: leave-one-out cross-validation (observed vs predicted final effect within the prediction interval) and/or external trials",
+          "level": "typical",
+          "frequency": "7/9 (LOO 5/9; external trials 3/9)",
+          "detect": [
+            "leave-one-out",
+            "cross-validation",
+            "external (validation|trials?|data)",
+            "prediction interval"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "subgroup_sensitivity_plan",
+          "description": "prespecified subgroup/sensitivity analyses (drug class, line or setting, endpoint maturity, crossover, phase, risk of bias)",
+          "level": "required",
+          "frequency": "8/9",
+          "detect": [
+            "subgroup",
+            "sensitivity analys",
+            "stratif"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "software",
+          "description": "software and packages named",
+          "level": "required",
+          "frequency": "8/9",
+          "detect": [
+            "\\bR\\b (software|version|package)|RStudio|SAS|SPSS|Stata|MedCalc|WinBUGS|JAGS|metafor"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Methods always precede Results (no methods-last venue among exemplars).",
+      "basis": "frequency"
+    },
+    {
+      "id": "results",
+      "heading": "Results",
+      "aliases": [
+        "Findings"
+      ],
+      "order": 6,
+      "level": "required",
+      "words": {
+        "min": 350,
+        "typical": 650,
+        "max": 1950
+      },
+      "subsections": [
+        {
+          "heading": "Study characteristics",
+          "aliases": [
+            "Study characteristics and quality",
+            "Patient characteristics",
+            "Characteristics of the four trials"
+          ],
+          "aliases_regex": [
+            "characteristics",
+            "study selection",
+            "included (trials|studies)"
+          ],
+          "level": "typical",
+          "frequency": "5/9 as a heading; content 9/9",
+          "words": {
+            "min": 50,
+            "typical": 250,
+            "max": 450
+          },
+          "notes": "Number of trials, comparisons and patients; endpoint maturity; drug classes. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Trial-level surrogacy",
+          "aliases": [
+            "Main analysis",
+            "Correlation of PFS2 and OS",
+            "pCR vs OS",
+            "ORR as surrogate for OS",
+            "Updated individual patient-level meta-analysis"
+          ],
+          "aliases_regex": [
+            "trial[- ]level",
+            "main analysis",
+            "correlation",
+            " vs ",
+            "as (a )?surrogate",
+            "meta-?analysis"
+          ],
+          "level": "typical",
+          "frequency": "6/9 as a heading; content 9/9",
+          "words": null,
+          "notes": "Reports R2 (CI), slope/regression equation and the strength label. E2, E7 and E9 have unheaded Results. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Individual-level association",
+          "aliases": [
+            "Patient-level surrogacy",
+            "Correlation between PFS and OS",
+            "Correlation of median PFS2 and OS"
+          ],
+          "aliases_regex": [
+            "patient[- ]level",
+            "individual[- ]level",
+            "arm[- ]level",
+            "median"
+          ],
+          "level": "typical",
+          "frequency": "5/9",
+          "words": null,
+          "notes": "With IPD: copula tau/rho, or survival by surrogate response. Without IPD: arm-level correlation of outcome rates or medians.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Subgroup and sensitivity analyses",
+          "aliases": [
+            "Risk of bias and sensitivity analysis",
+            "Line of treatment",
+            "OS maturity",
+            "Sensitivity analysis"
+          ],
+          "aliases_regex": [
+            "subgroup",
+            "sensitivity",
+            "maturity",
+            "line of treatment",
+            "stratif"
+          ],
+          "level": "typical",
+          "frequency": "7/9",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Validation",
+          "aliases": [
+            "External trial-level validation",
+            "Leave-one-out cross-validation"
+          ],
+          "aliases_regex": [
+            "validation",
+            "leave-one-out",
+            "cross-validation"
+          ],
+          "level": "typical",
+          "frequency": "7/9 report validation; 1/9 as a heading",
+          "words": null,
+          "notes": "ReSEEM item 23.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Surrogate threshold effect",
+          "aliases": [
+            "Assessment of STE"
+          ],
+          "aliases_regex": [
+            "threshold effect",
+            "\\bSTE\\b"
+          ],
+          "level": "optional",
+          "frequency": "2/9",
+          "words": null,
+          "notes": "ReSEEM item 22 asks for the STE in disease context.",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "n_trials_comparisons_patients",
+          "description": "number of trials, randomised comparisons and patients analysed",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "\\d+ (\\w+ ){0,3}(trials|RCTs|studies|comparisons|contrasts)",
+            "\\d[\\d, ]* (patients|participants)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "r2_value_ci",
+          "description": "trial-level R2 (or r) with 95% CI for each surrogate-final pair",
+          "level": "required",
+          "frequency": "8/9",
+          "detect": [
+            "R ?2 ?=|R² ?=|R2trial|R ?2 trial",
+            "95% CI"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "regression_equation_slope",
+          "description": "regression slope/intercept or equation",
+          "level": "typical",
+          "frequency": "5/9 in Results text (others give it in a table or caption)",
+          "detect": [
+            "slope",
+            "intercept",
+            "β|beta"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "strength_label",
+          "description": "strength of surrogacy labelled against the prespecified criteria (strong/moderate/weak; IQWiG high/medium/low/inconclusive)",
+          "level": "required",
+          "frequency": "8/9",
+          "detect": [
+            "(strong|moderate|weak|low|high|inconclusive)\\w* (\\w+ ){0,3}(association|correlation|surrogacy)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "discussion",
+      "heading": "Discussion",
+      "aliases": [
+        "Comment"
+      ],
+      "order": 7,
+      "level": "required",
+      "words": {
+        "min": 750,
+        "typical": 1150,
+        "max": 1800
+      },
+      "subsections": [
+        {
+          "heading": "Limitations",
+          "aliases": [
+            "Strengths and limitations"
+          ],
+          "aliases_regex": [
+            "limitation"
+          ],
+          "level": "required",
+          "frequency": "9/9 discuss limitations; headed only in JAMA (1/9); otherwise an unheaded paragraph opening 'This study has several limitations'",
+          "words": {
+            "min": 150,
+            "typical": 200,
+            "max": 600
+          },
+          "notes": "See the limitations block.",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "principal_finding",
+          "description": "opening paragraph restates the trial-level verdict",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "(trial|patient)[- ]level",
+            "surrogat|associat|correlat"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "comparison_prior_surrogacy",
+          "description": "comparison with earlier surrogacy meta-analyses, explaining discordance (data type, endpoint maturity, drug class)",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "previous|prior|earlier|in contrast",
+            "meta-?analys"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "regulatory_hta_context",
+          "description": "implications for regulators/HTA (FDA, EMA, IQWiG, accelerated approval) and for trial design",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "FDA|Food and Drug|EMA|European Medicines|IQWiG|regulat|health technology|accelerated approval"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "class_specific_caveat",
+          "description": "surrogacy is specific to disease, setting and mechanism; extrapolation to new drug classes is cautioned",
+          "level": "optional",
+          "frequency": "3/9 (E3, E4, E5)",
+          "detect": [
+            "mechanism|class|setting|first-line|new(er)? (agents|drugs|therapies)",
+            "generali[sz]|extrapolat|caution|context-dependent|specific to"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "strengths_paragraph",
+          "description": "explicit strengths paragraph",
+          "level": "optional",
+          "frequency": "3/9",
+          "detect": [
+            "strength"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "5/9 end Discussion with an 'In conclusion/In summary' paragraph instead of a separate Conclusions section.",
+      "basis": "frequency"
+    },
+    {
+      "id": "conclusions",
+      "heading": "Conclusions",
+      "aliases": [
+        "Conclusion"
+      ],
+      "order": 8,
+      "level": "optional",
+      "words": {
+        "min": 50,
+        "typical": 100,
+        "max": 100
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "4/9 have a separate section (JAMA, EHJ-CVP, Springer, Elsevier IJC-HV). 56-107 words.",
+      "basis": "frequency"
+    },
+    {
+      "id": "data_availability",
+      "heading": "Data availability",
+      "aliases": [
+        "Data sharing statement",
+        "Data sharing",
+        "Data Availability Statement"
+      ],
+      "order": 9,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/9. Aggregate data: 'included in the article and supplement'. IPD: on request, or cannot be shared.",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "heading": "Funding",
+      "aliases": [
+        "Support",
+        "Role of the funding source",
+        "Acknowledgement"
+      ],
+      "order": 10,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/9 (E1 none in JATS). Lancet family adds Funding to the abstract.",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "heading": "Competing interests",
+      "aliases": [
+        "Declaration of interests",
+        "Conflict of Interest Disclosures",
+        "Disclosure",
+        "Conflicts of interest"
+      ],
+      "order": 11,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/9 (E5 none in JATS).",
+      "basis": "frequency"
+    },
+    {
+      "id": "ethics",
+      "heading": "Ethics",
+      "aliases": [
+        "Ethical approval",
+        "Ethics approval",
+        "Ethical considerations"
+      ],
+      "order": 12,
+      "level": "typical",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "5/9; in Methods (3) or back matter (2).",
+      "basis": "frequency"
+    },
+    {
+      "id": "contributions",
+      "heading": "Author contributions",
+      "aliases": [
+        "Contributors",
+        "CRediT authorship contribution statement"
+      ],
+      "order": 13,
+      "level": "typical",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "7/9.",
+      "basis": "frequency"
+    },
+    {
+      "id": "acknowledgements",
+      "heading": "Acknowledgements",
+      "aliases": [
+        "Acknowledgments",
+        "Acknowledgment"
+      ],
+      "order": 14,
+      "level": "typical",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "6/9.",
+      "basis": "frequency"
+    },
+    {
+      "id": "references",
+      "heading": "References",
+      "aliases": [],
+      "order": 15,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplement",
+      "heading": "Supplementary material",
+      "aliases": [
+        "Supplement 1",
+        "Data Supplement",
+        "Supplementary data",
+        "Online supplemental file"
+      ],
+      "order": 16,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "9/9 have supplementary material (E3's Data Supplement is online only).",
+      "basis": "frequency"
+    }
+  ],
+  "section_order_variants": [
+    {
+      "name": "IMRaD, conclusion folded into last Discussion paragraph",
+      "order": [
+        "introduction",
+        "methods",
+        "results",
+        "discussion"
+      ],
+      "seen_in": [
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    {
+      "name": "IMRaD + separate Conclusions",
+      "order": [
+        "introduction",
+        "methods",
+        "results",
+        "discussion",
+        "conclusions"
+      ],
+      "seen_in": [
+        "E1",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    }
+  ],
+  "main_text_words": {
+    "min": 2250,
+    "typical": 3350,
+    "max": 4950,
+    "counted": [
+      "introduction",
+      "methods",
+      "results",
+      "discussion",
+      "limitations",
+      "conclusions"
+    ],
+    "methods_counted": true,
+    "notes": "Observed 2240-4940 (median 3326). Excluding Methods: 1450-3950 (median 2450). JAMA Netw Open caps Original Investigations at 3000 words (E1: 2990). IPD papers with copula models run longer (E5: 4940)."
+  },
+  "abstract": {
+    "format": "structured",
+    "words": {
+      "min": 250,
+      "typical": 300,
+      "max": 400
+    },
+    "heading_sets": [
+      {
+        "family": "JAMA",
+        "headings": [
+          "Importance",
+          "Objective",
+          "Data Sources",
+          "Study Selection",
+          "Data Extraction and Synthesis",
+          "Main Outcomes and Measures",
+          "Results",
+          "Conclusions and Relevance"
+        ],
+        "seen_in": [
+          "E1"
+        ]
+      },
+      {
+        "family": "Lancet family (eClinicalMedicine)",
+        "headings": [
+          "Background",
+          "Methods",
+          "Findings",
+          "Interpretation",
+          "Funding"
+        ],
+        "seen_in": [
+          "E2"
+        ]
+      },
+      {
+        "family": "JCO",
+        "headings": [
+          "Purpose",
+          "Patients and Methods",
+          "Results",
+          "Conclusion"
+        ],
+        "seen_in": [
+          "E3"
+        ]
+      },
+      {
+        "family": "ESMO Open",
+        "headings": [
+          "Background",
+          "Materials and methods",
+          "Results",
+          "Conclusion"
+        ],
+        "seen_in": [
+          "E4"
+        ]
+      },
+      {
+        "family": "BMJ family / Oxford / Elsevier generic",
+        "headings": [
+          "Background",
+          "Methods",
+          "Results",
+          "Conclusion(s)"
+        ],
+        "seen_in": [
+          "E5",
+          "E6",
+          "E9"
+        ]
+      },
+      {
+        "family": "Springer (Adv Ther)",
+        "headings": [
+          "Introduction",
+          "Methods",
+          "Results",
+          "Conclusions"
+        ],
+        "seen_in": [
+          "E8"
+        ]
+      },
+      {
+        "family": "unstructured paragraph",
+        "headings": [],
+        "seen_in": [
+          "E7"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "id": "n_trials_patients",
+        "description": "number of trials/comparisons (often spelled out at sentence start) and patients",
+        "level": "required",
+        "frequency": "9/9 trials; 7/9 patients",
+        "detect": [
+          "\\b\\d+ (\\w+ ){0,3}(trials|RCTs|studies|comparisons|contrasts)",
+          "\\b(Four|Five|Six|Seven|Eight|Nine|Ten|Eleven|Twelve|Thirteen|Fourteen|Fifteen|Sixteen|Seventeen|Eighteen|Nineteen|Twenty[- ]?\\w*)\\b (\\w+ ){0,3}(trials|RCTs|studies)",
+          "\\d[\\d,  ]* (patients|participants)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "surrogate_final_named",
+        "description": "candidate surrogate(s) and final endpoint named",
+        "level": "required",
+        "frequency": "9/9",
+        "detect": [
+          "surrogat|end ?point|intermediate"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "r2_with_ci",
+        "description": "trial-level R2 (or r / slope) with 95% CI",
+        "level": "required",
+        "frequency": "7/9 R2; 8/9 give some CI",
+        "detect": [
+          "R ?2|R²|R2trial|coefficient of determination",
+          "95% ?C[IrR]|credible"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "surrogacy_verdict",
+        "description": "explicit verdict on surrogacy strength / whether the surrogate should be used",
+        "level": "required",
+        "frequency": "9/9",
+        "detect": [
+          "(strong|moderate|weak|poor|valid|reliable|insufficient)\\w* (\\w+ ){0,3}(surroga|correlat|associat)",
+          "(support|recommend|caution|should not|cannot)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "ste_in_abstract",
+        "description": "STE reported in the abstract",
+        "level": "optional",
+        "frequency": "2/9",
+        "detect": [
+          "surrogate threshold",
+          "\\bSTE\\b"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "data_sources_dates",
+        "description": "databases and search dates",
+        "level": "optional",
+        "frequency": "4/9",
+        "detect": [
+          "PubMed|MEDLINE|Embase|EMBASE|Cochrane|Web of Science|Scopus",
+          "inception|through|until|up to"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "registration_in_abstract",
+        "description": "registration ID in abstract",
+        "level": "optional",
+        "frequency": "1/9 (E2); PRISMA 2020 for Abstracts item 12",
+        "detect": [
+          "PROSPERO",
+          "CRD42\\d+"
+        ],
+        "basis": "frequency"
+      }
+    ],
+    "extra_summaries": [
+      {
+        "name": "Key Points / Research in context / Context / What this study adds / Key Summary Points / Highlights",
+        "level": "typical",
+        "frequency": "6/9",
+        "words": {
+          "min": 50,
+          "typical": 125,
+          "max": 250
+        },
+        "notes": "Venue-specific: JAMA Key Points 75-100 words (E1 69); Lancet-family Research in context (E2 272); JCO Context (E3 174); BMJ-family box (E5 120); Springer Key Summary Points (E8 130); ESMO Highlights (E4 45)."
+      }
+    ],
+    "checklist": "ReSEEM item 2 (structured summary: objectives and endpoints, data type IPD/aggregate, trials and patients, surrogacy criteria, R2/STE results, conclusion); PRISMA 2020 for Abstracts (12 items) when a systematic search is part of the design"
+  },
+  "display_items": [
+    {
+      "id": "surrogacy_scatter",
+      "priority": 1,
+      "type": "figure",
+      "kind": "trial-level surrogacy bubble plot: treatment effect on the surrogate (x) vs on the final endpoint (y), log scale, one bubble per trial/comparison sized by weight, weighted regression line, ideally a 95% prediction band and STE marker",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 2,
+        "max": 4
+      },
+      "placement": "main",
+      "frequency": "9/9 (main 9/9); prediction band shown 3/9, STE marked 1/9",
+      "detect": [
+        "trial[- ]level",
+        "surrogacy|surrogate",
+        "treatment effects?",
+        "meta-?regression",
+        "weighted regression",
+        "association between",
+        "correlation between",
+        "scatter"
+      ],
+      "omerta_kind": null,
+      "notes": "No paper-writer kind matches; nearest is the MR scatter (one point per unit, fitted slope). ReSEEM item 22: bubble plot with regression line and prediction interval. Multi-panel per surrogate or per subgroup is common (E2, E4, E5, E7, E9).",
+      "basis": "both"
+    },
+    {
+      "id": "characteristics_table",
+      "priority": 2,
+      "type": "table",
+      "kind": "characteristics of included trials (design, phase, arms, n, setting/line, endpoint definitions, follow-up/maturity, per-trial effects)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main-or-supplement",
+      "frequency": "8/9 (main 6/9, supplement 2/9)",
+      "detect": [
+        "characteristics",
+        "included (trials|studies)",
+        "study characteristics",
+        "patient characteristics",
+        "selected characteristics"
+      ],
+      "omerta_kind": null,
+      "notes": "ReSEEM item 20. IPD papers give one table per data set (E3).",
+      "basis": "both"
+    },
+    {
+      "id": "prisma_flow",
+      "priority": 3,
+      "type": "figure",
+      "kind": "PRISMA flow diagram of trial selection (or patient + trial selection for IPD)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "7/9 (main 6/9, supplement 1/9); required whenever a systematic search was run (7/8 such exemplars show one)",
+      "detect": [
+        "PRISMA",
+        "flow ?(diagram|chart)",
+        "flowchart",
+        "study selection",
+        "trial selection"
+      ],
+      "omerta_kind": "Data-flow diagram",
+      "notes": "Missing only in E5 (no search) and E8 (search reported without a flow figure).",
+      "basis": "frequency",
+      "applies_when": "systematic_search"
+    },
+    {
+      "id": "surrogacy_results_table",
+      "priority": 4,
+      "type": "table",
+      "kind": "R2 / correlation (95% CI), slope, STE by surrogate, subgroup and sensitivity analysis",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "5/9",
+      "detect": [
+        "R ?2|R²",
+        "strength",
+        "surrogacy analysis",
+        "weighted linear regression",
+        "main analyses and sensitivity",
+        "summary (of the )?(results|findings)"
+      ],
+      "omerta_kind": null,
+      "notes": "E2 subgroup R2 table; E5 individual- and trial-level strengths; E6 main + sensitivity; E7 R2trial and STE per outcome; E8 updated meta-regression results.",
+      "basis": "frequency"
+    },
+    {
+      "id": "sensitivity_table",
+      "priority": 5,
+      "type": "table",
+      "kind": "leave-one-out / alternative-model / sensitivity regressions",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 6
+      },
+      "placement": "supplement",
+      "frequency": "5/9 (E3, E4, E7, E9 in supplement; E1 as sensitivity scatters)",
+      "detect": [
+        "leave-one-out",
+        "sensitivity",
+        "cross-validation",
+        "non-weighted",
+        "alternative"
+      ],
+      "omerta_kind": "Null distribution, power curve, split diagram",
+      "notes": "E6 is the one exemplar with a main-text LOO figure (observed vs predicted HR with prediction intervals).",
+      "basis": "frequency"
+    },
+    {
+      "id": "arm_level_scatter",
+      "priority": 6,
+      "type": "figure",
+      "kind": "NEW ID: arm-level / outcome-level correlation scatter (e.g. 2-year RFS rate vs 3-year OS rate, or median PFS vs median OS per arm); the aggregate-data stand-in for individual-level surrogacy",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "3/9 (E2 panel, E3 panel, E6)",
+      "detect": [
+        "arm[- ]level",
+        "rate (at|vs)",
+        "median",
+        "patient-level surrogacy"
+      ],
+      "omerta_kind": null,
+      "notes": "Not in the shared vocabulary; added for this genre.",
+      "basis": "frequency"
+    },
+    {
+      "id": "km_curve",
+      "priority": 7,
+      "type": "figure",
+      "kind": "Kaplan-Meier curves of the final endpoint by surrogate status (response, MRD) for the individual-level association",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "2/9 (E3 main, E5 supplement)",
+      "detect": [
+        "Kaplan",
+        "according to (MRD|response)",
+        "by (response|MRD)",
+        "survival curves?"
+      ],
+      "omerta_kind": null,
+      "notes": "IPD designs only.",
+      "basis": "frequency"
+    },
+    {
+      "id": "rob_summary_figure",
+      "priority": 8,
+      "type": "figure",
+      "kind": "risk-of-bias summary (traffic light / bar)",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "2/9 (E1 main, E7 supplement)",
+      "detect": [
+        "risk of bias",
+        "risk-of-bias"
+      ],
+      "omerta_kind": null,
+      "notes": "Risk of bias is otherwise a supplementary table.",
+      "basis": "frequency"
+    },
+    {
+      "id": "forest_plot",
+      "priority": 9,
+      "type": "figure",
+      "kind": "forest plots of pooled treatment effects on the surrogate and final endpoints",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 3,
+        "max": 3
+      },
+      "placement": "supplement",
+      "frequency": "2/9 (E1, E7)",
+      "detect": [
+        "forest",
+        "pooled"
+      ],
+      "omerta_kind": "Forest plot",
+      "notes": "Pooling is secondary in this genre: the regression across trials is the analysis.",
+      "basis": "frequency"
+    },
+    {
+      "id": "funnel_plot",
+      "priority": 10,
+      "type": "figure",
+      "kind": "funnel plot / small-study effects",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "supplement",
+      "frequency": "2/9 (E1, E2)",
+      "detect": [
+        "funnel",
+        "publication bias",
+        "Egger"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "key_points_box",
+      "priority": 11,
+      "type": "box",
+      "kind": "venue summary box (Research in context, Context, What this study adds, Key Summary Points)",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "4/9 as a box (E2, E3, E5, E8); plus JAMA Key Points and ESMO Highlights as abstract-type summaries",
+      "detect": [
+        "Research in context",
+        "CONTEXT",
+        "What this study adds",
+        "Key Summary Points",
+        "Key Points",
+        "Highlights"
+      ],
+      "omerta_kind": null,
+      "notes": "Venue-driven; see abstract.extra_summaries.",
+      "basis": "frequency",
+      "venue_governed": true
+    }
+  ],
+  "display_items_main_total": {
+    "min": 3,
+    "typical": 5,
+    "max": 6
+  },
+  "required_statements": [
+    {
+      "id": "registration",
+      "label": "Protocol registration (PROSPERO CRD42..., or OSF) or explicit 'not registered'",
+      "level": "required",
+      "placement": [
+        "methods",
+        "abstract"
+      ],
+      "frequency": "4/9 registered (4/6 aggregate-data systematic reviews; none of the 3 IPD papers)",
+      "detect": [
+        "PROSPERO",
+        "CRD42\\d+",
+        "osf\\.io",
+        "not (prospectively )?registered"
+      ],
+      "notes": "Required by PRISMA 2020 item 24a and ReSEEM item 5 (defers to PRISMA).",
+      "basis": "guideline",
+      "applies_when": "systematic_search"
+    },
+    {
+      "id": "reporting_guideline",
+      "label": "Statement of the reporting guideline followed (PRISMA, ReSEEM)",
+      "level": "typical",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "6/9",
+      "detect": [
+        "PRISMA",
+        "ReSEEM",
+        "Preferred Reporting Items",
+        "Reporting of Surrogate Endpoint Evaluation"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "data_availability",
+      "label": "Data availability (aggregate data in article/supplement; IPD on request or not shareable)",
+      "level": "required",
+      "placement": [
+        "data_availability",
+        "back_matter",
+        "supplement"
+      ],
+      "frequency": "8/9",
+      "detect": [
+        "[Dd]ata (sharing|availability)",
+        "[Dd]ata [Aa]vailability",
+        "available (in the article|upon|on reasonable request|from)"
+      ],
+      "notes": "JAMA puts the Data Sharing Statement in a supplement.",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "label": "Funding and role of the funder",
+      "level": "required",
+      "placement": [
+        "funding",
+        "back_matter",
+        "abstract"
+      ],
+      "frequency": "8/9",
+      "detect": [
+        "[Ff]unding",
+        "[Ff]unded by",
+        "supported by",
+        "[Rr]ole of the funding"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "label": "Competing interests / disclosures",
+      "level": "required",
+      "placement": [
+        "competing_interests",
+        "back_matter",
+        "title_page"
+      ],
+      "frequency": "8/9",
+      "detect": [
+        "[Cc]ompeting interest",
+        "[Cc]onflicts? of [Ii]nterest",
+        "[Dd]eclaration of interests",
+        "[Dd]isclosure"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "ethics",
+      "label": "Ethics statement (aggregate published data: approval not required; IPD: original approvals and consent)",
+      "level": "typical",
+      "placement": [
+        "methods",
+        "ethics",
+        "back_matter"
+      ],
+      "frequency": "5/9",
+      "detect": [
+        "[Ee]thic\\w* (approval|review|committee)",
+        "not required",
+        "informed consent",
+        "[Nn]ot applicable"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "contributions",
+      "label": "Author contributions",
+      "level": "typical",
+      "placement": [
+        "contributions",
+        "back_matter"
+      ],
+      "frequency": "7/9",
+      "detect": [
+        "[Cc]ontribut",
+        "CRediT"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "ppi",
+      "label": "Patient and public involvement",
+      "level": "optional",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "2/9 (Oxford journals)",
+      "detect": [
+        "[Pp]atient and [Pp]ublic [Ii]nvolvement",
+        "[Pp]atients (or|and) the public were not involved"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    }
+  ],
+  "checklists": [
+    {
+      "name": "ReSEEM (Reporting of Surrogate Endpoint Evaluation using Meta-analyses)",
+      "level": "required",
+      "citation": "Xie W, Halabi S, Tierney JF, et al. A systematic review and recommendation for reporting of surrogate endpoint evaluation using meta-analyses. JNCI Cancer Spectr. 2019;3(1):pkz002",
+      "doi": "10.1093/jncics/pkz002",
+      "where": "methods (statement) + supplement (completed checklist)",
+      "frequency": "3/9 cite it (E2, E4, E6); 1/9 states adherence (E4)",
+      "notes": "The genre's dedicated guideline: 28 items. Items 5-13 and 17-19 defer to PRISMA / PRISMA-IPD; genre-specific items: 14 endpoint definitions, 15 surrogacy criteria, 16A-E individual-level, aggregate and trial-level models, STE, validation and sensitivity, 20-21 per-trial characteristics and effect estimates, 22 bubble plot with regression line and prediction interval plus STE, 23 validation, 26 limitations at several levels. Published 2019 (PMC6649812); no 2024 update was found.",
+      "basis": "guideline",
+      "kind": "reporting_guideline"
+    },
+    {
+      "name": "PRISMA 2020",
+      "level": "required",
+      "citation": "Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ. 2021;372:n71",
+      "doi": "10.1136/bmj.n71",
+      "where": "methods + supplement",
+      "frequency": "6/9 cite some PRISMA: PRISMA 2020 2/9 (E4, E7); PRISMA 2009 3/9 (E2, E6, E9); PRISMA-P 1/9 (E1)",
+      "notes": "Required when trials are found by a systematic search (7/9 designs). Amani should cite 2020, not 2009.",
+      "basis": "guideline",
+      "kind": "reporting_guideline",
+      "applies_when": "systematic_search"
+    },
+    {
+      "name": "PRISMA-IPD",
+      "level": "optional",
+      "citation": "Stewart LA, Clarke M, Rovers M, et al. Preferred Reporting Items for Systematic Review and Meta-Analyses of individual participant data: the PRISMA-IPD Statement. JAMA. 2015;313(16):1657-1665",
+      "doi": "10.1001/jama.2015.3656",
+      "where": "methods + supplement",
+      "frequency": "0/9 cite it",
+      "notes": "ReSEEM defers to it for IPD surrogacy meta-analyses (E3, E5, E8 are IPD but none cite it).",
+      "basis": "frequency",
+      "kind": "reporting_guideline",
+      "applies_when": "ipd"
+    },
+    {
+      "name": "IQWiG surrogate validity thresholds (Rapid Report A10-05)",
+      "level": "optional",
+      "citation": "Institute for Quality and Efficiency in Health Care (IQWiG). Validity of surrogate endpoints in oncology: executive summary of rapid report A10-05, version 1.1. Cologne: IQWiG; 2011",
+      "doi": null,
+      "where": "methods (surrogacy criteria) / discussion",
+      "frequency": "3/9 (E3, E4, E7)",
+      "notes": "Correlation rule on the 95% CI of r: lower bound >=0.85 = high validity; upper bound <=0.7 = low; otherwise inconclusive. Exemplars also use ReSEEM-style R2 bands (>=0.7 strong, 0.5-0.69 moderate, <0.5 weak; 2/9) or their own bands (E5).",
+      "basis": "frequency",
+      "kind": "methods_guidance"
+    },
+    {
+      "name": "Ciani et al. surrogate validation framework",
+      "level": "optional",
+      "citation": "Ciani O, [author omitted] M, Drummond M, et al. Time to review the role of surrogate end points in health policy: state of the art and the way forward. Value Health. 2017;20(3):487-495",
+      "doi": "10.1016/j.jval.2016.10.011",
+      "where": "introduction/methods/discussion",
+      "frequency": "3/9 cite a Ciani validation paper (E3 Value Health 2017; E7 Nat Rev Drug Discov 2016; E2 IJTAHC 2014)",
+      "notes": "The later Ciani 2023 framework (EClinicalMedicine 2023;65:102283, doi 10.1016/j.eclinm.2023.102283) is cited by 0/9.",
+      "basis": "frequency",
+      "kind": "methods_guidance"
+    },
+    {
+      "name": "Meta-analytic surrogate validation framework ([author omitted] 2000; STE: [author omitted] & [author omitted] 2006)",
+      "level": "typical",
+      "citation": "[author omitted] M, [author omitted] G, [author omitted] T, et al. The validation of surrogate endpoints in meta-analyses of randomized experiments. Biostatistics. 2000;1(1):49-67",
+      "doi": "10.1093/biostatistics/1.1.49",
+      "where": "methods",
+      "frequency": "7/9 cite [author omitted]/[author omitted] methods ([author omitted] 2000 4/9; STE paper 2/9)",
+      "notes": "A methods reference rather than a checklist; the lint can expect it next to the trial-level model.",
+      "basis": "frequency",
+      "kind": "methods_guidance"
+    },
+    {
+      "name": "NICE DSU TSD 20 (multivariate meta-analysis for surrogate evaluation)",
+      "level": "optional",
+      "citation": "Bujkiewicz S, Achana F, Papanikos T, Riley RD, Abrams KR. NICE DSU Technical Support Document 20: Multivariate meta-analysis of summary data for combining treatment effects on correlated outcomes and evaluating surrogate endpoints. Sheffield: NICE Decision Support Unit; 2019 (updated 2022)",
+      "doi": null,
+      "where": "methods (Bayesian bivariate models)",
+      "frequency": "0/9",
+      "notes": "Relevant for HTA-facing Bayesian bivariate/BRMA analyses; no exemplar cites it.",
+      "basis": "frequency",
+      "kind": "methods_guidance"
+    },
+    {
+      "name": "CONSORT-Surrogate / SPIRIT-Surrogate",
+      "level": "optional",
+      "citation": "Manyara AM, Davies P, Stewart D, et al. Reporting of surrogate endpoints in randomised controlled trial reports (CONSORT-Surrogate). BMJ. 2024;386:e078524; SPIRIT-Surrogate (protocols): BMJ. 2024;386:e078525",
+      "doi": "10.1136/bmj-2023-078524",
+      "where": "not applicable (trial reports/protocols that use a surrogate as primary outcome)",
+      "frequency": "0/9",
+      "notes": "Recorded at the coordinator's request; it does not govern surrogate-validation meta-analyses (SPIRIT-Surrogate doi 10.1136/bmj-2023-078525).",
+      "basis": "frequency",
+      "kind": "reporting_guideline"
+    }
+  ],
+  "supplement": [
+    {
+      "id": "per_trial_effect_estimates",
+      "item": "per-trial treatment-effect estimates on surrogate and final endpoint (HR/OR/mean difference with CI) used in the regression",
+      "level": "required",
+      "frequency": "6/9 give them (supplement 4/9: E2, E4, E7, E1 as forest plots; main 2/9: E8, E9)",
+      "detect": [
+        "hazard ratios?",
+        "treatment effects?",
+        "per[- ]trial",
+        "estimates by (study|trial)",
+        "HRs?"
+      ],
+      "notes": "ReSEEM item 21.",
+      "basis": "guideline"
+    },
+    {
+      "id": "search_strategy",
+      "item": "full search strategy for each database",
+      "level": "required",
+      "frequency": "4/9 (E1, E2, E6, E8); 4/8 of designs with a search",
+      "detect": [
+        "search (strategy|strategies|terms)",
+        "eAppendix",
+        "Supplementary Box"
+      ],
+      "notes": "PRISMA 2020 item 7.",
+      "basis": "guideline",
+      "applies_when": "systematic_search"
+    },
+    {
+      "id": "sensitivity_analyses",
+      "item": "additional surrogacy analyses: leave-one-out, alternative weighting/models, subgroup scatters, endpoint-maturity strata",
+      "level": "typical",
+      "frequency": "6/9 (E1, E2, E3, E4, E7, E9)",
+      "detect": [
+        "sensitivity",
+        "leave-one-out",
+        "subgroup",
+        "non-weighted",
+        "alternative model",
+        "matur"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "rob_assessment",
+      "item": "risk-of-bias assessment per trial (table or figure)",
+      "level": "optional",
+      "frequency": "4/9 (E1, E6, E7, E9)",
+      "detect": [
+        "risk of bias",
+        "risk-of-bias",
+        "RoB",
+        "quality"
+      ],
+      "notes": "Typical for aggregate-data reviews (4/6).",
+      "basis": "frequency"
+    },
+    {
+      "id": "trial_characteristics",
+      "item": "trial/patient characteristics table when not in main text",
+      "level": "optional",
+      "frequency": "3/9 (E3, E6, E7)",
+      "detect": [
+        "characteristics"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "excluded_studies",
+      "item": "excluded full-text studies with reasons",
+      "level": "optional",
+      "frequency": "2/9 (E4, E9)",
+      "detect": [
+        "excluded",
+        "reasons? for exclusion"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "publication_bias",
+      "item": "funnel plot / Egger test",
+      "level": "optional",
+      "frequency": "2/9 (E1, E2)",
+      "detect": [
+        "funnel",
+        "Egger",
+        "publication bias"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplementary_methods",
+      "item": "extended statistical methods (copula choice, Bayesian model, prior specification)",
+      "level": "optional",
+      "frequency": "2/9 (E3, E8)",
+      "detect": [
+        "supplement(ary|al) methods",
+        "appendix",
+        "statistical methods"
+      ],
+      "notes": "IPD designs.",
+      "basis": "frequency"
+    },
+    {
+      "id": "individual_level_detail",
+      "item": "individual-level association detail (correlation at several landmarks, survival by surrogate response)",
+      "level": "optional",
+      "frequency": "2/9 (E3, E5)",
+      "detect": [
+        "landmark",
+        "time points?",
+        "Kaplan",
+        "by response"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    }
+  ],
+  "references": {
+    "min": 27,
+    "typical": 49,
+    "max": 190
+  },
+  "limitations": {
+    "placement": "Inside Discussion: an unheaded paragraph near the end opening 'This study has several limitations' (8/9), often after a strengths paragraph; a headed 'Limitations' subsection only in JAMA (E1). Never a top-level section.",
+    "words": {
+      "min": 150,
+      "typical": 200,
+      "max": 600
+    },
+    "conventions": [
+      "One paragraph (occasionally two) of 'First... Second... Third...' items, each conceded then softened (E3, E6, E9)",
+      "Often follows or is merged with a strengths paragraph (E2, E4, E5)",
+      "The data-type limitation comes first or second",
+      "Followed by a one-paragraph conclusion inside Discussion when there is no separate Conclusions section"
+    ],
+    "standard_items": [
+      {
+        "id": "trial_level_only",
+        "text": "Aggregate trial-level data only: individual-level surrogacy and within-trial mediation cannot be assessed; or, for IPD designs, IPD from only a subset of trials or one sponsor",
+        "level": "required",
+        "frequency": "9/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "few_trials_wide_ci",
+        "text": "Small number of trials/comparisons gives imprecise R2 and wide prediction intervals; phase 2 trials widen effect CIs",
+        "level": "typical",
+        "frequency": "5/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "between_trial_heterogeneity",
+        "text": "Heterogeneity in populations, regimens, tumour types or settings pooled in one regression",
+        "level": "typical",
+        "frequency": "5/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "immature_final_endpoint",
+        "text": "Immature final-endpoint data or short follow-up at the data cut; effects may change with longer follow-up",
+        "level": "typical",
+        "frequency": "5/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "class_specificity",
+        "text": "Surrogacy may not transfer to new drug classes, mechanisms, lines or settings",
+        "level": "optional",
+        "frequency": "3/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "endpoint_definition_variation",
+        "text": "Surrogate definitions, assessment timing or instrument domains differ across trials",
+        "level": "optional",
+        "frequency": "3/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "post_progression_crossover",
+        "text": "Crossover and post-progression therapy dilute effects on the final endpoint",
+        "level": "optional",
+        "frequency": "3/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "risk_of_bias_included",
+        "text": "Risk of bias in included trials (open-label, incomplete outcome data)",
+        "level": "optional",
+        "frequency": "3/9",
+        "basis": "frequency"
+      },
+      {
+        "id": "selection_publication_bias",
+        "text": "Incomplete trial capture or publication bias; reliance on published, not raw, data",
+        "level": "optional",
+        "frequency": "2/9",
+        "basis": "frequency"
+      }
+    ]
+  },
+  "variation_notes": "Data type drives the most structure. Aggregate-data reviews (E1, E2, E4, E6, E7, E9) carry PRISMA machinery (registration, search subsection, flow diagram, risk of bias) and report arm-level rather than individual-level association. IPD papers (E3, E5, E8) drop the flow diagram and registration, add copula or Bayesian models and Kaplan-Meier figures by surrogate status, and run longer Methods (E5: 1300 words). Venue sets the abstract headings and summary box (JAMA 8-heading abstract plus Key Points; Lancet-family Interpretation/Funding headings plus Research in context; JCO Context box; BMJ-family 'What this study adds'), the separate Conclusions section (4/9), and back-matter placement. Reference counts vary with venue rather than design (27-73, plus one outlier at 190 in E2). Interpretation thresholds are not standard: ReSEEM-style R2 bands (E2, E6), IQWiG CI-bound rule on r (E3, E4, E7), or ad hoc bands (E5). STE appears in only 2/9 despite ReSEEM recommending it.",
+  "lint_notes": [
+    "The surrogacy scatter is mandatory: one point per trial/comparison, bubble area proportional to weight (sample size, deaths or inverse variance), log-scale effects, weighted regression line; flag a missing 95% prediction band (ReSEEM item 22; shown in only 3/9) and, if an STE is reported, require it marked on the plot.",
+    "Every R2 trial needs a 95% CI and the number of trials/comparisons it rests on, in both the abstract and the Results.",
+    "Require prespecified surrogacy thresholds in Methods (cite ReSEEM R2 bands or the IQWiG CI-bound rule) and a Results strength label that uses the same scale.",
+    "Require the weighting scheme and the unit of analysis (trial vs comparison; multi-arm trials split or down-weighted) to be stated.",
+    "Aggregate-data designs: require PRISMA flow, registration (or 'not registered'), search strategy in the supplement and a risk-of-bias assessment. IPD designs: require trial provenance, ethics/consent statement and the individual-level method (copula/Kendall tau/Spearman or Bayesian).",
+    "A limitations paragraph must name the data level (trial-level only, or partial IPD), the number of trials, and endpoint maturity; some also note class or setting specificity (3/9).",
+    "Do not accept 'surrogate validated' wording when R2 < 0.7 or the IQWiG lower CI bound is < 0.85; the abstract verdict must match the prespecified criteria.",
+    "Per-trial effect estimates (both endpoints) must appear in a table or supplement so the regression is reproducible (ReSEEM item 21).",
+    "Spelled-out numbers start abstract Results sentences ('Eighteen RCTs...'); trial-count regexes must accept words as well as digits."
+  ],
+  "notes": [
+    "ReSEEM is Xie et al. 2019 (JNCI Cancer Spectr 3(1):pkz002); no 2024 revision was found. CONSORT-Surrogate and SPIRIT-Surrogate (BMJ 2024) cover trials that use surrogates; no exemplar cites them, correctly.",
+    "Candidate pool was thin for non-oncology in 2022-2026 OA full text: the CKD-EPI CT GFR-slope (Nat Med 2023) and albuminuria (Nat Med 2026) meta-analyses are not available as Europe PMC XML (author manuscript or not in PMC), so they were not used.",
+    "E7 is labelled 'Review' by its journal (umbrella review feeding an original trial-level surrogacy regression). It was kept as a cardiometabolic exemplar; its abstract is unstructured in the JATS.",
+    "E6's Discussion cites a prior pancreatic-cancer surrogacy meta-analysis once; title, abstract and keywords are clean, so the contamination rule holds.",
+    "Competing-interests (E5) and funding (E1) statements may exist on publisher pages but are absent from the JATS; frequencies count JATS only.",
+    "Only E7 shares analysis code (OSF), so code_availability is not listed as a section (1/9).",
+    "New display-item ids (not in the shared vocabulary): arm_level_scatter (display item); loo_cross_validation_plot appears only in E6's measured kinds (a leave-one-out observed-vs-predicted plot).",
+    "Limitations word counts for E4, E5 and E8 are estimates read from the Discussion paragraph structure; the others are the measured paragraph lengths."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "identifier": "main",
+  "description": "Local Studio window: events, selected file dialogs and notifications",
+  "windows": ["main"],
+  "permissions": ["core:default", "dialog:allow-open", "notification:default"]
+}

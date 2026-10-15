@@ -1,0 +1,11 @@
+template:
+Kaplan–Meier survival. Step curves show survival; bands show confidence intervals; ticks show censoring. Risk counts are shown below. [m:km.lower]
+
+text:
+Kaplan–Meier survival. Step curves show survival; bands show confidence intervals; ticks show censoring. Risk counts are shown below. 95% CI; log-log Greenwood
+
+caption template:
+Survival in the cohort. Kaplan–Meier survival. Step curves show survival; bands show confidence intervals; ticks show censoring. Risk counts are shown below. [m:km.lower] Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Survival in the cohort. Kaplan–Meier survival. Step curves show survival; bands show confidence intervals; ticks show censoring. Risk counts are shown below. 95% CI; log-log Greenwood Source: drawn by deterministic plotting code from certified data; no generative image model was used.

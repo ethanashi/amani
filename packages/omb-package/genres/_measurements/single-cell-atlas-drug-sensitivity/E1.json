@@ -1,0 +1,481 @@
+{
+ "pmcid": "PMC9767679",
+ "doi": "10.1016/j.ccell.2022.10.008",
+ "pmid": "36368318",
+ "journal": "Cancer Cell",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 15,
+ "licence": "CC BY",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 164
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 0
+  },
+  {
+   "type": "author-highlights",
+   "structured": false,
+   "headings": [],
+   "words": 39
+  },
+  {
+   "type": "teaser",
+   "structured": false,
+   "headings": [],
+   "words": 52
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 482
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 4351,
+   "sub": [
+    {
+     "heading": "Generation of a core large-scale NSCLC single-cell atlas",
+     "canonical": "other",
+     "words": 617
+    },
+    {
+     "heading": "Neutrophils are underrepresented in most scRNA-seq studies",
+     "canonical": "other",
+     "words": 285
+    },
+    {
+     "heading": "scRNA-seq of low-mRNA-content cells",
+     "canonical": "other",
+     "words": 204
+    },
+    {
+     "heading": "Extension of the core single-cell atlas by transfer learning",
+     "canonical": "other",
+     "words": 375
+    },
+    {
+     "heading": "Single-cell composition of the TME reveals distinct NSCLC tumor immune phenotypes",
+     "canonical": "other",
+     "words": 411
+    },
+    {
+     "heading": "Analysis of cell-cell communication reveals hetero-cellular crosstalk in the TME",
+     "canonical": "other",
+     "words": 250
+    },
+    {
+     "heading": "Integration of bulk RNA-seq data reveals genotype-immune phenotype associations",
+     "canonical": "other",
+     "words": 426
+    },
+    {
+     "heading": "TRNs acquire new properties in the TME",
+     "canonical": "other",
+     "words": 717
+    },
+    {
+     "heading": "Plasticity and non-canonical functional properties of TRNs",
+     "canonical": "other",
+     "words": 755
+    },
+    {
+     "heading": "TRN gene signature is associated with immune-checkpoint inhibitor treatment failure",
+     "canonical": "other",
+     "words": 311
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 935
+  },
+  {
+   "heading": "STAR★Methods",
+   "canonical": "methods",
+   "words": 4069,
+   "sub": [
+    {
+     "heading": "Key resources table",
+     "canonical": "other",
+     "words": 0
+    },
+    {
+     "heading": "Resource availability",
+     "canonical": "data_availability",
+     "words": 32,
+     "sub": [
+      {
+       "heading": "Lead contact",
+       "canonical": "other",
+       "words": 24
+      },
+      {
+       "heading": "Materials availability",
+       "canonical": "data_availability",
+       "words": 8
+      }
+     ]
+    },
+    {
+     "heading": "Experimental model and subject details",
+     "canonical": "other",
+     "words": 85,
+     "sub": [
+      {
+       "heading": "Human subjects",
+       "canonical": "other",
+       "words": 85
+      }
+     ]
+    },
+    {
+     "heading": "Method details",
+     "canonical": "methods",
+     "words": 3846,
+     "sub": [
+      {
+       "heading": "Preparation of NSCLC tissue and normal lung tissue",
+       "canonical": "other",
+       "words": 86
+      },
+      {
+       "heading": "BD Rhapsody library preparation and sequencing",
+       "canonical": "other",
+       "words": 193
+      },
+      {
+       "heading": "Flow cytometry",
+       "canonical": "other",
+       "words": 135
+      },
+      {
+       "heading": "Multiplex immunofluorescence",
+       "canonical": "other",
+       "words": 267
+      },
+      {
+       "heading": "Immunohistochemistry",
+       "canonical": "other",
+       "words": 265
+      },
+      {
+       "heading": "Generation of the core atlas",
+       "canonical": "other",
+       "words": 217
+      },
+      {
+       "heading": "Preprocessing and quality control of scRNA-seq data",
+       "canonical": "other",
+       "words": 190
+      },
+      {
+       "heading": "Integration of scRNA-seq datasets",
+       "canonical": "other",
+       "words": 259
+      },
+      {
+       "heading": "Doublet-detection",
+       "canonical": "other",
+       "words": 57
+      },
+      {
+       "heading": "Unsupervised clustering and cell-type annotation",
+       "canonical": "other",
+       "words": 62
+      },
+      {
+       "heading": "Integrating additional datasets",
+       "canonical": "other",
+       "words": 272
+      },
+      {
+       "heading": "Comparing cell-type abundances",
+       "canonical": "other",
+       "words": 122
+      },
+      {
+       "heading": "Patient stratification",
+       "canonical": "other",
+       "words": 133
+      },
+      {
+       "heading": "RNA velocity analysis",
+       "canonical": "other",
+       "words": 102
+      },
+      {
+       "heading": "Differential gene expression testing",
+       "canonical": "other",
+       "words": 106
+      },
+      {
+       "heading": "Pathway, TF and cytokine signaling signatures",
+       "canonical": "other",
+       "words": 227
+      },
+      {
+       "heading": "Cellphonedb analysis",
+       "canonical": "other",
+       "words": 177
+      },
+      {
+       "heading": "SCISSOR analysis",
+       "canonical": "other",
+       "words": 214
+      },
+      {
+       "heading": "TRN clusters",
+       "canonical": "other",
+       "words": 84
+      },
+      {
+       "heading": "TRN signatures",
+       "canonical": "other",
+       "words": 397
+      },
+      {
+       "heading": "Signature scoring in bulk RNA-seq samples",
+       "canonical": "other",
+       "words": 151
+      },
+      {
+       "heading": "Survival analysis",
+       "canonical": "other",
+       "words": 130
+      }
+     ]
+    },
+    {
+     "heading": "Quantification and statistical analysis",
+     "canonical": "other",
+     "words": 82
+    },
+    {
+     "heading": "Additional resources",
+     "canonical": "other",
+     "words": 24
+    }
+   ]
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 255,
+   "sub": [
+    {
+     "heading": "Author contributions",
+     "canonical": "contributions",
+     "words": 79
+    },
+    {
+     "heading": "Declaration of interests",
+     "canonical": "competing_interests",
+     "words": 6
+    }
+   ]
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 4,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 10,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplemental information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Data and code availability",
+   "canonical": "data_availability",
+   "words": 146
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 146,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 146
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 482,
+  "results": 4351,
+  "discussion": 935,
+  "methods": 4069,
+  "acknowledgements": 255,
+  "other_back": 14,
+  "supplementary": 146,
+  "data_availability": 146,
+  "references": 0
+ },
+ "main_text_words": 9837,
+ "main_text_words_excluding_methods": 5768,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 7,
+ "figures": [
+  {
+   "label": "",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 5",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Figure 6",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": ""
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 6,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 133,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": true,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "pancreatic"
+ ]
+}

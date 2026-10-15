@@ -1,0 +1,221 @@
+{
+  "mutations": [
+    {
+      "name": "unit-orbit",
+      "file": "packages/omb-certify/src/producers.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A1 actual 2:1 within-unit relabeling controls type I over 2,000 skewed nulls (95% Wilson CI)"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "null-symmetry-label",
+      "file": "packages/omb-certify/src/producers.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A1 nonzero null sign flips expose symmetry assumption; paired null twins retain complete units"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "paired-null-group",
+      "file": "packages/omb-certify/src/producers.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A1 nonzero null sign flips expose symmetry assumption; paired null twins retain complete units"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "material-original",
+      "file": "packages/omb-gauntlet/src/decision.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A2 materiality uses the locked MEI 5, never the software cap/default"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "integrity-lock",
+      "file": "packages/omb-gauntlet/src/labels.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A7 G2 binds integrity hypothesis mutation: producer",
+        "A7 G2 binds integrity hypothesis mutation: staging",
+        "A7 G2 binds integrity hypothesis mutation: new-claim"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "biological-tightening",
+      "file": "packages/omb-certify/src/declared-stage.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A8 declared identity can tighten biological units but cannot split them; identical records need acknowledgement"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "content-ack",
+      "file": "packages/omb-certify/src/declared-stage.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A8 declared identity can tighten biological units but cannot split them; identical records need acknowledgement"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "or-log-recovery",
+      "file": "packages/omb-certify/src/producers.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A6 OR recovery is identical to log-OR recovery on the log scale"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "worker-p-kernel-only",
+      "file": "packages/omb-certify/src/integrity.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A9/B1 trusted df/intervals admit classical or exact p, but reject forged p and omitted-method fabricated CI"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "worker-method-bypass",
+      "file": "packages/omb-certify/src/integrity.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A9/B1 trusted df/intervals admit classical or exact p, but reject forged p and omitted-method fabricated CI"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "heldout-baselines",
+      "file": "packages/omb-certify/src/performance.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A12 held-out accuracy baseline defeats a near-constant predictor under prevalence shift",
+        "A12 held-out brier baseline defeats a near-constant predictor under prevalence shift"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "performance-strata",
+      "file": "packages/omb-certify/src/performance.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A14 locked performance strata is refused at admission and execution",
+        "A14 locked performance adjustment is refused at admission and execution"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "scan-frozen-inventory",
+      "file": "packages/omb-certify/src/certify.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A11 every source extension admitted by freeze reaches the B6 scan"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "raw-fact-default",
+      "file": "packages/omb-certify/src/stage.ts",
+      "assertionKilled": true,
+      "failures": [
+        "B4 software facts distinguish raw and effective views for corroborated duplicates"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "gaussian-envelope",
+      "file": "packages/omb-certify/src/producers.ts",
+      "assertionKilled": true,
+      "failures": [
+        "B7 Gaussian adjusted null generator controls small-design type I over 2,000 nulls (95% Wilson CI)"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "paired-planted-truth",
+      "file": "packages/omb-certify/src/producers.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A4 paired plasmode keeps unit effects and equal-weight truth in unbalanced tables"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "logistic-null-model",
+      "file": "packages/omb-certify/src/producers.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A5 OR/logistic null models never arithmetically shift binary outcomes, including nonzero offsets"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "cli-task-runtime",
+      "file": "packages/omb-certify/src/cli.ts",
+      "assertionKilled": true,
+      "failures": [
+        "B5 shipped CLI reads host-pinned python runtime and activation from task environment",
+        "B5 shipped CLI reads host-pinned Rscript runtime and activation from task environment"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "freeze-ast-policy",
+      "file": "packages/omb-certify/src/source-policy.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A11 freeze refuses dynamic import/exec/subprocess in bad.PY",
+        "A11 freeze refuses dynamic import/exec/subprocess in bad.py",
+        "A11 freeze refuses dynamic import/exec/subprocess in bad.py",
+        "A11 freeze refuses dynamic import/exec/subprocess in bad.cjs",
+        "A11 freeze refuses dynamic import/exec/subprocess in bad.mts"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "heldout-column-level",
+      "file": "packages/omb-certify/src/certify.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A13 custom biological unit names must agree across held-out and training declarations"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "repeated-waiver",
+      "file": "packages/omb-certify/src/certify.ts",
+      "assertionKilled": true,
+      "failures": [
+        "A3/A10 repeated sign-flip executes G5a without a name-based waiver",
+        "A3/A10 repeated permutation test executes G5a without a name-based waiver"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "supervisor-exit-race",
+      "file": "packages/omb-certify/src/native/reap-sandbox.c",
+      "assertionKilled": true,
+      "failures": [
+        "B6 census proves policy samples belong to one live identity (exit and reuse at exact boundaries)"
+      ],
+      "exitCode": 1
+    },
+    {
+      "name": "performance-recovery-baselines",
+      "file": "packages/omb-certify/src/performance.ts",
+      "assertionKilled": true,
+      "failures": [
+        "R6 recovery runs 100 binary unit plasmodes at the MEI, retaining failures in denominators"
+      ],
+      "exitCode": 1
+    }
+  ]
+}

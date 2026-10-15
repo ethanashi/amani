@@ -1,0 +1,236 @@
+{
+ "pmcid": "PMC10729503",
+ "doi": "10.1186/s12916-023-03227-5",
+ "pmid": "38110950",
+ "journal": "BMC Medicine",
+ "year": 2023,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Research Article"
+ ],
+ "title_words": 19,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods",
+    "Results",
+    "Conclusions",
+    "Supplementary Information"
+   ],
+   "words": 359
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Background",
+   "canonical": "introduction",
+   "words": 379
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 1388,
+   "sub": [
+    {
+     "heading": "Study design overview",
+     "canonical": "methods",
+     "words": 589
+    },
+    {
+     "heading": "Statistical analysis",
+     "canonical": "other",
+     "words": 799,
+     "sub": [
+      {
+       "heading": "Instrument strength",
+       "canonical": "other",
+       "words": 39
+      },
+      {
+       "heading": "Mendelian randomization",
+       "canonical": "other",
+       "words": 275
+      },
+      {
+       "heading": "Colocalisation analysis",
+       "canonical": "other",
+       "words": 61
+      },
+      {
+       "heading": "Phenome-wide association study",
+       "canonical": "other",
+       "words": 232
+      },
+      {
+       "heading": "Statistical significance ascertainment",
+       "canonical": "key_points",
+       "words": 54
+      },
+      {
+       "heading": "Comparison of SLC13A5 inhibition with higher plasma citrate levels by any mechanism",
+       "canonical": "other",
+       "words": 61
+      },
+      {
+       "heading": "Availability of code and data",
+       "canonical": "data_availability",
+       "words": 77
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 687
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1194
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 89
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary Information",
+     "canonical": "supplementary",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 15
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "Authors’ contributions",
+   "canonical": "contributions",
+   "words": 0
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 0
+  },
+  {
+   "heading": "Availability of data and materials",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Declarations",
+   "canonical": "declarations",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 379,
+  "methods": 1388,
+  "results": 687,
+  "discussion": 1194,
+  "conclusions": 89,
+  "other_back": 0
+ },
+ "main_text_words": 3737,
+ "main_text_words_excluding_methods": 2349,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 3,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 70,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": true,
+  "strobe": true,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

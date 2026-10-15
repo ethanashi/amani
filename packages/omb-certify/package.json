@@ -1,0 +1,10 @@
+{
+  "name": "@omerta-bio/certify",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "bin": {
+    "omb": "./src/cli.ts"
+  },
+  "license": "AGPL-3.0-only"
+}

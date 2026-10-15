@@ -1,0 +1,18 @@
+{
+  "schema": "bio-pilot/arm-registry@1",
+  "notes": "V4 integration payload only. Copy this reserved entry into bio-tasks/pilot/arms.json during V10; do not amend a locked study from this package.",
+  "arms": {
+    "codex-tools-gauntlet": {
+      "label": "B+G: Codex checks tool pack plus the v2 claim service",
+      "runner": "codex-tools-gauntlet",
+      "dispatch": "packages/omb-adapters/pilot/run-task.sh",
+      "family": "codex",
+      "efforts": ["low", "medium", "high", "xhigh", "max"],
+      "parityWith": "plain-codex",
+      "toolpack": "checks",
+      "unsupportedTasks": {"p16-recovery": "native resume containment tested; pilot interruption receipt/active-cap integration belongs to V10"},
+      "retired": null,
+      "reserved": "V4 implementation; V5 route-H look, V8 Claude G7, V10 task dispatch and study amendment required before activation"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "fixture": "synthetic; not scientific findings",
+  "manuscriptHash": "473ef3d595cf7b69198085dc5c2cd48d71553404de376af93c9a8e2521bfdea2",
+  "budget": 5,
+  "sections": [
+    {
+      "heading": "Title",
+      "words": 6
+    },
+    {
+      "heading": "Authors",
+      "words": 6
+    },
+    {
+      "heading": "Structured abstract",
+      "words": 132
+    },
+    {
+      "heading": "Plain summary",
+      "words": 50
+    },
+    {
+      "heading": "Summary of findings",
+      "words": 288
+    },
+    {
+      "heading": "Introduction",
+      "words": 461
+    },
+    {
+      "heading": "Methods",
+      "words": 926
+    },
+    {
+      "heading": "Results",
+      "words": 400
+    },
+    {
+      "heading": "Verification and robustness analyses",
+      "words": 140
+    },
+    {
+      "heading": "Analyses abandoned, and why",
+      "words": 9
+    },
+    {
+      "heading": "Discussion",
+      "words": 560
+    },
+    {
+      "heading": "Limitations",
+      "words": 694
+    },
+    {
+      "heading": "Data availability",
+      "words": 9
+    },
+    {
+      "heading": "Code availability",
+      "words": 18
+    },
+    {
+      "heading": "AI-use disclosure",
+      "words": 38
+    },
+    {
+      "heading": "Acknowledgments",
+      "words": 36
+    },
+    {
+      "heading": "Author contributions (CRediT)",
+      "words": 10
+    },
+    {
+      "heading": "Competing interests",
+      "words": 22
+    },
+    {
+      "heading": "Funding",
+      "words": 4
+    },
+    {
+      "heading": "Ethics statement",
+      "words": 11
+    },
+    {
+      "heading": "Research scope",
+      "words": 7
+    },
+    {
+      "heading": "References",
+      "words": 45
+    },
+    {
+      "heading": "Supplement",
+      "words": 1816
+    }
+  ],
+  "pending": [
+    "STROBE:1b",
+    "STROBE:5",
+    "STROBE:6a",
+    "STROBE:6b",
+    "STROBE:9",
+    "STROBE:11",
+    "STROBE:12b",
+    "STROBE:12d",
+    "STROBE:12e",
+    "STROBE:13a",
+    "STROBE:13b",
+    "STROBE:13c",
+    "STROBE:14a",
+    "STROBE:14b",
+    "STROBE:14c",
+    "STROBE:15",
+    "STROBE:16a",
+    "STROBE:16b",
+    "STROBE:16c",
+    "STROBE:17",
+    "STROBE:19"
+  ]
+}

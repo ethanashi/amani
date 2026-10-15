@@ -1,0 +1,47 @@
+{
+  "instrument": {
+    "top_variants": [
+      "V18669175",
+      "V18669593",
+      "V18670073",
+      "V18670577",
+      "V18668774"
+    ],
+    "n_shared": 1252
+  },
+  "ranked": {
+    "0": {
+      "dataset": "B",
+      "or": 0.5973500497765706,
+      "classification": "protective"
+    },
+    "1": {
+      "dataset": "H",
+      "or": 0.743229303729299,
+      "classification": "protective"
+    },
+    "2": {
+      "dataset": "D",
+      "or": 0.8691391939466654,
+      "classification": "protective"
+    },
+    "3": {
+      "classification": "inconclusive"
+    },
+    "4": {
+      "classification": "inconclusive"
+    },
+    "5": {
+      "classification": "inconclusive"
+    },
+    "6": {
+      "classification": "inconclusive"
+    }
+  },
+  "ratio": {
+    "estimate": 3.673758865248227,
+    "ci_low": 2.611360594412524
+  },
+  "conclusion": "gap",
+  "incomplete": false
+}

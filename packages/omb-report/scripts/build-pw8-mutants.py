@@ -1,0 +1,220 @@
+#!/usr/bin/env python3
+"""Builds scripts/pw8-mutants.json: one directed mutant per PW8 guard (each a single exact
+source edit). Every 'from' must occur exactly once in its file; the build fails otherwise.
+Equivalent or unreachable sites are listed in OMITTED with the reason, never silently dropped."""
+import json, pathlib
+
+SRC = pathlib.Path(__file__).resolve().parent.parent / 'src' / 'reverify'
+M = []
+def m(id, file, frm, to):
+    M.append({'id': id, 'file': f'reverify/{file}', 'from': frm, 'to': to})
+T = lambda guard: guard  # readability marker
+
+# sign.ts
+m('S-hex', 'sign.ts', "requireThat(/^[0-9a-f]+$/u.test(hex), 'letters", "requireThat(true, 'letters")
+m('S-letters', 'sign.ts', "requireThat(/^[a-p]+$/u.test(text), 'letters", "requireThat(true, 'letters")
+m('S-build-hash', 'sign.ts', "requireThat(/^[0-9a-f]{64}$/u.test(paperInputHash),", "requireThat(true,")
+m('S-nonce-empty', 'sign.ts', "nonce.length > 0 && nonce.length <= 128", "nonce.length <= 128")
+m('S-nonce-long', 'sign.ts', "nonce.length > 0 && nonce.length <= 128", "nonce.length > 0")
+m('S-key-length', 'sign.ts', "masterKey.length >= 32", "masterKey.length >= 0")
+m('S-build-format', 'sign.ts', "requireThat(/^[a-p]{64}$/u.test(buildId), 'build ID must", "requireThat(true, 'build ID must")
+m('S-domain', 'sign.ts', "requireThat(typeof payload.d === 'string' && payload.d.startsWith('omb/pw8/'),", "requireThat(true,")
+m('S-compare', 'sign.ts', "return expected.length === actual.length && timingSafeEqual(expected, actual);", "return expected.length === actual.length;")
+
+# manuscript.ts
+m('M-decompose-cover', 'manuscript.ts', "for (const t of tokens) requireThat(chosen.some(", "for (const t of []) requireThat(chosen.some(")
+m('M-decompose-longest', 'manuscript.ts', "(b.end - b.start) - (a.end - a.start) || a.start - b.start", "(a.end - a.start) - (b.end - b.start) || a.start - b.start")
+m('M-decompose-token', 'manuscript.ts', "if (tokens.some((t) => o.start <= t.start && t.end <= o.end)) chosen.push(o);", "chosen.push(o);")
+m('M-closed-control', 'manuscript.ts', "requireThat(!/[\\p{Cf}\\p{Cc}]/u.test(i.text), `${where}: control", "requireThat(true, `${where}: control")
+m('M-closed-digit', 'manuscript.ts', "if (i.t === 'text') requireThat(!hasNumber(i.text),", "if (i.t === 'text') requireThat(true,")
+m('M-closed-empty', 'manuscript.ts', "else requireThat(i.text.length > 0 && i.key.length > 0,", "else requireThat(true,")
+m('M-sentence-agree', 'manuscript.ts', "requireThat(visible === s.text.replace(/\\*/gu, ''),", "requireThat(true,")
+m('M-sentence-markup', 'manuscript.ts', "if (m[7]) refuse('unexpected markup", "if (false) refuse('unexpected markup")
+m('M-empty-unit', 'manuscript.ts', "requireThat(text.trim().length > 0, `${where}: empty unit`);", "requireThat(true, `${where}: empty unit`);")
+m('M-template-digit', 'manuscript.ts', "requireThat(!hasNumber(part), `${where}: software template", "requireThat(true, `${where}: software template")
+m('M-unknown-key', 'manuscript.ts', "requireThat(text !== undefined, `${where}: unknown software value", "requireThat(true, `${where}: unknown software value")
+m('M-pipe', 'manuscript.ts', "requireThat(tableLines.length >= 2 && /^\\|(?:\\s*:?-{3,}:?\\s*\\|)+$/u.test(tableLines[1]!.trim()),", "requireThat(true,")
+m('M-ragged', 'manuscript.ts', "requireThat(rows.every((r) => r.length === header.length), 'ragged", "requireThat(true, 'ragged")
+m('M-svg-strict', 'manuscript.ts', "requireThat(parsed.root && !parsed.issues.length, 'figure SVG", "requireThat(parsed.root, 'figure SVG")
+m('M-dup-section', 'manuscript.ts', "requireThat(new Set(plan.sections.map((s) => s.id)).size === plan.sections.length,", "requireThat(true,")
+m('M-section-id', 'manuscript.ts', "requireThat(/^[a-z][a-z-]{0,39}$/u.test(sp.id),", "requireThat(true,")
+m('M-dup-block', 'manuscript.ts', "requireThat(new Set(sp.blocks.map((b) => b.id)).size === sp.blocks.length,", "requireThat(true,")
+m('M-heading-digit', 'manuscript.ts', "sp.heading.trim() && !hasNumber(sp.heading)", "sp.heading.trim()")
+m('M-empty-software', 'manuscript.ts', "requireThat(bp.paragraphs.length > 0,", "requireThat(true,")
+m('M-empty-protected', 'manuscript.ts', "requireThat(bp.regions.length > 0,", "requireThat(true,")
+m('M-protected-hash', 'manuscript.ts', "requireThat(/^[A-Za-z0-9_.-]+$/u.test(r.id) && canonicalSha256({ id: r.id, text: r.text }) === r.sha256,", "requireThat(/^[A-Za-z0-9_.-]+$/u.test(r.id),")
+m('M-dup-protected', 'manuscript.ts', "requireThat(!protectedRegions.some((p) => p.id === r.id),", "requireThat(true,")
+m('M-figure-slug', 'manuscript.ts', "requireThat(/^[a-z][a-z0-9-]{0,63}$/u.test(f.id),", "requireThat(true,")
+m('M-caption-digit', 'manuscript.ts', "bp.caption.trim() && !hasNumber(bp.caption)", "bp.caption.trim()")
+m('M-empty-notes', 'manuscript.ts', "requireThat(bp.notes.length > 0,", "requireThat(true,")
+m('M-placed-twice', 'manuscript.ts', "requireThat(new Set(figures.map((f) => f.id)).size === figures.length && new Set(tables.map((t) => t.id)).size === tables.length,", "requireThat(true,")
+m('M-template-origin', 'manuscript.ts', "const template = s.claimIds.length > 0 && s.citationKeys.length === 0;", "const template = false;")
+m('M-skeleton-text', 'manuscript.ts', "text: u.origin === 'software' ? canonicalSha256(u.template ? templateCore(u.text) : u.text) : null,", "text: null,")
+m('M-template-core', 'manuscript.ts', "if (text.startsWith(c + ' ')) return text.slice(c.length + 1);", "if (false) return text.slice(c.length + 1);")
+m('M-results-lock', 'manuscript.ts', "requireThat(validLock(ctx, id) || c.status === 'exploratory' || c.status === 'voided', 'outcome", "requireThat(true, 'outcome")
+m('M-figure-number', 'manuscript.ts', "const label = `Figure ${number}`;", "const label = `Figure ${number + 1}`;")
+
+# skeleton.ts
+m('K-context', 'skeleton.ts', "if (baseline.contextSha256 !== edited.contextSha256) changes.push", "if (false) changes.push")
+m('K-spine-same', 'skeleton.ts', "    if (step.op === 'same') continue;\n    const x", "    continue;\n    const x")
+m('K-spine-values', 'skeleton.ts', "const spineKey = (u: SkeletonUnit): string => canonicalJson(u);", "const spineKey = (u: SkeletonUnit): string => canonicalJson({ ...u, values: [] });")
+m('K-is-spine', 'skeleton.ts', "u.o === 'software' || u.values.length > 0", "u.o === 'software'")
+m('K-glue-added', 'skeleton.ts', "type: 'glue-added', allowed: mode === 'revision'", "type: 'glue-added', allowed: true")
+m('K-glue-removed', 'skeleton.ts', "type: 'glue-removed', allowed: mode === 'revision'", "type: 'glue-removed', allowed: true")
+m('K-glue-moved', 'skeleton.ts', "type: 'glue-moved', allowed: mode === 'revision'", "type: 'glue-moved', allowed: true")
+m('K-prose-allowed', 'skeleton.ts', "type: 'prose-changed', allowed: true", "type: 'prose-changed', allowed: false")
+m('K-ok', 'skeleton.ts', "return { ok: changes.every((c) => c.allowed), mode, changes };", "return { ok: true, mode, changes };")
+m('K-rule-results', 'skeleton.ts', "['abstract', o.abstract], ['Key Points', o.keyPoints], ['Results', o.results]", "['abstract', o.abstract], ['Key Points', o.keyPoints]")
+m('K-rule-label', 'skeleton.ts', "        rules.push({ key: `m:${primary}.label`,", "        if (false) rules.push({ key: `m:${primary}.label`,")
+m('K-rule-count', 'skeleton.ts', "rules.push({ key: 'block:claim-count',", "if (false) rules.push({ key: 'block:claim-count',")
+m('K-rule-results-blocks', 'skeleton.ts', "for (const c of ctx.claims) rules.push({ key: `block:results:", "for (const c of []) rules.push({ key: `block:results:")
+m('K-rule-aims', 'skeleton.ts', "rules.push({ key: 'block:aims',", "if (false) rules.push({ key: 'block:aims',")
+m('K-rule-part-a', 'skeleton.ts', "for (const r of limitationsPartA(ctx)) rules.push(", "for (const r of []) rules.push(")
+m('K-rule-search', 'skeleton.ts', "rules.push({ key: 'block:search',", "if (false) rules.push({ key: 'block:search',")
+m('K-per-section', 'skeleton.ts', "!r.sections.some((s) => bySection.get(s)?.has(r.key))", "![...bySection.values()].some((set) => set.has(r.key))")
+m('K-provides', 'skeleton.ts', "return [...u.inlines.flatMap((i) => (i.t === 'value' ? i.key.split('|') : [])), ...u.provides];", "return [...u.inlines.flatMap((i) => (i.t === 'value' ? i.key.split('|') : []))];")
+
+# edit.ts
+m('E-must-appear', 'edit.ts', "return { ok: diff.ok && mustAppear.length === 0, manuscript, diff,", "return { ok: diff.ok, manuscript, diff,")
+m('E-first-draft', 'edit.ts', "return { ok: mustAppear.length === 0, manuscript, diff: null,", "return { ok: true, manuscript, diff: null,")
+m('E-html-gate', 'edit.ts', "if (!verification.ok) return { ok: false,", "if (false) return { ok: false,")
+m('E-prose-source', 'edit.ts', "const source = edit ? edit.source : u.source!;", "const source = u.source!;")
+
+# html.ts
+m('H-doctype', 'html.ts', "if (!html.startsWith(prefix)) { add(", "if (false) { add(")
+m('H-parse-issues', 'html.ts', "for (const i of parsed.issues) add('parse',", "for (const i of []) add('parse',")
+m('H-root-tag', 'html.ts', "if (root.tag !== 'html') add(", "if (false) add(")
+m('H-element', 'html.ts', "if (!allowed) add('forbidden-element',", "if (false) add('forbidden-element',")
+m('H-attribute', 'html.ts', "if (!allowed?.includes(k)) add('forbidden-attribute',", "if (false) add('forbidden-attribute',")
+m('H-attr-control', 'html.ts', "if (/[\\p{Cf}\\p{Cc}]/u.test(v)) add('format-char',", "if (false) add('format-char',")
+m('H-class', 'html.ts', "if (k === 'class' && !CLASSES.has(v)) add(", "if (false) add(")
+m('H-nested', 'html.ts', "if (unit) add('unit-placement', here, 'unit nested", "if (false) add('unit-placement', here, 'unit nested")
+m('H-unknown-unit', 'html.ts', "if (!u) add('unit-unknown', here, `unknown unit ${uid}`);", "if (!u) void 0;")
+m('H-duplicate', 'html.ts', "else if (seen.includes(u)) add('unit-duplicate',", "else if (false) add('unit-duplicate',")
+m('H-placement', 'html.ts', "if (!placement) add('unit-placement',", "if (false) add('unit-placement',")
+m('H-section', 'html.ts', "if (u.container !== 'metadata' && u.container !== 'title' && section !== u.section) add(", "if (false) add(")
+m('H-origin', 'html.ts', "if ((attr(e, 'data-o') === 's') !== (u.origin === 'software')) add(", "if (false) add(")
+m('H-unit-sig', 'html.ts', "if (!signer.verify(unitPayload(uid, canonParsed(e)), attr(e, 'data-sig'))) add(", "if (false) add(")
+m('H-software-text', 'html.ts', "if (observed !== u.text) add('software-changed',", "if (false) add('software-changed',")
+m('H-drafted-attrs', 'html.ts', "} else if (attr(e, 'data-sig') !== undefined || attr(e, 'data-claims') !== undefined) add(", "} else if (false) add(")
+m('H-value-outside', 'html.ts', "if (!unit || !unitEl) add('unbound-number', here, `value span ${key} outside a unit`);", "if (!unit || !unitEl) void 0;")
+m('H-value-markup', 'html.ts', "else if (e.children.some(isElement)) add('forbidden-element',", "else if (false) add('forbidden-element',")
+m('H-value-sig', 'html.ts', "else if (!signer.verify(valuePayload(unit.uid, o, key, textOf(e)), attr(e, 'data-sig'))) add(", "else if (false) add(")
+m('H-value-attrs', 'html.ts', "if (e.attrs.some(([k]) => !['data-v', 'data-sig'].includes(k))) add(", "if (false) add(")
+m('H-root-hash', 'html.ts', "attr(e, 'data-skeleton') !== skeleton) add('root',", "attr(e, 'data-skeleton') !== skeleton && false) add('root',")
+m('H-root-sig', 'html.ts', "if (!signer.verify(rootPayload(attr(e, 'data-context') ?? '', attr(e, 'data-skeleton') ?? ''), attr(e, 'data-sig'))) add(", "if (false) add(")
+m('H-link', 'html.ts', "if (e.tag === 'link' && (attr(e, 'rel') !== 'stylesheet' || attr(e, 'href') !== options.stylesheet)) add(", "if (false) add(")
+m('H-charset', 'html.ts', "if (e.attrs.length === 1 && attr(e, 'charset') === 'utf-8' && e.parent?.tag === 'head') verifiedSigned.add(e);", "if (e.attrs.length === 1 && e.parent?.tag === 'head') verifiedSigned.add(e);")
+m('H-unsigned-img', 'html.ts', "if (e.tag === 'img' && !isUnitEl(e)) add(", "if (false) add(")
+m('H-attr-digit', 'html.ts', "if (/\\p{N}/u.test(v) && !verifiedSigned.has(e)) add('unbound-number',", "if (false) add('unbound-number',")
+m('H-text-control', 'html.ts', "if (/[\\p{Cf}]|[\\u0000-\\u0008\\u000b\\u000c\\u000e-\\u001f\\u007f-\\u009f]/u.test(c.text)) add(", "if (false) add(")
+m('H-text-digit', 'html.ts', "if (/\\p{N}/u.test(c.text) && !signedAncestor(e)) add(", "if (false) add(")
+m('H-outside-unit', 'html.ts', "if (c.text.trim() && !unitAncestor(e)) add(", "if (false) add(")
+m('H-order', 'html.ts', "if (order !== expectedOrder) add(", "if (false) add(")
+m('H-missing', 'html.ts', "for (const u of expectedUnits) if (!seen.includes(u)) add(", "for (const u of expectedUnits) if (false) add(")
+m('H-drafted-values', 'html.ts', "if (canonicalJson(values) !== canonicalJson(expectedValues)) add(", "if (false) add(")
+m('H-asset', 'html.ts', "if (bytes === undefined || createHash('sha256').update(bytes).digest('hex') !== b.svgSha256) add(", "if (false) add(")
+m('H-prose-capture', 'html.ts', "if (text !== u.text) prose.push(", "if (false) prose.push(")
+m('H-source-placeholder', 'html.ts', "return key.startsWith('entity:') ? textOf(c) : `[${key}]`;", "return textOf(c);")
+
+# flow.ts
+m('F-page-number', 'flow.ts', "if (!m || Number(m[1]) !== i + 1) issues.push(", "if (false) issues.push(")
+m('F-control', 'flow.ts', "if (/[\\p{Cf}]|[\\u0000-\\u0008\\u000b\\u000e-\\u001f\\u007f-\\u009f]/u.test(all)) issues.push(", "if (false) issues.push(")
+m('F-missing', 'flow.ts', "      issues.push({ code: 'missing-unit',", "      if (false) issues.push({ code: 'missing-unit',")
+m('F-unexpected', 'flow.ts', "    if (!explained) {", "    if (false) {")
+m('F-figure-exact', 'flow.ts', "const explained = figure !== null && gap === figure;", "const explained = figure !== null;")
+m('F-trailing', 'flow.ts', "  if (cursor < E.length) {", "  if (false) {")
+m('F-planted-number', 'flow.ts', "if (planted.length) issues.push(", "if (false) issues.push(")
+m('F-raster', 'flow.ts', "if (options.figures === 'vector') { pendingFigure", "if (true) { pendingFigure")
+
+# outputs.ts
+m('O-invisible', 'outputs.ts', "if (r.invisible) issues.push(", "if (false) issues.push(")
+m('O-offpage', 'outputs.ts', "if (r.offPage) issues.push(", "if (false) issues.push(")
+m('O-tiny', 'outputs.ts', "if (r.size < min) issues.push(", "if (false) issues.push(")
+m('O-min-default', 'outputs.ts', "const min = profile.minFontSize ?? 3;", "const min = profile.minFontSize ?? 0;")
+m('O-title', 'outputs.ts', "if (normaliseExtracted(v) !== normaliseExtracted(expected.meta.title.text)) issues.push(", "if (false) issues.push(")
+m('O-pinned', 'outputs.ts', "else if (pinned[k] !== v) issues.push(", "else if (false) issues.push(")
+m('O-xmp', 'outputs.ts', "if (x.xmp) issues.push(", "if (false) issues.push(")
+m('O-alt-unexpected', 'outputs.ts', "    else issues.push({ code: 'alt-text', where, detail: `alt text", "    else void 0; if (false) issues.push({ code: 'alt-text', where, detail: `alt text")
+m('O-alt-missing', 'outputs.ts', "if (requireAll) for (const p of pool) issues.push(", "if (false) for (const p of pool) issues.push(")
+m('O-require-alt', 'outputs.ts', "profile.requireAlt ?? true, 'pdf tags'", "profile.requireAlt ?? false, 'pdf tags'")
+m('O-marked', 'outputs.ts', "if (!(s.key === 'ActualText' && LIGATURES.has(s.value))) issues.push(", "if (false) issues.push(")
+m('O-ligatures', 'outputs.ts', "s.key === 'ActualText' && LIGATURES.has(s.value)", "s.key === 'ActualText'")
+m('O-annotation', 'outputs.ts', "for (const a of x.annotations) issues.push(", "for (const a of []) issues.push(")
+m('O-outline', 'outputs.ts', "for (const o of x.outlines) if (!headings.has(normaliseExtracted(o))) issues.push(", "for (const o of x.outlines) if (false) issues.push(")
+
+# pdf.ts
+m('P-invisible', 'pdf.ts', "invisible: mode === 3 || mode === 7,", "invisible: false,")
+m('P-offpage', 'pdf.ts', "offPage: x < box[0]! - 1 || x > box[2]! + 1 || y < box[1]! - 1 || y > box[3]! + 1", "offPage: false")
+m('P-encrypt', 'pdf.ts', "requireThat(!this.trailers.some((t) => t.has('Encrypt')),", "requireThat(true,")
+m('P-filter', 'pdf.ts', "else refuse(`PDF: unsupported filter ${f}`);", "else {}")
+m('P-tounicode-gap', 'pdf.ts', "requireThat(u !== undefined, `PDF: glyph code", "requireThat(true, `PDF: glyph code")
+m('P-simple-byte', 'pdf.ts', "requireThat(g !== undefined, `PDF: byte", "requireThat(true, `PDF: byte")
+m('P-type0', 'pdf.ts', "requireThat(subtype !== 'Type0', 'PDF: composite", "requireThat(true, 'PDF: composite")
+m('P-encoding', 'pdf.ts', "requireThat(base === undefined || base === 'WinAnsiEncoding' || base === 'StandardEncoding',", "requireThat(true,")
+m('P-glyph-name', 'pdf.ts', "requireThat(g !== undefined, `PDF: unknown glyph", "requireThat(true, `PDF: unknown glyph")
+m('P-form', 'pdf.ts', "if (isStream(xo) && doc.name(xo.dict.get('Subtype')) === 'Form') {", "if (false) {")
+m('P-marked', 'pdf.ts', "if (s instanceof PStr) marked.push(", "if (false) marked.push(")
+m('P-structure', 'pdf.ts', "if (s instanceof PStr) out.push({ key, value: pdfTextString(s.bytes) }); }\n  structureStrings", "if (false) out.push({ key, value: pdfTextString(s.bytes) }); }\n  structureStrings")
+m('P-annot-uri', 'pdf.ts', "if (uri instanceof PStr) annotations.push(", "if (false) annotations.push(")
+m('P-annot-contents', 'pdf.ts', "if (s instanceof PStr) annotations.push(", "if (false) annotations.push(")
+m('P-outline', 'pdf.ts', "if (t instanceof PStr) outlines.push(", "if (false) outlines.push(")
+m('P-later-wins', 'pdf.ts', "      this.objects.set(Number(m[1]), value);", "      if (!this.objects.has(Number(m[1]))) this.objects.set(Number(m[1]), value);")
+m('P-objstm', 'pdf.ts', "if (isStream(v) && this.name(v.dict.get('Type')) === 'ObjStm') this.expandObjectStream(v);", "if (false) this.expandObjectStream(v);")
+m('P-trailer-last', 'pdf.ts', "for (const t of [...this.trailers].reverse()) if (t.has(key))", "for (const t of this.trailers) if (t.has(key))")
+m('P-inline-image', 'pdf.ts', "      case 'BI': {", "      case 'BI-disabled': {")
+m('P-utf16', 'pdf.ts', "if (bytes[0] === 0xfe && bytes[1] === 0xff) {", "if (false) {")
+
+# docx.ts
+m('D-crc', 'docx.ts', "requireThat(data.length === usize && crc32(data) === crc,", "requireThat(true,")
+m('D-duplicate', 'docx.ts', "requireThat(!out.has(name), `DOCX: duplicate", "requireThat(true, `DOCX: duplicate")
+m('D-encrypted', 'docx.ts', "requireThat(!(flags & 1), 'DOCX: encrypted", "requireThat(true, 'DOCX: encrypted")
+m('D-zip64', 'docx.ts', "requireThat(count !== 0xffff && cdOffset !== 0xffffffff,", "requireThat(true,")
+m('D-method', 'docx.ts', ": refuse(`DOCX: unsupported compression ${method}`); }", ": Uint8Array.from(raw); }")
+m('D-vanish', 'docx.ts', "if (on(prop('vanish')) || on(prop('specVanish')) || on(prop('webHidden'))) find(", "if (false) find(")
+m('D-tiny', 'docx.ts', "if (sz && Number(at(sz, 'val')) < 8) find(", "if (false) find(")
+m('D-white', 'docx.ts', "if (color && /^(?:FFFFFF|FFF)$/iu.test(at(color, 'val') ?? '')) find(", "if (false) find(")
+m('D-on', 'docx.ts', "const on = (e: ParsedElement | undefined) => !!e && !['0', 'false', 'off'].includes(at(e, 'val') ?? 'true');", "const on = (e: ParsedElement | undefined) => !!e;")
+m('D-instr', 'docx.ts', "else if (t === 'instrText' || t === 'fldChar') find(", "else if (false) find(")
+m('D-fldsimple', 'docx.ts', "else if (t === 'fldSimple') { find('hidden-text',", "else if (t === 'fldSimple') { void ('hidden-text',")
+m('D-textbox', 'docx.ts', "else if (t === 'txbxContent' || t === 'textbox') find(", "else if (false) find(")
+m('D-hyperlink', 'docx.ts', "else if (t === 'hyperlink') { find('annotation',", "else if (t === 'hyperlink') { void ('annotation',")
+m('D-comment-anchor', 'docx.ts', "else if (t === 'commentRangeStart' || t === 'commentReference') find(", "else if (false) find(")
+m('D-header', 'docx.ts', "if (t) find('hidden-text', name, `header or footer", "if (false) find('hidden-text', name, `header or footer")
+m('D-comments', 'docx.ts', "if (kids(root).length) find('hidden-text', name, 'comments", "if (false) find('hidden-text', name, 'comments")
+m('D-notes', 'docx.ts', "&& textContent(n).trim()) find('hidden-text', name, `note text", "&& false) find('hidden-text', name, `note text")
+m('D-rels', 'docx.ts', "if ((at(r, 'TargetMode') ?? '') === 'External' || /hyperlink$/u.test(at(r, 'Type') ?? '')) find(", "if (false) find(")
+m('D-embedded', 'docx.ts', "} else if (/^word\\/(?:glossary\\/|vbaProject|embeddings\\/|activeX\\/)/u.test(name)) find(", "} else if (false) find(")
+m('D-ins', 'docx.ts', "else if (t === 'ins' || t === 'moveTo') { tracked++; s += inline(c, path); }", "else if (t === 'ins' || t === 'moveTo') { s += inline(c, path); }")
+m('D-del', 'docx.ts', "      else if (t === 'del' || t === 'moveFrom') { tracked++; }", "      else if (t === 'del' || t === 'moveFrom') { }")
+m('D-tracked-render', 'docx.ts', "if (x.trackedChanges) issues.push(", "if (false) issues.push(")
+m('D-alt-unexpected', 'docx.ts', "if (k >= 0) pool.splice(k, 1); else issues.push({ code: 'alt-text', where: 'docx drawing'", "if (k >= 0) pool.splice(k, 1); else if (false) issues.push({ code: 'alt-text', where: 'docx drawing'")
+m('D-alt-missing', 'docx.ts', "if (profile.requireAlt ?? true) for (const p of pool) issues.push(", "if (false) for (const p of pool) issues.push(")
+m('D-image-path', 'docx.ts', "for (const p of x.imagePaths) if (!srcs.has(p) && !alts.includes(normaliseExtracted(p))) issues.push(", "for (const p of x.imagePaths) if (false) issues.push(")
+m('D-table-caption', 'docx.ts', "for (const c of x.tableCaptions) if (c && !captions.has(normaliseExtracted(c))) issues.push(", "for (const c of x.tableCaptions) if (false) issues.push(")
+m('D-properties', 'docx.ts', "for (const [k, v] of Object.entries(x.properties)) if (normaliseExtracted(metaExpected[k] ?? '\\u0000') !== normaliseExtracted(v)) issues.push(", "for (const [k, v] of Object.entries(x.properties)) if (false) issues.push(")
+m('D-media', 'docx.ts', "for (const [name, sha] of x.media) if (!allowedMedia.has(sha)) issues.push(", "for (const [name, sha] of x.media) if (false) issues.push(")
+m('D-readback-findings', 'docx.ts', "if (x.findings.length) return fail([...x.findings]);", "if (false) return fail([...x.findings]);")
+m('D-readback-count', 'docx.ts', "if (actual.length !== expected.length) return fail(", "if (false) return fail(")
+m('D-readback-anchor', 'docx.ts', "if (rebuilt === null) { issues.push(", "if (rebuilt === null) { void (")
+
+OMITTED = [
+  {'site': 'sign.ts verify(): letters-format pre-check', 'reason': 'equivalent: a malformed signature also fails the constant-time comparison'},
+  {'site': 'sign.ts: per-build key derivation vs build ID in payload', 'reason': 'equivalent one at a time: each alone separates builds; both kept as defence in depth'},
+  {'site': 'manuscript.ts contextUniverse key collision', 'reason': 'unreachable: universe key prefixes are disjoint by construction'},
+  {'site': 'manuscript.ts draft re-parse count check', 'reason': 'unreachable: renderDraft parses the same source with the same registry'},
+  {'site': 'manuscript.ts resultsBlockPlans missing Results claim', 'reason': 'unreachable after createReportContext (missing claims refuse earlier)'},
+  {'site': 'manuscript.ts figure numbering as a plain text inline', 'reason': 'refused at assembly by assertUnitClosed, so every suite fails at fixture load; the runner counts that as invalid, so the first-run mutant M-caption-number-value was replaced by M-figure-number'},
+  {'site': 'html.ts signedAncestor walks ancestors', 'reason': 'equivalent on reachable markup: signed text sits directly inside its signed element'},
+]
+
+seen = set()
+for x in M:
+    assert x['id'] not in seen, x['id']
+    seen.add(x['id'])
+    text = (SRC / x['file'].split('/', 1)[1]).read_text()
+    n = text.count(x['from'])
+    assert n == 1, f"{x['id']}: 'from' occurs {n} times in {x['file']}"
+out = pathlib.Path(__file__).resolve().parent / 'pw8-mutants.json'
+out.write_text(json.dumps({'mutants': M, 'omitted': OMITTED}, indent=1) + '\n')
+print(f'{len(M)} mutants, {len(OMITTED)} omitted sites written to {out}')

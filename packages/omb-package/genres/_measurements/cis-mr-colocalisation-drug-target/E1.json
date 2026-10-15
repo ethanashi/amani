@@ -1,0 +1,372 @@
+{
+ "pmcid": "PMC8812899",
+ "doi": "10.1371/journal.pmed.1003897",
+ "pmid": "35113855",
+ "journal": "PLoS Medicine",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 17,
+ "licence": "This is an open access article, free of all copyright, and may be freely reprodu",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods and findings",
+    "Conclusions"
+   ],
+   "words": 437
+  },
+  {
+   "type": "toc",
+   "structured": false,
+   "headings": [],
+   "words": 26
+  },
+  {
+   "type": "summary",
+   "structured": true,
+   "headings": [
+    "Why was this study done?",
+    "What did the researchers do and find?",
+    "What do these findings mean?"
+   ],
+   "words": 249
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 564
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 2085,
+   "sub": [
+    {
+     "heading": "Study populations",
+     "canonical": "other",
+     "words": 306
+    },
+    {
+     "heading": "Instrument construction",
+     "canonical": "other",
+     "words": 752
+    },
+    {
+     "heading": "Mendelian randomization primary and sensitivity analyses",
+     "canonical": "other",
+     "words": 638
+    },
+    {
+     "heading": "Colon transcriptome-wide GRS analysis",
+     "canonical": "other",
+     "words": 389
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 1494,
+   "sub": [
+    {
+     "heading": "Instrument validation",
+     "canonical": "other",
+     "words": 218
+    },
+    {
+     "heading": "Genetically proxied ACE inhibition and cancer risk",
+     "canonical": "other",
+     "words": 444
+    },
+    {
+     "heading": "Genetically proxied ADRB1 inhibition and cancer risk",
+     "canonical": "other",
+     "words": 157
+    },
+    {
+     "heading": "Genetically proxied NCC inhibition and cancer risk",
+     "canonical": "other",
+     "words": 96
+    },
+    {
+     "heading": "Replication analysis in Europeans and exploratory analysis in East Asians",
+     "canonical": "other",
+     "words": 77
+    },
+    {
+     "heading": "Colon gene expression analysis",
+     "canonical": "other",
+     "words": 434
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1832
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 70
+  },
+  {
+   "heading": "Supporting information",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 6157,
+   "sub": [
+    {
+     "heading": "The PRACTICAL Consortium",
+     "canonical": "other",
+     "words": 1692
+    },
+    {
+     "heading": "MEGASTROKE consortium",
+     "canonical": "other",
+     "words": 4276
+    }
+   ]
+  },
+  {
+   "heading": "Abbreviations",
+   "canonical": "other",
+   "words": 104,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data Availability",
+   "canonical": "data_availability",
+   "words": 125
+  },
+  {
+   "heading": "Funding Statement",
+   "canonical": "funding",
+   "words": 280
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 564,
+  "methods": 2085,
+  "results": 1494,
+  "discussion": 1832,
+  "conclusions": 70,
+  "other_back": 104,
+  "acknowledgements": 6157,
+  "data_availability": 125,
+  "funding": 280,
+  "references": 0
+ },
+ "main_text_words": 6045,
+ "main_text_words_excluding_methods": 3960,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 8,
+ "figures": [
+  {
+   "label": "Fig 1",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "Fig 2",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "Fig 3",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "Fig 4",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "Fig 5",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "Fig 6",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "Fig 7",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  },
+  {
+   "label": "Fig 8",
+   "kind_guess": [
+    "regional_locuszoom"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 4,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  },
+  {
+   "label": "Table 3"
+  },
+  {
+   "label": "Table 4"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 24,
+ "supplementary": [
+  {
+   "label": "S1 STROBE Statement"
+  },
+  {
+   "label": "S1 Table"
+  },
+  {
+   "label": "S2 Table"
+  },
+  {
+   "label": "S3 Table"
+  },
+  {
+   "label": "S4 Table"
+  },
+  {
+   "label": "S5 Table"
+  },
+  {
+   "label": "S6 Table"
+  },
+  {
+   "label": "S7 Table"
+  },
+  {
+   "label": "S8 Table"
+  },
+  {
+   "label": "S9 Table"
+  },
+  {
+   "label": "S10 Table"
+  },
+  {
+   "label": "S11 Table"
+  },
+  {
+   "label": "S12 Table"
+  },
+  {
+   "label": "S13 Table"
+  },
+  {
+   "label": "S14 Table"
+  },
+  {
+   "label": "S15 Table"
+  },
+  {
+   "label": "S16 Table"
+  },
+  {
+   "label": "S1 Text"
+  },
+  {
+   "label": "S1 Methods"
+  },
+  {
+   "label": "S2 Methods"
+  },
+  {
+   "label": "S3 Methods"
+  },
+  {
+   "label": "S4 Methods"
+  },
+  {
+   "label": "Attachment"
+  },
+  {
+   "label": "Attachment"
+  }
+ ],
+ "references": 86,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": true,
+  "strobe": true,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": true,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

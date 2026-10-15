@@ -1,0 +1,43 @@
+{
+  "case": "c5",
+  "passed": 7,
+  "total": 9,
+  "criteria": [
+    {
+      "name": "verdict",
+      "passed": true
+    },
+    {
+      "name": "cause",
+      "passed": true
+    },
+    {
+      "name": "reproduced-count",
+      "passed": true
+    },
+    {
+      "name": "reproduced-top",
+      "passed": true
+    },
+    {
+      "name": "final-count",
+      "passed": true
+    },
+    {
+      "name": "final-batch-handling",
+      "passed": true
+    },
+    {
+      "name": "first-condition-batches",
+      "passed": false
+    },
+    {
+      "name": "second-condition-batches",
+      "passed": false
+    },
+    {
+      "name": "duplicated-units",
+      "passed": true
+    }
+  ]
+}

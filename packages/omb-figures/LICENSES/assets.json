@@ -1,0 +1,74 @@
+[
+  {
+    "path": "vendor/fonts/LiberationSans-Regular.ttf",
+    "license": "OFL-1.1",
+    "sha256": "76d04c18ea243f426b7de1f3ad208e927008f961dc5945e5aad352d0dfde8ee8"
+  },
+  {
+    "path": "vendor/fonts/LiberationSerif-Regular.ttf",
+    "license": "OFL-1.1",
+    "sha256": "058ea80864aef09a23f45cbec2bb5400bc3dfbdea01c3f10538a21fcb497fb74"
+  },
+  {
+    "path": "vendor/fonts/liberation-metrics.json",
+    "license": "OFL-1.1",
+    "sha256": "689a42c9cda6c10c8e52611f6cc012c5bc98353e675d107771add4dcc0920a84"
+  },
+  {
+    "path": "vendor/icons/bio.svg",
+    "license": "CC0-1.0",
+    "sha256": "be1ab4ac811b0fc22fb6c90b58c6c89cd6aa1a901e984f86d5c4d1f7fe172682"
+  },
+  {
+    "path": "vendor/icons/health.svg",
+    "license": "MIT",
+    "sha256": "e19b08350a4ce9cdc443bbb9d3647b1ccb9f14d6fcd20882a074e32143d45e83"
+  },
+  {
+    "path": "vendor/specs/audit_figure_collisions.py",
+    "license": "Apache-2.0",
+    "sha256": "4bd020238a9f207c8a67c61d7209cef5959f2995a1d9cd95911d6fa93de7aa36"
+  },
+  {
+    "path": "vendor/specs/audit_panel_alignment.py",
+    "license": "Apache-2.0",
+    "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56"
+  },
+  {
+    "path": "vendor/specs/audit_pdf_text.py",
+    "license": "Apache-2.0",
+    "sha256": "0b3d3e30ce9ec7191b8ba6dd053226487ab41594297005afcd127acda3b08281"
+  },
+  {
+    "path": "vendor/specs/prisma-fields.json",
+    "license": "MIT",
+    "sha256": "074cecaa8638ffc5b2634e2a8d3f1ee942c0427a09e0e4ed99259db5e1ca9023"
+  },
+  {
+    "path": "vendor/publisher_profiles.json",
+    "license": "MIT",
+    "sha256": "1e1b1b5a4e0e3dfc57877f2abf1e96888fe6b65617234b078f193b8f76e0ebe9"
+  },
+  {
+    "path": "vendor/colorspacious-LICENSE.txt",
+    "license": "MIT",
+    "sha256": "f67884433d4d8a3196895ad084abca8456081975842da71a9bb01e7cd5d5c514"
+  },
+  {
+    "path": "vendor/colorspacious-cvd.py",
+    "license": "MIT",
+    "sha256": "3402160c31273abb0df5efd363ac4e5b021e039fe05e86e34e99c283e679efd0"
+  },
+  {
+    "path": "vendor/downloads.json",
+    "license": "CC0-1.0",
+    "sha256": "8a29927bf1d45a02af10c676f7d169b8b00496bb37a817af0a7a1d124ee4ed12"
+  },
+  {
+    "path": "vendor/specs/prisma-official-new-reviews.json",
+    "license": "CC-BY-4.0",
+    "sha256": "771d0dbf5328dc96595aa2573ea2a96ac70a22050ce471d1680168fe7a19a058",
+    "source": "https://www.prisma-statement.org/prisma-2020-flow-diagram",
+    "scope": "User explicitly requested the official template in polish round; exception limited to this attributed data asset."
+  }
+]

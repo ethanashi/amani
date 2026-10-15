@@ -1,0 +1,104 @@
+{
+  "bindings": {
+    "datasetManifestHash": "51d22603b608dcd870c02de4772aa1837018b253192a3ab26201334d9bceb048",
+    "files": {
+      "TASK.md": "7ee67cca417576dc9f77895cc2e60481d859fe2498fe5a0185d707b10ed9f398",
+      "bindings.json": "e921619719f6289bdab314d3e5cf8962dcedc0f9309fba96eeb0eaf07bf6c282",
+      "card.json": "0d235bbc2eb3971ed665e41142b7e5e5939d16896d60c632f724118c7d8d3b2a",
+      "check.py": "2f7bd2736ba5f355c4bf4f4cada7653b985fb0084ce64024b89096b6ecb0b58e",
+      "reference.py": "ff4cb72596ba0e102883f74582fec462e3bfdf69623aba4901cc87018a032cc6",
+      "stage.py": "2a1aadfa9b4dc656ab2b850a941cf1a06067f42b892651d1d32e21c1ca2e4556"
+    },
+    "naiveTree": "ee3c442a99e91506103e0dcbcb478a037c55d839b99a20dd0a3d211384681a29",
+    "sealedKey": {
+      "ciphertextSha256": "025fbd368bd6d4b4b8655bd79cf9691e7fa4c61614149fa325734ec161c79b20",
+      "path": "packages/bio-tasks/tasks/p4-bixbench/SEALED-KEY.json.enc",
+      "sha256": "025fbd368bd6d4b4b8655bd79cf9691e7fa4c61614149fa325734ec161c79b20"
+    },
+    "shared": {
+      "lib/biotasks/calibrate.py": "4535f489a1690b9bb8c201f6a343ff7f81f1f91ab8a9ebf66bcfc86eb2b11d46",
+      "lib/biotasks/card.py": "ffa42e7c78503967395b259e711565b8ea813edae9ce202c127d065bf6a2d392",
+      "lib/biotasks/checks.py": "b9eb69ed04e6711dd82a8ef7868b9ca534ed1506f17a8297f317c5757ea6002c",
+      "lib/biotasks/grading.py": "76ccf8b7f7cc2fc7c5ae6579d26fd0432a600596c8c635bffbfc03f98d43a245",
+      "lib/biotasks/sealing.py": "efadbbef3da84a773eb35275ae6f93004655eba2f3b1220ae46e4377bc3286b2",
+      "lib/biotasks/staging.py": "1cac7ca255f9d1a6b229e65450a3896ccae84aebfa63322a68a18e55d73e3eea",
+      "packages/bio-baseline/arms/lib/armlib.py": "453f9d104d8903eb5491bc716f0bc9ecc13813265bfe2bbf5a876a01b0bbdedd",
+      "packages/bio-baseline/arms/lib/seal.py": "353f14ee1279c62e373216a6f15649b16dd0564359c3b69baa25606a3af4cf97",
+      "packages/bio-baseline/grading/grade.py": "d33bcfcf19edd1e64258789eff104ff3c5feef3b9cce7edaf73d8b935e3ade7d",
+      "packages/bio-baseline/pixi.lock": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+      "packages/bio-tasks/tasks/p1-esr1/check_support.py": "98def3b52528651210721771d0f97731c018b6890d2f0ac770c91eb9d1cc3a3d",
+      "packages/bio-tasks/tasks/p1-esr1/extract.py": "da0ce2bbecf85f5794a57f22a066814ef5b2d1635215d630f7d1db64c6e99216",
+      "packages/bio-tasks/tasks/p1-esr1/method.py": "ae1436e7e98d85927f75ba785631b6f1f125e2489c6e90aff5d8adcd7ae0290f",
+      "packages/bio-tasks/tasks/p1-esr1/provenance.json": "a3f3f4f889e519e74f5d720e388ced852d241cdb1112c2f5bcc802cbc4a85a28",
+      "packages/bio-tasks/tasks/p1-esr1/reference_support.py": "a0b4b8c759dee59782945164456ecaafe9bfd8bb7346d00722a4f141b23854a8",
+      "packages/bio-tasks/tasks/p1-esr1/source-data.tsv": "3a8ce26eb6304dda8b62578bd54868350c3d8e40935bf26be99504464ce3e82d",
+      "packages/bio-tasks/tasks/p1-esr1/stage_support.py": "4fb918717567bc3d3717daaf2af21bf3c8dd12148686cce8a590e94a16734021",
+      "packages/bio-tasks/tasks/p4-bixbench/SOURCE-KEY.json.enc": "ed9b92a56ca92b99ec894d2eceeb300f67a3427410f30785aaf389fb4248874b",
+      "packages/bio-tasks/tasks/p4-bixbench/SOURCE-KEY.json.enc.sha256": "3c5e497cba390b1cc3208ce171bfd834a59f6a2b157c70fd6be0cb05a8094d47",
+      "packages/bio-tasks/tasks/p4-bixbench/Swarm_1.csv": "e37edc1c24047d832aa8f93b183c2c035b5317b6b7620c850ad5f5dce4badd41",
+      "packages/bio-tasks/tasks/p4-bixbench/provenance.json": "cdbf8bbc7b83fee4e742de98de7029330a963bceb9702956aed2f9a5f84b8a5d"
+    }
+  },
+  "calibrationInput": {
+    "empty": "failed",
+    "permuted": [
+      "failed"
+    ],
+    "reference": "passed"
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "pixi_lock_sha256": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+    "python": "3.13.16"
+  },
+  "mapping": {
+    "empty": "empty",
+    "naive": "permuted",
+    "reference": "reference"
+  },
+  "outcomes": {
+    "empty": {
+      "outcome": "failed",
+      "score": 0.0,
+      "verdicts": {
+        "estimate": "incorrect",
+        "method": "incorrect",
+        "null": "incorrect",
+        "schema": "incorrect",
+        "status": "incorrect",
+        "uncertainty": "incorrect",
+        "units": "incorrect"
+      }
+    },
+    "naive": {
+      "outcome": "failed",
+      "score": 0.714286,
+      "verdicts": {
+        "estimate": "incorrect",
+        "method": "correct",
+        "null": "correct",
+        "schema": "correct",
+        "status": "correct",
+        "uncertainty": "correct",
+        "units": "incorrect"
+      }
+    },
+    "reference": {
+      "outcome": "passed",
+      "score": 1.0,
+      "verdicts": {
+        "estimate": "correct",
+        "method": "correct",
+        "null": "correct",
+        "schema": "correct",
+        "status": "correct",
+        "uncertainty": "correct",
+        "units": "correct"
+      }
+    }
+  },
+  "reasons": [],
+  "schema": "bio-tasks/calibration@1",
+  "status": "valid",
+  "task": "p4-bixbench"
+}

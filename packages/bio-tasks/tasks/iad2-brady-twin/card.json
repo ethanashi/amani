@@ -1,0 +1,20 @@
+{
+  "id": "iad2-brady-twin",
+  "family": "planted-flaw",
+  "datasetManifestHash": "ced874fd026b5585cc926a6fa762e2d295360476a6ee5bb947a72add3cd24a3d",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/iad2-brady-twin/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.005,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": false,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 8830517,
+  "capMinutes": 30,
+  "contaminated": false
+}

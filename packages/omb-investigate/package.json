@@ -1,0 +1,17 @@
+{
+  "name": "@omerta-bio/investigate",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Omerta Bio V7 research-team orchestrator: boss plus parallel workers through omb-sched, the scientific-method state machine (question to deliverable), routes P/H/N, phase memoization keyed by (phase, input hash), certified by the LLM-free kernel.",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "bin": {
+    "omb-engine": "./src/engine-sidecar.ts"
+  },
+  "license": "AGPL-3.0-only"
+}

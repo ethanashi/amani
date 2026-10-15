@@ -1,0 +1,115 @@
+{
+  "bindings": {
+    "datasetManifestHash": "89c84c76c81c64e8930ac7db402d148a008c692f86d8bfb201632a5bfd443641",
+    "files": {
+      "TASK.md": "73063b76a2c1c355431d21a10e235633e00497e6db2cac121bfbbdd6c38c1292",
+      "bindings.json": "3a29b4efe87f6c2ac4a19a6de39f6f762f80e7c814aa97be3bda62b02c4c26f9",
+      "card.json": "df9f10be734b78db7879dd85d1169abae43abff6e7c5969de52c844e09569359",
+      "check.py": "b44719e2c14a7ec808602e9d5f3feb2c49c4188695074d01a0325997f6f90356",
+      "reference.py": "ff4cb72596ba0e102883f74582fec462e3bfdf69623aba4901cc87018a032cc6",
+      "stage.py": "2a1aadfa9b4dc656ab2b850a941cf1a06067f42b892651d1d32e21c1ca2e4556"
+    },
+    "naiveTree": "455dc62b9d91a7e56267a72f05731b37d9766a39e71e832645b8700c988d79b8",
+    "sealedKey": {
+      "ciphertextSha256": "f8b5387c318dce8cb598ffb4d4e07b6b845c3357ec21a9dc6486ab708490a7dc",
+      "path": "packages/bio-tasks/tasks/p16-recovery/SEALED-KEY.json.enc",
+      "sha256": "f8b5387c318dce8cb598ffb4d4e07b6b845c3357ec21a9dc6486ab708490a7dc"
+    },
+    "shared": {
+      "lib/biotasks/calibrate.py": "4535f489a1690b9bb8c201f6a343ff7f81f1f91ab8a9ebf66bcfc86eb2b11d46",
+      "lib/biotasks/card.py": "ffa42e7c78503967395b259e711565b8ea813edae9ce202c127d065bf6a2d392",
+      "lib/biotasks/checks.py": "b9eb69ed04e6711dd82a8ef7868b9ca534ed1506f17a8297f317c5757ea6002c",
+      "lib/biotasks/grading.py": "76ccf8b7f7cc2fc7c5ae6579d26fd0432a600596c8c635bffbfc03f98d43a245",
+      "lib/biotasks/sealing.py": "efadbbef3da84a773eb35275ae6f93004655eba2f3b1220ae46e4377bc3286b2",
+      "lib/biotasks/staging.py": "1cac7ca255f9d1a6b229e65450a3896ccae84aebfa63322a68a18e55d73e3eea",
+      "packages/bio-baseline/arms/lib/armlib.py": "453f9d104d8903eb5491bc716f0bc9ecc13813265bfe2bbf5a876a01b0bbdedd",
+      "packages/bio-baseline/arms/lib/common.sh": "93d0807a488ede1ca615393943658c5424f969f290a549cda982c3e20bc3fe82",
+      "packages/bio-baseline/arms/lib/operation.py": "6a3546bef96ed234323662ec03b8f1dde4d35ab6f1a8dc04c547947affe82bd7",
+      "packages/bio-baseline/arms/lib/run_capped.py": "177587e57c1f47f2c564f36f330dd0d9cc216cb8674a8ccfea80d72f736eac58",
+      "packages/bio-baseline/arms/lib/seal.py": "353f14ee1279c62e373216a6f15649b16dd0564359c3b69baa25606a3af4cf97",
+      "packages/bio-baseline/grading/grade.py": "d33bcfcf19edd1e64258789eff104ff3c5feef3b9cce7edaf73d8b935e3ade7d",
+      "packages/bio-baseline/pixi.lock": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+      "packages/bio-tasks/grade-task.sh": "bbc748cb8053a3492953eacc2f6a5d39695c412fa209859f1cc834d79932346c",
+      "packages/bio-tasks/lib/biotasks/cli.py": "b41f8fa29a7a4991276fe67365873e54b0306a599ab945bf97ae80651d364598",
+      "packages/bio-tasks/lib/biotasks/recovery_grade.py": "01871d1fb8a186a037d05242d4a4700a1db615a429f9825d9ef54e6fe0d31f4b",
+      "packages/bio-tasks/run-task.sh": "170aac39fdbf03faf54a121ded412cf920ab0ef4ff6ec7d0ec91e343f72d4a7e",
+      "packages/bio-tasks/tasks/p1-esr1/check_support.py": "98def3b52528651210721771d0f97731c018b6890d2f0ac770c91eb9d1cc3a3d",
+      "packages/bio-tasks/tasks/p1-esr1/extract.py": "da0ce2bbecf85f5794a57f22a066814ef5b2d1635215d630f7d1db64c6e99216",
+      "packages/bio-tasks/tasks/p1-esr1/method.py": "ae1436e7e98d85927f75ba785631b6f1f125e2489c6e90aff5d8adcd7ae0290f",
+      "packages/bio-tasks/tasks/p1-esr1/provenance.json": "a3f3f4f889e519e74f5d720e388ced852d241cdb1112c2f5bcc802cbc4a85a28",
+      "packages/bio-tasks/tasks/p1-esr1/reference_support.py": "a0b4b8c759dee59782945164456ecaafe9bfd8bb7346d00722a4f141b23854a8",
+      "packages/bio-tasks/tasks/p1-esr1/source-data.tsv": "3a8ce26eb6304dda8b62578bd54868350c3d8e40935bf26be99504464ce3e82d",
+      "packages/bio-tasks/tasks/p1-esr1/stage_support.py": "4fb918717567bc3d3717daaf2af21bf3c8dd12148686cce8a590e94a16734021",
+      "packages/bio-tasks/tasks/p16-recovery/recovery-common.sh": "59992eb6b47e282644fc0f75cac73591708e8d7d01ef276b180180c93c1afdd2",
+      "packages/bio-tasks/tasks/p16-recovery/recovery.py": "4d91d29adec03f7aa0b838a9fbf92281afb42d5b38655167c6ab13993e7cd1b1",
+      "packages/bio-tasks/tasks/p16-recovery/run-claude.sh": "5d126531892ad8dabd7edd8da976883a824f1a9389160c49cc6f7b796d88aae7",
+      "packages/bio-tasks/tasks/p16-recovery/run-codex.sh": "e3266db327a1cc316120c9a3e0616804d3b3e01c1a32b4e7449373e9f62785ed",
+      "packages/bio-tasks/tasks/p16-recovery/run-omerta.sh": "d85162a09af2eb4d95fe0de9ed8f9faa00053739b5511ed8da7d5c198ceee4ce"
+    }
+  },
+  "calibrationInput": {
+    "empty": "failed",
+    "permuted": [
+      "failed"
+    ],
+    "reference": "passed"
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "pixi_lock_sha256": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+    "python": "3.13.16"
+  },
+  "mapping": {
+    "empty": "empty",
+    "naive": "permuted",
+    "reference": "reference"
+  },
+  "outcomes": {
+    "empty": {
+      "outcome": "failed",
+      "score": 0.0,
+      "verdicts": {
+        "estimate": "incorrect",
+        "method": "incorrect",
+        "null": "incorrect",
+        "recovery": "incorrect",
+        "schema": "incorrect",
+        "status": "incorrect",
+        "uncertainty": "incorrect",
+        "units": "incorrect"
+      }
+    },
+    "naive": {
+      "outcome": "failed",
+      "score": 0.625,
+      "verdicts": {
+        "estimate": "incorrect",
+        "method": "correct",
+        "null": "correct",
+        "recovery": "incorrect",
+        "schema": "correct",
+        "status": "correct",
+        "uncertainty": "incorrect",
+        "units": "correct"
+      }
+    },
+    "reference": {
+      "outcome": "passed",
+      "score": 1.0,
+      "verdicts": {
+        "estimate": "correct",
+        "method": "correct",
+        "null": "correct",
+        "recovery": "correct",
+        "schema": "correct",
+        "status": "correct",
+        "uncertainty": "correct",
+        "units": "correct"
+      }
+    }
+  },
+  "reasons": [],
+  "schema": "bio-tasks/calibration@1",
+  "status": "valid",
+  "task": "p16-recovery"
+}

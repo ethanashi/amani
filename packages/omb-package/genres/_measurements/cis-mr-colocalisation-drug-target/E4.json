@@ -1,0 +1,379 @@
+{
+ "pmcid": "PMC10518626",
+ "doi": "10.1016/j.xcrm.2023.101174",
+ "pmid": "37652020",
+ "journal": "Cell Reports Medicine",
+ "year": 2023,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 17,
+ "licence": "CC BY-NC-ND",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 166
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 0
+  },
+  {
+   "type": "author-highlights",
+   "structured": false,
+   "headings": [],
+   "words": 43
+  },
+  {
+   "type": "teaser",
+   "structured": false,
+   "headings": [],
+   "words": 43
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 647
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 889,
+   "sub": [
+    {
+     "heading": "Associations between plasma proteins and type 2 diabetes",
+     "canonical": "other",
+     "words": 281
+    },
+    {
+     "heading": "Function and network prediction of diabetes-associated proteins",
+     "canonical": "other",
+     "words": 43
+    },
+    {
+     "heading": "Reverse MR analysis of type 2 diabetes liability with levels of identified 47 proteins",
+     "canonical": "other",
+     "words": 52
+    },
+    {
+     "heading": "Associations between diabetes-associated proteins and body mass index",
+     "canonical": "other",
+     "words": 131
+    },
+    {
+     "heading": "Associations between diabetes-associated proteins and diabetic complications",
+     "canonical": "other",
+     "words": 271
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1919,
+   "sub": [
+    {
+     "heading": "Limitations of the study",
+     "canonical": "limitations",
+     "words": 126
+    }
+   ]
+  },
+  {
+   "heading": "STAR★Methods",
+   "canonical": "methods",
+   "words": 1410,
+   "sub": [
+    {
+     "heading": "Key resources table",
+     "canonical": "other",
+     "words": 0
+    },
+    {
+     "heading": "Resource availability",
+     "canonical": "data_availability",
+     "words": 23,
+     "sub": [
+      {
+       "heading": "Lead contact",
+       "canonical": "other",
+       "words": 15
+      },
+      {
+       "heading": "Materials availability",
+       "canonical": "data_availability",
+       "words": 8
+      }
+     ]
+    },
+    {
+     "heading": "Experimental models and subject details",
+     "canonical": "other",
+     "words": 114
+    },
+    {
+     "heading": "Method details",
+     "canonical": "methods",
+     "words": 710,
+     "sub": [
+      {
+       "heading": "Data sources for plasma proteins",
+       "canonical": "other",
+       "words": 212
+      },
+      {
+       "heading": "Data sources for type 2 diabetes",
+       "canonical": "other",
+       "words": 169
+      },
+      {
+       "heading": "Data sources for BMI",
+       "canonical": "other",
+       "words": 194
+      },
+      {
+       "heading": "Data sources for diabetic complications",
+       "canonical": "other",
+       "words": 135
+      }
+     ]
+    },
+    {
+     "heading": "Quantification and statistical analysis",
+     "canonical": "other",
+     "words": 563,
+     "sub": [
+      {
+       "heading": "MR analysis",
+       "canonical": "other",
+       "words": 251
+      },
+      {
+       "heading": "Colocalization analysis",
+       "canonical": "other",
+       "words": 264
+      },
+      {
+       "heading": "Function and network prediction",
+       "canonical": "other",
+       "words": 48
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 87,
+   "sub": [
+    {
+     "heading": "Author contributions",
+     "canonical": "contributions",
+     "words": 50
+    },
+    {
+     "heading": "Declaration of interests",
+     "canonical": "competing_interests",
+     "words": 7
+    }
+   ]
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 4,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 11,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplemental information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Data and code availability",
+   "canonical": "data_availability",
+   "words": 39
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 39,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 39
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 647,
+  "results": 889,
+  "discussion": 1919,
+  "methods": 1410,
+  "acknowledgements": 87,
+  "other_back": 15,
+  "supplementary": 39,
+  "data_availability": 39,
+  "references": 0
+ },
+ "main_text_words": 4865,
+ "main_text_words_excluding_methods": 3455,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 126
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": ""
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 12,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 50,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

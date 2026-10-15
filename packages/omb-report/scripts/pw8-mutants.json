@@ -1,0 +1,1054 @@
+{
+ "mutants": [
+  {
+   "id": "S-hex",
+   "file": "reverify/sign.ts",
+   "from": "requireThat(/^[0-9a-f]+$/u.test(hex), 'letters",
+   "to": "requireThat(true, 'letters"
+  },
+  {
+   "id": "S-letters",
+   "file": "reverify/sign.ts",
+   "from": "requireThat(/^[a-p]+$/u.test(text), 'letters",
+   "to": "requireThat(true, 'letters"
+  },
+  {
+   "id": "S-build-hash",
+   "file": "reverify/sign.ts",
+   "from": "requireThat(/^[0-9a-f]{64}$/u.test(paperInputHash),",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "S-nonce-empty",
+   "file": "reverify/sign.ts",
+   "from": "nonce.length > 0 && nonce.length <= 128",
+   "to": "nonce.length <= 128"
+  },
+  {
+   "id": "S-nonce-long",
+   "file": "reverify/sign.ts",
+   "from": "nonce.length > 0 && nonce.length <= 128",
+   "to": "nonce.length > 0"
+  },
+  {
+   "id": "S-key-length",
+   "file": "reverify/sign.ts",
+   "from": "masterKey.length >= 32",
+   "to": "masterKey.length >= 0"
+  },
+  {
+   "id": "S-build-format",
+   "file": "reverify/sign.ts",
+   "from": "requireThat(/^[a-p]{64}$/u.test(buildId), 'build ID must",
+   "to": "requireThat(true, 'build ID must"
+  },
+  {
+   "id": "S-domain",
+   "file": "reverify/sign.ts",
+   "from": "requireThat(typeof payload.d === 'string' && payload.d.startsWith('omb/pw8/'),",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "S-compare",
+   "file": "reverify/sign.ts",
+   "from": "return expected.length === actual.length && timingSafeEqual(expected, actual);",
+   "to": "return expected.length === actual.length;"
+  },
+  {
+   "id": "M-decompose-cover",
+   "file": "reverify/manuscript.ts",
+   "from": "for (const t of tokens) requireThat(chosen.some(",
+   "to": "for (const t of []) requireThat(chosen.some("
+  },
+  {
+   "id": "M-decompose-longest",
+   "file": "reverify/manuscript.ts",
+   "from": "(b.end - b.start) - (a.end - a.start) || a.start - b.start",
+   "to": "(a.end - a.start) - (b.end - b.start) || a.start - b.start"
+  },
+  {
+   "id": "M-decompose-token",
+   "file": "reverify/manuscript.ts",
+   "from": "if (tokens.some((t) => o.start <= t.start && t.end <= o.end)) chosen.push(o);",
+   "to": "chosen.push(o);"
+  },
+  {
+   "id": "M-closed-control",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(!/[\\p{Cf}\\p{Cc}]/u.test(i.text), `${where}: control",
+   "to": "requireThat(true, `${where}: control"
+  },
+  {
+   "id": "M-closed-digit",
+   "file": "reverify/manuscript.ts",
+   "from": "if (i.t === 'text') requireThat(!hasNumber(i.text),",
+   "to": "if (i.t === 'text') requireThat(true,"
+  },
+  {
+   "id": "M-closed-empty",
+   "file": "reverify/manuscript.ts",
+   "from": "else requireThat(i.text.length > 0 && i.key.length > 0,",
+   "to": "else requireThat(true,"
+  },
+  {
+   "id": "M-sentence-agree",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(visible === s.text.replace(/\\*/gu, ''),",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-sentence-markup",
+   "file": "reverify/manuscript.ts",
+   "from": "if (m[7]) refuse('unexpected markup",
+   "to": "if (false) refuse('unexpected markup"
+  },
+  {
+   "id": "M-empty-unit",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(text.trim().length > 0, `${where}: empty unit`);",
+   "to": "requireThat(true, `${where}: empty unit`);"
+  },
+  {
+   "id": "M-template-digit",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(!hasNumber(part), `${where}: software template",
+   "to": "requireThat(true, `${where}: software template"
+  },
+  {
+   "id": "M-unknown-key",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(text !== undefined, `${where}: unknown software value",
+   "to": "requireThat(true, `${where}: unknown software value"
+  },
+  {
+   "id": "M-pipe",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(tableLines.length >= 2 && /^\\|(?:\\s*:?-{3,}:?\\s*\\|)+$/u.test(tableLines[1]!.trim()),",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-ragged",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(rows.every((r) => r.length === header.length), 'ragged",
+   "to": "requireThat(true, 'ragged"
+  },
+  {
+   "id": "M-svg-strict",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(parsed.root && !parsed.issues.length, 'figure SVG",
+   "to": "requireThat(parsed.root, 'figure SVG"
+  },
+  {
+   "id": "M-dup-section",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(new Set(plan.sections.map((s) => s.id)).size === plan.sections.length,",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-section-id",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(/^[a-z][a-z-]{0,39}$/u.test(sp.id),",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-dup-block",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(new Set(sp.blocks.map((b) => b.id)).size === sp.blocks.length,",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-heading-digit",
+   "file": "reverify/manuscript.ts",
+   "from": "sp.heading.trim() && !hasNumber(sp.heading)",
+   "to": "sp.heading.trim()"
+  },
+  {
+   "id": "M-empty-software",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(bp.paragraphs.length > 0,",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-empty-protected",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(bp.regions.length > 0,",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-protected-hash",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(/^[A-Za-z0-9_.-]+$/u.test(r.id) && canonicalSha256({ id: r.id, text: r.text }) === r.sha256,",
+   "to": "requireThat(/^[A-Za-z0-9_.-]+$/u.test(r.id),"
+  },
+  {
+   "id": "M-dup-protected",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(!protectedRegions.some((p) => p.id === r.id),",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-figure-slug",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(/^[a-z][a-z0-9-]{0,63}$/u.test(f.id),",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-caption-digit",
+   "file": "reverify/manuscript.ts",
+   "from": "bp.caption.trim() && !hasNumber(bp.caption)",
+   "to": "bp.caption.trim()"
+  },
+  {
+   "id": "M-empty-notes",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(bp.notes.length > 0,",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-placed-twice",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(new Set(figures.map((f) => f.id)).size === figures.length && new Set(tables.map((t) => t.id)).size === tables.length,",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "M-template-origin",
+   "file": "reverify/manuscript.ts",
+   "from": "const template = s.claimIds.length > 0 && s.citationKeys.length === 0;",
+   "to": "const template = false;"
+  },
+  {
+   "id": "M-skeleton-text",
+   "file": "reverify/manuscript.ts",
+   "from": "text: u.origin === 'software' ? canonicalSha256(u.template ? templateCore(u.text) : u.text) : null,",
+   "to": "text: null,"
+  },
+  {
+   "id": "M-template-core",
+   "file": "reverify/manuscript.ts",
+   "from": "if (text.startsWith(c + ' ')) return text.slice(c.length + 1);",
+   "to": "if (false) return text.slice(c.length + 1);"
+  },
+  {
+   "id": "M-results-lock",
+   "file": "reverify/manuscript.ts",
+   "from": "requireThat(validLock(ctx, id) || c.status === 'exploratory' || c.status === 'voided', 'outcome",
+   "to": "requireThat(true, 'outcome"
+  },
+  {
+   "id": "M-figure-number",
+   "file": "reverify/manuscript.ts",
+   "from": "const label = `Figure ${number}`;",
+   "to": "const label = `Figure ${number + 1}`;"
+  },
+  {
+   "id": "K-context",
+   "file": "reverify/skeleton.ts",
+   "from": "if (baseline.contextSha256 !== edited.contextSha256) changes.push",
+   "to": "if (false) changes.push"
+  },
+  {
+   "id": "K-spine-same",
+   "file": "reverify/skeleton.ts",
+   "from": "    if (step.op === 'same') continue;\n    const x",
+   "to": "    continue;\n    const x"
+  },
+  {
+   "id": "K-spine-values",
+   "file": "reverify/skeleton.ts",
+   "from": "const spineKey = (u: SkeletonUnit): string => canonicalJson(u);",
+   "to": "const spineKey = (u: SkeletonUnit): string => canonicalJson({ ...u, values: [] });"
+  },
+  {
+   "id": "K-is-spine",
+   "file": "reverify/skeleton.ts",
+   "from": "u.o === 'software' || u.values.length > 0",
+   "to": "u.o === 'software'"
+  },
+  {
+   "id": "K-glue-added",
+   "file": "reverify/skeleton.ts",
+   "from": "type: 'glue-added', allowed: mode === 'revision'",
+   "to": "type: 'glue-added', allowed: true"
+  },
+  {
+   "id": "K-glue-removed",
+   "file": "reverify/skeleton.ts",
+   "from": "type: 'glue-removed', allowed: mode === 'revision'",
+   "to": "type: 'glue-removed', allowed: true"
+  },
+  {
+   "id": "K-glue-moved",
+   "file": "reverify/skeleton.ts",
+   "from": "type: 'glue-moved', allowed: mode === 'revision'",
+   "to": "type: 'glue-moved', allowed: true"
+  },
+  {
+   "id": "K-prose-allowed",
+   "file": "reverify/skeleton.ts",
+   "from": "type: 'prose-changed', allowed: true",
+   "to": "type: 'prose-changed', allowed: false"
+  },
+  {
+   "id": "K-ok",
+   "file": "reverify/skeleton.ts",
+   "from": "return { ok: changes.every((c) => c.allowed), mode, changes };",
+   "to": "return { ok: true, mode, changes };"
+  },
+  {
+   "id": "K-rule-results",
+   "file": "reverify/skeleton.ts",
+   "from": "['abstract', o.abstract], ['Key Points', o.keyPoints], ['Results', o.results]",
+   "to": "['abstract', o.abstract], ['Key Points', o.keyPoints]"
+  },
+  {
+   "id": "K-rule-label",
+   "file": "reverify/skeleton.ts",
+   "from": "        rules.push({ key: `m:${primary}.label`,",
+   "to": "        if (false) rules.push({ key: `m:${primary}.label`,"
+  },
+  {
+   "id": "K-rule-count",
+   "file": "reverify/skeleton.ts",
+   "from": "rules.push({ key: 'block:claim-count',",
+   "to": "if (false) rules.push({ key: 'block:claim-count',"
+  },
+  {
+   "id": "K-rule-results-blocks",
+   "file": "reverify/skeleton.ts",
+   "from": "for (const c of ctx.claims) rules.push({ key: `block:results:",
+   "to": "for (const c of []) rules.push({ key: `block:results:"
+  },
+  {
+   "id": "K-rule-aims",
+   "file": "reverify/skeleton.ts",
+   "from": "rules.push({ key: 'block:aims',",
+   "to": "if (false) rules.push({ key: 'block:aims',"
+  },
+  {
+   "id": "K-rule-part-a",
+   "file": "reverify/skeleton.ts",
+   "from": "for (const r of limitationsPartA(ctx)) rules.push(",
+   "to": "for (const r of []) rules.push("
+  },
+  {
+   "id": "K-rule-search",
+   "file": "reverify/skeleton.ts",
+   "from": "rules.push({ key: 'block:search',",
+   "to": "if (false) rules.push({ key: 'block:search',"
+  },
+  {
+   "id": "K-per-section",
+   "file": "reverify/skeleton.ts",
+   "from": "!r.sections.some((s) => bySection.get(s)?.has(r.key))",
+   "to": "![...bySection.values()].some((set) => set.has(r.key))"
+  },
+  {
+   "id": "K-provides",
+   "file": "reverify/skeleton.ts",
+   "from": "return [...u.inlines.flatMap((i) => (i.t === 'value' ? i.key.split('|') : [])), ...u.provides];",
+   "to": "return [...u.inlines.flatMap((i) => (i.t === 'value' ? i.key.split('|') : []))];"
+  },
+  {
+   "id": "E-must-appear",
+   "file": "reverify/edit.ts",
+   "from": "return { ok: diff.ok && mustAppear.length === 0, manuscript, diff,",
+   "to": "return { ok: diff.ok, manuscript, diff,"
+  },
+  {
+   "id": "E-first-draft",
+   "file": "reverify/edit.ts",
+   "from": "return { ok: mustAppear.length === 0, manuscript, diff: null,",
+   "to": "return { ok: true, manuscript, diff: null,"
+  },
+  {
+   "id": "E-html-gate",
+   "file": "reverify/edit.ts",
+   "from": "if (!verification.ok) return { ok: false,",
+   "to": "if (false) return { ok: false,"
+  },
+  {
+   "id": "E-prose-source",
+   "file": "reverify/edit.ts",
+   "from": "const source = edit ? edit.source : u.source!;",
+   "to": "const source = u.source!;"
+  },
+  {
+   "id": "H-doctype",
+   "file": "reverify/html.ts",
+   "from": "if (!html.startsWith(prefix)) { add(",
+   "to": "if (false) { add("
+  },
+  {
+   "id": "H-parse-issues",
+   "file": "reverify/html.ts",
+   "from": "for (const i of parsed.issues) add('parse',",
+   "to": "for (const i of []) add('parse',"
+  },
+  {
+   "id": "H-root-tag",
+   "file": "reverify/html.ts",
+   "from": "if (root.tag !== 'html') add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-element",
+   "file": "reverify/html.ts",
+   "from": "if (!allowed) add('forbidden-element',",
+   "to": "if (false) add('forbidden-element',"
+  },
+  {
+   "id": "H-attribute",
+   "file": "reverify/html.ts",
+   "from": "if (!allowed?.includes(k)) add('forbidden-attribute',",
+   "to": "if (false) add('forbidden-attribute',"
+  },
+  {
+   "id": "H-attr-control",
+   "file": "reverify/html.ts",
+   "from": "if (/[\\p{Cf}\\p{Cc}]/u.test(v)) add('format-char',",
+   "to": "if (false) add('format-char',"
+  },
+  {
+   "id": "H-class",
+   "file": "reverify/html.ts",
+   "from": "if (k === 'class' && !CLASSES.has(v)) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-nested",
+   "file": "reverify/html.ts",
+   "from": "if (unit) add('unit-placement', here, 'unit nested",
+   "to": "if (false) add('unit-placement', here, 'unit nested"
+  },
+  {
+   "id": "H-unknown-unit",
+   "file": "reverify/html.ts",
+   "from": "if (!u) add('unit-unknown', here, `unknown unit ${uid}`);",
+   "to": "if (!u) void 0;"
+  },
+  {
+   "id": "H-duplicate",
+   "file": "reverify/html.ts",
+   "from": "else if (seen.includes(u)) add('unit-duplicate',",
+   "to": "else if (false) add('unit-duplicate',"
+  },
+  {
+   "id": "H-placement",
+   "file": "reverify/html.ts",
+   "from": "if (!placement) add('unit-placement',",
+   "to": "if (false) add('unit-placement',"
+  },
+  {
+   "id": "H-section",
+   "file": "reverify/html.ts",
+   "from": "if (u.container !== 'metadata' && u.container !== 'title' && section !== u.section) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-origin",
+   "file": "reverify/html.ts",
+   "from": "if ((attr(e, 'data-o') === 's') !== (u.origin === 'software')) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-unit-sig",
+   "file": "reverify/html.ts",
+   "from": "if (!signer.verify(unitPayload(uid, canonParsed(e)), attr(e, 'data-sig'))) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-software-text",
+   "file": "reverify/html.ts",
+   "from": "if (observed !== u.text) add('software-changed',",
+   "to": "if (false) add('software-changed',"
+  },
+  {
+   "id": "H-drafted-attrs",
+   "file": "reverify/html.ts",
+   "from": "} else if (attr(e, 'data-sig') !== undefined || attr(e, 'data-claims') !== undefined) add(",
+   "to": "} else if (false) add("
+  },
+  {
+   "id": "H-value-outside",
+   "file": "reverify/html.ts",
+   "from": "if (!unit || !unitEl) add('unbound-number', here, `value span ${key} outside a unit`);",
+   "to": "if (!unit || !unitEl) void 0;"
+  },
+  {
+   "id": "H-value-markup",
+   "file": "reverify/html.ts",
+   "from": "else if (e.children.some(isElement)) add('forbidden-element',",
+   "to": "else if (false) add('forbidden-element',"
+  },
+  {
+   "id": "H-value-sig",
+   "file": "reverify/html.ts",
+   "from": "else if (!signer.verify(valuePayload(unit.uid, o, key, textOf(e)), attr(e, 'data-sig'))) add(",
+   "to": "else if (false) add("
+  },
+  {
+   "id": "H-value-attrs",
+   "file": "reverify/html.ts",
+   "from": "if (e.attrs.some(([k]) => !['data-v', 'data-sig'].includes(k))) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-root-hash",
+   "file": "reverify/html.ts",
+   "from": "attr(e, 'data-skeleton') !== skeleton) add('root',",
+   "to": "attr(e, 'data-skeleton') !== skeleton && false) add('root',"
+  },
+  {
+   "id": "H-root-sig",
+   "file": "reverify/html.ts",
+   "from": "if (!signer.verify(rootPayload(attr(e, 'data-context') ?? '', attr(e, 'data-skeleton') ?? ''), attr(e, 'data-sig'))) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-link",
+   "file": "reverify/html.ts",
+   "from": "if (e.tag === 'link' && (attr(e, 'rel') !== 'stylesheet' || attr(e, 'href') !== options.stylesheet)) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-charset",
+   "file": "reverify/html.ts",
+   "from": "if (e.attrs.length === 1 && attr(e, 'charset') === 'utf-8' && e.parent?.tag === 'head') verifiedSigned.add(e);",
+   "to": "if (e.attrs.length === 1 && e.parent?.tag === 'head') verifiedSigned.add(e);"
+  },
+  {
+   "id": "H-unsigned-img",
+   "file": "reverify/html.ts",
+   "from": "if (e.tag === 'img' && !isUnitEl(e)) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-attr-digit",
+   "file": "reverify/html.ts",
+   "from": "if (/\\p{N}/u.test(v) && !verifiedSigned.has(e)) add('unbound-number',",
+   "to": "if (false) add('unbound-number',"
+  },
+  {
+   "id": "H-text-control",
+   "file": "reverify/html.ts",
+   "from": "if (/[\\p{Cf}]|[\\u0000-\\u0008\\u000b\\u000c\\u000e-\\u001f\\u007f-\\u009f]/u.test(c.text)) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-text-digit",
+   "file": "reverify/html.ts",
+   "from": "if (/\\p{N}/u.test(c.text) && !signedAncestor(e)) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-outside-unit",
+   "file": "reverify/html.ts",
+   "from": "if (c.text.trim() && !unitAncestor(e)) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-order",
+   "file": "reverify/html.ts",
+   "from": "if (order !== expectedOrder) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-missing",
+   "file": "reverify/html.ts",
+   "from": "for (const u of expectedUnits) if (!seen.includes(u)) add(",
+   "to": "for (const u of expectedUnits) if (false) add("
+  },
+  {
+   "id": "H-drafted-values",
+   "file": "reverify/html.ts",
+   "from": "if (canonicalJson(values) !== canonicalJson(expectedValues)) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-asset",
+   "file": "reverify/html.ts",
+   "from": "if (bytes === undefined || createHash('sha256').update(bytes).digest('hex') !== b.svgSha256) add(",
+   "to": "if (false) add("
+  },
+  {
+   "id": "H-prose-capture",
+   "file": "reverify/html.ts",
+   "from": "if (text !== u.text) prose.push(",
+   "to": "if (false) prose.push("
+  },
+  {
+   "id": "H-source-placeholder",
+   "file": "reverify/html.ts",
+   "from": "return key.startsWith('entity:') ? textOf(c) : `[${key}]`;",
+   "to": "return textOf(c);"
+  },
+  {
+   "id": "F-page-number",
+   "file": "reverify/flow.ts",
+   "from": "if (!m || Number(m[1]) !== i + 1) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "F-control",
+   "file": "reverify/flow.ts",
+   "from": "if (/[\\p{Cf}]|[\\u0000-\\u0008\\u000b\\u000e-\\u001f\\u007f-\\u009f]/u.test(all)) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "F-missing",
+   "file": "reverify/flow.ts",
+   "from": "      issues.push({ code: 'missing-unit',",
+   "to": "      if (false) issues.push({ code: 'missing-unit',"
+  },
+  {
+   "id": "F-unexpected",
+   "file": "reverify/flow.ts",
+   "from": "    if (!explained) {",
+   "to": "    if (false) {"
+  },
+  {
+   "id": "F-figure-exact",
+   "file": "reverify/flow.ts",
+   "from": "const explained = figure !== null && gap === figure;",
+   "to": "const explained = figure !== null;"
+  },
+  {
+   "id": "F-trailing",
+   "file": "reverify/flow.ts",
+   "from": "  if (cursor < E.length) {",
+   "to": "  if (false) {"
+  },
+  {
+   "id": "F-planted-number",
+   "file": "reverify/flow.ts",
+   "from": "if (planted.length) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "F-raster",
+   "file": "reverify/flow.ts",
+   "from": "if (options.figures === 'vector') { pendingFigure",
+   "to": "if (true) { pendingFigure"
+  },
+  {
+   "id": "O-invisible",
+   "file": "reverify/outputs.ts",
+   "from": "if (r.invisible) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "O-offpage",
+   "file": "reverify/outputs.ts",
+   "from": "if (r.offPage) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "O-tiny",
+   "file": "reverify/outputs.ts",
+   "from": "if (r.size < min) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "O-min-default",
+   "file": "reverify/outputs.ts",
+   "from": "const min = profile.minFontSize ?? 3;",
+   "to": "const min = profile.minFontSize ?? 0;"
+  },
+  {
+   "id": "O-title",
+   "file": "reverify/outputs.ts",
+   "from": "if (normaliseExtracted(v) !== normaliseExtracted(expected.meta.title.text)) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "O-pinned",
+   "file": "reverify/outputs.ts",
+   "from": "else if (pinned[k] !== v) issues.push(",
+   "to": "else if (false) issues.push("
+  },
+  {
+   "id": "O-xmp",
+   "file": "reverify/outputs.ts",
+   "from": "if (x.xmp) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "O-alt-unexpected",
+   "file": "reverify/outputs.ts",
+   "from": "    else issues.push({ code: 'alt-text', where, detail: `alt text",
+   "to": "    else void 0; if (false) issues.push({ code: 'alt-text', where, detail: `alt text"
+  },
+  {
+   "id": "O-alt-missing",
+   "file": "reverify/outputs.ts",
+   "from": "if (requireAll) for (const p of pool) issues.push(",
+   "to": "if (false) for (const p of pool) issues.push("
+  },
+  {
+   "id": "O-require-alt",
+   "file": "reverify/outputs.ts",
+   "from": "profile.requireAlt ?? true, 'pdf tags'",
+   "to": "profile.requireAlt ?? false, 'pdf tags'"
+  },
+  {
+   "id": "O-marked",
+   "file": "reverify/outputs.ts",
+   "from": "if (!(s.key === 'ActualText' && LIGATURES.has(s.value))) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "O-ligatures",
+   "file": "reverify/outputs.ts",
+   "from": "s.key === 'ActualText' && LIGATURES.has(s.value)",
+   "to": "s.key === 'ActualText'"
+  },
+  {
+   "id": "O-annotation",
+   "file": "reverify/outputs.ts",
+   "from": "for (const a of x.annotations) issues.push(",
+   "to": "for (const a of []) issues.push("
+  },
+  {
+   "id": "O-outline",
+   "file": "reverify/outputs.ts",
+   "from": "for (const o of x.outlines) if (!headings.has(normaliseExtracted(o))) issues.push(",
+   "to": "for (const o of x.outlines) if (false) issues.push("
+  },
+  {
+   "id": "P-invisible",
+   "file": "reverify/pdf.ts",
+   "from": "invisible: mode === 3 || mode === 7,",
+   "to": "invisible: false,"
+  },
+  {
+   "id": "P-offpage",
+   "file": "reverify/pdf.ts",
+   "from": "offPage: x < box[0]! - 1 || x > box[2]! + 1 || y < box[1]! - 1 || y > box[3]! + 1",
+   "to": "offPage: false"
+  },
+  {
+   "id": "P-encrypt",
+   "file": "reverify/pdf.ts",
+   "from": "requireThat(!this.trailers.some((t) => t.has('Encrypt')),",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "P-filter",
+   "file": "reverify/pdf.ts",
+   "from": "else refuse(`PDF: unsupported filter ${f}`);",
+   "to": "else {}"
+  },
+  {
+   "id": "P-tounicode-gap",
+   "file": "reverify/pdf.ts",
+   "from": "requireThat(u !== undefined, `PDF: glyph code",
+   "to": "requireThat(true, `PDF: glyph code"
+  },
+  {
+   "id": "P-simple-byte",
+   "file": "reverify/pdf.ts",
+   "from": "requireThat(g !== undefined, `PDF: byte",
+   "to": "requireThat(true, `PDF: byte"
+  },
+  {
+   "id": "P-type0",
+   "file": "reverify/pdf.ts",
+   "from": "requireThat(subtype !== 'Type0', 'PDF: composite",
+   "to": "requireThat(true, 'PDF: composite"
+  },
+  {
+   "id": "P-encoding",
+   "file": "reverify/pdf.ts",
+   "from": "requireThat(base === undefined || base === 'WinAnsiEncoding' || base === 'StandardEncoding',",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "P-glyph-name",
+   "file": "reverify/pdf.ts",
+   "from": "requireThat(g !== undefined, `PDF: unknown glyph",
+   "to": "requireThat(true, `PDF: unknown glyph"
+  },
+  {
+   "id": "P-form",
+   "file": "reverify/pdf.ts",
+   "from": "if (isStream(xo) && doc.name(xo.dict.get('Subtype')) === 'Form') {",
+   "to": "if (false) {"
+  },
+  {
+   "id": "P-marked",
+   "file": "reverify/pdf.ts",
+   "from": "if (s instanceof PStr) marked.push(",
+   "to": "if (false) marked.push("
+  },
+  {
+   "id": "P-structure",
+   "file": "reverify/pdf.ts",
+   "from": "if (s instanceof PStr) out.push({ key, value: pdfTextString(s.bytes) }); }\n  structureStrings",
+   "to": "if (false) out.push({ key, value: pdfTextString(s.bytes) }); }\n  structureStrings"
+  },
+  {
+   "id": "P-annot-uri",
+   "file": "reverify/pdf.ts",
+   "from": "if (uri instanceof PStr) annotations.push(",
+   "to": "if (false) annotations.push("
+  },
+  {
+   "id": "P-annot-contents",
+   "file": "reverify/pdf.ts",
+   "from": "if (s instanceof PStr) annotations.push(",
+   "to": "if (false) annotations.push("
+  },
+  {
+   "id": "P-outline",
+   "file": "reverify/pdf.ts",
+   "from": "if (t instanceof PStr) outlines.push(",
+   "to": "if (false) outlines.push("
+  },
+  {
+   "id": "P-later-wins",
+   "file": "reverify/pdf.ts",
+   "from": "      this.objects.set(Number(m[1]), value);",
+   "to": "      if (!this.objects.has(Number(m[1]))) this.objects.set(Number(m[1]), value);"
+  },
+  {
+   "id": "P-objstm",
+   "file": "reverify/pdf.ts",
+   "from": "if (isStream(v) && this.name(v.dict.get('Type')) === 'ObjStm') this.expandObjectStream(v);",
+   "to": "if (false) this.expandObjectStream(v);"
+  },
+  {
+   "id": "P-trailer-last",
+   "file": "reverify/pdf.ts",
+   "from": "for (const t of [...this.trailers].reverse()) if (t.has(key))",
+   "to": "for (const t of this.trailers) if (t.has(key))"
+  },
+  {
+   "id": "P-inline-image",
+   "file": "reverify/pdf.ts",
+   "from": "      case 'BI': {",
+   "to": "      case 'BI-disabled': {"
+  },
+  {
+   "id": "P-utf16",
+   "file": "reverify/pdf.ts",
+   "from": "if (bytes[0] === 0xfe && bytes[1] === 0xff) {",
+   "to": "if (false) {"
+  },
+  {
+   "id": "D-crc",
+   "file": "reverify/docx.ts",
+   "from": "requireThat(data.length === usize && crc32(data) === crc,",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "D-duplicate",
+   "file": "reverify/docx.ts",
+   "from": "requireThat(!out.has(name), `DOCX: duplicate",
+   "to": "requireThat(true, `DOCX: duplicate"
+  },
+  {
+   "id": "D-encrypted",
+   "file": "reverify/docx.ts",
+   "from": "requireThat(!(flags & 1), 'DOCX: encrypted",
+   "to": "requireThat(true, 'DOCX: encrypted"
+  },
+  {
+   "id": "D-zip64",
+   "file": "reverify/docx.ts",
+   "from": "requireThat(count !== 0xffff && cdOffset !== 0xffffffff,",
+   "to": "requireThat(true,"
+  },
+  {
+   "id": "D-method",
+   "file": "reverify/docx.ts",
+   "from": ": refuse(`DOCX: unsupported compression ${method}`); }",
+   "to": ": Uint8Array.from(raw); }"
+  },
+  {
+   "id": "D-vanish",
+   "file": "reverify/docx.ts",
+   "from": "if (on(prop('vanish')) || on(prop('specVanish')) || on(prop('webHidden'))) find(",
+   "to": "if (false) find("
+  },
+  {
+   "id": "D-tiny",
+   "file": "reverify/docx.ts",
+   "from": "if (sz && Number(at(sz, 'val')) < 8) find(",
+   "to": "if (false) find("
+  },
+  {
+   "id": "D-white",
+   "file": "reverify/docx.ts",
+   "from": "if (color && /^(?:FFFFFF|FFF)$/iu.test(at(color, 'val') ?? '')) find(",
+   "to": "if (false) find("
+  },
+  {
+   "id": "D-on",
+   "file": "reverify/docx.ts",
+   "from": "const on = (e: ParsedElement | undefined) => !!e && !['0', 'false', 'off'].includes(at(e, 'val') ?? 'true');",
+   "to": "const on = (e: ParsedElement | undefined) => !!e;"
+  },
+  {
+   "id": "D-instr",
+   "file": "reverify/docx.ts",
+   "from": "else if (t === 'instrText' || t === 'fldChar') find(",
+   "to": "else if (false) find("
+  },
+  {
+   "id": "D-fldsimple",
+   "file": "reverify/docx.ts",
+   "from": "else if (t === 'fldSimple') { find('hidden-text',",
+   "to": "else if (t === 'fldSimple') { void ('hidden-text',"
+  },
+  {
+   "id": "D-textbox",
+   "file": "reverify/docx.ts",
+   "from": "else if (t === 'txbxContent' || t === 'textbox') find(",
+   "to": "else if (false) find("
+  },
+  {
+   "id": "D-hyperlink",
+   "file": "reverify/docx.ts",
+   "from": "else if (t === 'hyperlink') { find('annotation',",
+   "to": "else if (t === 'hyperlink') { void ('annotation',"
+  },
+  {
+   "id": "D-comment-anchor",
+   "file": "reverify/docx.ts",
+   "from": "else if (t === 'commentRangeStart' || t === 'commentReference') find(",
+   "to": "else if (false) find("
+  },
+  {
+   "id": "D-header",
+   "file": "reverify/docx.ts",
+   "from": "if (t) find('hidden-text', name, `header or footer",
+   "to": "if (false) find('hidden-text', name, `header or footer"
+  },
+  {
+   "id": "D-comments",
+   "file": "reverify/docx.ts",
+   "from": "if (kids(root).length) find('hidden-text', name, 'comments",
+   "to": "if (false) find('hidden-text', name, 'comments"
+  },
+  {
+   "id": "D-notes",
+   "file": "reverify/docx.ts",
+   "from": "&& textContent(n).trim()) find('hidden-text', name, `note text",
+   "to": "&& false) find('hidden-text', name, `note text"
+  },
+  {
+   "id": "D-rels",
+   "file": "reverify/docx.ts",
+   "from": "if ((at(r, 'TargetMode') ?? '') === 'External' || /hyperlink$/u.test(at(r, 'Type') ?? '')) find(",
+   "to": "if (false) find("
+  },
+  {
+   "id": "D-embedded",
+   "file": "reverify/docx.ts",
+   "from": "} else if (/^word\\/(?:glossary\\/|vbaProject|embeddings\\/|activeX\\/)/u.test(name)) find(",
+   "to": "} else if (false) find("
+  },
+  {
+   "id": "D-ins",
+   "file": "reverify/docx.ts",
+   "from": "else if (t === 'ins' || t === 'moveTo') { tracked++; s += inline(c, path); }",
+   "to": "else if (t === 'ins' || t === 'moveTo') { s += inline(c, path); }"
+  },
+  {
+   "id": "D-del",
+   "file": "reverify/docx.ts",
+   "from": "      else if (t === 'del' || t === 'moveFrom') { tracked++; }",
+   "to": "      else if (t === 'del' || t === 'moveFrom') { }"
+  },
+  {
+   "id": "D-tracked-render",
+   "file": "reverify/docx.ts",
+   "from": "if (x.trackedChanges) issues.push(",
+   "to": "if (false) issues.push("
+  },
+  {
+   "id": "D-alt-unexpected",
+   "file": "reverify/docx.ts",
+   "from": "if (k >= 0) pool.splice(k, 1); else issues.push({ code: 'alt-text', where: 'docx drawing'",
+   "to": "if (k >= 0) pool.splice(k, 1); else if (false) issues.push({ code: 'alt-text', where: 'docx drawing'"
+  },
+  {
+   "id": "D-alt-missing",
+   "file": "reverify/docx.ts",
+   "from": "if (profile.requireAlt ?? true) for (const p of pool) issues.push(",
+   "to": "if (false) for (const p of pool) issues.push("
+  },
+  {
+   "id": "D-image-path",
+   "file": "reverify/docx.ts",
+   "from": "for (const p of x.imagePaths) if (!srcs.has(p) && !alts.includes(normaliseExtracted(p))) issues.push(",
+   "to": "for (const p of x.imagePaths) if (false) issues.push("
+  },
+  {
+   "id": "D-table-caption",
+   "file": "reverify/docx.ts",
+   "from": "for (const c of x.tableCaptions) if (c && !captions.has(normaliseExtracted(c))) issues.push(",
+   "to": "for (const c of x.tableCaptions) if (false) issues.push("
+  },
+  {
+   "id": "D-properties",
+   "file": "reverify/docx.ts",
+   "from": "for (const [k, v] of Object.entries(x.properties)) if (normaliseExtracted(metaExpected[k] ?? '\\u0000') !== normaliseExtracted(v)) issues.push(",
+   "to": "for (const [k, v] of Object.entries(x.properties)) if (false) issues.push("
+  },
+  {
+   "id": "D-media",
+   "file": "reverify/docx.ts",
+   "from": "for (const [name, sha] of x.media) if (!allowedMedia.has(sha)) issues.push(",
+   "to": "for (const [name, sha] of x.media) if (false) issues.push("
+  },
+  {
+   "id": "D-readback-findings",
+   "file": "reverify/docx.ts",
+   "from": "if (x.findings.length) return fail([...x.findings]);",
+   "to": "if (false) return fail([...x.findings]);"
+  },
+  {
+   "id": "D-readback-count",
+   "file": "reverify/docx.ts",
+   "from": "if (actual.length !== expected.length) return fail(",
+   "to": "if (false) return fail("
+  },
+  {
+   "id": "D-readback-anchor",
+   "file": "reverify/docx.ts",
+   "from": "if (rebuilt === null) { issues.push(",
+   "to": "if (rebuilt === null) { void ("
+  }
+ ],
+ "omitted": [
+  {
+   "site": "sign.ts verify(): letters-format pre-check",
+   "reason": "equivalent: a malformed signature also fails the constant-time comparison"
+  },
+  {
+   "site": "sign.ts: per-build key derivation vs build ID in payload",
+   "reason": "equivalent one at a time: each alone separates builds; both kept as defence in depth"
+  },
+  {
+   "site": "manuscript.ts contextUniverse key collision",
+   "reason": "unreachable: universe key prefixes are disjoint by construction"
+  },
+  {
+   "site": "manuscript.ts draft re-parse count check",
+   "reason": "unreachable: renderDraft parses the same source with the same registry"
+  },
+  {
+   "site": "manuscript.ts resultsBlockPlans missing Results claim",
+   "reason": "unreachable after createReportContext (missing claims refuse earlier)"
+  },
+  {
+   "site": "manuscript.ts figure numbering as a plain text inline",
+   "reason": "refused at assembly by assertUnitClosed, so every suite fails at fixture load; the runner counts that as invalid, so the first-run mutant M-caption-number-value was replaced by M-figure-number"
+  },
+  {
+   "site": "html.ts signedAncestor walks ancestors",
+   "reason": "equivalent on reachable markup: signed text sits directly inside its signed element"
+  }
+ ]
+}

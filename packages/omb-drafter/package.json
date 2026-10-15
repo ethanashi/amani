@@ -1,0 +1,11 @@
+{
+  "name": "@omerta-bio/drafter",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "test": "vitest run --root ../.. packages/omb-drafter --maxWorkers=1 --no-file-parallelism",
+    "mutate": "node scripts/mutate.ts"
+  },
+  "license": "AGPL-3.0-only"
+}

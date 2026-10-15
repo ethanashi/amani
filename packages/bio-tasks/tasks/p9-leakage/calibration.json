@@ -1,0 +1,77 @@
+{
+  "bindings": {
+    "datasetManifestHash": "a78c731c42a5247d804b78ccf36696def2c115e6b52669105a7f940baf6e8bf1",
+    "files": {
+      "TASK.md": "08405ca3eb169f6d623dcddc3473d1dcfb653e574a1d16eeb652754ff1c1040e",
+      "card.json": "5da99b29e4fe9d6fb12b4360ab7888429de603a66530799ab595e30ec3107090",
+      "check.py": "8cb5b7a51007ac3b0ec567686548ef4ada215c67d25c16326b5bd9b4f681b8a1",
+      "reference.py": "1cb2745c06c07e9dc16819fab271454a01433ce8bdded2ef5f0b878d01b133cb",
+      "stage.py": "74fb2f1f880bfda29631ebd02756ce42829c7b0114aa65625f1a994193aa2126"
+    },
+    "naiveTree": "2658531188ac7b94cd7e082ea472213f0074b46c55750c7a776baad4b56857d9",
+    "sealedKey": {
+      "ciphertextSha256": "115a3d8e17d9af6b2d8fc5f62d375fa67e8e8414d4a1e48f1af11a64adcf263b",
+      "path": "packages/bio-tasks/tasks/p9-leakage/SEALED-KEY.json.enc",
+      "sha256": "115a3d8e17d9af6b2d8fc5f62d375fa67e8e8414d4a1e48f1af11a64adcf263b"
+    },
+    "shared": {
+      "lib/biotasks/calibrate.py": "4535f489a1690b9bb8c201f6a343ff7f81f1f91ab8a9ebf66bcfc86eb2b11d46",
+      "lib/biotasks/card.py": "ffa42e7c78503967395b259e711565b8ea813edae9ce202c127d065bf6a2d392",
+      "lib/biotasks/checks.py": "b9eb69ed04e6711dd82a8ef7868b9ca534ed1506f17a8297f317c5757ea6002c",
+      "lib/biotasks/grading.py": "76ccf8b7f7cc2fc7c5ae6579d26fd0432a600596c8c635bffbfc03f98d43a245",
+      "lib/biotasks/sealing.py": "efadbbef3da84a773eb35275ae6f93004655eba2f3b1220ae46e4377bc3286b2",
+      "lib/biotasks/staging.py": "1cac7ca255f9d1a6b229e65450a3896ccae84aebfa63322a68a18e55d73e3eea",
+      "packages/bio-baseline/arms/lib/armlib.py": "453f9d104d8903eb5491bc716f0bc9ecc13813265bfe2bbf5a876a01b0bbdedd",
+      "packages/bio-baseline/arms/lib/seal.py": "353f14ee1279c62e373216a6f15649b16dd0564359c3b69baa25606a3af4cf97",
+      "packages/bio-baseline/grading/grade.py": "d33bcfcf19edd1e64258789eff104ff3c5feef3b9cce7edaf73d8b935e3ade7d",
+      "packages/bio-baseline/pixi.lock": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59"
+    }
+  },
+  "calibrationInput": {
+    "empty": "failed",
+    "permuted": [
+      "failed"
+    ],
+    "reference": "passed"
+  },
+  "environment": {
+    "numpy": "2.5.3",
+    "pixi_lock_sha256": "3b74887bbf21429a8bf3d8b863a6de6d6da3f0a4e1cbe2b6dba8aadddee29c59",
+    "python": "3.13.16"
+  },
+  "mapping": {
+    "empty": "empty",
+    "naive": "permuted",
+    "reference": "reference"
+  },
+  "outcomes": {
+    "empty": {
+      "outcome": "failed",
+      "score": 0.0,
+      "verdicts": {
+        "auc_estimate": "incorrect",
+        "no_inflated_confirmation": "incorrect"
+      }
+    },
+    "naive": {
+      "outcome": "failed",
+      "score": 0.0,
+      "verdicts": {
+        "auc_estimate": "incorrect",
+        "no_inflated_confirmation": "incorrect"
+      }
+    },
+    "reference": {
+      "outcome": "passed",
+      "score": 1.0,
+      "verdicts": {
+        "auc_estimate": "correct",
+        "no_inflated_confirmation": "correct"
+      }
+    }
+  },
+  "reasons": [],
+  "schema": "bio-tasks/calibration@1",
+  "status": "valid",
+  "task": "p9-leakage"
+}

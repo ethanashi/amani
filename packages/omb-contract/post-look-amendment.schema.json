@@ -1,0 +1,256 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "version": {
+      "const": "omb-post-look-amendment/v3.1"
+    },
+    "previous_contract_hash": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "amended_contract_hash": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "previous_partition_hash": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "amended_partition_hash": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "previous_private_contract_hash": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "amended_private_contract_hash": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "look_record_hash": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "producer_id": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+    },
+    "outcome_blind": {
+      "const": true
+    },
+    "post_look": {
+      "const": true
+    },
+    "reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "const": "coarsen-units"
+              },
+              "merges": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "from_nodes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                      },
+                      "minItems": 2,
+                      "uniqueItems": true
+                    },
+                    "to_node": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                    },
+                    "coarser_level": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                    },
+                    "limitation": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "from_nodes",
+                    "to_node",
+                    "coarser_level",
+                    "limitation"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 1,
+                "uniqueItems": false
+              }
+            },
+            "required": [
+              "kind",
+              "merges"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "const": "add-replicate-groups"
+              },
+              "groups": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                    },
+                    "kind": {
+                      "type": "string",
+                      "enum": [
+                        "technical",
+                        "biological"
+                      ]
+                    },
+                    "members": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "minLength": 1,
+                        "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                      },
+                      "minItems": 1,
+                      "uniqueItems": true
+                    },
+                    "grouping_node": {
+                      "type": "string",
+                      "minLength": 1,
+                      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                    },
+                    "handling": {
+                      "type": "string",
+                      "enum": [
+                        "collapse",
+                        "model-dependence",
+                        "retain-distinct"
+                      ]
+                    },
+                    "rationale": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "kind",
+                    "members",
+                    "grouping_node",
+                    "handling",
+                    "rationale"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 1,
+                "uniqueItems": false
+              }
+            },
+            "required": [
+              "kind",
+              "groups"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "const": "remove-held-out-units"
+              },
+              "partition_id": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+              },
+              "nodes": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1,
+                  "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+                },
+                "minItems": 1,
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "kind",
+              "partition_id",
+              "nodes"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": false
+    },
+    "acceptance": {
+      "const": "must-pass-under-both-locked-and-amended-contracts"
+    }
+  },
+  "required": [
+    "version",
+    "previous_contract_hash",
+    "amended_contract_hash",
+    "previous_partition_hash",
+    "amended_partition_hash",
+    "previous_private_contract_hash",
+    "amended_private_contract_hash",
+    "look_record_hash",
+    "producer_id",
+    "outcome_blind",
+    "post_look",
+    "reason",
+    "changes",
+    "acceptance"
+  ],
+  "additionalProperties": false
+}

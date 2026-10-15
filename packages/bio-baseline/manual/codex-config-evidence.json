@@ -1,0 +1,27 @@
+{
+  "version": "codex-cli 0.156.1",
+  "model_call": false,
+  "features": {
+    "browser_use": "false",
+    "browser_use_external": "false",
+    "in_app_browser": "false",
+    "computer_use": "false",
+    "apps": "false",
+    "plugins": "false",
+    "remote_plugin": "false",
+    "multi_agent": "false",
+    "multi_agent_v2": "false",
+    "agent_message_board": "false",
+    "hooks": "false",
+    "in_app_local_automation": "false",
+    "artifact": "false",
+    "goals": "false",
+    "tool_suggest": "false",
+    "skip_host_skill_discovery": "true",
+    "image_generation": "false",
+    "skill_mcp_dependency_install": "false"
+  },
+  "web_search": "disabled",
+  "web_search_evidence": "explicit -c override in shipped command; no live model probe",
+  "config_isolation_flags_accepted": true
+}

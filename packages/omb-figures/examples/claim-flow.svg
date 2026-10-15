@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-claim-flow" width="400pt" height="192pt" viewBox="0 0 400 192" role="img" aria-labelledby="ombjjjonhlknmpp-title ombjjjonhlknmpp-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombjjjonhlknmpp-title">Claim flow diagram</title>
+ <desc id="ombjjjonhlknmpp-desc">Claim flow diagram. Flow of hypotheses from proposal to label: Hypotheses proposed: n = 14 then Locked before any look: n = 9 then Looked at confirming data: n = 9 then All required checks passed: n = 2; Supported, not every check passed: n = 3; Ruled out at the smallest effect: n = 1; Could not decide: n = 3.</desc>
+ <rect class="background" x="0" y="0" width="400" height="192" fill="#FFFFFF"/>
+ <g class="flow-box">
+  <rect class="box" x="100" y="10" width="200" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="200" y="21.5" font-size="7" text-anchor="middle" fill="#222222">Hypotheses proposed</text>
+  <text class="flow-text" x="200" y="31.5" font-size="7" text-anchor="middle" fill="#222222">n = 14</text>
+ </g>
+ <g class="arrow">
+  <line x1="200" y1="38" x2="200" y2="49" stroke="#222222" stroke-width="0.6"/>
+  <path d="M200 52L197.5 48L202.5 48Z" fill="#222222" stroke="none"/>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="100" y="52" width="200" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="200" y="63.5" font-size="7" text-anchor="middle" fill="#222222">Locked before any look</text>
+  <text class="flow-text" x="200" y="73.5" font-size="7" text-anchor="middle" fill="#222222">n = 9</text>
+ </g>
+ <g class="arrow">
+  <line x1="200" y1="80" x2="200" y2="91" stroke="#222222" stroke-width="0.6"/>
+  <path d="M200 94L197.5 90L202.5 90Z" fill="#222222" stroke="none"/>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="100" y="94" width="200" height="28" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="200" y="105.5" font-size="7" text-anchor="middle" fill="#222222">Looked at confirming data</text>
+  <text class="flow-text" x="200" y="115.5" font-size="7" text-anchor="middle" fill="#222222">n = 9</text>
+ </g>
+ <g class="arrow">
+  <line x1="200" y1="122" x2="200" y2="133" stroke="#222222" stroke-width="0.6"/>
+  <line x1="69.5" y1="133" x2="330.5" y2="133" stroke="#222222" stroke-width="0.6"/>
+  <g class="arrow">
+   <line x1="69.5" y1="133" x2="69.5" y2="141" stroke="#222222" stroke-width="0.6"/>
+   <path d="M69.5 144L67 140L72 140Z" fill="#222222" stroke="none"/>
+  </g>
+  <g class="arrow">
+   <line x1="156.5" y1="133" x2="156.5" y2="141" stroke="#222222" stroke-width="0.6"/>
+   <path d="M156.5 144L154 140L159 140Z" fill="#222222" stroke="none"/>
+  </g>
+  <g class="arrow">
+   <line x1="243.5" y1="133" x2="243.5" y2="141" stroke="#222222" stroke-width="0.6"/>
+   <path d="M243.5 144L241 140L246 140Z" fill="#222222" stroke="none"/>
+  </g>
+  <g class="arrow">
+   <line x1="330.5" y1="133" x2="330.5" y2="141" stroke="#222222" stroke-width="0.6"/>
+   <path d="M330.5 144L328 140L333 140Z" fill="#222222" stroke="none"/>
+  </g>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="29" y="144" width="81" height="38" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="69.5" y="155.5" font-size="7" text-anchor="middle" fill="#222222">All required</text>
+  <text class="flow-text" x="69.5" y="165.5" font-size="7" text-anchor="middle" fill="#222222">checks passed</text>
+  <text class="flow-text" x="69.5" y="175.5" font-size="7" text-anchor="middle" fill="#222222">n = 2</text>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="116" y="144" width="81" height="38" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="156.5" y="155.5" font-size="7" text-anchor="middle" fill="#222222">Supported, not every</text>
+  <text class="flow-text" x="156.5" y="165.5" font-size="7" text-anchor="middle" fill="#222222">check passed</text>
+  <text class="flow-text" x="156.5" y="175.5" font-size="7" text-anchor="middle" fill="#222222">n = 3</text>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="203" y="144" width="81" height="38" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="243.5" y="155.5" font-size="7" text-anchor="middle" fill="#222222">Ruled out at the</text>
+  <text class="flow-text" x="243.5" y="165.5" font-size="7" text-anchor="middle" fill="#222222">smallest effect</text>
+  <text class="flow-text" x="243.5" y="175.5" font-size="7" text-anchor="middle" fill="#222222">n = 1</text>
+ </g>
+ <g class="flow-box">
+  <rect class="box" x="290" y="144" width="81" height="38" fill="none" stroke="#222222" stroke-width="0.6"/>
+  <text class="flow-text" x="330.5" y="155.5" font-size="7" text-anchor="middle" fill="#222222">Could not</text>
+  <text class="flow-text" x="330.5" y="165.5" font-size="7" text-anchor="middle" fill="#222222">decide</text>
+  <text class="flow-text" x="330.5" y="175.5" font-size="7" text-anchor="middle" fill="#222222">n = 3</text>
+ </g>
+ <metadata>{"certificateHashes":["727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30"],"csvSha256":"5ada0969b69e705f7da753434c0337f953f774654d976d8bbc076e8e2279e4d7","factIds":["claims.confirmed","claims.insufficient","claims.locked","claims.looked","claims.proposed","claims.refuted","claims.tentative"],"figureId":"claim-flow","generatorVersion":"omb-figures@2","specSha256":"d5a7d114480352c8ccb6f416188bc210ee6138c35d4ae4f4d1e310dd6e975ecb","templateId":"claim-flow@omb-figures-templates@1"}</metadata>
+</svg>

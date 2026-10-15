@@ -1,0 +1,335 @@
+{
+ "pmcid": "PMC10632734",
+ "doi": "10.15252/msb.202311657",
+ "pmid": "37750448",
+ "journal": "Molecular Systems Biology",
+ "year": 2023,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 12,
+ "licence": "This is an open access article under the terms of the http://creativecommons.org",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 186
+  },
+  {
+   "type": "graphical",
+   "structured": false,
+   "headings": [],
+   "words": 29
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 863
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3414,
+   "sub": [
+    {
+     "heading": "Removing low‐dimensional signal from the DepMap boosts the performance of non‐mitochondrial complexes",
+     "canonical": "other",
+     "words": 1063
+    },
+    {
+     "heading": "Autoencoder and robust PCA normalization robustly capture and remove technical variation from the DepMap",
+     "canonical": "other",
+     "words": 550
+    },
+    {
+     "heading": "Onion normalization integrates normalized data across hyperparameter values",
+     "canonical": "other",
+     "words": 905
+    },
+    {
+     "heading": "Network analysis of onion‐normalized DepMap data uncovers biologically relevant clusters",
+     "canonical": "other",
+     "words": 391
+    },
+    {
+     "heading": "Onion normalization improves prediction of cell lines' tissue‐of‐origin",
+     "canonical": "other",
+     "words": 222
+    },
+    {
+     "heading": "Onion normalization enhanced signals in gene expression data",
+     "canonical": "other",
+     "words": 283
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 521
+  },
+  {
+   "heading": "Materials and Methods",
+   "canonical": "methods",
+   "words": 2529,
+   "sub": [
+    {
+     "heading": "Reagents and Tools table",
+     "canonical": "other",
+     "words": 0
+    },
+    {
+     "heading": "Methods and Protocols",
+     "canonical": "methods",
+     "words": 1254,
+     "sub": [
+      {
+       "heading": "Principal component analysis normalization",
+       "canonical": "other",
+       "words": 236
+      },
+      {
+       "heading": "Robust principal component analysis normalization",
+       "canonical": "other",
+       "words": 156
+      },
+      {
+       "heading": "Autoencoder normalization",
+       "canonical": "other",
+       "words": 231
+      },
+      {
+       "heading": "Onion normalization",
+       "canonical": "other",
+       "words": 498
+      },
+      {
+       "heading": "Normalization of DepMap 2022 Q4 Chronos scores",
+       "canonical": "other",
+       "words": 133
+      }
+     ]
+    },
+    {
+     "heading": "Functional evaluations",
+     "canonical": "other",
+     "words": 1275,
+     "sub": [
+      {
+       "heading": "Network analysis",
+       "canonical": "other",
+       "words": 119
+      },
+      {
+       "heading": "Analysis on cell line similarity network",
+       "canonical": "other",
+       "words": 211
+      },
+      {
+       "heading": "Analysis on gene‐expression data",
+       "canonical": "other",
+       "words": 261
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 75
+  },
+  {
+   "heading": "Disclosure and competing interests statement",
+   "canonical": "competing_interests",
+   "words": 10
+  },
+  {
+   "heading": "Supporting information",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 67
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 6,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 47
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 863,
+  "results": 3414,
+  "discussion": 521,
+  "methods": 2529,
+  "contributions": 75,
+  "competing_interests": 10,
+  "other_back": 6,
+  "acknowledgements": 67,
+  "data_availability": 47,
+  "references": 0
+ },
+ "main_text_words": 7327,
+ "main_text_words_excluding_methods": 4798,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 11,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure EV1",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure EV2",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure EV3",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "study_design_schematic",
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Figure 5",
+   "kind_guess": [
+    "waterfall_rank"
+   ]
+  },
+  {
+   "label": "Figure EV4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure EV5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": ""
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 4,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 65,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": true,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": true
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

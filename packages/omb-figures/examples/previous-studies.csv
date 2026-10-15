@@ -1,0 +1,10 @@
+source,role,direction_agrees,statistic,value,unit,ci_level,display,grade,fact_id,source_record_id
+this study,this-study,,estimate,1.42,,,1.42,kernel,c1.primary.estimate,afaf91bcd4d3aa7881973eff5be0eec0108ca8b5e2028580a31b4d3151b28c49
+this study,this-study,,ci_lower,1.08,,0.95,1.08,kernel,c1.primary.ci_lower,d85dbce845e41d6f83b35b5709deae886bc20906ca6fa4945e46d605eb6620f0
+this study,this-study,,ci_upper,1.87,,0.95,1.87,kernel,c1.primary.ci_upper,052c00d4a67a33d6b3d94ac6ea41d0d6bcc8ca58a86fb9689bd5d4b29aad0602
+Smith and colleagues,published,yes,estimate,1.3,,,1.30,published,lit.smith.estimate,df63a6922cd994d575286f3c4ccd08b3ba219cdbab52e565d2d7bbbd89b6d996
+Smith and colleagues,published,yes,ci_lower,1.05,,0.95,1.05,published,lit.smith.ci_lower,8ebd89b9725100843d92a7f151940e7a43519376411ee79441b3a806d5fe852d
+Smith and colleagues,published,yes,ci_upper,1.61,,0.95,1.61,published,lit.smith.ci_upper,3e8a4c0537a0cdf62ecf4f564b86a0d071e908ede104cd2175706e8df5b38477
+A national registry study,published,no,estimate,0.92,,,0.92,published,lit.registry.estimate,4a086c5c1182a9ded83cfce7199eab2c7b60e5c9508311fc8333109f6db3ee31
+A national registry study,published,no,ci_lower,0.7,,0.95,0.70,published,lit.registry.ci_lower,9e693c95582bd047a3d5fe6b29b2d207eb774fc67959233cd71dcc972334ce15
+A national registry study,published,no,ci_upper,1.21,,0.95,1.21,published,lit.registry.ci_upper,7b7936f851176742741bc336b90a102ff71d9c79e37c7f2d3ee3af4efe990ca0

@@ -1,0 +1,16 @@
+claim_id,row_label,status,statistic,value,unit,ci_level,display,grade,fact_id,source_record_id
+c1,Exposure and the primary outcome,tentative,estimate,1.42,,,1.42,kernel,c1.primary.estimate,afaf91bcd4d3aa7881973eff5be0eec0108ca8b5e2028580a31b4d3151b28c49
+c1,Exposure and the primary outcome,tentative,ci_lower,1.08,,0.95,1.08,kernel,c1.primary.ci_lower,d85dbce845e41d6f83b35b5709deae886bc20906ca6fa4945e46d605eb6620f0
+c1,Exposure and the primary outcome,tentative,ci_upper,1.87,,0.95,1.87,kernel,c1.primary.ci_upper,052c00d4a67a33d6b3d94ac6ea41d0d6bcc8ca58a86fb9689bd5d4b29aad0602
+c1,Exposure and the primary outcome,tentative,p,0.012,,,0.01,kernel,c1.p,a57eb45facebbbd56519ba99041a41636df1f146fc013875079cbf1faa9ff695
+c1,Exposure and the primary outcome,tentative,n,4210,,,"4,210",kernel,c1.n,3288c1f47ba30e56a009998e623549400b58a39730f531107d36816af92d4574
+c2,Discrimination of the locked model,confirmed,estimate,0.8,,,0.80,kernel,c2.auc.estimate,061cae2027ac53b781901336516f3f9ea8a34af6a33967e617c53c6f9233e4c6
+c2,Discrimination of the locked model,confirmed,ci_lower,0.76,,0.95,0.76,kernel,c2.auc.ci_lower,551c17d6089e260a7bd38dafa5f7fee8aa093fb7e4bf9650395c80528d5b80e4
+c2,Discrimination of the locked model,confirmed,ci_upper,0.84,,0.95,0.84,kernel,c2.auc.ci_upper,e3cd3ef38b8e92a7c4c5394638d9f7273aa07c8422327ff0c3f75d2adca7799f
+c2,Discrimination of the locked model,confirmed,p,0.0004,,,< 0.001,kernel,c2.p,1eda51b959ef698b258e766779eedb0889a94404b02abb57688b88dad0d5a18c
+c2,Discrimination of the locked model,confirmed,n,1263,,,"1,263",kernel,c2.n,b6ed07284ba863dfcc73dc79c9f323cbaaca21a94805357ada4f70807ce47f3c
+c4,Genetically predicted exposure and outcome,tentative,estimate,0.2889,,,0.289,kernel,c4.ivw.estimate,8e8f090a7c8ce65584914eda4f2b4fde41ec790b3ab90e1b0f20ac9dcf7f1614
+c4,Genetically predicted exposure and outcome,tentative,ci_lower,0.2289,,0.95,0.229,kernel,c4.ivw.ci_lower,9bf8aa6e67a14f82f607369e372f2315f3901589d34f00b4837eeabea7dccabe
+c4,Genetically predicted exposure and outcome,tentative,ci_upper,0.3489,,0.95,0.349,kernel,c4.ivw.ci_upper,6bb03e75076378cf74b811157be809013b1973a4ace4337bf8a9d946849a09e4
+c4,Genetically predicted exposure and outcome,tentative,p,0.0496,,,0.0496,kernel,c4.p,95e053df52b7bd388d786b4d63822d25398c4fd000fdc84cfc96ec23c56f8f01
+c4,Genetically predicted exposure and outcome,tentative,n,12,,,12,kernel,c4.n,ce70fc961ea17e036491824a307ca9679787644306629f6f6ccd8b5b0d578a87

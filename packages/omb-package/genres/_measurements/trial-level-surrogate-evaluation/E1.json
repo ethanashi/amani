@@ -1,0 +1,277 @@
+{
+ "pmcid": "PMC12268488",
+ "doi": "10.1001/jamanetworkopen.2025.21197",
+ "pmid": "40668580",
+ "journal": "JAMA Network Open",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 8,
+ "licence": "CC-BY",
+ "abstracts": [
+  {
+   "type": "key-points",
+   "structured": true,
+   "headings": [
+    "Question",
+    "Findings",
+    "Meaning"
+   ],
+   "words": 69
+  },
+  {
+   "type": "teaser",
+   "structured": false,
+   "headings": [],
+   "words": 25
+  },
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Importance",
+    "Objective",
+    "Data Sources",
+    "Study Selection",
+    "Data Extraction and Synthesis",
+    "Main Outcomes and Measures",
+    "Results",
+    "Conclusions and Relevance"
+   ],
+   "words": 322
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 448
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 586,
+   "sub": [
+    {
+     "heading": "Search Strategy",
+     "canonical": "other",
+     "words": 109
+    },
+    {
+     "heading": "Study Selection and Inclusion Criteria",
+     "canonical": "other",
+     "words": 152
+    },
+    {
+     "heading": "Data Extraction, Quality Assessment, and Outcome Measures",
+     "canonical": "other",
+     "words": 65
+    },
+    {
+     "heading": "Statistical Analysis",
+     "canonical": "other",
+     "words": 260
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 645,
+   "sub": [
+    {
+     "heading": "Study Characteristics",
+     "canonical": "other",
+     "words": 50
+    },
+    {
+     "heading": "Pathologic Complete Response",
+     "canonical": "other",
+     "words": 67
+    },
+    {
+     "heading": "pCR vs OS",
+     "canonical": "other",
+     "words": 70
+    },
+    {
+     "heading": "pCR vs DFS",
+     "canonical": "other",
+     "words": 61
+    },
+    {
+     "heading": "Risk of Bias and Sensitivity Analysis",
+     "canonical": "other",
+     "words": 175
+    },
+    {
+     "heading": "Subgroup Analysis in Studies Including Only Patients Undergoing Curative Resection in Survival Analysis",
+     "canonical": "other",
+     "words": 63
+    },
+    {
+     "heading": "Subgroup Analysis After Excluding Studies That Did Not Use Proportional HRs",
+     "canonical": "other",
+     "words": 49
+    },
+    {
+     "heading": "Subgroup Analysis After Excluding Studies That Included Neoadjuvant Radiation Therapy Alone",
+     "canonical": "other",
+     "words": 31
+    },
+    {
+     "heading": "Publication Bias and Overall Certainty of Evidence",
+     "canonical": "other",
+     "words": 79
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1255,
+   "sub": [
+    {
+     "heading": "Limitations",
+     "canonical": "limitations",
+     "words": 330
+    }
+   ]
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 56
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 448,
+  "methods": 586,
+  "results": 645,
+  "discussion": 1255,
+  "conclusions": 56,
+  "other_back": 0,
+  "references": 0,
+  "supplementary": 0
+ },
+ "main_text_words": 2990,
+ "main_text_words_excluding_methods": 2404,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 330
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Figure 1.",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Figure 2.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4.",
+   "kind_guess": [
+    "rob_summary"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table."
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 2,
+ "supplementary": [
+  {
+   "label": "Supplement 1."
+  },
+  {
+   "label": "Supplement 2."
+  }
+ ],
+ "references": 73,
+ "flags": {
+  "prospero": true,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": true,
+  "rob2": true,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": true,
+  "i2": true,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

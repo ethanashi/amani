@@ -1,0 +1,438 @@
+{
+ "pmcid": "PMC11540304",
+ "doi": "10.7554/eLife.92074",
+ "pmid": "39503729",
+ "journal": "eLife",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Research Article",
+  "Cancer Biology",
+  "Genetics and Genomics"
+ ],
+ "title_words": 13,
+ "licence": "https://creativecommons.org/licenses/by/4.0/This article is distributed under th",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 259
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 658
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 4061,
+   "sub": [
+    {
+     "heading": "Single-cell multiomic CITE-seq analysis defines the heterogeneity of CML stem cell fractions",
+     "canonical": "other",
+     "words": 727
+    },
+    {
+     "heading": "Identification of gene signatures unique to CML cells and shared across CML stem and progenitor populations",
+     "canonical": "other",
+     "words": 298
+    },
+    {
+     "heading": "Progenitor heterogeneity at diagnosis is linked to TKI therapy outcome",
+     "canonical": "other",
+     "words": 311
+    },
+    {
+     "heading": "Large-scale deconvolution of an independent dataset shows that cell composition is linked to cytogenetic response to TKI therapy",
+     "canonical": "other",
+     "words": 448
+    },
+    {
+     "heading": "Identification of BCR::ABL1",
+     "canonical": "other",
+     "words": 939
+    },
+    {
+     "heading": "A unique combination of CD26 and CD35 surface markers captures molecularly defined BCR::ABL1",
+     "canonical": "other",
+     "words": 820
+    },
+    {
+     "heading": "A comparative analysis of CD26",
+     "canonical": "other",
+     "words": 518
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1422
+  },
+  {
+   "heading": "Materials and methods",
+   "canonical": "methods",
+   "words": 1902,
+   "sub": [
+    {
+     "heading": "Patient samples",
+     "canonical": "other",
+     "words": 106
+    },
+    {
+     "heading": "CITE-seq sample preparation and facs sort",
+     "canonical": "other",
+     "words": 156
+    },
+    {
+     "heading": "CITE-seq library preparation and sequencing",
+     "canonical": "other",
+     "words": 175
+    },
+    {
+     "heading": "CITE-seq analysis",
+     "canonical": "other",
+     "words": 809,
+     "sub": [
+      {
+       "heading": "Mapping reference",
+       "canonical": "other",
+       "words": 105
+      },
+      {
+       "heading": "Label transfer through reference-based cell projection",
+       "canonical": "other",
+       "words": 478
+      }
+     ]
+    },
+    {
+     "heading": "Analysis of differentially expressed genes",
+     "canonical": "other",
+     "words": 171
+    },
+    {
+     "heading": "ADT gating",
+     "canonical": "other",
+     "words": 61
+    },
+    {
+     "heading": "Gene expression deconvolution",
+     "canonical": "other",
+     "words": 159
+    },
+    {
+     "heading": "Flow cytometry for phenotyping",
+     "canonical": "other",
+     "words": 60
+    },
+    {
+     "heading": "qPCR for BCR::ABL1",
+     "canonical": "other",
+     "words": 77
+    },
+    {
+     "heading": "Time to first division in vitro",
+     "canonical": "other",
+     "words": 128
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Funding Information",
+   "canonical": "funding",
+   "words": 62
+  },
+  {
+   "heading": "Additional information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Additional files",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 167
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 98
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:COI-statement",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:con",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:other",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:other",
+   "canonical": "fn",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 658,
+  "results": 4061,
+  "discussion": 1422,
+  "methods": 1902
+ },
+ "main_text_words": 8043,
+ "main_text_words_excluding_methods": 6141,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 16,
+ "figures": [
+  {
+   "label": "Figure 1.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 1—figure supplement 1.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 2.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3—figure supplement 1.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 3—figure supplement 2.",
+   "kind_guess": [
+    "volcano"
+   ]
+  },
+  {
+   "label": "Figure 4.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4—figure supplement 1.",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Figure 4—figure supplement 2.",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Figure 4—figure supplement 3.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4—figure supplement 4.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 5.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 5—figure supplement 1.",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Figure 5—figure supplement 2.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 6.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Author response image 1.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 8,
+ "supplementary": [
+  {
+   "label": "Supplementary file 1."
+  },
+  {
+   "label": "Supplementary file 2."
+  },
+  {
+   "label": "Supplementary file 3."
+  },
+  {
+   "label": "Supplementary file 4."
+  },
+  {
+   "label": "Supplementary file 5."
+  },
+  {
+   "label": "Supplementary file 6."
+  },
+  {
+   "label": "Supplementary file 7."
+  },
+  {
+   "label": "MDAR checklist"
+  }
+ ],
+ "references": 80,
+ "flags": {
+  "prospero": false,
+  "osf_registration": true,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": true,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

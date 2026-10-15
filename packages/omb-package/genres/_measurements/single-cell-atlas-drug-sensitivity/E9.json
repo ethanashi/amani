@@ -1,0 +1,380 @@
+{
+ "pmcid": "PMC11226649",
+ "doi": "10.1038/s41467-024-49885-8",
+ "pmid": "38969631",
+ "journal": "Nature Communications",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 14,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 221
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 49
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 366
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3468,
+   "sub": [
+    {
+     "heading": "Construction of a large-scale, pan-cancer macrophage atlas",
+     "canonical": "other",
+     "words": 332
+    },
+    {
+     "heading": "The spectrum of TAM diversity is broad and complex",
+     "canonical": "other",
+     "words": 1213
+    },
+    {
+     "heading": "Both tumour-intrinsic and environmental factors shape macrophage phenotype",
+     "canonical": "other",
+     "words": 550
+    },
+    {
+     "heading": "TAM phenotypes and patient responses to immune checkpoint inhibitors",
+     "canonical": "other",
+     "words": 933
+    },
+    {
+     "heading": "Our atlas augments existing literature-based models, and forms a comprehensive reference for future studies",
+     "canonical": "other",
+     "words": 440
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 695
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 1350,
+   "sub": [
+    {
+     "heading": "Selection of TAMs from individual datasets",
+     "canonical": "other",
+     "words": 152
+    },
+    {
+     "heading": "Integration/batch correction of datasets and atlas construction",
+     "canonical": "other",
+     "words": 150
+    },
+    {
+     "heading": "Clustering, annotation and low-dimensional embedding",
+     "canonical": "other",
+     "words": 103
+    },
+    {
+     "heading": "Pathway analysis",
+     "canonical": "other",
+     "words": 23
+    },
+    {
+     "heading": "Testing for differences in proportions of clusters between conditions",
+     "canonical": "other",
+     "words": 18
+    },
+    {
+     "heading": "Multiple testing correction",
+     "canonical": "other",
+     "words": 34
+    },
+    {
+     "heading": "Statistical analysis and data manipulation",
+     "canonical": "other",
+     "words": 11
+    },
+    {
+     "heading": "Analysis of the similarity between clusters",
+     "canonical": "other",
+     "words": 34
+    },
+    {
+     "heading": "Examination of co-occurrence of macrophage clusters",
+     "canonical": "other",
+     "words": 47
+    },
+    {
+     "heading": "Assessing the specificity of macrophage cluster signatures in bulk data",
+     "canonical": "other",
+     "words": 365
+    },
+    {
+     "heading": "Association of macrophage subsets with immune checkpoint inhibitor response",
+     "canonical": "other",
+     "words": 131
+    },
+    {
+     "heading": "Assessing T cell infiltration in bulk RNAseq data",
+     "canonical": "other",
+     "words": 48
+    },
+    {
+     "heading": "Calculation of MANA score and compilation of smaller secondary atlas",
+     "canonical": "other",
+     "words": 64
+    },
+    {
+     "heading": "Spatial analysis of the ECM macrophage subset",
+     "canonical": "other",
+     "words": 99
+    },
+    {
+     "heading": "Projection of novel datasets on to the atlas",
+     "canonical": "other",
+     "words": 54
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Supplementary information",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Source data",
+     "canonical": "other",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 67
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 42
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 29,
+   "sub": [
+    {
+     "heading": "Peer review information",
+     "canonical": "other",
+     "words": 29
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 46
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 17
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 92
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 11,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 63,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 63
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 366,
+  "results": 3468,
+  "discussion": 695,
+  "methods": 1350,
+  "other_back": 40,
+  "acknowledgements": 67,
+  "contributions": 42,
+  "data_availability": 63,
+  "competing_interests": 92,
+  "supplementary": 72,
+  "references": 0
+ },
+ "main_text_words": 5879,
+ "main_text_words_excluding_methods": 4529,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 5,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "dotplot"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "umap_tsne"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 7,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 126,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": true,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": [
+  "pancreatic"
+ ]
+}

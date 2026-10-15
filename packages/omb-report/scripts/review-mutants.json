@@ -1,0 +1,933 @@
+[
+  {
+    "id": "R19-leftover",
+    "file": "grammar.ts",
+    "from": "requireThat(!/\\b(?:as an AI|certainly|TODO)",
+    "to": "requireThat(true || !/\\b(?:as an AI|certainly|TODO)",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-url",
+    "file": "grammar.ts",
+    "from": "requireThat(!/(?:https?:",
+    "to": "requireThat(true || !/(?:https?:",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-crossed",
+    "file": "grammar.ts",
+    "from": "requireThat(markers[i]===markers[i+1]",
+    "to": "requireThat(true || markers[i]===markers[i+1]",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-emphasis-length",
+    "file": "grammar.ts",
+    "from": "m.length<=2",
+    "to": "true",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-ampersand",
+    "file": "normalise.ts",
+    "from": "requireThat(!/&/u.test(text)",
+    "to": "requireThat(true || !/&/u.test(text)",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-size",
+    "file": "normalise.ts",
+    "from": "text.length<=200_000",
+    "to": "true",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-controls",
+    "file": "normalise.ts",
+    "from": "requireThat(!/\\p{Cf}",
+    "to": "requireThat(true || !/\\p{Cf}",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-empty",
+    "file": "grammar.ts",
+    "from": "requireThat(text,'empty draft')",
+    "to": "requireThat(true,'empty draft')",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-terminal",
+    "file": "grammar.ts",
+    "from": "requireThat(!text.slice(begin).trim()",
+    "to": "requireThat(true || !text.slice(begin).trim()",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-dash",
+    "file": "normalise.ts",
+    "from": ".replace(/[\u2010\u2011\u2012\u2013\u2014\u2212]/gu,'-')",
+    "to": "",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-nfkc",
+    "file": "normalise.ts",
+    "from": "text.normalize('NFKC')",
+    "to": "text",
+    "test": "review-round1"
+  },
+  {
+    "id": "R19-unicode-numerals",
+    "file": "normalise.ts",
+    "from": "requireThat(![...text].some",
+    "to": "requireThat(true || ![...text].some",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-failed-checks",
+    "file": "context.ts",
+    "from": "requireThat(requirements.length>0&&requirements.every(r=>r.passed)",
+    "to": "requireThat(true || requirements.length>0&&requirements.every(r=>r.passed)",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-label",
+    "file": "context.ts",
+    "from": "requireThat(label.status===found.status",
+    "to": "requireThat(true || label.status===found.status",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-route-N",
+    "file": "context.ts",
+    "from": "requireThat(validation.route==='N'",
+    "to": "requireThat(true || validation.route==='N'",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-missing",
+    "file": "context.ts",
+    "from": "requireThat(input.plannedFound.missingClaimIds.length===0",
+    "to": "requireThat(true || input.plannedFound.missingClaimIds.length===0",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-duplicate",
+    "file": "context.ts",
+    "from": "requireThat(new Set(claims.map(c=>c.id)).size===claims.length",
+    "to": "requireThat(true || new Set(claims.map(c=>c.id)).size===claims.length",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-classification",
+    "file": "context.ts",
+    "from": "requireThat(d.classification==='input'&&d.derivation===null",
+    "to": "requireThat(true || d.classification==='input'&&d.derivation===null",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-derivation",
+    "file": "context.ts",
+    "from": "verifyDerivation(d.derivation,input.factExtensions.sources);",
+    "to": "",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-value",
+    "file": "context.ts",
+    "from": "requireThat(input.factExtensions.sources.some",
+    "to": "requireThat(true || input.factExtensions.sources.some",
+    "test": "review-round1"
+  },
+  {
+    "id": "R20-assumptions",
+    "file": "context.ts",
+    "from": "if(claim.rung>=2)requireThat",
+    "to": "if(false)requireThat",
+    "test": "review-round1"
+  },
+  {
+    "id": "R21-intro-result",
+    "file": "wording.ts",
+    "from": "requireThat(!explicit.length&&!refs.length",
+    "to": "requireThat(true || !explicit.length&&!refs.length",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-intro-exploratory",
+    "file": "wording.ts",
+    "from": "requireThat(c.registered||quotes.length",
+    "to": "requireThat(true || c.registered||quotes.length",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-unbound-metric",
+    "file": "wording.ts",
+    "from": "requireThat(!refs.length||bound.length>0&&!quotes.length",
+    "to": "requireThat(true || !refs.length||bound.length>0&&!quotes.length",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-entity-slot",
+    "file": "wording.ts",
+    "from": "requireThat(entity&&entity.claimIds.includes(c.id)",
+    "to": "requireThat(true || entity&&entity.claimIds.includes(c.id)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-entity-unbound",
+    "file": "wording.ts",
+    "from": "requireThat(!s.placeholders.some(p=>p.kind==='e')||bound.length>0",
+    "to": "requireThat(true || !s.placeholders.some(p=>p.kind==='e')||bound.length>0",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-primary",
+    "file": "wording.ts",
+    "from": "requireThat(bound.every(c=>c.id===ctx.input.plannedFound.primaryClaimId&&validLock(ctx,c.id))",
+    "to": "requireThat(true || bound.every(c=>c.id===ctx.input.plannedFound.primaryClaimId&&validLock(ctx,c.id))",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-primary-registered",
+    "file": "wording.ts",
+    "from": "&&validLock(ctx,c.id)",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-region-abstract",
+    "file": "wording.ts",
+    "from": "if(['title','key-points','abstract','plain-summary'].includes(region)&&bound.length)",
+    "to": "if(['title', 'key-points', 'plain-summary'].includes(region)&&bound.length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-region-key-points",
+    "file": "wording.ts",
+    "from": "if(['title','key-points','abstract','plain-summary'].includes(region)&&bound.length)",
+    "to": "if(['title', 'abstract', 'plain-summary'].includes(region)&&bound.length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-region-plain-summary",
+    "file": "wording.ts",
+    "from": "if(['title','key-points','abstract','plain-summary'].includes(region)&&bound.length)",
+    "to": "if(['title', 'key-points', 'abstract'].includes(region)&&bound.length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-implicit",
+    "file": "wording.ts",
+    "from": "mentioned.forEach(c=>ids.add(c.id));",
+    "to": "mentioned.forEach(c=>void c);",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-duplicate",
+    "file": "wording.ts",
+    "from": "requireThat(new Set(explicit).size===explicit.length",
+    "to": "requireThat(true || new Set(explicit).size===explicit.length",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-unknown",
+    "file": "wording.ts",
+    "from": "requireThat(ctx.claims.some(c=>c.id===id)",
+    "to": "requireThat(true || ctx.claims.some(c=>c.id===id)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-drug-scope",
+    "file": "wording.ts",
+    "from": "c.scope==='S1'||c.rung<3",
+    "to": "c.rung<3",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-drug-rung",
+    "file": "wording.ts",
+    "from": "c.scope==='S1'||c.rung<3",
+    "to": "c.scope==='S1'",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-companion-follow",
+    "file": "wording.ts",
+    "from": "&&p.key===`${f.claimId}.result`",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-entity-mask",
+    "file": "wording.ts",
+    "from": "prose=prose.slice(0,e.start)+' '.repeat(e.end-e.start)+prose.slice(e.end)",
+    "to": "prose=prose",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-significance",
+    "file": "wording.ts",
+    "from": "if(hits('(?:in)?signific\\\\w*',text).length)",
+    "to": "if(false)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-hub-gene",
+    "file": "wording.ts",
+    "from": "|hub gene",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R21-protects",
+    "file": "wording.ts",
+    "from": "|protect\\\\w*",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-table-exploratory",
+    "file": "wording.ts",
+    "from": "if(hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "to": "if(c.status!=='exploratory'&&hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-table-tentative",
+    "file": "wording.ts",
+    "from": "if(hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "to": "if(c.status!=='tentative'&&hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-table-confirmed",
+    "file": "wording.ts",
+    "from": "if(hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "to": "if(c.status!=='confirmed'&&hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-table-replicated",
+    "file": "wording.ts",
+    "from": "if(hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "to": "if(c.status!=='replicated'&&hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-table-refuted",
+    "file": "wording.ts",
+    "from": "if(hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "to": "if(c.status!=='refuted'&&hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-table-insufficient-evidence",
+    "file": "wording.ts",
+    "from": "if(hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "to": "if(c.status!=='insufficient-evidence'&&hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-table-non-identifiable",
+    "file": "wording.ts",
+    "from": "if(hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "to": "if(c.status!=='non-identifiable'&&hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-table-voided",
+    "file": "wording.ts",
+    "from": "if(hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "to": "if(c.status!=='voided'&&hits(PHRASE_TABLE[c.status].ban,framed).length)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-quote-9",
+    "file": "wording.ts",
+    "from": "[1,6,12].includes(n)",
+    "to": "[1,6,9,12].includes(n)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-quote-none",
+    "file": "wording.ts",
+    "from": "[1,6,12].includes(n)",
+    "to": "true",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-quote-6",
+    "file": "wording.ts",
+    "from": "[1,6,12].includes(n)",
+    "to": "[1,12].includes(n)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-quote-12",
+    "file": "wording.ts",
+    "from": "[1,6,12].includes(n)",
+    "to": "[1,6].includes(n)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-quote-1",
+    "file": "wording.ts",
+    "from": "[1,6,12].includes(n)",
+    "to": "[6,12].includes(n)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L1-needs-claims",
+    "file": "wording.ts",
+    "from": "if(n===1&&claims.length&&s.placeholders.some(p=>p.kind==='claim'))continue;",
+    "to": "if(n===1)continue;",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L4-exempt",
+    "file": "wording.ts",
+    "from": "if(n===4&&!claims.length)continue;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L5-exempt",
+    "file": "wording.ts",
+    "from": "if(!claims.length)continue;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L6-exempt",
+    "file": "wording.ts",
+    "from": "if(n===6&&!claims.length)continue;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L7-exempt",
+    "file": "wording.ts",
+    "from": "if(n===7&&!claims.some(c=>/odds ratio|^or$/iu.test(c.bundle?.measure??'')))continue;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L12-causal-genetic",
+    "file": "wording.ts",
+    "from": "if(n===12&&claims.length&&claims.every(c=>c.rung>=2&&c.kind==='causal-genetic'))continue;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L14-status",
+    "file": "wording.ts",
+    "from": "if(n===14&&!claims.some(c=>['refuted','insufficient-evidence','voided'].includes(c.status)))continue;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L14-refuted",
+    "file": "wording.ts",
+    "from": "['refuted','insufficient-evidence','voided'].includes(c.status)",
+    "to": "['insufficient-evidence','voided'].includes(c.status)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L14-voided",
+    "file": "wording.ts",
+    "from": "['refuted','insufficient-evidence','voided'].includes(c.status)",
+    "to": "['refuted','insufficient-evidence'].includes(c.status)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L15-rung3",
+    "file": "wording.ts",
+    "from": "c.rung>=3&&c.scope",
+    "to": "c.rung>=2&&c.scope",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L15-rung3-scope",
+    "file": "wording.ts",
+    "from": "c.rung>=3&&c.scope!=='S1'",
+    "to": "c.rung>=3",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L16-region",
+    "file": "wording.ts",
+    "from": "if(!['caption','alt'].includes(region))continue;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-L16-backing",
+    "file": "wording.ts",
+    "from": "if(s.placeholders.some(p=>p.kind==='m'&&p.key.endsWith('.direction')&&ctx.slots.get(`m:${p.key}`)?.grade==='kernel'))continue;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R22-cause-quote",
+    "file": "wording.ts",
+    "from": "if(!/^cause$/iu.test(hit)||!quoteAllows(hit))",
+    "to": "if(true)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-number-citation",
+    "file": "render.ts",
+    "from": "requireThat(s.placeholders.some(p=>p.kind==='c'&&p.key===key)",
+    "to": "requireThat(true || s.placeholders.some(p=>p.kind==='c'&&p.key===key)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-quote-id",
+    "file": "render.ts",
+    "from": "match&&match[2]===entry.quoteId",
+    "to": "match",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-binding-hash",
+    "file": "wording.ts",
+    "from": "&&q.approvedSentenceHashes.includes(canonicalSha256(s.text))",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-render-hash",
+    "file": "render.ts",
+    "from": "&&quote.approvedSentenceHashes.includes(canonicalSha256(s.text))",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-binding-status",
+    "file": "wording.ts",
+    "from": "&&['fulltext-verified','abstract-supported'].includes(q.status)",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-render-status",
+    "file": "render.ts",
+    "from": "&&['fulltext-verified','abstract-supported'].includes(quote.status)",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-procedure-owner",
+    "file": "render.ts",
+    "from": "requireThat(bound.claims.every(c=>c.id===f.claimId)",
+    "to": "requireThat(true || bound.claims.every(c=>c.id===f.claimId)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R23-risk-scope",
+    "file": "render.ts",
+    "from": "requireThat(c.scope==='S1'",
+    "to": "requireThat(true || c.scope==='S1'",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-looks",
+    "file": "lock.ts",
+    "from": "||!ctx.input.looks.length",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-registered",
+    "file": "lock.ts",
+    "from": "if(!claim?.registered)return false;",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-sequence",
+    "file": "lock.ts",
+    "from": "sequence<1",
+    "to": "sequence<0",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-post-unblinding",
+    "file": "report.ts",
+    "from": "||a.post_unblinding===true",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-digest-mode",
+    "file": "report.ts",
+    "from": "requireThat(['blind','results'].includes(options.mode)",
+    "to": "requireThat(true || ['blind','results'].includes(options.mode)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-title-digits",
+    "file": "report.ts",
+    "from": "requireThat(!/\\p{N}/u.test(exposure+outcome)",
+    "to": "requireThat(true || !/\\p{N}/u.test(exposure+outcome)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-title-primary",
+    "file": "report.ts",
+    "from": "c&&validLock(ctx,c.id)",
+    "to": "c",
+    "test": "review-guards"
+  },
+  {
+    "id": "R24-reason-trim",
+    "file": "report.ts",
+    "from": "typeof a.reason==='string'&&a.reason.trim()",
+    "to": "typeof a.reason==='string'",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-one-sided-alpha",
+    "file": "format.ts",
+    "from": "requireThat(b.effectiveAlpha<=0.025",
+    "to": "requireThat(true || b.effectiveAlpha<=0.025",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-justification",
+    "file": "format.ts",
+    "from": "&&b.oneSidedJustification?.trim()",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-mei",
+    "file": "format.ts",
+    "from": "requireThat(b.mei===null||finite(b.mei)&&b.mei>0",
+    "to": "requireThat(true || b.mei===null||finite(b.mei)&&b.mei>0",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-family",
+    "file": "format.ts",
+    "from": "b.familySize>=1",
+    "to": "b.familySize>=0",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-percent",
+    "file": "format.ts",
+    "from": "requireThat(value>=0&&value<=100",
+    "to": "requireThat(true || value>=0&&value<=100",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-p",
+    "file": "format.ts",
+    "from": "value<=1&&finite(alpha)",
+    "to": "finite(alpha)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-mei-thresholds",
+    "file": "format.ts",
+    "from": "...b.mei===null?[]:[b.nullValue-b.mei,b.nullValue+b.mei]",
+    "to": "...[]",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-two-sided-display",
+    "file": "format.ts",
+    "from": "; two-sided interval ${formatNumber(b.twoSidedCI[0],'ci',thresholds)} to ${formatNumber(b.twoSidedCI[1],'ci',thresholds)}",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R25-looks-display",
+    "file": "format.ts",
+    "from": "b.familySize>1||b.looks>1",
+    "to": "b.familySize>1",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-ambiguous",
+    "file": "entities.ts",
+    "from": "requireThat(!seen.has(key)||seen.get(key)===entry.id",
+    "to": "requireThat(true || !seen.has(key)||seen.get(key)===entry.id",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-source",
+    "file": "entities.ts",
+    "from": "['HGNC','miRBase','UniProt','Cellosaurus','MONDO','EFO','panel','platform'].includes(pack.source)&&",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-version",
+    "file": "entities.ts",
+    "from": "pack.version.trim()&&",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-direction",
+    "file": "limitations.ts",
+    "from": "['towards the null','away from the null','either','unknown'].includes(e.direction)",
+    "to": "true",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-bias",
+    "file": "limitations.ts",
+    "from": "e.bias.trim()&&",
+    "to": "",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-protected-id",
+    "file": "limitations.ts",
+    "from": "requireThat(/^[A-Za-z0-9_.-]+$/u.test(r.id)",
+    "to": "requireThat(true || /^[A-Za-z0-9_.-]+$/u.test(r.id)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R26-empty",
+    "file": "limitations.ts",
+    "from": "requireThat(entries.length,'Limitations",
+    "to": "requireThat(true || entries.length,'Limitations",
+    "test": "review-guards"
+  },
+  {
+    "id": "R01-atomic",
+    "file": "render.ts",
+    "from": "requireThat((before===undefined",
+    "to": "requireThat(true || (before===undefined",
+    "test": "review-round1"
+  },
+  {
+    "id": "R01-final-audit",
+    "file": "render.ts",
+    "from": "requireThat(matchSpanlessNumbers(text,expected, true)",
+    "to": "requireThat(true || matchSpanlessNumbers(text,expected, true)",
+    "test": "review-round1"
+  },
+  {
+    "id": "R02-tens",
+    "file": "grammar.ts",
+    "from": "|forty|",
+    "to": "|notforty|",
+    "test": "review-round1"
+  },
+  {
+    "id": "R02-ordinals",
+    "file": "grammar.ts",
+    "from": "|second|",
+    "to": "|notsecond|",
+    "test": "review-round1"
+  },
+  {
+    "id": "R02-plurals",
+    "file": "grammar.ts",
+    "from": "(?:s|th|ths|st|nd|rd)?",
+    "to": "(?:th|ths|st|nd|rd)?",
+    "test": "review-round1"
+  },
+  {
+    "id": "R02-extended-ordinals",
+    "file": "grammar.ts",
+    "from": "(?:ieth|ies)",
+    "to": "(?:bogus)",
+    "test": "review-round1"
+  },
+  {
+    "id": "R02-per-cent",
+    "file": "grammar.ts",
+    "from": "|per\\s+cent|",
+    "to": "|notpercent|",
+    "test": "review-round1"
+  },
+  {
+    "id": "R02-roman",
+    "file": "grammar.ts",
+    "from": "requireThat(!/\\b(?:[IVXLCDM]{2,}|[IVX])",
+    "to": "requireThat(true || !/\\b(?:[IVXLCDM]{2,}|[IVX])",
+    "test": "review-round1"
+  },
+  {
+    "id": "R02-Han-keycap",
+    "file": "normalise.ts",
+    "from": "requireThat(!/[\u96f6\u3007\u4e00",
+    "to": "requireThat(true || !/[\u96f6\u3007\u4e00",
+    "test": "review-round1"
+  },
+  {
+    "id": "R03-digit-skeleton",
+    "file": "grammar.ts",
+    "from": "&&!/[0-9]/u.test(confusableSkeleton(naked))",
+    "to": "",
+    "test": "review-round1"
+  },
+  {
+    "id": "R04-classification",
+    "file": "../../omb-paper/src/derivations.ts",
+    "from": "(typeof s.value==='string'||typeof s.value==='boolean'||typeof s.value==='number'&&['alpha','mei','seed','seeds','threshold','thresholds'].includes(field))",
+    "to": "true",
+    "test": "review-round1"
+  },
+  {
+    "id": "R05-label-frame",
+    "file": "wording.ts",
+    "from": "requireThat(has(s,'m',`${c.id}.label`)",
+    "to": "requireThat(true || has(s,'m',`${c.id}.label`)",
+    "test": "review-round1"
+  },
+  {
+    "id": "R05-allowed-frames",
+    "file": "wording.ts",
+    "from": "const framed=allowedFrames.reduce((rest,frame)=>rest.replace",
+    "to": "const framed=[].reduce((rest:string,frame:string)=>rest.replace",
+    "test": "review-round1"
+  },
+  {
+    "id": "R06-past-passive",
+    "file": "wording.ts",
+    "from": "establish\\\\w*",
+    "to": "establishes",
+    "test": "review-round1"
+  },
+  {
+    "id": "R07-CAUSE-allowlist",
+    "file": "wording.ts",
+    "from": "/\\b(?:[Tt]he CAUSE method|CAUSE analysis)\\b/gu",
+    "to": "/\\bCAUSE\\b/gu",
+    "test": "review-round1"
+  },
+  {
+    "id": "R08-association-causal",
+    "file": "wording.ts",
+    "from": "if(claims.some(c=>c.rung<2||c.kind!=='causal-genetic')&&hits(",
+    "to": "if(false&&hits(",
+    "test": "review-guards"
+  },
+  {
+    "id": "R08-assumption-frame",
+    "file": "wording.ts",
+    "from": "if(claims.length&&claims.every(c=>c.rung>=2&&c.kind==='causal-genetic'))allowedFrames.push",
+    "to": "if(false)allowedFrames.push",
+    "test": "review-guards"
+  },
+  {
+    "id": "R09-significance-facts",
+    "file": "wording.ts",
+    "from": "c.bundle.p<c.bundle.effectiveAlpha&&(c.bundle.ci[0]>c.bundle.nullValue||c.bundle.ci[1]<c.bundle.nullValue)",
+    "to": "true",
+    "test": "review-guards"
+  },
+  {
+    "id": "R09-significance-inflections",
+    "file": "wording.ts",
+    "from": "hits('(?:in)?signific\\\\w*',text)",
+    "to": "hits('significant',text)",
+    "test": "review-guards"
+  },
+  {
+    "id": "R10-whitespace",
+    "file": "wording.ts",
+    "from": "prose.replace(/\\*/gu,'').replace(/\\s+/gu,' ')",
+    "to": "prose.replace(/\\*/gu,'')",
+    "test": "review-round1"
+  },
+  {
+    "id": "R11-unbound-summary",
+    "file": "wording.ts",
+    "from": "requireThat(bound.length>0||quotes.length>0",
+    "to": "requireThat(true || bound.length>0||quotes.length>0",
+    "test": "review-round1"
+  },
+  {
+    "id": "R12-label-lock",
+    "file": "labels.ts",
+    "from": "const short=`(${validLock(ctx,c.id)?",
+    "to": "const short=`(${c.registered?",
+    "test": "review-round1"
+  },
+  {
+    "id": "R12-label-status",
+    "file": "labels.ts",
+    "from": "; ${c.evidenceType}; ${c.status})`",
+    "to": "; ${c.evidenceType})`",
+    "test": "review-round1"
+  },
+  {
+    "id": "R13-weakening",
+    "file": "limitations.ts",
+    "from": "requireThat(!/\\b(?:unlikely to matter",
+    "to": "requireThat(true || !/\\b(?:unlikely to matter",
+    "test": "review-round1"
+  },
+  {
+    "id": "R14-count-support",
+    "file": "wording.ts",
+    "from": "switch(match[0].toLowerCase()){",
+    "to": "if(true)return true;switch(match[0].toLowerCase()){",
+    "test": "review-round1"
+  },
+  {
+    "id": "R14-robust-support",
+    "file": "wording.ts",
+    "from": "ctx.slots.get(`m:${c.id}.sens_agree`)?.raw===ctx.slots.get(`m:${c.id}.sens_total`)?.raw",
+    "to": "true",
+    "test": "review-round1"
+  },
+  {
+    "id": "R15-plain-twins",
+    "file": "report.ts",
+    "from": "${renderProtected(twins)}",
+    "to": "",
+    "test": "review-round1"
+  },
+  {
+    "id": "R16-case-fold",
+    "file": "limitations.ts",
+    "from": ".toLowerCase().replace(/\\s+/gu,' ')",
+    "to": ".replace(/\\s+/gu,' ')",
+    "test": "review-round1"
+  },
+  {
+    "id": "R17-null-phrases",
+    "file": "wording.ts",
+    "from": "no (?:relationship|link|difference|evidence|association)",
+    "to": "no association",
+    "test": "review-round1"
+  },
+  {
+    "id": "R17-safety-inflections",
+    "file": "wording.ts",
+    "from": "safe\\\\w*|benign|well tolerated",
+    "to": "safe",
+    "test": "review-round1"
+  },
+  {
+    "id": "R01-spaced-decoration",
+    "file": "grammar.ts",
+    "from": "requireThat(!/[%\u2030\u2031\u00d7\u00f7]",
+    "to": "requireThat(true || !/[%\u2030\u2031\u00d7\u00f7]",
+    "test": "review-round1"
+  },
+  {
+    "id": "R16-label-insertion",
+    "file": "limitations.ts",
+    "from": "repeatKey(r.text).replace(/[.!?]+$/u,'')",
+    "to": "repeatKey(r.text)",
+    "test": "review-round1"
+  },
+  {
+    "id": "R02-Roman-positions",
+    "file": "grammar.ts",
+    "from": "requireThat(!/\\b(?:stage|phase|type",
+    "to": "requireThat(true || !/\\b(?:stage|phase|type",
+    "test": "review-round1"
+  }
+]

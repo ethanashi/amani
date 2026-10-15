@@ -1,0 +1,20 @@
+{
+  "id": "p13-endpoint",
+  "family": "planted-flaw",
+  "datasetManifestHash": "cc7d81f22638c88fb9a6561f5fed8204c6b7508a1adc9bac8bca03e1fbfc35ba",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p13-endpoint/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.15,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": true,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 20261402,
+  "capMinutes": 60,
+  "contaminated": false
+}

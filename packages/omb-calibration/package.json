@@ -1,0 +1,7 @@
+{
+  "name": "@omerta-bio/calibration",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "license": "AGPL-3.0-only"
+}

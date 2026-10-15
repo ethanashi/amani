@@ -1,0 +1,317 @@
+[
+  {
+    "id": "budget-calls",
+    "file": "runtime.ts",
+    "from": "this.#calls < this.limits.maxCalls",
+    "to": "true",
+    "test": "runtime"
+  },
+  {
+    "id": "budget-tokens",
+    "file": "runtime.ts",
+    "from": "this.#tokens <= this.limits.maxTokens",
+    "to": "true",
+    "test": "runtime"
+  },
+  {
+    "id": "budget-time",
+    "file": "runtime.ts",
+    "from": "this.usage.elapsedMs < this.limits.maxDurationMs",
+    "to": "true",
+    "test": "runtime"
+  },
+  {
+    "id": "usage-required",
+    "file": "runtime.ts",
+    "from": "result.usageComplete && result.usage",
+    "to": "result.usage",
+    "test": "runtime"
+  },
+  {
+    "id": "model-provenance",
+    "file": "runtime.ts",
+    "from": "result.provenance.observedModels.every(id => matchesModel(model,id))",
+    "to": "true",
+    "test": "runtime"
+  },
+  {
+    "id": "containment",
+    "file": "runtime.ts",
+    "from": "result.containment !== 'unavailable'",
+    "to": "true",
+    "test": "runtime"
+  },
+  {
+    "id": "output-size",
+    "file": "runtime.ts",
+    "from": "stat.size <= this.limits.maxOutputBytes",
+    "to": "true",
+    "test": "runtime"
+  },
+  {
+    "id": "adapter-status",
+    "file": "runtime.ts",
+    "from": "result.status === 'ok' && result.files['response.json'] === 'valid'",
+    "to": "result.files['response.json'] === 'valid'",
+    "test": "orchestration"
+  },
+  {
+    "id": "blind-auth",
+    "file": "temporal.ts",
+    "from": "verify(null,Buffer.from(canonicalJson(r)),key,Buffer.from(receipt.signature,'base64'))",
+    "to": "true",
+    "test": "temporal"
+  },
+  {
+    "id": "blind-prelook",
+    "file": "blind.ts",
+    "from": "snapshot.looks.length===0",
+    "to": "true",
+    "test": "temporal"
+  },
+  {
+    "id": "blind-exclusive",
+    "file": "blind.ts",
+    "from": "{ flag: 'wx', mode: 0o400 }",
+    "to": "{ flag: 'w', mode: 0o400 }",
+    "test": "temporal"
+  },
+  {
+    "id": "blind-hash",
+    "file": "blind.ts",
+    "from": "sha256 === canonicalSha256(body) &&",
+    "to": "true &&",
+    "test": "temporal"
+  },
+  {
+    "id": "blind-timestamp",
+    "file": "blind.ts",
+    "from": "input.timestamps.every(t => record(t).stage1IntroductionHash === sha256)",
+    "to": "true",
+    "test": "temporal"
+  },
+  {
+    "id": "blind-hypothesis",
+    "file": "blind.ts",
+    "from": "!new RegExp(`\\\\b(?:${LEXICONS[17]})\\\\b`,'iu').test(lexicalKey(sentence.prose))",
+    "to": "true",
+    "test": "runtime"
+  },
+  {
+    "id": "venue-section",
+    "file": "manuscript.ts",
+    "from": "cap===undefined||wordCount(section.markdown)<=cap",
+    "to": "true",
+    "test": "manuscript"
+  },
+  {
+    "id": "venue-total",
+    "file": "manuscript.ts",
+    "from": "total<=profile.totalWords",
+    "to": "true",
+    "test": "manuscript"
+  },
+  {
+    "id": "venue-displays",
+    "file": "manuscript.ts",
+    "from": "displays<=profile.maxDisplays",
+    "to": "true",
+    "test": "manuscript"
+  },
+  {
+    "id": "venue-references",
+    "file": "manuscript.ts",
+    "from": "references<=profile.maxReferences",
+    "to": "true",
+    "test": "manuscript"
+  },
+  {
+    "id": "venue-required",
+    "file": "manuscript.ts",
+    "from": "required.every(id=>sections.some(s=>s.id===id&&s.markdown.trim()))",
+    "to": "true",
+    "test": "manuscript"
+  },
+  {
+    "id": "study-pieces",
+    "file": "manuscript.ts",
+    "from": "[...required.pieces,...profile.requiredPieces].every(id=>pieces.some(p=>p.id===id))",
+    "to": "true",
+    "test": "manuscript"
+  },
+  {
+    "id": "render-integrity",
+    "file": "manuscript.ts",
+    "from": "sha256===canonicalSha256(body)",
+    "to": "true",
+    "test": "manuscript"
+  },
+  {
+    "id": "family-separation",
+    "file": "orchestrator.ts",
+    "from": "options.drafter.family!==options.referee.family",
+    "to": "true",
+    "test": "orchestration"
+  },
+  {
+    "id": "proposal-queue",
+    "file": "orchestrator.ts",
+    "from": "this.#proposals.push(proposal);",
+    "to": "void proposal;",
+    "test": "orchestration"
+  },
+  {
+    "id": "edit-invalidates-review",
+    "file": "orchestrator.ts",
+    "from": "this.#reviewedHash=null;this.#persist('owner-edit-received'",
+    "to": "this.#persist('owner-edit-received'",
+    "test": "orchestration"
+  },
+  {
+    "id": "edit-facts",
+    "file": "orchestrator.ts",
+    "from": "verifyEditFacts(before,next);this.#current=next;",
+    "to": "this.#current=next;",
+    "test": "orchestration"
+  },
+  {
+    "id": "latest-review",
+    "file": "orchestrator.ts",
+    "from": "this.#reviewedHash===this.#current!.sha256,'latest edit",
+    "to": "true,'latest edit",
+    "test": "orchestration"
+  },
+  {
+    "id": "review-anchor",
+    "file": "review.ts",
+    "from": "manuscript.sections.some(s=>s.id===r.anchor)",
+    "to": "true",
+    "test": "orchestration"
+  },
+  {
+    "id": "limitation-major",
+    "file": "review.ts",
+    "from": "category==='missing-limitations'||analysisAuditFlag?'major':r.severity",
+    "to": "r.severity",
+    "test": "orchestration"
+  },
+  {
+    "id": "proposal-normalize",
+    "file": "review.ts",
+    "from": "!('reason' in result)",
+    "to": "true",
+    "test": "orchestration"
+  },
+  {
+    "id": "spin-taxonomy",
+    "file": "review.ts",
+    "from": "lexicons:[...diagnostic[category]]",
+    "to": "lexicons:[]",
+    "test": "orchestration"
+  },
+  {
+    "id": "response-diff",
+    "file": "review.ts",
+    "from": "changeMade:diff.filter(d=>d.section===i.anchor)",
+    "to": "changeMade:[]",
+    "test": "orchestration"
+  },
+  {
+    "id": "correction-facts",
+    "file": "corrections.ts",
+    "from": "if(canonicalSha256(old?.value??null)!==canonicalSha256(next?.value??null))",
+    "to": "if(false)",
+    "test": "orchestration"
+  },
+  {
+    "id": "budget-final-render",
+    "file": "orchestrator.ts",
+    "from": "this.runtime.assertWithinBudget();",
+    "to": "",
+    "test": "orchestration"
+  },
+  {
+    "id": "section-floor",
+    "file": "manuscript.ts",
+    "from": "wordCount(section.markdown)>=(profile.sectionMinimums[section.id]??0)",
+    "to": "true",
+    "test": "manuscript"
+  },
+  {
+    "id": "narrative-diversity",
+    "file": "manuscript.ts",
+    "from": "distinct.size>=profile.minDistinctNarrativeSentences",
+    "to": "true",
+    "test": "manuscript"
+  },
+  {
+    "id": "genre-schema",
+    "file": "genres.ts",
+    "from": "r.schema_version==='genre-profile/1'",
+    "to": "true",
+    "test": "genres"
+  },
+  {
+    "id": "temporal-strict",
+    "file": "temporal.ts",
+    "from": "before.introductionRecordedAt<Math.min(...after.looks.map(l=>l.at))",
+    "to": "before.introductionRecordedAt<=Math.min(...after.looks.map(l=>l.at))",
+    "test": "temporal"
+  },
+  {
+    "id": "temporal-ledger-head",
+    "file": "temporal.ts",
+    "from": "after.ledgerHash===canonicalSha256(input.lookLedger)",
+    "to": "true",
+    "test": "temporal"
+  },
+  {
+    "id": "validator-wiring",
+    "file": "runtime.ts",
+    "from": "a.schemas?.['omb-json']===WORKER_SCHEMAS['omb-json']",
+    "to": "true",
+    "test": "live"
+  },
+  {
+    "id": "identity-family",
+    "file": "runtime.ts",
+    "from": "result.provenance.identitySource === (model.family==='codex'?'codex-session':'claude-stream')",
+    "to": "true",
+    "test": "live"
+  },
+  {
+    "id": "rate-backoff",
+    "file": "runtime.ts",
+    "from": "this.retry.baseDelayMs*2**retry",
+    "to": "this.retry.baseDelayMs",
+    "test": "live"
+  },
+  {
+    "id": "rate-retries",
+    "file": "runtime.ts",
+    "from": "retry<this.retry.maxRetries",
+    "to": "true",
+    "test": "live"
+  },
+  {
+    "id": "partb-free-guard",
+    "file": "../../omb-report/src/limitations.ts",
+    "from": "const rendered=renderDraft(ctx,/[.!?]$/u.test(value.trim())?value:value+'.','limitations',registry);",
+    "to": "const rendered={text:value,sentences:[{claimIds:[]}]};",
+    "test": "limitations"
+  },
+  {
+    "id": "partb-claim-binding",
+    "file": "../../omb-report/src/limitations.ts",
+    "from": "s.claimIds.every(id=>id===e.claimId)",
+    "to": "true",
+    "test": "limitations"
+  },
+  {
+    "id": "pre-freeze-floor",
+    "file": "blind.ts",
+    "from": "count>=min!",
+    "to": "true",
+    "test": "temporal"
+  }
+]

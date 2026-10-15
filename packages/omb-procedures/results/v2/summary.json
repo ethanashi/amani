@@ -1,0 +1,1849 @@
+{
+ "code": "f1a24f4c35571e8f5ef5",
+ "envelopes": {
+  "two-group|two": {
+   "k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "8 (6.2%)",
+    "ratio 1 only": "5 (5.0%)",
+    "skew 0 only": "5 (5.3%)",
+    "normal tails only": "8 (6.2%)"
+   },
+   "k=1.5": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "8 (6.2%)",
+    "ratio 1 only": "5 (5.5%)",
+    "skew 0 only": "5 (5.6%)",
+    "normal tails only": "8 (6.2%)"
+   },
+   "k=2": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "10 (6.0%)",
+    "ratio 1 only": "5 (5.6%)",
+    "skew 0 only": "5 (5.6%)",
+    "normal tails only": "10 (6.0%)"
+   },
+   "k=3": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "15 (5.4%)",
+    "ratio 1 only": "5 (5.5%)",
+    "skew 0 only": "5 (5.6%)",
+    "normal tails only": "15 (5.4%)"
+   },
+   "k=4": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "8 (5.6%)",
+    "ratio 1 only": "5 (5.4%)",
+    "skew 0 only": "5 (5.7%)",
+    "normal tails only": "8 (5.6%)"
+   }
+  },
+  "two-group|one": {
+   "k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.0%)",
+    "ratio 1 only": "5 (3.0%)",
+    "skew 0 only": "5 (2.1%)",
+    "normal tails only": "5 (4.0%)"
+   },
+   "k=1.5": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.3%)",
+    "ratio 1 only": "5 (3.3%)",
+    "skew 0 only": "5 (2.2%)",
+    "normal tails only": "5 (4.3%)"
+   },
+   "k=2": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.5%)",
+    "ratio 1 only": "5 (3.3%)",
+    "skew 0 only": "5 (2.3%)",
+    "normal tails only": "5 (4.5%)"
+   },
+   "k=3": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.6%)",
+    "ratio 1 only": "5 (3.5%)",
+    "skew 0 only": "5 (2.4%)",
+    "normal tails only": "5 (4.6%)"
+   },
+   "k=4": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.4%)",
+    "ratio 1 only": "5 (3.8%)",
+    "skew 0 only": "5 (2.2%)",
+    "normal tails only": "5 (4.4%)"
+   }
+  },
+  "paired|two": {
+   "all": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "6 (4.2%)",
+    "ratio 1 only": "6 (4.2%)",
+    "skew 0 only": "6 (4.2%)",
+    "normal tails only": "6 (4.2%)"
+   }
+  },
+  "paired|one": {
+   "all": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "6 (2.9%)",
+    "ratio 1 only": "6 (2.9%)",
+    "skew 0 only": "6 (2.4%)",
+    "normal tails only": "6 (2.9%)"
+   }
+  },
+  "cr2|two": {
+   "stratum 2:1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (0.1%)",
+    "ratio 1 only": "5 (0.1%)",
+    "skew 0 only": "5 (0.1%)",
+    "normal tails only": "5 (0.1%)"
+   },
+   "stratum 4:1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (5.6%)",
+    "ratio 1 only": "5 (4.5%)",
+    "skew 0 only": "5 (4.5%)",
+    "normal tails only": "5 (5.6%)"
+   },
+   "stratum 6:1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (5.5%)",
+    "ratio 1 only": "5 (4.6%)",
+    "skew 0 only": "5 (4.7%)",
+    "normal tails only": "5 (5.5%)"
+   },
+   "stratum 6:3": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (5.1%)",
+    "ratio 1 only": "5 (5.1%)",
+    "skew 0 only": "5 (5.1%)",
+    "normal tails only": "5 (5.1%)"
+   }
+  },
+  "cr2|one": {
+   "stratum 2:1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (0.1%)",
+    "ratio 1 only": "5 (0.1%)",
+    "skew 0 only": "5 (0.1%)",
+    "normal tails only": "5 (0.1%)"
+   },
+   "stratum 4:1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "10 (4.7%)",
+    "ratio 1 only": "5 (2.2%)",
+    "skew 0 only": "5 (2.6%)",
+    "normal tails only": "10 (4.7%)"
+   },
+   "stratum 6:1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "10 (4.4%)",
+    "ratio 1 only": "5 (2.5%)",
+    "skew 0 only": "5 (2.8%)",
+    "normal tails only": "10 (4.4%)"
+   },
+   "stratum 6:3": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (3.0%)",
+    "ratio 1 only": "5 (2.6%)",
+    "skew 0 only": "5 (2.6%)",
+    "normal tails only": "5 (3.0%)"
+   }
+  },
+  "crossover|two": {
+   "k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (5.6%)",
+    "ratio 1 only": "5 (4.6%)",
+    "skew 0 only": "5 (5.6%)",
+    "normal tails only": "5 (5.6%)"
+   },
+   "k=2": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (6.0%)",
+    "ratio 1 only": "5 (4.9%)",
+    "skew 0 only": "5 (5.9%)",
+    "normal tails only": "5 (6.0%)"
+   }
+  },
+  "crossover|one": {
+   "k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (2.5%)",
+    "ratio 1 only": "5 (2.4%)",
+    "skew 0 only": "5 (2.4%)",
+    "normal tails only": "5 (2.5%)"
+   },
+   "k=2": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (3.0%)",
+    "ratio 1 only": "5 (2.3%)",
+    "skew 0 only": "5 (2.4%)",
+    "normal tails only": "5 (3.0%)"
+   }
+  },
+  "weighted-welch|two": {
+   "S=2, k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (5.7%)",
+    "ratio 1 only": "5 (5.4%)",
+    "skew 0 only": "5 (4.8%)",
+    "normal tails only": "5 (5.7%)"
+   },
+   "S=2, k=4": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (5.2%)",
+    "ratio 1 only": "5 (4.8%)",
+    "skew 0 only": "5 (4.7%)",
+    "normal tails only": "5 (5.2%)"
+   },
+   "S=3, k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (5.5%)",
+    "ratio 1 only": "5 (5.1%)",
+    "skew 0 only": "5 (4.8%)",
+    "normal tails only": "5 (5.5%)"
+   },
+   "S=3, k=4": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (5.0%)",
+    "ratio 1 only": "5 (4.8%)",
+    "skew 0 only": "5 (4.8%)",
+    "normal tails only": "5 (5.0%)"
+   },
+   "S=4, k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (5.3%)",
+    "ratio 1 only": "5 (5.1%)",
+    "skew 0 only": "5 (4.7%)",
+    "normal tails only": "5 (5.3%)"
+   },
+   "S=4, k=4": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.7%)",
+    "ratio 1 only": "5 (4.7%)",
+    "skew 0 only": "5 (4.7%)",
+    "normal tails only": "5 (4.7%)"
+   }
+  },
+  "weighted-welch|one": {
+   "S=2, k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.7%)",
+    "ratio 1 only": "5 (4.3%)",
+    "skew 0 only": "5 (2.5%)",
+    "normal tails only": "5 (4.7%)"
+   },
+   "S=2, k=4": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.4%)",
+    "ratio 1 only": "5 (4.1%)",
+    "skew 0 only": "5 (2.5%)",
+    "normal tails only": "5 (4.4%)"
+   },
+   "S=3, k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.3%)",
+    "ratio 1 only": "5 (3.8%)",
+    "skew 0 only": "5 (2.5%)",
+    "normal tails only": "5 (4.3%)"
+   },
+   "S=3, k=4": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.1%)",
+    "ratio 1 only": "5 (3.9%)",
+    "skew 0 only": "5 (2.6%)",
+    "normal tails only": "5 (4.1%)"
+   },
+   "S=4, k=1": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (4.1%)",
+    "ratio 1 only": "5 (3.7%)",
+    "skew 0 only": "5 (2.5%)",
+    "normal tails only": "5 (4.1%)"
+   },
+   "S=4, k=4": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "5 (3.7%)",
+    "ratio 1 only": "5 (3.7%)",
+    "skew 0 only": "5 (2.5%)",
+    "normal tails only": "5 (3.7%)"
+   }
+  },
+  "regression|two": {
+   "binary20/none": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "30 (5.8%)",
+    "ratio 1 only": "10 (3.7%)",
+    "skew 0 only": "30 (5.0%)",
+    "normal tails only": "30 (5.8%)"
+   },
+   "binary50/ass": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "30 (5.9%)",
+    "ratio 1 only": "10 (4.2%)",
+    "skew 0 only": "20 (6.1%)",
+    "normal tails only": "30 (5.9%)"
+   },
+   "lognormal/none": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "10 (4.3%)",
+    "ratio 1 only": "10 (3.8%)",
+    "skew 0 only": "10 (4.0%)",
+    "normal tails only": "10 (4.3%)"
+   },
+   "normal/none": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "10 (3.0%)",
+    "ratio 1 only": "10 (1.5%)",
+    "skew 0 only": "10 (2.4%)",
+    "normal tails only": "10 (3.0%)"
+   }
+  },
+  "regression|one": {
+   "binary20/none": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "40 (4.8%)",
+    "ratio 1 only": "10 (2.1%)",
+    "skew 0 only": "10 (4.5%)",
+    "normal tails only": "40 (4.8%)"
+   },
+   "binary50/ass": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "30 (4.7%)",
+    "ratio 1 only": "10 (2.3%)",
+    "skew 0 only": "10 (3.9%)",
+    "normal tails only": "30 (4.7%)"
+   },
+   "lognormal/none": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "10 (2.7%)",
+    "ratio 1 only": "10 (2.4%)",
+    "skew 0 only": "10 (2.3%)",
+    "normal tails only": "10 (2.7%)"
+   },
+   "normal/none": {
+    "all calibration laws (|skew|<=1, ratio<=9, t3)": "10 (2.1%)",
+    "ratio 1 only": "10 (1.0%)",
+    "skew 0 only": "10 (1.4%)",
+    "normal tails only": "10 (2.1%)"
+   }
+  }
+ },
+ "regressionDf": {
+  "two": 7.707774798927614,
+  "one": 10.10436561963136,
+  "designs": [
+   {
+    "df": 1.2336719883889684,
+    "two": 0.03209266939710034,
+    "one": 0.020862032822529603,
+    "n": 20,
+    "label": "binary20/none/n20/d1",
+    "worst": "reg/env/n20-xbinary20-cnone-habs9-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 1.5486725663716818,
+    "two": 0.051174998378632874,
+    "one": 0.033298277027190876,
+    "n": 10,
+    "label": "binary20/none/n10/d1",
+    "worst": "reg/env/n10-xbinary20-cnone-habs9-s1-normal-none-null0-d1"
+   },
+   {
+    "df": 2.0374160189788006,
+    "two": 0.025393641650184977,
+    "one": 0.015085260718574831,
+    "n": 30,
+    "label": "lognormal/none/n30/d2",
+    "worst": "reg/env/n30-xlognormal-cnone-habs9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 2.196342345456407,
+    "two": 0.030426954715860932,
+    "one": 0.021432105418358764,
+    "n": 10,
+    "label": "normal/none/n10/d1",
+    "worst": "reg/env/n10-xnormal-cnone-hlin9-s1-normal-none-null0-d1"
+   },
+   {
+    "df": 2.355165061570734,
+    "two": 0.03320024606900257,
+    "one": 0.023701624182154046,
+    "n": 10,
+    "label": "binary50/ass/n10/d1",
+    "worst": "reg/env/n10-xbinary50-cass-hlin9-s1-normal-none-null0-d1"
+   },
+   {
+    "df": 2.6186704674055377,
+    "two": 0.02483052472917252,
+    "one": 0.014498062606978623,
+    "n": 10,
+    "label": "normal/none/n10/d2",
+    "worst": "reg/env/n10-xnormal-cnone-habs9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 2.63612945315836,
+    "two": 0.030982795325383783,
+    "one": 0.019144520790741755,
+    "n": 20,
+    "label": "lognormal/none/n20/d2",
+    "worst": "reg/env/n20-xlognormal-cnone-habs9-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 2.757432141318398,
+    "two": 0.07405849486622171,
+    "one": 0.05608840568744525,
+    "n": 20,
+    "label": "binary20/none/n20/d7",
+    "worst": "reg/env/n20-xbinary20-cnone-habs9-s1-normal-none-null0-d7"
+   },
+   {
+    "df": 3.3446340235933896,
+    "two": 0.0842435699633951,
+    "one": 0.05782711731704171,
+    "n": 10,
+    "label": "binary50/ass/n10/d2",
+    "worst": "reg/env/n10-xbinary50-cass-hlin9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 3.375990849510379,
+    "two": 0.03375321200017721,
+    "one": 0.02102997255726409,
+    "n": 20,
+    "label": "normal/none/n20/d2",
+    "worst": "reg/env/n20-xnormal-cnone-habs9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 3.4370662586937977,
+    "two": 0.03815898693652886,
+    "one": 0.022001053755342052,
+    "n": 30,
+    "label": "lognormal/none/n30/d1",
+    "worst": "reg/env/n30-xlognormal-cnone-habs9-s1-normal-none-null0-d1"
+   },
+   {
+    "df": 3.485073509748227,
+    "two": 0.042970464236133765,
+    "one": 0.027358639810705687,
+    "n": 10,
+    "label": "lognormal/none/n10/d1",
+    "worst": "reg/env/n10-xlognormal-cnone-hlin9-s1-normal-none-null0-d1"
+   },
+   {
+    "df": 3.542637611789897,
+    "two": 0.059718442553188505,
+    "one": 0.04599837938560848,
+    "n": 50,
+    "label": "binary20/none/n50/d6",
+    "worst": "reg/env/n50-xbinary20-cnone-habs9-s0-normal-none-null0-d6"
+   },
+   {
+    "df": 3.600714212630731,
+    "two": 0.030426954715860932,
+    "one": 0.022568926635160025,
+    "n": 100,
+    "label": "lognormal/none/n100/d2",
+    "worst": "reg/env/n100-xlognormal-cnone-hlin9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 3.6990570471901685,
+    "two": 0.03925587501887601,
+    "one": 0.024266530377199773,
+    "n": 10,
+    "label": "lognormal/none/n10/d2",
+    "worst": "reg/env/n10-xlognormal-cnone-hlin9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 3.810953269704215,
+    "two": 0.02763795192636173,
+    "one": 0.021432105418358764,
+    "n": 200,
+    "label": "lognormal/none/n200/d2",
+    "worst": "reg/env/n200-xlognormal-cnone-hnone-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 3.8461538461538445,
+    "two": 0.09268617149378186,
+    "one": 0.06972481803942918,
+    "n": 10,
+    "label": "binary20/none/n10/d2",
+    "worst": "reg/env/n10-xbinary20-cnone-habs9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 4.334293742901293,
+    "two": 0.04533147750697547,
+    "one": 0.026426914970374416,
+    "n": 20,
+    "label": "lognormal/none/n20/d1",
+    "worst": "reg/env/n20-xlognormal-cnone-habs9-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 4.629629629629631,
+    "two": 0.07069380499760458,
+    "one": 0.05716240096127938,
+    "n": 20,
+    "label": "binary20/none/n20/d5",
+    "worst": "reg/env/n20-xbinary20-cnone-habs9-s1-normal-none-null0-d5"
+   },
+   {
+    "df": 4.629629629629631,
+    "two": 0.0760967837193956,
+    "one": 0.059973964955665815,
+    "n": 20,
+    "label": "binary20/none/n20/d6",
+    "worst": "reg/env/n20-xbinary20-cnone-habs9-s1-normal-none-null0-d6"
+   },
+   {
+    "df": 4.932735426008971,
+    "two": 0.050970133197429296,
+    "one": 0.04348389254809909,
+    "n": 50,
+    "label": "binary20/none/n50/d7",
+    "worst": "reg/env/n50-xbinary20-cnone-habs9-s1-normal-none-null0-d7"
+   },
+   {
+    "df": 5.2119760479041926,
+    "two": 0.053786027970350925,
+    "one": 0.045639296506191196,
+    "n": 40,
+    "label": "binary20/none/n40/d4",
+    "worst": "reg/env/n40-xbinary20-cnone-habs9-s1-normal-none-null0-d4"
+   },
+   {
+    "df": 5.237434607317809,
+    "two": 0.03153802774002752,
+    "one": 0.020862032822529603,
+    "n": 200,
+    "label": "lognormal/none/n200/d1",
+    "worst": "reg/env/n200-xlognormal-cnone-hlin9-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 5.7649855429185095,
+    "two": 0.03485757114850363,
+    "one": 0.024509671311628983,
+    "n": 100,
+    "label": "lognormal/none/n100/d1",
+    "worst": "reg/env/n100-xlognormal-cnone-habs9-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 6.06715916045232,
+    "two": 0.03870764288414716,
+    "one": 0.025494555787019632,
+    "n": 20,
+    "label": "binary50/ass/n20/d2",
+    "worst": "reg/env/n20-xbinary50-cass-hnone-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 6.336876718102945,
+    "two": 0.04830579028832968,
+    "one": 0.035462685459966004,
+    "n": 20,
+    "label": "binary50/ass/n20/d1",
+    "worst": "reg/env/n20-xbinary50-cass-hlin9-s1-normal-none-null0-d1"
+   },
+   {
+    "df": 6.887914840325612,
+    "two": 0.055269934844674296,
+    "one": 0.04830579028832968,
+    "n": 40,
+    "label": "binary20/none/n40/d1",
+    "worst": "reg/env/n40-xbinary20-cnone-habs9-s1-normal-none-null0-d1"
+   },
+   {
+    "df": 6.887914840325612,
+    "two": 0.051840729873564195,
+    "one": 0.044818375879578834,
+    "n": 40,
+    "label": "binary20/none/n40/d2",
+    "worst": "reg/env/n40-xbinary20-cnone-habs9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 6.892307692307693,
+    "two": 0.06191546773682381,
+    "one": 0.051943139297081706,
+    "n": 20,
+    "label": "binary20/none/n20/d2",
+    "worst": "reg/env/n20-xbinary20-cnone-habs9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 6.892307692307693,
+    "two": 0.06084263321530331,
+    "one": 0.05056036750611828,
+    "n": 20,
+    "label": "binary20/none/n20/d3",
+    "worst": "reg/env/n20-xbinary20-cnone-habs9-s1-normal-none-null0-d3"
+   },
+   {
+    "df": 6.892307692307693,
+    "two": 0.06339660081325194,
+    "one": 0.05373484871054354,
+    "n": 20,
+    "label": "binary20/none/n20/d4",
+    "worst": "reg/env/n20-xbinary20-cnone-habs9-s1-normal-none-null0-d4"
+   },
+   {
+    "df": 6.949156763725593,
+    "two": 0.039733623179058375,
+    "one": 0.027151642957175093,
+    "n": 50,
+    "label": "lognormal/none/n50/d2",
+    "worst": "reg/env/n50-xlognormal-cnone-habs9-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 7.048592017195516,
+    "two": 0.0596673363251691,
+    "one": 0.04589578856827592,
+    "n": 20,
+    "label": "binary50/ass/n20/d6",
+    "worst": "reg/env/n20-xbinary50-cass-habs9-s1-normal-none-null0-d6"
+   },
+   {
+    "df": 7.435291637526794,
+    "two": 0.06748019500385005,
+    "one": 0.051174998378632874,
+    "n": 20,
+    "label": "binary50/ass/n20/d7",
+    "worst": "reg/env/n20-xbinary50-cass-hlin9-s1-normal-none-null0-d7"
+   },
+   {
+    "df": 7.558594474135581,
+    "two": 0.06263055467654302,
+    "one": 0.046921544353912326,
+    "n": 20,
+    "label": "binary50/ass/n20/d5",
+    "worst": "reg/env/n20-xbinary50-cass-hlin9-s1-normal-none-null0-d5"
+   },
+   {
+    "df": 7.707774798927614,
+    "two": 0.05567919093146484,
+    "one": 0.04635742041906245,
+    "n": 30,
+    "label": "binary20/none/n30/d1",
+    "worst": "reg/env/n30-xbinary20-cnone-habs9-s1-normal-none-null0-d1"
+   },
+   {
+    "df": 7.887251644028966,
+    "two": 0.05547456808206433,
+    "one": 0.03957938673683539,
+    "n": 20,
+    "label": "binary50/ass/n20/d4",
+    "worst": "reg/env/n20-xbinary50-cass-hlin9-s0-normal-none-null0-d4"
+   },
+   {
+    "df": 7.980508096080347,
+    "two": 0.05532109413095895,
+    "one": 0.04209741848120477,
+    "n": 20,
+    "label": "binary50/ass/n20/d3",
+    "worst": "reg/env/n20-xbinary50-cass-habs9-s1-normal-none-null0-d3"
+   },
+   {
+    "df": 8.326775440618029,
+    "two": 0.04558799550779055,
+    "one": 0.03412308843759891,
+    "n": 20,
+    "label": "normal/none/n20/d1",
+    "worst": "reg/env/n20-xnormal-cnone-habs9-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 9.601599346171346,
+    "two": 0.050765256263071656,
+    "one": 0.03993925693080143,
+    "n": 30,
+    "label": "binary50/ass/n30/d3",
+    "worst": "reg/env/n30-xbinary50-cass-hlin9-s1-normal-none-null0-d3"
+   },
+   {
+    "df": 9.619682174134132,
+    "two": 0.0460496735125871,
+    "one": 0.029633715421351556,
+    "n": 30,
+    "label": "normal/none/n30/d2",
+    "worst": "reg/env/n30-xnormal-cnone-habs9-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 9.774016942748107,
+    "two": 0.04461311046659139,
+    "one": 0.030511847148103288,
+    "n": 50,
+    "label": "lognormal/none/n50/d1",
+    "worst": "reg/env/n50-xlognormal-cnone-hlin9-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 9.956419711699624,
+    "two": 0.056957851798794534,
+    "one": 0.048510813890018545,
+    "n": 30,
+    "label": "binary20/none/n30/d2",
+    "worst": "reg/env/n30-xbinary20-cnone-habs9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 9.956419711699624,
+    "two": 0.05506529116329811,
+    "one": 0.04774190958181582,
+    "n": 30,
+    "label": "binary20/none/n30/d6",
+    "worst": "reg/env/n30-xbinary20-cnone-habs9-s1-normal-none-null0-d6"
+   },
+   {
+    "df": 9.956419711699624,
+    "two": 0.0579804986654017,
+    "one": 0.05020178352191998,
+    "n": 30,
+    "label": "binary20/none/n30/d8",
+    "worst": "reg/env/n30-xbinary20-cnone-habs9-s1-normal-none-null0-d8"
+   },
+   {
+    "df": 10.10436561963136,
+    "two": 0.06074044553489094,
+    "one": 0.0459470844046163,
+    "n": 20,
+    "label": "binary50/ass/n20/d8",
+    "worst": "reg/env/n20-xbinary50-cass-hlin9-s1-normal-none-null0-d8"
+   },
+   {
+    "df": 10.785288270377741,
+    "two": 0.05091891506840496,
+    "one": 0.043740571808121645,
+    "n": 40,
+    "label": "binary20/none/n40/d3",
+    "worst": "reg/env/n40-xbinary20-cnone-habs9-s1-normal-none-null0-d3"
+   },
+   {
+    "df": 10.785288270377741,
+    "two": 0.05122621284560426,
+    "one": 0.042970464236133765,
+    "n": 40,
+    "label": "binary20/none/n40/d6",
+    "worst": "reg/env/n40-xbinary20-cnone-habs9-s1-normal-none-null0-d6"
+   },
+   {
+    "df": 10.785288270377741,
+    "two": 0.051174998378632874,
+    "one": 0.043689237802097325,
+    "n": 40,
+    "label": "binary20/none/n40/d8",
+    "worst": "reg/env/n40-xbinary20-cnone-habs9-s1-normal-none-null0-d8"
+   },
+   {
+    "df": 11.784115012962518,
+    "two": 0.04728047994833304,
+    "one": 0.04127547150494945,
+    "n": 50,
+    "label": "binary20/none/n50/d3",
+    "worst": "reg/env/n50-xbinary20-cnone-hnone-s0-normal-none-null0-d3"
+   },
+   {
+    "df": 11.993857854553305,
+    "two": 0.049996861888913946,
+    "one": 0.03463842172884268,
+    "n": 30,
+    "label": "normal/none/n30/d1",
+    "worst": "reg/env/n30-xnormal-cnone-habs9-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 12.403100775193796,
+    "two": 0.05992286163778565,
+    "one": 0.04958698228149219,
+    "n": 20,
+    "label": "binary20/none/n20/d8",
+    "worst": "reg/env/n20-xbinary20-cnone-habs9-s1-normal-none-null0-d8"
+   },
+   {
+    "df": 12.467018469656983,
+    "two": 0.05731580630343944,
+    "one": 0.04907456387295586,
+    "n": 30,
+    "label": "binary20/none/n30/d3",
+    "worst": "reg/env/n30-xbinary20-cnone-habs9-s1-normal-none-null0-d3"
+   },
+   {
+    "df": 12.467018469656983,
+    "two": 0.05393956167874828,
+    "one": 0.04517755624734621,
+    "n": 30,
+    "label": "binary20/none/n30/d7",
+    "worst": "reg/env/n30-xbinary20-cnone-habs9-s1-normal-none-null0-d7"
+   },
+   {
+    "df": 13.105387531491436,
+    "two": 0.053786027970350925,
+    "one": 0.04353523024928717,
+    "n": 30,
+    "label": "binary50/ass/n30/d8",
+    "worst": "reg/env/n30-xbinary50-cass-habs9-s1-normal-none-null0-d8"
+   },
+   {
+    "df": 13.65019537357838,
+    "two": 0.053120644276669626,
+    "one": 0.04302181128923732,
+    "n": 30,
+    "label": "binary50/ass/n30/d1",
+    "worst": "reg/env/n30-xbinary50-cass-hlin9-s1-normal-none-null0-d1"
+   },
+   {
+    "df": 13.862559241706172,
+    "two": 0.04830579028832968,
+    "one": 0.04101856080753599,
+    "n": 50,
+    "label": "binary20/none/n50/d5",
+    "worst": "reg/env/n50-xbinary20-cnone-habs9-s1-normal-none-null0-d5"
+   },
+   {
+    "df": 14.225772424391602,
+    "two": 0.05102135059190091,
+    "one": 0.039682212094890396,
+    "n": 30,
+    "label": "binary50/ass/n30/d7",
+    "worst": "reg/env/n30-xbinary50-cass-hlin9-s1-normal-none-null0-d7"
+   },
+   {
+    "df": 15.20912547528518,
+    "two": 0.053069456101775714,
+    "one": 0.04522886420892176,
+    "n": 30,
+    "label": "binary20/none/n30/d5",
+    "worst": "reg/env/n30-xbinary20-cnone-habs9-s1-normal-none-null0-d5"
+   },
+   {
+    "df": 15.582632000366372,
+    "two": 0.05890067239424743,
+    "one": 0.04543408731484205,
+    "n": 30,
+    "label": "binary50/ass/n30/d6",
+    "worst": "reg/env/n30-xbinary50-cass-habs9-s1-normal-none-null0-d6"
+   },
+   {
+    "df": 15.714337722724194,
+    "two": 0.045804723916189574,
+    "one": 0.03443230419395074,
+    "n": 40,
+    "label": "binary50/ass/n40/d3",
+    "worst": "reg/env/n40-xbinary50-cass-hlin9-s0-normal-none-null0-d3"
+   },
+   {
+    "df": 16.099511930585667,
+    "two": 0.04984316273442568,
+    "one": 0.040247676025612744,
+    "n": 50,
+    "label": "binary20/none/n50/d8",
+    "worst": "reg/env/n50-xbinary20-cnone-hnone-s0-normal-none-null0-d8"
+   },
+   {
+    "df": 18.095161160029075,
+    "two": 0.046921544353912326,
+    "one": 0.039116619585562035,
+    "n": 40,
+    "label": "binary20/none/n40/d5",
+    "worst": "reg/env/n40-xbinary20-cnone-hnone-s0-normal-none-null0-d5"
+   },
+   {
+    "df": 18.095161160029075,
+    "two": 0.04948450475516614,
+    "one": 0.03952797245883091,
+    "n": 40,
+    "label": "binary20/none/n40/d7",
+    "worst": "reg/env/n40-xbinary20-cnone-hnone-s0-normal-none-null0-d7"
+   },
+   {
+    "df": 18.137710159345353,
+    "two": 0.05260873124659554,
+    "one": 0.04101856080753599,
+    "n": 30,
+    "label": "binary50/ass/n30/d5",
+    "worst": "reg/env/n30-xbinary50-cass-habs9-s1-normal-none-null0-d5"
+   },
+   {
+    "df": 19.46349660128237,
+    "two": 0.048920823262569524,
+    "one": 0.035874695991414796,
+    "n": 40,
+    "label": "binary50/ass/n40/d1",
+    "worst": "reg/env/n40-xbinary50-cass-hnone-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 19.534780248476945,
+    "two": 0.05409308930043888,
+    "one": 0.04055605766300879,
+    "n": 30,
+    "label": "binary50/ass/n30/d2",
+    "worst": "reg/env/n30-xbinary50-cass-hlin9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 20.55934302568097,
+    "two": 0.05925846540933463,
+    "one": 0.04722920590575788,
+    "n": 30,
+    "label": "binary50/ass/n30/d4",
+    "worst": "reg/env/n30-xbinary50-cass-habs9-s1-normal-none-null0-d4"
+   },
+   {
+    "df": 21.01712506486767,
+    "two": 0.053223018552798956,
+    "one": 0.0448696900107597,
+    "n": 30,
+    "label": "binary20/none/n30/d4",
+    "worst": "reg/env/n30-xbinary20-cnone-habs9-s1-normal-none-null0-d4"
+   },
+   {
+    "df": 21.120022799446296,
+    "two": 0.049382024160436355,
+    "one": 0.028703409912754024,
+    "n": 100,
+    "label": "binary20/none/n100/d2",
+    "worst": "reg/env/n100-xbinary20-cnone-hnone-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 21.418412451836286,
+    "two": 0.049638219896978406,
+    "one": 0.03783068900905752,
+    "n": 40,
+    "label": "binary50/ass/n40/d5",
+    "worst": "reg/env/n40-xbinary50-cass-hnone-s0-normal-none-null0-d5"
+   },
+   {
+    "df": 21.444675678510364,
+    "two": 0.05045791867226547,
+    "one": 0.03438077153470198,
+    "n": 50,
+    "label": "normal/none/n50/d1",
+    "worst": "reg/env/n50-xnormal-cnone-hlin9-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 23.244016868733894,
+    "two": 0.049894396543390174,
+    "one": 0.03824226268299427,
+    "n": 40,
+    "label": "binary50/ass/n40/d8",
+    "worst": "reg/env/n40-xbinary50-cass-habs9-s1-normal-none-null0-d8"
+   },
+   {
+    "df": 23.388763364593245,
+    "two": 0.049996861888913946,
+    "one": 0.03649256400861722,
+    "n": 40,
+    "label": "binary50/ass/n40/d4",
+    "worst": "reg/env/n40-xbinary50-cass-hnone-s0-normal-none-null0-d4"
+   },
+   {
+    "df": 23.491408694814613,
+    "two": 0.04994562959450628,
+    "one": 0.032576277482209356,
+    "n": 50,
+    "label": "binary50/ass/n50/d1",
+    "worst": "reg/env/n50-xbinary50-cass-hlin9-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 23.743424897720637,
+    "two": 0.04666513693167999,
+    "one": 0.03618365194646464,
+    "n": 50,
+    "label": "binary20/none/n50/d2",
+    "worst": "reg/env/n50-xbinary20-cnone-hnone-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 23.743424897720637,
+    "two": 0.04492100325610854,
+    "one": 0.03535967031670778,
+    "n": 50,
+    "label": "binary20/none/n50/d4",
+    "worst": "reg/env/n50-xbinary20-cnone-hnone-s0-normal-none-null0-d4"
+   },
+   {
+    "df": 23.865199028252825,
+    "two": 0.05112378318143994,
+    "one": 0.03963079994818276,
+    "n": 40,
+    "label": "binary50/ass/n40/d6",
+    "worst": "reg/env/n40-xbinary50-cass-habs9-s1-normal-none-null0-d6"
+   },
+   {
+    "df": 25.179921548229736,
+    "two": 0.05061159080753794,
+    "one": 0.033659174752048104,
+    "n": 50,
+    "label": "normal/none/n50/d2",
+    "worst": "reg/env/n50-xnormal-cnone-habs9-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 26.087497445009923,
+    "two": 0.049330782709581716,
+    "one": 0.02663401856513349,
+    "n": 100,
+    "label": "normal/none/n100/d2",
+    "worst": "reg/env/n100-xnormal-cnone-hnone-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 26.17942693778339,
+    "two": 0.04897207091117206,
+    "one": 0.03138952366796102,
+    "n": 50,
+    "label": "binary50/ass/n50/d2",
+    "worst": "reg/env/n50-xbinary50-cass-hnone-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 26.40910171251409,
+    "two": 0.04922829749492602,
+    "one": 0.03762487486433362,
+    "n": 40,
+    "label": "binary50/ass/n40/d7",
+    "worst": "reg/env/n40-xbinary50-cass-habs9-s1-normal-none-null0-d7"
+   },
+   {
+    "df": 26.56249999999998,
+    "two": 0.04943326484192659,
+    "one": 0.03520513813041118,
+    "n": 50,
+    "label": "binary20/none/n50/d1",
+    "worst": "reg/env/n50-xbinary20-cnone-hnone-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 29.782146461715836,
+    "two": 0.048920823262569524,
+    "one": 0.034586894304610816,
+    "n": 50,
+    "label": "binary50/ass/n50/d5",
+    "worst": "reg/env/n50-xbinary50-cass-hnone-s0-normal-none-null0-d5"
+   },
+   {
+    "df": 30.43228541077615,
+    "two": 0.04728047994833304,
+    "one": 0.03314358592585834,
+    "n": 50,
+    "label": "binary50/ass/n50/d4",
+    "worst": "reg/env/n50-xbinary50-cass-hnone-s0-normal-none-null0-d4"
+   },
+   {
+    "df": 31.03379024784478,
+    "two": 0.04574189591276408,
+    "one": 0.03453536557596404,
+    "n": 50,
+    "label": "binary50/ass/n50/d7",
+    "worst": "reg/env/n50-xbinary50-cass-habs9-s1-normal-none-null0-d7"
+   },
+   {
+    "df": 31.50712406945028,
+    "two": 0.05143106343199144,
+    "one": 0.039887850076559817,
+    "n": 40,
+    "label": "binary50/ass/n40/d2",
+    "worst": "reg/env/n40-xbinary50-cass-habs9-s1-normal-none-null0-d2"
+   },
+   {
+    "df": 32.9395500569847,
+    "two": 0.04886957483389401,
+    "one": 0.03298888231051289,
+    "n": 50,
+    "label": "binary50/ass/n50/d3",
+    "worst": "reg/env/n50-xbinary50-cass-hnone-s0-normal-none-null0-d3"
+   },
+   {
+    "df": 32.98994342223974,
+    "two": 0.04738302557447316,
+    "one": 0.033607622035177115,
+    "n": 50,
+    "label": "binary50/ass/n50/d6",
+    "worst": "reg/env/n50-xbinary50-cass-hnone-s0-normal-none-null0-d6"
+   },
+   {
+    "df": 33.78378378378371,
+    "two": 0.04804949289644915,
+    "one": 0.02471707966162097,
+    "n": 100,
+    "label": "binary20/none/n100/d1",
+    "worst": "reg/env/n100-xbinary20-cnone-hnone-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 36.90476255836301,
+    "two": 0.04968945674887133,
+    "one": 0.027462127074717887,
+    "n": 100,
+    "label": "normal/none/n100/d1",
+    "worst": "reg/env/n100-xnormal-cnone-hnone-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 40.04294952882835,
+    "two": 0.049638219896978406,
+    "one": 0.03525665012571946,
+    "n": 50,
+    "label": "binary50/ass/n50/d8",
+    "worst": "reg/env/n50-xbinary50-cass-hnone-s0-normal-none-null0-d8"
+   },
+   {
+    "df": 65.20750486920345,
+    "two": 0.04769064287368613,
+    "one": 0.024266530377199773,
+    "n": 100,
+    "label": "binary50/ass/n100/d2",
+    "worst": "reg/env/n100-xbinary50-cass-hnone-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 66.8076847191187,
+    "two": 0.05112378318143994,
+    "one": 0.025598183655108894,
+    "n": 200,
+    "label": "binary20/none/n200/d1",
+    "worst": "reg/env/n200-xbinary20-cnone-hnone-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 66.99128086026091,
+    "two": 0.04876707563152688,
+    "one": 0.026789325933768537,
+    "n": 200,
+    "label": "normal/none/n200/d2",
+    "worst": "reg/env/n200-xnormal-cnone-hnone-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 68.9416789786327,
+    "two": 0.04789570486026601,
+    "one": 0.024561526673212375,
+    "n": 200,
+    "label": "normal/none/n200/d1",
+    "worst": "reg/env/n200-xnormal-cnone-hnone-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 71.36000386675589,
+    "two": 0.04927954048814659,
+    "one": 0.02497629140386059,
+    "n": 100,
+    "label": "binary50/ass/n100/d1",
+    "worst": "reg/env/n100-xbinary50-cass-hnone-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 86.65617814636548,
+    "two": 0.04794696834200707,
+    "one": 0.024561526673212375,
+    "n": 200,
+    "label": "binary20/none/n200/d2",
+    "worst": "reg/env/n200-xbinary20-cnone-hnone-s0-normal-none-null0-d2"
+   },
+   {
+    "df": 143.37707239370192,
+    "two": 0.04907456387295586,
+    "one": 0.025494555787019632,
+    "n": 200,
+    "label": "binary50/ass/n200/d1",
+    "worst": "reg/env/n200-xbinary50-cass-hnone-s0-normal-none-null0-d1"
+   },
+   {
+    "df": 170.28500729814832,
+    "two": 0.04738302557447316,
+    "one": 0.02483052472917252,
+    "n": 200,
+    "label": "binary50/ass/n200/d2",
+    "worst": "reg/env/n200-xbinary50-cass-hnone-s0-normal-none-null0-d2"
+   }
+  ]
+ },
+ "adversarial": {
+  "confirm": [
+   [
+    "tg-5v5",
+    "two",
+    "one-exp p=0.00187 L=480 opposite r=1 uniform",
+    "32.98 / 1384",
+    "98.11% -> 97.05% (97.24%)",
+    "96.14% (96.37%)",
+    "88.88%",
+    "2.9%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-5v5",
+    "two",
+    "one-exp p=0.00187 L=480 opposite r=1 normal",
+    "32.98 / 1384",
+    "97.87% -> 96.80% (97.01%)",
+    "94.52% (94.78%)",
+    "88.42%",
+    "2.9%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-5v5",
+    "one",
+    "one-exp p=0.003 L=480 opposite r=1 uniform",
+    "26.06 / 865",
+    "97.02% -> 95.95% (96.17%)",
+    "95.84% (96.07%)",
+    "87.77%",
+    "4.0%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-5v5",
+    "one",
+    "one-exp p=0.003 L=480 opposite r=1 normal",
+    "26.06 / 865",
+    "97.02% -> 96.00% (96.23%)",
+    "95.81% (96.05%)",
+    "87.35%",
+    "4.0%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-15v15",
+    "two",
+    "one-point p=0.00187 L=480 opposite r=9 uniform",
+    "22.95 / 529",
+    "93.67% -> 93.66% (93.94%)",
+    "93.62% (93.90%)",
+    "93.09%",
+    "5.4%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-15v15",
+    "two",
+    "one-point p=0.00187 L=480 opposite r=9 normal",
+    "22.95 / 529",
+    "92.96% -> 92.14% (92.45%)",
+    "91.36% (91.69%)",
+    "83.93%",
+    "6.4%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-15v15",
+    "one",
+    "one-point p=0.00187 L=480 opposite r=9 uniform",
+    "22.95 / 529",
+    "93.88% -> 93.84% (94.12%)",
+    "93.80% (94.07%)",
+    "93.27%",
+    "5.4%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-15v15",
+    "one",
+    "one-point p=0.00187 L=480 opposite r=9 normal",
+    "22.95 / 529",
+    "92.86% -> 91.99% (92.30%)",
+    "91.31% (91.64%)",
+    "83.67%",
+    "6.6%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-15v60",
+    "two",
+    "one-exp p=0.000625 L=480 opposite r=1 uniform",
+    "57.10 / 4148",
+    "93.78% -> 93.77% (94.05%)",
+    "93.62% (93.90%)",
+    "93.52%",
+    "4.6%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-15v60",
+    "two",
+    "one-exp p=0.000625 L=480 opposite r=1 normal",
+    "57.10 / 4148",
+    "93.25% -> 92.31% (92.62%)",
+    "91.64% (91.96%)",
+    "84.19%",
+    "5.4%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-15v60",
+    "one",
+    "one-exp p=0.000625 L=480 opposite r=1 uniform",
+    "57.10 / 4148",
+    "93.81% -> 93.80% (94.08%)",
+    "93.65% (93.93%)",
+    "93.51%",
+    "4.5%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-15v60",
+    "one",
+    "one-exp p=0.000625 L=480 opposite r=1 normal",
+    "57.10 / 4148",
+    "92.97% -> 92.08% (92.40%)",
+    "91.44% (91.76%)",
+    "84.10%",
+    "5.5%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-30v30",
+    "two",
+    "one-exp p=0.000625 L=480 opposite r=1 uniform",
+    "57.10 / 4148",
+    "95.83% -> 95.83% (96.06%)",
+    "95.79% (96.02%)",
+    "95.83%",
+    "3.8%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-30v30",
+    "two",
+    "one-exp p=0.000625 L=480 opposite r=1 normal",
+    "57.10 / 4148",
+    "95.63% -> 94.59% (94.86%)",
+    "94.48% (94.75%)",
+    "85.81%",
+    "5.0%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-30v30",
+    "one",
+    "one-exp p=0.000625 L=480 opposite r=1 uniform",
+    "57.10 / 4148",
+    "95.74% -> 95.74% (95.97%)",
+    "95.71% (95.95%)",
+    "95.71%",
+    "3.9%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-30v30",
+    "one",
+    "one-exp p=0.000625 L=480 opposite r=1 normal",
+    "57.10 / 4148",
+    "95.95% -> 94.88% (95.13%)",
+    "94.80% (95.06%)",
+    "85.63%",
+    "4.7%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-50v200",
+    "two",
+    "one-exp p=0.000625 L=300 opposite r=1 uniform",
+    "56.92 / 4130",
+    "85.53% -> 85.53% (85.94%)",
+    "85.50% (85.90%)",
+    "85.53%",
+    "14.2%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-50v200",
+    "two",
+    "one-exp p=0.000625 L=300 opposite r=1 normal",
+    "56.92 / 4130",
+    "85.43% -> 84.54% (84.95%)",
+    "84.46% (84.88%)",
+    "76.87%",
+    "15.2%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-50v200",
+    "one",
+    "one-exp p=0.000625 L=300 opposite r=1 uniform",
+    "56.92 / 4130",
+    "85.41% -> 85.41% (85.82%)",
+    "85.36% (85.77%)",
+    "85.41%",
+    "14.4%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "tg-50v200",
+    "one",
+    "one-exp p=0.000625 L=300 opposite r=1 normal",
+    "56.92 / 4130",
+    "85.28% -> 84.38% (84.80%)",
+    "84.34% (84.76%)",
+    "77.18%",
+    "15.3%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-6",
+    "two",
+    "one-exp p=0.003 L=480 same r=1 uniform",
+    "26.06 / 865",
+    "97.94% -> 97.15% (97.34%)",
+    "93.19% (93.48%)",
+    "90.68%",
+    "2.8%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-6",
+    "two",
+    "one-exp p=0.003 L=480 same r=1 normal",
+    "26.06 / 865",
+    "97.05% -> 96.11% (96.34%)",
+    "92.56% (92.87%)",
+    "87.37%",
+    "2.8%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-6",
+    "one",
+    "one-exp p=0.00625 L=300 same r=9 uniform",
+    "18.02 / 415",
+    "96.45% -> 96.36% (96.58%)",
+    "95.81% (96.05%)",
+    "92.42%",
+    "3.6%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-6",
+    "one",
+    "one-exp p=0.00625 L=300 same r=9 normal",
+    "18.02 / 415",
+    "96.11% -> 95.89% (96.12%)",
+    "95.30% (95.55%)",
+    "92.92%",
+    "4.0%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-20",
+    "two",
+    "one-exp p=0.00187 L=300 same r=1 uniform",
+    "32.95 / 1382",
+    "96.39% -> 96.38% (96.59%)",
+    "96.38% (96.59%)",
+    "95.90%",
+    "3.6%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-20",
+    "two",
+    "one-exp p=0.00187 L=300 same r=1 normal",
+    "32.95 / 1382",
+    "95.95% -> 95.01% (95.26%)",
+    "94.88% (95.13%)",
+    "84.97%",
+    "4.8%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-20",
+    "one",
+    "one-exp p=0.00187 L=300 same r=1 uniform",
+    "32.95 / 1382",
+    "96.45% -> 96.44% (96.65%)",
+    "96.43% (96.64%)",
+    "95.98%",
+    "3.5%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-20",
+    "one",
+    "one-exp p=0.00187 L=300 same r=1 normal",
+    "32.95 / 1382",
+    "96.33% -> 95.23% (95.48%)",
+    "95.09% (95.34%)",
+    "85.30%",
+    "4.5%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-50",
+    "two",
+    "one-exp p=0.000625 L=480 same r=1 uniform",
+    "57.10 / 4148",
+    "95.69% -> 95.69% (95.92%)",
+    "95.57% (95.81%)",
+    "95.69%",
+    "3.2%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-50",
+    "two",
+    "one-exp p=0.000625 L=480 same r=1 normal",
+    "57.10 / 4148",
+    "95.81% -> 94.92% (95.17%)",
+    "94.67% (94.93%)",
+    "86.02%",
+    "3.6%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-50",
+    "one",
+    "one-exp p=0.000625 L=480 same r=1 uniform",
+    "57.10 / 4148",
+    "95.74% -> 95.74% (95.97%)",
+    "95.67% (95.90%)",
+    "95.74%",
+    "3.2%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "pair-50",
+    "one",
+    "one-exp p=0.000625 L=480 same r=1 normal",
+    "57.10 / 4148",
+    "95.34% -> 94.28% (94.55%)",
+    "94.11% (94.38%)",
+    "85.28%",
+    "4.3%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "cr2-S5-4:1",
+    "two",
+    "one-exp p=0.00625 L=480 same r=9 uniform",
+    "18.02 / 415",
+    "53.22% -> 52.64% (53.23%)",
+    "85.76% (86.16%)",
+    "42.65%",
+    "14.2%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "cr2-S5-4:1",
+    "two",
+    "one-exp p=0.00625 L=480 same r=9 normal",
+    "18.02 / 415",
+    "52.95% -> 52.37% (52.95%)",
+    "84.66% (85.08%)",
+    "42.13%",
+    "15.3%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "cr2-S5-4:1",
+    "one",
+    "one-exp p=0.00625 L=480 same r=9 uniform",
+    "18.02 / 415",
+    "53.55% -> 52.92% (53.51%)",
+    "86.09% (86.49%)",
+    "42.96%",
+    "13.8%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "cr2-S5-4:1",
+    "one",
+    "one-exp p=0.00625 L=480 same r=9 normal",
+    "18.02 / 415",
+    "52.40% -> 51.65% (52.24%)",
+    "84.61% (85.03%)",
+    "41.58%",
+    "15.3%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "cr2-S20-4:1",
+    "two",
+    "one-exp p=0.00187 L=480 same r=9 uniform",
+    "32.98 / 1384",
+    "85.98% -> 84.99% (85.40%)",
+    "85.02% (85.43%)",
+    "73.69%",
+    "15.0%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "cr2-S20-4:1",
+    "two",
+    "one-exp p=0.00187 L=480 same r=9 normal",
+    "32.98 / 1384",
+    "85.70% -> 66.33% (66.89%)",
+    "66.39% (66.94%)",
+    "32.65%",
+    "33.5%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "cr2-S20-4:1",
+    "one",
+    "one-exp p=0.00187 L=480 same r=9 uniform",
+    "32.98 / 1384",
+    "85.78% -> 84.78% (85.20%)",
+    "84.82% (85.24%)",
+    "73.73%",
+    "15.2%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "cr2-S20-4:1",
+    "one",
+    "one-exp p=0.00187 L=480 same r=9 normal",
+    "32.98 / 1384",
+    "85.95% -> 65.86% (66.42%)",
+    "65.90% (66.45%)",
+    "32.28%",
+    "34.0%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "reg-n30-normalx",
+    "two",
+    "one-point p=0.000625 L=1.88 same r=9 uniform",
+    "0.00 / 2",
+    "5.17% -> 5.10% (5.37%)",
+    "2.58% (2.77%)",
+    "4.61%",
+    "0.5%",
+    "98.2%",
+    "pass"
+   ],
+   [
+    "reg-n30-normalx",
+    "two",
+    "one-point p=0.000625 L=1.88 same r=9 normal",
+    "0.00 / 3",
+    "4.77% -> 4.58% (4.83%)",
+    "2.38% (2.56%)",
+    "3.74%",
+    "7.0%",
+    "98.0%",
+    "pass"
+   ],
+   [
+    "reg-n30-normalx",
+    "one",
+    "two-zeroskew p=0.00625 L=188 same r=9 uniform",
+    "-0.00 / 213",
+    "4.03% -> 3.98% (4.21%)",
+    "3.07% (3.28%)",
+    "3.58%",
+    "19.8%",
+    "100.0%",
+    "pass"
+   ],
+   [
+    "reg-n30-normalx",
+    "one",
+    "two-zeroskew p=0.00625 L=188 same r=9 normal",
+    "-0.00 / 213",
+    "4.21% -> 4.06% (4.30%)",
+    "3.35% (3.57%)",
+    "3.43%",
+    "24.8%",
+    "100.0%",
+    "pass"
+   ],
+   [
+    "reg-n80-binary-adjusted",
+    "two",
+    "one-exp p=0.0016 L=480 same r=9 uniform",
+    "35.71 / 1622",
+    "88.03% -> 88.00% (88.38%)",
+    "88.00% (88.37%)",
+    "86.05%",
+    "12.0%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "reg-n80-binary-adjusted",
+    "two",
+    "one-exp p=0.0016 L=480 same r=9 normal",
+    "35.71 / 1622",
+    "87.74% -> 69.27% (69.81%)",
+    "69.26% (69.80%)",
+    "32.01%",
+    "30.6%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "reg-n80-binary-adjusted",
+    "one",
+    "one-exp p=0.0016 L=480 same r=9 uniform",
+    "35.71 / 1622",
+    "88.05% -> 88.02% (88.40%)",
+    "88.02% (88.40%)",
+    "85.86%",
+    "12.0%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "reg-n80-binary-adjusted",
+    "one",
+    "one-exp p=0.0016 L=480 same r=9 normal",
+    "35.71 / 1622",
+    "87.74% -> 69.61% (70.15%)",
+    "69.59% (70.13%)",
+    "32.52%",
+    "30.3%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "xo-12v12",
+    "two",
+    "one-exp p=0.00187 L=480 opposite r=9 uniform",
+    "32.98 / 1384",
+    "91.31% -> 91.07% (91.40%)",
+    "91.07% (91.40%)",
+    "87.67%",
+    "8.8%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "xo-12v12",
+    "two",
+    "one-exp p=0.00187 L=480 opposite r=9 normal",
+    "32.98 / 1384",
+    "91.53% -> 90.56% (90.90%)",
+    "90.41% (90.75%)",
+    "82.30%",
+    "9.3%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "xo-12v12",
+    "one",
+    "one-exp p=0.00187 L=480 opposite r=9 uniform",
+    "32.98 / 1384",
+    "90.90% -> 90.72% (91.05%)",
+    "90.71% (91.05%)",
+    "87.41%",
+    "9.2%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "xo-12v12",
+    "one",
+    "one-exp p=0.00187 L=480 opposite r=9 normal",
+    "32.98 / 1384",
+    "91.20% -> 90.25% (90.60%)",
+    "90.11% (90.46%)",
+    "82.45%",
+    "9.6%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "ww-S3-10v10",
+    "two",
+    "one-exp p=0.000625 L=480 opposite r=1 uniform",
+    "57.10 / 4148",
+    "96.16% -> 95.91% (96.13%)",
+    "95.89% (96.12%)",
+    "93.56%",
+    "3.7%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "ww-S3-10v10",
+    "two",
+    "one-exp p=0.000625 L=480 opposite r=1 normal",
+    "57.10 / 4148",
+    "95.67% -> 94.81% (95.07%)",
+    "94.78% (95.04%)",
+    "86.59%",
+    "4.7%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "ww-S3-10v10",
+    "one",
+    "one-exp p=0.000625 L=480 opposite r=1 uniform",
+    "57.10 / 4148",
+    "95.82% -> 95.63% (95.87%)",
+    "95.62% (95.86%)",
+    "93.47%",
+    "4.0%",
+    "100.0%",
+    "FAIL"
+   ],
+   [
+    "ww-S3-10v10",
+    "one",
+    "one-exp p=0.000625 L=480 opposite r=1 normal",
+    "57.10 / 4148",
+    "95.62% -> 94.71% (94.97%)",
+    "94.69% (94.94%)",
+    "86.66%",
+    "4.8%",
+    "100.0%",
+    "FAIL"
+   ]
+  ]
+ },
+ "bound": {
+  "maxK": 3,
+  "perK": {
+   "1": {
+    "pass": 48,
+    "total": 48,
+    "failures": []
+   },
+   "2": {
+    "pass": 48,
+    "total": 48,
+    "failures": []
+   },
+   "3": {
+    "pass": 48,
+    "total": 48,
+    "failures": []
+   }
+  },
+  "perCorner": {
+   "tg-5v5": 3,
+   "tg-5v8": 3,
+   "tg-5v10": 3,
+   "tg-5v15": 3,
+   "tg-5v20": 3,
+   "tg-8v8": 3,
+   "tg-8v12": 3,
+   "tg-10v20": 3,
+   "tg-15v45": 3,
+   "tg-8v32": 3,
+   "pair-6": 3,
+   "cr2-S5-2:1": 3,
+   "cr2-S5-4:1": 0,
+   "cr2-S5-6:1": 0,
+   "cr2-S5-6:3": 3,
+   "cr2-S10-4:1": 3,
+   "cr2-S10-6:1": 3,
+   "cr2-S5-4:1-ratio1": 3,
+   "cr2-S5-6:1-ratio1": 3,
+   "cr2-S20-4:1": 3,
+   "cr2-S20-6:1": 3,
+   "xo-5v5": 3,
+   "xo-5v10": 3,
+   "ww-S2-5v5": 3,
+   "ww-S2-5v20": 3,
+   "ww-S3-5v5": 3,
+   "ww-S3-5v20": 3,
+   "ww-S4-5v5": 3,
+   "ww-S4-5v20": 3,
+   "reg-binary20-none-n30-d1": 0,
+   "reg-binary50-ass-n20-d4": 3,
+   "reg-normal-none-n20-d1": 3,
+   "reg-lognormal-none-n50-d1": 3,
+   "reg-binary50-ass-n20-d8": 3,
+   "reg-binary20-none-n40-d3": 0,
+   "reg-normal-none-n30-d1": 3,
+   "reg-normal-none-n10-d1": 3,
+   "reg-normal-none-n10-d2": 3,
+   "reg-lognormal-none-n10-d1": 3,
+   "reg-lognormal-none-n30-d2": 3,
+   "reg-binary50-ass-n20-d3": 3,
+   "reg-binary20-none-n50-d3": 3,
+   "reg-binary20-none-n30-d5": 3,
+   "reg-binary50-ass-n20-d2": 3,
+   "reg-binary20-none-n50-d5": 3,
+   "reg-binary50-ass-n30-d8": 3,
+   "reg-binary20-none-n50-d8": 3,
+   "reg-binary20-none-n40-d5": 3,
+   "reg-binary20-none-n40-d7": 3,
+   "reg-binary20-none-n30-d4": 3,
+   "reg-binary50-ass-n30-d1": 3,
+   "reg-binary50-ass-n30-d6": 3
+  }
+ }
+}

@@ -1,0 +1,13 @@
+[
+  "packages/bio-tasks/tasks/p1-esr1/method.py",
+  "packages/bio-tasks/tasks/p1-esr1/stage_support.py",
+  "packages/bio-tasks/tasks/p1-esr1/reference_support.py",
+  "packages/bio-tasks/tasks/p1-esr1/check_support.py",
+  "packages/bio-tasks/tasks/p1-esr1/source-data.tsv",
+  "packages/bio-tasks/tasks/p1-esr1/provenance.json",
+  "packages/bio-tasks/tasks/p1-esr1/extract.py",
+  "packages/bio-tasks/tasks/p4-bixbench/SOURCE-KEY.json.enc",
+  "packages/bio-tasks/tasks/p4-bixbench/SOURCE-KEY.json.enc.sha256",
+  "packages/bio-tasks/tasks/p4-bixbench/Swarm_1.csv",
+  "packages/bio-tasks/tasks/p4-bixbench/provenance.json"
+]

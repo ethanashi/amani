@@ -1,0 +1,33 @@
+Amani
+Copyright (c) 2026 Ethan Ashihundu
+
+The engine and documentation are AGPL-3.0-only except where a component
+states a different license. The independent verifier and certificate format
+(packages/omb-verifier and packages/omb-certificate) are Apache-2.0.
+Amani Studio retains its MIT grant. Each component includes its license.
+
+Third-party components retain their original copyrights and licenses.
+This NOTICE records attribution and does not change those license terms.
+The complete versioned inventory, scope, and lock hashes are recorded in
+docs/third-party-licenses.md; regenerate with scripts/ci/dependency-notices.py.
+
+Bundled-source and binary attribution:
+- dagre and graphlib: Dagre contributors, MIT; installed npm licenses apply.
+- Studio: React, Tauri, PDF.js, Lucide and their transitive components;
+  see apps/amani-studio/THIRD-PARTY-LICENSES.txt and Node-LICENSE.txt.
+- OpenAI codex-sandboxing: third_party/codex-sandboxing/LICENSE.
+- openpyxl: third_party/LICENSE.openpyxl.
+- colorspacious: packages/omb-figures/vendor/colorspacious-LICENSE.txt.
+- Unicode data: packages/omb-report/vendor/UNICODE-LICENSE.txt.
+- data-to-paper materials: packages/omb-report/vendor/data-to-paper-LICENSE.
+- Latin Modern fonts: packages/omb-package/vendor/fonts/GUST-FONT-LICENSE.txt.
+- Tectonic: packages/omb-package/vendor/tex/TECTONIC-LICENSE.txt.
+- Packaging assets and upstream templates: packages/omb-package/vendor/NOTICE.md
+  and component LICENSES manifests, which retain individual grants.
+
+R, GPL/LGPL analysis libraries and Pandoc are separate executables in pinned
+reference or packaging environments. None is linked into the Node engine or
+Studio. Reference Python wheels are not bundled product renderers.
+Environments, caches and node_modules are excluded from the public snapshot.
+If distributing binaries or environment packages, retain all corresponding
+license files and meet each component's source and notice obligations.

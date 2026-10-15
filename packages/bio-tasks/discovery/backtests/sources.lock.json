@@ -1,0 +1,583 @@
+{
+  "bt4-current-mesh-subset": {
+    "asof": false,
+    "drugs": 100,
+    "files": [
+      {
+        "bytes": 229986,
+        "licence": "CC-BY-SA-3.0",
+        "path": "mesh-subset-0-0.json",
+        "retrievedAt": "2026-10-11",
+        "sha256": "7fc92fcc81e1602a5b4a630c5914dc3d6703daccb6b34bb11be4232c88e5ea90",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json?molecule_chembl_id__in=CHEMBL1000%2CCHEMBL100116%2CCHEMBL1004%2CCHEMBL10041%2CCHEMBL1005%2CCHEMBL1007%2CCHEMBL1009%2CCHEMBL101253%2CCHEMBL1014%2CCHEMBL1016%2CCHEMBL1017%2CCHEMBL10188%2CCHEMBL1021%2CCHEMBL1023%2CCHEMBL1027%2CCHEMBL1029%2CCHEMBL103%2CCHEMBL103667%2CCHEMBL1040%2CCHEMBL1042%2CCHEMBL1046%2CCHEMBL105060%2CCHEMBL1051%2CCHEMBL105442%2CCHEMBL1055&limit=1000"
+      },
+      {
+        "bytes": 421321,
+        "licence": "CC-BY-SA-3.0",
+        "path": "mesh-subset-25-0.json",
+        "retrievedAt": "2026-10-11",
+        "sha256": "8d96afdf5064d42c334ed2a958166ef87c9de18093f9f00fcba40bde2d3a63a3",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json?molecule_chembl_id__in=CHEMBL1059%2CCHEMBL1064%2CCHEMBL1068%2CCHEMBL1069%2CCHEMBL107%2CCHEMBL1072%2CCHEMBL1073%2CCHEMBL107367%2CCHEMBL107430%2CCHEMBL1075%2CCHEMBL1077%2CCHEMBL1077896%2CCHEMBL1078178%2CCHEMBL1078983%2CCHEMBL1079%2CCHEMBL1079175%2CCHEMBL1079593%2CCHEMBL108%2CCHEMBL1082407%2CCHEMBL1083390%2CCHEMBL1083659%2CCHEMBL1084617%2CCHEMBL10878%2CCHEMBL1088750%2CCHEMBL1088751&limit=1000"
+      },
+      {
+        "bytes": 164681,
+        "licence": "CC-BY-SA-3.0",
+        "path": "mesh-subset-50-0.json",
+        "retrievedAt": "2026-10-11",
+        "sha256": "4a3affda2a4d94eebbf665c701cbd259ae51da87d22496311e3ab625b26f6f4b",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json?molecule_chembl_id__in=CHEMBL1088752%2CCHEMBL1089%2CCHEMBL109%2CCHEMBL1090090%2CCHEMBL1090479%2CCHEMBL1090488%2CCHEMBL1090771%2CCHEMBL1091%2CCHEMBL1091644%2CCHEMBL1094%2CCHEMBL1094408%2CCHEMBL1094636%2CCHEMBL1094785%2CCHEMBL109480%2CCHEMBL1095032%2CCHEMBL1095097%2CCHEMBL1095777%2CCHEMBL1096%2CCHEMBL1096146%2CCHEMBL1096380%2CCHEMBL109648%2CCHEMBL1096882%2CCHEMBL1096885%2CCHEMBL1096896%2CCHEMBL1096979&limit=1000"
+      },
+      {
+        "bytes": 446854,
+        "licence": "CC-BY-SA-3.0",
+        "path": "mesh-subset-75-0.json",
+        "retrievedAt": "2026-10-11",
+        "sha256": "86fcdc124a2b65f69d47c9ace5fdf8e161e9755fab56d46c7a38f4807ffdab0f",
+        "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json?molecule_chembl_id__in=CHEMBL1097999%2CCHEMBL1098%2CCHEMBL11%2CCHEMBL1101%2CCHEMBL110458%2CCHEMBL1106%2CCHEMBL1108%2CCHEMBL111%2CCHEMBL1111%2CCHEMBL1112%2CCHEMBL1115%2CCHEMBL1117%2CCHEMBL1118%2CCHEMBL112%2CCHEMBL1120%2CCHEMBL113%2CCHEMBL1131%2CCHEMBL1138%2CCHEMBL1139%2CCHEMBL1144%2CCHEMBL1148%2CCHEMBL1152%2CCHEMBL1159650%2CCHEMBL1161%2CCHEMBL1162&limit=1000"
+      }
+    ],
+    "licence": "CC-BY-SA-3.0"
+  },
+  "dm-bt1-minikel-repro": {
+    "commit": "b84cf0580b7df1af14b2c72068ed42b5aa0c52a4",
+    "files": [
+      {
+        "bytes": 18651,
+        "licence": "CC-BY-4.0",
+        "path": "LICENSE.md",
+        "retrievedAt": "2026-10-11",
+        "sha256": "2a82ac9bbc3e3ee066908381e8d373896db5a6025d083fbd59692fe9ccfb9111",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/LICENSE.md"
+      },
+      {
+        "bytes": 2384,
+        "licence": "CC-BY-4.0",
+        "path": "README.md",
+        "retrievedAt": "2026-10-11",
+        "sha256": "d7e082b1f1e60f6cb74176970d4faca2c03068c61257b2cb07adc07546958a15",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/README.md"
+      },
+      {
+        "bytes": 501,
+        "licence": "CC-BY-4.0",
+        "path": "data/areas.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "279e0c8295059171ad94b679548018e20e73736b192bda5bd775e5932920f5e2",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/areas.tsv"
+      },
+      {
+        "bytes": 16188145,
+        "licence": "CC-BY-4.0",
+        "path": "data/assoc.tsv.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "93e3e67f899a38d9f0bf5b90ba554df8fd3468ededb5407559ae97deeb833e57",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/assoc.tsv.gz"
+      },
+      {
+        "bytes": 1833268,
+        "licence": "CC-BY-4.0",
+        "path": "data/drug_phase_summary.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "3c1406f98a1c37572b7dd6e27e1f9a4d4f6c5fbb3aaa0f103de676163436a72c",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/drug_phase_summary.tsv"
+      },
+      {
+        "bytes": 11012,
+        "licence": "CC-BY-4.0",
+        "path": "data/drugs_per_indic.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "1376a9d6b18fc95b57f0421e86bb16843f2f260982fd77bf8205abd51f256fc4",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/drugs_per_indic.tsv"
+      },
+      {
+        "bytes": 64835,
+        "licence": "CC-BY-4.0",
+        "path": "data/gene_lists/ab_tractable.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "132bb41cc261c9658f1f6e28f1eb34eed89e30c3a1efe637f8681991da590dfd",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gene_lists/ab_tractable.tsv"
+      },
+      {
+        "bytes": 1646,
+        "licence": "CC-BY-4.0",
+        "path": "data/gene_lists/catalytic_receptors.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "2b622e4d6d872f2b4307544c224c8288b5f45578c5ed2c5d7cad51b321ec16de",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gene_lists/catalytic_receptors.tsv"
+      },
+      {
+        "bytes": 5566,
+        "licence": "CC-BY-4.0",
+        "path": "data/gene_lists/enzymes.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "8ad2afdc51df6f3c16c56b7e3a26969e7cad114666805e8d9bdab392d6faf02b",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gene_lists/enzymes.tsv"
+      },
+      {
+        "bytes": 2041,
+        "licence": "CC-BY-4.0",
+        "path": "data/gene_lists/ion_channels.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "649686347cec3ae454443ddc9a69d515927ae0e2e0aba9067d02cc2585687241",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gene_lists/ion_channels.tsv"
+      },
+      {
+        "bytes": 1899,
+        "licence": "CC-BY-4.0",
+        "path": "data/gene_lists/kinases.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "a822e913d8829dc5db63bca3ee3a7189101d67bff4e1716a6387b1cd238251ca",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gene_lists/kinases.tsv"
+      },
+      {
+        "bytes": 263,
+        "licence": "CC-BY-4.0",
+        "path": "data/gene_lists/nuclear_receptors.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "15a174d3a3a15f17aa024fda0e9966010ac0200eb15010d7ecf7a240d8b2b1ad",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gene_lists/nuclear_receptors.tsv"
+      },
+      {
+        "bytes": 4377,
+        "licence": "CC-BY-4.0",
+        "path": "data/gene_lists/rhodop_gpcr.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "16eb7b5a24694b2d3e919da80a557ec15e4e5498ba34a64fff51ecfd737aaefb",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gene_lists/rhodop_gpcr.tsv"
+      },
+      {
+        "bytes": 31979,
+        "licence": "CC-BY-4.0",
+        "path": "data/gene_lists/sm_tractable.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "e982cd162615bc90a19c3b2824ef65c4cbbb13fa9de2af7461c7307bcb1b2295",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gene_lists/sm_tractable.tsv"
+      },
+      {
+        "bytes": 4133,
+        "licence": "CC-BY-4.0",
+        "path": "data/gene_lists/transporters.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "3757ccbfb8e4427abe724e678daf124b61f135f266515cc19767cea2f26e9a83",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gene_lists/transporters.tsv"
+      },
+      {
+        "bytes": 8852214,
+        "licence": "CC-BY-4.0",
+        "path": "data/gwas_catalog-ancestry_r2022-02-02.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "aa856f40ee1b57a3019905a4fcf13d949675c1f92dbda338e1686a9928ff42c0",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/gwas_catalog-ancestry_r2022-02-02.tsv"
+      },
+      {
+        "bytes": 63260,
+        "licence": "CC-BY-4.0",
+        "path": "data/indic.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "a9524237f97fba7a70a71187fd078d5f16bc0e64bb740c42cf15d3dd41ccd877",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/indic.tsv"
+      },
+      {
+        "bytes": 51793,
+        "licence": "CC-BY-4.0",
+        "path": "data/indic_topl_match.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "5c2716f89c2fb1d0dbd070cfaa75354a044acc60e868e023282880e83700dfff",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/indic_topl_match.tsv"
+      },
+      {
+        "bytes": 10214,
+        "licence": "CC-BY-4.0",
+        "path": "data/intogen_genes.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "b338a9191d3224764eddb11b5bc32ebec5f7aab82acb8e21e7955dba358e1204",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/intogen_genes.tsv"
+      },
+      {
+        "bytes": 21012587,
+        "licence": "CC-BY-4.0",
+        "path": "data/merge2.tsv.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "3e5503bf129358802165bc3d4bbb5365484399b7f7d44ad68d1f96cf840f40a4",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/merge2.tsv.gz"
+      },
+      {
+        "bytes": 3527,
+        "licence": "CC-BY-4.0",
+        "path": "data/mesh_2023_topl_maps.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "9cd448a297d00a0bbf50f1dee526542e38091bf95c2077e2f75af10f3188f677",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/mesh_2023_topl_maps.tsv"
+      },
+      {
+        "bytes": 21790280,
+        "licence": "CC-BY-4.0",
+        "path": "data/mesh_all_vocab.tsv.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "bfe61de397f08a35e97523820d9547c40651b2f6cf9f86a843e464ec8e594d99",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/mesh_all_vocab.tsv.gz"
+      },
+      {
+        "bytes": 9977144,
+        "licence": "CC-BY-4.0",
+        "path": "data/mesh_best_names.tsv.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "7be3f647a12b172b9605b2dd3e0180f66d2bd917474dade59ef338cc7cc70f1f",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/mesh_best_names.tsv.gz"
+      },
+      {
+        "bytes": 82,
+        "licence": "CC-BY-4.0",
+        "path": "data/mesh_remappings.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "6c9f9f3d19efbcb3c8cd062d0a2c7772c8c8478043b755823c28a2ca9b71b1b7",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/mesh_remappings.tsv"
+      },
+      {
+        "bytes": 1601548,
+        "licence": "CC-BY-4.0",
+        "path": "data/mesh_scr_to_best.tsv.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "453e526ee9b4dbf528a73a61f913eba9f8ffdbde42f143ac6c6c24725f3fb4f4",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/mesh_scr_to_best.tsv.gz"
+      },
+      {
+        "bytes": 1767821,
+        "licence": "CC-BY-4.0",
+        "path": "data/mesh_tree.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "96b87ccd1d85f25ff92c3afa2ef0080a4a6ca28ef56af28560eeebf815c0b8e1",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/mesh_tree.tsv"
+      },
+      {
+        "bytes": 79,
+        "licence": "CC-BY-4.0",
+        "path": "data/meta_acat.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "c732a2ed785733279dfe168ef3d34136b0380cc7062b781ba3e8fd75dd5981b6",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/meta_acat.tsv"
+      },
+      {
+        "bytes": 66,
+        "licence": "CC-BY-4.0",
+        "path": "data/meta_ccat.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "5b679f4fca7a6ba1d4de0f3acdfea800672b4ab041b551365dc0f7dfe2eaed9b",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/meta_ccat.tsv"
+      },
+      {
+        "bytes": 66,
+        "licence": "CC-BY-4.0",
+        "path": "data/meta_hcat.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "5b679f4fca7a6ba1d4de0f3acdfea800672b4ab041b551365dc0f7dfe2eaed9b",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/meta_hcat.tsv"
+      },
+      {
+        "bytes": 2299,
+        "licence": "CC-BY-4.0",
+        "path": "data/nelson_2015_by_category.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "c646520a07083a38191cf0c7765e85c56ccf30748107905396754a691c942ef0",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/nelson_2015_by_category.tsv"
+      },
+      {
+        "bytes": 239,
+        "licence": "CC-BY-4.0",
+        "path": "data/nelson_2015_categories.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "85ad2ebdcc210009c05599debfee17062471309a1f8eca0e358d82296df55889",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/nelson_2015_categories.tsv"
+      },
+      {
+        "bytes": 557,
+        "licence": "CC-BY-4.0",
+        "path": "data/nelson_2015_category_match.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "d5813f522a01c1a3855e6c0d38517667bc21ef9b458b7a8e7cd41c9f88e3c8b2",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/nelson_2015_category_match.tsv"
+      },
+      {
+        "bytes": 2973520,
+        "licence": "CC-BY-4.0",
+        "path": "data/nelson_2015_supplementary_dataset_2.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "709f7829654fbc0c4029b751d827183bcc17cd261133200a10d7e982362ec081",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/nelson_2015_supplementary_dataset_2.tsv"
+      },
+      {
+        "bytes": 1521031,
+        "licence": "CC-BY-4.0",
+        "path": "data/nelson_2015_supplementary_dataset_3.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "f265c9bed9f4875af9da79e624e46fd7f0b6a255794a9c487e8b7b020886edb4",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/nelson_2015_supplementary_dataset_3.tsv"
+      },
+      {
+        "bytes": 22420,
+        "licence": "CC-BY-4.0",
+        "path": "data/nelson_2015_table_s6.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "34bad6bb471553f9577d63672d0a08dc97a620ae5090d8ef27257ed58dc8d1a8",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/nelson_2015_table_s6.tsv"
+      },
+      {
+        "bytes": 316685,
+        "licence": "CC-BY-4.0",
+        "path": "data/nelson_2015_table_s9.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "4f70203129ca4f43a493e0bff4d86084dbd01bb520300a79f4b4894b0ab2ff28",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/nelson_2015_table_s9.tsv"
+      },
+      {
+        "bytes": 4216,
+        "licence": "CC-BY-4.0",
+        "path": "data/otg_heavy_hitter_curation.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "16229e2e4a75b9e0ae1d996674b92bc7635658348f359831e3956eb31bd2adda",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/otg_heavy_hitter_curation.tsv"
+      },
+      {
+        "bytes": 3162501,
+        "licence": "CC-BY-4.0",
+        "path": "data/pp.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "db1bda5367759fb223f9d6c4dcb8bf13eaf50229289c5f6ac152b4478f6e4fdb",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/pp.tsv"
+      },
+      {
+        "bytes": 118451,
+        "licence": "CC-BY-4.0",
+        "path": "data/pp_launched_alltime.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "6cda520681e121966871f843a08c86124c2bba4ebf0f50b53643a512139e058c",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/pp_launched_alltime.tsv"
+      },
+      {
+        "bytes": 57450355,
+        "licence": "CC-BY-4.0",
+        "path": "data/sim.tsv.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "02573fc67a0e017d857a1e2a05909746f87ac2c6db136ec25aa0ffd88865d2e7",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/sim.tsv.gz"
+      },
+      {
+        "bytes": 3498,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/drug_gene_curation_results.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "fce66eb87cce51e5d20d17d560684434aac9e3af6272089ffbabfacdae1ba2f4",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/drug_gene_curation_results.tsv"
+      },
+      {
+        "bytes": 2957,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/omim_t2d.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "c2fc89f0f3b839daab4ddd69c9f5ff6a84086614cf335cd856277dd786d0de7b",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/omim_t2d.tsv"
+      },
+      {
+        "bytes": 14454,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/pp_diabetes.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "5557e4f6a5a971adb6f51c6ba762779deaced389bfe2408e2ddda12b9a3dc6c7",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/pp_diabetes.tsv"
+      },
+      {
+        "bytes": 123410,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/suzuki_2023_st4.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "258b7ee049cf2d87396dbca667d7d3cd35de9620379732130c0defa7a303591c",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/suzuki_2023_st4.tsv"
+      },
+      {
+        "bytes": 37720,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/suzuki_2023_st4_mapped.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "2fb217f3fad06335f6c952ab0afb5cf45f5cdd0cc9a36bd86e7ecc05b27491e8",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/suzuki_2023_st4_mapped.tsv"
+      },
+      {
+        "bytes": 58167,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/suzuki_lead_b38.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "e9099190372a9eacf67c91bcb77479d83acd951e491a14606b7a95ba34bb7dc1",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/suzuki_lead_b38.tsv"
+      },
+      {
+        "bytes": 6447852,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/suzuki_lead_l2g.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "940b803545efc68cf94bf936ea6a8540678e84c96ba9e1ddc34879bb69cc2a2f",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/suzuki_lead_l2g.tsv"
+      },
+      {
+        "bytes": 21905,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/t2d_gwas_vujkovic_suzuki.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "10f56b31573049a84f20828429ef0e0b4682583a7ea94fe5762cac1780742a96",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/t2d_gwas_vujkovic_suzuki.tsv"
+      },
+      {
+        "bytes": 17442,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/vujkovic_supp_t13.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "a38f3b288a5cd0b075ec9fa0b80cdc06cdd680558afe23c7ec00ca68b475fca0",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/vujkovic_supp_t13.tsv"
+      },
+      {
+        "bytes": 1213616,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/vujkovic_supp_t15.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "7199ee379a247d8f192e7abc31371cfc8d247d802f98ec5dcd14cf515bad4511",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/vujkovic_supp_t15.tsv"
+      },
+      {
+        "bytes": 222875,
+        "licence": "CC-BY-4.0",
+        "path": "data/t2d/vujkovic_supp_t5.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "4025f2c24b89cf747d76a31c99f273de0f45c38fa21b42303123628efaabc100",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/t2d/vujkovic_supp_t5.tsv"
+      },
+      {
+        "bytes": 125050,
+        "licence": "CC-BY-4.0",
+        "path": "data/universe.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "a8ff18469ab614d94b08618c8165c0b78a13ce502b03a12711ec3cbd11854a26",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/data/universe.tsv"
+      },
+      {
+        "bytes": 1278,
+        "licence": "CC-BY-4.0",
+        "path": "display_items/table_s22.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "9cfcad0b212fc51664f5cf524cac2481cd7aa18f3a797edfe87923b1a8c49682",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/display_items/table_s22.tsv"
+      },
+      {
+        "bytes": 1283,
+        "licence": "CC-BY-4.0",
+        "path": "oto/table_s22.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "d727edb04b0bc86d4d8de595ba7a0187b715901f54b04d5aaa2a07f4bae0dbca",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/oto/table_s22.tsv"
+      },
+      {
+        "bytes": 23339,
+        "licence": "CC-BY-4.0",
+        "path": "src/analytic_data_export.R",
+        "retrievedAt": "2026-10-11",
+        "sha256": "98174d1d78449a91b4a17fa3242d7e5e48bf9da40f13a56be493848debc35edb",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/src/analytic_data_export.R"
+      },
+      {
+        "bytes": 220675,
+        "licence": "CC-BY-4.0",
+        "path": "src/gensup_analysis.R",
+        "retrievedAt": "2026-10-11",
+        "sha256": "5e669ae832bf5c75fd687e22dcef973df5c588882af598ff6d0ae7cde0f4c4b7",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/src/gensup_analysis.R"
+      },
+      {
+        "bytes": 2081,
+        "licence": "CC-BY-4.0",
+        "path": "src/input_dataset_stats.R",
+        "retrievedAt": "2026-10-11",
+        "sha256": "d4c5253b40cbb3505c8421e667f105079f53c9c3e468dbf01e988334dcd7976c",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/src/input_dataset_stats.R"
+      },
+      {
+        "bytes": 10234,
+        "licence": "CC-BY-4.0",
+        "path": "src/r2r_additions.R",
+        "retrievedAt": "2026-10-11",
+        "sha256": "7123339eebf2d1648e1d333c81855d54ce03a367360804ec16c616eafffe302a",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/src/r2r_additions.R"
+      },
+      {
+        "bytes": 2801,
+        "licence": "CC-BY-4.0",
+        "path": "src/target_indication_pair.R",
+        "retrievedAt": "2026-10-11",
+        "sha256": "6d9468b6b7ea8743ed89902a2247613f2dcd84d46f3149244ff882b254b9efb1",
+        "url": "https://raw.githubusercontent.com/ericminikel/genetic_support/b84cf0580b7df1af14b2c72068ed42b5aa0c52a4/src/target_indication_pair.R"
+      }
+    ]
+  },
+  "dm-bt2-forward-2013": {
+    "files": [
+      {
+        "bytes": 60162262,
+        "licence": "publisher-supplement-public-analysis-only",
+        "path": "nelson_similarity.tsv",
+        "retrievedAt": "2026-10-11",
+        "sha256": "9a3f09c0b8c347d57b1d01d967e29c9b6fe75c7291548457ce0b3061ab80257e",
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fng.3314/MediaObjects/41588_2015_BFng3314_MOESM14_ESM.txt"
+      }
+    ]
+  },
+  "dm-bt4-open-chembl-2019": {
+    "files": [
+      {
+        "bytes": 63888356,
+        "licence": "CC0-1.0",
+        "path": "chembl-29-01-2019.json.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "30f5d68946fa81ade5a278249a150b64651770ce275d1e7913591daed82314b7",
+        "url": "https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/19.02/input/evidence-files/chembl-29-01-2019.json.gz"
+      },
+      {
+        "bytes": 5840906,
+        "licence": "CC0-1.0",
+        "path": "gwas-28-01-2019.json.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "f03639c2aef9f86798f757ef3768aad297578cecfa9e78c847c11da92f21c788",
+        "url": "https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/19.02/input/evidence-files/gwas-28-01-2019.json.gz"
+      },
+      {
+        "bytes": 6445493,
+        "licence": "CC0-1.0",
+        "path": "eva-29-01-2019.json.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "3ee18c8b94640969e9d76c8f4591ef9c69feda2578444f0996dd53e6782db2cb",
+        "url": "https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/19.02/input/evidence-files/eva-29-01-2019.json.gz"
+      },
+      {
+        "bytes": 135444,
+        "licence": "CC0-1.0",
+        "path": "gene2phenotype-30-01-2019.json.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "ce7b8047f0677d52c228ff5b5491ddc2ac8bff0e8442ecc5b26ba46c8c99a3c7",
+        "url": "https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/19.02/input/evidence-files/gene2phenotype-30-01-2019.json.gz"
+      },
+      {
+        "bytes": 697967,
+        "licence": "CC0-1.0",
+        "path": "genomics_england-02-10-2018.json.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "469879e3d5df56c176a22a285a3164eac1b6c4889f3d2cfb4b54e4dcf47b0372",
+        "url": "https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/19.02/input/evidence-files/genomics_england-02-10-2018.json.gz"
+      },
+      {
+        "bytes": 31782934,
+        "licence": "CC0-1.0",
+        "path": "chembl-24.09.json.gz",
+        "retrievedAt": "2026-10-11",
+        "sha256": "1aaf8efeb409a959ada1b2add091525c21a83e9bc6f5e08dc9e825482e738931",
+        "url": "https://ftp.ebi.ac.uk/pub/databases/opentargets/platform/24.09/input/evidence-files/chembl.json.gz"
+      }
+    ]
+  },
+  "nelson_supplement_terms_note": "Public publisher supplement; no Creative Commons licence verified. Private analysis cache only; do not redistribute."
+}

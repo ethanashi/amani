@@ -1,0 +1,18 @@
+{
+  "id": "p2-erbb2",
+  "family": "reproduction",
+  "datasetManifestHash": "7fe6528576d5a1ef039694614de639615eb3376b7c0cf1a18ac3fb7b47ec2169",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p2-erbb2/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.02,
+    "relative": 0
+  },
+  "plantedFlaws": [],
+  "negativeControl": false,
+  "positiveControl": true,
+  "heldOut": false,
+  "seed": 5202,
+  "capMinutes": 10,
+  "contaminated": false
+}

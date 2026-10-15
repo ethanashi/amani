@@ -1,0 +1,121 @@
+{
+  "name": "PRISMA-Abstracts",
+  "version": "2020",
+  "attribution": "Page et al., BMJ 2021;372:n71, doi:10.1136/bmj.n71 (Table 2), CC BY 4.0; original short prompts, not an official checklist reproduction.",
+  "source": "https://www.prisma-statement.org/s/PRISMA_2020_abstract_checklist-apht.pdf",
+  "wording": "original-prompts",
+  "publishedDate": "2021-03-29",
+  "verifiedDate": "2026-10-13",
+  "officialItemCount": 12,
+  "scope": "PRISMA 2020 abstract checklist; replaces the 2013 abstract version.",
+  "items": [
+    {
+      "id": "1",
+      "prompt": "Review identification",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "1",
+      "section": "title"
+    },
+    {
+      "id": "2",
+      "prompt": "Review question",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "2",
+      "section": "abstract-background"
+    },
+    {
+      "id": "3",
+      "prompt": "Selection criteria",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "3",
+      "section": "abstract-methods"
+    },
+    {
+      "id": "4",
+      "prompt": "Search inventory",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "4",
+      "section": "abstract-methods"
+    },
+    {
+      "id": "5",
+      "prompt": "Bias methodology",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "5",
+      "section": "abstract-methods"
+    },
+    {
+      "id": "6",
+      "prompt": "Synthesis approach",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "6",
+      "section": "abstract-methods"
+    },
+    {
+      "id": "7",
+      "prompt": "Included population",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "7",
+      "section": "abstract-results"
+    },
+    {
+      "id": "8",
+      "prompt": "Pooled findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "8",
+      "section": "abstract-results"
+    },
+    {
+      "id": "9",
+      "prompt": "Evidence weaknesses",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "9",
+      "section": "abstract-conclusions"
+    },
+    {
+      "id": "10",
+      "prompt": "Overall meaning",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "10",
+      "section": "abstract-conclusions"
+    },
+    {
+      "id": "11",
+      "prompt": "Financial support",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "11",
+      "section": "abstract-other"
+    },
+    {
+      "id": "12",
+      "prompt": "Registry entry",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [],
+      "evidenceGroup": "12",
+      "section": "abstract-other"
+    }
+  ]
+}

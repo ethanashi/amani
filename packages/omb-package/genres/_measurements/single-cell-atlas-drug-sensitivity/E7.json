@@ -1,0 +1,386 @@
+{
+ "pmcid": "PMC9767870",
+ "doi": "10.1038/s43018-022-00475-x",
+ "pmid": "36539501",
+ "journal": "Nature Cancer",
+ "year": 2022,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Resource"
+ ],
+ "title_words": 14,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 148
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 34
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Main",
+   "canonical": "other",
+   "words": 516,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3571,
+   "sub": [
+    {
+     "heading": "Single-cell transcriptomics of longitudinal GBM specimens",
+     "canonical": "other",
+     "words": 285
+    },
+    {
+     "heading": "Meta-analysis supports a proneural–mesenchymal axis",
+     "canonical": "other",
+     "words": 322
+    },
+    {
+     "heading": "A mesenchymal shift in recurrent disease",
+     "canonical": "other",
+     "words": 302
+    },
+    {
+     "heading": "Single-cell open-chromatin profiling implicates AP1",
+     "canonical": "other",
+     "words": 403
+    },
+    {
+     "heading": "Radiation induced AP1 enhances mesenchymal genes",
+     "canonical": "other",
+     "words": 478
+    },
+    {
+     "heading": "Targeting the AP1 regulome for therapeutic benefit",
+     "canonical": "other",
+     "words": 141
+    },
+    {
+     "heading": "Tumor-associated innate immune cells show limited activation",
+     "canonical": "other",
+     "words": 239
+    },
+    {
+     "heading": "T cells invade the tumor in outliers with superior prognosis",
+     "canonical": "other",
+     "words": 390
+    },
+    {
+     "heading": "Spatial analysis yields cell-extrinsic therapeutic targets",
+     "canonical": "other",
+     "words": 1011
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1721
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 2977,
+   "sub": [
+    {
+     "heading": "Ethical approval",
+     "canonical": "ethics",
+     "words": 64
+    },
+    {
+     "heading": "Tumor tissue acquisition",
+     "canonical": "other",
+     "words": 26
+    },
+    {
+     "heading": "Statistics and reproducibility",
+     "canonical": "other",
+     "words": 140
+    },
+    {
+     "heading": "Nuclei isolation",
+     "canonical": "other",
+     "words": 91
+    },
+    {
+     "heading": "Cell derivation, culture and in vitro viability assays",
+     "canonical": "other",
+     "words": 309
+    },
+    {
+     "heading": "Clonogenic assays",
+     "canonical": "other",
+     "words": 111
+    },
+    {
+     "heading": "Multiplex immunofluorescence",
+     "canonical": "other",
+     "words": 44
+    },
+    {
+     "heading": "Dual RNAscope",
+     "canonical": "other",
+     "words": 75
+    },
+    {
+     "heading": "Murine IR assay",
+     "canonical": "other",
+     "words": 193
+    },
+    {
+     "heading": "Spatial transcriptomics and proteomics assays",
+     "canonical": "other",
+     "words": 393
+    },
+    {
+     "heading": "10x Genomics-based snRNA-seq/snATAC-Seq",
+     "canonical": "other",
+     "words": 64
+    },
+    {
+     "heading": "SnRNA-seq data preprocessing",
+     "canonical": "other",
+     "words": 61
+    },
+    {
+     "heading": "Copy-number variation analysis of snRNA-seq and snATAC-seq",
+     "canonical": "other",
+     "words": 90
+    },
+    {
+     "heading": "Exome sequencing and copy-number variant identification",
+     "canonical": "other",
+     "words": 104
+    },
+    {
+     "heading": "Dimensionality reduction, clustering and cell-type classification for snRNA-seq",
+     "canonical": "other",
+     "words": 143
+    },
+    {
+     "heading": "Multiple-factor analysis",
+     "canonical": "other",
+     "words": 140
+    },
+    {
+     "heading": "Single-nucleotide variant calling in snRNA-seq and UCSF500 genotypes",
+     "canonical": "other",
+     "words": 139
+    },
+    {
+     "heading": "RNA velocity analysis",
+     "canonical": "other",
+     "words": 136
+    },
+    {
+     "heading": "Monocytic cell classification and analysis",
+     "canonical": "other",
+     "words": 119
+    },
+    {
+     "heading": "T-cell phenotype classification and analysis",
+     "canonical": "other",
+     "words": 114
+    },
+    {
+     "heading": "snATAC-seq data processing and analysis",
+     "canonical": "other",
+     "words": 169
+    },
+    {
+     "heading": "Cell–cell communication analysis",
+     "canonical": "other",
+     "words": 64
+    },
+    {
+     "heading": "Data processing for spatial transcriptomics and proteomics",
+     "canonical": "other",
+     "words": 115
+    },
+    {
+     "heading": "Survival analysis",
+     "canonical": "other",
+     "words": 56
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 16
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 74
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 0
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 0
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 516,
+  "results": 3571,
+  "discussion": 1721,
+  "methods": 2977,
+  "supplementary": 0
+ },
+ "main_text_words": 8785,
+ "main_text_words_excluding_methods": 5808,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 8,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 6",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 7",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 8",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 8,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 2,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 61,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

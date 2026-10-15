@@ -1,0 +1,6 @@
+.pixi/
+.cache/
+.tmp/
+examples/sample/
+reports/qa/
+genres/_tools/__pycache__/

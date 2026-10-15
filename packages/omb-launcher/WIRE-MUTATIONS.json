@@ -1,0 +1,119 @@
+{
+  "schema": "omb-launcher/guard-mutations/v1",
+  "results": [
+    {
+      "mutation": "signature",
+      "file": "packages/omb-launcher/src/signing.ts",
+      "test": "packages/omb-launcher/test/certify.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "request-binding",
+      "file": "packages/omb-launcher/src/signing.ts",
+      "test": "packages/omb-launcher/test/certify.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "schema-fields",
+      "file": "packages/omb-launcher/src/certify.ts",
+      "test": "packages/omb-launcher/test/certify.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "decoded-cap",
+      "file": "packages/omb-launcher/src/certify.ts",
+      "test": "packages/omb-launcher/test/certify.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "os-separation",
+      "file": "packages/omb-launcher/src/certify.ts",
+      "test": "packages/omb-launcher/test/certify.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "gate-authentication",
+      "file": "packages/omb-launcher/src/certify.ts",
+      "test": "packages/omb-launcher/test/certify.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "native-code-binding",
+      "file": "packages/omb-investigate/src/native-store.ts",
+      "test": "packages/omb-investigate/test/native-store.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "native-ceiling",
+      "file": "packages/omb-investigate/src/native-store.ts",
+      "test": "packages/omb-investigate/test/native-store.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "receiver-cap",
+      "file": "packages/omb-investigate/src/launcher-certification.ts",
+      "test": "packages/omb-investigate/test/launcher-certification.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "sudo-audit",
+      "file": "packages/omb-launcher/src/verify.ts",
+      "test": "packages/omb-launcher/test/templates.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "named-byte-cap",
+      "file": "packages/omb-launcher/src/authority.ts",
+      "test": "packages/omb-launcher/test/authority.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "ticket-mac",
+      "file": "packages/omb-launcher/src/authority.ts",
+      "test": "packages/omb-launcher/test/authority.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "ticket-expiry",
+      "file": "packages/omb-launcher/src/authority.ts",
+      "test": "packages/omb-launcher/test/authority.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "ticket-execution",
+      "file": "packages/omb-launcher/src/authority.ts",
+      "test": "packages/omb-launcher/test/authority.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "authority-look-input",
+      "file": "packages/omb-launcher/src/authority.ts",
+      "test": "packages/omb-launcher/test/authority.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    },
+    {
+      "mutation": "native-receiver-cap",
+      "file": "packages/omb-investigate/src/launcher-native.ts",
+      "test": "packages/omb-investigate/test/launcher-native.test.ts",
+      "exitCode": 1,
+      "killedByAssertion": true
+    }
+  ],
+  "killed": 16,
+  "total": 16
+}

@@ -1,0 +1,507 @@
+{
+  "name": "PRISMA",
+  "version": "2020",
+  "attribution": "Page et al. PRISMA 2020; BMJ 372:n71. Source CC BY 4.0; original prompts.",
+  "source": "https://www.prisma-statement.org/s/PRISMA_2020_checklist-ab3g.pdf",
+  "wording": "original-prompts",
+  "items": [
+    {
+      "id": "1",
+      "prompt": "Review title",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "review",
+        "title"
+      ],
+      "evidenceGroup": "1",
+      "section": "title"
+    },
+    {
+      "id": "2",
+      "prompt": "Structured abstract",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "structured",
+        "abstract"
+      ],
+      "evidenceGroup": "2",
+      "section": "abstract"
+    },
+    {
+      "id": "3",
+      "prompt": "Review rationale",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "review",
+        "rationale"
+      ],
+      "evidenceGroup": "3",
+      "section": "introduction"
+    },
+    {
+      "id": "4",
+      "prompt": "Review questions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "review",
+        "questions"
+      ],
+      "evidenceGroup": "4",
+      "section": "introduction"
+    },
+    {
+      "id": "5",
+      "prompt": "Eligibility",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "eligibility"
+      ],
+      "evidenceGroup": "5",
+      "section": "methods"
+    },
+    {
+      "id": "6",
+      "prompt": "Search sources",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "search",
+        "sources"
+      ],
+      "evidenceGroup": "6",
+      "section": "methods"
+    },
+    {
+      "id": "7",
+      "prompt": "Queries",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "queries"
+      ],
+      "evidenceGroup": "7",
+      "section": "methods"
+    },
+    {
+      "id": "8",
+      "prompt": "Screening process",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "screening",
+        "process"
+      ],
+      "evidenceGroup": "8",
+      "section": "methods"
+    },
+    {
+      "id": "9",
+      "prompt": "Extraction process",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "extraction",
+        "process"
+      ],
+      "evidenceGroup": "9",
+      "section": "methods"
+    },
+    {
+      "id": "10a",
+      "prompt": "Outcome definitions",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "outcome",
+        "definitions"
+      ],
+      "evidenceGroup": "10",
+      "section": "methods"
+    },
+    {
+      "id": "10b",
+      "prompt": "Other variables",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "other",
+        "variables"
+      ],
+      "evidenceGroup": "10",
+      "section": "methods"
+    },
+    {
+      "id": "11",
+      "prompt": "Bias assessment",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "bias",
+        "assessment"
+      ],
+      "evidenceGroup": "11",
+      "section": "methods"
+    },
+    {
+      "id": "12",
+      "prompt": "Effect measures",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "effect",
+        "measures"
+      ],
+      "evidenceGroup": "12",
+      "section": "methods"
+    },
+    {
+      "id": "13a",
+      "prompt": "Synthesis eligibility",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "synthesis",
+        "eligibility"
+      ],
+      "evidenceGroup": "13",
+      "section": "methods"
+    },
+    {
+      "id": "13b",
+      "prompt": "Preparation",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "preparation"
+      ],
+      "evidenceGroup": "13",
+      "section": "methods"
+    },
+    {
+      "id": "13c",
+      "prompt": "Displays",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "displays"
+      ],
+      "evidenceGroup": "13",
+      "section": "methods"
+    },
+    {
+      "id": "13d",
+      "prompt": "Synthesis methods",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "synthesis",
+        "methods"
+      ],
+      "evidenceGroup": "13",
+      "section": "methods"
+    },
+    {
+      "id": "13e",
+      "prompt": "Heterogeneity exploration",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "heterogeneity",
+        "exploration"
+      ],
+      "evidenceGroup": "13",
+      "section": "methods"
+    },
+    {
+      "id": "13f",
+      "prompt": "Sensitivity methods",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "sensitivity",
+        "methods"
+      ],
+      "evidenceGroup": "13",
+      "section": "methods"
+    },
+    {
+      "id": "14",
+      "prompt": "Reporting bias methods",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "reporting",
+        "bias",
+        "methods"
+      ],
+      "evidenceGroup": "14",
+      "section": "methods"
+    },
+    {
+      "id": "15",
+      "prompt": "Certainty methods",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "certainty",
+        "methods"
+      ],
+      "evidenceGroup": "15",
+      "section": "methods"
+    },
+    {
+      "id": "16a",
+      "prompt": "Selection flow",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "selection",
+        "flow"
+      ],
+      "evidenceGroup": "16",
+      "section": "results"
+    },
+    {
+      "id": "16b",
+      "prompt": "Excluded studies",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "excluded",
+        "studies"
+      ],
+      "evidenceGroup": "16",
+      "section": "results"
+    },
+    {
+      "id": "17",
+      "prompt": "Study profiles",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "study",
+        "profiles"
+      ],
+      "evidenceGroup": "17",
+      "section": "results"
+    },
+    {
+      "id": "18",
+      "prompt": "Bias findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "bias",
+        "findings"
+      ],
+      "evidenceGroup": "18",
+      "section": "results"
+    },
+    {
+      "id": "19",
+      "prompt": "Individual findings",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "individual",
+        "findings"
+      ],
+      "evidenceGroup": "19",
+      "section": "results"
+    },
+    {
+      "id": "20a",
+      "prompt": "Synthesis characteristics",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "synthesis",
+        "characteristics"
+      ],
+      "evidenceGroup": "20",
+      "section": "results"
+    },
+    {
+      "id": "20b",
+      "prompt": "Synthesis results",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "synthesis",
+        "results"
+      ],
+      "evidenceGroup": "20",
+      "section": "results"
+    },
+    {
+      "id": "20c",
+      "prompt": "Heterogeneity results",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "heterogeneity",
+        "results"
+      ],
+      "evidenceGroup": "20",
+      "section": "results"
+    },
+    {
+      "id": "20d",
+      "prompt": "Sensitivity results",
+      "clinical": false,
+      "allowedNA": true,
+      "requiredKeywords": [
+        "sensitivity",
+        "results"
+      ],
+      "evidenceGroup": "20",
+      "section": "results"
+    },
+    {
+      "id": "21",
+      "prompt": "Reporting bias results",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "reporting",
+        "bias",
+        "results"
+      ],
+      "evidenceGroup": "21",
+      "section": "results"
+    },
+    {
+      "id": "22",
+      "prompt": "Certainty results",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "certainty",
+        "results"
+      ],
+      "evidenceGroup": "22",
+      "section": "results"
+    },
+    {
+      "id": "23a",
+      "prompt": "Interpretation",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "interpretation"
+      ],
+      "evidenceGroup": "23",
+      "section": "discussion"
+    },
+    {
+      "id": "23b",
+      "prompt": "Evidence limits",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "evidence",
+        "limits"
+      ],
+      "evidenceGroup": "23",
+      "section": "discussion"
+    },
+    {
+      "id": "23c",
+      "prompt": "Process limits",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "process",
+        "limits"
+      ],
+      "evidenceGroup": "23",
+      "section": "discussion"
+    },
+    {
+      "id": "23d",
+      "prompt": "Implications",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "implications"
+      ],
+      "evidenceGroup": "23",
+      "section": "discussion"
+    },
+    {
+      "id": "24a",
+      "prompt": "Registration",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "registration"
+      ],
+      "evidenceGroup": "24",
+      "section": "other-information"
+    },
+    {
+      "id": "24b",
+      "prompt": "Protocol",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "protocol"
+      ],
+      "evidenceGroup": "24",
+      "section": "other-information"
+    },
+    {
+      "id": "24c",
+      "prompt": "Amendments",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "amendments"
+      ],
+      "evidenceGroup": "24",
+      "section": "other-information"
+    },
+    {
+      "id": "25",
+      "prompt": "Support",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "support"
+      ],
+      "evidenceGroup": "25",
+      "section": "other-information"
+    },
+    {
+      "id": "26",
+      "prompt": "Interests",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "interests"
+      ],
+      "evidenceGroup": "26",
+      "section": "other-information"
+    },
+    {
+      "id": "27",
+      "prompt": "Materials access",
+      "clinical": false,
+      "allowedNA": false,
+      "requiredKeywords": [
+        "materials",
+        "access"
+      ],
+      "evidenceGroup": "27",
+      "section": "other-information"
+    }
+  ],
+  "publishedDate": "2021-03-29",
+  "verifiedDate": "2026-10-13",
+  "officialItemCount": 27
+}

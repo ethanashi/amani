@@ -1,0 +1,169 @@
+{
+  "node": "24.19.0",
+  "base": "1c6e1dc5bc93890aa53864fc942f935896167646",
+  "packages": [
+    {
+      "package": "certifier",
+      "command": "pnpm test packages/omb-certify --maxWorkers=6",
+      "passed": 136,
+      "skipped": 1,
+      "durationSeconds": 6.67,
+      "logSha256": "d29fabf6c1b2cc0b8af5d11225abf97efd29909225e0930c24235bc101417e10"
+    },
+    {
+      "package": "gauntlet",
+      "command": "pnpm test packages/omb-gauntlet --maxWorkers=4",
+      "passed": 178,
+      "skipped": 0,
+      "durationSeconds": 2.44,
+      "logSha256": "d59a42996d136f41f1ce2eb4e6cef653d94020317f6d2fcf3ffc2fb44d066dc2"
+    }
+  ],
+  "rootValidationArtifact": "V2B-ROOT-VALIDATION.json",
+  "priorAttempts": [
+    {
+      "reason": "Pinned interpreter unavailable at initial launch; later repository setup made it available.",
+      "sha256": "e7094cc79681655547e67da797cfbff8476814b7585e20bd8515f7fe6e30143a",
+      "summary": [
+        " Test Files  3 failed | 165 passed | 4 skipped (172)",
+        "      Tests  4 failed | 2829 passed | 6 skipped (2839)",
+        "   Duration  77.34s (transform 1.44s, setup 0ms, collect 10.08s, tests 356.15s, environment 13ms, prepare 5.25s)"
+      ]
+    },
+    {
+      "reason": "Global BIO_LIVE_ARMC=0 and BIO_GRADING_ROOT conflicted with live-environment validation fixtures.",
+      "sha256": "4f0eb181a9029ff16d9768e9bacb7faa204f127a46626a8517c42b4b7752f23b",
+      "summary": [
+        " Test Files  3 failed | 165 passed | 4 skipped (172)",
+        "      Tests  4 failed | 2829 passed | 6 skipped (2839)",
+        "   Duration  68.06s (transform 2.04s, setup 0ms, collect 24.41s, tests 325.95s, environment 29ms, prepare 18.53s)"
+      ]
+    },
+    {
+      "reason": "Isolated HOME lacked real sealing fixtures and changed sandbox paths.",
+      "sha256": "00632332a4e935160e4333b635971067b01bdcd7002b87d382ac3e2135deee02",
+      "summary": [
+        " Test Files  6 failed | 162 passed | 4 skipped (172)",
+        "      Tests  8 failed | 2825 passed | 6 skipped (2839)",
+        "   Duration  80.77s (transform 2.73s, setup 0ms, collect 17.88s, tests 430.28s, environment 32ms, prepare 9.34s)"
+      ]
+    },
+    {
+      "reason": "One role-detector execution failed closed with supervisor exit 90; guard/assertion retained.",
+      "sha256": "832220b4bd0529cef38f0c268e57b77c6b98e48bbbbd99904eae384a5180f881",
+      "summary": [
+        " Test Files  1 failed | 167 passed | 4 skipped (172)",
+        "      Tests  1 failed | 2832 passed | 6 skipped (2839)",
+        "   Duration  72.38s (transform 2.09s, setup 0ms, collect 16.47s, tests 385.88s, environment 22ms, prepare 8.25s)"
+      ]
+    }
+  ],
+  "earlierRootSuccessAndReaperFailure": {
+    "isolation": "test-owned private BIO_GRADING_ROOT lease fixtures, no opt-in live arms",
+    "runs": [
+      {
+        "command": "pnpm typecheck",
+        "code": 0,
+        "elapsedSeconds": 9.293460541,
+        "sha256": "29c5ee0f6b0b20dbb259b99d01276198c3d28190090706394608d4deda6d2c0b",
+        "summary": []
+      },
+      {
+        "command": "pnpm test --maxWorkers=6",
+        "code": 0,
+        "elapsedSeconds": 94.354840875,
+        "sha256": "7176fb3997e1af9014633b529a57bf40e66dc5e47d8ffc6e3915c8a253232dc0",
+        "summary": [
+          " Test Files  168 passed | 4 skipped (172)",
+          "      Tests  2833 passed | 6 skipped (2839)",
+          "   Duration  93.12s (transform 2.94s, setup 0ms, collect 19.09s, tests 503.57s, environment 21ms, prepare 9.52s)"
+        ]
+      },
+      {
+        "command": "pnpm typecheck",
+        "code": 0,
+        "elapsedSeconds": 2.6478463750000083,
+        "sha256": "29c5ee0f6b0b20dbb259b99d01276198c3d28190090706394608d4deda6d2c0b",
+        "summary": []
+      },
+      {
+        "command": "pnpm test --maxWorkers=6",
+        "code": 1,
+        "elapsedSeconds": 72.86777891700001,
+        "sha256": "832220b4bd0529cef38f0c268e57b77c6b98e48bbbbd99904eae384a5180f881",
+        "summary": [
+          " Test Files  1 failed | 167 passed | 4 skipped (172)",
+          "      Tests  1 failed | 2832 passed | 6 skipped (2839)",
+          "   Duration  72.38s (transform 2.09s, setup 0ms, collect 16.47s, tests 385.88s, environment 22ms, prepare 8.25s)"
+        ]
+      }
+    ]
+  },
+  "sourceManifestSha256": "da39d9c304d823ca4fba8e627aa8ad150a3db5508f4dd4cdbe40869556a2793c",
+  "nullSimulation": {
+    "replicates": 2000,
+    "rejections": 67,
+    "rate": 0.0335,
+    "wilson95": [
+      0.02646527647,
+      0.04232332864
+    ],
+    "alpha": 0.05,
+    "draws": 199,
+    "maxDraws": 799,
+    "scope": "labels; FL/logistic remain model-based"
+  },
+  "guardMutations": {
+    "total": 12,
+    "assertionKilled": 12,
+    "artifact": "V2B-GUARD-MUTATIONS.json"
+  },
+  "contractGaps": [
+    "Repository suite exceeds 60 seconds.",
+    "Existing live/data opt-in skips are not passes."
+  ],
+  "temporaryHomeDiagnosticRemoved": true,
+  "finalRoot": {
+    "isolation": "test-owned private BIO_GRADING_ROOT lease fixtures, no opt-in live arms",
+    "runs": [
+      {
+        "command": "pnpm typecheck",
+        "code": 0,
+        "elapsedSeconds": 2.281623833,
+        "sha256": "29c5ee0f6b0b20dbb259b99d01276198c3d28190090706394608d4deda6d2c0b",
+        "summary": []
+      },
+      {
+        "command": "pnpm test --maxWorkers=4",
+        "code": 0,
+        "elapsedSeconds": 123.930537333,
+        "sha256": "2fa4db890ceae13d80da1715112e42902b8c76bf88b42eba2451c2827aacb4ba",
+        "summary": [
+          " Test Files  168 passed | 4 skipped (172)",
+          "      Tests  2833 passed | 6 skipped (2839)",
+          "   Duration  123.47s (transform 1.70s, setup 0ms, collect 16.95s, tests 445.32s, environment 37ms, prepare 8.80s)"
+        ]
+      },
+      {
+        "command": "pnpm typecheck",
+        "code": 0,
+        "elapsedSeconds": 2.5383020419999958,
+        "sha256": "29c5ee0f6b0b20dbb259b99d01276198c3d28190090706394608d4deda6d2c0b",
+        "summary": []
+      },
+      {
+        "command": "pnpm test --maxWorkers=4",
+        "code": 0,
+        "elapsedSeconds": 84.965226417,
+        "sha256": "1197d9ef4351017112e8be2f5c8aee07f859e4cc52e404366bfde1ae069d13cb",
+        "summary": [
+          " Test Files  168 passed | 4 skipped (172)",
+          "      Tests  2833 passed | 6 skipped (2839)",
+          "   Duration  84.52s (transform 1.61s, setup 0ms, collect 12.13s, tests 300.13s, environment 17ms, prepare 6.60s)"
+        ]
+      }
+    ]
+  },
+  "rootTwiceGreen": true,
+  "mergeMain": "Already up to date at 1c6e1dc5bc93890aa53864fc942f935896167646"
+}

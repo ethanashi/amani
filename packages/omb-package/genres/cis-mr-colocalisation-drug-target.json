@@ -1,0 +1,2901 @@
+{
+  "schema_version": "genre-profile/1",
+  "genre": "cis-mr-colocalisation-drug-target",
+  "genre_name": "Cis-Mendelian randomisation plus colocalisation of a protein or drug target",
+  "scope": "Drug-target / cis-MR papers that proxy perturbation of a protein or drug target with variants in or near its encoding gene (cis-pQTLs, cis-eQTLs, or gene-region variants associated with a downstream biomarker) and test the effect on disease outcomes, backed by Bayesian colocalisation (coloc, coloc-SuSiE, eCAVIAR, HyPrColoc), with optional positive controls, phenome-wide safety scans, directionality tests and replication. Covers single/multi-target papers and proteome-wide drug-target MR + coloc screens. Excludes genome-wide polygenic two-sample MR of lifestyle exposures, transcriptome-wide single-cell MR, GWAS discovery papers whose MR is secondary, MR methods papers and reviews.",
+  "built_on": "2026-10-13",
+  "word_count_convention": "jats_structure.py prose words; captions/tables/citations/headings excluded; main = I+M+R+D(+L,C); statement subsections inside Methods (data availability, ethics, role of funders, reporting-summary boilerplate) removed",
+  "exemplars": [
+    {
+      "id": "E1",
+      "citation": "Yarmolinsky J, Díez-Obrero V, Richardson TG, et al. Genetically proxied therapeutic inhibition of antihypertensive drug targets and risk of common cancers: a mendelian randomization analysis. PLoS Med. 2022;19(2):e1003897.",
+      "doi": "10.1371/journal.pmed.1003897",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8812899/",
+      "pmcid": "PMC8812899",
+      "licence": "CC0 1.0 (public domain dedication)",
+      "journal": "PLOS Medicine",
+      "year": 2022,
+      "article_type": "Research Article",
+      "disease_area": "oncology (breast, colorectal, lung, prostate); antihypertensive drug targets ACE, ADRB1, SLC12A3",
+      "subgenre": "single/multi-target cis-MR (biomarker-weighted + cis-eQTL/pQTL), coloc",
+      "guideline_cited": [
+        "STROBE-MR (Skrivankova 2021) with checklist S1"
+      ],
+      "measurement_file": "_measurements/cis-mr-colocalisation-drug-target/E1.json",
+      "measurement_method": "jats_structure.py (fixed 12:27 build) on Europe PMC fullTextXML; corrections listed in measured.corrections",
+      "measured": {
+        "main_text_words": 6045,
+        "main_text_words_excluding_methods": 3960,
+        "section_words": {
+          "introduction": 564,
+          "methods": 2085,
+          "results": 1494,
+          "discussion": 1832,
+          "conclusions": 70
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods and findings",
+          "Conclusions"
+        ],
+        "abstract_words": 437,
+        "extra_summaries": [
+          "Author summary (249 words; 3 question headings)"
+        ],
+        "figures_main": 8,
+        "tables_main": 4,
+        "display_item_kinds": [
+          "regional_association_plot",
+          "regional_association_plot",
+          "regional_association_plot",
+          "regional_association_plot",
+          "regional_association_plot",
+          "regional_association_plot",
+          "regional_association_plot",
+          "regional_association_plot",
+          "instrument_table",
+          "results_table",
+          "results_table",
+          "results_table"
+        ],
+        "references": 86,
+        "supplement_files": 22,
+        "supplement_types": [
+          "STROBE-MR checklist",
+          "instrument characteristics and sensitivity instruments",
+          "effect-allele frequency comparison across ancestries",
+          "instrument strength (r2, F)",
+          "coloc posterior-probability tables per locus",
+          "MR on known risk factors (pleiotropy probe)",
+          "leave-one-out table",
+          "eQTL look-up of instruments",
+          "positive-control outcomes (CAD, stroke)",
+          "transcriptome-wide and gene-set enrichment tables",
+          "supplementary methods (coloc, eQTL sensitivity, expression data)",
+          "consortium acknowledgements"
+        ],
+        "limitations_placement": "unheaded paragraph near end of Discussion, after a strengths paragraph; ordinal list (First ... Eighth)",
+        "limitations_words": 524,
+        "statements": [
+          "STROBE-MR checklist",
+          "data availability",
+          "funding",
+          "competing interests",
+          "ethics (original studies' IRB approval, in Methods)",
+          "author contributions (metadata)"
+        ],
+        "corrections": "supplement_files 48 -> 22: Europe PMC XML lists each file twice and 2 entries are peer-review attachments. Acknowledgements (6157 words of consortium member lists) is back matter and excluded. XML includes the peer-review history sub-article; feature greps were run with it removed."
+      }
+    },
+    {
+      "id": "E2",
+      "citation": "Gill D, Zagkos L, Gill R, et al. The citrate transporter SLC13A5 as a therapeutic target for kidney disease: evidence from Mendelian randomization to inform drug development. BMC Med. 2023;21(1):504.",
+      "doi": "10.1186/s12916-023-03227-5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10729503/",
+      "pmcid": "PMC10729503",
+      "licence": "CC BY 4.0",
+      "journal": "BMC Medicine",
+      "year": 2023,
+      "article_type": "Research Article",
+      "disease_area": "renal (chronic kidney disease, kidney function); SLC13A5 citrate transporter",
+      "subgenre": "single-target cis-MR (biomarker-weighted: plasma citrate) + coloc + PheWAS",
+      "guideline_cited": [
+        "STROBE-MR (Skrivankova 2021) with checklist (Additional file 1)",
+        "coloc (Giambartolomei 2014)",
+        "drug-target MR guidance (Gill 2021)"
+      ],
+      "measurement_file": "_measurements/cis-mr-colocalisation-drug-target/E2.json",
+      "measurement_method": "jats_structure.py (fixed 12:27 build) on Europe PMC fullTextXML; corrections listed in measured.corrections",
+      "measured": {
+        "main_text_words": 3660,
+        "main_text_words_excluding_methods": 2349,
+        "section_words": {
+          "introduction": 379,
+          "methods": 1311,
+          "results": 687,
+          "discussion": 1194,
+          "conclusions": 89
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods",
+          "Results",
+          "Conclusions"
+        ],
+        "abstract_words": 350,
+        "extra_summaries": [],
+        "figures_main": 3,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "forest_plot",
+          "forest_plot",
+          "dataset_table"
+        ],
+        "references": 70,
+        "supplement_files": 3,
+        "supplement_types": [
+          "STROBE-MR checklist",
+          "instrument SNP list with F-statistics",
+          "PhenoScanner annotation of instruments",
+          "pruning-threshold sensitivity",
+          "coloc results table",
+          "metabolome/proteome-wide MR results",
+          "per-outcome MR scatter plots"
+        ],
+        "limitations_placement": "unheaded paragraph at end of Discussion, after a strengths paragraph",
+        "limitations_words": 439,
+        "statements": [
+          "STROBE-MR checklist",
+          "data availability (Availability of data and materials + Methods subsection)",
+          "code on request",
+          "ethics approval and consent (Declarations)",
+          "funding",
+          "competing interests",
+          "authors' contributions",
+          "consent for publication"
+        ],
+        "corrections": "Methods 1388 -> 1311 and main 3737 -> 3660: the 77-word 'Availability of code and data' subsection inside Methods is a statement, not Methods prose. Abstract 359 -> 350: BMC's 9-word 'Supplementary Information' boilerplate is not abstract content."
+      }
+    },
+    {
+      "id": "E3",
+      "citation": "Dunca D, Chopade S, Gordillo-Marañón M, et al. Comparing the effects of CETP in East Asian and European ancestries: a Mendelian randomization study. Nat Commun. 2024;15(1):5302.",
+      "doi": "10.1038/s41467-024-49109-z",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11192935/",
+      "pmcid": "PMC11192935",
+      "licence": "CC BY 4.0",
+      "journal": "Nature Communications",
+      "year": 2024,
+      "article_type": "Article",
+      "disease_area": "cardiometabolic (coronary heart disease, lipids) plus non-cardiovascular outcomes; CETP",
+      "subgenre": "single-target cis-MR (biomarker-weighted HDL-C + CETP pQTL replication), cross-ancestry coloc",
+      "guideline_cited": [
+        "coloc (Giambartolomei 2014)",
+        "drug-target MR (Schmidt 2020)",
+        "Nature Reporting Summary; no STROBE-MR citation"
+      ],
+      "measurement_file": "_measurements/cis-mr-colocalisation-drug-target/E3.json",
+      "measurement_method": "jats_structure.py (fixed 12:27 build) on Europe PMC fullTextXML; corrections listed in measured.corrections",
+      "measured": {
+        "main_text_words": 5417,
+        "main_text_words_excluding_methods": 3234,
+        "section_words": {
+          "introduction": 528,
+          "results": 786,
+          "discussion": 1920,
+          "methods": 2183
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 155,
+        "extra_summaries": [
+          "web summary (36 words)"
+        ],
+        "figures_main": 5,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "regional_association_plot",
+          "heatmap",
+          "forest_plot",
+          "forest_plot",
+          "study_design_schematic"
+        ],
+        "references": 59,
+        "supplement_files": 18,
+        "supplement_types": [
+          "Supplementary Information PDF (regional plots, protein-weighted MR figures)",
+          "Reporting Summary",
+          "MR estimates per ancestry",
+          "ancestry interaction tests",
+          "protein-weighted MR",
+          "participant characteristics",
+          "comparison with a previous study",
+          "outcome GWAS list and case definitions",
+          "instrument lists per ancestry with F-statistics",
+          "LD correlation matrices",
+          "sample-overlap counts",
+          "Peer Review File",
+          "Source Data"
+        ],
+        "limitations_placement": "unheaded paragraphs near end of Discussion, ordinal list",
+        "limitations_words": 590,
+        "statements": [
+          "data availability",
+          "code availability (software and versions)",
+          "competing interests",
+          "author contributions",
+          "acknowledgements with funding",
+          "peer review information"
+        ],
+        "corrections": "Methods 2200 -> 2183 and main 5434 -> 5417: the 17-word Nature 'Reporting summary' boilerplate is not Methods prose. supplement_files 36 -> 18 (each listed twice). No ethics statement found in the XML."
+      }
+    },
+    {
+      "id": "E4",
+      "citation": "Yuan S, Xu F, Li X, et al. Plasma proteins and onset of type 2 diabetes and diabetic complications: proteome-wide Mendelian randomization and colocalization analyses. Cell Rep Med. 2023;4(9):101174.",
+      "doi": "10.1016/j.xcrm.2023.101174",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10518626/",
+      "pmcid": "PMC10518626",
+      "licence": "CC BY-NC-ND 4.0",
+      "journal": "Cell Reports Medicine",
+      "year": 2023,
+      "article_type": "Article",
+      "disease_area": "type 2 diabetes and diabetic complications",
+      "subgenre": "proteome-wide cis-pQTL MR (deCODE + Fenland), coloc and coloc-SuSiE, reverse MR",
+      "guideline_cited": [
+        "coloc / coloc-SuSiE (Wallace)",
+        "no STROBE-MR citation"
+      ],
+      "measurement_file": "_measurements/cis-mr-colocalisation-drug-target/E4.json",
+      "measurement_method": "jats_structure.py (fixed 12:27 build) on Europe PMC fullTextXML; corrections listed in measured.corrections",
+      "measured": {
+        "main_text_words": 4842,
+        "main_text_words_excluding_methods": 3455,
+        "section_words": {
+          "introduction": 647,
+          "results": 889,
+          "discussion": 1919,
+          "methods": 1387
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 166,
+        "extra_summaries": [
+          "Highlights (43 words, 4 bullets)",
+          "eTOC blurb (43 words)",
+          "graphical abstract"
+        ],
+        "figures_main": 3,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "forest_plot",
+          "heatmap",
+          "dataset_table"
+        ],
+        "references": 50,
+        "supplement_files": 12,
+        "supplement_types": [
+          "supplementary figures (power, networks, BMI source comparison, co-expression)",
+          "MR results per pQTL source and meta-analysis",
+          "coloc results (PH4) tables",
+          "function prediction",
+          "reverse MR",
+          "network MR and mediation",
+          "MR on complications",
+          "article plus supplemental information PDF"
+        ],
+        "limitations_placement": "strengths-and-limitations paragraph in Discussion plus Cell Press-mandated 'Limitations of the study' subsection",
+        "limitations_words": 575,
+        "statements": [
+          "data and code availability (STAR resource availability)",
+          "ethics (national ethical review authority approval)",
+          "acknowledgements with funding",
+          "author contributions",
+          "declaration of interests",
+          "key resources table"
+        ],
+        "corrections": "STAR Methods (1410 words, heading with a star glyph) was classed as back matter; added as Methods (1387 words after removing 23 words of Resource availability), so main 3455 -> 4842. figures_main 4 -> 3 and tables_main 2 -> 1: one unlabelled fig is the graphical abstract and one unlabelled table is the STAR key resources table. supplement_files 24 -> 12 (each listed twice). Limitations words = about 450 in the Discussion paragraph + 126 in the subsection."
+      }
+    },
+    {
+      "id": "E5",
+      "citation": "Zheng J, Xu M, Yang Q, et al. Efficacy of metformin targets on cardiometabolic health in the general population and non-diabetic individuals: a Mendelian randomization study. EBioMedicine. 2023;96:104803.",
+      "doi": "10.1016/j.ebiom.2023.104803",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10514430/",
+      "pmcid": "PMC10514430",
+      "licence": "CC BY 4.0",
+      "journal": "eBioMedicine (Lancet family)",
+      "year": 2023,
+      "article_type": "Articles",
+      "disease_area": "cardiometabolic (coronary artery disease, BMI, blood pressure); metformin targets",
+      "subgenre": "multi-target drug-target MR (cis-eQTL/pQTL weighted by HbA1c), coloc used as instrument filter, triangulation with trials",
+      "guideline_cited": [
+        "STROBE-MR (Skrivankova 2021), statement in Methods",
+        "coloc (Giambartolomei 2014)"
+      ],
+      "measurement_file": "_measurements/cis-mr-colocalisation-drug-target/E5.json",
+      "measurement_method": "jats_structure.py (fixed 12:27 build) on Europe PMC fullTextXML; corrections listed in measured.corrections",
+      "measured": {
+        "main_text_words": 4599,
+        "main_text_words_excluding_methods": 3076,
+        "section_words": {
+          "introduction": 474,
+          "methods": 1523,
+          "results": 1093,
+          "discussion": 1509
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods",
+          "Findings",
+          "Interpretation",
+          "Funding"
+        ],
+        "abstract_words": 261,
+        "extra_summaries": [
+          "Research in context panel (boxed, 269 words; 3 headings)"
+        ],
+        "figures_main": 3,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "forest_plot",
+          "forest_plot",
+          "results_table",
+          "key_points_box"
+        ],
+        "references": 57,
+        "supplement_files": 2,
+        "supplement_types": [
+          "data sources",
+          "instruments and genetic scores incl. PhenoScanner look-up",
+          "outcome GWAS",
+          "MR results and sensitivity analyses (weighted median, mode, multivariable MR)",
+          "triangulation with trial/observational estimates",
+          "supplementary figures incl. DAG of MR assumptions",
+          "supplementary notes"
+        ],
+        "limitations_placement": "Discussion subsection 'Caveats and limitations', after a strengths paragraph; ordinal list",
+        "limitations_words": 610,
+        "statements": [
+          "STROBE-MR statement",
+          "ethics (Methods subsection)",
+          "role of funders (Methods subsection)",
+          "contributors",
+          "data sharing statement",
+          "declaration of interests",
+          "acknowledgements with funding",
+          "funding line in abstract"
+        ],
+        "corrections": "Methods 1599 -> 1523 and main 4675 -> 4599: Ethics (52) and Role of funders (24) are statements inside Methods. Discussion 1509 includes the 'Caveats and limitations' subsection and a 58-word Conclusions subsection. Limitations words 610 exclude a 68-word clinical-perspective paragraph inside the same subsection."
+      }
+    },
+    {
+      "id": "E6",
+      "citation": "Bhattacharyya U, John J, Lam M, et al. Circulating blood-based proteins in psychopathology and cognition: a Mendelian randomization study. JAMA Psychiatry. 2025;82(5):481-491.",
+      "doi": "10.1001/jamapsychiatry.2025.0033",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11904806/",
+      "pmcid": "PMC11904806",
+      "licence": "CC BY 4.0 (Europe PMC author manuscript)",
+      "journal": "JAMA Psychiatry",
+      "year": 2025,
+      "article_type": "Original Investigation",
+      "disease_area": "psychiatric (schizophrenia, bipolar disorder, major depression) and cognition",
+      "subgenre": "proteome-wide cis- and trans-pQTL MR (UKB-PPP + deCODE), coloc, SMR, Steiger, drug-target enrichment",
+      "guideline_cited": [
+        "Burgess MR guidelines (Wellcome Open Res)",
+        "no STROBE-MR citation in the author manuscript"
+      ],
+      "measurement_file": "_measurements/cis-mr-colocalisation-drug-target/E6.json",
+      "measurement_method": "jats_structure.py (fixed 12:27 build) on Europe PMC fullTextXML; corrections listed in measured.corrections; author manuscript (Europe PMC EMS), not the typeset JAMA version",
+      "measured": {
+        "main_text_words": 3370,
+        "main_text_words_excluding_methods": 3015,
+        "section_words": {
+          "introduction": 268,
+          "methods": 355,
+          "results": 1540,
+          "discussion": 881,
+          "limitations": 228,
+          "conclusions": 98
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "limitations",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Importance",
+          "Objective",
+          "Design, Setting, and Participants",
+          "Main Outcome(s) and Measure(s)",
+          "Results",
+          "Conclusions and Relevance"
+        ],
+        "abstract_words": 299,
+        "extra_summaries": [
+          "Key Points (boxed, 90 words: Question / Findings / Meaning)"
+        ],
+        "figures_main": 4,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "volcano_plot",
+          "volcano_plot",
+          "heatmap",
+          "results_table",
+          "key_points_box"
+        ],
+        "references": 57,
+        "supplement_files": 1,
+        "supplement_types": [
+          "eMethods (instrument selection, MR, coloc, SMR detail)",
+          "eTables: per-protein MR results (cis and trans), PheWAS of instruments, SMR/coloc results, pathway and PPI enrichment, drug-target enrichment",
+          "eFigures 1-6"
+        ],
+        "limitations_placement": "top-level 'Limitations' heading in the author manuscript (JAMA typesets it as the closing part of Discussion)",
+        "limitations_words": 228,
+        "statements": [
+          "competing interests",
+          "acknowledgements with funding",
+          "ethics (original IRB approvals, in Methods)",
+          "Key Points"
+        ],
+        "corrections": "Methods is only 355 words because JAMA moves detail to eMethods; main text without eMethods is therefore short. Figures 2-3 are Manhattan-style protein plots and are mapped to volcano_plot (proteome-wide screen plot). Author manuscript lacks the data sharing statement and author contributions that the typeset JAMA version normally carries (not verified). Body mentions a joint disease once in Discussion; title/abstract/keywords are clean."
+      }
+    },
+    {
+      "id": "E7",
+      "citation": "Zhang K, Liu Y, Mao A, et al. Proteome-wide Mendelian randomization identifies therapeutic targets for abdominal aortic aneurysm. J Am Heart Assoc. 2025;14(3):e038193.",
+      "doi": "10.1161/jaha.124.038193",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12074732/",
+      "pmcid": "PMC12074732",
+      "licence": "CC BY-NC-ND 4.0",
+      "journal": "Journal of the American Heart Association",
+      "year": 2025,
+      "article_type": "Original Research",
+      "disease_area": "vascular (abdominal aortic aneurysm)",
+      "subgenre": "proteome-wide cis/trans-pQTL MR (UKB-PPP + deCODE), FinnGen replication, coloc, SMR/HEIDI, druggability",
+      "guideline_cited": [
+        "coloc (Giambartolomei 2014)",
+        "SMR/HEIDI (Zhu 2016)",
+        "Burgess MR guidelines",
+        "no STROBE-MR citation"
+      ],
+      "measurement_file": "_measurements/cis-mr-colocalisation-drug-target/E7.json",
+      "measurement_method": "jats_structure.py (fixed 12:27 build) on Europe PMC fullTextXML; corrections listed in measured.corrections",
+      "measured": {
+        "main_text_words": 3558,
+        "main_text_words_excluding_methods": 2412,
+        "section_words": {
+          "introduction": 386,
+          "methods": 1146,
+          "results": 1145,
+          "discussion": 881
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods and Results",
+          "Conclusions"
+        ],
+        "abstract_words": 285,
+        "extra_summaries": [
+          "Clinical Perspective (boxed, 75 words: What Is New? / What Are the Clinical Implications?)"
+        ],
+        "figures_main": 4,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "volcano_plot",
+          "forest_plot",
+          "validation_panel",
+          "coloc_table",
+          "key_points_box"
+        ],
+        "references": 53,
+        "supplement_files": 1,
+        "supplement_types": [
+          "pQTL sources",
+          "outcome GWAS (discovery and replication)",
+          "cis/trans instrument lists",
+          "MR results with heterogeneity and pleiotropy tests",
+          "replication results",
+          "enrichment and druggability tables",
+          "regional association plots for coloc (Figures S1-S8)",
+          "SMR locus and effect plots",
+          "PPI network"
+        ],
+        "limitations_placement": "unheaded paragraph at end of Discussion after a strengths paragraph; ordinal list",
+        "limitations_words": 263,
+        "statements": [
+          "data availability (Methods subsection)",
+          "sources of funding",
+          "disclosures",
+          "ethical approval and consent to participate",
+          "author contributions",
+          "analysis script link (GitHub)"
+        ],
+        "corrections": "Introduction has no heading (AHA style): untitled lead paragraphs counted as Introduction. Methods 1206 -> 1146 and main 3618 -> 3558: the 60-word Data Availability subsection inside Methods is a statement."
+      }
+    },
+    {
+      "id": "E8",
+      "citation": "Nakanishi T, Cerani A, Forgetta V, et al. Genetically increased circulating FUT3 level leads to reduced risk of idiopathic pulmonary fibrosis: a Mendelian randomisation study. Eur Respir J. 2022;59(2):2003979.",
+      "doi": "10.1183/13993003.03979-2020",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8828995/",
+      "pmcid": "PMC8828995",
+      "licence": "CC BY-NC 4.0",
+      "journal": "European Respiratory Journal",
+      "year": 2022,
+      "article_type": "Original Article",
+      "disease_area": "respiratory (idiopathic pulmonary fibrosis)",
+      "subgenre": "proteome scan by cis-pQTL MR (INTERVAL + AGES) narrowing to one target (FUT3), coloc, bidirectional MR, lung transcriptome follow-up",
+      "guideline_cited": [
+        "STROBE-MR 2019 preprint (cited for MR assumptions, not as reporting statement)",
+        "coloc (Giambartolomei 2014)",
+        "Steiger 2017"
+      ],
+      "measurement_file": "_measurements/cis-mr-colocalisation-drug-target/E8.json",
+      "measurement_method": "jats_structure.py (fixed 12:27 build) on Europe PMC fullTextXML; corrections listed in measured.corrections",
+      "measured": {
+        "main_text_words": 3712,
+        "main_text_words_excluding_methods": 3027,
+        "section_words": {
+          "introduction": 480,
+          "methods": 685,
+          "results": 1392,
+          "discussion": 1155
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods",
+          "Results",
+          "Conclusions"
+        ],
+        "abstract_words": 303,
+        "extra_summaries": [
+          "short abstract (36 words)"
+        ],
+        "figures_main": 4,
+        "tables_main": 4,
+        "display_item_kinds": [
+          "study_design_schematic",
+          "regional_association_plot",
+          "study_design_schematic",
+          "validation_panel",
+          "dataset_table",
+          "results_table",
+          "results_table",
+          "sensitivity_table"
+        ],
+        "references": 61,
+        "supplement_files": 2,
+        "supplement_types": [
+          "supplementary methods and figures PDF",
+          "supplementary tables (all proteins tested, PhenoScanner look-ups, sensitivity analyses)",
+          "one-page shareable PDF (journal)"
+        ],
+        "limitations_placement": "unheaded paragraphs near end of Discussion",
+        "limitations_words": 330,
+        "statements": [
+          "ethical approval (Methods subsection: not required, public data)",
+          "author contributions",
+          "conflict of interest per author",
+          "support statement (funding)"
+        ],
+        "corrections": "Methods 699 -> 685 and main 3726 -> 3712: 14-word Ethical approval subsection is a statement. supplement_files 4 -> 2 author files (each listed twice; the shareable PDF is journal-generated). No data availability or code statement in the XML. Figure 3 is a DAG of MR scenarios, mapped to study_design_schematic."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "title",
+      "heading": "Title",
+      "aliases": [],
+      "order": 1,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [
+        {
+          "id": "title_names_mr",
+          "description": "names Mendelian randomization as the design (STROBE-MR item 1)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "mendelian randomi[sz]ation",
+            "\\bMR\\b"
+          ],
+          "basis": "both"
+        },
+        {
+          "id": "title_names_target",
+          "description": "names the target, protein, drug class or 'proteome-wide' and the outcome",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "inhibition|targets?|proteins?|proteome|transporter|genetically (proxied|predicted|increased|mimicked)",
+            "effects? of"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "title_design_subtitle",
+          "description": "colon subtitle naming the design (': a Mendelian randomization study/analysis', ': proteome-wide MR and colocalization analyses')",
+          "level": "required",
+          "frequency": "7/8 (all but E7, which puts MR in the main clause); 5/8 use the exact ': a Mendelian randomi[sz]ation study/analysis' form",
+          "detect": [
+            ":\\s*.{0,80}(mendelian randomi[sz]ation|proteome-wide)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Titles are declarative about a target-outcome pair in 4/8 (e.g. 'X as a therapeutic target for Y'); Amani's software title template applies.",
+      "basis": "frequency"
+    },
+    {
+      "id": "abstract",
+      "heading": "Abstract",
+      "aliases": [
+        "Summary"
+      ],
+      "order": 2,
+      "level": "required",
+      "words": {
+        "min": 150,
+        "typical": 300,
+        "max": 450
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "Structured 6/8; unstructured 2/8 (Nature Communications, Cell Reports Medicine). See abstract block.",
+      "basis": "frequency"
+    },
+    {
+      "id": "key_points",
+      "heading": "Key Points / Research in context / Clinical Perspective",
+      "aliases": [
+        "Key Points",
+        "Research in context",
+        "Clinical Perspective",
+        "Author summary",
+        "Highlights"
+      ],
+      "order": 3,
+      "level": "optional",
+      "words": {
+        "min": 100,
+        "typical": 100,
+        "max": 250
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "Venue-set summary layer. Boxed in 3/8 (E5 Research in context 269 words; E6 Key Points 90; E7 Clinical Perspective 75; exact values, range rounded to 50). Unboxed layers: PLOS Author summary (E1, 249), Cell Press Highlights + eTOC (E4, 43 + 43), ERJ short abstract (E8, 36), Nature web summary (E3, 36). Some extra layer in 7/8; which one is decided by the venue profile, not the genre.",
+      "basis": "frequency",
+      "venue_governed": true
+    },
+    {
+      "id": "introduction",
+      "heading": "Introduction",
+      "aliases": [
+        "Background"
+      ],
+      "order": 4,
+      "level": "required",
+      "words": {
+        "min": 250,
+        "typical": 500,
+        "max": 650
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "intro_drug_or_target_context",
+          "description": "states the drug/target, its approved or trial status, and the clinical question (efficacy, repurposing or safety)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "inhibitor|agonist|antagonist|drug|therapeutic|target"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "intro_mr_rationale",
+          "description": "explains why genetic proxies of the target (drug-target / cis-MR) answer the question",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "mendelian randomi[sz]ation",
+            "genetic (variants|proxies|instruments)",
+            "drug[- ]target"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "intro_aim_paragraph",
+          "description": "closing aim paragraph naming exposure, outcomes and methods (MR + colocalisation)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "(we|this study) (aimed|sought|conducted|performed|used|investigated|evaluated)",
+            "the aim of this study",
+            "here,? we",
+            "(goal|aim|objective|purpose)s? of (this|the present|our) (study|analysis|work)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "No subsections. AHA (E7) prints the Introduction without a heading. JAMA (E6) is shortest (268).",
+      "basis": "frequency"
+    },
+    {
+      "id": "methods",
+      "heading": "Methods",
+      "aliases": [
+        "Materials and methods",
+        "STAR Methods",
+        "Methods and materials"
+      ],
+      "order": 5,
+      "level": "required",
+      "words": {
+        "min": 350,
+        "typical": 1350,
+        "max": 2200
+      },
+      "subsections": [
+        {
+          "heading": "Study design",
+          "aliases": [
+            "Study design overview",
+            "Overview",
+            "Study design and data sources"
+          ],
+          "aliases_regex": [
+            "study design",
+            "^overview"
+          ],
+          "level": "typical",
+          "frequency": "4/8 (E2, E5, E6, E8)",
+          "words": {
+            "min": 50,
+            "typical": 100,
+            "max": 600
+          },
+          "notes": "usually points to the Figure 1 schematic",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Data sources",
+          "aliases": [
+            "Study populations",
+            "Data sources for plasma proteins",
+            "Proteomic data source",
+            "Study outcomes",
+            "Data sources for <outcome>"
+          ],
+          "aliases_regex": [
+            "data sources?",
+            "study populations?",
+            "study outcomes",
+            "(proteomic|pqtl|gwas) data"
+          ],
+          "level": "typical",
+          "frequency": "6/8 as heading (E1, E3, E4, E5, E7, E8); content 8/8",
+          "words": {
+            "min": 100,
+            "typical": 300,
+            "max": 700
+          },
+          "notes": "exposure (pQTL/eQTL/biomarker GWAS) and outcome GWAS with consortium, N cases/controls, ancestry; STROBE-MR item 4 Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Selection of genetic instruments",
+          "aliases": [
+            "Instrument construction",
+            "Instrument strength",
+            "Processing of genetic instruments"
+          ],
+          "aliases_regex": [
+            "instrument (construction|selection|strength)",
+            "selection of (genetic )?instruments",
+            "genetic instruments"
+          ],
+          "level": "typical",
+          "frequency": "4/8 as heading (E1, E2, E5, E7); content 8/8",
+          "words": {
+            "min": 50,
+            "typical": 300,
+            "max": 750
+          },
+          "notes": "cis window, p threshold, clumping r2 and LD panel, F-statistic, palindromic handling; STROBE-MR items 6 and 10 Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Mendelian randomization analysis",
+          "aliases": [
+            "Statistical analysis",
+            "MR analysis",
+            "Mendelian randomisation"
+          ],
+          "aliases_regex": [
+            "mendelian randomi[sz]ation (analys[ie]s)?",
+            "\\bMR analys",
+            "statistical analys"
+          ],
+          "level": "required",
+          "frequency": "7/8 as heading; content 8/8",
+          "words": {
+            "min": 100,
+            "typical": 300,
+            "max": 650
+          },
+          "notes": "primary estimator (IVW, Wald ratio, IVW accounting for LD) and scaling of the estimate",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Colocalisation analysis",
+          "aliases": [
+            "Colocalization analysis",
+            "Cross-ancestry colocalization",
+            "Bayesian colocalisation"
+          ],
+          "aliases_regex": [
+            "coloc(alis|aliz)ation"
+          ],
+          "level": "typical",
+          "frequency": "5/8 as heading (E2, E3, E4, E7, E8); content 8/8",
+          "words": {
+            "min": 50,
+            "typical": 150,
+            "max": 300
+          },
+          "notes": "window (+/-200 kb to 1 Mb), priors p1/p2/p12, PP.H4 threshold; E5 uses coloc only to filter instruments, E3 for cross-ancestry instrument signal Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Sensitivity analyses",
+          "aliases": [
+            "Validation of Mendelian randomization assumptions",
+            "MR primary and sensitivity analyses"
+          ],
+          "aliases_regex": [
+            "sensitivity analys",
+            "validation of .*assumptions",
+            "pleiotropy"
+          ],
+          "level": "typical",
+          "frequency": "3/8 as heading (E1, E5, E8); content 8/8",
+          "words": {
+            "min": 150,
+            "typical": 350,
+            "max": 650
+          },
+          "notes": "STROBE-MR items 7-8",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Multiple testing",
+          "aliases": [
+            "Statistical significance ascertainment"
+          ],
+          "aliases_regex": [
+            "multiple (testing|comparisons)",
+            "significance (ascertainment|threshold)"
+          ],
+          "level": "optional",
+          "frequency": "2/8 as heading (E2, E3); content 8/8",
+          "words": {
+            "min": 50,
+            "typical": 75,
+            "max": 100
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Downstream biology and druggability",
+          "aliases": [
+            "Function and network prediction",
+            "Single-cell-type expression analysis",
+            "Transcriptomic data in lung tissue",
+            "Protein-protein interaction, pathway enrichment and druggability",
+            "Colon transcriptome-wide GRS analysis"
+          ],
+          "aliases_regex": [
+            "druggab",
+            "enrichment",
+            "protein[- ]protein interaction",
+            "transcriptom",
+            "single[- ]cell",
+            "function(al)? (and network )?predict"
+          ],
+          "level": "typical",
+          "frequency": "4/8 (E1, E4, E7, E8)",
+          "words": {
+            "min": 50,
+            "typical": 100,
+            "max": 400
+          },
+          "notes": "proteome-wide papers add enrichment, PPI and drug-database look-ups",
+          "basis": "frequency"
+        },
+        {
+          "heading": "SMR and HEIDI",
+          "aliases": [
+            "SMR analysis"
+          ],
+          "aliases_regex": [
+            "\\bSMR\\b",
+            "HEIDI"
+          ],
+          "level": "optional",
+          "frequency": "2/8 (E7 heading; E6 content)",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Phenome-wide association study",
+          "aliases": [
+            "PheWAS"
+          ],
+          "aliases_regex": [
+            "phenome[- ]wide",
+            "PheWAS"
+          ],
+          "level": "optional",
+          "frequency": "1/8 as heading (E2); PheWAS/PhenoScanner look-up content 4/8",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "iv_assumptions",
+          "description": "states the three IV assumptions (relevance, independence, exclusion restriction) and how each is probed (STROBE-MR item 5)",
+          "level": "required",
+          "frequency": "5/8 explicit (E1, E3, E5, E8 in Methods; E4 in Introduction)",
+          "detect": [
+            "(three|3) (core |key |major |main )?(instrumental variable |IV )?assumptions",
+            "exclusion restriction",
+            "relevance assumption"
+          ],
+          "basis": "guideline"
+        },
+        {
+          "id": "exposure_qtl_source",
+          "description": "names the exposure source: cis-pQTL/eQTL dataset or biomarker GWAS (e.g. deCODE, UKB-PPP, Fenland, INTERVAL, eQTLGen, GTEx, GLGC), with N and ancestry",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "deCODE|UKB-PPP|UK Biobank Pharma|Fenland|INTERVAL|ARIC|eQTLGen|GTEx|GLGC|SomaScan|Olink|pQTL|eQTL"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "cis_window",
+          "description": "cis region definition around the encoding gene (+/-50 kb to 1 Mb)",
+          "level": "required",
+          "frequency": "7/8 match in Methods; explicit kb/Mb window 6/8 (E1 100 kb, E2 200 kb, E3 50 kb, E4 1 Mb, E5 500 kb, E7 1 Mb); E8 says cis-SNPs without a window",
+          "detect": [
+            "\\d+\\s?(kb|kB|Mb)",
+            "cis[- ](acting|region|window|SNPs?|pQTLs?|eQTLs?)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "clumping_ld",
+          "description": "LD clumping/pruning threshold (r2) and LD reference panel; or LD-aware IVW with a correlation matrix",
+          "level": "required",
+          "frequency": "7/8 (r2 thresholds from <0.001 to <0.3; E6 in eMethods)",
+          "detect": [
+            "r ?2\\s?[<≤]|r2 &lt;|r-squared",
+            "clump|prun",
+            "1000 Genomes|LD reference|reference panel|correlation matrix"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "f_statistic",
+          "description": "instrument strength reported as F-statistic (and r2); STROBE-MR item 10",
+          "level": "required",
+          "frequency": "6/8 (E1, E2, E3, E4, E5, E7)",
+          "detect": [
+            "F[- ]statistic",
+            "\\bF ?[>≥] ?10\\b"
+          ],
+          "basis": "guideline"
+        },
+        {
+          "id": "primary_estimator",
+          "description": "primary estimator named (IVW, Wald ratio, IVW with LD correlation, or MR-cML)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "inverse[- ]variance weighted|\\bIVW\\b",
+            "Wald ratio"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "sensitivity_estimators",
+          "description": "pleiotropy-robust sensitivity methods and heterogeneity (MR-Egger, weighted median/mode, MR-PRESSO, Cochran Q, multivariable MR)",
+          "level": "required",
+          "frequency": "6/8 in Methods; 7/8 anywhere (E6 reports Egger/weighted median/PRESSO in Results; E4 relies on Wald ratios)",
+          "detect": [
+            "Egger",
+            "weighted (median|mode)",
+            "PRESSO",
+            "Cochran|heterogeneity",
+            "multivariable"
+          ],
+          "basis": "both"
+        },
+        {
+          "id": "coloc_method",
+          "description": "Bayesian colocalisation method named (coloc, coloc-SuSiE, eCAVIAR, HyPrColoc) with citation",
+          "level": "required",
+          "frequency": "7/8 in Methods, 8/8 anywhere (E6 in Results/eMethods); 5/8 cite Giambartolomei 2014",
+          "detect": [
+            "coloc",
+            "Giambartolomei",
+            "SuSiE",
+            "eCAVIAR",
+            "HyPrColoc"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "coloc_priors",
+          "description": "coloc priors stated (p1, p2, p12; default p12 = 1e-5)",
+          "level": "optional",
+          "frequency": "3/8 in main text (E1, E4, E7; all p12 = 1e-5 where stated)",
+          "detect": [
+            "p ?12",
+            "p1\\b.*p2\\b",
+            "prior"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "coloc_threshold",
+          "description": "PP.H4 decision threshold (0.8 most common; 0.7 and 0.5 'medium' also seen)",
+          "level": "typical",
+          "frequency": "5/8 (E1, E3, E4, E5, E7)",
+          "detect": [
+            "posterior probabilit\\w*.{0,60}(0\\.[5-9]\\d*|[5-9]\\d ?%)",
+            "(PP\\.?\\s?H4|PPH4|PH4|PP4|H4)\\s*(>|≥|>=)\\s*0?\\.\\d",
+            "colocali[sz]ation probability\\s*(>|≥)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "multiple_testing",
+          "description": "multiple-testing rule (Bonferroni or FDR) with family size",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "Bonferroni",
+            "false discovery|FDR|Benjamini",
+            "multiple (testing|comparisons)",
+            "0\\.05\\s?/\\s?\\d+"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "replication_dataset",
+          "description": "replication in an independent exposure or outcome dataset (e.g. FinnGen, second pQTL platform, second ancestry)",
+          "level": "typical",
+          "frequency": "6/8 anywhere (E1, E3, E4, E6, E7, E8); 4/8 describe it in Methods",
+          "detect": [
+            "replicat",
+            "FinnGen",
+            "validation (cohort|dataset|stage)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "positive_control",
+          "description": "positive-control outcome or instrument validation against the known drug effect (e.g. LDL-C, SBP, HbA1c, CHD)",
+          "level": "typical",
+          "frequency": "4/8 anywhere (E1 in Methods; E2, E4, E6 in Results/Discussion); E3, E5 compare with trial estimates instead",
+          "detect": [
+            "positive control",
+            "instrument validation",
+            "as expected",
+            "clinical trials? (of|evidence)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "directionality",
+          "description": "direction check: Steiger filtering or reverse/bidirectional MR",
+          "level": "optional",
+          "frequency": "3/8 (E4 reverse MR, E6 Steiger, E8 bidirectional)",
+          "detect": [
+            "Steiger",
+            "reverse (MR|Mendelian)",
+            "bidirectional"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "phewas_lookup",
+          "description": "phenome-wide scan of the instruments or the target for pleiotropy / on-target adverse effects (PheWAS, PhenoScanner)",
+          "level": "typical",
+          "frequency": "4/8 anywhere (E2, E5, E8 in Methods; E6 in Results)",
+          "detect": [
+            "phenome[- ]wide|PheWAS|PhenoScanner"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "palindromic_handling",
+          "description": "harmonisation and palindromic SNP handling",
+          "level": "typical",
+          "frequency": "4/8 in Methods (E2, E3, E5, E7)",
+          "detect": [
+            "palindrom",
+            "harmoni[sz]"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "sample_overlap",
+          "description": "sample overlap between exposure and outcome GWAS assessed or discussed",
+          "level": "typical",
+          "frequency": "4/8 anywhere (E4, E7 in Methods; E3, E6 elsewhere)",
+          "detect": [
+            "sample overlap|overlapping (samples|participants)|participants overlap"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "drug_database",
+          "description": "drug-database look-up of hits (ChEMBL, DrugBank, DGIdb, Open Targets, TTD)",
+          "level": "typical",
+          "frequency": "4/8 anywhere (E5, E6, E7 in Methods; E4 in Discussion)",
+          "detect": [
+            "ChEMBL|DrugBank|DGIdb|Open Targets|Therapeutic Target Database|druggab"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "software_named",
+          "description": "software and packages named (TwoSampleMR, MendelianRandomization, coloc; R/Python); STROBE-MR item 9a",
+          "level": "required",
+          "frequency": "7/8 in Methods, 8/8 incl. code availability (E3); versions in 2/8",
+          "detect": [
+            "TwoSampleMR|MendelianRandomi[sz]ation|coloc (R )?package|\\bR (version|v)\\s?\\d|python"
+          ],
+          "basis": "both"
+        },
+        {
+          "id": "strobe_mr_statement",
+          "description": "states reporting per STROBE-MR",
+          "level": "required",
+          "frequency": "3/8 (E1, E2, E5); E8 cites the 2019 STROBE-MR preprint for assumptions only",
+          "detect": [
+            "STROBE[- ]MR",
+            "Strengthening the Reporting of (Observational Studies in Epidemiology using )?Mendelian Randomi[sz]ation"
+          ],
+          "basis": "guideline"
+        },
+        {
+          "id": "preregistration_statement",
+          "description": "states whether the protocol was pre-registered (STROBE-MR item 9b)",
+          "level": "required",
+          "frequency": "0/8",
+          "detect": [
+            "pre-?regist",
+            "not (pre-?)?registered",
+            "osf\\.io",
+            "analysis plan"
+          ],
+          "basis": "guideline"
+        }
+      ],
+      "notes": "Methods is last in Nature Communications and Cell Press (STAR Methods). JAMA moves most Methods to eMethods (E6: 355 words). Main-text Methods range 350-2200; typical about 1350.",
+      "basis": "frequency"
+    },
+    {
+      "id": "results",
+      "heading": "Results",
+      "aliases": [],
+      "order": 6,
+      "level": "required",
+      "words": {
+        "min": 700,
+        "typical": 1100,
+        "max": 1550
+      },
+      "subsections": [
+        {
+          "heading": "Instrument selection and strength",
+          "aliases": [
+            "Instrument validation",
+            "Strength of the genetic predictors",
+            "Cohort characteristics"
+          ],
+          "aliases_regex": [
+            "instrument (validation|strength|selection)",
+            "strength of the genetic",
+            "cohort characteristics"
+          ],
+          "level": "optional",
+          "frequency": "3/8 as heading (E1, E5, E8); F-statistics reported in Results 5/8",
+          "words": {
+            "min": 50,
+            "typical": 150,
+            "max": 250
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Primary MR results",
+          "aliases": [
+            "Genetically proxied <target> inhibition and <outcome>",
+            "Proteome-wide MR analysis",
+            "Cis association",
+            "Associations between plasma proteins and <outcome>"
+          ],
+          "aliases_regex": [
+            "genetically proxied",
+            "mendelian randomi[sz]ation",
+            "proteome[- ]wide",
+            "cis[- ]association",
+            "associations? (between|of)",
+            "on-target effects"
+          ],
+          "level": "required",
+          "frequency": "8/8",
+          "words": {
+            "min": 150,
+            "typical": 450,
+            "max": 900
+          },
+          "notes": "one subsection per target or per outcome group in single-target papers; per instrument class (cis, trans) in proteome-wide papers",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Colocalisation",
+          "aliases": [
+            "Colocalization analysis supported ...",
+            "Lack of cross-ancestry colocalization"
+          ],
+          "aliases_regex": [
+            "coloc(alis|aliz)ation"
+          ],
+          "level": "typical",
+          "frequency": "3/8 as heading (E3, E7, E8); content 8/8",
+          "words": {
+            "min": 50,
+            "typical": 100,
+            "max": 150
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Sensitivity analyses",
+          "aliases": [
+            "Other shared genetic associations",
+            "SMR and HEIDI tests"
+          ],
+          "aliases_regex": [
+            "sensitivity",
+            "pleiotrop",
+            "SMR|HEIDI"
+          ],
+          "level": "optional",
+          "frequency": "2/8 as heading (E7, E8); content 8/8",
+          "words": {
+            "min": 150,
+            "typical": 500,
+            "max": 800
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Replication",
+          "aliases": [
+            "Replication analysis in Europeans and exploratory analysis in East Asians"
+          ],
+          "aliases_regex": [
+            "replicat"
+          ],
+          "level": "optional",
+          "frequency": "1/8 as heading (E1); content 6/8",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Downstream biology and drug targets",
+          "aliases": [
+            "Function and network prediction",
+            "Pathway enrichment",
+            "Drug Target Enrichment",
+            "Cell-type specificity expression",
+            "Transcriptomic data of lung tissue",
+            "Colon gene expression analysis"
+          ],
+          "aliases_regex": [
+            "enrichment",
+            "drug target",
+            "pathway",
+            "expression",
+            "network"
+          ],
+          "level": "typical",
+          "frequency": "5/8 (E1, E4, E6, E7, E8)",
+          "words": {
+            "min": 100,
+            "typical": 250,
+            "max": 550
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Reverse direction",
+          "aliases": [
+            "Reverse MR analysis"
+          ],
+          "aliases_regex": [
+            "reverse (MR|Mendelian)",
+            "bidirectional"
+          ],
+          "level": "optional",
+          "frequency": "1/8 as heading (E4); content 3/8",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "results_estimates_with_ci",
+          "description": "MR estimates as OR or beta per unit/SD of exposure (or per target-inhibition unit) with 95% CI and P",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "95% ?(CI|confidence interval)",
+            "\\bOR\\b|odds ratio|β|beta"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "results_coloc_pp",
+          "description": "coloc posterior probability (PP.H4, sometimes PP.H3) per MR-significant pair",
+          "level": "required",
+          "frequency": "7/8 report coloc in Results (5/8 with PP values in text; E5 uses coloc only as an instrument filter)",
+          "detect": [
+            "PP\\.?\\s?H4|PPH4|PH4|PP4|posterior probabilit",
+            "coloc(alis|aliz)"
+          ],
+          "basis": "both"
+        },
+        {
+          "id": "results_n_tested",
+          "description": "number of targets/proteins tested and number passing the threshold",
+          "level": "typical",
+          "frequency": "6/8 (proteome-scale E4, E6, E7, E8; multi-target E1, E5)",
+          "detect": [
+            "\\d[\\d,]* (plasma |circulating )?proteins",
+            "\\d+ (drug )?targets"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Nature-style papers use descriptive sentence headings for Results subsections (E3, E7). E2 has no Results subsections.",
+      "basis": "frequency"
+    },
+    {
+      "id": "discussion",
+      "heading": "Discussion",
+      "aliases": [
+        "Comment"
+      ],
+      "order": 7,
+      "level": "required",
+      "words": {
+        "min": 900,
+        "typical": 1350,
+        "max": 1900
+      },
+      "subsections": [
+        {
+          "heading": "Strengths (paragraph)",
+          "aliases": [],
+          "aliases_regex": [
+            "strengths?"
+          ],
+          "level": "typical",
+          "frequency": "5/8 (E1, E2, E4, E5, E7), always just before limitations",
+          "words": {
+            "min": 100,
+            "typical": 150,
+            "max": 250
+          },
+          "notes": "unheaded paragraph",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "disc_principal_findings",
+          "description": "opening paragraph restating the main target-outcome findings",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "(in this|this) (study|analysis|mendelian)",
+            "we (found|identified|observed|examined|compared|undertook|conducted)",
+            "(the present|our) (study|analysis)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "disc_trial_comparison",
+          "description": "comparison with clinical-trial or prior MR/observational evidence for the drug class",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "trials?",
+            "previous (studies|MR)",
+            "consistent with"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "disc_mechanism",
+          "description": "biological mechanism / plausibility paragraph",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "mechanis",
+            "pathway",
+            "biolog"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "disc_drug_development_implication",
+          "description": "implication for drug development, repurposing or safety monitoring, framed as needing trials",
+          "level": "typical",
+          "frequency": "7/8",
+          "detect": [
+            "drug (development|repurposing|target)",
+            "clinical trials? (are|is) (needed|warranted)",
+            "therapeutic"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Range includes in-Discussion limitations and E6's separate Limitations section (881 + 228). Ends with an 'In summary/In conclusion' paragraph when no Conclusions heading exists.",
+      "basis": "frequency"
+    },
+    {
+      "id": "limitations",
+      "heading": "Limitations",
+      "aliases": [
+        "Strengths and limitations",
+        "Caveats and limitations",
+        "Limitations of the study"
+      ],
+      "order": 8,
+      "level": "required",
+      "words": {
+        "min": 250,
+        "typical": 500,
+        "max": 600
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "lim_signal_sentence",
+          "description": "opening sentence that announces limitations",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "limitations?",
+            "caveats?"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "STROBE-MR item 15. Content present 8/8; as its own heading only 3/8 (E4 Cell Press-mandated subsection, E5 subsection, E6 top-level in author manuscript). See limitations block.",
+      "basis": "both"
+    },
+    {
+      "id": "conclusions",
+      "heading": "Conclusions",
+      "aliases": [
+        "Conclusion"
+      ],
+      "order": 9,
+      "level": "typical",
+      "words": {
+        "min": 50,
+        "typical": 80,
+        "max": 100
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "4/8 as heading (E1, E2, E6 top-level; E5 Discussion subsection). The rest close the Discussion with an 'In summary/In conclusion' paragraph (40-80 words).",
+      "basis": "frequency"
+    },
+    {
+      "id": "data_availability",
+      "heading": "Data availability",
+      "aliases": [
+        "Availability of data and materials",
+        "Data sharing statement",
+        "Data and code availability",
+        "Data Availability"
+      ],
+      "order": 10,
+      "level": "required",
+      "words": {
+        "min": 0,
+        "typical": 100,
+        "max": 350
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "gwas_sources_listed",
+          "description": "names each summary-statistic source with URL/accession (IEU OpenGWAS ID, GWAS Catalog GCST, FinnGen release, pQTL portal)",
+          "level": "required",
+          "frequency": "6/8",
+          "detect": [
+            "gwas\\.mrcieu\\.ac\\.uk|OpenGWAS",
+            "GCST\\d+|ebi\\.ac\\.uk/gwas",
+            "finngen",
+            "decode|ukb-ppp|synapse|pqtl"
+          ],
+          "basis": "guideline"
+        }
+      ],
+      "notes": "STROBE-MR item 19. Explicit statement 6/8; E6 (author manuscript) and E8 name sources only in Methods. Placement: back matter (E1, E2, E3, E4, E5) or Methods subsection (E2, E7).",
+      "basis": "both"
+    },
+    {
+      "id": "code_availability",
+      "heading": "Code availability",
+      "aliases": [
+        "Availability of code and data",
+        "Data and code availability"
+      ],
+      "order": 11,
+      "level": "required",
+      "words": {
+        "min": 0,
+        "typical": 25,
+        "max": 80
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "code_location",
+          "description": "repository link or explicit statement on code access",
+          "level": "required",
+          "frequency": "4/8 (E2 on request, E3 software list, E4 STAR statement, E7 GitHub script)",
+          "detect": [
+            "github\\.com|zenodo|code availability|code (is|are|used).{0,60}available|upon (reasonable )?request"
+          ],
+          "basis": "guideline"
+        }
+      ],
+      "notes": "Mandated by STROBE-MR item 19 but present in only 4/8; Amani should exceed the genre (public repository + Zenodo DOI).",
+      "basis": "both"
+    },
+    {
+      "id": "ethics",
+      "heading": "Ethics",
+      "aliases": [
+        "Ethical approval",
+        "Ethics approval and consent to participate",
+        "Ethical Approval and Consent to Participate"
+      ],
+      "order": 12,
+      "level": "required",
+      "words": {
+        "min": 0,
+        "typical": 50,
+        "max": 100
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "ethics_original_studies",
+          "description": "original GWAS obtained approvals and consent; no new approval needed for summary data",
+          "level": "required",
+          "frequency": "7/8 (absent in E3)",
+          "detect": [
+            "ethic\\w* (approval|review|committee)",
+            "institutional review board",
+            "informed consent",
+            "(no|not) (additional|separate|new|further) ethic"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Placement varies: Methods paragraph or subsection (E1, E4, E5, E6, E8) or back-matter declaration (E2, E7).",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "heading": "Funding",
+      "aliases": [
+        "Funding statement",
+        "Sources of Funding",
+        "Support statement",
+        "Role of funders"
+      ],
+      "order": 13,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/8 (STROBE-MR item 18); inside Acknowledgements in E3, E4, E6; EBioMedicine also puts a Funding line in the abstract and a 'Role of funders' paragraph in Methods.",
+      "basis": "both"
+    },
+    {
+      "id": "competing_interests",
+      "heading": "Competing interests",
+      "aliases": [
+        "Declaration of interests",
+        "Disclosures",
+        "Conflict of interest"
+      ],
+      "order": 14,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/8 (STROBE-MR item 20). Industry co-authors or pharma funding disclosed in 6/8.",
+      "basis": "both"
+    },
+    {
+      "id": "contributions",
+      "heading": "Author contributions",
+      "aliases": [
+        "Authors' contributions",
+        "Contributors"
+      ],
+      "order": 15,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "7/8 (absent from E6 author manuscript).",
+      "basis": "frequency"
+    },
+    {
+      "id": "acknowledgements",
+      "heading": "Acknowledgements",
+      "aliases": [
+        "Acknowledgments"
+      ],
+      "order": 16,
+      "level": "typical",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "7/8; thanks GWAS consortia for summary statistics; can run to thousands of words of consortium member lists (E1).",
+      "basis": "frequency"
+    },
+    {
+      "id": "references",
+      "heading": "References",
+      "aliases": [],
+      "order": 17,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "50-86, median 58.",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplement",
+      "heading": "Supplementary material",
+      "aliases": [
+        "Supporting information",
+        "Additional files",
+        "Supplementary information",
+        "Supplemental information"
+      ],
+      "order": 18,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/8; 1-22 files (median 2.5). See supplement block.",
+      "basis": "frequency"
+    }
+  ],
+  "section_order_variants": [
+    {
+      "name": "IMRaD (+ Conclusions)",
+      "order": [
+        "introduction",
+        "methods",
+        "results",
+        "discussion",
+        "conclusions"
+      ],
+      "seen_in": [
+        "E1",
+        "E2",
+        "E5",
+        "E7",
+        "E8"
+      ]
+    },
+    {
+      "name": "IMRaD with separate Limitations and Conclusions (JAMA author manuscript)",
+      "order": [
+        "introduction",
+        "methods",
+        "results",
+        "discussion",
+        "limitations",
+        "conclusions"
+      ],
+      "seen_in": [
+        "E6"
+      ]
+    },
+    {
+      "name": "Methods last (Nature / Cell Press STAR Methods)",
+      "order": [
+        "introduction",
+        "results",
+        "discussion",
+        "methods"
+      ],
+      "seen_in": [
+        "E3",
+        "E4"
+      ]
+    }
+  ],
+  "main_text_words": {
+    "min": 3350,
+    "typical": 4150,
+    "max": 6050,
+    "counted": [
+      "introduction",
+      "methods",
+      "results",
+      "discussion",
+      "limitations",
+      "conclusions"
+    ],
+    "methods_counted": true,
+    "notes": "Excluding Methods: min 2350, typical 3050, max 3950 (Nature Communications caps main text at about 5000 words excluding Methods; E3 3234). E6 is low partly because JAMA moves Methods to eMethods. Statement subsections inside Methods (data availability, ethics, role of funders, reporting-summary boilerplate) are removed from the counts."
+  },
+  "abstract": {
+    "format": "either",
+    "words": {
+      "min": 150,
+      "typical": 300,
+      "max": 450
+    },
+    "heading_sets": [
+      {
+        "family": "PLOS Medicine",
+        "headings": [
+          "Background",
+          "Methods and findings",
+          "Conclusions"
+        ],
+        "seen_in": [
+          "E1"
+        ]
+      },
+      {
+        "family": "BMC / ERS (IMRC)",
+        "headings": [
+          "Background",
+          "Methods",
+          "Results",
+          "Conclusions"
+        ],
+        "seen_in": [
+          "E2",
+          "E8"
+        ]
+      },
+      {
+        "family": "Lancet family (eBioMedicine)",
+        "headings": [
+          "Background",
+          "Methods",
+          "Findings",
+          "Interpretation",
+          "Funding"
+        ],
+        "seen_in": [
+          "E5"
+        ]
+      },
+      {
+        "family": "JAMA",
+        "headings": [
+          "Importance",
+          "Objective",
+          "Design, Setting, and Participants",
+          "Main Outcomes and Measures",
+          "Results",
+          "Conclusions and Relevance"
+        ],
+        "seen_in": [
+          "E6"
+        ]
+      },
+      {
+        "family": "AHA (JAHA)",
+        "headings": [
+          "Background",
+          "Methods and Results",
+          "Conclusions"
+        ],
+        "seen_in": [
+          "E7"
+        ]
+      },
+      {
+        "family": "Unstructured (Nature Communications, Cell Reports Medicine)",
+        "headings": [],
+        "seen_in": [
+          "E3",
+          "E4"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "id": "abs_names_mr",
+        "description": "names Mendelian randomization (STROBE-MR item 1)",
+        "level": "required",
+        "frequency": "8/8",
+        "detect": [
+          "mendelian randomi[sz]ation",
+          "\\bMR\\b"
+        ],
+        "basis": "both"
+      },
+      {
+        "id": "abs_target_and_instrument",
+        "description": "names the target/protein and the genetic proxy (cis-variants, pQTL, eQTL, or biomarker-associated variants in the gene region)",
+        "level": "required",
+        "frequency": "8/8",
+        "detect": [
+          "inhibition|target|protein",
+          "pQTL|eQTL|genetic (variants?|instruments?|prox)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "abs_sample_size",
+        "description": "outcome cases/controls or participant N, or number of proteins tested",
+        "level": "required",
+        "frequency": "7/8 (not E3)",
+        "detect": [
+          "\\d[\\d,]* (cases|controls|participants|individuals|patients)",
+          "\\d[\\d,]* (plasma |circulating )?proteins",
+          "N ?= ?\\d"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "abs_effect_estimate",
+        "description": "headline effect estimate (OR/beta) with 95% CI",
+        "level": "typical",
+        "frequency": "4/8 give an estimate (E1, E2, E5, E8); 3/8 with 95% CI",
+        "detect": [
+          "\\bOR\\b|odds ratio|β|beta",
+          "95% ?CI"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "abs_coloc",
+        "description": "mentions colocalisation result",
+        "level": "typical",
+        "frequency": "4/8 (E1, E4, E7, E8)",
+        "detect": [
+          "coloc(alis|aliz)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "abs_replication",
+        "description": "mentions replication in an independent dataset",
+        "level": "typical",
+        "frequency": "4/8 (E1, E4, E7, E8)",
+        "detect": [
+          "replicat",
+          "FinnGen",
+          "validat"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "abs_drug_implication",
+        "description": "conclusion framed as target prioritisation / repurposing / safety signal",
+        "level": "typical",
+        "frequency": "7/8",
+        "detect": [
+          "drug|therapeut|repurpos|target"
+        ],
+        "basis": "frequency"
+      }
+    ],
+    "extra_summaries": [
+      {
+        "name": "Key Points (JAMA)",
+        "level": "optional",
+        "frequency": "1/8 (E6)",
+        "words": {
+          "min": 100,
+          "typical": 100,
+          "max": 100
+        },
+        "notes": "exact 90 words; Question / Findings / Meaning; venue-mandated"
+      },
+      {
+        "name": "Research in context (Lancet family)",
+        "level": "optional",
+        "frequency": "1/8 (E5)",
+        "words": {
+          "min": 250,
+          "typical": 250,
+          "max": 250
+        },
+        "notes": "exact 269 words; Evidence before this study / Added value / Implications"
+      },
+      {
+        "name": "Clinical Perspective (AHA)",
+        "level": "optional",
+        "frequency": "1/8 (E7)",
+        "words": {
+          "min": 100,
+          "typical": 100,
+          "max": 100
+        },
+        "notes": "exact 75 words; What Is New? / What Are the Clinical Implications?"
+      },
+      {
+        "name": "Author summary (PLOS Medicine)",
+        "level": "optional",
+        "frequency": "1/8 (E1)",
+        "words": {
+          "min": 250,
+          "typical": 250,
+          "max": 250
+        },
+        "notes": "exact 249 words; three question headings"
+      },
+      {
+        "name": "Highlights + eTOC blurb + graphical abstract (Cell Press)",
+        "level": "optional",
+        "frequency": "1/8 (E4)",
+        "words": {
+          "min": 50,
+          "typical": 50,
+          "max": 50
+        },
+        "notes": "43-word highlights and 43-word blurb"
+      },
+      {
+        "name": "Short abstract / web summary (ERJ, Nature Communications)",
+        "level": "optional",
+        "frequency": "2/8 (E3, E8)",
+        "words": {
+          "min": 50,
+          "typical": 50,
+          "max": 50
+        },
+        "notes": "36 words each"
+      }
+    ],
+    "checklist": "STROBE-MR item 1 (MR named in title/abstract); no separate abstract checklist exists"
+  },
+  "display_items": [
+    {
+      "id": "study_design_schematic",
+      "priority": 1,
+      "type": "figure",
+      "kind": "study-design flowchart or DAG with IV assumptions (exposure source -> instruments -> MR -> coloc -> sensitivity/replication -> downstream)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "7/8 main (E2, E3, E4, E5, E6, E7, E8; usually Figure 1; E3 places a DAG last; E8 adds a second DAG figure); E5 also has an assumptions DAG in the supplement; absent only in E1",
+      "detect": [
+        "study design",
+        "overview",
+        "workflow",
+        "flow ?chart",
+        "schematic",
+        "analysis strategy",
+        "directed acyclic",
+        "\\bDAG\\b",
+        "pathways?"
+      ],
+      "omerta_kind": "Study-design schematic",
+      "notes": "count range is over the 7 papers that have one",
+      "basis": "frequency"
+    },
+    {
+      "id": "forest_plot",
+      "priority": 2,
+      "type": "figure",
+      "kind": "forest plot of MR estimates by outcome, target, ancestry or method",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 2,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "5/8 main (E2, E3, E4, E5, E7). Every exemplar shows MR estimates in a forest plot or a results table (E1, E8 tables; E6 Manhattan + heatmap)",
+      "detect": [
+        "forest",
+        "(mendelian randomi[sz]ation|MR) (effect )?estimates",
+        "causal effect",
+        "effects? of (genetically|perturbation|lower|higher)",
+        "odds ratio"
+      ],
+      "omerta_kind": "Forest plot",
+      "notes": "ratio measures on log axis with null line at 1; E5 adds a triangulation forest (trial vs MR)",
+      "basis": "frequency"
+    },
+    {
+      "id": "regional_association_plot",
+      "priority": 3,
+      "type": "figure",
+      "kind": "LocusZoom-style regional / stacked association plot of exposure and outcome signals at the target locus, with LD colouring and coloc PPs",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 8
+      },
+      "placement": "main-or-supplement",
+      "frequency": "4/8 (main E1 x8, E3, E8; supplement E3, E7 Figures S1-S8)",
+      "detect": [
+        "regional (association|Manhattan|plot)",
+        "LocusZoom",
+        "locus plot",
+        "stacked",
+        "\\+/?-?\\s?\\d+ ?kb"
+      ],
+      "omerta_kind": "Colocalization regional plot",
+      "notes": "E1 uses all 8 main figures for regional plots of exposure and outcome per target",
+      "basis": "frequency"
+    },
+    {
+      "id": "coloc_table",
+      "priority": 4,
+      "type": "table",
+      "kind": "colocalisation results: PP.H0-H4 per protein/target-outcome pair, often with MR and SMR/HEIDI tiers",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 4
+      },
+      "placement": "main-or-supplement",
+      "frequency": "5/8 (main E7 Table 1; supplement E1, E2, E4, E6)",
+      "detect": [
+        "coloc(alis|aliz)ation",
+        "posterior probabilit",
+        "PP\\.?\\s?H4|PPH4|PH4|PP4"
+      ],
+      "omerta_kind": null,
+      "notes": "coloc results are reported somewhere (text, figure or table) in 8/8",
+      "basis": "frequency"
+    },
+    {
+      "id": "volcano_plot",
+      "priority": 5,
+      "type": "figure",
+      "kind": "volcano or Manhattan-style plot of proteome-wide MR results (estimate vs -log10 P, threshold line, top hits labelled)",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "2/8 overall (E6 Manhattan-style x2, E7 volcano); 2/3 of proteome-wide papers (E4, E6, E7)",
+      "detect": [
+        "volcano",
+        "manhattan plot (showing|of) .*(\\bMR\\b|mendelian|proteins?|pQTL)"
+      ],
+      "omerta_kind": "Volcano",
+      "notes": "Manhattan-style protein plots are mapped here rather than to manhattan_plot because they show a protein screen, not a GWAS",
+      "basis": "frequency",
+      "applies_when": "proteome_wide"
+    },
+    {
+      "id": "results_table",
+      "priority": 6,
+      "type": "table",
+      "kind": "table of MR estimates per target/outcome (OR/beta, 95% CI, P, n SNPs) or summary counts of significant proteins",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 2,
+        "max": 3
+      },
+      "placement": "main",
+      "frequency": "4/8 main (E1 x3, E5, E6 summary counts, E8 x2)",
+      "detect": [
+        "association between genetically",
+        "mendelian randomi[sz]ation (\\(MR\\) )?analys[ie]s of",
+        "effect of",
+        "summary of results"
+      ],
+      "omerta_kind": null,
+      "notes": "alternative to the forest plot in E1 and E8",
+      "basis": "frequency"
+    },
+    {
+      "id": "instrument_table",
+      "priority": 7,
+      "type": "table",
+      "kind": "per-variant instrument table: SNP, gene, EA/OA, EAF, beta/SE/P for exposure, F-statistic (and outcome associations)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 3
+      },
+      "placement": "main-or-supplement",
+      "frequency": "main 1/8 (E1 Table 1; E8 Table 2 carries instrument columns); supplement 6/8 verified (E1, E2, E3, E5, E7, E8)",
+      "detect": [
+        "instruments?",
+        "genetic variants",
+        "SNPs? used",
+        "characteristics of .*variants",
+        "F[- ]statistic",
+        "cis-?pQTLs?"
+      ],
+      "omerta_kind": null,
+      "notes": "STROBE-MR items 10-11 ask for variant-exposure and variant-outcome associations",
+      "basis": "guideline"
+    },
+    {
+      "id": "dataset_table",
+      "priority": 8,
+      "type": "table",
+      "kind": "data-source table: exposure and outcome GWAS (consortium, ancestry, N cases/controls, PMID/accession) or cohort demographics",
+      "level": "typical",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "6/8 (main E2, E4, E8; supplement E3, E5, E7)",
+      "detect": [
+        "data sources?",
+        "genome-wide association study summary data",
+        "GWAS (datasets|summary)",
+        "(demographic|cohort) characteristics",
+        "studied phenotypes"
+      ],
+      "omerta_kind": null,
+      "notes": "plays the role of Table 1 (characteristics) in MR papers; STROBE-MR item 4",
+      "basis": "frequency"
+    },
+    {
+      "id": "sensitivity_table",
+      "priority": 9,
+      "type": "table",
+      "kind": "sensitivity analyses: alternative estimators (MR-Egger, weighted median, PRESSO), heterogeneity, pruning thresholds, leave-one-out, multivariable MR",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 3,
+        "max": 6
+      },
+      "placement": "supplement",
+      "frequency": "main 1/8 (E8 Table 4); supplement 7/8",
+      "detect": [
+        "sensitivity",
+        "Egger",
+        "weighted median",
+        "PRESSO",
+        "heterogeneity",
+        "pleiotropy",
+        "leave[- ]one[- ]out",
+        "multivariable",
+        "considering linkage disequilibrium",
+        "multiple cis"
+      ],
+      "omerta_kind": null,
+      "notes": "STROBE-MR items 8 and 13",
+      "basis": "both"
+    },
+    {
+      "id": "heatmap",
+      "priority": 10,
+      "type": "figure",
+      "kind": "heatmap/grid of MR estimates or P values across outcomes, ancestries or proteins",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "3/8 (E3, E4, E6)",
+      "detect": [
+        "heat ?map",
+        "cells? (are )?annotated",
+        "grey squares|gray squares",
+        "across (traits|phenotypes|outcomes)"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "mr_scatter",
+      "priority": 11,
+      "type": "figure",
+      "kind": "MR scatter (SNP-exposure vs SNP-outcome) and/or leave-one-out plot or table",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 6
+      },
+      "placement": "supplement",
+      "frequency": "2/8, supplement only (E2 scatter Figs S1-S6; E1 leave-one-out table S6)",
+      "detect": [
+        "scatter",
+        "leave[- ]one[- ]out"
+      ],
+      "omerta_kind": "MR scatter + leave-one-out",
+      "notes": "rare because cis instruments are few (often 1-13 SNPs); include when >2 instruments",
+      "basis": "frequency",
+      "applies_when": "multi_instrument"
+    },
+    {
+      "id": "validation_panel",
+      "priority": 12,
+      "type": "figure",
+      "kind": "orthogonal biological support: target-tissue or single-cell expression of hit genes",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "2/8 (E7 single-cell aorta, E8 lung transcriptome)",
+      "detect": [
+        "single[- ]cell",
+        "(expression|transcriptom\\w*) (in|of) .*(tissue|lung|aort|whole|cell)",
+        "compared between .* and controls"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "key_points_box",
+      "priority": 13,
+      "type": "box",
+      "kind": "venue summary box (Key Points / Research in context / Clinical Perspective)",
+      "level": "optional",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "3/8 (E5, E6, E7)",
+      "detect": [
+        "key points",
+        "research in context",
+        "clinical perspective"
+      ],
+      "omerta_kind": null,
+      "notes": "set by venue profile; words excluded from main text",
+      "basis": "frequency",
+      "venue_governed": true
+    }
+  ],
+  "display_items_main_total": {
+    "min": 4,
+    "typical": 5,
+    "max": 12
+  },
+  "required_statements": [
+    {
+      "id": "strobe_mr",
+      "label": "Reported per STROBE-MR; completed checklist in the supplement",
+      "level": "required",
+      "placement": [
+        "methods",
+        "supplement"
+      ],
+      "frequency": "3/8 cite STROBE-MR as the reporting guideline (E1, E2, E5); 2/8 supply the checklist (E1, E2)",
+      "detect": [
+        "STROBE[- ]MR",
+        "Strengthening the Reporting of (Observational Studies in Epidemiology using )?Mendelian Randomi[sz]ation"
+      ],
+      "notes": "PLOS ONE (Nov 2025 editorial) requires the completed checklist; the three venues whose exemplars cite it are PLOS Medicine, BMC Medicine and eBioMedicine",
+      "basis": "guideline"
+    },
+    {
+      "id": "data_availability",
+      "label": "Data availability: every GWAS/pQTL summary-statistic source with accession or URL",
+      "level": "required",
+      "placement": [
+        "data_availability",
+        "methods",
+        "back_matter"
+      ],
+      "frequency": "6/8 explicit statement (absent in E6 author manuscript and E8); 8/8 name sources somewhere",
+      "detect": [
+        "data (availability|sharing)",
+        "availability of data",
+        "summary (statistics|data|genetic association data) (are|is|were|can be) .{0,40}(available|downloaded|obtained)",
+        "gwas\\.mrcieu\\.ac\\.uk|GCST\\d+|finngen"
+      ],
+      "notes": "STROBE-MR item 19",
+      "basis": "both"
+    },
+    {
+      "id": "code_availability",
+      "label": "Code availability (repository or explicit statement)",
+      "level": "required",
+      "placement": [
+        "code_availability",
+        "data_availability",
+        "back_matter"
+      ],
+      "frequency": "4/8",
+      "detect": [
+        "code availability",
+        "github\\.com",
+        "zenodo",
+        "code (is|are|used).{0,60}available"
+      ],
+      "notes": "STROBE-MR item 19; genre often weak here",
+      "basis": "guideline"
+    },
+    {
+      "id": "ethics",
+      "label": "Ethics: original studies' approvals and consent; no new approval required for summary statistics",
+      "level": "required",
+      "placement": [
+        "methods",
+        "ethics",
+        "back_matter"
+      ],
+      "frequency": "7/8",
+      "detect": [
+        "ethic\\w* (approval|review|committee)",
+        "institutional review board",
+        "informed consent",
+        "(no|not) (additional|separate|new|further) ethic"
+      ],
+      "notes": "one or two sentences",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "label": "Funding sources and role of funders",
+      "level": "required",
+      "placement": [
+        "funding",
+        "acknowledgements",
+        "back_matter"
+      ],
+      "frequency": "8/8",
+      "detect": [
+        "funding",
+        "funded by",
+        "support statement",
+        "role of (the )?funders?"
+      ],
+      "notes": "STROBE-MR item 18",
+      "basis": "both"
+    },
+    {
+      "id": "competing_interests",
+      "label": "Competing interests",
+      "level": "required",
+      "placement": [
+        "competing_interests",
+        "back_matter"
+      ],
+      "frequency": "8/8",
+      "detect": [
+        "competing interests?",
+        "conflicts? of interest",
+        "declaration of interests?",
+        "disclosures?"
+      ],
+      "notes": "STROBE-MR item 20",
+      "basis": "both"
+    },
+    {
+      "id": "author_contributions",
+      "label": "Author contributions",
+      "level": "required",
+      "placement": [
+        "contributions",
+        "back_matter"
+      ],
+      "frequency": "7/8",
+      "detect": [
+        "author(s'|s’|'s)? contributions?",
+        "contributors",
+        "conceptuali[sz]ation"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "software_versions",
+      "label": "Software, packages and versions (STROBE-MR item 9a)",
+      "level": "required",
+      "placement": [
+        "methods",
+        "code_availability"
+      ],
+      "frequency": "8/8 name packages; 2/8 give versions (E1 R version, E3 package versions)",
+      "detect": [
+        "TwoSampleMR|MendelianRandomi[sz]ation|coloc",
+        "version \\d|v\\d+\\.\\d+"
+      ],
+      "notes": "",
+      "basis": "both"
+    },
+    {
+      "id": "preregistration",
+      "label": "Statement of whether the protocol was pre-registered (STROBE-MR item 9b)",
+      "level": "required",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "0/8",
+      "detect": [
+        "pre-?regist",
+        "not (pre-?)?registered",
+        "osf\\.io"
+      ],
+      "notes": "no exemplar states it; Amani's pre-registration sentence is above the genre norm",
+      "basis": "guideline"
+    }
+  ],
+  "checklists": [
+    {
+      "name": "STROBE-MR",
+      "level": "required",
+      "citation": "Skrivankova VW, Richmond RC, Woolf BAR, et al. Strengthening the Reporting of Observational Studies in Epidemiology Using Mendelian Randomization: the STROBE-MR statement. JAMA. 2021;326(16):1614-1621 (explanation and elaboration: BMJ 2021;375:n2233)",
+      "doi": "10.1001/jama.2021.18236",
+      "where": "supplement",
+      "frequency": "3/8 cite it as the reporting guideline (E1, E2, E5); 2/8 attach the checklist (E1, E2); E8 cites the 2019 preprint (Davey Smith et al., PeerJ Preprints 7:e27857v1) for the MR assumptions",
+      "notes": "20 items; reviewers check items 1 (MR in title/abstract), 4-9 (data, assumptions, methods, software, pre-registration), 10-13 (descriptive data incl. instrument strength, results, assumption checks, sensitivity), 15 (limitations), 18-20 (funding, data/code sharing, conflicts)",
+      "basis": "guideline",
+      "kind": "reporting_guideline"
+    },
+    {
+      "name": "coloc method and priors (Giambartolomei 2014)",
+      "level": "typical",
+      "citation": "Giambartolomei C, Vukcevic D, Schadt EE, et al. Bayesian test for colocalisation between pairs of genetic association studies using summary statistics. PLoS Genet. 2014;10(5):e1004383",
+      "doi": "10.1371/journal.pgen.1004383",
+      "where": "methods",
+      "frequency": "5/8 cite it (E2, E3, E5, E7, E8); E4 cites coloc/coloc-SuSiE (Wallace); 5/8 state priors, all with p12 = 1e-5 where stated",
+      "notes": "Assumes at most one causal variant per trait in the region (coloc-SuSiE relaxes this; used only by E4). Wallace 2020 (PLoS Genet 16:e1008720, not re-read here) argues the default p12 = 1e-5 is permissive and recommends a prior-sensitivity check; none of the exemplars shows one.",
+      "basis": "frequency",
+      "kind": "methods_guidance"
+    },
+    {
+      "name": "PLOS ONE MR editorial expectations",
+      "level": "optional",
+      "citation": "Pruller J, Mockridge A, Vousden G. Expectations for Mendelian randomization research in PLOS One. PLoS One. 2025;20(11):e0337199",
+      "doi": "10.1371/journal.pone.0337199",
+      "where": "cover_letter",
+      "frequency": "0/8 (post-dates most exemplars)",
+      "notes": "requires the completed STROBE-MR checklist, validation in at least a second independent dataset, and discussion of similar prior work; venue-specific",
+      "basis": "frequency",
+      "kind": "venue_policy"
+    },
+    {
+      "name": "Burgess et al. guidelines for performing MR investigations",
+      "level": "optional",
+      "citation": "Burgess S, Davey Smith G, Davies NM, et al. Guidelines for performing Mendelian randomization investigations: update for summer 2023. Wellcome Open Res. 2019;4:186",
+      "doi": "10.12688/wellcomeopenres.15555.3",
+      "where": "methods",
+      "frequency": "2/8 (E6, E7)",
+      "notes": "methods guidance rather than a reporting checklist",
+      "basis": "frequency",
+      "kind": "methods_guidance"
+    },
+    {
+      "name": "Drug-target MR methods guidance",
+      "level": "optional",
+      "citation": "Schmidt AF, Finan C, Gordillo-Marañón M, et al. Genetic drug target validation using Mendelian randomisation. Nat Commun. 2020;11:3255; Gill D, Georgakis MK, Walker VM, et al. Mendelian randomization for studying the effects of perturbing drug targets. Wellcome Open Res. 2021;6:16",
+      "doi": "10.1038/s41467-020-16969-0",
+      "where": "methods",
+      "frequency": "2/8 (E3 Schmidt; E2 Gill)",
+      "notes": "second reference DOI 10.12688/wellcomeopenres.16544.2",
+      "basis": "frequency",
+      "kind": "methods_guidance"
+    }
+  ],
+  "supplement": [
+    {
+      "id": "strobe_mr_checklist",
+      "item": "completed STROBE-MR checklist with page/section locations",
+      "level": "required",
+      "frequency": "2/8 (E1, E2)",
+      "detect": [
+        "STROBE[- ]MR",
+        "checklist"
+      ],
+      "notes": "guideline- and editor-mandated even though most exemplars omit it",
+      "basis": "guideline"
+    },
+    {
+      "id": "instrument_list",
+      "item": "per-variant instrument table (SNP, position, EA/OA, EAF, exposure beta/SE/P, F-statistic, outcome associations) per target and per ancestry",
+      "level": "required",
+      "frequency": "6/8 verified (E1, E2, E3, E5, E7, E8)",
+      "detect": [
+        "instruments?",
+        "SNPs?",
+        "variants",
+        "pQTLs?|eQTLs?",
+        "F[- ]statistic"
+      ],
+      "notes": "",
+      "basis": "guideline"
+    },
+    {
+      "id": "full_mr_results",
+      "item": "all MR estimates for every exposure-outcome pair tested, including null results",
+      "level": "required",
+      "frequency": "8/8",
+      "detect": [
+        "(mendelian randomi[sz]ation|MR) (results|estimates|effect)",
+        "associations? of .*(proteins|targets?)",
+        "all proteins"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "sensitivity_results",
+      "item": "sensitivity analyses: alternative estimators, heterogeneity and pleiotropy tests, pruning thresholds, leave-one-out, multivariable MR, protein- vs biomarker-weighted instruments",
+      "level": "required",
+      "frequency": "7/8",
+      "detect": [
+        "sensitivity",
+        "Egger",
+        "weighted median",
+        "heterogeneity",
+        "pleiotrop",
+        "leave[- ]one[- ]out",
+        "multivariable",
+        "pruning"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "coloc_results",
+      "item": "coloc posterior probabilities (PP.H0-H4) per locus and pair, with priors",
+      "level": "typical",
+      "frequency": "5/8 (E1, E2, E4, E6; E7 in main Table 1)",
+      "detect": [
+        "coloc(alis|aliz)ation",
+        "posterior probabilit",
+        "PP\\.?\\s?H4|PH4"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "data_source_details",
+      "item": "exposure and outcome GWAS details: consortia, case definitions, N, ancestry, sample overlap",
+      "level": "typical",
+      "frequency": "5/8 in supplement (E3, E5, E7, E8, E1 S2 allele frequencies by ancestry)",
+      "detect": [
+        "data sources?",
+        "GWAS (datasets|outcome)",
+        "case definitions?|disease definitions?",
+        "cohort characteristics",
+        "overlap"
+      ],
+      "notes": "main-text Table 1 in E2, E4",
+      "basis": "frequency"
+    },
+    {
+      "id": "phewas_lookup",
+      "item": "phenome-wide / PhenoScanner look-up of instruments or target for pleiotropy and on-target adverse effects",
+      "level": "typical",
+      "frequency": "4/8 (E2, E5, E6, E8)",
+      "detect": [
+        "phenome[- ]wide|PheWAS|PhenoScanner",
+        "look-?up"
+      ],
+      "notes": "no exemplar has a PheWAS figure",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplementary_methods",
+      "item": "extended methods (coloc settings, eQTL sensitivity, SMR, power, expression data)",
+      "level": "typical",
+      "frequency": "4/8 (E1, E5, E6 eMethods, E8)",
+      "detect": [
+        "supplementary methods",
+        "eMethods",
+        "supplementary notes?",
+        "S\\d+ Methods"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "downstream_biology",
+      "item": "enrichment, protein-protein interaction, druggability and expression tables/figures",
+      "level": "typical",
+      "frequency": "4/8 (E1, E4, E6, E7)",
+      "detect": [
+        "enrichment",
+        "protein[- ]protein interaction|PPI",
+        "druggab|drug target",
+        "network"
+      ],
+      "notes": "mostly proteome-wide papers",
+      "basis": "frequency"
+    },
+    {
+      "id": "regional_plots",
+      "item": "regional association plots for each colocalised locus",
+      "level": "optional",
+      "frequency": "2/8 in supplement (E3, E7); main in E1, E8",
+      "detect": [
+        "regional (association|plot)",
+        "LocusZoom",
+        "locus plot"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "reverse_direction_results",
+      "item": "reverse MR / Steiger direction results",
+      "level": "optional",
+      "frequency": "3/8 (E4, E6, E8)",
+      "detect": [
+        "reverse (MR|Mendelian)",
+        "Steiger",
+        "bidirectional"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "scatter_loo",
+      "item": "MR scatter plots and leave-one-out analyses",
+      "level": "optional",
+      "frequency": "2/8 (E2 scatter, E1 leave-one-out)",
+      "detect": [
+        "scatter",
+        "leave[- ]one[- ]out"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    }
+  ],
+  "references": {
+    "min": 50,
+    "typical": 58,
+    "max": 86
+  },
+  "limitations": {
+    "placement": "unheaded paragraph(s) near the end of the Discussion (5/8); Discussion subsection with heading (2/8: Cell Press 'Limitations of the study', 'Caveats and limitations'); separate top-level 'Limitations' (1/8, JAMA author manuscript)",
+    "words": {
+      "min": 250,
+      "typical": 500,
+      "max": 600
+    },
+    "conventions": [
+      "preceded by a strengths paragraph (5/8: E1, E2, E4, E5, E7)",
+      "opens with a signal sentence ('This work has several limitations')",
+      "enumerated with ordinal words First ... Last (5/8: E1, E3, E4, E5, E7)",
+      "most limitations are followed by a mitigation (sensitivity analysis, replication, prior evidence)",
+      "followed by an 'In summary/In conclusion' paragraph or a Conclusions heading"
+    ],
+    "standard_items": [
+      {
+        "id": "genetic_vs_pharmacological",
+        "text": "Genetic proxies reflect small, lifelong perturbation of the target; a drug acts later, for a shorter time and at larger magnitude, so MR informs direction and on-target effects, not the drug's effect size or timing",
+        "level": "typical",
+        "frequency": "4/8 (E1, E2, E3, E5)",
+        "basis": "frequency"
+      },
+      {
+        "id": "ancestry_generalisability",
+        "text": "Samples were mostly or only European (or mixed-ancestry data were combined), limiting transportability to other ancestries",
+        "level": "typical",
+        "frequency": "5/8 (E1, E2, E3, E4, E7)",
+        "basis": "frequency"
+      },
+      {
+        "id": "limited_power",
+        "text": "Few cis instruments and limited cases for some outcomes or subtypes reduce power; nulls are not evidence of no effect",
+        "level": "typical",
+        "frequency": "5/8 (E1, E2, E3, E4, E5)",
+        "basis": "frequency"
+      },
+      {
+        "id": "horizontal_pleiotropy",
+        "text": "Exclusion restriction cannot be fully verified; residual horizontal pleiotropy is possible even with cis instruments and more likely with trans-pQTLs",
+        "level": "typical",
+        "frequency": "4/8 (E1, E4, E7, E8)",
+        "basis": "frequency"
+      },
+      {
+        "id": "coloc_limitations",
+        "text": "Colocalisation assumes one causal variant per trait, has limited power (low PP.H4 is not evidence against sharing) and cannot separate neighbouring genes in LD",
+        "level": "typical",
+        "frequency": "4/8 (E1, E2, E4, E8)",
+        "basis": "frequency"
+      },
+      {
+        "id": "protein_measurement",
+        "text": "Protein levels from affinity assays may reflect epitope/aptamer-binding effects, differ between platforms (SomaScan vs Olink) and were measured once",
+        "level": "typical",
+        "frequency": "4/8 (E4, E6, E7, E8)",
+        "basis": "frequency"
+      },
+      {
+        "id": "outcome_definition_heterogeneity",
+        "text": "Outcome definitions and recruitment differ across consortia/biobanks; subtype misclassification possible",
+        "level": "optional",
+        "frequency": "3/8 (E2, E3, E4)",
+        "basis": "frequency"
+      },
+      {
+        "id": "needs_experimental_or_trial_validation",
+        "text": "MR is indirect evidence; functional studies or trials are needed before clinical use",
+        "level": "optional",
+        "frequency": "3/8 (E3, E6, E8)",
+        "basis": "frequency"
+      },
+      {
+        "id": "selection_collider_bias",
+        "text": "Selection into biobanks (e.g. UK Biobank) or conditioning on diagnosis can induce collider bias",
+        "level": "optional",
+        "frequency": "2/8 (E5, E6)",
+        "basis": "frequency"
+      },
+      {
+        "id": "tissue_relevance",
+        "text": "Circulating protein or eQTL levels may not reflect the target tissue (brain, aorta)",
+        "level": "optional",
+        "frequency": "2/8 (E6, E7)",
+        "basis": "frequency"
+      },
+      {
+        "id": "sample_overlap_weak_instrument",
+        "text": "Overlap between exposure and outcome samples can bias estimates towards the confounded association when instruments are weak",
+        "level": "optional",
+        "frequency": "2/8 (E3, E4)",
+        "basis": "frequency"
+      },
+      {
+        "id": "model_assumptions",
+        "text": "Estimates assume linearity, no gene-environment or gene-gene interaction, and proportional scaling across targets",
+        "level": "optional",
+        "frequency": "2/8 (E1, E5)",
+        "basis": "frequency"
+      }
+    ]
+  },
+  "variation_notes": "Two sub-designs share one skeleton. Single/multi-target papers (E1, E2, E3, E5; E8 narrows a scan to one target) weight cis variants by a downstream biomarker (SBP, citrate, HDL-C, HbA1c) or by a cis-pQTL/eQTL, report a handful of outcomes, often a PheWAS-style safety scan, and compare with trial evidence; their displays are forest plots, regional plots and instrument tables. Proteome-wide papers (E4, E6, E7) test 1,000-3,000 proteins from deCODE/UKB-PPP/Fenland, split cis vs trans instruments, apply Bonferroni/FDR, tier hits by MR + coloc + SMR/HEIDI + replication, and add enrichment/druggability; their displays are a workflow figure, a volcano/Manhattan plot, a heatmap and a tiered summary table. Venue house style drives the rest: Methods last in Nature Communications and Cell Press (STAR Methods with key resources table and a mandatory 'Limitations of the study'); JAMA moves Methods to eMethods (355 words) and adds Key Points; PLOS Medicine adds an Author summary and attaches the STROBE-MR checklist; Lancet family adds Research in context and a Funding line in the abstract; AHA adds Clinical Perspective and an unheaded Introduction. Only the PLOS, BMC and Lancet-family exemplars cite STROBE-MR; none states pre-registration; code availability is weak (4/8).",
+  "lint_notes": [
+    "Title and abstract must name Mendelian randomization (8/8; STROBE-MR item 1) and the target/protein; proteome-wide papers say 'proteome-wide'.",
+    "Methods must contain, in any order: exposure QTL/biomarker source with N and ancestry; cis window around the encoding gene; P threshold; clumping r2 + LD reference (or LD-aware IVW); F-statistics; primary estimator; sensitivity estimators; coloc method, priors (p1, p2, p12) and PP.H4 threshold; multiple-testing rule. Flag any missing item.",
+    "Every MR-significant target-outcome pair must have a colocalisation result (PP.H4, ideally also PP.H3) reported in text, figure or table; a regional plot for each colocalised locus belongs in main or supplement.",
+    "MR estimates must be shown as a forest plot or a results table with OR/beta, 95% CI and P, scaled to a stated unit (per SD of protein, per 10 mmHg SBP, per SD HbA1c lowering) and signed as target inhibition vs higher level.",
+    "Per-variant instrument table (SNP, EA, EAF, beta, SE, P, F) must exist in main or supplement (STROBE-MR items 10-11); 6/8 exemplars have one.",
+    "Proteome-wide drafts must report the number of proteins tested, the Bonferroni/FDR family and threshold, separate cis from trans results, and show a volcano/Manhattan-style screen plot.",
+    "Limitations must include the genetic-vs-pharmacological caveat and the ancestry caveat; proteome drafts must add the assay/epitope caveat; coloc drafts the single-causal-variant caveat.",
+    "Data availability must name each GWAS/pQTL source with an accession or URL (IEU OpenGWAS ID, GCST, FinnGen release); code availability should give a repository (genre median is weak; do not copy the genre's omission).",
+    "Ethics statement is one or two sentences: original studies' approvals and consent; no new approval for summary statistics.",
+    "Attach a completed STROBE-MR checklist even though only 2/8 exemplars do; PLOS ONE requires it and adds a second-independent-dataset requirement (replication present in 6/8).",
+    "Directionality (Steiger or reverse MR) is optional in this genre (3/8); do not fail drafts that omit it when instruments are cis-acting, but require it for trans instruments.",
+    "MR scatter/leave-one-out plots are rare (2/8, supplement) because cis instruments are few; require them only when a target has more than 2 instruments.",
+    "Word ranges: main text 3,350-6,050 (median about 4,150); excluding Methods 2,350-3,950; abstract 150-450 (median about 300); references 50-86."
+  ],
+  "notes": [
+    "Exemplar mix: PLOS (E1), BMC (E2), Nature (E3), Cell Press (E4), Lancet family/Elsevier (E5), JAMA (E6), AHA (E7), ERS (E8). Single/multi-target 5, proteome-wide 3.",
+    "E6 is the Europe PMC author manuscript (CC BY 4.0), not the typeset JAMA article: Methods and statements may be shorter than the published version; its data sharing statement and author contributions could not be verified.",
+    "E5 uses colocalisation only to select instruments (eQTL vs HbA1c, probability > 0.7) and E3 uses it to check the cross-ancestry instrument signal; exposure-outcome colocalisation is present in the other 6/8.",
+    "Supplement contents for E5, E6 and E8 were inferred from in-text references to supplementary tables/figures; the files themselves were not opened. E3's file list came from its 'Description of Additional Supplementary Files'.",
+    "No exemplar shows a PheWAS figure or a prior-sensitivity plot for coloc; both are listed as Amani options rather than genre requirements.",
+    "Body-text contamination audit: title/abstract/keywords are clean for all 8. E6 mentions a joint disease once in its Discussion (IL-23 context); no exemplar uses a joint, motor-neuron or pancreatic outcome.",
+    "Candidates rejected: Cell Genomics 2022 multi-ancestry proteome MR (joint-disease outcomes), Nat Commun 2022 stroke proteome MR (joint-disease PheWAS rows), JAHA 2025 IL-6/small-vessel disease and JAMA Netw Open 2023 thiazide/kidney stones (no colocalisation), Diabetes Care 2026 GLP1R (no colocalisation)."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "omb/archive-paper@1",
+  "inputHash": "b692f6bfe5c5457f2361fe4ffd0e66f36571d8a709fae069aa6b8a72d3263c26",
+  "title": "Contrasting outcome associations with genetically predicted lowering of exposure E",
+  "sections": [
+    {
+      "heading": "Abstract",
+      "paragraphs": [
+        "This archived blind investigation examined whether genetically predicted lowering of blood trait E was associated with clinical outcomes A, B, C, D, F, G and H, and whether clearly estimated effects differed in magnitude. The completed analysis used an exposure-selected common variant and summary-statistic Wald ratios under frozen rules. The shared variant intersection contained 1252 codes. B, H and D led the absolute log odds ranking, with odds ratios per standard-deviation decrease in E of 0.59735, 0.743229 and 0.869139, respectively. Each received the task classification protective; the remaining outcomes were inconclusive. Among classified effects, the largest-to-smallest absolute log odds ratio was 3.67376, with a lower interval bound of 2.61136, yielding the task conclusion gap. Thus, the reported estimates support concentration of association magnitude within the classified subset. This comparison depends on assumed outcome independence and selection of extrema from the same estimates. It describes relative log odds magnitudes, without establishing comparative absolute risk reductions or effects of an intervention."
+      ]
+    },
+    {
+      "heading": "Introduction",
+      "paragraphs": [
+        "The investigation addressed a focused question about a continuous molecular trait measured in blood: whether genetically predicted lowering of E was associated with different clinical outcomes, and whether the estimated associations were similar in magnitude. The archived task described association tables from cohorts of the same continental ancestry covering a common chromosomal region. Outcome identities and biological annotations remained undisclosed. Consistent opaque codes linked variants and alleles across tables, while recoded positions retained ordering without preserving original spacing. These features permitted summary association joins while limiting biological interpretation and distance-based analysis.",
+        "The requested analysis deliberately fixed instrument selection, effect calculation, ranking and the magnitude comparison. Its estimand was an outcome log odds ratio for a standard-deviation decrease in genetically predicted E. The original plan documented intended procedures before association rows were read; the subsequent execution record establishes that the real-data analysis was completed. This manuscript reports the supplied evaluated findings and describes the computational methods documented in the frozen executed source, distinguishing those findings from the task's broader scientific question."
+      ]
+    },
+    {
+      "heading": "Methods",
+      "paragraphs": [
+        "The executed Python program read the locked plan, public metadata, exposure and outcome association tables, and variant alias registry. It used standard-library routines and recorded input and source digests. Association records contained variant codes, chromosome and position labels, effect and other alleles, coefficients, standard errors and effect allele frequencies. The analysis intersected literal variant codes across tables. Registry identifiers supported namespace auditing and were not used to merge distinct printed variants.",
+        "Shared variants were ordered by the absolute exposure coefficient divided by its standard error. Exact rational arithmetic preserved ties in the recorded decimal inputs, with lexicographic variant ordering as the tie breaker. The leading variant supplied every outcome estimate. The analysis did not combine instruments or use linkage disequilibrium pruning. The observational units were variant-by-study summary associations joined across tables, rather than individual participants.",
+        "For each outcome, ordered allele pairs were compared with the exposure pair. Matching distinct labels retained the outcome coefficient; reversed pairs required its sign to be negated. Unresolved pairs produced explicitly conditional calculations assuming agreement of the reported orientation with E. The log odds estimate for lowering E was the negative aligned outcome coefficient divided by the exposure coefficient. Its standard error was the outcome standard error divided by the absolute exposure coefficient. Exposure uncertainty was omitted as prescribed. Exponentiation yielded odds ratios and pointwise normal intervals. Protective and harmful classifications required the interval to lie wholly below or above the null, respectively; otherwise the classification was inconclusive.",
+        "Outcomes were ranked by absolute log odds magnitude, with alphabetical tie breaking. The magnitude comparison selected the largest and smallest magnitudes among outcomes classified protective or harmful. Their ratio received a normal delta-method interval on the logarithmic scale, using outcome relative standard errors and assuming independence. The common exposure denominator canceled. The task's gap rule combined a prespecified magnitude threshold with a lower interval bound above the null ratio. Neither outcome multiplicity nor selection of the classified subset and its extrema was corrected.",
+        "Executed audits examined required columns, numeric parsing, finite coefficients, standard errors, frequencies, missing fields, duplicate records, registry coverage and cross-table coordinate and allele consistency. Identical records were collapsed; conflicting selected estimates triggered failure rather than averaging or substitution. Report validation checked structure and numeric admissibility. These describe implemented checks, without asserting unreported audit outcomes."
+      ]
+    },
+    {
+      "heading": "Results",
+      "paragraphs": [
+        "The evaluated report recorded 1252 distinct variant codes in the common intersection. This count describes eligible shared codes and does not quantify independent genetic signals or participants. The frozen procedure selected the exposure-ranked leading variant for the outcome calculations.",
+        "B had the largest absolute log odds magnitude, followed by H and D. Their respective odds ratios for genetically predicted lower E were 0.59735, 0.743229 and 0.869139. All received the reported classification protective. A, C, F and G were classified inconclusive. The latter labels indicate that their prescribed intervals did not resolve direction under the classification rule; they do not demonstrate absence of an association.",
+        "Within the classified subset, B supplied the largest magnitude and D the smallest. The resulting ratio was 3.67376, and its reported lower interval bound was 2.61136. The evaluated conclusion was gap. The comparison therefore met the task's specified criterion for separation of selected absolute log odds magnitudes. It did not compare B with an arbitrarily small estimate from an inconclusive outcome, because such outcomes were excluded by the frozen selection rule."
+      ]
+    },
+    {
+      "heading": "Discussion",
+      "paragraphs": [
+        "The principal finding is a concentration of reported association magnitude within the outcomes that received a directional classification. B showed the strongest estimated association, with H and D following in magnitude. This pattern answers the prescribed descriptive comparison, but the gap statistic concerns absolute log odds. It is neither a ratio of odds ratios nor a ratio of absolute risk reductions. Without outcome identities or baseline risks, its clinical importance cannot be translated into comparable numbers of events prevented.",
+        "Several design features determine the interpretation. Instrument selection depended on the exposure association, while inclusion in the magnitude comparison depended on outcome intervals. Selecting both the eligible subset and its extrema from the estimates being compared can accentuate apparent separation; the reported interval does not account for that selection. Outcome independence was assumed, and participant overlap could not be assessed from the available summary records. Reusing a common exposure denominator simplifies the magnitude ratio but does not establish independence of the outcome coefficients.",
+        "The outcome intervals omit exposure uncertainty and remain pointwise. An inconclusive label consequently should not be treated as equivalence or as proof of a clinically negligible effect. The common-variant design also cannot by itself separate an exposure-mediated association from other pathways linking that variant to an outcome. Directional interpretation requires valid allele orientation; the code's conditional fallback does not establish that orientation. These features limit causal and intervention interpretations while leaving the reported magnitude comparison interpretable under its stated assumptions.",
+        "Software provenance notice: The archive verifies a completed real-data look and supplies frozen executed source and output provenance. Native scientific claim records retain insufficient-evidence status, while the code labels computed primary estimates Tentative. Task classifications and the gap conclusion do not upgrade those certification labels. Manuscript review and endorsement remain pending."
+      ]
+    },
+    {
+      "heading": "Evidence and provenance",
+      "paragraphs": [
+        "This reading manuscript was drafted retrospectively from the archived blind investigation. Numerical values are reported outputs of that run; typesetting does not independently certify them. The study identity and published answer were unavailable to the manuscript drafter.",
+        "Native claim status: effect magnitude gap = insufficient evidence; lower exposure a = insufficient evidence; lower exposure b = insufficient evidence; lower exposure c = insufficient evidence; lower exposure d = insufficient evidence; lower exposure f = insufficient evidence; lower exposure g = insufficient evidence; lower exposure h = insufficient evidence.",
+        "This manuscript is an unendorsed reading draft. Cross-family manuscript review and owner endorsement are pending."
+      ]
+    }
+  ],
+  "sha256": "0e8c72a0eaeaedf075569d4370071c38a905313066796e70b701f8dd5d423239"
+}

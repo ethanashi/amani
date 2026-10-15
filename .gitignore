@@ -1,0 +1,60 @@
+node_modules/
+.DS_Store
+*.log
+/investigations/*/work/
+/.bio-scratch/
+/.integration/
+# Local diagnostic-integration validation scratch and shared read-only runtime link
+/packages/bio-baseline/.pixi
+/validation/tmp/
+/validation/diag-integrate/c1-replay-*/
+/validation/diag-integrate/c1-certified-replay-*/
+/validation/diag-integrate/reference-mask-data.R
+/validation/diag-integrate/reference-mask.json
+/validation/diag-integrate/sim-*.json
+/validation/diag-integrate/mutant-reports/
+# Off-record live replays (card copies, journals, reports); never committed
+/.replays/
+# Opt-in served-data blinding tests own and remove these temporary copies.
+/packages/omb-amani/test/.tmp-served-*/
+
+/packages/omb-investigate/format-runtime/.pixi
+# Integration fixtures created and removed by the investigate test suite.
+/packages/omb-investigate/test/.tmp-*/
+/packages/omb-adapters/.test-*/
+/packages/omb-amani/test/.tmp-*/
+
+
+# Host-owned rehearsal receipts and isolated format runtime
+.amani-rehearsals/
+packages/omb-investigate/format-runtime/.pixi
+
+/node_modules
+/.medic-tmp/
+
+# Temporary opt-in medic stability records (host-owned)
+.amani-medic/
+
+# Ephemeral synthetic test worlds; tracked source/tests remain inspected.
+packages/*/test/.tmp-*/
+
+
+/.studio-cache/
+/.engine-state/
+/validation/providers/opencode-home/
+/validation/providers/smokes/
+/validation/providers/sidecar-fixture/
+validation/providers/review-round1/scratch/
+
+# Card factory DEVELOPMENT material: never use sealed benchmark paths.
+/factory/state/
+/factory/root/
+/factory/key
+/factory/tmp/
+/factory/runs/
+/factory/__pycache__/
+/factory/tests/__pycache__/
+
+# Host-only sealed audit exceptions must never enter source control.
+sealed-leak-allow.json
+sealed-audit.env

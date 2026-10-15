@@ -1,0 +1,20 @@
+{
+  "direction": "higher-in-non-responders",
+  "data_integrity": {
+    "duplicated_or_overlapping": [
+      "A",
+      "D"
+    ],
+    "n_duplicated_or_overlapping_pairs": 27
+  },
+  "effect_size": {
+    "n_folds": 2,
+    "pooled_g": 1.054250981357041,
+    "three_cohort_comparison": "higher"
+  },
+  "adjusted": {
+    "outcome_effect": "no-fold"
+  },
+  "verdict": "does-not-hold-up",
+  "incomplete": false
+}

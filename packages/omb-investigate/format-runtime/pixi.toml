@@ -1,0 +1,13 @@
+# Host-only physical-format codecs. Kept separate from the calibrated analysis runtime.
+[workspace]
+name = "amani-format-codecs"
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[dependencies]
+python = "3.13.*"
+openpyxl = ">=3.1.5,<4" # MIT/Expat
+ defusedxml = ">=0.7.1,<0.8" # PSF
+pyreadstat = ">=1.3.6,<2"
+pyarrow = ">=25.0.0,<26"
+pandas = ">=3.0.6,<4"

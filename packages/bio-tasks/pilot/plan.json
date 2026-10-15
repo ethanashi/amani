@@ -1,0 +1,545 @@
+{
+  "arms": [
+    {
+      "attempts": 3,
+      "cliVersion": "2.1.296 (Claude Code)",
+      "effort": "cli-default",
+      "id": "plain-claude",
+      "identitySource": "claude-events",
+      "modelId": "claude-opus-5-5",
+      "networkMode": "confirm"
+    },
+    {
+      "attempts": 1,
+      "cliVersion": "codex-cli 0.156.1",
+      "effort": "high",
+      "id": "plain-codex",
+      "identitySource": "codex-session",
+      "modelId": "gpt-6-astra",
+      "networkMode": "confirm"
+    },
+    {
+      "attempts": 3,
+      "cliVersion": "2.1.296 (Claude Code)",
+      "effort": "cli-default",
+      "id": "omerta-bio",
+      "identitySource": "claude-events",
+      "modelId": "claude-opus-5-5",
+      "networkMode": "confirm"
+    },
+    {
+      "attempts": 1,
+      "cliVersion": "codex-cli 0.156.1",
+      "effort": "high",
+      "id": "codex-tools",
+      "identitySource": "codex-session",
+      "modelId": "gpt-6-astra",
+      "networkMode": "confirm",
+      "toolpack": {
+        "profile": "checks",
+        "sha256": "f7724f7ae06698fae00af1c8a805e7b8517c57a1be708fedf5e49f63243d06bb"
+      }
+    }
+  ],
+  "attemptsPerArm": 3,
+  "disabledArms": {
+    "omerta-bio": "v1 retired 2026-10-10; v2 arms added by amendment"
+  },
+  "disabledCells": {
+    "codex-tools": {
+      "p16-recovery": "codex-tools native recovery adapter not integrated (bio-toolpack REVIEW-10); dispatch refuses p16"
+    }
+  },
+  "diskFloorBytes": 12884901888,
+  "dryRun": false,
+  "gradingCapSec": 900,
+  "retryRule": {
+    "gradingRetries": 2,
+    "interruptedRetries": 1,
+    "rateLimitRetries": 3
+  },
+  "schema": "bio-pilot/plan@1",
+  "seed": 20261010,
+  "sentinelAttempts": 1,
+  "sentinelTasks": [
+    "p1-esr1",
+    "p9-leakage",
+    "w0-venet"
+  ],
+  "statistics": {
+    "comparator": "codex-tools",
+    "endpoint": "all-attempts-task-passed",
+    "equivalenceMargin": 0.15,
+    "maxDroppedBootstrapShare": 0.01,
+    "minConfirmationTasks": 8,
+    "minPairedTasks": 16,
+    "pilotImprovement": 0.1,
+    "ratioBootstrap": "conditional-defined",
+    "resamples": 10000
+  },
+  "studyId": "pilot16",
+  "tasks": [
+    {
+      "calibrationSha256": "11c5036aa537477ee75aa6dd5a3e26decb82691dd8268f178ef8abb34fbfb649",
+      "capSec": 1800,
+      "card": {
+        "capMinutes": 30,
+        "contaminated": true,
+        "datasetManifestHash": "273bbe6b0e347c3c52dfcd12bde98bd7174aa6f517e8d7963317f4638c5d9c8f",
+        "family": "reproduction",
+        "heldOut": false,
+        "id": "iad1-brady-audit",
+        "negativeControl": true,
+        "plantedFlaws": [],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/iad1-brady-audit/SEALED-KEY.json.enc",
+        "seed": 4172093,
+        "tolerance": {
+          "absolute": 0.005,
+          "relative": 0
+        }
+      },
+      "id": "iad1-brady-audit"
+    },
+    {
+      "calibrationSha256": "ba7eaea0cd226f521fc8362576d72a1155893952fd8f431e0945cf8be351ae88",
+      "capSec": 1800,
+      "card": {
+        "capMinutes": 30,
+        "contaminated": false,
+        "datasetManifestHash": "ced874fd026b5585cc926a6fa762e2d295360476a6ee5bb947a72add3cd24a3d",
+        "family": "planted-flaw",
+        "heldOut": false,
+        "id": "iad2-brady-twin",
+        "negativeControl": false,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/iad2-brady-twin/SEALED-KEY.json.enc",
+        "seed": 8830517,
+        "tolerance": {
+          "absolute": 0.005,
+          "relative": 0
+        }
+      },
+      "id": "iad2-brady-twin"
+    },
+    {
+      "calibrationSha256": "a99dea6ba2d157d0653fc7448317abaf00cf5cb0ca83b91da35b3a42a5b8b376",
+      "capSec": 900,
+      "card": {
+        "capMinutes": 15,
+        "contaminated": false,
+        "datasetManifestHash": "91f25ed69dfe79d06f7c6685e9f8f2c75e963e48465081e0ee966fbc7539a30d",
+        "family": "reproduction",
+        "heldOut": false,
+        "id": "iad3-browning-count",
+        "negativeControl": false,
+        "plantedFlaws": [],
+        "positiveControl": true,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/iad3-browning-count/SEALED-KEY.json.enc",
+        "seed": 6619240,
+        "tolerance": {
+          "absolute": 0,
+          "relative": 0
+        }
+      },
+      "id": "iad3-browning-count"
+    },
+    {
+      "calibrationSha256": "e514c26420321283803f2caa401f65e1c7826a9ec2d39edf3f37b17a8a85af0c",
+      "capSec": 600,
+      "card": {
+        "capMinutes": 10,
+        "contaminated": false,
+        "datasetManifestHash": "a1009ef8b467cb9af9bc588f6f3a679fa33dddc235ba4d2dd6dffe7846b3f7d7",
+        "family": "reproduction",
+        "heldOut": false,
+        "id": "p1-esr1",
+        "negativeControl": false,
+        "plantedFlaws": [],
+        "positiveControl": true,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p1-esr1/SEALED-KEY.json.enc",
+        "seed": 5101,
+        "tolerance": {
+          "absolute": 0.02,
+          "relative": 0
+        }
+      },
+      "id": "p1-esr1"
+    },
+    {
+      "calibrationSha256": "e112115b558917a7cacfac09a31ce22c207da9e68ec704d5f5f6add52eeafafa",
+      "capSec": 3600,
+      "card": {
+        "capMinutes": 60,
+        "contaminated": false,
+        "datasetManifestHash": "2836d2d66999123e578cc095d2e153454c591f8174f7fb65411274f3e35b6389",
+        "family": "planted-flaw",
+        "heldOut": false,
+        "id": "p10-pseudorep",
+        "negativeControl": false,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p10-pseudorep/SEALED-KEY.json.enc",
+        "seed": 731402,
+        "tolerance": {
+          "absolute": 0.25,
+          "relative": 0
+        }
+      },
+      "id": "p10-pseudorep"
+    },
+    {
+      "calibrationSha256": "b42ad9ef090a8a296ccc387e1e4e9118780f858f7fcf501630321f13ea867b2f",
+      "capSec": 3600,
+      "card": {
+        "capMinutes": 60,
+        "contaminated": false,
+        "datasetManifestHash": "f7bfe7a26b080cb0316b26e26c83870b1eb40f6b8ab29deca8d082e18de13e32",
+        "family": "planted-flaw",
+        "heldOut": false,
+        "id": "p10b-pseudorep-hidden",
+        "negativeControl": true,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p10b-pseudorep-hidden/SEALED-KEY.json.enc",
+        "seed": 52708800,
+        "tolerance": {
+          "absolute": 0.25,
+          "relative": 0
+        }
+      },
+      "id": "p10b-pseudorep-hidden"
+    },
+    {
+      "calibrationSha256": "fa1e4456826cfc04e0504a929b72a16148cd037aed9a47af9ee5fec328e0e005",
+      "capSec": 600,
+      "card": {
+        "capMinutes": 10,
+        "contaminated": false,
+        "datasetManifestHash": "b396a95bcc884cfebad85fc52134f30341b8c814af702364285938f6bcbfee21",
+        "family": "planted-flaw",
+        "heldOut": false,
+        "id": "p11-confounding",
+        "negativeControl": true,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p11-confounding/SEALED-KEY.json.enc",
+        "seed": 51111,
+        "tolerance": {
+          "absolute": 0.02,
+          "relative": 0
+        }
+      },
+      "id": "p11-confounding"
+    },
+    {
+      "calibrationSha256": "4ab6d0ad6c81cd721ea6af976e07e6125e58d6ced3e82000a733cb338d8ca62f",
+      "capSec": 600,
+      "card": {
+        "capMinutes": 10,
+        "contaminated": false,
+        "datasetManifestHash": "ed7f9dddf52160f6a4f6177996298a92fb2b5fb37c555ce2424c023509929855",
+        "family": "planted-flaw",
+        "heldOut": false,
+        "id": "p12-quality",
+        "negativeControl": true,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p12-quality/SEALED-KEY.json.enc",
+        "seed": 51212,
+        "tolerance": {
+          "absolute": 0.02,
+          "relative": 0
+        }
+      },
+      "id": "p12-quality"
+    },
+    {
+      "calibrationSha256": "bc84d0934750ff216d7183514aeb9666c87c2e71e8353e25af300104ebff0bfd",
+      "capSec": 3600,
+      "card": {
+        "capMinutes": 60,
+        "contaminated": false,
+        "datasetManifestHash": "53234708021e24e5e1f9b9ecc602f71f460169885a85d27bdca5fb4e12fd93f3",
+        "family": "planted-flaw",
+        "heldOut": false,
+        "id": "p13-endpoint",
+        "negativeControl": true,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p13-endpoint/SEALED-KEY.json.enc",
+        "seed": 20261402,
+        "tolerance": {
+          "absolute": 0.15,
+          "relative": 0
+        }
+      },
+      "id": "p13-endpoint"
+    },
+    {
+      "calibrationSha256": "fe757f21d45e7a7163299134b9f4e04fd64fc020fdc707f510b495dd36f33824",
+      "capSec": 2700,
+      "card": {
+        "capMinutes": 45,
+        "contaminated": false,
+        "datasetManifestHash": "e148591c89e2eef6e2e00f1685adb3579972ae02282ba0a1117390f263621cb6",
+        "family": "planted-flaw",
+        "heldOut": false,
+        "id": "p14-citation",
+        "negativeControl": false,
+        "plantedFlaws": [
+          "sealed:F1",
+          "sealed:F2"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p14-citation/SEALED-KEY.json.enc",
+        "seed": 73114520,
+        "tolerance": {
+          "absolute": 0,
+          "relative": 0
+        }
+      },
+      "id": "p14-citation"
+    },
+    {
+      "calibrationSha256": "60725517a5bb8e813f99917c949409d20660e8d61e91c3687df7cd169f8c9a8a",
+      "capSec": 600,
+      "card": {
+        "capMinutes": 10,
+        "contaminated": false,
+        "datasetManifestHash": "89c84c76c81c64e8930ac7db402d148a008c692f86d8bfb201632a5bfd443641",
+        "family": "recovery",
+        "heldOut": false,
+        "id": "p16-recovery",
+        "negativeControl": false,
+        "plantedFlaws": [],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p16-recovery/SEALED-KEY.json.enc",
+        "seed": 51616,
+        "tolerance": {
+          "absolute": 0.02,
+          "relative": 0
+        }
+      },
+      "id": "p16-recovery"
+    },
+    {
+      "calibrationSha256": "d57f129aa4d4b0c5e1347907d138e7e973157d3308d74adfea3fb653a8cbdceb",
+      "capSec": 600,
+      "card": {
+        "capMinutes": 10,
+        "contaminated": false,
+        "datasetManifestHash": "7fe6528576d5a1ef039694614de639615eb3376b7c0cf1a18ac3fb7b47ec2169",
+        "family": "reproduction",
+        "heldOut": false,
+        "id": "p2-erbb2",
+        "negativeControl": false,
+        "plantedFlaws": [],
+        "positiveControl": true,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p2-erbb2/SEALED-KEY.json.enc",
+        "seed": 5202,
+        "tolerance": {
+          "absolute": 0.02,
+          "relative": 0
+        }
+      },
+      "id": "p2-erbb2"
+    },
+    {
+      "calibrationSha256": "9d01032d086b08a717daf7410b3a0b435cc00043e329beb9373210f9f61d2abe",
+      "capSec": 600,
+      "card": {
+        "capMinutes": 10,
+        "contaminated": true,
+        "datasetManifestHash": "51d22603b608dcd870c02de4772aa1837018b253192a3ab26201334d9bceb048",
+        "family": "reproduction",
+        "heldOut": false,
+        "id": "p4-bixbench",
+        "negativeControl": false,
+        "plantedFlaws": [],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p4-bixbench/SEALED-KEY.json.enc",
+        "seed": 5404,
+        "tolerance": {
+          "absolute": 0.0005,
+          "relative": 0
+        }
+      },
+      "id": "p4-bixbench"
+    },
+    {
+      "calibrationSha256": "e4baa97846d6cc32f749ec1d99544b96d6d07d44f3558ad92151a1a588e1e21f",
+      "capSec": 600,
+      "card": {
+        "capMinutes": 10,
+        "contaminated": false,
+        "datasetManifestHash": "98ac52d3cd050677cb15f688e9a9190f4ee14838939e9b5be1e5330c74a3d5f0",
+        "family": "negative",
+        "heldOut": false,
+        "id": "p5-permuted",
+        "negativeControl": true,
+        "plantedFlaws": [],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p5-permuted/SEALED-KEY.json.enc",
+        "seed": 5505,
+        "tolerance": {
+          "absolute": 0.02,
+          "relative": 0
+        }
+      },
+      "id": "p5-permuted"
+    },
+    {
+      "calibrationSha256": "54146d20edc2fa4cd84cb721bcbddaec07f03eb7d9d5170345e79683cd03c856",
+      "capSec": 3600,
+      "card": {
+        "capMinutes": 60,
+        "contaminated": false,
+        "datasetManifestHash": "341d03ff90a23bbb9b86142922cce0289e80206fc1a12f0e35aba9cb5c867c92",
+        "family": "negative",
+        "heldOut": false,
+        "id": "p6-subgroups",
+        "negativeControl": true,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p6-subgroups/SEALED-KEY.json.enc",
+        "seed": 61906068,
+        "tolerance": {
+          "absolute": 0.3,
+          "relative": 0
+        }
+      },
+      "id": "p6-subgroups"
+    },
+    {
+      "calibrationSha256": "bc76cd0d3f2a54d6758699bfa37c327e0bcb356642577edfc97b5d7ed67f0094",
+      "capSec": 3600,
+      "card": {
+        "capMinutes": 60,
+        "contaminated": false,
+        "datasetManifestHash": "a09237d79552bc382b2a9b30154b9df792df0e6d572fe62e286c31dad9766fb6",
+        "family": "negative",
+        "heldOut": false,
+        "id": "p7-nosignal",
+        "negativeControl": true,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p7-nosignal/SEALED-KEY.json.enc",
+        "seed": 39027712,
+        "tolerance": {
+          "absolute": 0.06,
+          "relative": 0
+        }
+      },
+      "id": "p7-nosignal"
+    },
+    {
+      "calibrationSha256": "3709da58ff5bc7447094a5af5c4bcda4803b226e97e00baee98b24ac1ed84865",
+      "capSec": 3600,
+      "card": {
+        "capMinutes": 60,
+        "contaminated": false,
+        "datasetManifestHash": "60956a2abcbb81d99a97a9ffb8cb2eaba94a74f5db6b82e089f5974a288002c4",
+        "family": "negative",
+        "heldOut": false,
+        "id": "p8-underpowered",
+        "negativeControl": true,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p8-underpowered/SEALED-KEY.json.enc",
+        "seed": 84150304,
+        "tolerance": {
+          "absolute": 1.5,
+          "relative": 0
+        }
+      },
+      "id": "p8-underpowered"
+    },
+    {
+      "calibrationSha256": "30621acb6800f03d99f17ac8764c9716f62b6f80ddd293216eaa181c30b0524f",
+      "capSec": 3600,
+      "card": {
+        "capMinutes": 60,
+        "contaminated": false,
+        "datasetManifestHash": "a78c731c42a5247d804b78ccf36696def2c115e6b52669105a7f940baf6e8bf1",
+        "family": "planted-flaw",
+        "heldOut": false,
+        "id": "p9-leakage",
+        "negativeControl": false,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p9-leakage/SEALED-KEY.json.enc",
+        "seed": 918273,
+        "tolerance": {
+          "absolute": 0.08,
+          "relative": 0
+        }
+      },
+      "id": "p9-leakage"
+    },
+    {
+      "calibrationSha256": "d0768bc3c232652a2aa27ba3a5803d48658f2a72f5ea81fa33e0c49dc01d0496",
+      "capSec": 5400,
+      "card": {
+        "capMinutes": 90,
+        "contaminated": true,
+        "datasetManifestHash": "1307d2bbc85cc9a5d1410f09727edc958f418f9d89744fe6fda15235963f16cb",
+        "family": "planted-flaw",
+        "heldOut": false,
+        "id": "w0-venet",
+        "negativeControl": false,
+        "plantedFlaws": [
+          "sealed:F1"
+        ],
+        "positiveControl": false,
+        "prompt": "TASK.md",
+        "sealedAnswerKeyRef": "packages/bio-baseline/task/SEALED-ANSWER.md.enc",
+        "seed": 20111020,
+        "tolerance": {
+          "absolute": 10,
+          "relative": 0
+        }
+      },
+      "id": "w0-venet"
+    }
+  ]
+}

@@ -1,0 +1,2990 @@
+{
+  "schema_version": "genre-profile/1",
+  "genre": "sr-ma-adverse-events-rct",
+  "genre_name": "Systematic review and meta-analysis of adverse events from randomized trials (drug-safety signal / repurposing screen)",
+  "scope": "Systematic reviews that pool harm or adverse-event outcomes (or an unintended benefit used as a repurposing signal) for a drug or drug class across randomized controlled trials, usually placebo- or active-controlled, reporting pooled RR/OR/rate ratios (sometimes risk differences), heterogeneity, risk of bias and, ideally, certainty of evidence. Core: pairwise aggregate-data meta-analysis of published RCTs (6/8). Covered variants: one network meta-analysis of harms (E3), one individual-participant-data meta-analysis of double-blind trials (E4, CTT) and one benefit-harm review where harms are co-primary (E8). Not covered: meta-analyses of observational or pharmacovigilance data, single-arm incidence pooling, Cochrane reviews, efficacy-only reviews, protocols.",
+  "built_on": "2026-10-13",
+  "word_count_convention": "jats_structure.py prose words (post-12:31 fix); captions, table footnotes, boxed text, formulas, numeric citations and headings excluded; main = I+M+R+D(+L,C); limitations subsections are counted inside Discussion",
+  "exemplars": [
+    {
+      "id": "E1",
+      "citation": "Farooq MZ, Aqeel SB, Lingamaneni P, et al. Association of immune checkpoint inhibitors with neurologic adverse events: a systematic review and meta-analysis. JAMA Netw Open. 2022;5(4):e227722.",
+      "doi": "10.1001/jamanetworkopen.2022.7722",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9020216/",
+      "pmcid": "PMC9020216",
+      "licence": "CC BY 4.0",
+      "journal": "JAMA Network Open",
+      "year": 2022,
+      "article_type": "Original Investigation",
+      "disease_area": "oncology (immune checkpoint inhibitor neurologic adverse events, solid tumours)",
+      "guideline_cited": [
+        "PRISMA (2009 statement cited)",
+        "Cochrane risk-of-bias tool (2011)",
+        "CTCAE v4.0"
+      ],
+      "measurement_file": "_measurements/sr-ma-adverse-events-rct/E1.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:31 fixed version)",
+      "measured": {
+        "main_text_words": 3288,
+        "main_text_words_excluding_methods": 2599,
+        "section_words": {
+          "introduction": 279,
+          "methods": 689,
+          "results": 1215,
+          "discussion": 1022,
+          "limitations": 204,
+          "conclusions": 83
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Importance",
+          "Objective",
+          "Data Sources",
+          "Study Selection",
+          "Data Extraction and Synthesis",
+          "Main Outcomes and Measures",
+          "Results",
+          "Conclusions and Relevance"
+        ],
+        "abstract_words": 354,
+        "extra_summaries": [
+          "Key Points (85 words)",
+          "teaser (24 words)"
+        ],
+        "figures_main": 3,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "prisma_flow",
+          "forest_plot",
+          "forest_plot (subgroups: vs chemotherapy, vs placebo)",
+          "characteristics_table",
+          "results_table (per-trial neurologic AE counts)"
+        ],
+        "references": 65,
+        "supplement_files": 1,
+        "supplement_types": [
+          "funnel plots by subgroup",
+          "additional forest plots (all AEs, subgroups, headache)",
+          "sensitivity forest plot excluding specific events",
+          "risk-of-bias table (Cochrane tool)",
+          "pooled characteristics of ITT population"
+        ],
+        "limitations_placement": "subsection 'Limitations and Strength' of Discussion (204 words)",
+        "statements": [
+          "PRISMA",
+          "competing interests",
+          "author contributions"
+        ],
+        "corrections": "Tool lists the single JAMA supplement twice (PMC 'Associated Data' duplicate); supplement_files set to 1. Limitations words are inside the Discussion total. No registration, funding or data-sharing statement found in the XML."
+      }
+    },
+    {
+      "id": "E2",
+      "citation": "Coyle M, Lynch A, Higgins M, et al. Risk of intracranial hemorrhage associated with direct oral anticoagulation vs antiplatelet therapy: a systematic review and meta-analysis. JAMA Netw Open. 2024;7(12):e2449017.",
+      "doi": "10.1001/jamanetworkopen.2024.49017",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11618459/",
+      "pmcid": "PMC11618459",
+      "licence": "CC BY 4.0",
+      "journal": "JAMA Network Open",
+      "year": 2024,
+      "article_type": "Original Investigation",
+      "disease_area": "cardiology/neurology (anticoagulant bleeding: DOAC vs aspirin)",
+      "guideline_cited": [
+        "PRISMA (2009 statement cited)",
+        "Cochrane Handbook v6.4",
+        "RoB 2",
+        "ISTH major bleeding definition",
+        "PROSPERO"
+      ],
+      "measurement_file": "_measurements/sr-ma-adverse-events-rct/E2.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:31 fixed version)",
+      "measured": {
+        "main_text_words": 2296,
+        "main_text_words_excluding_methods": 1580,
+        "section_words": {
+          "introduction": 154,
+          "methods": 716,
+          "results": 754,
+          "discussion": 616,
+          "limitations": 168,
+          "conclusions": 56
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Importance",
+          "Objective",
+          "Data Sources",
+          "Study Selection",
+          "Data Extraction and Synthesis",
+          "Main Outcomes and Measures",
+          "Results",
+          "Conclusions and Relevance"
+        ],
+        "abstract_words": 357,
+        "extra_summaries": [
+          "Key Points (77 words)",
+          "teaser (35 words)"
+        ],
+        "figures_main": 4,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "forest_plot (ICH)",
+          "forest_plot (major hemorrhage)",
+          "forest_plot (hemorrhage outcomes)",
+          "forest_plot (fatal hemorrhage)",
+          "characteristics_table"
+        ],
+        "references": 33,
+        "supplement_files": 2,
+        "supplement_types": [
+          "search strategy",
+          "reported outcomes of individual trials",
+          "per-trial definitions of major hemorrhage",
+          "funnel plot",
+          "PRISMA flow diagram",
+          "RoB 2 assessment figure",
+          "additional forest plots (ISTH major, GI, all hemorrhage, ischemic stroke, CV death)",
+          "data sharing statement"
+        ],
+        "limitations_placement": "subsection 'Limitations' of Discussion (168 words)",
+        "statements": [
+          "PROSPERO",
+          "PRISMA",
+          "ethics (IRB not required)",
+          "funding",
+          "role of funder",
+          "competing interests",
+          "author contributions",
+          "data sharing statement (supplement)"
+        ],
+        "corrections": "PRISMA flow diagram and RoB figure are in the supplement, not main text (Figure 1 is the ICH forest plot)."
+      }
+    },
+    {
+      "id": "E3",
+      "citation": "Ma Z, Cao F, Liao M, et al. Cardiovascular adverse events associated with epidermal growth factor receptor tyrosine kinase inhibitors in EGFR-mutated non-small cell lung cancer: systematic review and network meta-analysis. BMJ. 2025;390:e082834.",
+      "doi": "10.1136/bmj-2024-082834",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12402974/",
+      "pmcid": "PMC12402974",
+      "licence": "CC BY-NC 4.0",
+      "journal": "The BMJ",
+      "year": 2025,
+      "article_type": "Research",
+      "disease_area": "oncology (EGFR-TKI cardiotoxicity, non-small cell lung cancer)",
+      "guideline_cited": [
+        "PRISMA 2020",
+        "PRISMA-NMA extension",
+        "RoB 2",
+        "CINeMA",
+        "Newcastle-Ottawa scale",
+        "ROBINS-I",
+        "CTCAE",
+        "MedDRA",
+        "PROSPERO"
+      ],
+      "measurement_file": "_measurements/sr-ma-adverse-events-rct/E3.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:31 fixed version)",
+      "measured": {
+        "main_text_words": 5221,
+        "main_text_words_excluding_methods": 3342,
+        "section_words": {
+          "introduction": 464,
+          "methods": 1879,
+          "results": 1758,
+          "discussion": 1120,
+          "limitations": 193,
+          "conclusions": 83
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Objective",
+          "Design",
+          "Data sources",
+          "Study selection",
+          "Data extraction and synthesis",
+          "Results",
+          "Conclusions",
+          "Systematic review registration"
+        ],
+        "abstract_words": 355,
+        "extra_summaries": [
+          "box: What is already known on this topic / What this study adds (138 words)",
+          "visual abstract"
+        ],
+        "figures_main": 6,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "prisma_flow",
+          "network_geometry",
+          "forest_plot (NMA estimates vs placebo with CINeMA certainty, primary)",
+          "forest_plot (NMA estimates vs placebo with CINeMA certainty, secondary)",
+          "forest_plot (pairwise, by generation)",
+          "heatmap (pooled incidence by agent)",
+          "key_points_box"
+        ],
+        "references": 81,
+        "supplement_files": 1,
+        "supplement_types": [
+          "PRISMA 2020 and PRISMA-NMA checklists",
+          "protocol and search strategy",
+          "study characteristics",
+          "risk of bias (RoB 2; NOS/ROBINS-I for non-randomised)",
+          "network plots and forest plots",
+          "certainty (CINeMA) tables",
+          "sensitivity analyses",
+          "network meta-regression and subgroup analyses"
+        ],
+        "limitations_placement": "subsection 'Strengths and limitations of this study' of Discussion (193 words)",
+        "statements": [
+          "PROSPERO (abstract + Methods)",
+          "PRISMA 2020 + PRISMA-NMA",
+          "patient and public involvement",
+          "ethics (not required)",
+          "data availability (GitHub)",
+          "funding",
+          "role of funder",
+          "competing interests (ICMJE form)",
+          "contributors and guarantor",
+          "transparency declaration",
+          "dissemination to participants"
+        ],
+        "corrections": "Tool counted 7 figures; one is the unlabeled visual abstract graphic, so figures_main = 6. 'Conclusions' (83 words) is nested as the last Discussion subsection (BMJ house style); Discussion total 1120 includes it and the limitations subsection. Supplement listed twice by PMC; one file (Appendices 1-8). Only network meta-analysis exemplar."
+      }
+    },
+    {
+      "id": "E4",
+      "citation": "Cholesterol Treatment Trialists' Collaboration. Effect of statin therapy on muscle symptoms: an individual participant data meta-analysis of large-scale, randomised, double-blind trials. Lancet. 2022;400(10355):832-845.",
+      "doi": "10.1016/S0140-6736(22)01545-8",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613583/",
+      "pmcid": "PMC7613583",
+      "licence": "CC BY 4.0",
+      "journal": "The Lancet",
+      "year": 2022,
+      "article_type": "Articles",
+      "disease_area": "cardiovascular prevention (statin-associated muscle symptoms)",
+      "guideline_cited": [
+        "none (prespecified CTT protocol; MedDRA coding)"
+      ],
+      "measurement_file": "_measurements/sr-ma-adverse-events-rct/E4.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (author manuscript; post-12:31 fixed version)",
+      "measured": {
+        "main_text_words": 5104,
+        "main_text_words_excluding_methods": 4131,
+        "section_words": {
+          "introduction": 580,
+          "methods": 973,
+          "results": 1626,
+          "discussion": 1925,
+          "limitations": 300
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods",
+          "Findings",
+          "Interpretation",
+          "Funding"
+        ],
+        "abstract_words": 489,
+        "extra_summaries": [
+          "Research in context panel (513 words)"
+        ],
+        "figures_main": 4,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "forest_plot (muscle AEs, statin vs placebo and more vs less intensive)",
+          "forest_plot (by year of treatment)",
+          "absolute-risk figure (rate ratio and absolute excess per 1000 person-years by year)",
+          "forest_plot (subgroups by participant characteristics)",
+          "characteristics_table",
+          "results_table (effects by period of follow-up)",
+          "key_points_box"
+        ],
+        "references": 53,
+        "supplement_files": 1,
+        "supplement_types": [
+          "statin-intensity definitions",
+          "outcome definitions (MedDRA groupings)",
+          "trial exclusion criteria relevant to prior intolerance",
+          "per-trial results and heterogeneity by statin",
+          "additional subgroup analyses",
+          "creatine kinase distributions",
+          "myopathy and rhabdomyolysis"
+        ],
+        "limitations_placement": "unheaded paragraph in Discussion (about 300 words), preceded by a strengths paragraph",
+        "statements": [
+          "data sharing",
+          "declaration of interests",
+          "funding (abstract + back matter)",
+          "role of the funding source (Methods)",
+          "ethics approval (IPD)",
+          "contributors",
+          "acknowledgements"
+        ],
+        "corrections": "Tool counts 5 boxed-text elements; only 1 is a real panel (Research in context); the others are author-manuscript correspondence/correction notes. Collaborator list (646 words) correctly excluded as back matter. Limitations words estimated from the limitations paragraph inside Discussion. IPD collaboration of double-blind trials: no PRISMA, registration, RoB tool or flow diagram; included as the IPD variant. Body mentions 'arthritis' only in one reference title (not in title/abstract/keywords)."
+      }
+    },
+    {
+      "id": "E5",
+      "citation": "Wu C, Wan L, Wu Q, et al. The impact of immune checkpoint inhibitors on infection in patients with solid malignancies: a systematic review and meta-analysis of randomised controlled trials. EClinicalMedicine. 2026;98:104113.",
+      "doi": "10.1016/j.eclinm.2026.104113",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13453482/",
+      "pmcid": "PMC13453482",
+      "licence": "CC BY-NC-ND 4.0",
+      "journal": "eClinicalMedicine (Lancet Discovery Science)",
+      "year": 2026,
+      "article_type": "Articles",
+      "disease_area": "oncology (immune checkpoint inhibitor infection risk, solid tumours)",
+      "guideline_cited": [
+        "PRISMA",
+        "RoB 2",
+        "GRADE",
+        "CTCAE",
+        "PROSPERO"
+      ],
+      "measurement_file": "_measurements/sr-ma-adverse-events-rct/E5.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:31 fixed version)",
+      "measured": {
+        "main_text_words": 5139,
+        "main_text_words_excluding_methods": 3529,
+        "section_words": {
+          "introduction": 379,
+          "methods": 1610,
+          "results": 1846,
+          "discussion": 1304,
+          "limitations": 242
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods",
+          "Findings",
+          "Interpretation",
+          "Funding"
+        ],
+        "abstract_words": 320,
+        "extra_summaries": [
+          "Research in context panel (412 words)"
+        ],
+        "figures_main": 3,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "prisma_flow",
+          "forest_plot (any-grade infection, TEAE and TRAE)",
+          "forest_plot (subgroups by regimen and setting)",
+          "characteristics_table",
+          "sof_table (GRADE)",
+          "key_points_box"
+        ],
+        "references": 32,
+        "supplement_files": 1,
+        "supplement_types": [
+          "full search strategy",
+          "list of included trials",
+          "infection AE term list",
+          "additional forest plots (severity, regimen, ICI type, cancer type, site)",
+          "funnel plots, Egger test, trim-and-fill",
+          "leave-one-out sensitivity",
+          "RoB 2 summary"
+        ],
+        "limitations_placement": "unheaded paragraph near end of Discussion (242 words)",
+        "statements": [
+          "PROSPERO (abstract + Methods)",
+          "PRISMA",
+          "ethics (not required; Methods subsection)",
+          "role of the funding source (Methods)",
+          "funding (none; abstract)",
+          "contributors",
+          "data sharing (GitHub)",
+          "declaration of interests",
+          "acknowledgements"
+        ],
+        "corrections": "Supplement listed twice by PMC; one file. Ethics (62 words) and Role of the funding source (8 words) are Methods subsections and are inside the Methods total."
+      }
+    },
+    {
+      "id": "E6",
+      "citation": "Javaid M, Kadhim K, Bawamia B, et al. Bleeding risk in patients receiving omega-3 polyunsaturated fatty acids: a systematic review and meta-analysis of randomized clinical trials. J Am Heart Assoc. 2024;13(10):e032390.",
+      "doi": "10.1161/JAHA.123.032390",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11179820/",
+      "pmcid": "PMC11179820",
+      "licence": "CC BY-NC 4.0",
+      "journal": "Journal of the American Heart Association",
+      "year": 2024,
+      "article_type": "Original Research",
+      "disease_area": "cardiovascular prevention (omega-3 fatty acid bleeding risk)",
+      "guideline_cited": [
+        "PRISMA 2020"
+      ],
+      "measurement_file": "_measurements/sr-ma-adverse-events-rct/E6.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:31 fixed version)",
+      "measured": {
+        "main_text_words": 2286,
+        "main_text_words_excluding_methods": 1719,
+        "section_words": {
+          "introduction": 246,
+          "methods": 567,
+          "results": 506,
+          "discussion": 967,
+          "limitations": 90
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods and Results",
+          "Conclusions"
+        ],
+        "abstract_words": 259,
+        "extra_summaries": [
+          "Clinical Perspective box (88 words)"
+        ],
+        "figures_main": 4,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "prisma_flow",
+          "forest_plot (any bleeding)",
+          "forest_plot (hemorrhagic stroke, intracranial bleed)",
+          "meta_regression_bubble (EPA dose, antiplatelet use)",
+          "characteristics_table",
+          "key_points_box"
+        ],
+        "references": 40,
+        "supplement_files": 1,
+        "supplement_types": [
+          "funnel plot"
+        ],
+        "limitations_placement": "unheaded paragraph in Discussion (90 words)",
+        "statements": [
+          "PRISMA",
+          "data available on request",
+          "IRB waived",
+          "sources of funding (industry educational grant)",
+          "disclosures"
+        ],
+        "corrections": "Introduction has no heading (AHA style: untitled lead paragraphs). No registration and no risk-of-bias tool reported."
+      }
+    },
+    {
+      "id": "E7",
+      "citation": "Fedele D, Casuso Alvarez M, Maida A, et al. Prevention of atrial fibrillation with SGLT2 inhibitors across the spectrum of cardiovascular disorders: a meta-analysis of randomized controlled trials. Eur Heart J Cardiovasc Pharmacother. 2025;11(5):441-450.",
+      "doi": "10.1093/ehjcvp/pvaf040",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12342982/",
+      "pmcid": "PMC12342982",
+      "licence": "CC BY 4.0",
+      "journal": "European Heart Journal - Cardiovascular Pharmacotherapy",
+      "year": 2025,
+      "article_type": "Original Article",
+      "disease_area": "cardiology/diabetes (SGLT2 inhibitors and atrial fibrillation; unintended-benefit signal)",
+      "guideline_cited": [
+        "PRISMA",
+        "RoB 2",
+        "PROSPERO"
+      ],
+      "measurement_file": "_measurements/sr-ma-adverse-events-rct/E7.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:31 fixed version)",
+      "measured": {
+        "main_text_words": 2647,
+        "main_text_words_excluding_methods": 2127,
+        "section_words": {
+          "introduction": 212,
+          "methods": 520,
+          "results": 518,
+          "discussion": 1288,
+          "limitations": 190,
+          "conclusions": 109
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Aims",
+          "Methods and results",
+          "Conclusion"
+        ],
+        "abstract_words": 259,
+        "extra_summaries": [],
+        "figures_main": 5,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "prisma_flow",
+          "forest_plot",
+          "forest_plot (stratified by trial population)",
+          "meta_regression_bubble (LVEF)",
+          "mechanism schematic (no vocabulary id)",
+          "characteristics_table",
+          "results_table (univariate meta-regression)"
+        ],
+        "references": 35,
+        "supplement_files": 1,
+        "supplement_types": [
+          "PRISMA checklist",
+          "search strategy",
+          "RoB 2 figure",
+          "additional trial characteristics",
+          "funnel plot"
+        ],
+        "limitations_placement": "subsection 'Limitations of the study' of Discussion (190 words)",
+        "statements": [
+          "PROSPERO",
+          "PRISMA",
+          "funding (none)",
+          "data availability (on request)",
+          "conflict of interest"
+        ],
+        "corrections": "No venue summary box in the XML (the journal's graphical abstract, if any, is not in PMC). No ethics or contributions statement found."
+      }
+    },
+    {
+      "id": "E8",
+      "citation": "Tonegawa-Kuji R, Hou Y, Hu B, et al. Efficacy and safety of passive immunotherapies targeting amyloid beta in Alzheimer's disease: a systematic review and meta-analysis. PLoS Med. 2025;22(3):e1004568.",
+      "doi": "10.1371/journal.pmed.1004568",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12002640/",
+      "pmcid": "PMC12002640",
+      "licence": "CC BY 4.0",
+      "journal": "PLOS Medicine",
+      "year": 2025,
+      "article_type": "Research Article",
+      "disease_area": "neurology (anti-amyloid antibodies; ARIA and other harms in Alzheimer's disease)",
+      "guideline_cited": [
+        "PRISMA (PRISMA-P 2015 checklist supplied)",
+        "Cochrane Handbook v6.5",
+        "Jadad scale"
+      ],
+      "measurement_file": "_measurements/sr-ma-adverse-events-rct/E8.json",
+      "measurement_method": "jats_structure.py on Europe PMC XML (post-12:31 fixed version), section totals corrected by hand",
+      "measured": {
+        "main_text_words": 5394,
+        "main_text_words_excluding_methods": 4025,
+        "section_words": {
+          "introduction": 284,
+          "methods": 1369,
+          "results": 1782,
+          "discussion": 1959,
+          "limitations": 242
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Background",
+          "Methods and findings",
+          "Conclusions"
+        ],
+        "abstract_words": 350,
+        "extra_summaries": [
+          "Author summary (226 words)",
+          "toc blurb (31 words)"
+        ],
+        "figures_main": 5,
+        "tables_main": 5,
+        "display_item_kinds": [
+          "prisma_flow",
+          "forest_plot (CDR-SB)",
+          "forest_plot (ADAS-Cog)",
+          "forest_plot (death, ARIA-E, ARIA-H)",
+          "forest_plot (headache, fall, other symptoms)",
+          "characteristics_table (patients)",
+          "characteristics_table (trials and antibodies)",
+          "results_table (meta-regression, efficacy)",
+          "results_table (meta-regression, harms)",
+          "sensitivity_table"
+        ],
+        "references": 46,
+        "supplement_files": 52,
+        "supplement_types": [
+          "PRISMA-P checklist",
+          "search strategy",
+          "data extraction, SMD and NNT/NNH methods",
+          "AE definitions (serious AE, macrohemorrhage)",
+          "included trials table",
+          "funnel plots (efficacy, harms)",
+          "meta-regression bubble plots",
+          "additional forest plot (serious AEs)",
+          "biomarker and PET summaries",
+          "NNT/NNH table"
+        ],
+        "limitations_placement": "unheaded paragraph near end of Discussion (242 words)",
+        "statements": [
+          "PRISMA",
+          "data availability",
+          "funding statement with role of funder",
+          "competing interests",
+          "CRediT author contributions"
+        ],
+        "corrections": "PMC XML nests the 'Results' heading and its subsections (1782 words) inside Methods; reassigned to Results (tool: methods 3151, no results; main_text_words_excluding_methods 2243 -> 4025). Tool counts 110 supplementary entries: each of S1 File + S1-S51 Fig appears twice plus peer-review attachments; true count 52. Benefit-harm review (efficacy co-primary); included as the boundary exemplar and for the PLOS house style. No registration; quality by Jadad score."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "title",
+      "heading": "Title",
+      "aliases": [],
+      "order": 1,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [
+        {
+          "id": "design_in_title",
+          "description": "names the design (systematic review and/or meta-analysis; IPD meta-analysis; network meta-analysis)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "systematic review",
+            "meta-?analysis"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "harm_outcome_in_title",
+          "description": "names the harm or adverse-event outcome (or the unintended effect) being pooled",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "adverse (events?|effects?|drug reactions?)",
+            "\\b(risk|safety|harms?|toxicit\\w*|bleeding|ha?emorrhage|infection|side effects?)\\b",
+            "muscle symptoms",
+            "atrial fibrillation"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "drug_or_class_in_title",
+          "description": "names the drug or drug class",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "inhibitors?|agonists?|antibod(y|ies)|statins?|anticoagula\\w+|therap(y|ies)|immunotherap\\w+|fatty acids"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "randomized_in_title",
+          "description": "states that the evidence base is randomised trials",
+          "level": "typical",
+          "frequency": "4/8",
+          "detect": [
+            "randomi[sz]ed",
+            "\\bRCTs?\\b",
+            "double-blind trials"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Title length 14-23 words when JAMA subtitles are counted. JAMA puts the design in a subtitle after a colon; BMJ, Lancet family, AHA, ESC and PLOS use 'drug-outcome: a systematic review and meta-analysis (of randomised controlled trials)'.",
+      "basis": "frequency"
+    },
+    {
+      "id": "abstract",
+      "heading": "Abstract",
+      "aliases": [
+        "Summary"
+      ],
+      "order": 2,
+      "level": "required",
+      "words": {
+        "min": 250,
+        "typical": 350,
+        "max": 500
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "Structured in 8/8; heading set is venue house style (see abstract.heading_sets). Lancet-family abstracts are labelled 'Summary' on the page and run longest (320-489 words).",
+      "basis": "frequency"
+    },
+    {
+      "id": "key_points",
+      "heading": "Venue summary layer (Key Points / Research in context / What this study adds / Clinical Perspective / Author summary)",
+      "aliases": [
+        "Key Points",
+        "Research in context",
+        "What is already known on this topic",
+        "What this study adds",
+        "Clinical Perspective",
+        "Author summary"
+      ],
+      "order": 3,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "7/8 carry a venue-specific summary layer (only E7, EHJ-CVP, has none in the XML). Form and length are set by the venue profile: JAMA Key Points 77-85 words (Question/Findings/Meaning); BMJ box 138 words; Lancet-family Research in context 412-513 words (Evidence before this study / Added value / Implications; includes a search description); AHA Clinical Perspective 88 words; PLOS Author summary 226 words.",
+      "basis": "frequency",
+      "venue_governed": true
+    },
+    {
+      "id": "introduction",
+      "heading": "Introduction",
+      "aliases": [
+        "Background",
+        "(untitled lead paragraphs, AHA style)"
+      ],
+      "order": 4,
+      "level": "required",
+      "words": {
+        "min": 150,
+        "typical": 300,
+        "max": 600
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "harm_signal_context",
+          "description": "why the harm is suspected or uncertain (case reports, label warnings, pharmacovigilance, observational signals, mechanism) and why RCT evidence is needed",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "label|FDA|EMA|warning|pharmacovigilance|post-?marketing|case reports?|observational|concern",
+            "unclear|uncertain|conflicting|remains? (unknown|controversial)|lack of"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "prior_reviews_gap",
+          "description": "what earlier reviews/meta-analyses covered and the gap (new trials, harm not pooled, class not compared)",
+          "level": "typical",
+          "frequency": "5/8",
+          "detect": [
+            "(previous|prior|earlier|existing) (systematic reviews?|meta-analys[ie]s|reviews?)",
+            "first meta-analysis",
+            "meta-analys[ie]s (have|has)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "objective_statement",
+          "description": "final paragraph states the objective (harm outcome, drug/class, comparator, RCT evidence base)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "we aimed|aim(ed)? (of|to)|objectives? (of|was|were)|we (therefore )?(conducted|performed|undertook|sought)|this (study|meta-analysis|review) (aims|aimed|reports|was)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Short: 2-5 paragraphs. JAMA intros are the shortest (154-364 words).",
+      "basis": "frequency"
+    },
+    {
+      "id": "methods",
+      "heading": "Methods",
+      "aliases": [
+        "Materials and methods",
+        "METHODS"
+      ],
+      "order": 5,
+      "level": "required",
+      "words": {
+        "min": 500,
+        "typical": 850,
+        "max": 1900
+      },
+      "subsections": [
+        {
+          "heading": "Protocol and registration",
+          "aliases": [
+            "Protocol registration",
+            "Registration"
+          ],
+          "aliases_regex": [
+            "protocol (and )?registration",
+            "^registration"
+          ],
+          "level": "optional",
+          "frequency": "content 4/8; own heading 1/8",
+          "words": null,
+          "notes": "PRISMA 2020 item 24a. Usually one sentence at the top of Methods (registry + ID + PRISMA adherence). Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Search strategy and selection criteria",
+          "aliases": [
+            "Data sources and searches",
+            "Data Sources and Search Strategy",
+            "Data Sources and Study Selection",
+            "Search strategy",
+            "Search strategy and selection of the studies",
+            "Information sources"
+          ],
+          "aliases_regex": [
+            "search (strategy|methods)",
+            "data sources",
+            "information sources",
+            "selection criteria",
+            "study selection"
+          ],
+          "level": "required",
+          "frequency": "own heading 7/8 (E6 unheaded)",
+          "words": {
+            "min": 100,
+            "typical": 250,
+            "max": 550
+          },
+          "notes": "Databases (>=2 in 7/8), date of last search, trial-registry search in 4/8. Lancet-family heading is fixed: 'Search strategy and selection criteria'.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Eligibility criteria and study selection",
+          "aliases": [
+            "Eligibility criteria",
+            "Study selection",
+            "Eligibility Criteria, Data Extraction, and Measurements"
+          ],
+          "aliases_regex": [
+            "eligibility",
+            "inclusion (and exclusion )?criteria",
+            "study selection"
+          ],
+          "level": "optional",
+          "frequency": "content 8/8; own heading 2/8 (otherwise merged into the search subsection)",
+          "words": {
+            "min": 150,
+            "typical": 200,
+            "max": 250
+          },
+          "notes": "PICO for harms: population, drug/class, comparator (placebo, active, usual care), harm outcome reported, RCT design; minimum size or follow-up filters appear in 2/8. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Data extraction",
+          "aliases": [
+            "Data extraction and risk of bias assessment",
+            "Data Extraction and Quality Assessment"
+          ],
+          "aliases_regex": [
+            "data (extraction|collection|items)",
+            "extraction"
+          ],
+          "level": "typical",
+          "frequency": "own heading 4/8; content (dual independent extraction) 7/8",
+          "words": {
+            "min": 150,
+            "typical": 150,
+            "max": 250
+          },
+          "notes": "Arm-level event counts and denominators for each harm; who extracted, in duplicate.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Outcomes and adverse-event definitions",
+          "aliases": [
+            "Outcomes",
+            "Measures of effect",
+            "Outcomes and modifiers",
+            "Outcome classification",
+            "Intervention definition"
+          ],
+          "aliases_regex": [
+            "outcomes?",
+            "measures? of effect",
+            "adverse[- ]event definitions?",
+            "outcome classification"
+          ],
+          "level": "optional",
+          "frequency": "content 7/8; own heading 3/8",
+          "words": {
+            "min": 50,
+            "typical": 200,
+            "max": 500
+          },
+          "notes": "Harm dictionary (CTCAE, MedDRA, ISTH, trial definitions), grade/seriousness (any grade, grade >=3, serious AE), treatment-related vs treatment-emergent. PRISMA harms and Cochrane Handbook ch. 19 require stating how AEs were defined and ascertained. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Risk of bias assessment",
+          "aliases": [
+            "Risk of Bias Assessment",
+            "Quality assessment"
+          ],
+          "aliases_regex": [
+            "risk[- ]of[- ]bias",
+            "quality assessment",
+            "methodological quality"
+          ],
+          "level": "optional",
+          "frequency": "content 6/8; own heading or co-heading 3/8",
+          "words": {
+            "min": 100,
+            "typical": 100,
+            "max": 100
+          },
+          "notes": "Words from the one exemplar with its own heading (E2). RoB 2 in 4/8, RoB 1 in 1/8, Jadad in 1/8; none in E4 (IPD of double-blind trials) and E6. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Certainty of evidence",
+          "aliases": [
+            "Certainty of evidence assessment",
+            "GRADE"
+          ],
+          "aliases_regex": [
+            "certainty",
+            "\\bGRADE\\b",
+            "CINeMA",
+            "quality of (the )?evidence"
+          ],
+          "level": "optional",
+          "frequency": "content 2/8 (GRADE 1, CINeMA 1); own heading 1/8",
+          "words": {
+            "min": 50,
+            "typical": 50,
+            "max": 50
+          },
+          "notes": "Mandated by PRISMA 2020 items 15 and 22 though most exemplars omit it; Amani should always include it. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Statistical analysis",
+          "aliases": [
+            "Data synthesis",
+            "Data analysis",
+            "Data synthesis and statistical analysis",
+            "Statistical Analysis"
+          ],
+          "aliases_regex": [
+            "statistical analys[ie]s",
+            "data (synthesis|analysis)",
+            "synthesis"
+          ],
+          "level": "required",
+          "frequency": "8/8",
+          "words": {
+            "min": 150,
+            "typical": 350,
+            "max": 1000
+          },
+          "notes": "Effect measure (RR or rate ratio 6/8, OR 2/8; O-E/Var in the IPD paper), model (random effects 7/8; inverse-variance fixed in the IPD paper), I2/tau2, reporting-bias tests, subgroup/meta-regression, sensitivity, software.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Subgroup analyses and meta-regression",
+          "aliases": [
+            "Meta-regression and subgroup analyses",
+            "Subgroup Analysis"
+          ],
+          "aliases_regex": [
+            "subgroup",
+            "meta-?regression",
+            "effect modif"
+          ],
+          "level": "optional",
+          "frequency": "content 8/8; own heading 1/8",
+          "words": null,
+          "notes": "By agent, dose, comparator type, population, follow-up. PRISMA 13e. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Sensitivity analyses",
+          "aliases": [
+            "Sensitivity analyses"
+          ],
+          "aliases_regex": [
+            "sensitivity analys[ie]s",
+            "leave[- ]one[- ]out"
+          ],
+          "level": "typical",
+          "frequency": "content 6/8; own heading 1/8",
+          "words": null,
+          "notes": "Leave-one-out, excluding high-RoB or zero-event trials, alternative outcome definitions, fixed vs random effects.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Role of the funding source",
+          "aliases": [
+            "Role of the funder"
+          ],
+          "aliases_regex": [
+            "role of the fund"
+          ],
+          "level": "optional",
+          "frequency": "2/8 (Lancet family, inside Methods)",
+          "words": {
+            "min": 8,
+            "typical": 15,
+            "max": 22
+          },
+          "notes": "Exact words (rounding to 50 would give 0). Lancet house style places it as the last Methods subsection.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Patient and public involvement",
+          "aliases": [],
+          "aliases_regex": [
+            "patient and public involvement"
+          ],
+          "level": "optional",
+          "frequency": "1/8 (BMJ only; venue-mandated)",
+          "words": {
+            "min": 27,
+            "typical": 27,
+            "max": 27
+          },
+          "notes": "Required by The BMJ. Exact words.",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "registration_id",
+          "description": "protocol registration with registry and ID",
+          "level": "required",
+          "frequency": "4/8",
+          "detect": [
+            "PROSPERO",
+            "CRD ?42\\d{6,}",
+            "osf\\.io",
+            "INPLASY"
+          ],
+          "basis": "guideline"
+        },
+        {
+          "id": "reporting_guideline_statement",
+          "description": "states adherence to PRISMA (2020; plus PRISMA-NMA for networks; PRISMA harms recommended)",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "\\bPRISMA\\b",
+            "Preferred Reporting Items for Systematic"
+          ],
+          "basis": "both"
+        },
+        {
+          "id": "databases_named",
+          "description": "bibliographic databases searched, named",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "MEDLINE|PubMed|Embase|CENTRAL|Cochrane Central|Scopus|Web of Science"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "search_dates",
+          "description": "search period / date of last search",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "inception",
+            "(through|until|up to|to|on) [A-Z][a-z]+ \\d{1,2},? (19|20)\\d\\d",
+            "(through|until|up to) [A-Z][a-z]+ (19|20)\\d\\d"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "registry_or_regulatory_search",
+          "description": "trial registries or regulatory sources searched for unpublished harms data",
+          "level": "typical",
+          "frequency": "4/8",
+          "detect": [
+            "ClinicalTrials\\.gov",
+            "ICTRP",
+            "trial regist(er|ries|ry)",
+            "EU Clinical Trials",
+            "clinical study reports?"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "dual_independent_review",
+          "description": "screening/extraction by two reviewers independently",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "independent(ly)?",
+            "two (independent )?(reviewers|investigators|authors|researchers)",
+            "in duplicate",
+            "pairs of reviewers"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "ae_definition_dictionary",
+          "description": "harm outcomes defined (CTCAE, MedDRA, ISTH/BARC bleeding, trial definitions)",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "CTCAE|Common Terminology Criteria",
+            "MedDRA|Medical Dictionary for Regulatory Activities",
+            "\\bISTH\\b|\\bBARC\\b",
+            "defined (as|according to)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "ae_grade_seriousness",
+          "description": "grade/seriousness or attribution of AEs (any grade, grade >=3, serious, treatment-related vs treatment-emergent)",
+          "level": "typical",
+          "frequency": "5/8",
+          "detect": [
+            "any[- ]grade",
+            "grade (3|≥3|>=3|3 or higher)",
+            "serious adverse",
+            "treatment[- ](related|emergent)",
+            "\\bTRAEs?\\b|\\bTEAEs?\\b"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "rob_tool",
+          "description": "risk-of-bias tool named",
+          "level": "required",
+          "frequency": "6/8",
+          "detect": [
+            "RoB ?2",
+            "risk[- ]of[- ]bias",
+            "Cochrane (Collaboration.s )?tool",
+            "Jadad"
+          ],
+          "basis": "guideline"
+        },
+        {
+          "id": "effect_measure",
+          "description": "summary effect measure named (RR, OR, rate ratio, Peto OR, risk difference)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "risk ratios?|relative risks?|odds ratios?|rate ratios?|hazard ratios?|risk differences?",
+            "\\b(RR|OR|IRR|HR)s?\\b"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "pooling_model",
+          "description": "pooling model named (random effects, DerSimonian-Laird/REML/HKSJ, fixed/inverse-variance, Mantel-Haenszel, Peto)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "random[- ]effects?",
+            "fixed[- ]effects?|common[- ]effect",
+            "inverse[- ]variance",
+            "Mantel",
+            "\\bPeto\\b",
+            "DerSimonian",
+            "REML|restricted maximum",
+            "Hartung|Knapp"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "heterogeneity_method",
+          "description": "heterogeneity statistic (I2, tau2, Cochran Q)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "I ?2|I²",
+            "tau ?2|τ²",
+            "Cochran",
+            "heterogeneity"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "reporting_bias_method",
+          "description": "small-study/publication bias assessment (funnel plot, Egger, trim-and-fill)",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "funnel",
+            "Egger",
+            "small[- ]study",
+            "trim[- ]and[- ]fill",
+            "publication bias"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "zero_event_handling",
+          "description": "handling of zero-event / rare-event trials (continuity correction, Peto, exclusion of double-zero trials)",
+          "level": "optional",
+          "frequency": "2/8",
+          "detect": [
+            "zero[- ]events?",
+            "double[- ]zero",
+            "continuity correction",
+            "\\bPeto\\b",
+            "Mantel"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "absolute_effect_method",
+          "description": "absolute effects (risk difference, events per 1000, NNH)",
+          "level": "typical",
+          "frequency": "4/8",
+          "detect": [
+            "risk differences?",
+            "per 1,?000",
+            "per 10 ?000",
+            "number needed to harm|\\bNNH\\b",
+            "absolute (risk|rate|excess)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "certainty_method",
+          "description": "certainty of evidence framework (GRADE; CINeMA for NMA)",
+          "level": "required",
+          "frequency": "2/8",
+          "detect": [
+            "\\bGRADE\\b",
+            "CINeMA",
+            "certainty of (the )?evidence"
+          ],
+          "basis": "guideline"
+        },
+        {
+          "id": "software",
+          "description": "software and packages named",
+          "level": "typical",
+          "frequency": "6/8",
+          "detect": [
+            "\\bR (version|\\d\\.\\d)",
+            "RevMan|Review Manager",
+            "Stata",
+            "metafor|\\bmeta\\b package|netmeta",
+            "jamovi",
+            "\\bSAS\\b"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Methods length is the main venue split: JAMA/AHA/ESC 520-720 words; BMJ, Lancet family and PLOS 970-1900 words with many subheadings (BMJ: 12).",
+      "basis": "frequency"
+    },
+    {
+      "id": "results",
+      "heading": "Results",
+      "aliases": [
+        "RESULTS",
+        "Findings"
+      ],
+      "order": 6,
+      "level": "required",
+      "words": {
+        "min": 500,
+        "typical": 1400,
+        "max": 1850
+      },
+      "subsections": [
+        {
+          "heading": "Study selection and characteristics",
+          "aliases": [
+            "Eligible Studies and Study Characteristics",
+            "Systematic review and study characteristics",
+            "Overview of Included and Analyzed Trials"
+          ],
+          "aliases_regex": [
+            "study (selection|characteristics)",
+            "(eligible|included) (studies|trials)",
+            "search results",
+            "overview"
+          ],
+          "level": "optional",
+          "frequency": "content 8/8 (first Results paragraph); own heading 2/8",
+          "words": {
+            "min": 250,
+            "typical": 300,
+            "max": 300
+          },
+          "notes": "Records identified, screened, trials and participants included; trial, drug and follow-up characteristics (point to Table 1). Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Risk of bias",
+          "aliases": [
+            "Risk of bias and certainty of evidence"
+          ],
+          "aliases_regex": [
+            "risk[- ]of[- ]bias",
+            "quality of (included )?(trials|studies)",
+            "certainty"
+          ],
+          "level": "optional",
+          "frequency": "content 6/8; own heading 2/8",
+          "words": {
+            "min": 50,
+            "typical": 100,
+            "max": 150
+          },
+          "notes": "PRISMA 18; usually 1-3 sentences pointing to a supplementary figure. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Primary harm outcome",
+          "aliases": [
+            "Meta-analysis of the Outcomes",
+            "Primary outcomes",
+            "Intracranial Hemorrhage"
+          ],
+          "aliases_regex": [
+            "primary (outcome|endpoint)s?",
+            "meta-analysis of",
+            "outcomes?"
+          ],
+          "level": "typical",
+          "frequency": "content 8/8; own heading 4/8 (JAMA, BMJ, PLOS)",
+          "words": {
+            "min": 100,
+            "typical": 350,
+            "max": 400
+          },
+          "notes": "Pooled ratio with 95% CI, events per arm, I2, then absolute effect where reported. Words: E1, E2, E3 primary-outcome subsections and E8 safety-outcome subsection. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Secondary harm outcomes",
+          "aliases": [
+            "Secondary outcomes",
+            "Secondary outcomes (safety outcomes)",
+            "Major Hemorrhage"
+          ],
+          "aliases_regex": [
+            "secondary (outcome|endpoint)s?",
+            "other (adverse|outcomes)",
+            "specific (adverse )?events"
+          ],
+          "level": "typical",
+          "frequency": "content 6/8; own heading 3/8",
+          "words": null,
+          "notes": "Grade >=3 / serious, specific AE types, fatal events.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Subgroup and meta-regression analyses",
+          "aliases": [
+            "Subgroup Analysis",
+            "Sensitivity analysis and network meta-regression results"
+          ],
+          "aliases_regex": [
+            "subgroup",
+            "meta-?regression",
+            "stratif"
+          ],
+          "level": "optional",
+          "frequency": "content 8/8; own heading 2/8",
+          "words": {
+            "min": 300,
+            "typical": 350,
+            "max": 450
+          },
+          "notes": "Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Sensitivity analyses and reporting bias",
+          "aliases": [
+            "Sensitivity analyses"
+          ],
+          "aliases_regex": [
+            "sensitivity",
+            "publication bias",
+            "small[- ]study"
+          ],
+          "level": "typical",
+          "frequency": "content 7/8 (reporting bias) and 6/8 (sensitivity); own heading 2/8",
+          "words": null,
+          "notes": "",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "selection_numbers",
+          "description": "records identified/screened and trials included",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "\\d[\\d,]* (records|citations|articles|reports)",
+            "\\d+ (trials|RCTs|studies) (were )?(included|eligible|met)",
+            "(identified|screened|retrieved) \\d"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "n_participants",
+          "description": "total participants (and per arm or per comparison)",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "\\d[\\d,  ]{2,} (participants|patients|individuals|adults)",
+            "n ?= ?\\d[\\d,]{2,}"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "pooled_ratio_ci",
+          "description": "pooled relative effect with 95% CI for each harm outcome",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "\\b(RR|OR|IRR|HR|risk ratio|odds ratio|rate ratio)\\b[^.]{0,40}95% ?(CI|confidence)",
+            "95% ?CI"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "heterogeneity_reported",
+          "description": "I2 (and/or tau2, Q p value) for pooled estimates",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "I ?2 ?=|I² ?=|I2,",
+            "heterogeneity"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "reporting_bias_result",
+          "description": "funnel/Egger result",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "Egger",
+            "funnel",
+            "publication bias",
+            "small[- ]study"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "rob_result",
+          "description": "summary of risk-of-bias judgements",
+          "level": "required",
+          "frequency": "6/8",
+          "detect": [
+            "low risk of bias",
+            "some concerns",
+            "high risk of bias",
+            "risk[- ]of[- ]bias",
+            "Jadad"
+          ],
+          "basis": "guideline"
+        },
+        {
+          "id": "absolute_effects",
+          "description": "absolute effect (risk difference, events per 1000, NNH, pooled incidence)",
+          "level": "typical",
+          "frequency": "4/8",
+          "detect": [
+            "risk difference",
+            "per 1,?000",
+            "number needed to harm|\\bNNH\\b",
+            "absolute (risk|excess|rate|difference|increase)",
+            "\\bARD\\b"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "certainty_result",
+          "description": "certainty rating per outcome (GRADE/CINeMA)",
+          "level": "required",
+          "frequency": "2/8",
+          "detect": [
+            "(high|moderate|low|very low)[- ]certainty",
+            "\\bGRADE\\b",
+            "CINeMA"
+          ],
+          "basis": "guideline"
+        }
+      ],
+      "notes": "JAMA, BMJ and PLOS use outcome-wise subheadings; Lancet family, AHA and ESC run Results as unheaded paragraphs (4/8).",
+      "basis": "frequency"
+    },
+    {
+      "id": "discussion",
+      "heading": "Discussion",
+      "aliases": [
+        "DISCUSSION",
+        "Comment"
+      ],
+      "order": 7,
+      "level": "required",
+      "words": {
+        "min": 600,
+        "typical": 1200,
+        "max": 1950
+      },
+      "subsections": [
+        {
+          "heading": "Comparison with other studies",
+          "aliases": [
+            "Comparison with previous studies"
+          ],
+          "aliases_regex": [
+            "comparison with (other|previous|prior)",
+            "previous (studies|literature)"
+          ],
+          "level": "optional",
+          "frequency": "content 7/8; own heading 1/8 (BMJ)",
+          "words": {
+            "min": 250,
+            "typical": 250,
+            "max": 250
+          },
+          "notes": "Earlier meta-analyses, observational and pharmacovigilance data. Heading level set by heading frequency in the 2026-10-13 normalisation pass; the content itself is enforced by this section's elements.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Clinical implications",
+          "aliases": [
+            "Clinical implications",
+            "Clinical relevance and future perspectives",
+            "Implications for practice"
+          ],
+          "aliases_regex": [
+            "implications?",
+            "clinical relevance",
+            "future (perspectives|research)"
+          ],
+          "level": "typical",
+          "frequency": "content 5/8; own heading 2/8",
+          "words": {
+            "min": 400,
+            "typical": 400,
+            "max": 400
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Mechanisms",
+          "aliases": [
+            "The interaction of ... with the heterogeneous pathogenesis of ..."
+          ],
+          "aliases_regex": [
+            "mechanis",
+            "pathogenesis",
+            "biolog(ic|ical) plausib"
+          ],
+          "level": "typical",
+          "frequency": "content 5/8; own heading 1/8",
+          "words": null,
+          "notes": "Biological plausibility of the harm or of the unintended benefit.",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "principal_findings_first",
+          "description": "opens by restating the main pooled harm finding",
+          "level": "required",
+          "frequency": "8/8",
+          "detect": [
+            "(this|our|the present|the current) (systematic review|meta-analysis|study|analysis)",
+            "we found|main finding|principal finding|in summary"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "comparison_previous",
+          "description": "comparison with earlier reviews/observational/pharmacovigilance evidence",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "previous (meta-analys|stud|review|report)",
+            "prior (meta-analys|stud)",
+            "consistent with|in line with|in agreement with"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "strengths_stated",
+          "description": "explicit strengths statement",
+          "level": "optional",
+          "frequency": "3/8",
+          "detect": [
+            "strengths?"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "future_research",
+          "description": "what further trials/IPD/surveillance are needed",
+          "level": "optional",
+          "frequency": "3/8",
+          "detect": [
+            "future (research|studies|trials)",
+            "further (research|studies|trials)",
+            "(are|is) needed"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Limitations sit inside Discussion in 8/8 (see limitations). Lancet-family, AHA and PLOS end with an unheaded concluding paragraph.",
+      "basis": "frequency"
+    },
+    {
+      "id": "limitations",
+      "heading": "Limitations",
+      "aliases": [
+        "Strengths and limitations of this study",
+        "Limitations and Strength",
+        "Limitations of the study",
+        "(unheaded paragraph in Discussion)"
+      ],
+      "order": 8,
+      "level": "required",
+      "words": {
+        "min": 100,
+        "typical": 200,
+        "max": 300
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "ae_ascertainment_conceded",
+          "description": "concedes heterogeneous/non-systematic AE definition and ascertainment",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "definitions? (of [a-z ]+ )?(varied|differ)",
+            "(reported|recorded) as (an )?adverse event",
+            "not (systematically|standardi[sz]ed)",
+            "ascertainment",
+            "under-?report"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Never a top-level section here: headed Discussion subsection in 4/8 (JAMA, BMJ, ESC), unheaded paragraph in 4/8 (Lancet family, AHA, PLOS).",
+      "basis": "frequency"
+    },
+    {
+      "id": "conclusions",
+      "heading": "Conclusions",
+      "aliases": [
+        "Conclusion"
+      ],
+      "order": 9,
+      "level": "typical",
+      "words": {
+        "min": 50,
+        "typical": 100,
+        "max": 100
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "Separate top-level section in 3/8 (JAMA x2, ESC), nested as last Discussion subsection in BMJ (1/8); absent as a heading in Lancet family, AHA, PLOS (4/8). Measured 56-109 words.",
+      "basis": "frequency"
+    },
+    {
+      "id": "data_availability",
+      "heading": "Data availability",
+      "aliases": [
+        "Data sharing",
+        "Data sharing statement",
+        "Data Availability",
+        "Data availability statement",
+        "Data Sharing Statement (supplement)"
+      ],
+      "order": 10,
+      "level": "required",
+      "words": {
+        "min": 13,
+        "typical": 22,
+        "max": 84
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "data_location",
+          "description": "where extracted data/code can be obtained (repository, supplement, on request)",
+          "level": "required",
+          "frequency": "7/8",
+          "detect": [
+            "github\\.com|zenodo|figshare|osf\\.io",
+            "(available|provided) (in|from|on|upon)",
+            "reasonable request",
+            "publicly available"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "7/8 (missing in E1, JAMA 2022). Words exact (not rounded), from the 5 exemplars with a titled section. JAMA places it as a 'Data Sharing Statement' supplement file; 2/8 point to GitHub.",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "heading": "Funding",
+      "aliases": [
+        "Funding/Support",
+        "Sources of Funding",
+        "Funding Statement",
+        "Role of the Funder/Sponsor"
+      ],
+      "order": 11,
+      "level": "required",
+      "words": {
+        "min": 1,
+        "typical": 10,
+        "max": 151
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "role_of_funder",
+          "description": "funder had no role in design, analysis, writing, decision to submit",
+          "level": "typical",
+          "frequency": "5/8",
+          "detect": [
+            "role of the fund",
+            "funders? had no role",
+            "no (funding|funding source)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "7/8; words exact from 3 titled sections (E8 includes role of funder). Lancet family also puts 'Funding' as the last abstract heading.",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "heading": "Declaration of interests",
+      "aliases": [
+        "Conflict of Interest Disclosures",
+        "Competing interests",
+        "Disclosures",
+        "Conflict of interest"
+      ],
+      "order": 12,
+      "level": "required",
+      "words": {
+        "min": 1,
+        "typical": 5,
+        "max": 104
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "8/8; words exact from 3 titled sections (most are footnotes the tool does not count).",
+      "basis": "frequency"
+    },
+    {
+      "id": "contributions",
+      "heading": "Contributors",
+      "aliases": [
+        "Author Contributions",
+        "Author contributions (CRediT)"
+      ],
+      "order": 13,
+      "level": "typical",
+      "words": {
+        "min": 115,
+        "typical": 150,
+        "max": 184
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "6/8; BMJ adds a guarantor statement. Words exact from 2 titled sections.",
+      "basis": "frequency"
+    },
+    {
+      "id": "ethics",
+      "heading": "Ethics",
+      "aliases": [
+        "Ethics statements",
+        "Ethical approval",
+        "Ethics (Methods subsection)"
+      ],
+      "order": 14,
+      "level": "typical",
+      "words": {
+        "min": 2,
+        "typical": 32,
+        "max": 62
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "ethics_not_required",
+          "description": "approval not required for aggregate published data (IPD analyses report approval)",
+          "level": "typical",
+          "frequency": "5/8",
+          "detect": [
+            "(ethic\\w*|IRB|institutional review board)[^.]{0,120}(not required|waived|not needed|exempt)",
+            "ethics approval (was )?granted",
+            "no (human )?participants"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "5/8; placed in Methods (E2, E5, E6) or back matter (E3); the IPD collaboration (E4) reports NHS HRA approval.",
+      "basis": "frequency"
+    },
+    {
+      "id": "acknowledgements",
+      "heading": "Acknowledgements",
+      "aliases": [
+        "Acknowledgments",
+        "Additional Contributions"
+      ],
+      "order": 15,
+      "level": "optional",
+      "words": {
+        "min": 7,
+        "typical": 68,
+        "max": 124
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "3/8; words exact.",
+      "basis": "frequency"
+    },
+    {
+      "id": "references",
+      "heading": "References",
+      "aliases": [],
+      "order": 16,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "32-81 references (median 43).",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplement",
+      "heading": "Supplementary material",
+      "aliases": [
+        "Supplement 1",
+        "Supplementary appendix",
+        "Supporting information",
+        "Appendix A. Supplementary data"
+      ],
+      "order": 17,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/8. Usually one bundled file (6/8); PLOS splits into S1 File + S1-S51 Fig.",
+      "basis": "frequency"
+    }
+  ],
+  "section_order_variants": [
+    {
+      "name": "IMRaD + separate Conclusions",
+      "order": [
+        "introduction",
+        "methods",
+        "results",
+        "discussion",
+        "conclusions"
+      ],
+      "seen_in": [
+        "E1",
+        "E2",
+        "E7"
+      ]
+    },
+    {
+      "name": "IMRaD without top-level Conclusions (BMJ nests Conclusions in Discussion; Lancet family, AHA, PLOS end Discussion with an unheaded concluding paragraph; AHA introduction is untitled)",
+      "order": [
+        "introduction",
+        "methods",
+        "results",
+        "discussion"
+      ],
+      "seen_in": [
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    }
+  ],
+  "main_text_words": {
+    "min": 2300,
+    "typical": 4200,
+    "max": 5400,
+    "counted": [
+      "introduction",
+      "methods",
+      "results",
+      "discussion",
+      "limitations",
+      "conclusions"
+    ],
+    "methods_counted": true,
+    "notes": "Bimodal by venue: JAMA Netw Open, JAHA, EHJ-CVP 2286-3288 words (JAMA Netw Open author instructions cap Original Investigations at about 3000 words; not re-verified in this session); BMJ, Lancet, eClinicalMedicine, PLOS Medicine 5104-5394 words. Excluding Methods: 1600-4150 (median 2950)."
+  },
+  "abstract": {
+    "format": "structured",
+    "words": {
+      "min": 250,
+      "typical": 350,
+      "max": 500
+    },
+    "heading_sets": [
+      {
+        "family": "JAMA",
+        "headings": [
+          "Importance",
+          "Objective",
+          "Data Sources",
+          "Study Selection",
+          "Data Extraction and Synthesis",
+          "Main Outcomes and Measures",
+          "Results",
+          "Conclusions and Relevance"
+        ],
+        "seen_in": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "family": "BMJ",
+        "headings": [
+          "Objective",
+          "Design",
+          "Data sources",
+          "Study selection",
+          "Data extraction and synthesis",
+          "Results",
+          "Conclusions",
+          "Systematic review registration"
+        ],
+        "seen_in": [
+          "E3"
+        ]
+      },
+      {
+        "family": "Lancet family",
+        "headings": [
+          "Background",
+          "Methods",
+          "Findings",
+          "Interpretation",
+          "Funding"
+        ],
+        "seen_in": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "family": "AHA (JAHA)",
+        "headings": [
+          "Background",
+          "Methods and Results",
+          "Conclusions"
+        ],
+        "seen_in": [
+          "E6"
+        ]
+      },
+      {
+        "family": "ESC/OUP (EHJ family)",
+        "headings": [
+          "Aims",
+          "Methods and results",
+          "Conclusion"
+        ],
+        "seen_in": [
+          "E7"
+        ]
+      },
+      {
+        "family": "PLOS Medicine",
+        "headings": [
+          "Background",
+          "Methods and findings",
+          "Conclusions"
+        ],
+        "seen_in": [
+          "E8"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "id": "n_studies_participants",
+        "description": "number of included trials and participants",
+        "level": "required",
+        "frequency": "8/8",
+        "detect": [
+          "\\d+ (phase (II|III) )?(randomi[sz]ed )?(controlled |clinical |double-blind )?(trials|RCTs|studies)",
+          "\\d[\\d,  ]{2,} (participants|patients|individuals|adults)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "pooled_effect_ci",
+        "description": "pooled relative effect with 95% CI for the primary harm",
+        "level": "required",
+        "frequency": "8/8",
+        "detect": [
+          "\\b(RR|OR|IRR|HR|risk ratio|odds ratio|rate ratio)\\b[^.]{0,40}(95% ?CI|95% confidence)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "eligibility",
+        "description": "eligible trial designs, drugs, comparators (PRISMA-A item 3)",
+        "level": "required",
+        "frequency": "8/8",
+        "detect": [
+          "eligible",
+          "were included",
+          "(randomi[sz]ed|placebo-controlled)[^.]{0,60}(comparing|evaluating|of|that compared)"
+        ],
+        "basis": "both"
+      },
+      {
+        "id": "information_sources_dates",
+        "description": "databases and date of last search (PRISMA-A item 4)",
+        "level": "required",
+        "frequency": "databases 6/8; date 6/8",
+        "detect": [
+          "MEDLINE|PubMed|Embase|CENTRAL|Cochrane|Scopus|Web of Science|ClinicalTrials\\.gov|databases",
+          "(inception|through|until|up to|to) [^.]{0,30}(19|20)\\d\\d"
+        ],
+        "basis": "guideline"
+      },
+      {
+        "id": "synthesis_method",
+        "description": "synthesis model (PRISMA-A item 6)",
+        "level": "required",
+        "frequency": "5/8",
+        "detect": [
+          "random[- ]effects?",
+          "fixed[- ]effects?|common[- ]effect",
+          "network meta-analysis",
+          "meta-?regression",
+          "pooled"
+        ],
+        "basis": "guideline"
+      },
+      {
+        "id": "rob_in_abstract",
+        "description": "risk-of-bias method or summary (PRISMA-A item 5)",
+        "level": "required",
+        "frequency": "2/8",
+        "detect": [
+          "risk of bias",
+          "RoB ?2",
+          "Jadad",
+          "quality"
+        ],
+        "basis": "guideline"
+      },
+      {
+        "id": "registration_in_abstract",
+        "description": "registry and ID (PRISMA-A item 12)",
+        "level": "required",
+        "frequency": "2/8 (BMJ heading; eClinicalMedicine Methods)",
+        "detect": [
+          "PROSPERO",
+          "CRD ?42\\d{6,}",
+          "registration"
+        ],
+        "basis": "guideline"
+      },
+      {
+        "id": "funding_in_abstract",
+        "description": "funding source (PRISMA-A item 11)",
+        "level": "required",
+        "frequency": "2/8 (Lancet family heading)",
+        "detect": [
+          "Funding"
+        ],
+        "basis": "guideline"
+      },
+      {
+        "id": "limitations_of_evidence",
+        "description": "limitation of the evidence (PRISMA-A item 9)",
+        "level": "required",
+        "frequency": "4/8",
+        "detect": [
+          "limit",
+          "caution",
+          "imprecis",
+          "(low|very low)[- ]certainty",
+          "hypothesis[- ]generating",
+          "uncertain"
+        ],
+        "basis": "guideline"
+      },
+      {
+        "id": "heterogeneity_in_abstract",
+        "description": "I2 or heterogeneity reported",
+        "level": "optional",
+        "frequency": "3/8",
+        "detect": [
+          "I ?2|I²",
+          "heterogeneity"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "absolute_effect_in_abstract",
+        "description": "absolute effect (per 1000, risk difference, NNH)",
+        "level": "optional",
+        "frequency": "2/8",
+        "detect": [
+          "per 1,?000",
+          "risk difference",
+          "number needed to harm|\\bNNH\\b",
+          "absolute"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "certainty_in_abstract",
+        "description": "certainty of evidence (GRADE/CINeMA)",
+        "level": "optional",
+        "frequency": "1/8",
+        "detect": [
+          "\\bGRADE\\b",
+          "CINeMA",
+          "certainty of (the )?evidence",
+          "(high|moderate|low)[- ]certainty"
+        ],
+        "basis": "frequency"
+      }
+    ],
+    "extra_summaries": [
+      {
+        "name": "Key Points (Question / Findings / Meaning)",
+        "level": "optional",
+        "frequency": "2/8",
+        "words": {
+          "min": 77,
+          "typical": 81,
+          "max": 85
+        },
+        "notes": "JAMA family only; JAMA caps 75-100 words. Words not rounded to 50 (rounding would erase the range)."
+      },
+      {
+        "name": "Research in context (Evidence before this study / Added value of this study / Implications of all the available evidence)",
+        "level": "optional",
+        "frequency": "2/8",
+        "words": {
+          "min": 400,
+          "typical": 450,
+          "max": 500
+        },
+        "notes": "Lancet family only; carries a short search description."
+      },
+      {
+        "name": "What is already known on this topic / What this study adds",
+        "level": "optional",
+        "frequency": "1/8",
+        "words": {
+          "min": 138,
+          "typical": 138,
+          "max": 138
+        },
+        "notes": "The BMJ only (venue-mandated); also a visual abstract."
+      },
+      {
+        "name": "Clinical Perspective (What Is New? / What Are the Clinical Implications?)",
+        "level": "optional",
+        "frequency": "1/8",
+        "words": {
+          "min": 88,
+          "typical": 88,
+          "max": 88
+        },
+        "notes": "AHA journals only (venue-mandated)."
+      },
+      {
+        "name": "Author summary (Why was this study done? / What did the researchers do and find? / What do these findings mean?)",
+        "level": "optional",
+        "frequency": "1/8",
+        "words": {
+          "min": 226,
+          "typical": 226,
+          "max": 226
+        },
+        "notes": "PLOS Medicine only (venue-mandated)."
+      }
+    ],
+    "checklist": "PRISMA 2020 for Abstracts (12 items)"
+  },
+  "display_items": [
+    {
+      "id": "forest_plot",
+      "type": "figure",
+      "kind": "Forest plot of a harm outcome (per-trial events/total per arm, ratio on log axis, pooled diamond, heterogeneity), incl. subgroup forests",
+      "level": "required",
+      "priority": 1,
+      "count": {
+        "min": 2,
+        "typical": 2.5,
+        "max": 4
+      },
+      "placement": "main",
+      "frequency": "8/8 (main 8/8; more in supplement 7/8)",
+      "detect": [
+        "forest",
+        "meta-?analysis of",
+        "association of .{0,80} with",
+        "effect (of|on) .{0,60}(events|symptoms|adverse)",
+        "(risk|rate|odds) ratios?",
+        "subgroup analys"
+      ],
+      "omerta_kind": "Forest plot",
+      "notes": "Subgroup forests (by agent, comparator, population, duration) in 5/8. E3 also shows NMA estimates vs placebo with CINeMA certainty as forest-style figures. E4 uses O-E/Var (Peto-type) statistics in its forest plots.",
+      "basis": "frequency"
+    },
+    {
+      "id": "prisma_flow",
+      "type": "figure",
+      "kind": "PRISMA 2020 flow diagram",
+      "level": "required",
+      "priority": 2,
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "7/8 (main 6/8, supplement 1/8 JAMA; absent in the IPD collaboration E4)",
+      "detect": [
+        "PRISMA",
+        "flow ?(diagram|chart)",
+        "study (identification|selection)",
+        "selection process",
+        "screening"
+      ],
+      "omerta_kind": "Data-flow diagram",
+      "notes": "PRISMA 2020 item 16a.",
+      "basis": "both"
+    },
+    {
+      "id": "characteristics_table",
+      "type": "table",
+      "kind": "Characteristics of included trials (population, drug/dose, comparator, n, follow-up, AE definition/grading)",
+      "level": "required",
+      "priority": 3,
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main-or-supplement",
+      "frequency": "8/8 (main 7/8; supplement 1/8 BMJ NMA)",
+      "detect": [
+        "characteristics",
+        "included (trials|studies)",
+        "trial characteristics",
+        "summary of (clinical )?characteristics"
+      ],
+      "omerta_kind": null,
+      "notes": "PLOS exemplar splits into patient and trial/drug tables.",
+      "basis": "frequency"
+    },
+    {
+      "id": "key_points_box",
+      "type": "box",
+      "kind": "Venue summary box (Key Points / Research in context / What this study adds / Clinical Perspective / Author summary)",
+      "level": "required",
+      "priority": 4,
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "7/8 (form set by venue)",
+      "detect": [
+        "Key Points",
+        "Research in context",
+        "What this study adds",
+        "What is already known",
+        "Clinical Perspective",
+        "Author summary"
+      ],
+      "omerta_kind": null,
+      "notes": "Not counted toward figure/table caps and never moved to the supplement; JAMA Key Points and PLOS Author summary are abstract-type summaries in JATS rather than boxed-text.",
+      "basis": "frequency",
+      "venue_governed": true
+    },
+    {
+      "id": "sof_table",
+      "type": "table",
+      "kind": "GRADE summary-of-findings table (relative and absolute effects per 1000, certainty per outcome)",
+      "level": "optional",
+      "priority": 5,
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "2/8 (E5 GRADE SoF table; E3 CINeMA certainty shown inside NMA figures)",
+      "detect": [
+        "summary of findings",
+        "\\bGRADE\\b",
+        "certainty of (the )?evidence",
+        "CINeMA"
+      ],
+      "omerta_kind": null,
+      "notes": "Certainty reporting is mandated by PRISMA 2020 item 22; a SoF table is the most compact way to satisfy it and to give absolute risks, so Amani should include it even though most exemplars do not.",
+      "basis": "frequency"
+    },
+    {
+      "id": "results_table",
+      "type": "table",
+      "kind": "Pooled results / per-trial AE counts / meta-regression results table",
+      "level": "typical",
+      "priority": 6,
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "4/8",
+      "detect": [
+        "summary of .{0,40}(adverse|events)",
+        "effects of",
+        "meta-?regression",
+        "results of",
+        "reported in the respective trials"
+      ],
+      "omerta_kind": null,
+      "notes": "E1 per-trial neurologic AE table; E4 effects by period; E7 and E8 meta-regression tables.",
+      "basis": "frequency"
+    },
+    {
+      "id": "meta_regression_bubble",
+      "type": "figure",
+      "kind": "Meta-regression bubble plot (log ratio vs dose / baseline characteristic)",
+      "level": "optional",
+      "priority": 7,
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "3/8 (main 2/8, supplement 1/8)",
+      "detect": [
+        "meta-?regression",
+        "bubble plot",
+        "relationship between"
+      ],
+      "omerta_kind": null,
+      "notes": "Dose-response of harm (EPA dose) or effect modification (LVEF).",
+      "basis": "frequency"
+    },
+    {
+      "id": "rob_summary_figure",
+      "type": "figure",
+      "kind": "Risk-of-bias summary (RoB 2 traffic-light or summary bar; table form in 1/8)",
+      "level": "required",
+      "priority": 8,
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "supplement",
+      "frequency": "5/8 (all in supplement; 0/8 in main text)",
+      "detect": [
+        "risk[- ]of[- ]bias",
+        "RoB ?2",
+        "quality assessment",
+        "traffic"
+      ],
+      "omerta_kind": null,
+      "notes": "PRISMA 2020 item 18 requires per-study RoB presentation; exemplars put it in the supplement.",
+      "basis": "guideline"
+    },
+    {
+      "id": "funnel_plot",
+      "type": "figure",
+      "kind": "Funnel plot (with Egger test)",
+      "level": "required",
+      "priority": 9,
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "supplement",
+      "frequency": "7/8 (all in supplement)",
+      "detect": [
+        "funnel",
+        "Egger",
+        "small[- ]study",
+        "publication bias"
+      ],
+      "omerta_kind": null,
+      "notes": "Only meaningful with >=10 trials per outcome (Cochrane Handbook); say so when fewer.",
+      "basis": "frequency"
+    },
+    {
+      "id": "network_geometry",
+      "type": "figure",
+      "kind": "Network geometry plot (nodes = treatments, edges = direct comparisons)",
+      "level": "optional",
+      "priority": 10,
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "1/8 (conditional: the only NMA exemplar; required by PRISMA-NMA item S3 when the design is a network)",
+      "detect": [
+        "network (plot|geometry|diagram)",
+        "nodes?",
+        "direct comparisons?"
+      ],
+      "omerta_kind": null,
+      "notes": "Kept despite 1/8 because it is guideline-mandated for the NMA variant.",
+      "basis": "frequency",
+      "applies_when": "network_ma"
+    }
+  ],
+  "display_items_main_total": {
+    "min": 5,
+    "typical": 5.5,
+    "max": 10
+  },
+  "required_statements": [
+    {
+      "id": "registration",
+      "label": "Protocol registration (PROSPERO/OSF/INPLASY) with ID",
+      "level": "required",
+      "placement": [
+        "methods",
+        "abstract"
+      ],
+      "frequency": "4/8 (2/8 also in abstract)",
+      "detect": [
+        "PROSPERO",
+        "CRD ?42\\d{6,}",
+        "osf\\.io",
+        "INPLASY"
+      ],
+      "notes": "PRISMA 2020 items 24a and abstract item 12. Missing in E1, E4 (IPD protocol, no registry), E6, E8.",
+      "basis": "guideline"
+    },
+    {
+      "id": "reporting_guideline",
+      "label": "Adherence to PRISMA 2020 (and PRISMA-NMA / PRISMA harms where relevant)",
+      "level": "required",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "7/8",
+      "detect": [
+        "\\bPRISMA\\b",
+        "Preferred Reporting Items for Systematic"
+      ],
+      "notes": "Only 2/8 cite the 2020 statement; 2/8 still cite the 2009 statement.",
+      "basis": "both"
+    },
+    {
+      "id": "data_availability",
+      "label": "Data (and code) availability",
+      "level": "required",
+      "placement": [
+        "data_availability",
+        "back_matter",
+        "supplement"
+      ],
+      "frequency": "7/8",
+      "detect": [
+        "data (sharing|availability)",
+        "available (from|on|upon|in)",
+        "reasonable request",
+        "github\\.com|zenodo|osf\\.io"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "label": "Funding source",
+      "level": "required",
+      "placement": [
+        "funding",
+        "back_matter",
+        "abstract"
+      ],
+      "frequency": "7/8 (2/8 also in abstract)",
+      "detect": [
+        "Funding",
+        "Sources of Funding",
+        "supported by",
+        "no funding"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "role_of_funder",
+      "label": "Role of the funder",
+      "level": "typical",
+      "placement": [
+        "methods",
+        "back_matter"
+      ],
+      "frequency": "5/8",
+      "detect": [
+        "role of the fund",
+        "funders? had no role",
+        "no (funding )?role in"
+      ],
+      "notes": "Lancet family puts it in Methods; JAMA in article information.",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "label": "Competing interests",
+      "level": "required",
+      "placement": [
+        "competing_interests",
+        "back_matter"
+      ],
+      "frequency": "8/8",
+      "detect": [
+        "conflicts? of interest",
+        "competing interests?",
+        "declaration of interests",
+        "disclosures"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "ethics",
+      "label": "Ethics statement (approval not required for aggregate published data)",
+      "level": "typical",
+      "placement": [
+        "methods",
+        "back_matter"
+      ],
+      "frequency": "5/8",
+      "detect": [
+        "ethic",
+        "institutional review board|\\bIRB\\b"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "contributions",
+      "label": "Author contributions",
+      "level": "typical",
+      "placement": [
+        "contributions",
+        "back_matter"
+      ],
+      "frequency": "6/8",
+      "detect": [
+        "author contributions?",
+        "contributors",
+        "conceptuali[sz]ation"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "code_availability",
+      "label": "Analysis code repository",
+      "level": "optional",
+      "placement": [
+        "data_availability",
+        "back_matter"
+      ],
+      "frequency": "3/8",
+      "detect": [
+        "github\\.com",
+        "zenodo",
+        "code (is |are )?available"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "patient_public_involvement",
+      "label": "Patient and public involvement",
+      "level": "optional",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "1/8 (BMJ only; venue-mandated)",
+      "detect": [
+        "patient and public involvement",
+        "patients (were|was) not involved"
+      ],
+      "notes": "Required by The BMJ; the paper writer's venue profile should switch it on.",
+      "basis": "frequency"
+    }
+  ],
+  "checklists": [
+    {
+      "name": "PRISMA 2020",
+      "level": "required",
+      "citation": "Page MJ, McKenzie JE, Bossuyt PM, et al. BMJ 2021;372:n71",
+      "doi": "10.1136/bmj.n71",
+      "where": "Methods statement; completed checklist in supplement",
+      "frequency": "7/8 state PRISMA adherence; 2/8 cite the 2020 statement, 2/8 cite the 2009 statement; 3/8 publish a checklist (PRISMA, PRISMA-NMA, PRISMA-P)",
+      "notes": "BMJ, PLOS and JAMA Netw Open require a checklist at submission even when it is not published.",
+      "basis": "both",
+      "kind": "reporting_guideline"
+    },
+    {
+      "name": "PRISMA 2020 for Abstracts",
+      "level": "required",
+      "citation": "Page MJ, McKenzie JE, Bossuyt PM, et al. BMJ 2021;372:n71 (Table 2)",
+      "doi": "10.1136/bmj.n71",
+      "where": "abstract",
+      "frequency": "0/8 cite it explicitly",
+      "notes": "Items most often missed by exemplars: risk of bias (2/8), registration (2/8), funding (2/8).",
+      "basis": "guideline",
+      "kind": "reporting_guideline"
+    },
+    {
+      "name": "PRISMA harms extension",
+      "level": "optional",
+      "citation": "Zorzela L, Loke YK, Ioannidis JP, et al. BMJ 2016;352:i157",
+      "doi": "10.1136/bmj.i157",
+      "where": "Methods/Results (harms-specific items)",
+      "frequency": "0/8 cite it",
+      "notes": "The harms-specific checklist; recommended for Amani (AE definitions, ascertainment, handling of zero events, presentation of absolute harms) although no exemplar cites it.",
+      "basis": "frequency",
+      "kind": "reporting_guideline"
+    },
+    {
+      "name": "RoB 2",
+      "level": "required",
+      "citation": "Sterne JAC, Savovic J, Page MJ, et al. BMJ 2019;366:l4898",
+      "doi": "10.1136/bmj.l4898",
+      "where": "Methods; per-trial judgements in supplement",
+      "frequency": "4/8 use RoB 2; 6/8 use some tool (RoB 1 1/8, Jadad 1/8)",
+      "notes": "",
+      "basis": "guideline",
+      "kind": "appraisal_tool"
+    },
+    {
+      "name": "GRADE",
+      "level": "required",
+      "citation": "Guyatt GH, Oxman AD, Vist GE, et al. BMJ 2008;336:924-6",
+      "doi": "10.1136/bmj.39489.470347.AD",
+      "where": "Methods; SoF table",
+      "frequency": "1/8 GRADE + 1/8 CINeMA",
+      "notes": "Mandated by PRISMA 2020 items 15 and 22.",
+      "basis": "guideline",
+      "kind": "appraisal_tool"
+    },
+    {
+      "name": "Cochrane Handbook chapter 19 (Adverse effects)",
+      "level": "optional",
+      "citation": "Peryer G, Golder S, Junqueira DR, Vohra S, Loke YK. Chapter 19: Adverse effects. In: Higgins JPT, et al., eds. Cochrane Handbook for Systematic Reviews of Interventions. 2nd ed. Wiley; 2019",
+      "doi": "10.1002/9781119536604.ch19",
+      "where": "Methods (search for harms data, AE definitions, rare events)",
+      "frequency": "2/8 cite the Handbook (v6.4, v6.5); 0/8 cite chapter 19",
+      "notes": "Chapter DOI (Wiley 2nd edition) resolves at doi.org (checked 2026-10-13).",
+      "basis": "frequency",
+      "kind": "methods_guidance"
+    },
+    {
+      "name": "PRISMA-NMA",
+      "level": "optional",
+      "citation": "Hutton B, Salanti G, Caldwell DM, et al. Ann Intern Med 2015;162:777-84",
+      "doi": "10.7326/M14-2385",
+      "where": "Methods + supplement (NMA variant only)",
+      "frequency": "1/8 (the only NMA)",
+      "notes": "Required when the design is a network meta-analysis.",
+      "basis": "frequency",
+      "kind": "reporting_guideline",
+      "applies_when": "network_ma"
+    },
+    {
+      "name": "CINeMA",
+      "level": "optional",
+      "citation": "Nikolakopoulou A, Higgins JPT, Papakonstantinou T, et al. PLoS Med 2020;17:e1003082",
+      "doi": "10.1371/journal.pmed.1003082",
+      "where": "Methods (NMA certainty)",
+      "frequency": "1/8 (the only NMA)",
+      "notes": "Certainty framework for NMA.",
+      "basis": "frequency",
+      "kind": "appraisal_tool",
+      "applies_when": "network_ma"
+    }
+  ],
+  "supplement": [
+    {
+      "id": "search_strategy",
+      "item": "full search strategy for every database and registry, with dates",
+      "level": "required",
+      "frequency": "5/8 publish it",
+      "detect": [
+        "search strateg",
+        "search terms",
+        "electronic search",
+        "eAppendix"
+      ],
+      "notes": "PRISMA 2020 item 7.",
+      "basis": "guideline"
+    },
+    {
+      "id": "funnel_plots",
+      "item": "funnel plots with Egger test per main outcome",
+      "level": "required",
+      "frequency": "7/8",
+      "detect": [
+        "funnel",
+        "Egger",
+        "small[- ]study",
+        "publication bias"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "risk_of_bias_assessments",
+      "item": "per-trial risk-of-bias judgements (RoB 2 figure or table)",
+      "level": "required",
+      "frequency": "5/8",
+      "detect": [
+        "risk[- ]of[- ]bias",
+        "RoB ?2",
+        "quality assessment",
+        "Jadad"
+      ],
+      "notes": "PRISMA 2020 item 18.",
+      "basis": "guideline"
+    },
+    {
+      "id": "prisma_checklist",
+      "item": "completed PRISMA 2020 checklist (plus PRISMA-NMA / harms extension when used)",
+      "level": "required",
+      "frequency": "3/8 publish it",
+      "detect": [
+        "PRISMA (2020 )?checklist",
+        "PRISMA-P",
+        "PRISMA.{0,20}NMA",
+        "reporting checklist"
+      ],
+      "notes": "Journals require it at submission (BMJ, PLOS, JAMA Netw Open).",
+      "basis": "guideline"
+    },
+    {
+      "id": "included_trials_details",
+      "item": "included-trial list and per-trial outcome data (events/denominators per arm)",
+      "level": "typical",
+      "frequency": "6/8",
+      "detect": [
+        "included (trials|studies)",
+        "characteristics of",
+        "reported outcomes of individual trials",
+        "list of"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "additional_forest_plots",
+      "item": "forest plots for secondary harms, grades, agents and subgroups",
+      "level": "typical",
+      "frequency": "6/8",
+      "detect": [
+        "forest",
+        "association of",
+        "subgroup",
+        "secondary"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "sensitivity_analyses",
+      "item": "sensitivity analyses (leave-one-out, excluding zero-event or high-RoB trials, alternative definitions)",
+      "level": "typical",
+      "frequency": "5/8",
+      "detect": [
+        "sensitivity",
+        "leave[- ]one[- ]out",
+        "excluding"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "outcome_definitions",
+      "item": "harm outcome definitions and AE term lists per trial (CTCAE/MedDRA/ISTH)",
+      "level": "typical",
+      "frequency": "4/8",
+      "detect": [
+        "definitions?",
+        "CTCAE",
+        "MedDRA",
+        "adverse event terms",
+        "classification"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "meta_regression_subgroup",
+      "item": "meta-regression and subgroup analyses (bubble plots, tables)",
+      "level": "optional",
+      "frequency": "3/8",
+      "detect": [
+        "meta-?regression",
+        "bubble",
+        "subgroup"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    }
+  ],
+  "references": {
+    "min": 32,
+    "typical": 43,
+    "max": 81
+  },
+  "limitations": {
+    "placement": "Inside Discussion, usually the penultimate block: headed subsection in 4/8 ('Limitations' JAMA; 'Strengths and limitations of this study' BMJ; 'Limitations of the study' ESC; 'Limitations and Strength'), unheaded paragraph in 4/8 (Lancet family, AHA, PLOS). Never a top-level section.",
+    "words": {
+      "min": 100,
+      "typical": 200,
+      "max": 300
+    },
+    "conventions": [
+      "one paragraph (rarely two) near the end of Discussion",
+      "opens with a stock phrase ('This study has several limitations') then enumerates 'First, ... Second, ...' (6/8)",
+      "each limitation is followed by its mitigation (subgroup/sensitivity analysis, definitions tabulated in supplement, meta-regression) in 6/8",
+      "strengths are stated next to limitations in 3/8 (BMJ heading pairs them; Lancet puts a strengths paragraph first)",
+      "the AE-ascertainment limitation is the one conceded almost universally (7/8)"
+    ],
+    "standard_items": [
+      {
+        "id": "ae_ascertainment_heterogeneous",
+        "text": "Harm definitions, grading and ascertainment differed across trials; AEs were investigator-reported rather than systematically collected, risking misclassification and under-reporting",
+        "level": "required",
+        "frequency": "7/8",
+        "basis": "frequency"
+      },
+      {
+        "id": "trial_level_only",
+        "text": "Aggregate trial-level data only; no individual participant data, so patient-level subgroups (sex, age, mutation type, comorbidity) could not be examined",
+        "level": "typical",
+        "frequency": "5/8 (6 of 7 aggregate-data reviews)",
+        "basis": "frequency"
+      },
+      {
+        "id": "clinical_heterogeneity",
+        "text": "Clinical and methodological diversity across trials (populations, comparators, co-interventions, follow-up) and statistical heterogeneity",
+        "level": "typical",
+        "frequency": "5/8",
+        "basis": "frequency"
+      },
+      {
+        "id": "sparse_events_imprecision",
+        "text": "Rare events, low event rates and underpowered subgroups give imprecise estimates; RCTs are not designed to detect rare harms",
+        "level": "typical",
+        "frequency": "4/8",
+        "basis": "frequency"
+      },
+      {
+        "id": "pooled_agents_doses",
+        "text": "Different agents, doses or formulations pooled as one class",
+        "level": "optional",
+        "frequency": "3/8",
+        "basis": "frequency"
+      },
+      {
+        "id": "missing_unpublished_data",
+        "text": "Unpublished trials or unreported harm outcomes missing; possible selective reporting",
+        "level": "optional",
+        "frequency": "3/8",
+        "basis": "frequency"
+      },
+      {
+        "id": "exposure_time_bias",
+        "text": "Unequal follow-up or exposure time between arms; crude cumulative counts rather than exposure-adjusted rates",
+        "level": "optional",
+        "frequency": "2/8",
+        "basis": "frequency"
+      },
+      {
+        "id": "trial_population_generalisability",
+        "text": "Trial participants are more selected and healthier than real-world users (and may exclude prior intolerance), so harms may be underestimated",
+        "level": "optional",
+        "frequency": "2/8",
+        "basis": "frequency"
+      }
+    ]
+  },
+  "variation_notes": "Venue house style, not design, drives most variation. Length is bimodal: JAMA Netw Open, JAHA and EHJ-CVP papers run 2300-3300 words with 500-700-word Methods, while BMJ, Lancet, eClinicalMedicine and PLOS Medicine run 5100-5400 words with 970-1900-word Methods. JAMA, BMJ and PLOS use outcome-wise Results subheadings; Lancet family, AHA and ESC write Results as unheaded paragraphs. Separate Conclusions appear only in JAMA and ESC (BMJ nests them). Every venue but EHJ-CVP adds its own summary layer. The Lancet family puts 'Role of the funding source' inside Methods and 'Funding' in the abstract. Reporting rigour also varies independently of venue tier: registration 4/8, RoB 2 4/8, GRADE/CINeMA 2/8, PRISMA 2020 cited 2/8; E1 (JAMA Netw Open 2022) has no registration, funding or data statement, E6 (JAHA 2024) has no registration or RoB tool, and E8 (PLOS Medicine) has no registration and uses the Jadad score. Design variants: NMA (E3) adds network geometry, CINeMA, heatmaps and PRISMA-NMA; IPD collaboration (E4) drops PRISMA/flow/RoB and adds ethics approval, Peto-type O-E statistics and absolute excess per 1000 person-years; the benefit-harm review (E8) doubles the forest plots and adds NNT/NNH.",
+  "lint_notes": [
+    "Title must name drug/class, harm outcome and design ('systematic review and meta-analysis', ideally 'of randomised controlled trials').",
+    "Abstract must give number of trials and participants and a pooled ratio with 95% CI for the primary harm; check the PRISMA-A items exemplars often miss (risk of bias, registration, funding, limitations of evidence).",
+    "Every harm forest plot needs per-arm events/total, the ratio measure on a log axis with a reference line at 1, a pooled diamond, the model name and I2 (plus tau2 or Q p value) in the plot or caption.",
+    "Methods must define each harm outcome with its dictionary (CTCAE, MedDRA, ISTH/BARC or trial definitions) and grade/seriousness, and say whether AEs are treatment-related or treatment-emergent.",
+    "For rare harms, Methods must state zero-event handling (Peto OR or Mantel-Haenszel without correction, continuity correction as sensitivity); only 2/8 exemplars do, but its absence is a reviewer flag.",
+    "Report absolute effects (risk difference, events per 1000, or NNH) next to relative effects; a GRADE summary-of-findings table satisfies this and PRISMA item 22 in one display item.",
+    "PRISMA flow diagram may sit in the supplement (JAMA) but must exist; the IPD-collaboration variant is the only exemplar without one.",
+    "Funnel plot/Egger and RoB figures belong in the supplement; flag funnel plots drawn with fewer than 10 trials.",
+    "Limitations block (inside Discussion) must concede heterogeneous AE ascertainment; a missing 'trial-level only' concession should warn for aggregate-data reviews.",
+    "Do not count venue summary boxes toward display-item caps; median main-text display items is 5-6 (range 5-10).",
+    "Registration ID regex: PROSPERO CRD42 followed by 9-11 digits (e.g. CRD42024517308, CRD420251231682)."
+  ],
+  "notes": [
+    "Exemplar search: Europe PMC (OPEN_ACCESS, 2022-2026) across JAMA Netw Open, BMJ, Lancet family, PLOS Med, BMC Med, diabetes, cardiology and Drug Safety journals.",
+    "Excluded for contamination though otherwise ideal: BMC Medicine semaglutide and tirzepatide harms reviews with Trial Sequential Analysis (pancreatitis/pancreatic outcomes in body), CTT Lancet 2026 statin product-label AE screen (pancreatitis outcome), JAHA 2025 angiogenesis-inhibitor MACE review (pancreatic NET in body), DOM 2025 GLP-1 RA cancer review (cancer outcomes incl. pancreatic). Consequently no exemplar uses Trial Sequential Analysis; tsa_plot is not profiled.",
+    "E8 (PLOS Medicine anti-amyloid) is a benefit-harm review with efficacy co-primary; kept for PLOS house style and ARIA harms, but its reporting is weak (Jadad, no registration).",
+    "E4 (CTT Lancet 2022) is an IPD meta-analysis of double-blind trials, not a literature-based systematic review; it lowers the frequency of PRISMA, registration, RoB and flow-diagram items.",
+    "No Cochrane review included.",
+    "BMJ visual abstract and possible EHJ-CVP graphical abstract are not in PMC XML and were not counted as figures.",
+    "Supplement contents were classified from supplement captions and in-text supplement references; supplement files themselves (PDF/DOCX) were not opened.",
+    "Display-item vocabulary: heatmap (E3), absolute-risk figure (E4 Fig 3) and mechanism schematic (E7 Fig 5) are single-exemplar kinds and are recorded only in exemplar measured blocks."
+  ]
+}

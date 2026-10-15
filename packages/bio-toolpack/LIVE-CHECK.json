@@ -1,0 +1,51 @@
+{
+  "block": "10",
+  "attempt": "codex-tools-t1",
+  "command": "bash packages/bio-baseline/arms/run-codex-tools-arm.sh t1",
+  "task": "warm-up (METABRIC, default arm-facing data)",
+  "toolpack": {
+    "profile": "checks",
+    "sha256": "4cc839af7e689f847e8178bfe341670a7a42e49c1aa0ad1fcf5111924e9c77bf",
+    "tools_md_sha256": "4f8e09354ba1359e8e25cbe15fadb24a0ff1576162dbe5a4af21ea07ca366a9a",
+    "check": "verified",
+    "intact_after_run": true
+  },
+  "model": "gpt-6-astra",
+  "effort": "high",
+  "cli_version": "codex-cli 0.156.1",
+  "start": "2026-10-10T18:32:41Z",
+  "end": "2026-10-10T18:44:44Z",
+  "wall_ms": 723024,
+  "status": "finished",
+  "agent_exit": 0,
+  "contaminated": "clean",
+  "data_modified": false,
+  "tmp_deleted": true,
+  "token_usage": { "input_tokens": 1777089, "cached_input_tokens": 1709312, "output_tokens": 25710, "reasoning_output_tokens": 7490 },
+  "grader": {
+    "command": "cd packages/bio-baseline && pixi run --frozen python grading/grade.py results/codex-tools-t1",
+    "summary_line": "codex-tools-t1: credited=True contamination=none-found flagged=[] needs-review=['silent_sample_drop', 'unsupported_claim', 'fabricated_citation']",
+    "wall_s": 84
+  },
+  "tool_usage": {
+    "command_executions": 38,
+    "read_TOOLS_md": true,
+    "omb_check_invocations": [
+      { "subcommand": "pseudorep", "exit": 0, "shape": "omb-check pseudorep outputs/<own analysis table> --unit donor --donor-field PATIENT_ID --id-field SAMPLE_ID --declared-n <n>" }
+    ],
+    "used_duplicates_tool": false,
+    "note": "The agent ran `command -v omb-check`, read TOOLS.md, and checked duplication with its own pandas code; it never called omb-check duplicates, near-duplicates, effective-units, infer, gates or reproduce."
+  },
+  "evidence": {
+    "location": "~/.omerta-bio/live-results/block10/codex-tools-t1 (moved out of the worktree after grading: the transcript and workdir contain planted warm-up IDs, which the bio-tasks leakage scan correctly refuses anywhere in the worktree)",
+    "sha256": {
+      "meta.json": "e4049599814ae41d87cc5129afb9d10e6675a1e3e09d3b5146402af45dabf1d0",
+      "transcript.jsonl": "015a37016512b14db2aac012291ecbcb658a463862cbe6776dfb8b611c99cbab",
+      "final_message.md": "064ec7c16aa8ff2ca32536c722e3eed753ecb4ee3cdd3b7b6c29a2bd748c2461",
+      "workdir/REPORT.md": "fea403013180539b4049736722b61f2a516d3def0b8b6120fb8e2d67d56e9950",
+      "workdir/results.json": "f15a2196f603c59d6afdb59780d9e580be55044d21d08060726da5132c3d93bc",
+      "workdir/run_all.sh": "512a6e6399fdce3cee49b978b89a612473f709cd5286f0afa94332127af53764"
+    },
+    "grade": "grade/grade.json.enc and grade/grade.md.enc (sealed by grade.py)"
+  }
+}

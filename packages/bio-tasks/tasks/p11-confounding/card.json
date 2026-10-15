@@ -1,0 +1,20 @@
+{
+  "id": "p11-confounding",
+  "family": "planted-flaw",
+  "datasetManifestHash": "b396a95bcc884cfebad85fc52134f30341b8c814af702364285938f6bcbfee21",
+  "prompt": "TASK.md",
+  "sealedAnswerKeyRef": "packages/bio-tasks/tasks/p11-confounding/SEALED-KEY.json.enc",
+  "tolerance": {
+    "absolute": 0.02,
+    "relative": 0
+  },
+  "plantedFlaws": [
+    "sealed:F1"
+  ],
+  "negativeControl": true,
+  "positiveControl": false,
+  "heldOut": false,
+  "seed": 51111,
+  "capMinutes": 10,
+  "contaminated": false
+}

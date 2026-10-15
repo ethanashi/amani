@@ -1,0 +1,102 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[a4paper,textwidth=178mm,left=16mm,right=16mm,top=18mm,bottom=20mm]{geometry}
+\usepackage{fontspec,graphicx,tabularx,placeins}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\setmainfont{lmroman10-regular.otf}[Ligatures=TeXOff,BoldFont=lmroman10-bold.otf,ItalicFont=lmroman10-italic.otf]
+\newcommand{\ombval}[2]{#2}
+\pagestyle{empty}
+\hyphenpenalty=50
+\tolerance=1000
+\pretolerance=100
+\language=\csname l@english\endcsname
+\lefthyphenmin=2
+\righthyphenmin=3
+\exhyphenpenalty=50
+\setlength{\columnsep}{8mm}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{1em}
+\clubpenalty=10000
+\widowpenalty=10000
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\dbltopfraction}{0.85}
+\renewcommand{\textfraction}{0.10}
+\renewcommand{\floatpagefraction}{0.70}
+\renewcommand{\dblfloatpagefraction}{0.70}
+\setcounter{topnumber}{2}
+\setcounter{dbltopnumber}{2}
+\setcounter{totalnumber}{3}
+\setlength{\textfloatsep}{10pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{10pt plus 2pt minus 2pt}
+\newcommand{\ombtitle}[1]{{\raggedright\noindent\fontsize{18}{21}\selectfont\bfseries #1\par}\medskip}
+\newcommand{\ombcaptionfont}{\fontsize{9}{11}\selectfont}
+\newcommand{\ombabstract}[1]{\noindent #1\par\smallskip}
+\newcommand{\ombnotice}[1]{{\noindent\small\itshape #1\par}\smallskip}
+\newenvironment{ombbox}{\par\medskip\noindent\setlength{\fboxsep}{3mm}\setlength{\fboxrule}{0.5pt}\begin{lrbox}{\ombboxsave}\begin{minipage}{\dimexpr\linewidth-6mm-1pt\relax}\setlength{\parindent}{0pt}\setlength{\parskip}{3pt}\small}{\end{minipage}\end{lrbox}\fbox{\usebox{\ombboxsave}}\par\medskip}
+\newsavebox{\ombboxsave}
+\newcommand{\ombboxtitle}[1]{\textbf{#1}\par}
+\newenvironment{ombglossary}{\begin{description}\setlength{\itemsep}{3pt}\setlength{\parsep}{0pt}}{\end{description}}
+\newcommand{\ombterm}[1]{\item[]\hspace*{-\leftmargin}#1}
+\newcolumntype{L}{>{\raggedright\arraybackslash\hyphenpenalty=10000\exhyphenpenalty=10000}X}
+\newcolumntype{F}{>{\hsize=.7\hsize\linewidth=\hsize\raggedright\arraybackslash\hyphenpenalty=10000\exhyphenpenalty=10000}X}
+\newcolumntype{R}{>{\hsize=1.3\hsize\linewidth=\hsize\raggedright\arraybackslash\hyphenpenalty=10000\exhyphenpenalty=10000}X}
+\newcolumntype{E}{>{\raggedright\arraybackslash\hyphenpenalty=10000\exhyphenpenalty=10000}X}
+\newcommand{\ombtabletop}{\hline\noalign{\smallskip}}
+\newcommand{\ombtablemid}{\\\noalign{\smallskip}\hline\noalign{\smallskip}}
+\newcommand{\ombtablebottom}{\\\noalign{\smallskip}\hline}
+\makeatletter
+\newif\ifombpendingfloats
+\newcommand{\ombdisplayboundary}{\ombpendingfloatsfalse\ifx\@deferlist\@empty\else\ombpendingfloatstrue\fi\ifx\@dbldeferlist\@empty\else\ombpendingfloatstrue\fi\ifx\@dbltoplist\@empty\else\ombpendingfloatstrue\fi\ifx\@toplist\@empty\else\ombpendingfloatstrue\fi\ifx\@botlist\@empty\else\ombpendingfloatstrue\fi\FloatBarrier\ifombpendingfloats\clearpage\fi}
+\setlength{\@fptop}{0pt}
+\setlength{\@dblfptop}{0pt}
+\setlength{\@fpsep}{12pt}
+\setlength{\@dblfpsep}{12pt}
+\long\def\@makecaption#1#2{\vskip\abovecaptionskip{\ombcaptionfont\raggedright\noindent#2\par}\vskip\belowcaptionskip}
+\makeatother
+
+\begin{document}
+\twocolumn[\begin{@twocolumnfalse}
+\ombtitle{Circulating protein and outcome risk in a blinded cis genetic investigation}
+\ombnotice{Amani | Blind investigation | Reading preprint}
+\ombabstract{Genetic associations at the P7 cis locus were examined to assess whether genetically higher circulating P7 relates to Outcome A and whether the traits share a causal signal. The archived investigation completed a local summary-data analysis under frozen harmonisation, instrumental-variable and colocalisation rules. At the prespecified instrument V21461189, the Wald log odds ratio per standard-deviation increase in P7 was 0.520999 in C1, with normal confidence limits 0.340737 to 0.701262, and 0.371547 in C2, with limits 0.169378 to 0.573716. The directional classification was higher-increases-risk, with concordant-weaker evidence in C2. The protein table contained 290 significant source rows, and conditional analysis classified the locus as multiple-signals. The strongest protein variant was associated with Outcome A in neither cohort. In C2, the posterior probability of a shared causal variant was 0.0259324. These findings establish a positive instrument-based association but provide limited support for interpreting it as a P7-mediated effect.}
+\par\vspace{\baselineskip}\end{@twocolumnfalse}]
+\section*{Introduction}
+Circulating P7 is a glycoprotein whose local genetic associations offer an opportunity to investigate its relationship with Outcome A. A cis Mendelian randomisation analysis uses an association near the protein-encoding gene to relate genetically predicted protein variation to an outcome. Such an estimate depends on the instrument representing the relevant exposure pathway. Localisation near the encoding gene does not itself exclude other biological pathways or establish that measured circulating protein mediates disease risk.
+\par
+The archived task requested estimation at V21461189 in C1 and C2, description of protein association architecture, and assessment of shared genetic causation. The frozen plan designated C1 as primary and C2 as a separate replication assessment, retaining the prespecified instrument regardless of which variant showed the strongest protein association. The completed analysis therefore addresses related but distinct questions: whether the instrument-based estimates point in a consistent direction, whether the locus contains separable protein signals, and whether regional association patterns support a shared causal variant. These distinctions are central to interpreting the reported results.
+\par
+\section*{Methods}
+The execution record documents a completed analysis using local served association and reference-genotype tables. Dataset C supplied standardised P7 associations; datasets B and D supplied Outcome A log odds associations for C1 and C2. Dataset A supplied European-ancestry reference genotypes for linkage disequilibrium estimation. Blinded chromosome labels and shifted coordinates were retained. The original task and plan specified the analyses; the executed code establishes the computational procedures described here.
+\par
+Association records were joined by chromosome, position and allele pair, preserving distinct allele-specific records. Identifiers and decoded aliases supported reference resolution and auditing rather than defining additional observations. The reference association was anchored to its protein record. Equivalent duplicate associations were collapsed after orientation, whereas conflicting duplicates were excluded. Effects were aligned to the protein effect allele, with corresponding frequency changes after allele swaps. Palindromic variants were removed or resolved using the frozen protein-frequency and orientation criteria. Valid imprecise outcome associations remained eligible. Original protein rows were retained separately for significance counting and strongest-association ranking.
+\par
+Each Wald estimate divided the harmonised outcome effect at V21461189 by the protein effect at that variant. Its first-order standard error divided the outcome standard error by the absolute protein effect. Normal confidence limits determined the prespecified C1 direction category; sign agreement, interval exclusion of the null and relative estimate magnitude determined the C2 comparison category. Cohorts were not pooled. The estimand is an outcome log odds ratio per standard-deviation increase in P7, conditional on instrumental-variable assumptions.
+\par
+Marginal Wakefield approximate Bayes factor colocalisation used separate protein–outcome variant intersections within the frozen symmetric reference-centred window. Source effects and variant-specific standard errors entered the calculation, including larger errors for partially analysed C1 variants. The specified association priors and normal effect priors were retained. Hypothesis weights were normalised in log space and checked against an equivalent independent calculation. Common-intersection and frequency-concordance sensitivity analyses were also computed; their findings are not supplied here.
+\par
+Protein architecture was evaluated across the supplied cis region using signed, allele-aligned reference correlations. Reference processing included dosage validation, missingness exclusions, exact genotype-profile deduplication, mean imputation of retained missing dosages and removal of monomorphic variants. Stepwise approximate conditional association testing selected eligible protein leads under the frozen marginal and conditional significance requirements, followed by joint retesting. Numerically unstable candidates were excluded by the specified identifiability rules. Ridge and reference-frequency sensitivity calculations accompanied the primary analysis. Association joins and colocalisation used unique variant keys; the descriptive significance count used original protein rows. Correlated variants were not treated as independent participants.
+\par
+\section*{Results}
+The reference-variant estimates were positive in C1 and C2, and their reported normal confidence intervals lay on the risk-increasing side of the null. Under the frozen classification rule, the primary direction was higher-increases-risk. The C2 point estimate was smaller in magnitude while retaining directional agreement and an interval excluding the null, yielding concordant-weaker. This category describes the prespecified numerical comparison; it does not establish successful causal replication. The reference variant was associated with Outcome A in each cohort under the nominal association rule.
+\par
+The significant protein-row count reported in the abstract preceded harmonisation, duplicate collapse and palindrome exclusions. It therefore measures source-table association abundance rather than independent genetic signals. The strongest protein association was assigned to V21461927, which was associated with Outcome A in neither cohort under the frozen nominal rule. Conditional analysis classified the protein locus as multiple-signals. This classification concerns the analysed protein architecture and does not specify how many causal variants are shared with Outcome A.
+\par
+The supplied C2 shared-variant posterior was low under the primary marginal model. It did not support the shared-variant classification. However, the posterior for distinct causal variants and the cohort-specific verdict are not supplied, so a distinct-variants conclusion cannot be assigned. The supplied facts likewise do not include the C1 colocalisation posterior. Although colocalisation was computed for each cohort, the available findings do not establish a regional comparison between them.
+\par
+\section*{Discussion}
+The central finding is a positive association between genetically predicted P7 and Outcome A at the prespecified instrument, accompanied by a smaller concordant estimate in C2. Regional evidence qualifies its biological interpretation. The strongest protein association lacked nominal outcome association in either cohort, and the C2 shared-variant posterior was low. Together, these observations weaken a simple account in which the principal protein association directly explains the outcome association. They do not demonstrate absence of a P7 effect: significance categories depend on precision, and low shared-variant probability alone does not identify the competing explanation.
+\par
+The multiple-signals architecture also matters. Marginal colocalisation assumes a single causal variant per trait within its analysis window. The reported locus-wide classification does not establish where the separable signals lie relative to that window, but it motivates caution when interpreting a marginal shared-signal posterior. Conditional analysis used external linkage disequilibrium and an approximate summary-statistic procedure; finite reference size, strong correlations and cohort differences can affect signal separation. No sensitivity outcome is available here to establish robustness.
+\par
+Causal interpretation additionally requires instrument relevance and absence of horizontal pleiotropy or other violations of the exclusion restriction. First-order intervals omit uncertainty in the protein effect. Participant overlap cannot be verified from summary statistics, and the shared protein estimate induces dependence between the cohort ratios. Uneven variant precision, selection effects and untested protein-assay binding effects remain relevant considerations. The analysis concerns this cis locus and the supplied European-ancestry setting.
+\par
+Software provenance notice. The archived execution verifies a completed real-data look and preserves the frozen executed analysis code. The cross-table instrumental-variable claims remain exploratory/Tentative for kernel certification, with native claim status insufficient-evidence. The reported normal Wald intervals are diagnostic quantities rather than registered decision intervals. These software labels are preserved without upgrading their scientific status. Manuscript review and endorsement remain pending.
+\par
+\section*{Evidence and provenance}
+This reading manuscript was drafted retrospectively from the archived blind investigation. Numerical values are reported outputs of that run; typesetting does not independently certify them. The study identity and published answer were unavailable to the manuscript drafter.
+\par
+Native claim status: p7 outcome a c1 mr = insufficient evidence; p7 outcome a c2 mr = insufficient evidence.
+\par
+This manuscript is an unendorsed reading draft. Cross-family manuscript review and owner endorsement are pending.
+\par
+\end{document}

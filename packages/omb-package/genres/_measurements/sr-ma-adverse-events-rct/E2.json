@@ -1,0 +1,230 @@
+{
+ "pmcid": "PMC11618459",
+ "doi": "10.1001/jamanetworkopen.2024.49017",
+ "pmid": "39630447",
+ "journal": "JAMA Network Open",
+ "year": 2024,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Research",
+  "Original Investigation",
+  "Online Only"
+ ],
+ "title_words": 12,
+ "licence": "CC-BY",
+ "abstracts": [
+  {
+   "type": "key-points",
+   "structured": true,
+   "headings": [
+    "Question",
+    "Findings",
+    "Meaning"
+   ],
+   "words": 77
+  },
+  {
+   "type": "teaser",
+   "structured": false,
+   "headings": [],
+   "words": 35
+  },
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Importance",
+    "Objective",
+    "Data Sources",
+    "Study Selection",
+    "Data Extraction and Synthesis",
+    "Main Outcomes and Measures",
+    "Results",
+    "Conclusions and Relevance"
+   ],
+   "words": 357
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 154
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 716,
+   "sub": [
+    {
+     "heading": "Data Sources and Search Strategy",
+     "canonical": "other",
+     "words": 117
+    },
+    {
+     "heading": "Eligibility Criteria, Data Extraction, and Measurements",
+     "canonical": "other",
+     "words": 148
+    },
+    {
+     "heading": "Outcomes",
+     "canonical": "other",
+     "words": 72
+    },
+    {
+     "heading": "Statistical Analysis",
+     "canonical": "other",
+     "words": 309,
+     "sub": [
+      {
+       "heading": "Data Synthesis",
+       "canonical": "other",
+       "words": 201
+      },
+      {
+       "heading": "Risk of Bias Assessment",
+       "canonical": "other",
+       "words": 108
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 754,
+   "sub": [
+    {
+     "heading": "Intracranial Hemorrhage",
+     "canonical": "other",
+     "words": 102
+    },
+    {
+     "heading": "Major Hemorrhage",
+     "canonical": "other",
+     "words": 327
+    },
+    {
+     "heading": "Ischemic Stroke and Cardiovascular Death",
+     "canonical": "other",
+     "words": 157
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 616,
+   "sub": [
+    {
+     "heading": "Limitations",
+     "canonical": "limitations",
+     "words": 168
+    }
+   ]
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 56
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 154,
+  "methods": 716,
+  "results": 754,
+  "discussion": 616,
+  "conclusions": 56
+ },
+ "main_text_words": 2296,
+ "main_text_words_excluding_methods": 1580,
+ "limitations": {
+  "placement": "subsection of Discussion",
+  "words": 168
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Figure 1.",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 2.",
+   "kind_guess": [
+    "forest"
+   ]
+  },
+  {
+   "label": "Figure 3.",
+   "kind_guess": [
+    "forest"
+   ]
+  },
+  {
+   "label": "Figure 4.",
+   "kind_guess": [
+    "forest"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table."
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 2,
+ "supplementary": [
+  {
+   "label": "Supplement 1."
+  },
+  {
+   "label": "Supplement 2."
+  }
+ ],
+ "references": 33,
+ "flags": {
+  "prospero": true,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": true,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": true,
+  "i2": true,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

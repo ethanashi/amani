@@ -1,0 +1,14 @@
+{
+  "name": "@omerta-bio/omb-gauntlet",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Omerta Bio v2 claim gauntlet core: lenient plan parsing, decision-rule evaluation, gate interface and software-owned labels.",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    }
+  },
+  "license": "AGPL-3.0-only"
+}

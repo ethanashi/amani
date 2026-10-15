@@ -1,0 +1,11 @@
+template:
+Calibration plot. Binned predicted probabilities are plotted against observed proportions. Calibration slope [m:c2.cal.slope]; intercept [m:c2.cal.intercept]. A dashed diagonal marks perfect calibration.
+
+text:
+Calibration plot. Binned predicted probabilities are plotted against observed proportions. Calibration slope 0.940; intercept 0.0200. A dashed diagonal marks perfect calibration.
+
+caption template:
+Calibration of the locked model. Points are binned observed proportions; the dashed diagonal marks perfect calibration. Source: drawn by deterministic plotting code from certified data; no generative image model was used.
+
+caption text:
+Calibration of the locked model. Points are binned observed proportions; the dashed diagonal marks perfect calibration. Source: drawn by deterministic plotting code from certified data; no generative image model was used.

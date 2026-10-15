@@ -1,0 +1,12 @@
+column,type,unit,source
+role,string,,template: what the value encodes in the figure; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+record_type,string,,"fact, series, entity or claim; formula-leading text is prefixed with an apostrophe for spreadsheet safety"
+index,integer,,position within a series record (empty for facts)
+value,number,see unit column,CertifiedFact.value (full precision)
+unit,string,,CertifiedFact.unit; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+ci_level,number,proportion,CertifiedFact.ciLevel (interval level; empty when not an interval bound)
+grade,string,,"CertifiedFact.grade (kernel, exec, unverified, published); formula-leading text is prefixed with an apostrophe for spreadsheet safety"
+fact_id,string,,CertifiedFact.id; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+source_record_id,string,,CertifiedFact.sourceRecordId; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+text,string,,certified entity text or claim status; formula-leading text is prefixed with an apostrophe for spreadsheet safety
+certificate_hash,string,,authenticated certificate hash; formula-leading text is prefixed with an apostrophe for spreadsheet safety

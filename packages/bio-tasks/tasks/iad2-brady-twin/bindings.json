@@ -1,0 +1,8 @@
+[
+  "packages/bio-tasks/tasks/iad1-brady-audit/iad_common.py",
+  "packages/bio-tasks/tasks/iad1-brady-audit/calibrate_iad.py",
+  "packages/bio-tasks/tasks/iad1-brady-audit/card.json",
+  "packages/bio-tasks/tasks/iad1-brady-audit/stage.py",
+  "packages/bio-tasks/tasks/iad1-brady-audit/reference.py",
+  "packages/bio-tasks/tasks/iad1-brady-audit/result_format.py"
+]

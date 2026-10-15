@@ -1,0 +1,30 @@
+# Analysis stack for Block 0 (starter study 1). User-space only, no sudo.
+# Install:  pixi install   (from this directory)
+# Use:      pixi run Rscript ...   /   pixi run python ...
+[workspace]
+name = "bio-baseline"
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[dependencies]
+# R
+r-base = ">=4.4"
+r-survival = "*"
+"r-data.table" = "*"
+# Python
+python = "3.13.*"
+pandas = "*"
+numpy = "*"
+scipy = "*"
+statsmodels = "*"
+lifelines = "*"
+# Pin one BLAS for R and numpy alike so reference numbers do not depend on
+# which BLAS the solver happened to pick.
+libblas = { version = "*", build = "*openblas" }
+pyreadstat = ">=1.3.6,<2"
+pyarrow = ">=25.0.0,<26"
+
+[activation.env]
+# Single-threaded BLAS: reproducible floating point across runs.
+OPENBLAS_NUM_THREADS = "1"
+OMP_NUM_THREADS = "1"

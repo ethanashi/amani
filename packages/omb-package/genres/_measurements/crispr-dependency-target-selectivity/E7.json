@@ -1,0 +1,302 @@
+{
+ "pmcid": "PMC12589559",
+ "doi": "10.1038/s41698-025-01111-4",
+ "pmid": "41193619",
+ "journal": "NPJ Precision Oncology",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Article"
+ ],
+ "title_words": 15,
+ "licence": "Creative Commons Attribution-NonCommercial-NoDerivatives 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 239
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 511
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 3365,
+   "sub": [
+    {
+     "heading": "Overview of the",
+     "canonical": "other",
+     "words": 710
+    },
+    {
+     "heading": "Curating gold-standard datasets of high-confidence cancer drug-target pairs",
+     "canonical": "other",
+     "words": 195
+    },
+    {
+     "heading": "Benchmarking DeepTarget against recent tools for primary target identification",
+     "canonical": "other",
+     "words": 577
+    },
+    {
+     "heading": "Evaluating DeepTarget’s secondary target-driven prediction ability",
+     "canonical": "other",
+     "words": 550
+    },
+    {
+     "heading": "Evaluating DeepTarget’s target mutation-specificity prediction performance",
+     "canonical": "other",
+     "words": 230
+    },
+    {
+     "heading": "Predicting the anti-cancer targets of an anti-malarial drug and testing them in a new genome-wide screen",
+     "canonical": "other",
+     "words": 492
+    },
+    {
+     "heading": "Applying DeepTarget on FDA-approved cancer drugs and 33,000 natural product extracts",
+     "canonical": "other",
+     "words": 611
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 676
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 3509,
+   "sub": [
+    {
+     "heading": "Data collection",
+     "canonical": "other",
+     "words": 78
+    },
+    {
+     "heading": "The DeepTarget pipeline",
+     "canonical": "other",
+     "words": 1269
+    },
+    {
+     "heading": "Curating Gold-Standard database for primary target prediction testing",
+     "canonical": "other",
+     "words": 332,
+     "sub": [
+      {
+       "heading": "We next filtered drug-target pairs with high qualitative scores",
+       "canonical": "other",
+       "words": 67
+      }
+     ]
+    },
+    {
+     "heading": "Statistical Analysis",
+     "canonical": "other",
+     "words": 81
+    },
+    {
+     "heading": "Experimental screens testing DeepTarget’s predictions",
+     "canonical": "other",
+     "words": 894
+    },
+    {
+     "heading": "Collecting gold-standard datasets for validation of primary target prediction",
+     "canonical": "other",
+     "words": 298
+    },
+    {
+     "heading": "Compiling gold-standard datasets for validation of mutant-specific targeting prediction",
+     "canonical": "other",
+     "words": 203
+    },
+    {
+     "heading": "Predicting Ibrutinib’s secondary target",
+     "canonical": "other",
+     "words": 105
+    },
+    {
+     "heading": "Predicting clinical advancement",
+     "canonical": "other",
+     "words": 184
+    },
+    {
+     "heading": "Predicting cancer types that would likely get approved for a drug",
+     "canonical": "other",
+     "words": 65
+    }
+   ]
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 52
+  },
+  {
+   "heading": "fn:fn",
+   "canonical": "fn",
+   "words": 0
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 0
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 0
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 511,
+  "results": 3365,
+  "discussion": 676,
+  "methods": 3509,
+  "supplementary": 0
+ },
+ "main_text_words": 8061,
+ "main_text_words_excluding_methods": 4552,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 6,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic",
+    "bar_benchmark"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 6",
+   "kind_guess": [
+    "bar_benchmark"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 2,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 7,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 19,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": true,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

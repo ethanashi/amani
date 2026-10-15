@@ -1,0 +1,423 @@
+{
+ "pmcid": "PMC12002640",
+ "doi": "10.1371/journal.pmed.1004568",
+ "pmid": "40163534",
+ "journal": "PLOS Medicine",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 18,
+ "licence": "This is an open access article distributed under the terms of the Creative Commo",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods and Findings",
+    "Conclusions"
+   ],
+   "words": 350
+  },
+  {
+   "type": "summary",
+   "structured": true,
+   "headings": [
+    "Why was this study done?",
+    "What did the researchers do and find?",
+    "What do these findings mean?"
+   ],
+   "words": 226
+  },
+  {
+   "type": "toc",
+   "structured": false,
+   "headings": [],
+   "words": 31
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 284
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 3151,
+   "sub": [
+    {
+     "heading": "Search strategy and selection criteria",
+     "canonical": "other",
+     "words": 289
+    },
+    {
+     "heading": "Outcomes and modifiers",
+     "canonical": "other",
+     "words": 517
+    },
+    {
+     "heading": "Data analysis",
+     "canonical": "other",
+     "words": 563
+    },
+    {
+     "heading": "Results",
+     "canonical": "results",
+     "words": 126
+    },
+    {
+     "heading": "Risk of bias",
+     "canonical": "other",
+     "words": 52
+    },
+    {
+     "heading": "Primary outcomes",
+     "canonical": "other",
+     "words": 274
+    },
+    {
+     "heading": "Secondary outcomes (safety outcomes)",
+     "canonical": "other",
+     "words": 410
+    },
+    {
+     "heading": "Tertiary outcome",
+     "canonical": "other",
+     "words": 74
+    },
+    {
+     "heading": "Number needed to treat/harm",
+     "canonical": "other",
+     "words": 30
+    },
+    {
+     "heading": "Sensitivity analyses",
+     "canonical": "other",
+     "words": 573
+    },
+    {
+     "heading": "Neuroimaging and biomarker results",
+     "canonical": "other",
+     "words": 243
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1959
+  },
+  {
+   "heading": "Supporting information",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Abbreviations",
+   "canonical": "other",
+   "words": 63,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data Availability",
+   "canonical": "data_availability",
+   "words": 22
+  },
+  {
+   "heading": "Funding Statement",
+   "canonical": "funding",
+   "words": 151
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 284,
+  "methods": 3151,
+  "discussion": 1959,
+  "other_back": 63,
+  "data_availability": 22,
+  "funding": 151,
+  "references": 0
+ },
+ "main_text_words": 5394,
+ "main_text_words_excluding_methods": 2243,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 5,
+ "figures": [
+  {
+   "label": "Fig 1",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Fig 2",
+   "kind_guess": [
+    "forest"
+   ]
+  },
+  {
+   "label": "Fig 3",
+   "kind_guess": [
+    "forest"
+   ]
+  },
+  {
+   "label": "Fig 4",
+   "kind_guess": [
+    "forest"
+   ]
+  },
+  {
+   "label": "Fig 5",
+   "kind_guess": [
+    "forest"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 5,
+ "tables": [
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  },
+  {
+   "label": "Table 3"
+  },
+  {
+   "label": "Table 4"
+  },
+  {
+   "label": "Table 5"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 55,
+ "supplementary": [
+  {
+   "label": "S1 File"
+  },
+  {
+   "label": "S1 Fig"
+  },
+  {
+   "label": "S2 Fig"
+  },
+  {
+   "label": "S3 Fig"
+  },
+  {
+   "label": "S4 Fig"
+  },
+  {
+   "label": "S5 Fig"
+  },
+  {
+   "label": "S6 Fig"
+  },
+  {
+   "label": "S7 Fig"
+  },
+  {
+   "label": "S8 Fig"
+  },
+  {
+   "label": "S9 Fig"
+  },
+  {
+   "label": "S10 Fig"
+  },
+  {
+   "label": "S11 Fig"
+  },
+  {
+   "label": "S12 Fig"
+  },
+  {
+   "label": "S13 Fig"
+  },
+  {
+   "label": "S14 Fig"
+  },
+  {
+   "label": "S15 Fig"
+  },
+  {
+   "label": "S16 Fig"
+  },
+  {
+   "label": "S17 Fig"
+  },
+  {
+   "label": "S18 Fig"
+  },
+  {
+   "label": "S19 Fig"
+  },
+  {
+   "label": "S20 Fig"
+  },
+  {
+   "label": "S21 Fig"
+  },
+  {
+   "label": "S22 Fig"
+  },
+  {
+   "label": "S23 Fig"
+  },
+  {
+   "label": "S24 Fig"
+  },
+  {
+   "label": "S25 Fig"
+  },
+  {
+   "label": "S26 Fig"
+  },
+  {
+   "label": "S27 Fig"
+  },
+  {
+   "label": "S28 Fig"
+  },
+  {
+   "label": "S29 Fig"
+  },
+  {
+   "label": "S30 Fig"
+  },
+  {
+   "label": "S31 Fig"
+  },
+  {
+   "label": "S32 Fig"
+  },
+  {
+   "label": "S33 Fig"
+  },
+  {
+   "label": "S34 Fig"
+  },
+  {
+   "label": "S35 Fig"
+  },
+  {
+   "label": "S36 Fig"
+  },
+  {
+   "label": "S37 Fig"
+  },
+  {
+   "label": "S38 Fig"
+  },
+  {
+   "label": "S39 Fig"
+  },
+  {
+   "label": "S40 Fig"
+  },
+  {
+   "label": "S41 Fig"
+  },
+  {
+   "label": "S42 Fig"
+  },
+  {
+   "label": "S43 Fig"
+  },
+  {
+   "label": "S44 Fig"
+  },
+  {
+   "label": "S45 Fig"
+  },
+  {
+   "label": "S46 Fig"
+  },
+  {
+   "label": "S47 Fig"
+  },
+  {
+   "label": "S48 Fig"
+  },
+  {
+   "label": "S49 Fig"
+  },
+  {
+   "label": "S50 Fig"
+  },
+  {
+   "label": "S51 Fig"
+  },
+  {
+   "label": "Attachment"
+  },
+  {
+   "label": "Attachment"
+  },
+  {
+   "label": "Attachment"
+  }
+ ],
+ "references": 46,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": true,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": true,
+  "funnel": true,
+  "i2": true,
+  "zenodo": true,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

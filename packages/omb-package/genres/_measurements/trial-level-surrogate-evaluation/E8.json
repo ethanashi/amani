@@ -1,0 +1,264 @@
+{
+ "pmcid": "PMC12858593",
+ "doi": "10.1007/s12325-025-03402-5",
+ "pmid": "41222790",
+ "journal": "Advances in Therapy",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 22,
+ "licence": "Creative Commons Attribution-NonCommercial 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Introduction",
+    "Methods",
+    "Results",
+    "Conclusions",
+    "Supplementary Information"
+   ],
+   "words": 318
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Key Summary Points",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Introduction",
+   "canonical": "introduction",
+   "words": 780
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 777,
+   "sub": [
+    {
+     "heading": "Updated Individual Patient-Level Meta-analysis",
+     "canonical": "other",
+     "words": 528
+    },
+    {
+     "heading": "Systematic Literature Review to Identify Additional Randomized Controlled Trials in IgA Nephropathy",
+     "canonical": "other",
+     "words": 224
+    },
+    {
+     "heading": "Ethical Approval",
+     "canonical": "ethics",
+     "words": 25
+    }
+   ]
+  },
+  {
+   "heading": "Results",
+   "canonical": "results",
+   "words": 556,
+   "sub": [
+    {
+     "heading": "Updated Individual Patient-Level Meta-Analysis",
+     "canonical": "other",
+     "words": 279
+    },
+    {
+     "heading": "Systematic Literature Review to Identify Additional Randomized Controlled triAls in IgA Nephropathy",
+     "canonical": "other",
+     "words": 277
+    }
+   ]
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 1153
+  },
+  {
+   "heading": "Conclusions",
+   "canonical": "conclusions",
+   "words": 107
+  },
+  {
+   "heading": "Supplementary Information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "Author Contributions",
+   "canonical": "contributions",
+   "words": 105
+  },
+  {
+   "heading": "Funding",
+   "canonical": "funding",
+   "words": 49
+  },
+  {
+   "heading": "Data Availability",
+   "canonical": "data_availability",
+   "words": 41
+  },
+  {
+   "heading": "Declarations",
+   "canonical": "declarations",
+   "words": 123,
+   "sub": [
+    {
+     "heading": "Conflict of Interest",
+     "canonical": "competing_interests",
+     "words": 98
+    },
+    {
+     "heading": "Ethical Approval",
+     "canonical": "ethics",
+     "words": 25
+    }
+   ]
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 41,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 41
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 0,
+  "introduction": 780,
+  "methods": 777,
+  "results": 556,
+  "discussion": 1153,
+  "conclusions": 107,
+  "supplementary": 50,
+  "contributions": 105,
+  "funding": 49,
+  "data_availability": 41,
+  "declarations": 123,
+  "other_back": 0,
+  "references": 0
+ },
+ "main_text_words": 3373,
+ "main_text_words_excluding_methods": 2596,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 3,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 4,
+ "tables": [
+  {
+   "label": ""
+  },
+  {
+   "label": "Table 1"
+  },
+  {
+   "label": "Table 2"
+  },
+  {
+   "label": "Table 3"
+  }
+ ],
+ "boxes": 0,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": ""
+  }
+ ],
+ "references": 40,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": false,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": false,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

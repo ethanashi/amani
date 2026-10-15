@@ -1,0 +1,19 @@
+[workspace]
+name = "omb-package"
+channels = ["conda-forge"]
+platforms = ["osx-arm64", "linux-64"]
+
+[dependencies]
+pandoc = "==3.9.0.2"
+python = "==3.13.9"
+pypdf = "==6.1.1"
+tectonic = "==0.15.0"
+fonttools = "==4.60.1"
+
+[tasks]
+pandoc-version = "pandoc --version"
+
+[activation.env]
+SOURCE_DATE_EPOCH = "946684800"
+TZ = "UTC"
+PYTHONHASHSEED = "0"

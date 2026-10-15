@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="omb-figure omb-kind-forest" width="360pt" height="150pt" viewBox="0 0 360 150" role="img" aria-labelledby="ombfnlajbiklhdh-title ombfnlajbiklhdh-desc" font-family="Helvetica, Arial, sans-serif">
+ <title id="ombfnlajbiklhdh-title">Forest plot</title>
+ <desc id="ombfnlajbiklhdh-desc">Forest plot. Rows in plan order: Primary analysis: estimate 1.42, interval 1.08 to 1.87; Adjusted for site: estimate 1.380, interval 1.004 to 1.900; Women: estimate 1.55, interval 1.02 to 2.35; Men: estimate 1.21, interval 0.85 to 1.72†; Excluding early events: estimate 2.10, interval 0.30 to 400.00 (interval continues beyond the axis); Replication in UK Biobank 2024: estimate 1.330, interval 0.996 to 1.780. A dashed vertical line marks the null value. The axis is logarithmic. Intervals are 95% confidence intervals.</desc>
+ <rect class="background" x="0" y="0" width="360" height="150" fill="#FFFFFF"/>
+ <text class="header" x="352" y="16" font-size="7" text-anchor="end" fill="#222222" font-weight="bold">Odds ratio (95% CI)</text>
+ <line class="null-line" x1="169.71" y1="22" x2="169.71" y2="106" stroke="#8C8C8C" stroke-width="0.75" stroke-dasharray="3 2"/>
+ <g class="row">
+  <text class="label" x="8" y="35" font-size="7" text-anchor="start" fill="#222222">Primary analysis</text>
+  <line class="ci" x1="171.46" y1="32.5" x2="183.91" y2="32.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M175.16 30L180.16 30L180.16 35L175.16 35Z" fill="#0072B2" stroke="none" data-fact="mark-0"/>
+  <text class="value" x="352" y="35" font-size="7" text-anchor="end" fill="#222222">1.42 (1.08 to 1.87)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="48" font-size="7" text-anchor="start" fill="#222222">Adjusted for site</text>
+  <line class="ci" x1="169.8" y1="45.5" x2="184.27" y2="45.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M174.52 43L179.52 43L179.52 48L174.52 48Z" fill="#0072B2" stroke="none" data-fact="mark-1"/>
+  <text class="value" x="352" y="48" font-size="7" text-anchor="end" fill="#222222">1.380 (1.004 to 1.900)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="61" font-size="7" text-anchor="start" fill="#222222">Women</text>
+  <line class="ci" x1="170.16" y1="58.5" x2="189.09" y2="58.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M177.15 56L182.15 56L182.15 61L177.15 61Z" fill="#0072B2" stroke="none" data-fact="mark-2"/>
+  <text class="value" x="352" y="61" font-size="7" text-anchor="end" fill="#222222">1.55 (1.02 to 2.35)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="74" font-size="7" text-anchor="start" fill="#222222">Men</text>
+  <line class="ci" x1="166.03" y1="71.5" x2="182.01" y2="71.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M171.54 69L176.54 69L176.54 74L171.54 74Z" fill="#0072B2" stroke="none" data-fact="mark-3"/>
+  <text class="value" x="352" y="74" font-size="7" text-anchor="end" fill="#222222">1.21 (0.85 to 1.72)†</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="87" font-size="7" text-anchor="start" fill="#222222">Excluding early events</text>
+  <line class="ci" x1="142.41" y1="84.5" x2="274.14" y2="84.5" stroke="#222222" stroke-width="1"/>
+  <path class="trunc" d="M274.14 84.5L270.94 82.1L270.94 86.9Z" fill="#222222" stroke="none"/>
+  <path class="mark shape-square sa" d="M184.04 82L189.04 82L189.04 87L184.04 87Z" fill="#0072B2" stroke="none" data-fact="mark-4"/>
+  <text class="value" x="352" y="87" font-size="7" text-anchor="end" fill="#222222">2.10 (0.30 to 400.00)</text>
+ </g>
+ <g class="row">
+  <text class="label" x="8" y="100" font-size="7" text-anchor="start" fill="#222222">Replication in UK Biobank 2024</text>
+  <line class="ci" x1="169.62" y1="97.5" x2="182.79" y2="97.5" stroke="#222222" stroke-width="1"/>
+  <path class="mark shape-square sa" d="M173.68 95L178.68 95L178.68 100L173.68 100Z" fill="#0072B2" stroke="none" data-fact="mark-5"/>
+  <text class="value" x="352" y="100" font-size="7" text-anchor="end" fill="#222222">1.330 (0.996 to 1.780)</text>
+ </g>
+ <g class="axis axis-x scale-log">
+  <line class="domain" x1="117.5" y1="106" x2="274.14" y2="106" stroke="#222222" stroke-width="0.6"/>
+  <g class="tick">
+   <line x1="117.5" y1="106" x2="117.5" y2="109" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="117.5" y="117" font-size="7" text-anchor="middle" fill="#222222">0.1</text>
+  </g>
+  <g class="tick">
+   <line x1="169.71" y1="106" x2="169.71" y2="109" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="169.71" y="117" font-size="7" text-anchor="middle" fill="#222222">1</text>
+  </g>
+  <g class="tick">
+   <line x1="221.93" y1="106" x2="221.93" y2="109" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="221.93" y="117" font-size="7" text-anchor="middle" fill="#222222">10</text>
+  </g>
+  <g class="tick">
+   <line x1="274.14" y1="106" x2="274.14" y2="109" stroke="#222222" stroke-width="0.6"/>
+   <text class="tick-label" x="274.14" y="117" font-size="7" text-anchor="middle" fill="#222222">100</text>
+  </g>
+  <text class="axis-title" x="195.82" y="129" font-size="8" text-anchor="middle" fill="#222222">Odds ratio (log scale)</text>
+ </g>
+ <text class="footnote" x="8" y="145" font-size="6.5" text-anchor="start" fill="#222222">† Computed by AI-written code, re-run by software, not recomputed by the kernel.</text>
+ <metadata>{"certificateHashes":["727dbbc6f5789af2e3aeccc965727dd7765fbb5f4fafc5ca1173a30fafa77f30"],"csvSha256":"c43d8a268ca3be2345e951961a60f3e9cd880e767df0e5c30d29b75ea6c05535","factIds":["c1","c1.adjusted.ci_lower","c1.adjusted.ci_upper","c1.adjusted.estimate","c1.early.ci_lower","c1.early.ci_upper","c1.early.estimate","c1.men.ci_lower","c1.men.ci_upper","c1.men.estimate","c1.primary.ci_lower","c1.primary.ci_upper","c1.primary.estimate","c1.replication.ci_lower","c1.replication.ci_upper","c1.replication.estimate","c1.women.ci_lower","c1.women.ci_upper","c1.women.estimate","cohort-ukb"],"figureId":"forest-c1","generatorVersion":"omb-figures@2","specSha256":"2773db9c25835b6e9e01a1d7cc4df54d457cbd695543bd3f2c74d980cbcd9e11","templateId":"forest@omb-figures-templates@1"}</metadata>
+</svg>

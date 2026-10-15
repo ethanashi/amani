@@ -1,0 +1,2739 @@
+{
+  "schema_version": "genre-profile/1",
+  "genre": "ai-research-agent-methods",
+  "genre_name": "Methods / system paper describing an AI research agent and its validation (benchmarks, ablations, case studies)",
+  "scope": "Original research papers that introduce an LLM-based (or otherwise AI) research agent or multi-agent system for science, describe its architecture and tools, and validate it with benchmarks against baselines, component ablations, case studies or discoveries (sometimes with wet-lab confirmation), human or LLM-judge evaluation, cost/runtime and safety analysis. This is the genre of Amani's own system paper (PW11). Not covered: benchmark-only papers that evaluate other agents, reviews/perspectives, clinical decision-support or diagnostic agents, and single-model tools without an agentic loop.",
+  "built_on": "2026-10-13",
+  "word_count_convention": "jats_structure.py prose words; captions/tables/citations/headings excluded; main = I+M+R+D(+L,C); for this genre also counts E2's headed safety sections ('other') and E3's Experimental Section as Methods",
+  "exemplars": [
+    {
+      "id": "E1",
+      "citation": "Boiko DA, MacKnight R, Kline B, et al. Autonomous chemical research with large language models. Nature. 2023;624(7992):570-578.",
+      "doi": "10.1038/s41586-023-06792-0",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10733136/",
+      "pmcid": "PMC10733136",
+      "licence": "CC BY 4.0",
+      "journal": "Nature",
+      "year": 2023,
+      "article_type": "Article",
+      "disease_area": "none (chemistry: autonomous synthesis planning and reaction optimization, Coscientist)",
+      "guideline_cited": [],
+      "measurement_file": "_measurements/ai-research-agent-methods/E1.json",
+      "measurement_method": "jats_structure.py on Europe PMC JATS XML (post-12:31 fixed extractor); declarations, captions and supplement lists read by hand from the same XML",
+      "measured": {
+        "main_text_words": 4004,
+        "main_text_words_excluding_methods": 4004,
+        "section_words": {
+          "introduction": 423,
+          "results": 3414,
+          "discussion": 167
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 111,
+        "extra_summaries": [
+          "web summary / standfirst (35 words)"
+        ],
+        "figures_main": 6,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "architecture_schematic",
+          "benchmark_comparison",
+          "architecture_schematic",
+          "case_study_figure",
+          "validation_panel",
+          "benchmark_comparison"
+        ],
+        "extended_data": "3 Extended Data figures (case example, generated code, extra Bayesian-optimization comparison)",
+        "references": 52,
+        "supplement_files": 1,
+        "supplement_types": [
+          "Supplementary Information PDF: supplementary text with full experiment examples/transcripts and Supplementary Figs 1-3"
+        ],
+        "limitations_placement": "no explicit limitations passage in the main text; Discussion has a safety and dual-use paragraph",
+        "statements": [
+          "data availability (full data, code and prompts withheld for safety; examples in SI)",
+          "code availability (simplified implementation and outputs on GitHub)",
+          "competing interests (company roles)",
+          "technology use disclosure (ChatGPT for grammar)",
+          "author contributions",
+          "acknowledgements with funding",
+          "peer review information"
+        ],
+        "corrections": "Removed the 37-word 'Technology use disclosure' subsection that the tool counted inside Discussion (4041 -> 4004). No Methods section in the main text (method details sit in the SI). Untitled 'Main' lead = introduction; the six descriptive headings that follow = Results (3414)."
+      }
+    },
+    {
+      "id": "E2",
+      "citation": "M Bran A, Cox S, Schilter O, et al. Augmenting large language models with chemistry tools. Nat Mach Intell. 2024;6(5):525-535.",
+      "doi": "10.1038/s42256-024-00832-8",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11116106/",
+      "pmcid": "PMC11116106",
+      "licence": "CC BY 4.0",
+      "journal": "Nature Machine Intelligence",
+      "year": 2024,
+      "article_type": "Article",
+      "disease_area": "none (chemistry: organic synthesis, drug and materials design, ChemCrow)",
+      "guideline_cited": [
+        "Nature Portfolio Reporting Summary"
+      ],
+      "measurement_file": "_measurements/ai-research-agent-methods/E2.json",
+      "measurement_method": "jats_structure.py on Europe PMC JATS XML (post-12:31 fixed extractor); declarations, captions and supplement lists read by hand from the same XML",
+      "measured": {
+        "main_text_words": 5272,
+        "main_text_words_excluding_methods": 3110,
+        "section_words": {
+          "introduction": 865,
+          "results_discussion": 1126,
+          "other": 672,
+          "conclusions": 447,
+          "methods": 2162
+        },
+        "section_order": [
+          "introduction",
+          "results_discussion",
+          "other",
+          "conclusions",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 147,
+        "extra_summaries": [
+          "web summary / standfirst (60 words)"
+        ],
+        "figures_main": 5,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "architecture_schematic",
+          "validation_panel",
+          "case_study_figure",
+          "human_eval_plot",
+          "safety_guardrail_example"
+        ],
+        "references": 103,
+        "supplement_files": 3,
+        "supplement_types": [
+          "Supplementary Information PDF (supplementary discussion, task list and Figs 1-18)",
+          "Reporting Summary",
+          "source data spreadsheet"
+        ],
+        "limitations_placement": "no heading; evaluation caveats in the Conclusion, plus headed 'Risk-mitigation strategies' and 'Unintended risks' sections between Results and Conclusion",
+        "statements": [
+          "reporting summary",
+          "funding",
+          "data availability (agent run logs on GitHub)",
+          "code availability (open-source subset of 12 of 18 tools; proprietary LLM API)",
+          "competing interests (consultancy for an LLM vendor)",
+          "author contributions",
+          "acknowledgements"
+        ],
+        "corrections": "'other' = the two headed safety sections (89 + 583 words) that the tool folded into other_main. The tool listed 6 supplementary files; there are 3 unique files (each listed twice in the PMC XML)."
+      }
+    },
+    {
+      "id": "E3",
+      "citation": "Ghafarollahi A, Buehler MJ. SciAgents: automating scientific discovery through bioinspired multi-agent intelligent graph reasoning. Adv Mater. 2025;37(22):e2413523.",
+      "doi": "10.1002/adma.202413523",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12138853/",
+      "pmcid": "PMC12138853",
+      "licence": "CC BY-NC 4.0",
+      "journal": "Advanced Materials",
+      "year": 2025,
+      "article_type": "Research Article",
+      "disease_area": "none (materials science: bio-inspired materials hypotheses)",
+      "guideline_cited": [],
+      "measurement_file": "_measurements/ai-research-agent-methods/E3.json",
+      "measurement_method": "jats_structure.py on Europe PMC JATS XML (post-12:31 fixed extractor); declarations, captions and supplement lists read by hand from the same XML",
+      "measured": {
+        "main_text_words": 8755,
+        "main_text_words_excluding_methods": 6676,
+        "section_words": {
+          "introduction": 1088,
+          "results_discussion": 4283,
+          "conclusions": 1305,
+          "methods": 2079
+        },
+        "section_order": [
+          "introduction",
+          "results_discussion",
+          "conclusions",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 228,
+        "extra_summaries": [
+          "graphical abstract / table-of-contents text (57 words)"
+        ],
+        "figures_main": 12,
+        "tables_main": 5,
+        "display_item_kinds": [
+          "architecture_schematic",
+          "architecture_schematic",
+          "case_study_figure",
+          "network_plot",
+          "network_plot",
+          "agent_prompt_figure",
+          "case_study_figure",
+          "architecture_schematic",
+          "case_study_figure",
+          "case_study_figure",
+          "architecture_schematic",
+          "agent_prompt_figure",
+          "results_table",
+          "results_table",
+          "results_table",
+          "results_table",
+          "results_table",
+          "algorithm_box"
+        ],
+        "references": 47,
+        "supplement_files": 3,
+        "supplement_types": [
+          "Supporting Information PDF (full generated research proposals, knowledge-graph paths, extra figures)",
+          "two supplemental media files (recorded agent sessions)"
+        ],
+        "limitations_placement": "no heading; two paragraphs inside the Conclusion (~420 words, estimated)",
+        "statements": [
+          "conflict of interest",
+          "data availability (supplement; code on GitHub)",
+          "acknowledgements with funding"
+        ],
+        "corrections": "The tool flagged the 'Experimental Section' (placed after the Conclusion, Wiley style) as back matter; it is the Methods, so added 2079 words to main text (6676 -> 8755). The 4 'boxes' are inline text/pseudo-code boxes (not editorial boxes); only the pseudo-code box is listed as a display item. Year = issue year 2025 (online Dec 2024). 6 supplementary entries = 3 unique files."
+      }
+    },
+    {
+      "id": "E4",
+      "citation": "Wang Z, Jin Q, Wei CH, et al. GeneAgent: self-verification language agent for gene-set analysis using domain databases. Nat Methods. 2025;22(8):1677-1685.",
+      "doi": "10.1038/s41592-025-02748-6",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12328209/",
+      "pmcid": "PMC12328209",
+      "licence": "CC BY 4.0",
+      "journal": "Nature Methods",
+      "year": 2025,
+      "article_type": "Article",
+      "disease_area": "functional genomics (gene-set annotation; melanoma cell-line case study)",
+      "guideline_cited": [
+        "Nature Portfolio Reporting Summary"
+      ],
+      "measurement_file": "_measurements/ai-research-agent-methods/E4.json",
+      "measurement_method": "jats_structure.py on Europe PMC JATS XML (post-12:31 fixed extractor); declarations, captions and supplement lists read by hand from the same XML",
+      "measured": {
+        "main_text_words": 6047,
+        "main_text_words_excluding_methods": 3126,
+        "section_words": {
+          "introduction": 585,
+          "results": 1943,
+          "discussion": 598,
+          "methods": 2921
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 131,
+        "extra_summaries": [
+          "web summary / standfirst (16 words)"
+        ],
+        "figures_main": 3,
+        "tables_main": 3,
+        "display_item_kinds": [
+          "architecture_schematic",
+          "benchmark_comparison",
+          "error_taxonomy",
+          "dataset_table",
+          "results_table",
+          "benchmark_table",
+          "glossary_box"
+        ],
+        "extended_data": "5 Extended Data figures (score distributions, scoring illustration, case example, ablation of self-verification, comparison with GSEA)",
+        "references": 59,
+        "supplement_files": 10,
+        "supplement_types": [
+          "Supplementary Information PDF (Supp Fig 1, Tables 1-4 incl. other-LLM comparison)",
+          "Reporting Summary",
+          "prompts used by the agent",
+          "verification claims with human checking",
+          "expert annotations for the case study",
+          "API access links and prompts",
+          "baseline outputs (GSEA and other LLMs)",
+          "source code",
+          "evaluated gene sets (data)"
+        ],
+        "limitations_placement": "headed 'Limitations' subsection of Discussion (118 words), preceded by an 'Error analysis' subsection",
+        "statements": [
+          "reporting summary",
+          "data availability (public gene sets with release versions)",
+          "code availability (GitHub + Zenodo + demo site)",
+          "competing interests (none)",
+          "funding (in acknowledgements and funding group)",
+          "author contributions"
+        ],
+        "corrections": "None to word counts. Box 1 (Glossary) excluded from prose by the tool and recorded as a display item."
+      }
+    },
+    {
+      "id": "E5",
+      "citation": "Qu Y, Huang K, Yin M, et al. CRISPR-GPT for agentic automation of gene-editing experiments. Nat Biomed Eng. 2026;10(2):245-258.",
+      "doi": "10.1038/s41551-025-01463-z",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12920143/",
+      "pmcid": "PMC12920143",
+      "licence": "CC BY 4.0",
+      "journal": "Nature Biomedical Engineering",
+      "year": 2026,
+      "article_type": "Article",
+      "disease_area": "gene editing (lung adenocarcinoma and melanoma cell-line demonstrations)",
+      "guideline_cited": [
+        "Nature Portfolio Reporting Summary"
+      ],
+      "measurement_file": "_measurements/ai-research-agent-methods/E5.json",
+      "measurement_method": "jats_structure.py on Europe PMC JATS XML (post-12:31 fixed extractor); declarations, captions and supplement lists read by hand from the same XML",
+      "measured": {
+        "main_text_words": 6931,
+        "main_text_words_excluding_methods": 3995,
+        "section_words": {
+          "introduction": 438,
+          "results": 2974,
+          "discussion": 583,
+          "methods": 2936
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 185,
+        "extra_summaries": [
+          "web summary / standfirst (15 words)"
+        ],
+        "figures_main": 6,
+        "tables_main": 0,
+        "display_item_kinds": [
+          "architecture_schematic",
+          "architecture_schematic",
+          "benchmark_comparison",
+          "benchmark_comparison",
+          "human_eval_plot",
+          "validation_panel"
+        ],
+        "extended_data": "5 Extended Data figures (tool comparison, three blinded QA examples vs baselines, dual-use refusal examples)",
+        "references": 78,
+        "supplement_files": 7,
+        "supplement_types": [
+          "Supplementary Information PDF (Tables 1-4, Figs 1-5, Notes A-F: benchmark construction, fine-tuning data, evaluation rubrics, limitations)",
+          "Reporting Summary",
+          "agent demo chat histories (data)",
+          "dual-use research of concern (DURC) information for agent safety",
+          "three recorded demo videos"
+        ],
+        "limitations_placement": "no heading; one paragraph in Discussion plus a limitations note in the Supplementary Information",
+        "statements": [
+          "reporting summary",
+          "data availability (paper, SI, GitHub)",
+          "code availability (full code and prompts withheld for safety; peer reviewed; light version promised)",
+          "competing interests (patent applications, advisory and equity roles)",
+          "author contributions",
+          "acknowledgements with funding"
+        ],
+        "corrections": "Tool listed 14 supplementary entries; 7 unique files (each listed twice). Year = issue year 2026 (online July 2025)."
+      }
+    },
+    {
+      "id": "E6",
+      "citation": "Lu C, Lu C, Lange RT, et al. Towards end-to-end automation of AI research. Nature. 2026;651(8107):914-919.",
+      "doi": "10.1038/s41586-026-10265-5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13017497/",
+      "pmcid": "PMC13017497",
+      "licence": "CC BY 4.0",
+      "journal": "Nature",
+      "year": 2026,
+      "article_type": "Article",
+      "disease_area": "none (machine-learning research, The AI Scientist)",
+      "guideline_cited": [],
+      "measurement_file": "_measurements/ai-research-agent-methods/E6.json",
+      "measurement_method": "jats_structure.py on Europe PMC JATS XML (post-12:31 fixed extractor); declarations, captions and supplement lists read by hand from the same XML",
+      "measured": {
+        "main_text_words": 5158,
+        "main_text_words_excluding_methods": 2446,
+        "section_words": {
+          "introduction": 456,
+          "results": 1344,
+          "limitations": 646,
+          "methods": 2712
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "limitations",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 251,
+        "extra_summaries": [
+          "web summary / standfirst (29 words)"
+        ],
+        "figures_main": 3,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "architecture_schematic",
+          "case_study_figure",
+          "benchmark_comparison",
+          "benchmark_table"
+        ],
+        "references": 64,
+        "supplement_files": 2,
+        "supplement_types": [
+          "Supplementary Information PDF (supplementary methods for both system variants and the automated reviewer, model versions and replication counts, results tables, failure-mode analysis, case studies, limitations, IRB details, full AI-generated papers)",
+          "Peer Review File"
+        ],
+        "limitations_placement": "top-level 'Limitations' section (646 words) in place of a Discussion; includes ethics and societal-risk paragraphs",
+        "statements": [
+          "ethics approval (behavioural research ethics board protocol, in Methods)",
+          "data availability (public datasets used)",
+          "code availability (two GitHub repositories, Apache 2.0)",
+          "competing interests (authors employed by the developing company)",
+          "author contributions",
+          "acknowledgements with funding",
+          "peer review file"
+        ],
+        "corrections": "Tool counted the 36-word Nature 'Online content' boilerplate as main text because no Discussion precedes it; removed (5194 -> 5158; excl. Methods 2482 -> 2446). Methods include an 89-word 'Ethics approval' subsection (kept)."
+      }
+    },
+    {
+      "id": "E7",
+      "citation": "Ghareeb AE, Chang B, Mitchener L, et al. A multi-agent system for automating scientific discovery. Nature. 2026;655(8122):497-505.",
+      "doi": "10.1038/s41586-026-10652-y",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13346116/",
+      "pmcid": "PMC13346116",
+      "licence": "CC BY-NC-ND 4.0",
+      "journal": "Nature",
+      "year": 2026,
+      "article_type": "Article",
+      "disease_area": "ophthalmology (dry age-related macular degeneration; Robin)",
+      "guideline_cited": [
+        "Nature Portfolio Reporting Summary"
+      ],
+      "measurement_file": "_measurements/ai-research-agent-methods/E7.json",
+      "measurement_method": "jats_structure.py on Europe PMC JATS XML (post-12:31 fixed extractor); declarations, captions and supplement lists read by hand from the same XML",
+      "measured": {
+        "main_text_words": 7792,
+        "main_text_words_excluding_methods": 4094,
+        "section_words": {
+          "introduction": 758,
+          "results": 2671,
+          "discussion": 665,
+          "methods": 3698
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 249,
+        "extra_summaries": [
+          "web summary / standfirst (19 words)"
+        ],
+        "figures_main": 4,
+        "tables_main": 1,
+        "display_item_kinds": [
+          "architecture_schematic",
+          "case_study_figure",
+          "case_study_figure",
+          "validation_panel",
+          "cost_table"
+        ],
+        "extended_data": "6 Extended Data figures (cell-model validation x2, cytotoxicity, component ablation, analysis-agent accuracy and failure modes, comparison with a commercial deep-research baseline)",
+        "references": 62,
+        "supplement_files": 4,
+        "supplement_types": [
+          "Supplementary Information PDF (reagent tables, Supp Figs 1-20: agent prompts, workflows, gating, RNA-seq results, evaluation rubrics, LLM-judge vs human-expert concordance)",
+          "Reporting Summary",
+          "Supplementary Tables 3-10 spreadsheet (assay results, ablation data, benchmark-question results)",
+          "Peer Review File"
+        ],
+        "limitations_placement": "no heading; one Discussion paragraph on gaps in the current implementation (~150 words), next to a safeguards paragraph",
+        "statements": [
+          "reporting summary",
+          "funding",
+          "data availability (SRA BioProject accession)",
+          "code availability (GitHub, with sample agent trajectories)",
+          "competing interests (shares in a spin-out company)",
+          "author contributions",
+          "acknowledgements"
+        ],
+        "corrections": "Results subsections are nested under the 'Main' heading in the XML; split by subtraction: introduction = Main lead paragraphs (3429 - 2671 = 758), results = the three nested subsections (2671). Tool listed 8 supplementary entries; 4 unique files."
+      }
+    },
+    {
+      "id": "E8",
+      "citation": "Su H, Feng J, Lu Y, et al. BioMaster: multi-agent system for automated bioinformatics analysis workflow. Patterns (N Y). 2026;7(8):101611.",
+      "doi": "10.1016/j.patter.2026.101611",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13494596/",
+      "pmcid": "PMC13494596",
+      "licence": "CC BY 4.0",
+      "journal": "Patterns (Cell Press)",
+      "year": 2026,
+      "article_type": "Article",
+      "disease_area": "bioinformatics workflows (multi-omics; no disease focus)",
+      "guideline_cited": [],
+      "measurement_file": "_measurements/ai-research-agent-methods/E8.json",
+      "measurement_method": "jats_structure.py on Europe PMC JATS XML (post-12:31 fixed extractor); declarations, captions and supplement lists read by hand from the same XML",
+      "measured": {
+        "main_text_words": 7181,
+        "main_text_words_excluding_methods": 4997,
+        "section_words": {
+          "introduction": 603,
+          "results": 3828,
+          "discussion": 566,
+          "methods": 2184
+        },
+        "section_order": [
+          "introduction",
+          "results",
+          "discussion",
+          "methods"
+        ],
+        "abstract_format": "unstructured",
+        "abstract_headings": [],
+        "abstract_words": 128,
+        "extra_summaries": [
+          "Highlights (33 words)",
+          "The bigger picture (140 words)",
+          "eTOC teaser (37 words)"
+        ],
+        "figures_main": 7,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "architecture_schematic",
+          "benchmark_comparison",
+          "benchmark_comparison",
+          "ablation_plot",
+          "validation_panel",
+          "case_study_figure",
+          "agent_prompt_figure",
+          "benchmark_table",
+          "benchmark_table"
+        ],
+        "references": 58,
+        "supplement_files": 2,
+        "supplement_types": [
+          "Document S1 (Figures S1-S7, Tables S1-S72 with dataset list and per-task outputs, code listing, supplemental methods)",
+          "Document S2 (article plus supplemental information)"
+        ],
+        "limitations_placement": "no heading; one 'several limitations' paragraph near the end of Discussion (~95 words) plus a model-choice paragraph",
+        "statements": [
+          "ethics statement (institutional approval; informed consent of user-study participants)",
+          "resource availability (lead contact; materials; data and code on Zenodo and GitHub)",
+          "declaration of interests",
+          "declaration of generative AI use in writing",
+          "author contributions",
+          "acknowledgments with funding"
+        ],
+        "corrections": "None to word counts. Abstract is headed 'Summary' (Cell Press). Table 1 is a qualitative capability comparison with prior systems; classed as benchmark_table."
+      }
+    },
+    {
+      "id": "E9",
+      "citation": "Martinek V, Gariboldi A, Tzimotoudis D, et al. Agentomics: an agentic system that autonomously develops novel state-of-the-art solutions for biomedical machine learning tasks. Bioinformatics. 2026;42(Suppl 1):btag250.",
+      "doi": "10.1093/bioinformatics/btag250",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13340167/",
+      "pmcid": "PMC13340167",
+      "licence": "CC BY 4.0",
+      "journal": "Bioinformatics",
+      "year": 2026,
+      "article_type": "Original Paper (ISMB 2026 proceedings supplement)",
+      "disease_area": "biomedical machine learning (protein engineering, drug discovery, regulatory genomics benchmarks)",
+      "guideline_cited": [],
+      "measurement_file": "_measurements/ai-research-agent-methods/E9.json",
+      "measurement_method": "jats_structure.py on Europe PMC JATS XML (post-12:31 fixed extractor); declarations, captions and supplement lists read by hand from the same XML",
+      "measured": {
+        "main_text_words": 4951,
+        "main_text_words_excluding_methods": 2761,
+        "section_words": {
+          "introduction": 766,
+          "methods": 2190,
+          "results": 1245,
+          "discussion": 632,
+          "conclusions": 118
+        },
+        "section_order": [
+          "introduction",
+          "methods",
+          "results",
+          "discussion",
+          "conclusions"
+        ],
+        "abstract_format": "structured",
+        "abstract_headings": [
+          "Motivation",
+          "Results",
+          "Availability and implementation"
+        ],
+        "abstract_words": 216,
+        "extra_summaries": [],
+        "figures_main": 3,
+        "tables_main": 2,
+        "display_item_kinds": [
+          "architecture_schematic",
+          "benchmark_comparison",
+          "composition_bar",
+          "benchmark_table",
+          "benchmark_table",
+          "algorithm_box"
+        ],
+        "references": 33,
+        "supplement_files": 0,
+        "supplement_types": [],
+        "limitations_placement": "no heading; one 'a limitation of our study' paragraph plus two short scope paragraphs in Discussion (~180 words, estimated)",
+        "statements": [
+          "conflict of interests",
+          "funding",
+          "data availability (source code on GitHub)",
+          "author contributions",
+          "code URL in the abstract (Availability and implementation)"
+        ],
+        "corrections": "None to word counts. Box = 'Algorithm 1' pseudo-code (excluded from prose, recorded as algorithm_box). No supplementary files in the PMC record."
+      }
+    }
+  ],
+  "sections": [
+    {
+      "id": "title",
+      "heading": "Title",
+      "aliases": [],
+      "order": 1,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [
+        {
+          "id": "ai_agent_term",
+          "description": "title names the system class (agent, agentic, multi-agent, LLM, AI)",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "\\bagent(s|ic)?\\b",
+            "multi-agent",
+            "large language model",
+            "\\bLLMs?\\b",
+            "\\bAI\\b",
+            "artificial intelligence"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "system_name_in_title",
+          "description": "system name in the title, usually 'Name: what it does' (4/9) or 'Name for <task>' (1/9)",
+          "level": "typical",
+          "frequency": "5/9",
+          "detect": [
+            "^[A-Z][A-Za-z0-9-]+:",
+            "^[A-Z][A-Za-z0-9-]*-?(GPT|Agent|Master|omics)\\b"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "title_length",
+          "description": "title length 6-15 words (median 7)",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Unlike Amani's science papers (no system name in titles), a system paper typically names the system. Title words min 6, median 7, max 15.",
+      "basis": "frequency"
+    },
+    {
+      "id": "abstract",
+      "heading": "Abstract",
+      "aliases": [
+        "Summary"
+      ],
+      "order": 2,
+      "level": "required",
+      "words": {
+        "min": 100,
+        "typical": 200,
+        "max": 250
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "Single unstructured paragraph in 8/9; structured only in Bioinformatics (E9). Cell Press heads it 'Summary'. See the abstract block.",
+      "basis": "frequency"
+    },
+    {
+      "id": "introduction",
+      "heading": "Introduction",
+      "aliases": [
+        "Main",
+        "(untitled lead paragraphs)",
+        "Background"
+      ],
+      "order": 3,
+      "level": "required",
+      "words": {
+        "min": 400,
+        "typical": 600,
+        "max": 1100
+      },
+      "subsections": [],
+      "elements": [
+        {
+          "id": "gap_in_prior_systems",
+          "description": "why LLMs or existing agents/tools fall short for this kind of science (missing tools, hallucination, brittleness, no end-to-end automation)",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "(lack|struggle|limited|fail|remain(s|ed)? out of reach|no system|hallucinat|challeng|limitation)",
+            "existing (tools|systems|agents|approaches)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "system_introduced",
+          "description": "names the system and states what it does ('Here we present/introduce X, a ...')",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "here,? we (present|introduce|show|describe|develop|propose)",
+            "we (present|introduce|developed|propose) [A-Z]",
+            "(is|was) presented",
+            "(this (paper|work|study|report)|our (study|work)) (introduces|presents|describes)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "contribution_preview",
+          "description": "closing paragraph previews what was evaluated or demonstrated (use cases, benchmarks, headline result)",
+          "level": "typical",
+          "frequency": "6/9 (E1, E2, E4, E6, E7, E8)",
+          "detect": [
+            "we (analy[sz]e|evaluate|benchmark|demonstrate|validate|tested|show that|appl(y|ied))",
+            "(across|on) \\d+ (tasks|datasets|benchmarks|use cases)",
+            "by applying",
+            "outperform",
+            "achieved",
+            "exceed"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Nature-family papers (6/9) open with an untitled lead ('Main' in the XML) instead of an 'Introduction' heading.",
+      "basis": "frequency"
+    },
+    {
+      "id": "results",
+      "heading": "Results",
+      "aliases": [
+        "Results and discussion",
+        "Results and Discussion"
+      ],
+      "order": 4,
+      "level": "required",
+      "words": {
+        "min": 1150,
+        "typical": 2650,
+        "max": 4300
+      },
+      "subsections": [
+        {
+          "heading": "System overview / architecture",
+          "aliases": [
+            "<System> workflow",
+            "<System> system architecture",
+            "Overview of <System>",
+            "<System> is a crew of agents for ..."
+          ],
+          "aliases_regex": [
+            "(system )?(architecture|overview|workflow|framework)",
+            "is a (crew|team|multi-agent)",
+            "^(overview of|building|introducing)"
+          ],
+          "level": "typical",
+          "frequency": "6/9 as the first Results subsection (E1, E3, E4, E5, E7, E8); 9/9 describe the architecture somewhere (Results, Methods or intro + Figure 1)",
+          "words": {
+            "min": 250,
+            "typical": 650,
+            "max": 2600
+          },
+          "notes": "Walks through Figure 1: agents/modules, tools, memory, control loop, human touchpoints.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Benchmark evaluation against baselines",
+          "aliases": [
+            "<System> outperforms <baseline> in benchmarks",
+            "Evaluation across diverse use cases",
+            "Automated evaluation of generated papers",
+            "Validation of the <System> architecture"
+          ],
+          "aliases_regex": [
+            "outperform",
+            "benchmark",
+            "evaluation",
+            "compar(ison|ed)",
+            "validation of",
+            "performance"
+          ],
+          "level": "required",
+          "frequency": "8/9 (headed in E1, E2, E4, E6, E7, E8, E9; E5 embeds evaluation in each task subsection)",
+          "words": {
+            "min": 100,
+            "typical": 450,
+            "max": 950
+          },
+          "notes": "Declarative headings in Nature-style venues. Quantitative comparison with named baselines (base LLM, other agents, human experts, classical tools).",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Case study / real-world demonstration",
+          "aliases": [
+            "Integrated chemical experiment design",
+            "Real-world demonstration ...",
+            "Case study: <dataset>",
+            "<System> offers insightful explanations for novel ..."
+          ],
+          "aliases_regex": [
+            "case stud",
+            "real-world",
+            "demonstrat",
+            "application",
+            "discover",
+            "novel",
+            "wet[- ]lab",
+            "experiment"
+          ],
+          "level": "required",
+          "frequency": "8/9 headed (E1-E7, E9); 9/9 have case-study content",
+          "words": {
+            "min": 250,
+            "typical": 450,
+            "max": 1550
+          },
+          "notes": "One worked discovery or task end to end; wet-lab or external confirmation in 5/9.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Module or task capability demonstrations",
+          "aliases": [
+            "Web search module",
+            "Documentation search module",
+            "gRNA design",
+            "Delivery method selection",
+            "<System> is a versatile agent for ..."
+          ],
+          "aliases_regex": [
+            "module",
+            "design",
+            "selection",
+            "planning",
+            "versatile",
+            "capabilit",
+            "tools?"
+          ],
+          "level": "optional",
+          "frequency": "3/9 (E1, E5, E8)",
+          "words": {
+            "min": 200,
+            "typical": 350,
+            "max": 1150
+          },
+          "notes": "One subsection per component or task family.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Robustness, error correction or failure analysis",
+          "aliases": [
+            "<System> mitigates hallucinations by self-verification",
+            "<System> enables autonomous error correction",
+            "Analysis of weak runs"
+          ],
+          "aliases_regex": [
+            "error",
+            "failure",
+            "hallucinat",
+            "weak runs",
+            "robust",
+            "self-verif"
+          ],
+          "level": "optional",
+          "frequency": "3/9 headed in Results (E4, E8, E9); E4 also has an 'Error analysis' Discussion subsection",
+          "words": {
+            "min": 200,
+            "typical": 300,
+            "max": 550
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Human evaluation",
+          "aliases": [
+            "Human evaluation results",
+            "<System> excels in human-AI collaboration"
+          ],
+          "aliases_regex": [
+            "human",
+            "expert",
+            "user (study|experience)"
+          ],
+          "level": "optional",
+          "frequency": "2/9 headed (6/9 report human or expert ratings somewhere)",
+          "words": {
+            "min": 150,
+            "typical": 350,
+            "max": 500
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Cost, runtime and reliability",
+          "aliases": [
+            "<System> is reliable, fast, and cost effective",
+            "Cost analysis"
+          ],
+          "aliases_regex": [
+            "cost",
+            "runtime",
+            "fast",
+            "time-on-task",
+            "compute"
+          ],
+          "level": "optional",
+          "frequency": "3/9 report cost or compute (E6, E7, E9); headed in Results 1/9, in Methods 1/9",
+          "words": {
+            "min": 50,
+            "typical": 100,
+            "max": 100
+          },
+          "notes": "",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "named_baselines",
+          "description": "every comparison names its baseline(s): base LLM without tools, other agents, classical tools, human experts",
+          "level": "required",
+          "frequency": "8/9",
+          "detect": [
+            "baseline",
+            "compared (with|to)",
+            "outperform",
+            "than (GPT|the base|existing|human|other)",
+            "versus|\\bvs\\.?\\b"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "run_to_run_variance",
+          "description": "variation across repeated runs/trials/seeds or raters reported (n, s.d., s.e.m., 95% CI)",
+          "level": "required",
+          "frequency": "8/9",
+          "detect": [
+            "\\bs\\.d\\.|standard deviation",
+            "\\bs\\.e\\.m\\.|\\bSEM\\b",
+            "95% (CI|confidence)",
+            "mean ± ",
+            "n = \\d+ (runs|trials|replicates|seeds)",
+            "(three|five|ten|\\d+) (independent )?(runs|trials|replicates|seeds)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "component_ablation",
+          "description": "removing or swapping a component (agent, verification step, tool, fine-tuned model, prior information) to show its contribution",
+          "level": "optional",
+          "frequency": "3/9 strict (E4, E7, E8; two only in Extended Data); partial component comparisons in E1 (prior information) and E5 (fine-tuned vs base model); E9 lists the missing ablation as a limitation",
+          "detect": [
+            "ablat",
+            "without (the )?\\w+ (agent|module|step|tool|component|verification)",
+            "w/o",
+            "with(out)? prior information"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "backbone_model_comparison",
+          "description": "results with alternative or open-source LLM backbones or compute budgets",
+          "level": "typical",
+          "frequency": "5/9 (E1, E4, E5, E6, E8)",
+          "detect": [
+            "open[- ]source (LLM|model)",
+            "(different|alternative|other|recent) (LLMs|models|backbones)",
+            "compute (scaling|budget|allocated)",
+            "model scale",
+            "GPT-3\\.5|Llama|Qwen|DeepSeek"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "llm_as_judge_with_human_check",
+          "description": "LLM-as-judge or automated reviewer scoring, ideally checked against human raters",
+          "level": "optional",
+          "frequency": "4/9 (E2, E6, E7, E8)",
+          "detect": [
+            "LLM[- ](as[- ]a[- ])?judge",
+            "automated review",
+            "LLM (raters|evaluator|judge)",
+            "EvaluatorGPT",
+            "concordance"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "contamination_or_cutoff_check",
+          "description": "addresses training-data contamination, the backbone's knowledge cutoff relative to benchmark data, or test-set leakage",
+          "level": "typical",
+          "frequency": "5/9 (E1, E2, E4, E6, E9); cutoff date stated in 3/9 (E1, E4, E6)",
+          "detect": [
+            "contamina",
+            "memori[sz]",
+            "(training|knowledge) (data )?(collection )?cut-?off",
+            "training data up to",
+            "leakage",
+            "released after"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "statistical_tests_named",
+          "description": "statistical test named for comparisons",
+          "level": "typical",
+          "frequency": "6/9 (E2, E5, E6, E7, E8, E9; text, captions or Methods)",
+          "detect": [
+            "t-test",
+            "Wilcoxon",
+            "Mann-Whitney",
+            "ANOVA",
+            "bootstrap",
+            "z-test",
+            "permutation",
+            "P ?[<=] ?0\\.\\d"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "repeat_count",
+          "description": "number of runs/replicates/trials per task or condition stated (Results text, captions or Methods)",
+          "level": "typical",
+          "frequency": "5/9 (E5, E6, E7, E8, E9); E1, E2 and E4 show error bars without a run count in the text",
+          "detect": [
+            "(three|five|ten|\\d+) (independent )?(runs|trials|replicates|repetitions|seeds)",
+            "n = \\d+ (runs|trials|answers|per group)",
+            "\\d+-run ensemble",
+            "across (five|three|\\d+) trials"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Merged 'Results and discussion' in 2/9 (E2 NMI, E3 Adv Mater). Results subsection headings are declarative claims in 6/9.",
+      "basis": "frequency"
+    },
+    {
+      "id": "discussion",
+      "heading": "Discussion",
+      "aliases": [
+        "Conclusion",
+        "Conclusions",
+        "Discussion and conclusions"
+      ],
+      "order": 5,
+      "level": "required",
+      "words": {
+        "min": 150,
+        "typical": 600,
+        "max": 1300
+      },
+      "subsections": [
+        {
+          "heading": "Limitations",
+          "aliases": [
+            "Limitations and future work"
+          ],
+          "aliases_regex": [
+            "limitation"
+          ],
+          "level": "optional",
+          "frequency": "1/9 as a Discussion subsection (E4); 1/9 as a top-level section (E6)",
+          "words": {
+            "min": 100,
+            "typical": 400,
+            "max": 650
+          },
+          "notes": "See limitations block; content present unheaded in 6 more.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Error analysis",
+          "aliases": [],
+          "aliases_regex": [
+            "error analysis",
+            "failure"
+          ],
+          "level": "optional",
+          "frequency": "1/9 (E4)",
+          "words": null,
+          "notes": "Listed for completeness; below the 2-exemplar threshold.",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "contribution_summary",
+          "description": "restates what the system does and what was shown",
+          "level": "required",
+          "frequency": "9/9",
+          "detect": [
+            "(in this (paper|work|study|report)|here),? we (presented|present|introduced|demonstrated|showed)",
+            "we (have )?(demonstrated|presented|introduced)",
+            "[A-Z][\\w-]+ (is an?|demonstrates|represents|shows) ",
+            "(this|our) (work|study|system) (demonstrates|shows|represents)",
+            "in summary"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "limitations_content",
+          "description": "explicit limitations of the current system or evaluation",
+          "level": "required",
+          "frequency": "8/9",
+          "detect": [
+            "limitation",
+            "current (form|implementation|version)",
+            "room for improvement",
+            "not without (its )?challenges",
+            "struggl",
+            "future work"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "safety_dual_use_ethics",
+          "description": "safety, dual-use, misuse, security or societal-risk paragraph with the mitigations built in",
+          "level": "typical",
+          "frequency": "6/9 (E1, E2, E5, E6, E7, E9)",
+          "detect": [
+            "dual[- ]use",
+            "misuse",
+            "safety",
+            "safeguard",
+            "biosecurity|chemical weapon|controlled (chemical|substance)",
+            "ethical (and|or) (societal|safety)",
+            "security"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "outlook",
+          "description": "future directions (more tools, labs in the loop, other domains, newer models)",
+          "level": "required",
+          "frequency": "8/9 (not E8)",
+          "detect": [
+            "future",
+            "looking ahead",
+            "next step",
+            "could be (further )?(expanded|extended)",
+            "opportunit",
+            "(will|could|can|may) (further )?(enable|accelerate|advance|expand|extend)",
+            "potential to"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Closing section present 9/9: 'Discussion' 6/9, 'Conclusion' after a merged Results and discussion 2/9 (E2, E3), top-level 'Limitations' instead of a Discussion 1/9 (E6). Words cover all nine closing sections; Discussion-headed ones alone span 150-650.",
+      "basis": "frequency"
+    },
+    {
+      "id": "methods",
+      "heading": "Methods",
+      "aliases": [
+        "Materials and methods",
+        "Experimental Section",
+        "Online methods"
+      ],
+      "order": 7,
+      "level": "required",
+      "words": {
+        "min": 2100,
+        "typical": 2450,
+        "max": 3700
+      },
+      "subsections": [
+        {
+          "heading": "Agent/system implementation",
+          "aliases": [
+            "<System> implementation",
+            "Overview of <System> architecture",
+            "Large language model-powered autonomous agent",
+            "Agents",
+            "Predefined steps",
+            "Foundational technologies"
+          ],
+          "aliases_regex": [
+            "implementation",
+            "architecture",
+            "agents?\\b",
+            "overview of",
+            "framework",
+            "pipeline",
+            "predefined steps",
+            "foundational"
+          ],
+          "level": "required",
+          "frequency": "8/8 papers with a Methods section (8/9 overall)",
+          "words": {
+            "min": 200,
+            "typical": 1500,
+            "max": 2200
+          },
+          "notes": "Approximate (sum of implementation subsections per paper). Per-agent or per-module paragraphs, control loop, memory/context management, error handling.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Language models and settings",
+          "aliases": [
+            "LLMs",
+            "Model setting and data collection",
+            "Foundation models",
+            "Experiment setting"
+          ],
+          "aliases_regex": [
+            "LLMs?\\b",
+            "(language|foundation) models?",
+            "model setting",
+            "backbone",
+            "experiment setting"
+          ],
+          "level": "optional",
+          "frequency": "4/9 headed (E2, E4, E8, E9); models are named somewhere in 9/9",
+          "words": {
+            "min": 100,
+            "typical": 150,
+            "max": 550
+          },
+          "notes": "Model names, versions, temperature, context limits, API vs local deployment.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Tools, databases and retrieval",
+          "aliases": [
+            "Tools",
+            "Domain-specific databases configured in ...",
+            "RAG",
+            "The Tool provider ..."
+          ],
+          "aliases_regex": [
+            "tools?\\b",
+            "databases?",
+            "retrieval",
+            "\\bRAG\\b",
+            "\\bAPIs?\\b"
+          ],
+          "level": "typical",
+          "frequency": "5/9 (E2, E4, E5, E8, E9)",
+          "words": {
+            "min": 100,
+            "typical": 300,
+            "max": 1950
+          },
+          "notes": "E2 lists each of its tools in a sub-subsection.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Benchmark and evaluation design",
+          "aliases": [
+            "Performance assessment",
+            "Benchmark dataset",
+            "Evaluation",
+            "Calculation of ... score",
+            "Robin validation",
+            "The Automated Reviewer: Validation"
+          ],
+          "aliases_regex": [
+            "evaluation",
+            "benchmark",
+            "metric",
+            "score",
+            "validation",
+            "assessment",
+            "test set"
+          ],
+          "level": "typical",
+          "frequency": "6/9 (E4, E5, E6, E7, E8, E9)",
+          "words": {
+            "min": 350,
+            "typical": 500,
+            "max": 750
+          },
+          "notes": "Task/test-set construction, ground truth, metrics, number of runs, baselines and how they were run.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Human evaluation protocol",
+          "aliases": [
+            "Human experience evaluation",
+            "Human checking for the decisions of ...",
+            "Human annotation for outputs in the case study"
+          ],
+          "aliases_regex": [
+            "human (evaluation|annotation|checking|experience)",
+            "expert (review|annotation|evaluation)",
+            "user study",
+            "rater"
+          ],
+          "level": "optional",
+          "frequency": "3/9 (E4, E5, E6)",
+          "words": {
+            "min": 100,
+            "typical": 100,
+            "max": 400
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Wet-lab / experimental methods",
+          "aliases": [
+            "Cell culture",
+            "Phagocytosis assay",
+            "Flow cytometry",
+            "RNA-seq",
+            "Quantitative PCR"
+          ],
+          "aliases_regex": [
+            "cell (line|culture)",
+            "assay",
+            "PCR",
+            "cytometry",
+            "RNA-seq",
+            "cloning",
+            "transduction",
+            "ELISA"
+          ],
+          "level": "optional",
+          "frequency": "2/9 in main Methods (E5, E7); E1, E2 put experimental detail in the SI",
+          "words": {
+            "min": 650,
+            "typical": 1450,
+            "max": 2200
+          },
+          "notes": "",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Safety, security and privacy mechanisms",
+          "aliases": [
+            "Safety tools",
+            "Security and privacy"
+          ],
+          "aliases_regex": [
+            "safety",
+            "security",
+            "privacy",
+            "guardrail"
+          ],
+          "level": "optional",
+          "frequency": "2/9 (E2, E9)",
+          "words": {
+            "min": 50,
+            "typical": 250,
+            "max": 400
+          },
+          "notes": "Sandboxing, test-set isolation, controlled-substance checks, refusal logic.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Ethics statement",
+          "aliases": [
+            "Ethics approval"
+          ],
+          "aliases_regex": [
+            "ethic"
+          ],
+          "level": "optional",
+          "frequency": "2/9 (E6, E8)",
+          "words": {
+            "min": 50,
+            "typical": 50,
+            "max": 100
+          },
+          "notes": "Only where human participants were recruited.",
+          "basis": "frequency"
+        },
+        {
+          "heading": "Reporting summary",
+          "aliases": [],
+          "aliases_regex": [
+            "reporting summary"
+          ],
+          "level": "optional",
+          "frequency": "4/9 (Nature Portfolio: E2, E4, E5, E7)",
+          "words": null,
+          "notes": "17-word boilerplate pointer to the Nature Portfolio Reporting Summary.",
+          "basis": "frequency"
+        }
+      ],
+      "elements": [
+        {
+          "id": "llm_named",
+          "description": "each LLM backbone is named (and judge/rater models, if any)",
+          "level": "required",
+          "frequency": "8/8 papers with a Methods section (9/9 name models somewhere)",
+          "detect": [
+            "GPT[-‐‑]?[0-9][\\w.-]*",
+            "Claude",
+            "Gemini",
+            "Llama",
+            "Qwen",
+            "DeepSeek",
+            "\\bo[134](-mini|-preview)?\\b"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "model_version_string",
+          "description": "exact dated model snapshot identifier (not just the family name)",
+          "level": "optional",
+          "frequency": "3/9 (E4, E8 in the text; E6 in the SI)",
+          "detect": [
+            "(gpt|claude|gemini|llama|qwen|deepseek|o[134])[\\w.‐-]*[-_ ](20\\d{2}[-_]?\\d{2}[-_]?\\d{2}|\\d{4}|\\d{6})\\b",
+            "version 20\\d{6}",
+            "\\(version 20\\d{2}-?\\d{2}-?\\d{2}\\)"
+          ],
+          "basis": "frequency"
+        },
+        {
+          "id": "compute_environment",
+          "description": "hardware, containers or run duration",
+          "level": "optional",
+          "frequency": "3/9 (E7, E8, E9)",
+          "detect": [
+            "GPU",
+            "Docker|container",
+            "Linux machine",
+            "\\d+ ?h(ours)? (runs|each)"
+          ],
+          "basis": "frequency"
+        }
+      ],
+      "notes": "Methods sit last in 7/9 (Nature family, Patterns, Adv Mater 'Experimental Section' after the Conclusion); second in 1/9 (Bioinformatics IMRaD); absent from the main text in 1/9 (E1, methods in the SI). Nature guidance (verified 2026-10-13): Methods typically do not exceed 3,000 words and may not contain figures or tables.",
+      "basis": "frequency"
+    },
+    {
+      "id": "conclusions",
+      "heading": "Conclusion",
+      "aliases": [
+        "Conclusions"
+      ],
+      "order": 6,
+      "level": "optional",
+      "words": {
+        "min": 100,
+        "typical": 450,
+        "max": 1300
+      },
+      "subsections": [],
+      "elements": [],
+      "notes": "Separate Conclusion(s) heading 3/9 (E2, E3, E9). In E2/E3 it is the only closing section after a merged Results and discussion and precedes Methods; in E9 it follows the Discussion.",
+      "basis": "frequency"
+    },
+    {
+      "id": "data_availability",
+      "heading": "Data availability",
+      "aliases": [
+        "Data and code availability",
+        "Resource availability",
+        "Data Availability Statement"
+      ],
+      "order": 8,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "9/9. See required_statements.",
+      "basis": "frequency"
+    },
+    {
+      "id": "code_availability",
+      "heading": "Code availability",
+      "aliases": [
+        "Data and code availability",
+        "Availability and implementation"
+      ],
+      "order": 9,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "Code access information 9/9; separate 'Code availability' heading 6/9 (all Nature Portfolio exemplars).",
+      "basis": "frequency"
+    },
+    {
+      "id": "acknowledgements",
+      "heading": "Acknowledgements",
+      "aliases": [
+        "Acknowledgments"
+      ],
+      "order": 10,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/9 (E9 has a Funding section instead).",
+      "basis": "frequency"
+    },
+    {
+      "id": "contributions",
+      "heading": "Author contributions",
+      "aliases": [],
+      "order": 11,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/9 (absent in the two-author E3).",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "heading": "Funding",
+      "aliases": [],
+      "order": 12,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "Funding stated 9/9 (own heading 3/9: E2, E7, E9; otherwise in Acknowledgements).",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "heading": "Competing interests",
+      "aliases": [
+        "Conflict of interest",
+        "Conflict of interests",
+        "Declaration of interests"
+      ],
+      "order": 13,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "9/9.",
+      "basis": "frequency"
+    },
+    {
+      "id": "ai_disclosure",
+      "heading": "Technology use disclosure",
+      "aliases": [
+        "Declaration of generative AI and AI-assisted technologies in the writing process"
+      ],
+      "order": 14,
+      "level": "optional",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "2/9 (E1, E8), both about LLM help with writing.",
+      "basis": "frequency"
+    },
+    {
+      "id": "references",
+      "heading": "References",
+      "aliases": [],
+      "order": 15,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "33-103 references (median 59).",
+      "basis": "frequency"
+    },
+    {
+      "id": "supplement",
+      "heading": "Supplementary information",
+      "aliases": [
+        "Supporting Information",
+        "Supplemental information",
+        "Extended Data"
+      ],
+      "order": 16,
+      "level": "required",
+      "words": null,
+      "subsections": [],
+      "elements": [],
+      "notes": "8/9 have a supplement (E9 none). Extended Data figures in 4/9 (Nature family).",
+      "basis": "frequency"
+    }
+  ],
+  "section_order_variants": [
+    {
+      "name": "Methods last (Nature Portfolio / Cell Press)",
+      "order": [
+        "introduction",
+        "results",
+        "discussion",
+        "methods"
+      ],
+      "seen_in": [
+        "E4",
+        "E5",
+        "E7",
+        "E8"
+      ]
+    },
+    {
+      "name": "Merged Results and discussion + Conclusion, Methods last (NMI, Advanced Materials)",
+      "order": [
+        "introduction",
+        "results_discussion",
+        "conclusions",
+        "methods"
+      ],
+      "seen_in": [
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "name": "Limitations section in place of Discussion, Methods last (Nature 2026)",
+      "order": [
+        "introduction",
+        "results",
+        "limitations",
+        "methods"
+      ],
+      "seen_in": [
+        "E6"
+      ]
+    },
+    {
+      "name": "No main-text Methods (method details in SI)",
+      "order": [
+        "introduction",
+        "results",
+        "discussion"
+      ],
+      "seen_in": [
+        "E1"
+      ]
+    },
+    {
+      "name": "Numbered IMRaD + Conclusions (Bioinformatics)",
+      "order": [
+        "introduction",
+        "methods",
+        "results",
+        "discussion",
+        "conclusions"
+      ],
+      "seen_in": [
+        "E9"
+      ]
+    }
+  ],
+  "main_text_words": {
+    "min": 4000,
+    "typical": 6050,
+    "max": 8750,
+    "counted": [
+      "introduction",
+      "methods",
+      "results",
+      "results_discussion",
+      "discussion",
+      "limitations",
+      "conclusions",
+      "other"
+    ],
+    "methods_counted": true,
+    "notes": "Excluding Methods: min 2450, typical 4000, max 6700. Nature formatting guide (verified 2026-10-13): a 6-page Article has ~2,500 words (summary paragraph plus body) with 4 display items; an 8-page Article ~4,300 words with 5-6 display items; Methods online, typically <= 3,000 words. The Nature exemplars run 2,450-4,100 words excluding Methods. 'other' = E2's headed safety sections."
+  },
+  "abstract": {
+    "format": "unstructured",
+    "words": {
+      "min": 100,
+      "typical": 200,
+      "max": 250
+    },
+    "heading_sets": [
+      {
+        "family": "Nature Portfolio summary paragraph (unstructured)",
+        "headings": [],
+        "seen_in": [
+          "E1",
+          "E2",
+          "E4",
+          "E5",
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "family": "Wiley / Cell Press unstructured abstract ('Summary' at Cell Press)",
+        "headings": [],
+        "seen_in": [
+          "E3",
+          "E8"
+        ]
+      },
+      {
+        "family": "OUP Bioinformatics",
+        "headings": [
+          "Motivation",
+          "Results",
+          "Availability and implementation"
+        ],
+        "seen_in": [
+          "E9"
+        ]
+      }
+    ],
+    "elements": [
+      {
+        "id": "system_named_and_defined",
+        "description": "names the system and says what kind of thing it is ('we present X, an LLM agent / multi-agent system for ...')",
+        "level": "required",
+        "frequency": "9/9",
+        "detect": [
+          "we (present|introduce|show|describe|developed?)",
+          "here,? we",
+          "is presented",
+          "(an?|the) (LLM|AI|language|multi-agent|agentic)[\\w -]{0,30}(agent|system|platform|pipeline|framework)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "architecture_components",
+        "description": "names the key components: LLM backbone, agents, tools, databases, verification or debugging loop",
+        "level": "required",
+        "frequency": "9/9",
+        "detect": [
+          "agent(s|ic)?\\b",
+          "tools?\\b",
+          "databases?",
+          "retrieval",
+          "large language model|LLM",
+          "GPT",
+          "knowledge graph",
+          "verif",
+          "foundation models?"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "evaluation_scope_counts",
+        "description": "evaluation scope with counts (tasks, datasets, gene sets, tools, experiments)",
+        "level": "typical",
+        "frequency": "6/9 (E1, E2, E4, E5, E8, E9)",
+        "detect": [
+          "\\d[\\d,]* (tasks|datasets|gene sets|tools|experiments|benchmarks|genes|papers)",
+          "(six|seven|three|four|two) (diverse )?(tasks|genes|organocatalysts|novel)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "real_world_demonstration",
+        "description": "a concrete discovery or end-to-end demonstration (synthesis, knockout, drug candidate, accepted paper)",
+        "level": "typical",
+        "frequency": "7/9 (E1-E7)",
+        "detect": [
+          "(applied|applying) .{0,60} to",
+          "case stud",
+          "in vitro|wet[- ]lab",
+          "(identif|discover)\\w* .{0,60}(candidates?|targets?|mechanisms?|material|chromophore)",
+          "reproduc\\w* (published|known|previous)",
+          "passed .{0,30}peer review",
+          "optimi[sz]ation of",
+          "syntheses of",
+          "knocking out",
+          "(new|novel) (\\w+ )?(biocomposite|material|compound|candidates?|chromophore)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "comparator_named",
+        "description": "states the comparison and its direction against a named baseline (GPT-4, existing systems, human experts)",
+        "level": "optional",
+        "frequency": "4/9 (E3, E4, E8, E9)",
+        "detect": [
+          "(more accurate|outperform\\w*|better|surpass\\w*) (than|over|in)",
+          "than (did )?(GPT|existing|human|other)",
+          "against (other|human)",
+          "surpass\\w* (human|existing|state)"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "wet_lab_validation",
+        "description": "experimental (wet-lab or robotic) validation of agent outputs",
+        "level": "optional",
+        "frequency": "4/9 (E1, E2, E5, E7)",
+        "detect": [
+          "in vitro",
+          "wet[- ]lab",
+          "experimental(ly)? (validat|confirm)",
+          "(planned and )?(performed|executed|performs) (the |complex )?(syntheses|experiments)",
+          "knocking out",
+          "reaction optimi[sz]ation"
+        ],
+        "basis": "frequency"
+      },
+      {
+        "id": "backbone_named",
+        "description": "LLM backbone named in the abstract",
+        "level": "optional",
+        "frequency": "3/9 (E1, E2, E4)",
+        "detect": [
+          "GPT-[0-9]",
+          "Claude",
+          "Gemini",
+          "Llama"
+        ],
+        "basis": "frequency"
+      }
+    ],
+    "extra_summaries": [
+      {
+        "name": "Web summary / standfirst (Nature Portfolio)",
+        "level": "typical",
+        "frequency": "6/9",
+        "words": {
+          "min": 15,
+          "typical": 24,
+          "max": 60
+        },
+        "notes": "One sentence; Nature Portfolio only. Exact counts (rounding to 50 is meaningless at this size)."
+      },
+      {
+        "name": "Highlights / graphical-abstract text / eTOC blurb (Cell Press, Wiley)",
+        "level": "optional",
+        "frequency": "2/9 (E3, E8)",
+        "words": {
+          "min": 33,
+          "typical": 50,
+          "max": 140
+        },
+        "notes": "E8 (Patterns) adds Highlights (33), The bigger picture (140) and an eTOC teaser (37); E3 a 57-word graphical-abstract text."
+      }
+    ],
+    "checklist": null,
+    "notes": "Nature guidance (verified 2026-10-13): summary paragraph ideally no more than 200 words, avoiding numbers, abbreviations and acronyms unless essential. Only E6 mentions risks in the abstract; only E9 gives the code URL in the abstract (Bioinformatics house style)."
+  },
+  "display_items": [
+    {
+      "id": "architecture_schematic",
+      "priority": 1,
+      "type": "figure",
+      "kind": "System architecture / workflow schematic (agents, modules, tools, data and control flow, human touchpoints)",
+      "level": "required",
+      "count": {
+        "min": 1,
+        "typical": 1,
+        "max": 4
+      },
+      "placement": "main",
+      "frequency": "9/9 (Figure 1 in 9/9; extra module schematics in E1, E3, E5)",
+      "detect": [
+        "architecture",
+        "overview of",
+        "workflow",
+        "framework",
+        "schematic",
+        "system (design|overview)",
+        "pipeline",
+        "multi-agent"
+      ],
+      "omerta_kind": "Study-design schematic",
+      "notes": "For Amani: the plan -> worker -> kernel -> gate -> label pipeline drawn as Figure 1.",
+      "basis": "frequency"
+    },
+    {
+      "id": "benchmark_comparison",
+      "priority": 2,
+      "type": "figure",
+      "kind": "Benchmark comparison against baselines (bar/point/line chart per system or condition, with run-to-run error bars or CI)",
+      "level": "required",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main-or-supplement",
+      "frequency": "8/9 (main 7/9: E1, E2 via its expert-rated comparison, E4, E5, E6, E8, E9; Extended Data only in E7)",
+      "detect": [
+        "compar(ison|ed|ing)",
+        "baseline",
+        "outperform",
+        "benchmark",
+        "success rate",
+        "accuracy",
+        "performance",
+        "versus|\\bvs\\.?\\b",
+        "scaling"
+      ],
+      "omerta_kind": null,
+      "notes": "Error bars present in every exemplar that has this figure; captions state the interval type and n.",
+      "basis": "frequency"
+    },
+    {
+      "id": "case_study_figure",
+      "priority": 3,
+      "type": "figure",
+      "kind": "Case-study walkthrough (agent trajectory, generated hypothesis/proposal/paper excerpt, example outputs)",
+      "level": "typical",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 4
+      },
+      "placement": "main",
+      "frequency": "7/9 (E1, E2, E3, E5 in panels, E6, E7, E8)",
+      "detect": [
+        "case study",
+        "example",
+        "transcript",
+        "trajector",
+        "conversation",
+        "generated (by|paper|hypothes|output)",
+        "proposal",
+        "excerpt",
+        "interaction"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "validation_panel",
+      "priority": 4,
+      "type": "figure",
+      "kind": "External or experimental validation of agent outputs (wet-lab, robotic synthesis, comparison with manually curated pipelines)",
+      "level": "typical",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "5/9 (E1, E2, E5, E7, E8)",
+      "detect": [
+        "wet[- ]lab",
+        "experimental(ly)? validat",
+        "in vitro",
+        "validated",
+        "assay",
+        "confirm",
+        "manual(ly)? curated",
+        "knockout",
+        "synthes"
+      ],
+      "omerta_kind": null,
+      "notes": "For Amani: known-answer suite / reproduction of published results plays this role.",
+      "basis": "frequency"
+    },
+    {
+      "id": "benchmark_table",
+      "priority": 5,
+      "type": "table",
+      "kind": "Benchmark or capability comparison table (systems x tasks/metrics; mean ± s.d./s.e.m.; best/worst of n runs)",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 1,
+        "max": 2
+      },
+      "placement": "main",
+      "frequency": "4/9 (E4, E6, E8, E9)",
+      "detect": [
+        "comparison",
+        "performance",
+        "leaderboard",
+        "benchmark",
+        "mean ± ",
+        "versus|\\bvs\\.?\\b",
+        "state-of-the-art|SoTA",
+        "human reviewers"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "ablation_plot",
+      "priority": 6,
+      "type": "figure",
+      "kind": "Ablation of components (with/without agent, verification step or tool)",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "3/9 (main E8; Extended Data E4, E7)",
+      "detect": [
+        "ablat",
+        "w/o",
+        "without (the )?\\w+ (agent|module|component|verification)",
+        "wild type (or|vs\\.?) ablated"
+      ],
+      "omerta_kind": null,
+      "notes": "For Amani: gate-on/gate-off or check-removed comparisons on the known-answer suite.",
+      "basis": "frequency"
+    },
+    {
+      "id": "error_taxonomy",
+      "priority": 7,
+      "type": "figure",
+      "kind": "Failure-mode / error / hallucination breakdown",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "3/9 (main E4; Extended Data E7; SI E6)",
+      "detect": [
+        "failure mode",
+        "error (analysis|type|categor)",
+        "hallucinat",
+        "categori[sz]ation",
+        "weak runs",
+        "outcome of the .* claims"
+      ],
+      "omerta_kind": null,
+      "notes": "For Amani: defects found by the K-acc re-probes and false-Confirmed cases.",
+      "basis": "frequency"
+    },
+    {
+      "id": "human_eval_plot",
+      "priority": 8,
+      "type": "figure",
+      "kind": "Human / expert rating results (preference, Likert scores, blinded comparisons)",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "2/9 main (E2, E5); Extended Data E7",
+      "detect": [
+        "human (evaluat|expert|user|rater)",
+        "expert (rating|score|evaluat|review)",
+        "user experience",
+        "evaluators",
+        "blinded",
+        "scored (from|on) 1"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "cost_table",
+      "priority": 9,
+      "type": "table",
+      "kind": "Cost, runtime or time-on-task comparison (system vs human; per run)",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "2/9 (table E7; compute-vs-quality figure panel E6); E9 reports cost in text",
+      "detect": [
+        "cost",
+        "time[- ]on[- ]task",
+        "runtime",
+        "US\\$|USD",
+        "compute",
+        "duration"
+      ],
+      "omerta_kind": null,
+      "notes": "Shared id cost_runtime_plot applies when this is drawn as a figure.",
+      "basis": "frequency"
+    },
+    {
+      "id": "dataset_table",
+      "priority": 10,
+      "type": "table",
+      "kind": "Benchmark datasets / task list with sizes and sources",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "2/9 (main E4; supplement E8)",
+      "detect": [
+        "statistics (for|of)",
+        "datasets? (used|analy[sz]ed)",
+        "gene sets used",
+        "benchmark (tasks|datasets)",
+        "task list"
+      ],
+      "omerta_kind": null,
+      "notes": "Pairs with Amani's Data sources table (design section 5).",
+      "basis": "frequency"
+    },
+    {
+      "id": "results_table",
+      "priority": 11,
+      "type": "table",
+      "kind": "Case-study output table (generated hypotheses/ideas with scores, predicted properties, example assignments)",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 5
+      },
+      "placement": "main",
+      "frequency": "2/9 (E3 x5, E4 x1)",
+      "detect": [
+        "examples of",
+        "generated by",
+        "predicted",
+        "ideas",
+        "summary of"
+      ],
+      "omerta_kind": null,
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "safety_guardrail_example",
+      "priority": 12,
+      "type": "figure",
+      "kind": "Safety guardrail demonstration (refusal/warning on dual-use, controlled-substance or privacy requests)",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main-or-supplement",
+      "frequency": "2/9 (main E2; Extended Data E5)",
+      "detect": [
+        "safety",
+        "dual[- ]us",
+        "misuse",
+        "controlled (chemical|substance)",
+        "refus",
+        "warning",
+        "ethical"
+      ],
+      "omerta_kind": null,
+      "notes": "New id (not in the shared vocabulary).",
+      "basis": "frequency"
+    },
+    {
+      "id": "agent_prompt_figure",
+      "priority": 13,
+      "type": "figure",
+      "kind": "Agent prompts / agent profile shown as a figure",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 2
+      },
+      "placement": "main-or-supplement",
+      "frequency": "2/9 main (E3 x2, E8); prompts as SI figures or documents in E4, E7",
+      "detect": [
+        "prompt",
+        "agent profile",
+        "system message",
+        "instructions"
+      ],
+      "omerta_kind": null,
+      "notes": "New id (not in the shared vocabulary).",
+      "basis": "frequency"
+    },
+    {
+      "id": "algorithm_box",
+      "priority": 14,
+      "type": "box",
+      "kind": "Pseudo-code of the agent loop / search algorithm",
+      "level": "optional",
+      "count": {
+        "min": 0,
+        "typical": 0,
+        "max": 1
+      },
+      "placement": "main",
+      "frequency": "2/9 (E3, E9)",
+      "detect": [
+        "Algorithm \\d",
+        "pseudo-?code",
+        "Require:",
+        "while .* not"
+      ],
+      "omerta_kind": null,
+      "notes": "New id (not in the shared vocabulary).",
+      "basis": "frequency"
+    }
+  ],
+  "display_items_main_total": {
+    "min": 4,
+    "typical": 6,
+    "max": 17
+  },
+  "required_statements": [
+    {
+      "id": "data_availability",
+      "label": "Data availability: benchmark/test sets, evaluation data, generated datasets (accessions or repository links)",
+      "level": "required",
+      "placement": [
+        "data_availability",
+        "back_matter"
+      ],
+      "frequency": "9/9",
+      "detect": [
+        "Data availability",
+        "Data and code availability",
+        "Resource availability",
+        "data (that support|supporting) .{0,40}available",
+        "accession"
+      ],
+      "notes": "Benchmarks/test sets are released or pointed to in 7/9; raw experimental data deposited with accession in E7 (SRA).",
+      "basis": "frequency"
+    },
+    {
+      "id": "code_availability",
+      "label": "Code availability with explicit release status (open + licence / partial / withheld with reason)",
+      "level": "required",
+      "placement": [
+        "code_availability",
+        "data_availability",
+        "back_matter"
+      ],
+      "frequency": "9/9 (open 6/9: E3, E4, E6, E7, E8, E9; open subset 1/9: E2; full code withheld for safety with a reduced version 2/9: E1, E5)",
+      "detect": [
+        "Code availability",
+        "github\\.com",
+        "zenodo",
+        "source code",
+        "Availability and implementation",
+        "(Apache|MIT|GPL|BSD) (License|licen[cs]e)"
+      ],
+      "notes": "E5 states the withheld code was peer reviewed; licence named only in E6 (Apache 2.0).",
+      "basis": "frequency"
+    },
+    {
+      "id": "competing_interests",
+      "label": "Competing interests, incl. company employment, equity, patents, advisory roles, vendor consultancy",
+      "level": "required",
+      "placement": [
+        "competing_interests",
+        "back_matter"
+      ],
+      "frequency": "9/9 (commercial interests declared in 5/9: E1, E2, E5, E6, E7)",
+      "detect": [
+        "Competing interests",
+        "Conflicts? of interests?",
+        "Declaration of interests",
+        "declare no competing"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "funding",
+      "label": "Funding sources",
+      "level": "required",
+      "placement": [
+        "funding",
+        "acknowledgements",
+        "back_matter"
+      ],
+      "frequency": "9/9",
+      "detect": [
+        "Funding",
+        "supported by",
+        "funded by",
+        "grant"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "author_contributions",
+      "label": "Author contributions",
+      "level": "required",
+      "placement": [
+        "contributions",
+        "back_matter"
+      ],
+      "frequency": "8/9",
+      "detect": [
+        "Author(s'|s)? contributions?",
+        "CRediT"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "model_identity",
+      "label": "LLM backbone(s) named in Methods; exact version/snapshot and access dates recommended",
+      "level": "required",
+      "placement": [
+        "methods"
+      ],
+      "frequency": "9/9 name the models; dated snapshot identifier 3/9 (E4, E8 in text; E6 in SI); training cutoff 3/9 (E1, E4, E6); API access dates 0/9",
+      "detect": [
+        "GPT[-‐‑]?[0-9][\\w.-]*",
+        "Claude",
+        "Gemini",
+        "Llama",
+        "Qwen",
+        "DeepSeek",
+        "\\b20\\d{2}-?\\d{2}-?\\d{2}\\b",
+        "(training|knowledge) (data )?(collection )?cut-?off",
+        "accessed (on|in|between)"
+      ],
+      "notes": "TRIPOD-LLM asks for model name, version and date of access; exemplars mostly give names only. Amani should give all three.",
+      "basis": "frequency"
+    },
+    {
+      "id": "agent_outputs_released",
+      "label": "Agent transcripts, trajectories or example outputs released (SI, repository or videos)",
+      "level": "required",
+      "placement": [
+        "data_availability",
+        "code_availability",
+        "supplement"
+      ],
+      "frequency": "8/9 (E1-E8)",
+      "detect": [
+        "trajector",
+        "transcripts?",
+        "chat histor",
+        "generated (outputs|papers|proposals|research papers)",
+        "demo video",
+        "Supplementary (Video|Data)",
+        "examples of the experiments",
+        "-runs\\b",
+        "outputs used for"
+      ],
+      "notes": "For Amani: gate ledgers and run logs go to the Zenodo bundle (design section 3.1).",
+      "basis": "frequency"
+    },
+    {
+      "id": "safety_dual_use",
+      "label": "Safety / dual-use / misuse statement with the built-in mitigations",
+      "level": "typical",
+      "placement": [
+        "discussion",
+        "methods"
+      ],
+      "frequency": "6/9 (E1, E2, E5, E6, E7, E9)",
+      "detect": [
+        "dual[- ]use",
+        "misuse",
+        "safety",
+        "safeguard",
+        "biosecurity|chemical weapon|controlled (chemical|substance)",
+        "security",
+        "DURC",
+        "(ethical|societal) (and|or) (societal|ethical|safety)"
+      ],
+      "notes": "E5 adds DURC information in the supplement; E1 and E5 withhold full code for safety.",
+      "basis": "frequency"
+    },
+    {
+      "id": "reporting_summary",
+      "label": "Nature Portfolio Reporting Summary",
+      "level": "optional",
+      "placement": [
+        "methods",
+        "supplement"
+      ],
+      "frequency": "4/9 (E2, E4, E5, E7)",
+      "detect": [
+        "Reporting Summary"
+      ],
+      "notes": "Venue-mandated for Nature Portfolio papers.",
+      "basis": "frequency"
+    },
+    {
+      "id": "ethics_human_participants",
+      "label": "Ethics approval and informed consent when human raters, reviewers or users are studied",
+      "level": "optional",
+      "placement": [
+        "methods",
+        "ethics",
+        "back_matter"
+      ],
+      "frequency": "2/9 (E6, E8); 6/9 used human raters or participants",
+      "detect": [
+        "ethic(s|al)? (approval|statement|review board|committee)",
+        "Institutional Review Board|\\bIRB\\b",
+        "informed consent",
+        "protocol (no\\.|number)"
+      ],
+      "notes": "Conditional: treat as required whenever humans rate outputs or take part in a user study; exemplars are inconsistent (4 used expert raters without a statement).",
+      "basis": "frequency"
+    },
+    {
+      "id": "ai_writing_disclosure",
+      "label": "Disclosure of generative-AI use in writing",
+      "level": "optional",
+      "placement": [
+        "ai_disclosure",
+        "back_matter"
+      ],
+      "frequency": "2/9 (E1, E8)",
+      "detect": [
+        "Technology use disclosure",
+        "Declaration of generative AI",
+        "AI-assisted technologies",
+        "(ChatGPT|GPT-4|generative AI|language model|LLM).{0,80}(writing|grammar|typos|polish)"
+      ],
+      "notes": "Amani's own design requires an AI-use statement in every paper (section 11.3).",
+      "basis": "frequency"
+    }
+  ],
+  "checklists": [
+    {
+      "name": "None (no EQUATOR guideline for AI research-agent system papers)",
+      "level": "optional",
+      "citation": "",
+      "doi": null,
+      "where": "n/a",
+      "frequency": "0/9 cite any reporting guideline",
+      "notes": "No exemplar cites TRIPOD-LLM, REFORMS, DOME, the NeurIPS checklist or ABC. The items below are what such a paper could follow.",
+      "basis": "frequency",
+      "kind": "none"
+    },
+    {
+      "name": "Nature Portfolio Reporting Summary (+ editorial policy on code/software availability)",
+      "level": "optional",
+      "citation": "Nature Portfolio. Reporting Summary (flat form), https://www.nature.com/documents/nr-reporting-summary-flat.pdf; Reporting standards and availability policy, https://www.nature.com/nature-portfolio/editorial-policies/reporting-standards; Code and software submission checklist, https://www.nature.com/documents/nr-software-policy.pdf",
+      "doi": null,
+      "where": "supplement",
+      "frequency": "4/9 file a Reporting Summary (all Nature Portfolio)",
+      "notes": "URLs resolved 2026-10-13.",
+      "basis": "frequency",
+      "kind": "venue_form"
+    },
+    {
+      "name": "TRIPOD-LLM",
+      "level": "optional",
+      "citation": "Gallifant J, Afshar M, Ameen S, et al. The TRIPOD-LLM reporting guideline for studies using large language models. Nat Med. 2025;31(1):60-69.",
+      "doi": "10.1038/s41591-024-03425-5",
+      "where": "supplement",
+      "frequency": "0/9",
+      "notes": "Healthcare LLM studies; its model name/version/access-date, prompting and evaluation items transfer to agent papers. Verified in Europe PMC (PMC12104976).",
+      "basis": "frequency",
+      "kind": "reporting_guideline"
+    },
+    {
+      "name": "REFORMS",
+      "level": "optional",
+      "citation": "Kapoor S, Cantrell EM, Peng K, et al. REFORMS: Consensus-based Recommendations for Machine-learning-based Science. Sci Adv. 2024;10(18):eadk3452.",
+      "doi": "10.1126/sciadv.adk3452",
+      "where": "supplement",
+      "frequency": "0/9",
+      "notes": "ML-based science (leakage, evaluation, reproducibility). Verified (PMC11092361).",
+      "basis": "frequency",
+      "kind": "reporting_guideline"
+    },
+    {
+      "name": "DOME",
+      "level": "optional",
+      "citation": "Walsh I, Fishman D, Garcia-Gasulla D, et al. DOME: recommendations for supervised machine learning validation in biology. Nat Methods. 2021;18(10):1122-1127.",
+      "doi": "10.1038/s41592-021-01205-4",
+      "where": "supplement",
+      "frequency": "0/9",
+      "notes": "Applies to supervised-ML components only. Verified in Europe PMC.",
+      "basis": "frequency",
+      "kind": "reporting_guideline"
+    },
+    {
+      "name": "NeurIPS Paper Checklist",
+      "level": "optional",
+      "citation": "NeurIPS. Paper Checklist Guidelines. https://neurips.cc/public/guides/PaperChecklist",
+      "doi": null,
+      "where": "supplement",
+      "frequency": "0/9",
+      "notes": "Items include claims, limitations, reproducibility, open data and code, statistical significance, compute resources, broader impacts, safeguards, licences, human subjects/IRB and LLM-usage declaration. Page resolved 2026-10-13.",
+      "basis": "frequency",
+      "kind": "venue_form"
+    },
+    {
+      "name": "Agentic Benchmark Checklist (ABC)",
+      "level": "optional",
+      "citation": "Zhu Y, Jin T, Pruksachatkun Y, et al. Establishing best practices for building rigorous agentic benchmarks. arXiv:2507.02825 [preprint]. 2025.",
+      "doi": null,
+      "where": "supplement",
+      "frequency": "0/9",
+      "notes": "Task-setup and outcome-validity checks for agent benchmarks; preprint. Verified via the arXiv API.",
+      "basis": "frequency",
+      "kind": "reporting_guideline"
+    }
+  ],
+  "supplement": [
+    {
+      "id": "supplementary_methods_text",
+      "item": "Supplementary methods / notes / text (implementation detail, model settings, extra analyses)",
+      "level": "required",
+      "frequency": "8/9",
+      "detect": [
+        "Supplementary (Information|Methods|Text|Notes?|Discussion)",
+        "Supporting Information",
+        "Document S1",
+        "supplemental methods"
+      ],
+      "notes": "Nature-family SI PDFs; Wiley Supporting Information; Cell Press Document S1.",
+      "basis": "frequency"
+    },
+    {
+      "id": "agent_transcripts_examples",
+      "item": "Agent transcripts, chat histories, full generated outputs (proposals, papers) or demo videos",
+      "level": "typical",
+      "frequency": "5/9 in the supplement (E1, E3, E4, E5, E6); 8/9 counting repositories",
+      "detect": [
+        "transcript",
+        "chat histor",
+        "trajector",
+        "example (outputs|runs|conversations)",
+        "demo video|Supplementary Video|Supplemental Video",
+        "AI-generated (paper|research)",
+        "generated (proposals|ideas)"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "benchmark_tasks_and_results",
+      "item": "Benchmark task/test-set definitions and per-task or per-run results",
+      "level": "typical",
+      "frequency": "5/9 (E4, E5, E6, E7, E8)",
+      "detect": [
+        "benchmark",
+        "test set",
+        "per[- ]task",
+        "Supplementary (Table|Data)",
+        "Tables? S\\d+",
+        "questions"
+      ],
+      "notes": "E8 has 72 supplementary tables, one per task.",
+      "basis": "frequency"
+    },
+    {
+      "id": "agent_prompts",
+      "item": "Agent prompts / system messages",
+      "level": "optional",
+      "frequency": "3/9 in the supplement (E4, E7, E8); in main-text figures E3, E8; withheld E1, E5",
+      "detect": [
+        "prompts?",
+        "system message",
+        "agent (profile|instructions)",
+        "Listing S\\d"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "evaluation_rubrics",
+      "item": "Evaluation rubrics, human-rater instructions, LLM-judge vs human concordance",
+      "level": "optional",
+      "frequency": "4/9 (E4, E5, E6, E7)",
+      "detect": [
+        "rubric",
+        "evaluation (protocol|instructions|criteria)",
+        "human (checking|annotation|evaluation)",
+        "concordance",
+        "scoring"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "reporting_summary",
+      "item": "Nature Portfolio Reporting Summary",
+      "level": "optional",
+      "frequency": "4/9 (E2, E4, E5, E7)",
+      "detect": [
+        "Reporting Summary"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "extended_data_figures",
+      "item": "Extended Data figures (Nature family): ablations, extra baselines, failure modes, case examples",
+      "level": "optional",
+      "frequency": "4/9 (E1, E4, E5, E7)",
+      "detect": [
+        "Extended Data (Fig|Table)"
+      ],
+      "notes": "Online-only figures attached to the article, distinct from the SI file.",
+      "basis": "frequency"
+    },
+    {
+      "id": "source_data",
+      "item": "Source data / supplementary data spreadsheets behind figures",
+      "level": "optional",
+      "frequency": "3/9 (E2, E4, E7)",
+      "detect": [
+        "Source data",
+        "Supplementary Data \\d",
+        "\\.xlsx"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "extended_limitations_failure_modes",
+      "item": "Extended limitations or failure-mode analysis",
+      "level": "optional",
+      "frequency": "2/9 (E5, E6)",
+      "detect": [
+        "limitation",
+        "failure mode",
+        "error analysis"
+      ],
+      "notes": "",
+      "basis": "frequency"
+    },
+    {
+      "id": "peer_review_file",
+      "item": "Transparent peer review file",
+      "level": "optional",
+      "frequency": "2/9 (E6, E7)",
+      "detect": [
+        "Peer Review File"
+      ],
+      "notes": "Publisher-generated; not author-controlled.",
+      "basis": "frequency"
+    }
+  ],
+  "references": {
+    "min": 33,
+    "typical": 59,
+    "max": 103
+  },
+  "limitations": {
+    "placement": "Usually unheaded paragraph(s) near the end of the Discussion, or of the Conclusion when Results and discussion are merged (6/9); a headed 'Limitations' subsection of Discussion (1/9, E4); a top-level 'Limitations' section replacing the Discussion (1/9, E6); no explicit limitations passage (1/9, E1).",
+    "words": {
+      "min": 0,
+      "typical": 200,
+      "max": 650
+    },
+    "conventions": [
+      "follows the contribution-summary paragraph; framed as gaps in the 'current implementation/form' plus future work",
+      "often adjacent to a safety, dual-use or ethics paragraph (E1, E2, E5, E6, E7)",
+      "fuller limitations or failure-mode analysis deferred to the Supplementary Information (E5, E6)",
+      "concrete scope limits stated as facts: supported input formats, compute or run length, backbone model, computational-only experiments (E4, E6, E8, E9)",
+      "word counts for unheaded passages are estimates (paragraph-level count by hand)"
+    ],
+    "standard_items": [
+      {
+        "id": "errors_and_hallucinations_remain",
+        "text": "The system still makes errors: incorrect implementations, hallucinated facts or citations, failed runs; failure modes are characterised",
+        "level": "typical",
+        "frequency": "5/9 (E4, E5, E6, E7, E8)",
+        "basis": "frequency"
+      },
+      {
+        "id": "narrow_scope",
+        "text": "Validated only on a narrow set of domains, tasks, input types or computational-only experiments; generalisation untested",
+        "level": "typical",
+        "frequency": "5/9 (E3, E5, E6, E8, E9)",
+        "basis": "frequency"
+      },
+      {
+        "id": "evaluation_validity",
+        "text": "Benchmark coverage and evaluation validity are limited: small or self-built test sets, task-selection bias, subjective expert or LLM scoring, missing ablations",
+        "level": "typical",
+        "frequency": "5/9 (E2, E3, E5, E6, E9)",
+        "basis": "frequency"
+      },
+      {
+        "id": "misuse_risk",
+        "text": "Dual-use or misuse risk remains despite built-in safeguards; societal risks (e.g. flooding peer review) acknowledged",
+        "level": "typical",
+        "frequency": "5/9 (E1, E2, E5, E6, E7)",
+        "basis": "frequency"
+      },
+      {
+        "id": "backbone_dependence",
+        "text": "Performance depends on the specific (often proprietary) LLM backbone and version; other or newer models not fully tested",
+        "level": "optional",
+        "frequency": "4/9 (E2, E4, E6, E8)",
+        "basis": "frequency"
+      },
+      {
+        "id": "human_oversight_required",
+        "text": "Not fully autonomous: humans still run experiments, approve steps or correct the agent (semi-autonomous)",
+        "level": "optional",
+        "frequency": "4/9 (E1, E2, E5, E7)",
+        "basis": "frequency"
+      },
+      {
+        "id": "validation_depth",
+        "text": "Discoveries validated only at an early stage (in vitro, workshop-level review, predicted properties) or not experimentally validated",
+        "level": "optional",
+        "frequency": "3/9 (E3, E6, E7)",
+        "basis": "frequency"
+      },
+      {
+        "id": "compute_budget_dependence",
+        "text": "Output quality depends on compute budget or run length; longer runs not explored",
+        "level": "optional",
+        "frequency": "2/9 (E6, E9)",
+        "basis": "frequency"
+      }
+    ]
+  },
+  "variation_notes": "House style drives most structural variation. Nature Portfolio (6/9: E1, E2, E4, E5, E6, E7) uses an untitled lead instead of an 'Introduction' heading, declarative Results subheadings, online Methods last, Extended Data figures (4 of 6), a one-sentence web summary and, where life-science content exists, a Reporting Summary. Nature 2026 (E6) replaces the Discussion with a top-level Limitations section; Nature 2023 (E1) has no main-text Methods. Wiley Advanced Materials (E3) merges Results and Discussion, adds a long Conclusion and puts the 'Experimental Section' last, with many figures (12) and tables (5) and no baselines. Cell Press Patterns (E8) adds Highlights, The bigger picture and an eTOC blurb and gathers declarations in a 'Resource availability' block with a lead contact. OUP Bioinformatics (E9, ISMB proceedings) is numbered IMRaD with Conclusions, a structured abstract that carries the code URL, and the fewest references (33). Design also matters: discovery systems with wet-lab confirmation (E1, E2, E5, E7) carry experimental methods, validation panels and Reporting Summaries; computational systems (E4, E6, E8, E9) put more weight on benchmark tables, repeated runs, ablations and cost. Code release depends on dual-use concern (withheld in E1, E5).",
+  "lint_notes": [
+    "Figure 1 must be the system architecture/workflow schematic (9/9). For Amani: the plan -> worker -> kernel -> gates -> label pipeline, with human (owner) touchpoints marked.",
+    "Every quantitative claim of improvement needs a named baseline and run-to-run variation (n runs or raters plus s.d./s.e.m./CI) in the text or caption (8/9). Flag 'outperforms' without a comparator or without n.",
+    "The Methods must name every LLM (worker, judge, rater). Amani should go past the exemplars: exact version string, provider, access dates and knowledge cutoff (TRIPOD-LLM style); only 3/9 exemplars give version strings and 0/9 give access dates.",
+    "Code availability must state its release status in words (open with licence / partial / withheld with reason). Garmin IP check before release (design section 11.5).",
+    "A limitations passage is required even when unheaded (8/9): look for a paragraph with limitation cues in the closing section; Amani's protected Part A/Part B limitations satisfy this.",
+    "A safety/dual-use paragraph is typical (6/9). For a biomedical agent that ranks drugs or targets, treat it as required.",
+    "If any human rated outputs (owner, experts, reviewers), require an ethics/consent statement; exemplars are inconsistent here (2/6).",
+    "Map Amani's evidence to the genre's slots: benchmark_comparison = calibration (V3) and known-answer suite results vs a no-gate baseline; ablation_plot = gate-removed comparisons; error_taxonomy = defects found by K-acc re-probes and false-Confirmed cases; validation_panel = reproduction of published results; cost_table = runtime and compute per project.",
+    "Results subsection headings in Nature-style venues are declarative claims ('X outperforms Y in Z'); Amani's claim-wording lint should apply to headings too.",
+    "Abstract: one unstructured paragraph of 100-250 words naming the system, its components, the evaluation scope (with counts) and one concrete demonstration; structured only if the venue demands it (Bioinformatics: Motivation / Results / Availability and implementation).",
+    "Agent transcripts or example outputs must be released somewhere (8/9): supplement, repository or Zenodo bundle."
+  ],
+  "notes": [
+    "Contamination exclusions (structure looked suitable, excluded because Amani's topics appear in the body): Co-Scientist (Gottweis et al., Nature 2026, PMC13345910) uses an ALS mechanism goal as its running worked example; AutoBA (Adv Sci 2024, PMC11600294) uses mouse pancreatic-islet RNA-seq as its worked example; Biomni (bioRxiv 2025, PMC12157518; peer-reviewed version Science 2026, 10.1126/science.adz4351, not open access) has an embryonic hip/knee/shoulder joint multi-omics case study; Kosmos (arXiv 2511.02824) includes a pancreatic-islet type 2 diabetes discovery. contamination_title_abstract is empty for all nine chosen exemplars; body scans are empty too.",
+    "Other candidates not used: Virtual Lab (Nature 2025) is not open access (bioRxiv only); data-to-paper (NEJM AI 2025) is not open access and its arXiv version has no HTML; BioDiscoveryAgent (ICLR 2025) not needed given 9 peer-reviewed journal exemplars. LLM-RDF (Nat Commun 2024) and SciToolAgent-type tool papers were considered.",
+    "All nine exemplars are peer-reviewed journal articles: 6 Nature Portfolio (E1, E2, E4, E5, E6, E7), 1 Wiley (E3), 1 Cell Press (E8) and 1 OUP (E9, an ISMB 2026 proceedings paper in Bioinformatics). There is no preprint exemplar; PW11 will be posted as a preprint, which imposes no structure, so the Nature-style layout is the target.",
+    "E4's Extended Data case example uses a KEGG neurodegeneration gene set (not ALS-specific); contamination scans are empty.",
+    "Year = issue year (E3 online Dec 2024, issue 2025; E5 online Jul 2025, issue 2026).",
+    "Section words for unheaded intro/results splits (E1, E7) come from subtraction within the tool's section tree; limitations words for unheaded passages are estimates.",
+    "Nature formatting guidance quoted in notes was read from nature.com on 2026-10-13. Caps for Patterns, Advanced Materials and Bioinformatics were not checked; the venue profiles should hold them.",
+    "New display-item ids not in the shared vocabulary: safety_guardrail_example, agent_prompt_figure, algorithm_box. Kinds seen once only (network_plot E3, volcano_plot E7 panel, composition_bar E9, glossary_box E4) are left out of display_items.",
+    "Ablation and failure analysis counts depend on what is counted (strict component removal vs any comparison); the frequency strings give both."
+  ]
+}

@@ -1,0 +1,5742 @@
+{
+  "public": {
+    "content": {
+      "evidence": [
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/dataset_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/dataset_type",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/source_files/0/path",
+          "producer_ids": [
+            "author",
+            "stager"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/source_files/0/sha256",
+          "producer_ids": [
+            "author",
+            "stager"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/source_files/1/path",
+          "producer_ids": [
+            "author",
+            "stager"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/source_files/1/sha256",
+          "producer_ids": [
+            "author",
+            "stager"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/source_files/2/path",
+          "producer_ids": [
+            "author",
+            "stager"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/source_files/2/sha256",
+          "producer_ids": [
+            "author",
+            "stager"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/0/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/0/entity_kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/0/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/0/preserve_originals",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/0/collision_policy",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/0/rules",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/1/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/1/entity_kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/1/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/1/preserve_originals",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/1/collision_policy",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/1/rules",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/2/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/2/entity_kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/2/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/2/preserve_originals",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/2/collision_policy",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/2/rules",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/3/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/3/entity_kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/3/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/3/preserve_originals",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/3/collision_policy",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/namespaces/3/rules",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/0/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/0/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/0/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/0/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/0/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/1/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/1/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/1/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/1/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/1/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/2/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/2/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/2/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/2/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/2/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/3/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/3/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/3/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/3/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/3/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/4/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/4/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/4/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/4/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/4/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/5/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/5/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/5/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/5/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/5/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/6/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/6/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/6/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/6/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/6/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/7/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/7/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/7/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/7/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/7/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/8/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/8/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/8/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/8/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/8/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/9/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/9/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/9/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/9/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/nodes/9/original_id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/0/from",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/0/to",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/0/relation",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/1/from",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/1/to",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/1/relation",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/2/from",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/2/to",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/2/relation",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/3/from",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/3/to",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/3/relation",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/4/from",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/4/to",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/4/relation",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/5/from",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/5/to",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/5/relation",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/6/from",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/6/to",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/6/relation",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/7/from",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/7/to",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/7/relation",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/8/from",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/8/to",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/graph/edges/8/relation",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/unit_hierarchy/0/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/unit_hierarchy/0/coarser_level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/unit_hierarchy/0/minimum_independent",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/unit_hierarchy/1/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/unit_hierarchy/1/coarser_level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/unit_hierarchy/1/minimum_independent",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/unit_hierarchy/2/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/unit_hierarchy/2/coarser_level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/unit_hierarchy/2/minimum_independent",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/file/path",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/file/sha256",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/row_key/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/0/name",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/0/structural_kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/0/storage",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/0/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/0/decimal_resolution",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/0/measurement",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/0/missingness_codes/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/1/name",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/1/structural_kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/1/storage",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/1/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/1/decimal_resolution",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/1/measurement",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/1/missingness_codes/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/name",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/structural_kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/storage",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/decimal_resolution",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/measurement/type",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/measurement/unit",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/measurement/bounds",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/measurement/categories",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/columns/2/missingness_codes/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/unit_derivation/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/unit_derivation/columns/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/unit_derivation/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/unit_derivation/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/unit_derivation/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/orientation/layout",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/orientation/unit_axis",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/orientation/row_entity",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/orientation/header_namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/alias_coverage/rows",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/alias_coverage/matrix_headers",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/alias_coverage/unresolved",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/0/alias_coverage/ambiguous_axis",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/file/path",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/file/sha256",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/row_key/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/0/name",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/0/structural_kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/0/storage",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/0/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/0/decimal_resolution",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/0/measurement",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/0/missingness_codes/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/name",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/structural_kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/storage",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/decimal_resolution",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/measurement/type",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/measurement/unit",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/measurement/bounds",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/measurement/categories",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/columns/1/missingness_codes/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/unit_derivation/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/unit_derivation/columns/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/unit_derivation/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/unit_derivation/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/unit_derivation/level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/orientation/layout",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/orientation/unit_axis",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/orientation/row_entity",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/orientation/header_namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/alias_coverage/rows",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/alias_coverage/matrix_headers",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/alias_coverage/unresolved",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/tables/1/alias_coverage/ambiguous_axis",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/0/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/0/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/0/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/0/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/0/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/1/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/1/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/1/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/1/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/1/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/2/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/2/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/2/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/2/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/2/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/3/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/3/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/3/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/3/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/3/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/4/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/4/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/4/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/4/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/4/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/5/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/5/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/5/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/5/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/5/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/6/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/6/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/6/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/6/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/6/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/7/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/7/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/7/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/7/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/7/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/8/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/8/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/8/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/8/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/8/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/9/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/9/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/9/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/9/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/9/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/10/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/10/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/10/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/10/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/10/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/11/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/11/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/11/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/11/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/11/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/12/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/12/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/12/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/12/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/12/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/13/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/13/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/13/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/13/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/13/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/14/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/14/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/14/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/14/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/14/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/15/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/15/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/15/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/15/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/15/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/16/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/16/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/16/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/16/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/16/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/17/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/17/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/17/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/17/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/17/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/18/namespace",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/18/encoding",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/18/original",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/18/canonical",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/aliases/18/node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/alias_registries",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/collision_merges",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/joins/0/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/joins/0/from_table",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/joins/0/from_columns/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/joins/0/to_table",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/joins/0/to_columns/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/joins/0/cardinality",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/joins/0/unmatched",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/batch",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/time",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/dependence/0/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/dependence/0/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/dependence/0/unit_level",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/dependence/0/cluster_nodes",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/dependence/0/description",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/assignments",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/replicate_groups/0/id",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/replicate_groups/0/kind",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/replicate_groups/0/members/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/replicate_groups/0/members/1",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/replicate_groups/0/grouping_node",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/replicate_groups/0/handling",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/replicate_groups/0/rationale",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/partitions",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/forbidden_uses/0/column/table",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/forbidden_uses/0/column/column",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/forbidden_uses/0/uses/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/forbidden_uses/0/uses/1",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/forbidden_uses/0/uses/2",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/forbidden_uses/0/reason",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/survival",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/row_exclusions",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/transformations",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/summary_statistics",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        },
+        {
+          "citations": [
+            {
+              "byte_end": 74,
+              "byte_start": 0,
+              "file_sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57",
+              "quote": "Synthetic contract fixture. All identities and measurements are invented.\n"
+            }
+          ],
+          "note": null,
+          "pointer": "/structure/limitations/0",
+          "producer_ids": [
+            "author"
+          ],
+          "status": "author"
+        }
+      ],
+      "producers": [
+        {
+          "id": "author",
+          "kind": "task-author",
+          "model_family": null,
+          "name": "Synthetic fixture author",
+          "outcome_blind": true,
+          "source_bundle_hash": "80befb21c8d48fcbfeee40c6a706d1d1f3fb0df8aa4c840bcb6083014cabfebd",
+          "version": "1"
+        },
+        {
+          "id": "stager",
+          "kind": "stager",
+          "model_family": null,
+          "name": "Synthetic fixture stager",
+          "outcome_blind": true,
+          "source_bundle_hash": "80befb21c8d48fcbfeee40c6a706d1d1f3fb0df8aa4c840bcb6083014cabfebd",
+          "version": "1"
+        }
+      ],
+      "schema_version": "omb-data-contract/v3.1",
+      "structure": {
+        "alias_registries": [],
+        "aliases": [
+          {
+            "canonical": "S1",
+            "encoding": "token",
+            "namespace": "sample",
+            "node": "s1",
+            "original": "S1"
+          },
+          {
+            "canonical": "[\"S1\"]",
+            "encoding": "canonical-json-array",
+            "namespace": "sample",
+            "node": "s1",
+            "original": "[\"S1\"]"
+          },
+          {
+            "canonical": "P1",
+            "encoding": "token",
+            "namespace": "patient",
+            "node": "p1",
+            "original": "P1"
+          },
+          {
+            "canonical": "[\"P1\"]",
+            "encoding": "canonical-json-array",
+            "namespace": "patient",
+            "node": "p1",
+            "original": "[\"P1\"]"
+          },
+          {
+            "canonical": "S2",
+            "encoding": "token",
+            "namespace": "sample",
+            "node": "s2",
+            "original": "S2"
+          },
+          {
+            "canonical": "[\"S2\"]",
+            "encoding": "canonical-json-array",
+            "namespace": "sample",
+            "node": "s2",
+            "original": "[\"S2\"]"
+          },
+          {
+            "canonical": "P2",
+            "encoding": "token",
+            "namespace": "patient",
+            "node": "p2",
+            "original": "P2"
+          },
+          {
+            "canonical": "[\"P2\"]",
+            "encoding": "canonical-json-array",
+            "namespace": "patient",
+            "node": "p2",
+            "original": "[\"P2\"]"
+          },
+          {
+            "canonical": "S3",
+            "encoding": "token",
+            "namespace": "sample",
+            "node": "s3",
+            "original": "S3"
+          },
+          {
+            "canonical": "[\"S3\"]",
+            "encoding": "canonical-json-array",
+            "namespace": "sample",
+            "node": "s3",
+            "original": "[\"S3\"]"
+          },
+          {
+            "canonical": "P3",
+            "encoding": "token",
+            "namespace": "patient",
+            "node": "p3",
+            "original": "P3"
+          },
+          {
+            "canonical": "[\"P3\"]",
+            "encoding": "canonical-json-array",
+            "namespace": "patient",
+            "node": "p3",
+            "original": "[\"P3\"]"
+          },
+          {
+            "canonical": "S4",
+            "encoding": "token",
+            "namespace": "sample",
+            "node": "s4",
+            "original": "S4"
+          },
+          {
+            "canonical": "[\"S4\"]",
+            "encoding": "canonical-json-array",
+            "namespace": "sample",
+            "node": "s4",
+            "original": "[\"S4\"]"
+          },
+          {
+            "canonical": "P4",
+            "encoding": "token",
+            "namespace": "patient",
+            "node": "p4",
+            "original": "P4"
+          },
+          {
+            "canonical": "[\"P4\"]",
+            "encoding": "canonical-json-array",
+            "namespace": "patient",
+            "node": "p4",
+            "original": "[\"P4\"]"
+          },
+          {
+            "canonical": "Synthetic population",
+            "encoding": "token",
+            "namespace": "population",
+            "node": "population",
+            "original": "Synthetic population"
+          },
+          {
+            "canonical": "[\"Synthetic population\"]",
+            "encoding": "canonical-json-array",
+            "namespace": "population",
+            "node": "population",
+            "original": "[\"Synthetic population\"]"
+          },
+          {
+            "canonical": "S1r",
+            "encoding": "token",
+            "namespace": "sample",
+            "node": "s1r",
+            "original": "S1r"
+          }
+        ],
+        "assignments": [],
+        "batch": [],
+        "collision_merges": [],
+        "dataset_id": "synthetic-sample-patient-replicates",
+        "dataset_type": "subject-level",
+        "dependence": [
+          {
+            "cluster_nodes": [],
+            "description": "Synthetic independent patient units; cohort is an annotation, not identity.",
+            "id": "patients-independent",
+            "kind": "independent",
+            "unit_level": "patient"
+          }
+        ],
+        "forbidden_uses": [
+          {
+            "column": {
+              "column": "sample_id",
+              "table": "samples"
+            },
+            "reason": "Opaque specimen identifier.",
+            "uses": [
+              "outcome",
+              "exposure",
+              "covariate"
+            ]
+          }
+        ],
+        "graph": {
+          "edges": [
+            {
+              "from": "s1",
+              "relation": "sample-of",
+              "to": "p1"
+            },
+            {
+              "from": "p1",
+              "relation": "member-of-population",
+              "to": "population"
+            },
+            {
+              "from": "s2",
+              "relation": "sample-of",
+              "to": "p2"
+            },
+            {
+              "from": "p2",
+              "relation": "member-of-population",
+              "to": "population"
+            },
+            {
+              "from": "s3",
+              "relation": "sample-of",
+              "to": "p3"
+            },
+            {
+              "from": "p3",
+              "relation": "member-of-population",
+              "to": "population"
+            },
+            {
+              "from": "s4",
+              "relation": "sample-of",
+              "to": "p4"
+            },
+            {
+              "from": "p4",
+              "relation": "member-of-population",
+              "to": "population"
+            },
+            {
+              "from": "s1r",
+              "relation": "sample-of",
+              "to": "p1"
+            }
+          ],
+          "nodes": [
+            {
+              "id": "s1",
+              "kind": "specimen/sample",
+              "level": "sample",
+              "namespace": "sample",
+              "original_id": "S1"
+            },
+            {
+              "id": "p1",
+              "kind": "donor/subject",
+              "level": "patient",
+              "namespace": "patient",
+              "original_id": "P1"
+            },
+            {
+              "id": "s2",
+              "kind": "specimen/sample",
+              "level": "sample",
+              "namespace": "sample",
+              "original_id": "S2"
+            },
+            {
+              "id": "p2",
+              "kind": "donor/subject",
+              "level": "patient",
+              "namespace": "patient",
+              "original_id": "P2"
+            },
+            {
+              "id": "s3",
+              "kind": "specimen/sample",
+              "level": "sample",
+              "namespace": "sample",
+              "original_id": "S3"
+            },
+            {
+              "id": "p3",
+              "kind": "donor/subject",
+              "level": "patient",
+              "namespace": "patient",
+              "original_id": "P3"
+            },
+            {
+              "id": "s4",
+              "kind": "specimen/sample",
+              "level": "sample",
+              "namespace": "sample",
+              "original_id": "S4"
+            },
+            {
+              "id": "p4",
+              "kind": "donor/subject",
+              "level": "patient",
+              "namespace": "patient",
+              "original_id": "P4"
+            },
+            {
+              "id": "population",
+              "kind": "target-population",
+              "level": "population",
+              "namespace": "population",
+              "original_id": "Synthetic population"
+            },
+            {
+              "id": "s1r",
+              "kind": "specimen/sample",
+              "level": "sample",
+              "namespace": "sample",
+              "original_id": "S1r"
+            }
+          ]
+        },
+        "joins": [
+          {
+            "cardinality": "many-to-one",
+            "from_columns": [
+              "patient_id"
+            ],
+            "from_table": "samples",
+            "id": "sample-patient",
+            "to_columns": [
+              "patient_id"
+            ],
+            "to_table": "clinical",
+            "unmatched": "refuse"
+          }
+        ],
+        "limitations": [
+          "Synthetic schema example only; no evidence verification or authority seal."
+        ],
+        "namespaces": [
+          {
+            "collision_policy": "merge-with-limitation",
+            "entity_kind": "unit",
+            "id": "sample",
+            "level": "sample",
+            "preserve_originals": true,
+            "rules": []
+          },
+          {
+            "collision_policy": "merge-with-limitation",
+            "entity_kind": "unit",
+            "id": "patient",
+            "level": "patient",
+            "preserve_originals": true,
+            "rules": []
+          },
+          {
+            "collision_policy": "merge-with-limitation",
+            "entity_kind": "unit",
+            "id": "population",
+            "level": "population",
+            "preserve_originals": true,
+            "rules": []
+          },
+          {
+            "collision_policy": "merge-with-limitation",
+            "entity_kind": "feature",
+            "id": "feature",
+            "level": null,
+            "preserve_originals": true,
+            "rules": []
+          }
+        ],
+        "partitions": [],
+        "replicate_groups": [
+          {
+            "grouping_node": "p1",
+            "handling": "collapse",
+            "id": "technical-p1",
+            "kind": "technical",
+            "members": [
+              "s1",
+              "s1r"
+            ],
+            "rationale": "Two invented aliquots of the same specimen."
+          }
+        ],
+        "row_exclusions": [],
+        "source_files": [
+          {
+            "path": "source.txt",
+            "sha256": "7e077fb7e79f20aab34f126e8f8e497ef9293f7aed09c742ace6547057707c57"
+          },
+          {
+            "path": "replicates.csv",
+            "sha256": "c52af8df37ae2026a785fad90e73c63c1317a4e3695ef5caa459951e351645b4"
+          },
+          {
+            "path": "clinical.csv",
+            "sha256": "c4171a158969828f88395ef10da8438851527f95f13c5da74bbf695d59396908"
+          }
+        ],
+        "summary_statistics": null,
+        "survival": [],
+        "tables": [
+          {
+            "alias_coverage": {
+              "ambiguous_axis": "refuse",
+              "matrix_headers": "all",
+              "rows": "all",
+              "unresolved": "refuse"
+            },
+            "columns": [
+              {
+                "decimal_resolution": null,
+                "measurement": null,
+                "missingness_codes": [
+                  "NA"
+                ],
+                "name": "sample_id",
+                "namespace": "sample",
+                "storage": "string",
+                "structural_kind": "identifier"
+              },
+              {
+                "decimal_resolution": null,
+                "measurement": null,
+                "missingness_codes": [
+                  "NA"
+                ],
+                "name": "patient_id",
+                "namespace": "patient",
+                "storage": "string",
+                "structural_kind": "unit"
+              },
+              {
+                "decimal_resolution": "0.01",
+                "measurement": {
+                  "bounds": null,
+                  "categories": [],
+                  "type": "continuous",
+                  "unit": "synthetic-unit"
+                },
+                "missingness_codes": [
+                  "NA"
+                ],
+                "name": "expression",
+                "namespace": null,
+                "storage": "decimal",
+                "structural_kind": "measurement"
+              }
+            ],
+            "file": {
+              "path": "replicates.csv",
+              "sha256": "c52af8df37ae2026a785fad90e73c63c1317a4e3695ef5caa459951e351645b4"
+            },
+            "id": "samples",
+            "orientation": {
+              "header_namespace": null,
+              "layout": "records",
+              "row_entity": "samples",
+              "unit_axis": "rows"
+            },
+            "row_key": [
+              "sample_id"
+            ],
+            "unit_derivation": {
+              "columns": [
+                "patient_id"
+              ],
+              "encoding": "canonical-json-array",
+              "kind": "column-tuple",
+              "level": "patient",
+              "namespace": "patient"
+            }
+          },
+          {
+            "alias_coverage": {
+              "ambiguous_axis": "refuse",
+              "matrix_headers": "all",
+              "rows": "all",
+              "unresolved": "refuse"
+            },
+            "columns": [
+              {
+                "decimal_resolution": null,
+                "measurement": null,
+                "missingness_codes": [
+                  "NA"
+                ],
+                "name": "patient_id",
+                "namespace": "patient",
+                "storage": "string",
+                "structural_kind": "unit"
+              },
+              {
+                "decimal_resolution": "0.01",
+                "measurement": {
+                  "bounds": null,
+                  "categories": [],
+                  "type": "continuous",
+                  "unit": "synthetic-unit"
+                },
+                "missingness_codes": [
+                  "NA"
+                ],
+                "name": "age",
+                "namespace": null,
+                "storage": "decimal",
+                "structural_kind": "measurement"
+              }
+            ],
+            "file": {
+              "path": "clinical.csv",
+              "sha256": "c4171a158969828f88395ef10da8438851527f95f13c5da74bbf695d59396908"
+            },
+            "id": "clinical",
+            "orientation": {
+              "header_namespace": null,
+              "layout": "records",
+              "row_entity": "units",
+              "unit_axis": "rows"
+            },
+            "row_key": [
+              "patient_id"
+            ],
+            "unit_derivation": {
+              "columns": [
+                "patient_id"
+              ],
+              "encoding": "canonical-json-array",
+              "kind": "column-tuple",
+              "level": "patient",
+              "namespace": "patient"
+            }
+          }
+        ],
+        "time": [],
+        "transformations": [],
+        "unit_hierarchy": [
+          {
+            "coarser_level": "patient",
+            "id": "sample",
+            "minimum_independent": false
+          },
+          {
+            "coarser_level": "population",
+            "id": "patient",
+            "minimum_independent": true
+          },
+          {
+            "coarser_level": null,
+            "id": "population",
+            "minimum_independent": false
+          }
+        ]
+      }
+    },
+    "hash": "223ccd613791df986deb03860ea6b5fc96a837e663dea7b8d1a20b7e10e762b8"
+  }
+}

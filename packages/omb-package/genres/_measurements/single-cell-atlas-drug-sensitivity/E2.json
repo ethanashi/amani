@@ -1,0 +1,506 @@
+{
+ "pmcid": "PMC10371870",
+ "doi": "10.1038/s41586-023-06311-1",
+ "pmid": "37438528",
+ "journal": "Nature",
+ "year": 2023,
+ "article_type": "research-article",
+ "subject_heading": [],
+ "title_words": 7,
+ "licence": "Creative Commons Attribution 4.0",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": false,
+   "headings": [],
+   "words": 205
+  },
+  {
+   "type": "web-summary",
+   "structured": false,
+   "headings": [],
+   "words": 33
+  }
+ ],
+ "sections": [
+  {
+   "heading": "Main",
+   "canonical": "other",
+   "words": 308,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Multimodal profiling of the human heart",
+   "canonical": "other",
+   "words": 832,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Chromatin landscape of cardiac cells",
+   "canonical": "other",
+   "words": 352,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Unbiased discovery of cellular niches",
+   "canonical": "other",
+   "words": 664,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Ion channel profile of CCS cells",
+   "canonical": "other",
+   "words": 566,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "GPCR profile of CCS cells",
+   "canonical": "other",
+   "words": 341,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Gene regulatory networks in P cells",
+   "canonical": "other",
+   "words": 288,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Glutamatergic signalling in the nodes",
+   "canonical": "other",
+   "words": 346,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Innervation of the nodes",
+   "canonical": "other",
+   "words": 479,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Drug targeting at single-cell resolution",
+   "canonical": "other",
+   "words": 674,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Immune niche in the epicardium",
+   "canonical": "other",
+   "words": 492,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Ventricular myocardial-stress niche",
+   "canonical": "other",
+   "words": 316,
+   "counted_as": "main:other"
+  },
+  {
+   "heading": "Discussion",
+   "canonical": "discussion",
+   "words": 497
+  },
+  {
+   "heading": "Methods",
+   "canonical": "methods",
+   "words": 6183,
+   "sub": [
+    {
+     "heading": "Research ethics for donor tissues",
+     "canonical": "ethics",
+     "words": 124
+    },
+    {
+     "heading": "Tissue acquisition and processing",
+     "canonical": "other",
+     "words": 251
+    },
+    {
+     "heading": "Preparation of node samples",
+     "canonical": "other",
+     "words": 153
+    },
+    {
+     "heading": "Single nuclei isolation",
+     "canonical": "other",
+     "words": 216
+    },
+    {
+     "heading": "Chromium 10x library preparation",
+     "canonical": "other",
+     "words": 112
+    },
+    {
+     "heading": "Visium slides and library preparation",
+     "canonical": "other",
+     "words": 254
+    },
+    {
+     "heading": "Read mapping",
+     "canonical": "other",
+     "words": 144
+    },
+    {
+     "heading": "Quality control and processing of data",
+     "canonical": "other",
+     "words": 276
+    },
+    {
+     "heading": "Data integration and cell-type annotation",
+     "canonical": "other",
+     "words": 558
+    },
+    {
+     "heading": "Spatial mapping of cell states with cell2location",
+     "canonical": "other",
+     "words": 167
+    },
+    {
+     "heading": "Cell state spatial enrichment analysis",
+     "canonical": "other",
+     "words": 173
+    },
+    {
+     "heading": "Cellular microenvironment discovery",
+     "canonical": "other",
+     "words": 240
+    },
+    {
+     "heading": "CellPhoneDB neural–GPCR expansion module",
+     "canonical": "other",
+     "words": 106
+    },
+    {
+     "heading": "Spatially resolved cell–cell interaction analysis",
+     "canonical": "other",
+     "words": 358
+    },
+    {
+     "heading": "Ion channel and GPCR profile",
+     "canonical": "other",
+     "words": 148
+    },
+    {
+     "heading": "Mouse DEG analysis",
+     "canonical": "other",
+     "words": 103
+    },
+    {
+     "heading": "Identification of ligands in Visium data",
+     "canonical": "other",
+     "words": 94
+    },
+    {
+     "heading": "Gene regulatory network",
+     "canonical": "other",
+     "words": 322
+    },
+    {
+     "heading": "GWAS SNP enrichment analysis",
+     "canonical": "other",
+     "words": 287
+    },
+    {
+     "heading": "Drug2cell",
+     "canonical": "other",
+     "words": 243
+    },
+    {
+     "heading": "In vitro validation of chronotropic effects of GLP-1",
+     "canonical": "other",
+     "words": 893,
+     "sub": [
+      {
+       "heading": "Cell culture",
+       "canonical": "other",
+       "words": 253
+      },
+      {
+       "heading": "Gene expression analysis of hiPSC-CMs",
+       "canonical": "other",
+       "words": 69
+      },
+      {
+       "heading": "Calcium imaging and quantification",
+       "canonical": "other",
+       "words": 354
+      },
+      {
+       "heading": "Immunofluorescence staining of cells",
+       "canonical": "other",
+       "words": 217
+      }
+     ]
+    },
+    {
+     "heading": "smFISH",
+     "canonical": "other",
+     "words": 226
+    },
+    {
+     "heading": "RNAscope quantification",
+     "canonical": "other",
+     "words": 267
+    },
+    {
+     "heading": "Immunofluorescence staining of tissues",
+     "canonical": "other",
+     "words": 451
+    },
+    {
+     "heading": "Reporting summary",
+     "canonical": "other",
+     "words": 17
+    }
+   ]
+  },
+  {
+   "heading": "Online content",
+   "canonical": "other",
+   "words": 36,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 0
+  },
+  {
+   "heading": "Acknowledgements",
+   "canonical": "acknowledgements",
+   "words": 540
+  },
+  {
+   "heading": "",
+   "canonical": "untitled",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "Extended data figures and tables",
+     "canonical": "other",
+     "words": 0
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Author contributions",
+   "canonical": "contributions",
+   "words": 160
+  },
+  {
+   "heading": "Peer review",
+   "canonical": "other",
+   "words": 22,
+   "sub": [
+    {
+     "heading": "Peer review information",
+     "canonical": "other",
+     "words": 22
+    }
+   ],
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Data availability",
+   "canonical": "data_availability",
+   "words": 142
+  },
+  {
+   "heading": "Code availability",
+   "canonical": "data_availability",
+   "words": 29
+  },
+  {
+   "heading": "Competing interests",
+   "canonical": "competing_interests",
+   "words": 40
+  },
+  {
+   "heading": "Footnotes",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Contributor Information",
+   "canonical": "other",
+   "words": 11,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Extended data",
+   "canonical": "other",
+   "words": 7,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Supplementary information",
+   "canonical": "supplementary",
+   "words": 9
+  },
+  {
+   "heading": "References",
+   "canonical": "references",
+   "words": 0,
+   "sub": [
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 0
+    }
+   ]
+  },
+  {
+   "heading": "Associated Data",
+   "canonical": "supplementary",
+   "words": 171,
+   "sub": [
+    {
+     "heading": "Supplementary Materials",
+     "canonical": "supplementary",
+     "words": 0
+    },
+    {
+     "heading": "Data Availability Statement",
+     "canonical": "data_availability",
+     "words": 171
+    }
+   ]
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "front-notes",
+   "canonical": "untitled",
+   "words": 0
+  }
+ ],
+ "section_word_totals": {
+  "other_main": 5658,
+  "discussion": 497,
+  "methods": 6183,
+  "other_back": 76,
+  "supplementary": 180,
+  "acknowledgements": 540,
+  "contributions": 160,
+  "data_availability": 171,
+  "competing_interests": 40,
+  "references": 0
+ },
+ "main_text_words": 12338,
+ "main_text_words_excluding_methods": 6155,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 5,
+ "figures": [
+  {
+   "label": "Fig. 1",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 2",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Fig. 4",
+   "kind_guess": [
+    "study_design_schematic"
+   ]
+  },
+  {
+   "label": "Fig. 5",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 12,
+ "tables_main": 0,
+ "tables": [],
+ "boxes": 0,
+ "supplementary_files": 12,
+ "supplementary": [
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  },
+  {
+   "label": ""
+  }
+ ],
+ "references": 93,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": false,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": false,
+  "egger": false,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": false,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": true,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}

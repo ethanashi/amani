@@ -1,0 +1,237 @@
+{
+ "pmcid": "PMC12074732",
+ "doi": "10.1161/JAHA.124.038193",
+ "pmid": "39895541",
+ "journal": "Journal of the American Heart Association: Cardiovascular and Cerebrovascular Disease",
+ "year": 2025,
+ "article_type": "research-article",
+ "subject_heading": [
+  "Original Research",
+  "Original Research",
+  "Vascular Medicine"
+ ],
+ "title_words": 11,
+ "licence": "https://creativecommons.org/licenses/by-nc-nd/4.0/This is an open access article",
+ "abstracts": [
+  {
+   "type": "main",
+   "structured": true,
+   "headings": [
+    "Background",
+    "Methods and Results",
+    "Conclusions"
+   ],
+   "words": 285
+  }
+ ],
+ "sections": [
+  {
+   "heading": "(untitled lead paragraphs)",
+   "canonical": "introduction",
+   "words": 386
+  },
+  {
+   "heading": "METHODS",
+   "canonical": "methods",
+   "words": 1206,
+   "sub": [
+    {
+     "heading": "Data Availability",
+     "canonical": "data_availability",
+     "words": 60
+    },
+    {
+     "heading": "Proteomic Data Source and the Processing of Genetic Instruments",
+     "canonical": "other",
+     "words": 367
+    },
+    {
+     "heading": "Data Sources for AAA",
+     "canonical": "other",
+     "words": 110
+    },
+    {
+     "heading": "Statistical Analysis",
+     "canonical": "other",
+     "words": 159,
+     "sub": [
+      {
+       "heading": "Proteome‐Wide",
+       "canonical": "other",
+       "words": 159
+      }
+     ]
+    },
+    {
+     "heading": "Colocalization Analysis",
+     "canonical": "other",
+     "words": 146
+    },
+    {
+     "heading": "SMR Analysis",
+     "canonical": "other",
+     "words": 98
+    },
+    {
+     "heading": "Single‐Cell‐Type Expression Analysis",
+     "canonical": "other",
+     "words": 167
+    },
+    {
+     "heading": "Protein–Protein Interaction, Pathway Enrichment Analysis, and Druggability Evaluation",
+     "canonical": "other",
+     "words": 99
+    }
+   ]
+  },
+  {
+   "heading": "RESULTS",
+   "canonical": "results",
+   "words": 1145,
+   "sub": [
+    {
+     "heading": "Proteome‐Wide MR Analysis Identified 34 Circulating Proteins for AAA",
+     "canonical": "other",
+     "words": 308
+    },
+    {
+     "heading": "Colocalization Analysis Supported the Causality of 8 Proteins With AAA",
+     "canonical": "other",
+     "words": 62
+    },
+    {
+     "heading": "SMR and HEIDI Tests Verified 6 Causal Proteins",
+     "canonical": "other",
+     "words": 155
+    },
+    {
+     "heading": "Cell‐Type Specificity Expression in the Human Abdominal Aortic Aneurysm Tissue",
+     "canonical": "other",
+     "words": 163
+    },
+    {
+     "heading": "",
+     "canonical": "untitled",
+     "words": 292
+    }
+   ]
+  },
+  {
+   "heading": "DISCUSSION",
+   "canonical": "discussion",
+   "words": 881
+  },
+  {
+   "heading": "Sources of Funding",
+   "canonical": "other",
+   "words": 33,
+   "counted_as": "backmatter:other"
+  },
+  {
+   "heading": "Disclosures",
+   "canonical": "competing_interests",
+   "words": 1
+  },
+  {
+   "heading": "Supporting information",
+   "canonical": "other",
+   "words": 0,
+   "counted_as": "backmatter:other"
+  }
+ ],
+ "back_sections": [
+  {
+   "heading": "Acknowledgments",
+   "canonical": "acknowledgements",
+   "words": 153
+  }
+ ],
+ "section_word_totals": {
+  "introduction": 386,
+  "methods": 1206,
+  "results": 1145,
+  "discussion": 881,
+  "other_back": 33,
+  "competing_interests": 1
+ },
+ "main_text_words": 3618,
+ "main_text_words_excluding_methods": 2412,
+ "limitations": {
+  "placement": "absent-as-heading",
+  "words": 0
+ },
+ "figures_main": 4,
+ "figures": [
+  {
+   "label": "Figure 1",
+   "kind_guess": [
+    "prisma_flow"
+   ]
+  },
+  {
+   "label": "Figure 2",
+   "kind_guess": [
+    "volcano"
+   ]
+  },
+  {
+   "label": "Figure 3",
+   "kind_guess": [
+    "unclassified"
+   ]
+  },
+  {
+   "label": "Figure 4",
+   "kind_guess": [
+    "unclassified"
+   ]
+  }
+ ],
+ "figures_supplementary_inline": 0,
+ "tables_main": 1,
+ "tables": [
+  {
+   "label": "Table 1"
+  }
+ ],
+ "boxes": 1,
+ "supplementary_files": 1,
+ "supplementary": [
+  {
+   "label": ""
+  }
+ ],
+ "references": 53,
+ "flags": {
+  "prospero": false,
+  "osf_registration": false,
+  "inplasy": false,
+  "prisma": false,
+  "prisma_harms": false,
+  "grade": false,
+  "rob2": false,
+  "strobe_mr": false,
+  "strobe": false,
+  "tripod": false,
+  "consort": true,
+  "mdar": false,
+  "arrive": false,
+  "coloc": true,
+  "steiger": false,
+  "egger": true,
+  "funnel": false,
+  "i2": false,
+  "zenodo": false,
+  "github": true,
+  "figshare": false,
+  "geo": true,
+  "cellxgene": false,
+  "depmap": false,
+  "ethics_waiver": false,
+  "patient_public_involvement": false,
+  "reporting_summary": false,
+  "ai_disclosure": false
+ },
+ "contamination_title_abstract": [],
+ "contamination_body_terms": []
+}
